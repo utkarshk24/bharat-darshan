@@ -1,0 +1,68 @@
+{
+  "region": "IN-DL",
+  "module": "water",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Delhi depends heavily on water from outside its borders: the Yamuna, canals from Haryana, and the Upper Ganga Canal system through Uttar Pradesh, under inter-State agreements. Groundwater supplies much of the rest and has been heavily drawn down in many areas. Within the city, the Yamuna carries a large load of untreated sewage, and its cleaning has been a long-running programme. Delhi Jal Board supplies water and manages sewage. In July 2023 the Yamuna rose to a record level and flooded low-lying areas.",
+        "hi": "दिल्ली अपनी सीमाओं के बाहर से आने वाले पानी पर बहुत निर्भर है: अंतर-राज्यीय समझौतों के तहत यमुना, हरियाणा की नहरें और उत्तर प्रदेश से होकर आने वाली ऊपरी गंगा नहर प्रणाली। बाक़ी का बड़ा हिस्सा भूजल से आता है, जिसका कई इलाक़ों में भारी दोहन हुआ है। शहर के भीतर यमुना में बड़ी मात्रा में बिना साफ़ किया सीवेज बहता है, और इसकी सफ़ाई लंबे समय से चल रहा कार्यक्रम है। दिल्ली जल बोर्ड पानी की आपूर्ति और सीवेज का प्रबंधन करता है। जुलाई 2023 में यमुना रिकॉर्ड स्तर तक चढ़ी और निचले इलाक़ों में बाढ़ आई।",
+        "mr": "दिल्ली आपल्या सीमांबाहेरून येणाऱ्या पाण्यावर मोठ्या प्रमाणात अवलंबून आहे: आंतरराज्य करारांनुसार यमुना, हरियाणातील कालवे आणि उत्तर प्रदेशातून येणारी अप्पर गंगा कालवा प्रणाली. उरलेल्यापैकी मोठा भाग भूजलातून येतो आणि अनेक भागांत त्याचा प्रचंड उपसा झाला आहे. शहरात यमुनेतून मोठ्या प्रमाणात प्रक्रिया न केलेले सांडपाणी वाहते, आणि तिची स्वच्छता हा दीर्घकाळ चाललेला कार्यक्रम आहे. दिल्ली जल बोर्ड पाणीपुरवठा व सांडपाणी व्यवस्थापन करते. जुलै 2023 मध्ये यमुनेने विक्रमी पातळी गाठली आणि सखल भागांत पूर आला.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Water demand and supply (MGD)",
+            "hi": "जल माँग और आपूर्ति (एमजीडी)",
+            "mr": "पाण्याची मागणी व पुरवठा (एमजीडी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-planning",
+          "note": "Economic Survey of Delhi, water chapter."
+        },
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-gov",
+          "note": "CGWB assessment."
+        },
+        {
+          "label": {
+            "en": "Sewage treatment capacity and utilisation",
+            "hi": "सीवेज उपचार क्षमता और उपयोग",
+            "mr": "सांडपाणी प्रक्रिया क्षमता व वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-gov",
+          "note": "Delhi Jal Board."
+        }
+      ]
+    }
+  ]
+}

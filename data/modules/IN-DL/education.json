@@ -1,0 +1,397 @@
+{
+  "region": "IN-DL",
+  "module": "education",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Delhi is one of India's leading education centres. The 2021-22 AISHE survey counted 30 universities and 188 colleges, and a higher-education gross enrolment ratio of 49.0%, well above the national 28.4% — partly because students from across India come to study here. The University of Delhi, Jawaharlal Nehru University, Jamia Millia Islamia, IIT Delhi and AIIMS New Delhi are among the country's best-known institutions.",
+        "hi": "दिल्ली भारत के प्रमुख शिक्षा केंद्रों में है। 2021-22 के एआईएसएचई सर्वेक्षण में 30 विश्वविद्यालय और 188 कॉलेज गिने गए, और उच्च शिक्षा में सकल नामांकन अनुपात 49.0% था, जो राष्ट्रीय 28.4% से काफ़ी अधिक है — आंशिक रूप से इसलिए कि पूरे भारत से छात्र यहाँ पढ़ने आते हैं। दिल्ली विश्वविद्यालय, जवाहरलाल नेहरू विश्वविद्यालय, जामिया मिल्लिया इस्लामिया, आईआईटी दिल्ली और एम्स नई दिल्ली देश के सबसे प्रसिद्ध संस्थानों में हैं।",
+        "mr": "दिल्ली हे भारतातील आघाडीच्या शैक्षणिक केंद्रांपैकी एक आहे. 2021-22 च्या एआयएसएचई सर्वेक्षणात 30 विद्यापीठे आणि 188 महाविद्यालये नोंदली गेली, आणि उच्चशिक्षणातील एकूण नोंदणी गुणोत्तर 49.0% होते — राष्ट्रीय 28.4% पेक्षा बरेच जास्त — याचे एक कारण म्हणजे देशभरातून विद्यार्थी येथे शिकायला येतात. दिल्ली विद्यापीठ, जवाहरलाल नेहरू विद्यापीठ, जामिया मिल्लिया इस्लामिया, आयआयटी दिल्ली आणि एम्स नवी दिल्ली या देशातील सर्वांत प्रसिद्ध संस्थांपैकी आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 49.0,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 47.56,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 30,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 188,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "dl",
+          "label": {
+            "en": "Delhi",
+            "hi": "दिल्ली",
+            "mr": "दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 46.68,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 46.94,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 49.02,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 47.56,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 49.0,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "du",
+          "name": {
+            "en": "University of Delhi",
+            "hi": "दिल्ली विश्वविद्यालय",
+            "mr": "दिल्ली विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jnu",
+          "name": {
+            "en": "Jawaharlal Nehru University",
+            "hi": "जवाहरलाल नेहरू विश्वविद्यालय",
+            "mr": "जवाहरलाल नेहरू विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jmi",
+          "name": {
+            "en": "Jamia Millia Islamia",
+            "hi": "जामिया मिल्लिया इस्लामिया",
+            "mr": "जामिया मिल्लिया इस्लामिया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iitd",
+          "name": {
+            "en": "IIT Delhi",
+            "hi": "आईआईटी दिल्ली",
+            "mr": "आयआयटी दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "aiims",
+          "name": {
+            "en": "AIIMS New Delhi",
+            "hi": "एम्स नई दिल्ली",
+            "mr": "एम्स नवी दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iiitd",
+          "name": {
+            "en": "IIIT-Delhi",
+            "hi": "आईआईआईटी-दिल्ली",
+            "mr": "आयआयआयटी-दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nlu",
+          "name": {
+            "en": "National Law University Delhi",
+            "hi": "राष्ट्रीय विधि विश्वविद्यालय दिल्ली",
+            "mr": "राष्ट्रीय विधी विद्यापीठ दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spa",
+          "name": {
+            "en": "School of Planning and Architecture",
+            "hi": "योजना एवं वास्तुकला विद्यालय",
+            "mr": "नियोजन व वास्तुकला विद्यालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iari",
+          "name": {
+            "en": "Indian Agricultural Research Institute (Pusa)",
+            "hi": "भारतीय कृषि अनुसंधान संस्थान (पूसा)",
+            "mr": "भारतीय कृषी संशोधन संस्था (पुसा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nsd",
+          "name": {
+            "en": "National School of Drama",
+            "hi": "राष्ट्रीय नाट्य विद्यालय",
+            "mr": "राष्ट्रीय नाट्य विद्यालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "National institutions (selected)",
+        "hi": "राष्ट्रीय संस्थान (चयनित)",
+        "mr": "राष्ट्रीय संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "Board examination pass rates",
+            "hi": "बोर्ड परीक्षा उत्तीर्ण दर",
+            "mr": "मंडळ परीक्षा उत्तीर्ण दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-planning",
+          "note": "Economic Survey of Delhi, education chapter."
+        }
+      ]
+    }
+  ]
+}

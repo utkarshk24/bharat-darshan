@@ -1,0 +1,146 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/noto-sans-devanagari";
+/* Regional scripts for local names. Fontsource uses unicode-range, so each font downloads only when that script appears. */
+@import "@fontsource-variable/noto-sans-telugu";
+@import "@fontsource-variable/noto-sans-bengali";
+@import "@fontsource-variable/noto-sans-gujarati";
+@import "@fontsource-variable/noto-sans-kannada";
+@import "@fontsource-variable/noto-sans-malayalam";
+@import "@fontsource-variable/noto-sans-tamil";
+@import "@fontsource-variable/noto-sans-oriya";
+@import "@fontsource-variable/noto-sans-gurmukhi";
+
+/* Dark mode is class-based (set on <html> before paint, see ThemeScript). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * Design tokens (Section 12). Tricolour-inspired, restrained.
+ * Every text/background pair below meets WCAG 2.1 AA (4.5:1) — see docs/DESIGN-SYSTEM.md.
+ */
+:root {
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --surface-2: #f3f1eb;
+  --border: #e3dfd4;
+  --text: #16202e;
+  --text-muted: #4a5568;
+  --navy: #0b2545;
+  --saffron: #f28c28;      /* decorative only */
+  --saffron-ink: #9a4a00;  /* saffron for text: 5.9:1 on white */
+  --green: #138808;        /* decorative only */
+  --green-ink: #0b6b2e;    /* 6.3:1 on white */
+  --link: #1d4ed8;
+  --focus: #1d4ed8;
+  --good: #0b6b2e;
+  --bad: #b42318;
+  --neutral: #4a5568;
+  --badge-official: #0b6b2e;
+  --badge-estimate: #8a5a00;
+  --badge-third: #1d4ed8;
+  --badge-editorial: #6b4fa0;
+}
+
+.dark {
+  --bg: #0d1420;
+  --surface: #141d2b;
+  --surface-2: #1b2638;
+  --border: #2a374c;
+  --text: #e8edf4;
+  --text-muted: #a8b3c4;
+  --navy: #c9d7ee;
+  --saffron-ink: #ffb36b;
+  --green-ink: #6fd18b;
+  --link: #8ab4ff;
+  --focus: #8ab4ff;
+  --good: #6fd18b;
+  --bad: #ff8a80;
+  --neutral: #a8b3c4;
+  --badge-official: #6fd18b;
+  --badge-estimate: #f5c26b;
+  --badge-third: #8ab4ff;
+  --badge-editorial: #c7b2f0;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-muted: var(--text-muted);
+  --color-navy: var(--navy);
+  --color-saffron: var(--saffron);
+  --color-saffron-ink: var(--saffron-ink);
+  --color-green: var(--green);
+  --color-green-ink: var(--green-ink);
+  --color-link: var(--link);
+  --color-good: var(--good);
+  --color-bad: var(--bad);
+  --font-sans: "Inter Variable", "Noto Sans Devanagari Variable", "Noto Sans Bengali Variable", "Noto Sans Telugu Variable", "Noto Sans Tamil Variable", "Noto Sans Kannada Variable", "Noto Sans Malayalam Variable", "Noto Sans Gujarati Variable", "Noto Sans Gurmukhi Variable", "Noto Sans Oriya Variable", system-ui, sans-serif;
+  --font-deva: "Noto Sans Devanagari Variable", "Inter Variable", "Noto Sans Bengali Variable", "Noto Sans Telugu Variable", "Noto Sans Tamil Variable", "Noto Sans Kannada Variable", "Noto Sans Malayalam Variable", "Noto Sans Gujarati Variable", "Noto Sans Gurmukhi Variable", "Noto Sans Oriya Variable", sans-serif;
+}
+
+@layer base {
+html {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Devanagari locales: Devanagari font first and generous line-height (≥1.6, Section 11). */
+html:lang(hi),
+html:lang(mr) {
+  font-family: var(--font-deva);
+  line-height: 1.7;
+}
+html:lang(en) {
+  line-height: 1.55;
+}
+/* Devanagari inside English pages (names, hero subtitles) also gets the right font. */
+[lang="hi"],
+[lang="mr"] {
+  font-family: var(--font-deva);
+  line-height: 1.7;
+}
+
+a {
+  color: var(--link);
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+}
+
+.tricolour-rule {
+  height: 4px;
+  background: linear-gradient(90deg, var(--saffron) 0 33.3%, #ffffff 33.3% 66.6%, var(--green) 66.6% 100%);
+}
+.dark .tricolour-rule {
+  background: linear-gradient(90deg, var(--saffron) 0 33.3%, #d9dee6 33.3% 66.6%, var(--green) 66.6% 100%);
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-2), var(--border), var(--surface-2));
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite;
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}

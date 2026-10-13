@@ -1,0 +1,196 @@
+{
+  "region": "IN-LA",
+  "module": "climate",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Ladakh has a cold-desert climate. The Himalaya block most monsoon rain, so the region receives very little precipitation, much of it as winter snow. Winters are long and severe, with night temperatures far below freezing; Drass, on the route from Kashmir, is one of the coldest inhabited places in India. Summers are short, sunny and dry, warm in the day and cool at night. The thin air means strong sunlight and rapid sunburn, and high-altitude sickness is a real risk for visitors arriving by air.",
+        "hi": "लद्दाख की जलवायु ठंडे रेगिस्तान वाली है। हिमालय अधिकांश मानसूनी वर्षा को रोक देता है, इसलिए यहाँ बहुत कम वर्षा होती है, जिसका बड़ा हिस्सा सर्दियों की बर्फ़ के रूप में होता है। सर्दियाँ लंबी और कड़ी होती हैं, रात का तापमान हिमांक से काफ़ी नीचे चला जाता है; कश्मीर से आने वाले रास्ते पर द्रास भारत के सबसे ठंडे आबाद स्थानों में है। गर्मियाँ छोटी, धूप भरी और सूखी होती हैं — दिन में गर्म, रात में ठंडी। पतली हवा के कारण धूप तेज़ होती है और त्वचा जल्दी झुलसती है, और हवाई मार्ग से आने वाले पर्यटकों के लिए ऊँचाई की बीमारी का वास्तविक ख़तरा है।",
+        "mr": "लडाखचे हवामान थंड वाळवंटी आहे. हिमालय बहुतांश मोसमी पाऊस अडवतो, त्यामुळे येथे फारच कमी पर्जन्य होते आणि त्याचा मोठा भाग हिवाळ्यातील बर्फाच्या रूपात असतो. हिवाळा दीर्घ आणि कडक असतो, रात्रीचे तापमान गोठणबिंदूच्या खूप खाली जाते; काश्मीरहून येणाऱ्या मार्गावरील द्रास हे भारतातील सर्वांत थंड वस्ती असलेल्या ठिकाणांपैकी एक आहे. उन्हाळा छोटा, सूर्यप्रकाशित आणि कोरडा असतो — दिवसा उबदार, रात्री थंड. विरळ हवेमुळे ऊन प्रखर असते आणि त्वचा लवकर भाजते, तसेच विमानाने येणाऱ्या पर्यटकांना उंचीमुळे होणाऱ्या आजाराचा खरा धोका असतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Leh",
+            "hi": "लेह",
+            "mr": "लेह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 34.1526,
+          "lon": 77.5771
+        },
+        {
+          "name": {
+            "en": "Kargil",
+            "hi": "कारगिल",
+            "mr": "कारगिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 34.5539,
+          "lon": 76.1349
+        },
+        {
+          "name": {
+            "en": "Diskit (Nubra)",
+            "hi": "डिस्किट (नुब्रा)",
+            "mr": "डिस्किट (नुब्रा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 34.5426,
+          "lon": 77.5602
+        },
+        {
+          "name": {
+            "en": "Drass",
+            "hi": "द्रास",
+            "mr": "द्रास",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 34.429,
+          "lon": 75.7495
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "summer",
+          "name": {
+            "en": "June to September",
+            "hi": "जून से सितंबर",
+            "mr": "जून ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Main season: all passes and roads usually open.",
+            "hi": "मुख्य मौसम: आम तौर पर सभी दर्रे और सड़कें खुली रहती हैं।",
+            "mr": "मुख्य हंगाम: सहसा सर्व खिंडी आणि रस्ते खुले असतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "may",
+          "name": {
+            "en": "May and October",
+            "hi": "मई और अक्टूबर",
+            "mr": "मे आणि ऑक्टोबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Quieter shoulder months; colder nights and possible road closures.",
+            "hi": "कम भीड़ वाले महीने; ठंडी रातें और सड़कें बंद होने की संभावना।",
+            "mr": "कमी गर्दीचे महिने; थंड रात्री व रस्ते बंद होण्याची शक्यता.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "winter",
+          "name": {
+            "en": "January to February",
+            "hi": "जनवरी से फ़रवरी",
+            "mr": "जानेवारी ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "For experienced travellers: the frozen Zanskar, ice hockey and winter festivals; access mainly by air.",
+            "hi": "अनुभवी यात्रियों के लिए: जमी हुई ज़ांस्कर, आइस हॉकी और शीतकालीन उत्सव; पहुँच मुख्यतः हवाई मार्ग से।",
+            "mr": "अनुभवी प्रवाशांसाठी: गोठलेली झांस्कर, आइस हॉकी आणि हिवाळी उत्सव; पोहोच मुख्यतः विमानाने.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Monthly temperature and precipitation normals (Leh, Kargil, Drass)",
+            "hi": "मासिक तापमान और वर्षा सामान्य (लेह, कारगिल, द्रास)",
+            "mr": "मासिक तापमान व पर्जन्य सरासरी (लेह, कारगिल, द्रास)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD climatological normals."
+        },
+        {
+          "label": {
+            "en": "Glacier retreat and climate vulnerability",
+            "hi": "ग्लेशियर पीछे हटना और जलवायु संवेदनशीलता",
+            "mr": "हिमनद माघार व हवामान असुरक्षितता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ndma",
+          "note": "Ladakh action plan on climate change; GSI glacier studies."
+        }
+      ]
+    }
+  ]
+}

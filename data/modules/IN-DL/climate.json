@@ -1,0 +1,196 @@
+{
+  "region": "IN-DL",
+  "module": "climate",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Delhi has a climate of extremes. Summers from April to June are very hot and dry, with dust storms and heatwaves that can push temperatures above 45 °C. The monsoon, from about late June to September, brings most of the year's rain and humid heat. Winters from December to February are cool to cold, with foggy mornings that disrupt flights and trains.\n\nAir quality is a serious seasonal problem. From October to January, still winter air traps emissions from vehicles, industry, construction dust and biomass burning in the region, and the Air Quality Index regularly reaches \"very poor\" or \"severe\" levels, triggering the Graded Response Action Plan.",
+        "hi": "दिल्ली की जलवायु चरम सीमाओं वाली है। अप्रैल से जून तक गर्मियाँ बहुत गर्म और सूखी होती हैं, धूल भरी आँधियाँ और लू तापमान को 45 °C से ऊपर ले जा सकती हैं। लगभग जून के अंत से सितंबर तक मानसून साल की अधिकांश वर्षा और उमस भरी गर्मी लाता है। दिसंबर से फ़रवरी तक सर्दियाँ ठंडी होती हैं, और सुबह का कोहरा उड़ानों और ट्रेनों को बाधित करता है।\n\nवायु गुणवत्ता गंभीर मौसमी समस्या है। अक्टूबर से जनवरी तक सर्दियों की ठहरी हवा वाहनों, उद्योगों, निर्माण की धूल और क्षेत्र में जलाए जाने वाले जैव-ईंधन के उत्सर्जन को रोक लेती है, और वायु गुणवत्ता सूचकांक अक्सर \"बहुत ख़राब\" या \"गंभीर\" स्तर तक पहुँचता है, जिससे ग्रेडेड रिस्पॉन्स एक्शन प्लान लागू होता है।",
+        "mr": "दिल्लीचे हवामान टोकाचे आहे. एप्रिल ते जून उन्हाळा अतिशय उष्ण व कोरडा असतो; धुळीची वादळे आणि उष्णतेच्या लाटा तापमान 45 °C च्या पुढे नेऊ शकतात. साधारण जूनच्या अखेरीपासून सप्टेंबरपर्यंतचा पावसाळा वर्षभराचा बहुतांश पाऊस आणि दमट उकाडा घेऊन येतो. डिसेंबर ते फेब्रुवारी हिवाळा थंड असतो आणि सकाळचे दाट धुके विमाने व रेल्वेगाड्या विस्कळीत करते.\n\nहवेची गुणवत्ता ही गंभीर हंगामी समस्या आहे. ऑक्टोबर ते जानेवारी हिवाळ्यातील स्थिर हवा वाहने, उद्योग, बांधकामाची धूळ आणि परिसरात जाळल्या जाणाऱ्या जैवइंधनाचे उत्सर्जन अडकवून ठेवते, आणि हवा गुणवत्ता निर्देशांक वारंवार \"अतिशय वाईट\" किंवा \"गंभीर\" पातळी गाठतो; त्यामुळे श्रेणीबद्ध प्रतिसाद कृती आराखडा लागू होतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "New Delhi",
+            "hi": "नई दिल्ली",
+            "mr": "नवी दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 28.6139,
+          "lon": 77.209
+        },
+        {
+          "name": {
+            "en": "Civil Lines (North Delhi)",
+            "hi": "सिविल लाइंस (उत्तरी दिल्ली)",
+            "mr": "सिव्हिल लाइन्स (उत्तर दिल्ली)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 28.6814,
+          "lon": 77.2226
+        },
+        {
+          "name": {
+            "en": "Dwarka (South-West Delhi)",
+            "hi": "द्वारका (दक्षिण-पश्चिमी दिल्ली)",
+            "mr": "द्वारका (नैर्ऋत्य दिल्ली)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 28.5921,
+          "lon": 77.046
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "feb",
+          "name": {
+            "en": "February to March",
+            "hi": "फ़रवरी से मार्च",
+            "mr": "फेब्रुवारी ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Mild days and cleaner air; gardens in bloom.",
+            "hi": "सुहावने दिन और अपेक्षाकृत साफ़ हवा; बाग़ों में बहार।",
+            "mr": "आल्हाददायक दिवस आणि तुलनेने स्वच्छ हवा; बागा बहरलेल्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "oct",
+          "name": {
+            "en": "October to November",
+            "hi": "अक्टूबर से नवंबर",
+            "mr": "ऑक्टोबर ते नोव्हेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pleasant temperatures and festivals, but check air-quality alerts.",
+            "hi": "सुहावना तापमान और त्योहार, लेकिन वायु गुणवत्ता अलर्ट देखें।",
+            "mr": "सुखद तापमान आणि सण, पण हवा गुणवत्तेचे इशारे तपासा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "winter",
+          "name": {
+            "en": "December to January",
+            "hi": "दिसंबर से जनवरी",
+            "mr": "डिसेंबर ते जानेवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Cold, foggy mornings; Republic Day events in January.",
+            "hi": "ठंडी, कोहरे वाली सुबहें; जनवरी में गणतंत्र दिवस समारोह।",
+            "mr": "थंड, धुक्याच्या सकाळी; जानेवारीत प्रजासत्ताक दिनाचे कार्यक्रम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Monthly temperature and rainfall normals (Safdarjung)",
+            "hi": "मासिक तापमान और वर्षा सामान्य (सफ़दरजंग)",
+            "mr": "मासिक तापमान व पर्जन्य सरासरी (सफदरजंग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD climatological normals."
+        },
+        {
+          "label": {
+            "en": "Annual AQI statistics",
+            "hi": "वार्षिक एक्यूआई आँकड़े",
+            "mr": "वार्षिक एक्यूआय आकडेवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "moefcc",
+          "note": "CPCB daily AQI bulletins / CAQM annual report."
+        },
+        {
+          "label": {
+            "en": "Heat action plan",
+            "hi": "ऊष्मा कार्य योजना",
+            "mr": "उष्णता कृती आराखडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ndma",
+          "note": "Delhi Disaster Management Authority."
+        }
+      ]
+    }
+  ]
+}

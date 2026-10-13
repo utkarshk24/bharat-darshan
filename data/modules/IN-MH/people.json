@@ -1,0 +1,635 @@
+{
+  "region": "IN-MH",
+  "module": "people",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "At the 2011 Census, Maharashtra had 11.24 crore people, the second-largest population of any State after Uttar Pradesh. It is also one of India's most urbanised large States: 45.2% of residents lived in towns and cities, compared with 31.1% nationally, with the Mumbai, Pune and Nagpur regions as the main urban centres.\n\nMarathi is the official language and the mother tongue of most residents. Marathi was granted classical language status by the Union Government in October 2024. Large numbers also speak Hindi, Urdu, Gujarati and tribal languages such as Bhili, Gondi and Korku.",
+        "hi": "2011 की जनगणना में महाराष्ट्र की जनसंख्या 11.24 करोड़ थी, जो उत्तर प्रदेश के बाद किसी भी राज्य में दूसरी सबसे अधिक है। यह देश के सबसे शहरीकृत बड़े राज्यों में भी है: यहाँ 45.2% लोग कस्बों और शहरों में रहते थे, जबकि राष्ट्रीय औसत 31.1% था; मुंबई, पुणे और नागपुर क्षेत्र प्रमुख शहरी केंद्र हैं।\n\nमराठी राज्य की राजभाषा और अधिकांश निवासियों की मातृभाषा है। अक्टूबर 2024 में केंद्र सरकार ने मराठी को शास्त्रीय भाषा का दर्जा दिया। बड़ी संख्या में लोग हिंदी, उर्दू, गुजराती और भीली, गोंडी, कोरकू जैसी जनजातीय भाषाएँ भी बोलते हैं।",
+        "mr": "2011 च्या जनगणनेनुसार महाराष्ट्राची लोकसंख्या 11.24 कोटी होती, जी उत्तर प्रदेशानंतर कोणत्याही राज्यात दुसऱ्या क्रमांकाची आहे. हे देशातील सर्वाधिक नागरीकरण झालेल्या मोठ्या राज्यांपैकीही एक आहे: येथे 45.2% लोक शहरांत राहत होते, तर राष्ट्रीय सरासरी 31.1% होती; मुंबई, पुणे आणि नागपूर परिसर ही प्रमुख नागरी केंद्रे आहेत.\n\nमराठी ही राज्याची राजभाषा आणि बहुसंख्य रहिवाशांची मातृभाषा आहे. ऑक्टोबर 2024 मध्ये केंद्र सरकारने मराठीला अभिजात भाषेचा दर्जा दिला. मोठ्या संख्येने लोक हिंदी, उर्दू, गुजराती आणि भिली, गोंडी, कोरकू यांसारख्या आदिवासी भाषाही बोलतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "census",
+        "mh-sdb",
+        "pib"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (2011)",
+            "hi": "जनसंख्या (2011)",
+            "mr": "लोकसंख्या (2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 112374333,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://socialwelfare.maharashtra.gov.in/en/general-and-scheduled-caste-population-census-2011/",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 state total as published by the Social Welfare Department, Government of Maharashtra; matches the State Data Bank (1,12,374 thousand)."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "growth",
+          "label": {
+            "en": "Decadal growth 2001–2011",
+            "hi": "दशकीय वृद्धि 2001–2011",
+            "mr": "दशवार्षिक वाढ 2001–2011",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 16.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Via Maharashtra State Data Bank."
+          },
+          "kind": "percent",
+          "polarity": "neutral",
+          "national": {
+            "value": 17.7,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio (2011)",
+            "hi": "लिंगानुपात (2011)",
+            "mr": "लिंग गुणोत्तर (2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 929,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Via Maharashtra State Data Bank."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio, 0–6 (2011)",
+            "hi": "शिशु लिंगानुपात, 0–6 (2011)",
+            "mr": "बाल लिंग गुणोत्तर, 0–6 (2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 894,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PIB release of 11 Feb 2014 (RGI data). Was 913 in 2001."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 913,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate (2011)",
+            "hi": "साक्षरता दर (2011)",
+            "mr": "साक्षरता दर (2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 82.34,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+. The State Data Bank shows 82.3 (rounded)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "urb",
+          "label": {
+            "en": "Urban population share (2011)",
+            "hi": "शहरी जनसंख्या का हिस्सा (2011)",
+            "mr": "नागरी लोकसंख्येचे प्रमाण (2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 45.2,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Urban population 5,08,18 thousand of 11,23,74 thousand (State Data Bank)."
+          },
+          "kind": "percent",
+          "polarity": "neutral",
+          "national": {
+            "value": 31.1,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "sc",
+          "label": {
+            "en": "Scheduled Castes (2011)",
+            "hi": "अनुसूचित जातियाँ (2011)",
+            "mr": "अनुसूचित जाती (2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 11.81,
+            "unit": "% of population",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://socialwelfare.maharashtra.gov.in/en/general-and-scheduled-caste-population-census-2011/",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "1,32,75,898 persons (Social Welfare Department, GoM)."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        },
+        {
+          "id": "st",
+          "label": {
+            "en": "Scheduled Tribes (2011)",
+            "hi": "अनुसूचित जनजातियाँ (2011)",
+            "mr": "अनुसूचित जमाती (2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 9.35,
+            "unit": "% of population",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://trti.maharashtra.gov.in/statewiseTotalTribal",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "1,05,10 thousand persons (Tribal Research & Training Institute, GoM)."
+          },
+          "kind": "percent",
+          "polarity": "neutral",
+          "national": {
+            "value": 8.61,
+            "unit": "% of population",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://trti.maharashtra.gov.in/statewiseTotalTribal",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 एका दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "lang",
+      "title": {
+        "en": "Other major mother tongues (Census 2011)",
+        "hi": "अन्य प्रमुख मातृभाषाएँ (जनगणना 2011)",
+        "mr": "इतर प्रमुख मातृभाषा (जनगणना 2011)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Language",
+            "hi": "भाषा",
+            "mr": "भाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Speakers",
+            "hi": "बोलने वाले",
+            "mr": "भाषक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "% of population",
+            "hi": "जनसंख्या का %",
+            "mr": "लोकसंख्येच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Hindi",
+            "hi": "हिंदी",
+            "mr": "हिंदी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          14481513,
+          "12.88"
+        ],
+        [
+          {
+            "en": "Urdu",
+            "hi": "उर्दू",
+            "mr": "उर्दू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          7540324,
+          "6.71"
+        ],
+        [
+          {
+            "en": "Gujarati",
+            "hi": "गुजराती",
+            "mr": "गुजराती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2371743,
+          "2.11"
+        ],
+        [
+          {
+            "en": "Bhili",
+            "hi": "भीली",
+            "mr": "भिली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2247678,
+          "2.00"
+        ],
+        [
+          {
+            "en": "Khandeshi",
+            "hi": "खानदेशी",
+            "mr": "खानदेशी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1616730,
+          "1.43"
+        ],
+        [
+          {
+            "en": "Telugu",
+            "hi": "तेलुगु",
+            "mr": "तेलुगू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1320880,
+          "1.17"
+        ],
+        [
+          {
+            "en": "Kannada",
+            "hi": "कन्नड़",
+            "mr": "कन्नड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1000463,
+          "0.89"
+        ],
+        [
+          {
+            "en": "Sindhi",
+            "hi": "सिंधी",
+            "mr": "सिंधी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          723748,
+          "0.64"
+        ]
+      ],
+      "sourceId": "census",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3f55cadb97eaff2ba1980e001b0bd9842/uploads/2025/02/20250202779031828.pdf",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "period": "2011",
+      "note": {
+        "en": "From the Government of Maharashtra's table of linguistic minorities, which does not list Marathi. Marathi's Census 2011 share is still to be added.",
+        "hi": "महाराष्ट्र सरकार की भाषाई अल्पसंख्यक तालिका से, जिसमें मराठी शामिल नहीं है। जनगणना 2011 में मराठी का हिस्सा अभी जोड़ा जाना है।",
+        "mr": "महाराष्ट्र शासनाच्या भाषिक अल्पसंख्याक तक्त्यातून, ज्यात मराठीचा समावेश नाही. जनगणना 2011 मधील मराठीचे प्रमाण अद्याप जोडायचे आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "prose",
+      "id": "tribal",
+      "body": {
+        "en": "Maharashtra's Scheduled Tribes live mainly along the Sahyadri in the north-west (Nashik, Palghar, Thane, Nandurbar) and in the forested east (Gadchiroli, Chandrapur, Gondia, Yavatmal), with Melghat in Amravati district. Major communities include the Bhil, Gond, Warli, Kokna, Thakur and Korku. Three groups are listed as Particularly Vulnerable Tribal Groups: the Katkari (Kathodi), Kolam and Madia Gond. Parts of the State are notified Scheduled Areas under the Fifth Schedule of the Constitution.",
+        "hi": "महाराष्ट्र की अनुसूचित जनजातियाँ मुख्यतः उत्तर-पश्चिम में सह्याद्रि के साथ (नासिक, पालघर, ठाणे, नंदुरबार) और पूर्व के वन क्षेत्रों (गढ़चिरौली, चंद्रपुर, गोंदिया, यवतमाल) में तथा अमरावती ज़िले के मेलघाट में रहती हैं। प्रमुख समुदायों में भील, गोंड, वारली, कोकणा, ठाकुर और कोरकू शामिल हैं। तीन समूह विशेष रूप से कमज़ोर जनजातीय समूह (पीवीटीजी) के रूप में सूचीबद्ध हैं: कातकरी (कातोडी), कोलाम और माडिया गोंड। राज्य के कुछ हिस्से संविधान की पाँचवीं अनुसूची के तहत अधिसूचित अनुसूचित क्षेत्र हैं।",
+        "mr": "महाराष्ट्रातील अनुसूचित जमाती प्रामुख्याने वायव्येकडे सह्याद्रीलगत (नाशिक, पालघर, ठाणे, नंदुरबार), पूर्वेकडील वनक्षेत्रात (गडचिरोली, चंद्रपूर, गोंदिया, यवतमाळ) आणि अमरावती जिल्ह्यातील मेळघाटात राहतात. भिल्ल, गोंड, वारली, कोकणा, ठाकूर आणि कोरकू हे प्रमुख समुदाय आहेत. कातकरी (काथोडी), कोलाम आणि माडिया गोंड हे तीन गट विशेष असुरक्षित आदिवासी गट (पीव्हीटीजी) म्हणून सूचीबद्ध आहेत. राज्याचा काही भाग राज्यघटनेच्या पाचव्या अनुसूचीनुसार अधिसूचित अनुसूचित क्षेत्र आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial",
+      "title": {
+        "en": "Tribal communities",
+        "hi": "जनजातीय समुदाय",
+        "mr": "आदिवासी समुदाय",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Religion (Census 2011 shares)",
+            "hi": "धर्म (जनगणना 2011 हिस्सेदारी)",
+            "mr": "धर्म (जनगणना 2011 प्रमाण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Table C-01, Maharashtra 2011 (censusindia.gov.in/nada catalog 11382)."
+        },
+        {
+          "label": {
+            "en": "Marathi speakers (Census 2011)",
+            "hi": "मराठी भाषी (जनगणना 2011)",
+            "mr": "मराठी भाषक (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Table C-16, Maharashtra 2011."
+        },
+        {
+          "label": {
+            "en": "Literacy by sex, 2001 and 2011",
+            "hi": "लिंग के अनुसार साक्षरता, 2001 और 2011",
+            "mr": "लिंगनिहाय साक्षरता, 2001 व 2011",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census PCA / State Data Bank."
+        },
+        {
+          "label": {
+            "en": "Current population projection",
+            "hi": "वर्तमान जनसंख्या प्रक्षेपण",
+            "mr": "सध्याचे लोकसंख्या प्रक्षेपण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw-projections",
+          "note": "Technical Group on Population Projections 2011–2036; label Projected."
+        },
+        {
+          "label": {
+            "en": "SDG India Index score",
+            "hi": "एसडीजी इंडिया इंडेक्स स्कोर",
+            "mr": "एसडीजी इंडिया इंडेक्स गुण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "niti",
+          "note": "SDG India Index 2023-24 (India: 71)."
+        },
+        {
+          "label": {
+            "en": "Multidimensional Poverty Index",
+            "hi": "बहुआयामी गरीबी सूचकांक",
+            "mr": "बहुआयामी दारिद्र्य निर्देशांक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "niti",
+          "note": "NITI Aayog National MPI 2023."
+        }
+      ]
+    }
+  ]
+}

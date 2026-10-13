@@ -1,0 +1,68 @@
+{
+  "region": "IN-LA",
+  "module": "transport",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Air is Ladakh's year-round lifeline: Leh's Kushok Bakula Rimpochee Airport has daily flights to Delhi and other cities, and is one of the highest commercial airports in the world. By road, the Srinagar–Kargil–Leh highway crosses Zoji La and the Manali–Leh highway crosses several passes above 5,000 m; both are typically closed for part of winter by snow. Within Ladakh, roads over passes such as Khardung La and Chang La link Leh to Nubra and Pangong. There is no railway yet.",
+        "hi": "हवाई सेवा लद्दाख की साल भर की जीवनरेखा है: लेह के कुशोक बकुला रिम्पोछे हवाई अड्डे से दिल्ली और अन्य शहरों के लिए रोज़ उड़ानें हैं, और यह दुनिया के सबसे ऊँचे व्यावसायिक हवाई अड्डों में है। सड़क मार्ग से श्रीनगर–कारगिल–लेह राजमार्ग ज़ोजिला पार करता है और मनाली–लेह राजमार्ग 5,000 मीटर से ऊँचे कई दर्रे पार करता है; दोनों आम तौर पर सर्दियों के कुछ हिस्से में बर्फ़ से बंद रहते हैं। लद्दाख के भीतर खारदुंग ला और चांग ला जैसे दर्रों से होकर सड़कें लेह को नुब्रा और पैंगोंग से जोड़ती हैं। अभी कोई रेल लाइन नहीं है।",
+        "mr": "विमानसेवा ही लडाखची वर्षभराची जीवनरेखा आहे: लेहच्या कुशोक बकुला रिम्पोछे विमानतळावरून दिल्ली व इतर शहरांसाठी दररोज उड्डाणे होतात, आणि हा जगातील सर्वांत उंच व्यावसायिक विमानतळांपैकी एक आहे. रस्त्याने श्रीनगर–कारगिल–लेह महामार्ग झोजिला ओलांडतो आणि मनाली–लेह महामार्ग 5,000 मीटरहून उंच अनेक खिंडी ओलांडतो; दोन्ही सहसा हिवाळ्याच्या काही काळ बर्फामुळे बंद असतात. लडाखमध्ये खारदुंग ला आणि चांग ला सारख्या खिंडींवरून जाणारे रस्ते लेहला नुब्रा व पँगाँगशी जोडतात. अद्याप रेल्वेमार्ग नाही.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road length and pass opening dates",
+            "hi": "सड़क की लंबाई और दर्रे खुलने की तारीख़ें",
+            "mr": "रस्त्यांची लांबी व खिंडी खुल्या होण्याच्या तारखा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "BRO / UT Public Works Department."
+        },
+        {
+          "label": {
+            "en": "Leh airport passenger traffic",
+            "hi": "लेह हवाई अड्डा यात्री यातायात",
+            "mr": "लेह विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        },
+        {
+          "label": {
+            "en": "Bilaspur–Manali–Leh railway — status",
+            "hi": "बिलासपुर–मनाली–लेह रेल लाइन — स्थिति",
+            "mr": "बिलासपूर–मनाली–लेह रेल्वेमार्ग — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Ministry of Railways."
+        }
+      ]
+    }
+  ]
+}

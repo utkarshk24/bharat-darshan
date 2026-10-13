@@ -1,0 +1,162 @@
+{
+  "region": "IN-LA",
+  "module": "civic",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "portal",
+          "name": {
+            "en": "UT Administration of Ladakh",
+            "hi": "केंद्र शासित प्रदेश लद्दाख प्रशासन",
+            "mr": "केंद्रशासित प्रदेश लडाख प्रशासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ladakh.gov.in",
+          "sourceId": "la-gov"
+        },
+        {
+          "id": "leh",
+          "name": {
+            "en": "District Leh",
+            "hi": "ज़िला लेह",
+            "mr": "लेह जिल्हा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://leh.nic.in",
+          "sourceId": "la-gov"
+        },
+        {
+          "id": "kargil",
+          "name": {
+            "en": "District Kargil",
+            "hi": "ज़िला कारगिल",
+            "mr": "कारगिल जिल्हा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://kargil.nic.in",
+          "sourceId": "kargil-nic"
+        },
+        {
+          "id": "rti",
+          "name": {
+            "en": "RTI Online (Government of India)",
+            "hi": "आरटीआई ऑनलाइन (भारत सरकार)",
+            "mr": "माहितीचा अधिकार ऑनलाइन (भारत सरकार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rtionline.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official websites",
+        "hi": "आधिकारिक वेबसाइटें",
+        "mr": "अधिकृत संकेतस्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "std",
+      "title": {
+        "en": "STD codes",
+        "hi": "एसटीडी कोड",
+        "mr": "एसटीडी कोड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Town",
+            "hi": "नगर",
+            "mr": "शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Code",
+            "hi": "कोड",
+            "mr": "कोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Leh",
+            "hi": "लेह",
+            "mr": "लेह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "01982"
+        ],
+        [
+          {
+            "en": "Kargil",
+            "hi": "कारगिल",
+            "mr": "कारगिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "01985"
+        ]
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "note": {
+        "en": "Editorial; to be checked against the Department of Telecommunications numbering plan.",
+        "hi": "संपादकीय; दूरसंचार विभाग की नंबरिंग योजना से जाँचा जाएगा।",
+        "mr": "संपादकीय; दूरसंचार विभागाच्या क्रमांक योजनेशी पडताळले जाईल.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

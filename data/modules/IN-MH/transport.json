@@ -1,0 +1,234 @@
+{
+  "region": "IN-MH",
+  "module": "transport",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mumbai is the hub of western India's transport network. Chhatrapati Shivaji Maharaj International Airport and the new Navi Mumbai International Airport serve the region, and Pune, Nagpur, Chhatrapati Sambhajinagar, Shirdi and Kolhapur have commercial flights. Two railway zones are headquartered in Mumbai — Central Railway at CSMT and Western Railway at Churchgate — and the Konkan Railway runs south along the coast. The Mumbai suburban network carries millions of passengers a day.\n\nMetro systems run in Mumbai, Pune and Nagpur. The Mumbai–Pune Expressway, opened in the early 2000s, was India's first access-controlled six-lane expressway, and the 701 km Samruddhi Mahamarg now links Nagpur with the Mumbai region. Jawaharlal Nehru Port at Nhava Sheva and Mumbai Port handle a large share of India's container and bulk trade. The Maharashtra State Road Transport Corporation (MSRTC) runs intercity and rural buses across the State.",
+        "hi": "मुंबई पश्चिम भारत के परिवहन नेटवर्क का केंद्र है। छत्रपति शिवाजी महाराज अंतरराष्ट्रीय हवाई अड्डा और नया नवी मुंबई अंतरराष्ट्रीय हवाई अड्डा इस क्षेत्र को सेवा देते हैं, और पुणे, नागपुर, छत्रपति संभाजीनगर, शिर्डी और कोल्हापुर से व्यावसायिक उड़ानें हैं। दो रेलवे ज़ोन का मुख्यालय मुंबई में है — मध्य रेलवे सीएसएमटी में और पश्चिम रेलवे चर्चगेट में — और कोंकण रेलवे तट के साथ दक्षिण की ओर जाती है। मुंबई का उपनगरीय रेल नेटवर्क रोज़ लाखों यात्रियों को ले जाता है।\n\nमुंबई, पुणे और नागपुर में मेट्रो चलती है। 2000 के दशक की शुरुआत में खुला मुंबई–पुणे एक्सप्रेसवे भारत का पहला प्रवेश-नियंत्रित छह लेन एक्सप्रेसवे था, और 701 किमी लंबा समृद्धि महामार्ग अब नागपुर को मुंबई क्षेत्र से जोड़ता है। न्हावा शेवा का जवाहरलाल नेहरू बंदरगाह और मुंबई बंदरगाह भारत के कंटेनर और थोक व्यापार का बड़ा हिस्सा संभालते हैं। महाराष्ट्र राज्य सड़क परिवहन निगम (एमएसआरटीसी) पूरे राज्य में अंतर-शहरी और ग्रामीण बसें चलाता है।",
+        "mr": "मुंबई हे पश्चिम भारताच्या वाहतूक जाळ्याचे केंद्र आहे. छत्रपती शिवाजी महाराज आंतरराष्ट्रीय विमानतळ आणि नवा नवी मुंबई आंतरराष्ट्रीय विमानतळ या प्रदेशाला सेवा देतात, तर पुणे, नागपूर, छत्रपती संभाजीनगर, शिर्डी आणि कोल्हापूर येथून व्यावसायिक उड्डाणे होतात. दोन रेल्वे विभागांची मुख्यालये मुंबईत आहेत — मध्य रेल्वे सीएसएमटी येथे आणि पश्चिम रेल्वे चर्चगेट येथे — आणि कोकण रेल्वे किनाऱ्याने दक्षिणेकडे जाते. मुंबईची उपनगरी रेल्वे दररोज लाखो प्रवाशांची ने-आण करते.\n\nमुंबई, पुणे आणि नागपूर येथे मेट्रो धावते. 2000 च्या दशकाच्या सुरुवातीला खुला झालेला मुंबई–पुणे द्रुतगती मार्ग हा भारतातील पहिला प्रवेश-नियंत्रित सहापदरी द्रुतगती मार्ग होता, आणि 701 किमीचा समृद्धी महामार्ग आता नागपूरला मुंबई परिसराशी जोडतो. न्हावा शेवा येथील जवाहरलाल नेहरू बंदर आणि मुंबई बंदर भारताच्या कंटेनर व मोठ्या मालवाहतुकीचा मोठा भाग हाताळतात. महाराष्ट्र राज्य मार्ग परिवहन महामंडळ (एसटी) संपूर्ण राज्यात आंतरशहरी व ग्रामीण बससेवा चालवते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "bom",
+          "name": {
+            "en": "Mumbai — Chhatrapati Shivaji Maharaj Intl (BOM)",
+            "hi": "मुंबई — छत्रपति शिवाजी महाराज अंतरराष्ट्रीय (BOM)",
+            "mr": "मुंबई — छत्रपती शिवाजी महाराज आंतरराष्ट्रीय (BOM)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nmi",
+          "name": {
+            "en": "Navi Mumbai International (NMI)",
+            "hi": "नवी मुंबई अंतरराष्ट्रीय (NMI)",
+            "mr": "नवी मुंबई आंतरराष्ट्रीय (NMI)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pnq",
+          "name": {
+            "en": "Pune (PNQ)",
+            "hi": "पुणे (PNQ)",
+            "mr": "पुणे (PNQ)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nag",
+          "name": {
+            "en": "Nagpur — Dr Babasaheb Ambedkar Intl (NAG)",
+            "hi": "नागपुर — डॉ. बाबासाहेब आंबेडकर अंतरराष्ट्रीय (NAG)",
+            "mr": "नागपूर — डॉ. बाबासाहेब आंबेडकर आंतरराष्ट्रीय (NAG)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ixu",
+          "name": {
+            "en": "Chhatrapati Sambhajinagar (IXU)",
+            "hi": "छत्रपति संभाजीनगर (IXU)",
+            "mr": "छत्रपती संभाजीनगर (IXU)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sag",
+          "name": {
+            "en": "Shirdi (SAG)",
+            "hi": "शिर्डी (SAG)",
+            "mr": "शिर्डी (SAG)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "klh",
+          "name": {
+            "en": "Kolhapur (KLH)",
+            "hi": "कोल्हापुर (KLH)",
+            "mr": "कोल्हापूर (KLH)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "isk",
+          "name": {
+            "en": "Nashik (ISK)",
+            "hi": "नासिक (ISK)",
+            "mr": "नाशिक (ISK)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ndc",
+          "name": {
+            "en": "Nanded (NDC)",
+            "hi": "नांदेड़ (NDC)",
+            "mr": "नांदेड (NDC)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sdw",
+          "name": {
+            "en": "Sindhudurg (SDW)",
+            "hi": "सिंधुदुर्ग (SDW)",
+            "mr": "सिंधुदुर्ग (SDW)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports with scheduled flights (selected)",
+        "hi": "नियमित उड़ानों वाले हवाई अड्डे (चयनित)",
+        "mr": "नियमित उड्डाणे असलेले विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "National highway length (km)",
+            "hi": "राष्ट्रीय राजमार्ग लंबाई (किमी)",
+            "mr": "राष्ट्रीय महामार्ग लांबी (किमी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Rail route km and stations",
+            "hi": "रेल मार्ग किमी और स्टेशन",
+            "mr": "रेल्वे मार्ग किमी व स्थानके",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Indian Railways Year Book, state-wise."
+        },
+        {
+          "label": {
+            "en": "Operational metro km by city",
+            "hi": "शहरवार चालू मेट्रो किमी",
+            "mr": "शहरनिहाय कार्यरत मेट्रो किमी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-gov",
+          "note": "MMRDA, MMRCL, Maha-Metro."
+        },
+        {
+          "label": {
+            "en": "MSRTC fleet size and e-buses",
+            "hi": "एमएसआरटीसी बेड़ा और ई-बसें",
+            "mr": "एसटी ताफा व ई-बस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-gov",
+          "note": "MSRTC annual report."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

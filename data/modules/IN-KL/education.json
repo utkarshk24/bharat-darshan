@@ -1,0 +1,471 @@
+{
+  "region": "IN-KL",
+  "module": "education",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Keralam was the first State to approach universal literacy, and schooling is near-universal. In higher education, the 2021-22 AISHE survey counted 25 universities and 1,463 colleges, and a gross enrolment ratio (ages 18–23) of 41.3%, well above the national 28.4%. Women outnumber men in many colleges. The State hosts IIM Kozhikode, NIT Calicut, IIT Palakkad, IISER Thiruvananthapuram and the Indian Institute of Space Science and Technology.",
+        "hi": "केरलम सार्वभौमिक साक्षरता के क़रीब पहुँचने वाला पहला राज्य था, और स्कूली शिक्षा लगभग सार्वभौमिक है। उच्च शिक्षा में 2021-22 के एआईएसएचई सर्वेक्षण में 25 विश्वविद्यालय और 1,463 कॉलेज गिने गए, और सकल नामांकन अनुपात (18–23 आयु) 41.3% था, जो राष्ट्रीय 28.4% से काफ़ी अधिक है। कई कॉलेजों में छात्राओं की संख्या छात्रों से अधिक है। राज्य में आईआईएम कोझिकोड, एनआईटी कालीकट, आईआईटी पालक्काड, आईसर तिरुवनंतपुरम और भारतीय अंतरिक्ष विज्ञान एवं प्रौद्योगिकी संस्थान हैं।",
+        "mr": "सार्वत्रिक साक्षरतेच्या जवळ पोहोचणारे केरळम हे पहिले राज्य होते आणि शालेय शिक्षण जवळपास सार्वत्रिक आहे. उच्चशिक्षणात 2021-22 च्या एआयएसएचई सर्वेक्षणात 25 विद्यापीठे आणि 1,463 महाविद्यालये नोंदली गेली, आणि एकूण नोंदणी गुणोत्तर (18–23 वय) 41.3% होते — राष्ट्रीय 28.4% पेक्षा बरेच जास्त. अनेक महाविद्यालयांत विद्यार्थिनींची संख्या विद्यार्थ्यांपेक्षा जास्त आहे. राज्यात आयआयएम कोझिकोड, एनआयटी कालिकत, आयआयटी पालक्काड, आयसर तिरुवनंतपुरम आणि भारतीय अंतराळ विज्ञान व तंत्रज्ञान संस्था आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 41.3,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 43.15,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 25,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1463,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "kl",
+          "label": {
+            "en": "Keralam",
+            "hi": "केरलम",
+            "mr": "केरळम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 34.02,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 34.5,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 35.9,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 43.15,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 41.3,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "iimk",
+          "name": {
+            "en": "IIM Kozhikode",
+            "hi": "आईआईएम कोझिकोड",
+            "mr": "आयआयएम कोझिकोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kozhikode",
+            "hi": "कोझिकोड",
+            "mr": "कोझिकोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nitc",
+          "name": {
+            "en": "NIT Calicut",
+            "hi": "एनआईटी कालीकट",
+            "mr": "एनआयटी कालिकत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kozhikode",
+            "hi": "कोझिकोड",
+            "mr": "कोझिकोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iitpkd",
+          "name": {
+            "en": "IIT Palakkad",
+            "hi": "आईआईटी पालक्काड",
+            "mr": "आयआयटी पालक्काड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Palakkad",
+            "hi": "पालक्काड",
+            "mr": "पालक्काड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iisertvm",
+          "name": {
+            "en": "IISER Thiruvananthapuram",
+            "hi": "आईसर तिरुवनंतपुरम",
+            "mr": "आयसर तिरुवनंतपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Thiruvananthapuram",
+            "hi": "तिरुवनंतपुरम",
+            "mr": "तिरुवनंतपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iist",
+          "name": {
+            "en": "Indian Institute of Space Science and Technology",
+            "hi": "भारतीय अंतरिक्ष विज्ञान एवं प्रौद्योगिकी संस्थान",
+            "mr": "भारतीय अंतराळ विज्ञान व तंत्रज्ञान संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Thiruvananthapuram",
+            "hi": "तिरुवनंतपुरम",
+            "mr": "तिरुवनंतपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cuk",
+          "name": {
+            "en": "Central University of Kerala",
+            "hi": "केरल केंद्रीय विश्वविद्यालय",
+            "mr": "केरळ केंद्रीय विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kasaragod",
+            "hi": "कासरगोड",
+            "mr": "कासारगोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cusat",
+          "name": {
+            "en": "Cochin University of Science and Technology",
+            "hi": "कोचीन विज्ञान एवं प्रौद्योगिकी विश्वविद्यालय",
+            "mr": "कोचीन विज्ञान व तंत्रज्ञान विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kochi",
+            "hi": "कोच्चि",
+            "mr": "कोची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nuals",
+          "name": {
+            "en": "National University of Advanced Legal Studies",
+            "hi": "राष्ट्रीय उन्नत विधि अध्ययन विश्वविद्यालय",
+            "mr": "राष्ट्रीय प्रगत विधी अभ्यास विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kochi",
+            "hi": "कोच्चि",
+            "mr": "कोची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "National institutions (selected)",
+        "hi": "राष्ट्रीय संस्थान (चयनित)",
+        "mr": "राष्ट्रीय संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "Dropout rates by level",
+            "hi": "स्तरवार ड्रॉपआउट दर",
+            "mr": "स्तरनिहाय गळती दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+."
+        },
+        {
+          "label": {
+            "en": "Literacy by sex",
+            "hi": "लिंगवार साक्षरता",
+            "mr": "लिंगनिहाय साक्षरता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 PCA."
+        },
+        {
+          "label": {
+            "en": "NIRF-ranked institutions",
+            "hi": "एनआईआरएफ़ रैंक वाले संस्थान",
+            "mr": "एनआयआरएफ क्रमवारीतील संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nirf",
+          "note": "Latest NIRF list filtered to Keralam."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "region": "IN-MH",
+  "module": "civic",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Maharashtra portal",
+            "hi": "महाराष्ट्र सरकार पोर्टल",
+            "mr": "महाराष्ट्र शासन संकेतस्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.maharashtra.gov.in",
+          "sourceId": "mh-gov"
+        },
+        {
+          "id": "aaple",
+          "name": {
+            "en": "Aaple Sarkar — online public services",
+            "hi": "आपले सरकार — ऑनलाइन नागरिक सेवाएँ",
+            "mr": "आपले सरकार — ऑनलाइन नागरी सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://aaplesarkar.mahaonline.gov.in",
+          "sourceId": "mh-gov"
+        },
+        {
+          "id": "rti",
+          "name": {
+            "en": "RTI Online, Maharashtra",
+            "hi": "आरटीआई ऑनलाइन, महाराष्ट्र",
+            "mr": "माहितीचा अधिकार ऑनलाइन, महाराष्ट्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rtionline.maharashtra.gov.in",
+          "sourceId": "mh-gov"
+        },
+        {
+          "id": "lokbhavan",
+          "name": {
+            "en": "Lok Bhavan (Governor's office)",
+            "hi": "लोक भवन (राज्यपाल कार्यालय)",
+            "mr": "लोकभवन (राज्यपाल कार्यालय)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://lokbhavan.maharashtra.gov.in",
+          "sourceId": "mh-lokbhavan"
+        },
+        {
+          "id": "tourism",
+          "name": {
+            "en": "Maharashtra Tourism",
+            "hi": "महाराष्ट्र पर्यटन",
+            "mr": "महाराष्ट्र पर्यटन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://maharashtratourism.gov.in",
+          "sourceId": "mh-tourism"
+        },
+        {
+          "id": "consumer",
+          "name": {
+            "en": "National Consumer Helpline",
+            "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन",
+            "mr": "राष्ट्रीय ग्राहक हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://consumerhelpline.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official websites",
+        "hi": "आधिकारिक वेबसाइटें",
+        "mr": "अधिकृत संकेतस्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "std",
+      "title": {
+        "en": "STD codes of major cities",
+        "hi": "प्रमुख शहरों के एसटीडी कोड",
+        "mr": "प्रमुख शहरांचे एसटीडी कोड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "City",
+            "hi": "शहर",
+            "mr": "शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Code",
+            "hi": "कोड",
+            "mr": "कोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Mumbai and Thane",
+            "hi": "मुंबई और ठाणे",
+            "mr": "मुंबई व ठाणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "022"
+        ],
+        [
+          {
+            "en": "Pune",
+            "hi": "पुणे",
+            "mr": "पुणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "020"
+        ],
+        [
+          {
+            "en": "Nagpur",
+            "hi": "नागपुर",
+            "mr": "नागपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0712"
+        ],
+        [
+          {
+            "en": "Nashik",
+            "hi": "नासिक",
+            "mr": "नाशिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0253"
+        ],
+        [
+          {
+            "en": "Chhatrapati Sambhajinagar",
+            "hi": "छत्रपति संभाजीनगर",
+            "mr": "छत्रपती संभाजीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0240"
+        ],
+        [
+          {
+            "en": "Kolhapur",
+            "hi": "कोल्हापुर",
+            "mr": "कोल्हापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0231"
+        ],
+        [
+          {
+            "en": "Solapur",
+            "hi": "सोलापुर",
+            "mr": "सोलापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0217"
+        ]
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "note": {
+        "en": "Editorial list; to be checked against the Department of Telecommunications numbering plan.",
+        "hi": "संपादकीय सूची; दूरसंचार विभाग की नंबरिंग योजना से जाँची जानी है।",
+        "mr": "संपादकीय यादी; दूरसंचार विभागाच्या क्रमांक योजनेशी पडताळायची आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Verified local business directory (MSMEs, co-operatives, FPOs, artisan clusters)",
+            "hi": "सत्यापित स्थानीय व्यवसाय निर्देशिका (एमएसएमई, सहकारी, एफ़पीओ, कारीगर क्लस्टर)",
+            "mr": "पडताळलेली स्थानिक व्यवसाय सूची (एमएसएमई, सहकारी संस्था, एफपीओ, कारागीर समूह)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-gov",
+          "note": "Udyam registration data, Registrar of Co-operative Societies, SFAC FPO list."
+        }
+      ]
+    }
+  ]
+}

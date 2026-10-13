@@ -1,0 +1,339 @@
+{
+  "region": "IN-DL",
+  "module": "tourism",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Delhi is the main gateway for international visitors to North India and the start of the classic Golden Triangle with Agra and Jaipur. Its sights span three World Heritage Sites, Mughal and Sultanate monuments in almost every neighbourhood, major museums, Old Delhi's bazaars and the ceremonial axis of Kartavya Path from Rashtrapati Bhavan to India Gate.",
+        "hi": "दिल्ली उत्तर भारत आने वाले अंतरराष्ट्रीय पर्यटकों का मुख्य प्रवेश द्वार है और आगरा व जयपुर के साथ प्रसिद्ध स्वर्णिम त्रिभुज की शुरुआत भी। इसके दर्शनीय स्थलों में तीन विश्व धरोहर स्थल, लगभग हर मोहल्ले में मुग़ल और सल्तनत कालीन स्मारक, बड़े संग्रहालय, पुरानी दिल्ली के बाज़ार और राष्ट्रपति भवन से इंडिया गेट तक कर्तव्य पथ की औपचारिक धुरी शामिल हैं।",
+        "mr": "उत्तर भारतात येणाऱ्या आंतरराष्ट्रीय पर्यटकांचे दिल्ली हे मुख्य प्रवेशद्वार आहे आणि आग्रा व जयपूरसह प्रसिद्ध सुवर्ण त्रिकोणाची सुरुवातही. येथील प्रेक्षणीय स्थळांत तीन जागतिक वारसा स्थळे, जवळपास प्रत्येक वस्तीत मुघल व सल्तनतकालीन स्मारके, मोठी संग्रहालये, जुन्या दिल्लीतील बाजारपेठा आणि राष्ट्रपती भवनापासून इंडिया गेटपर्यंतचा कर्तव्य पथ हा औपचारिक अक्ष यांचा समावेश आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "redfort",
+          "name": {
+            "en": "Red Fort, Jama Masjid and Chandni Chowk",
+            "hi": "लाल क़िला, जामा मस्जिद और चाँदनी चौक",
+            "mr": "लाल किल्ला, जामा मशीद आणि चांदनी चौक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mughal Delhi",
+            "hi": "मुग़ल दिल्ली",
+            "mr": "मुघल दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "qutb",
+          "name": {
+            "en": "Qutb Minar and Mehrauli",
+            "hi": "क़ुतुब मीनार और महरौली",
+            "mr": "कुतुबमिनार आणि मेहरौली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Sultanate Delhi",
+            "hi": "सल्तनत कालीन दिल्ली",
+            "mr": "सल्तनतकालीन दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "humayun",
+          "name": {
+            "en": "Humayun's Tomb, Sunder Nursery and Nizamuddin",
+            "hi": "हुमायूँ का मक़बरा, सुंदर नर्सरी और निज़ामुद्दीन",
+            "mr": "हुमायूनची कबर, सुंदर नर्सरी आणि निजामुद्दीन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage, Sufi",
+            "hi": "धरोहर, सूफ़ी",
+            "mr": "वारसा, सूफी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kartavya",
+          "name": {
+            "en": "Kartavya Path, India Gate and the National War Memorial",
+            "hi": "कर्तव्य पथ, इंडिया गेट और राष्ट्रीय युद्ध स्मारक",
+            "mr": "कर्तव्य पथ, इंडिया गेट आणि राष्ट्रीय युद्ध स्मारक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital complex",
+            "hi": "राजधानी परिसर",
+            "mr": "राजधानी परिसर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "museums",
+          "name": {
+            "en": "National Museum and National Gallery of Modern Art",
+            "hi": "राष्ट्रीय संग्रहालय और राष्ट्रीय आधुनिक कला संग्रहालय",
+            "mr": "राष्ट्रीय संग्रहालय आणि राष्ट्रीय आधुनिक कला संग्रहालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Museums",
+            "hi": "संग्रहालय",
+            "mr": "संग्रहालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lotus",
+          "name": {
+            "en": "Lotus Temple, Akshardham and Bangla Sahib",
+            "hi": "लोटस टेंपल, अक्षरधाम और बंगला साहिब",
+            "mr": "लोटस टेंपल, अक्षरधाम आणि बंगला साहिब",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Places of worship",
+            "hi": "पूजा स्थल",
+            "mr": "प्रार्थनास्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lodhi",
+          "name": {
+            "en": "Lodhi Garden and Hauz Khas",
+            "hi": "लोधी गार्डन और हौज़ ख़ास",
+            "mr": "लोधी गार्डन आणि हौज खास",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Gardens, ruins",
+            "hi": "उद्यान, खंडहर",
+            "mr": "उद्याने, अवशेष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d1",
+          "name": {
+            "en": "1 day",
+            "hi": "1 दिन",
+            "mr": "1 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Old Delhi by cycle-rickshaw, the Red Fort and Jama Masjid; evening at India Gate.",
+            "hi": "साइकिल-रिक्शा से पुरानी दिल्ली, लाल क़िला और जामा मस्जिद; शाम इंडिया गेट पर।",
+            "mr": "सायकल-रिक्षाने जुनी दिल्ली, लाल किल्ला आणि जामा मशीद; संध्याकाळ इंडिया गेटला.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Add Humayun's Tomb, Sunder Nursery, Nizamuddin (Thursday qawwali) and Qutb Minar.",
+            "hi": "हुमायूँ का मक़बरा, सुंदर नर्सरी, निज़ामुद्दीन (गुरुवार की क़व्वाली) और क़ुतुब मीनार जोड़ें।",
+            "mr": "हुमायूनची कबर, सुंदर नर्सरी, निजामुद्दीन (गुरुवारची कव्वाली) आणि कुतुबमिनार जोडा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Museums, Mehrauli Archaeological Park and Hauz Khas; a day trip to Agra by train.",
+            "hi": "संग्रहालय, महरौली पुरातत्व पार्क और हौज़ ख़ास; ट्रेन से आगरा की एक दिन की यात्रा।",
+            "mr": "संग्रहालये, मेहरौली पुरातत्त्व उद्यान आणि हौज खास; रेल्वेने आग्र्याची एकदिवसीय सहल.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "dt",
+          "name": {
+            "en": "Delhi Tourism (official)",
+            "hi": "दिल्ली पर्यटन (आधिकारिक)",
+            "mr": "दिल्ली पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://delhitourism.gov.in",
+          "sourceId": "dl-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits",
+            "hi": "घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Statistics (latest year)."
+        },
+        {
+          "label": {
+            "en": "Visitors to ASI-ticketed monuments",
+            "hi": "एएसआई टिकट वाले स्मारकों पर आगंतुक",
+            "mr": "एएसआय तिकीट असलेल्या स्मारकांना भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "asi",
+          "note": "ASI annual figures."
+        }
+      ]
+    }
+  ]
+}

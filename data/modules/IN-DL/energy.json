@@ -1,0 +1,68 @@
+{
+  "region": "IN-DL",
+  "module": "energy",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Delhi generates only a small part of the electricity it uses and buys most of it from power stations elsewhere, through long-term contracts and the market. Its coal-fired plants inside the city, such as Badarpur, have been closed to cut pollution; the remaining local generation is gas-based, plus waste-to-energy and rooftop solar. Electricity is distributed by private–public joint-venture companies and, in the New Delhi area, by the NDMC. Summer peak demand has repeatedly set new records as air-conditioning spreads.",
+        "hi": "दिल्ली अपनी खपत की बिजली का छोटा हिस्सा ही बनाती है और अधिकांश बिजली दीर्घकालिक अनुबंधों और बाज़ार के ज़रिए बाहर के बिजलीघरों से ख़रीदती है। प्रदूषण कम करने के लिए शहर के भीतर बदरपुर जैसे कोयला बिजलीघर बंद किए गए हैं; बची हुई स्थानीय बिजली गैस आधारित है, साथ में कचरे से ऊर्जा और छत पर सौर ऊर्जा। बिजली का वितरण निजी–सार्वजनिक संयुक्त उपक्रम कंपनियाँ और नई दिल्ली क्षेत्र में एनडीएमसी करती है। एयर-कंडीशनिंग बढ़ने के साथ गर्मियों की अधिकतम माँग बार-बार नए रिकॉर्ड बनाती रही है।",
+        "mr": "दिल्ली आपल्या वापराच्या विजेपैकी थोडाच भाग स्वतः निर्माण करते आणि बहुतांश वीज दीर्घकालीन करार व बाजारामार्फत बाहेरील वीजकेंद्रांकडून विकत घेते. प्रदूषण कमी करण्यासाठी शहरातील बदरपूरसारखी कोळशावरील वीजकेंद्रे बंद करण्यात आली; उरलेली स्थानिक वीजनिर्मिती वायू-आधारित आहे, सोबत कचऱ्यापासून ऊर्जा आणि छतावरील सौरऊर्जा. वीजवितरण खासगी–सार्वजनिक संयुक्त कंपन्या आणि नवी दिल्ली परिसरात एनडीएमसी करते. वातानुकूलन वाढत असल्याने उन्हाळ्यातील कमाल मागणी वारंवार नवे विक्रम करत आली आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Peak demand (latest record)",
+            "hi": "अधिकतम माँग (नवीनतम रिकॉर्ड)",
+            "mr": "कमाल मागणी (नवीनतम विक्रम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "Delhi SLDC / CEA."
+        },
+        {
+          "label": {
+            "en": "Rooftop solar capacity",
+            "hi": "छत सौर क्षमता",
+            "mr": "छतावरील सौर क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE state-wise RE capacity."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

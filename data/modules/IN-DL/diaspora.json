@@ -1,0 +1,42 @@
+{
+  "region": "IN-DL",
+  "module": "diaspora",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Delhi is a city of migrants. Refugees from West Punjab and Sindh rebuilt much of the city after 1947, and since then people from Uttar Pradesh, Bihar, Uttarakhand, Haryana, Rajasthan, West Bengal, the North-East and South India have arrived for work and study. Neighbourhoods often reflect these origins — Bengali Chittaranjan Park, Tibetan Majnu-ka-Tilla, Malayali and Tamil enclaves — and Delhi's diaspora abroad is equally varied.",
+        "hi": "दिल्ली प्रवासियों का शहर है। 1947 के बाद पश्चिमी पंजाब और सिंध के शरणार्थियों ने शहर का बड़ा हिस्सा फिर से बसाया, और तब से उत्तर प्रदेश, बिहार, उत्तराखंड, हरियाणा, राजस्थान, पश्चिम बंगाल, पूर्वोत्तर और दक्षिण भारत से लोग काम और पढ़ाई के लिए आते रहे हैं। मोहल्ले अक्सर इन जड़ों को दर्शाते हैं — बंगाली चितरंजन पार्क, तिब्बती मजनूँ का टीला, मलयाली और तमिल बस्तियाँ — और विदेश में बसे दिल्लीवासी भी उतने ही विविध हैं।",
+        "mr": "दिल्ली हे स्थलांतरितांचे शहर आहे. 1947 नंतर पश्चिम पंजाब आणि सिंधमधील निर्वासितांनी शहराचा मोठा भाग पुन्हा वसवला, आणि तेव्हापासून उत्तर प्रदेश, बिहार, उत्तराखंड, हरियाणा, राजस्थान, पश्चिम बंगाल, ईशान्य भारत आणि दक्षिण भारतातून लोक कामासाठी व शिक्षणासाठी येत राहिले आहेत. वस्त्या अनेकदा ही मुळे दाखवतात — बंगाली चित्तरंजन पार्क, तिबेटी मजनू-का-टिला, मल्याळी व तमिळ वस्त्या — आणि परदेशस्थ दिल्लीकरही तितकेच वैविध्यपूर्ण आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "In-migration by State of origin",
+            "hi": "मूल राज्य के अनुसार आप्रवास",
+            "mr": "मूळ राज्यानुसार स्थलांतर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables."
+        }
+      ]
+    }
+  ]
+}

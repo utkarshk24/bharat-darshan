@@ -1,0 +1,717 @@
+[
+  {
+    "id": "census",
+    "short": "Census of India",
+    "name": "Census of India / Office of the Registrar General & Census Commissioner",
+    "publisher": "ORGI, Ministry of Home Affairs",
+    "url": "https://censusindia.gov.in",
+    "category": "demographics",
+    "priority": 1,
+    "notes": "Census 2011 is the last completed census; Census 2027 in progress — switch only on official release."
+  },
+  {
+    "id": "srs",
+    "short": "SRS",
+    "name": "Sample Registration System (SRS) Bulletins and Statistical Reports",
+    "publisher": "ORGI, Ministry of Home Affairs",
+    "url": "https://censusindia.gov.in",
+    "category": "demographics",
+    "priority": 2,
+    "notes": "Annual IMR, MMR (special bulletin), sex ratio at birth, life expectancy (abridged life tables)."
+  },
+  {
+    "id": "mohfw-projections",
+    "short": "MoHFW Technical Group",
+    "name": "Report of the Technical Group on Population Projections",
+    "publisher": "National Commission on Population, MoHFW",
+    "url": "https://main.mohfw.gov.in",
+    "category": "demographics",
+    "priority": 3,
+    "notes": "Use for current population estimates; always label 'Projected'."
+  },
+  {
+    "id": "mospi",
+    "short": "MoSPI",
+    "name": "Ministry of Statistics and Programme Implementation — State-wise GSDP/NSDP",
+    "publisher": "MoSPI",
+    "url": "https://mospi.gov.in",
+    "category": "economy",
+    "priority": 1,
+    "notes": "Record price base and base year (currently 2011-12) for every value."
+  },
+  {
+    "id": "rbi-handbook",
+    "short": "RBI Handbook",
+    "name": "Handbook of Statistics on Indian States",
+    "publisher": "Reserve Bank of India",
+    "url": "https://www.rbi.org.in",
+    "category": "economy",
+    "priority": 2,
+    "notes": "Fiscal indicators incl. debt-to-GSDP; also republishes MoSPI GSDP series."
+  },
+  {
+    "id": "state-economic-survey",
+    "short": "State Economic Survey",
+    "name": "State Economic Surveys and Budget documents",
+    "publisher": "State finance/planning departments",
+    "url": "https://igod.gov.in",
+    "category": "economy",
+    "priority": 3,
+    "notes": "Link the specific state document; igod.gov.in lists state portals."
+  },
+  {
+    "id": "plfs",
+    "short": "PLFS",
+    "name": "Periodic Labour Force Survey (PLFS)",
+    "publisher": "MoSPI / NSO",
+    "url": "https://mospi.gov.in",
+    "category": "economy",
+    "priority": 4,
+    "notes": "Unemployment rate and LFPR; state the reference period (calendar year, usual status)."
+  },
+  {
+    "id": "dpiit",
+    "short": "DPIIT",
+    "name": "Department for Promotion of Industry and Internal Trade",
+    "publisher": "DPIIT, Ministry of Commerce & Industry",
+    "url": "https://dpiit.gov.in",
+    "category": "economy",
+    "priority": 5,
+    "notes": "FDI equity inflows (state-wise from Oct 2019); BRAP rankings."
+  },
+  {
+    "id": "startup-india",
+    "short": "Startup India",
+    "name": "Startup India — DPIIT-recognised startups",
+    "publisher": "DPIIT",
+    "url": "https://www.startupindia.gov.in",
+    "category": "economy",
+    "priority": 6
+  },
+  {
+    "id": "niti",
+    "short": "NITI Aayog",
+    "name": "NITI Aayog — SDG India Index and National Multidimensional Poverty Index",
+    "publisher": "NITI Aayog",
+    "url": "https://www.niti.gov.in",
+    "category": "development",
+    "priority": 1
+  },
+  {
+    "id": "nfhs",
+    "short": "NFHS",
+    "name": "National Family Health Survey (NFHS)",
+    "publisher": "IIPS / MoHFW",
+    "url": "https://rchiips.org/nfhs",
+    "category": "health",
+    "priority": 1,
+    "notes": "Survey rounds: NFHS-3 (2005-06), NFHS-4 (2015-16), NFHS-5 (2019-21); periodType 'survey'."
+  },
+  {
+    "id": "mohfw",
+    "short": "MoHFW",
+    "name": "Ministry of Health and Family Welfare / National Health Mission",
+    "publisher": "MoHFW",
+    "url": "https://main.mohfw.gov.in",
+    "category": "health",
+    "priority": 2
+  },
+  {
+    "id": "udise",
+    "short": "UDISE+",
+    "name": "UDISE+",
+    "publisher": "Ministry of Education",
+    "url": "https://udiseplus.gov.in",
+    "category": "education",
+    "priority": 1
+  },
+  {
+    "id": "aishe",
+    "short": "AISHE",
+    "name": "All India Survey on Higher Education (AISHE)",
+    "publisher": "Ministry of Education",
+    "url": "https://aishe.gov.in",
+    "category": "education",
+    "priority": 2
+  },
+  {
+    "id": "nirf",
+    "short": "NIRF",
+    "name": "National Institutional Ranking Framework (NIRF)",
+    "publisher": "Ministry of Education",
+    "url": "https://www.nirfindia.org",
+    "category": "education",
+    "priority": 3
+  },
+  {
+    "id": "fsi",
+    "short": "FSI (ISFR)",
+    "name": "India State of Forest Report (ISFR)",
+    "publisher": "Forest Survey of India, MoEFCC",
+    "url": "https://fsi.nic.in",
+    "category": "environment",
+    "priority": 1,
+    "notes": "Biennial: ISFR 2019, 2021, 2023."
+  },
+  {
+    "id": "moefcc",
+    "short": "MoEFCC",
+    "name": "Ministry of Environment, Forest and Climate Change",
+    "publisher": "MoEFCC",
+    "url": "https://moef.gov.in",
+    "category": "environment",
+    "priority": 2
+  },
+  {
+    "id": "ntca",
+    "short": "NTCA",
+    "name": "National Tiger Conservation Authority",
+    "publisher": "NTCA, MoEFCC",
+    "url": "https://ntca.gov.in",
+    "category": "environment",
+    "priority": 3
+  },
+  {
+    "id": "ramsar",
+    "short": "Ramsar",
+    "name": "Ramsar Sites Information Service",
+    "publisher": "Ramsar Convention Secretariat",
+    "url": "https://rsis.ramsar.org",
+    "category": "environment",
+    "priority": 4
+  },
+  {
+    "id": "morth",
+    "short": "MoRTH",
+    "name": "Ministry of Road Transport and Highways",
+    "publisher": "MoRTH",
+    "url": "https://morth.nic.in",
+    "category": "transport-energy",
+    "priority": 1
+  },
+  {
+    "id": "nhai",
+    "short": "NHAI",
+    "name": "National Highways Authority of India",
+    "publisher": "NHAI",
+    "url": "https://nhai.gov.in",
+    "category": "transport-energy",
+    "priority": 2
+  },
+  {
+    "id": "railways",
+    "short": "Indian Railways",
+    "name": "Ministry of Railways / Indian Railways",
+    "publisher": "Ministry of Railways",
+    "url": "https://indianrailways.gov.in",
+    "category": "transport-energy",
+    "priority": 3
+  },
+  {
+    "id": "civil-aviation",
+    "short": "MoCA",
+    "name": "Ministry of Civil Aviation",
+    "publisher": "MoCA",
+    "url": "https://www.civilaviation.gov.in",
+    "category": "transport-energy",
+    "priority": 4
+  },
+  {
+    "id": "aai",
+    "short": "AAI",
+    "name": "Airports Authority of India",
+    "publisher": "AAI",
+    "url": "https://www.aai.aero",
+    "category": "transport-energy",
+    "priority": 5
+  },
+  {
+    "id": "cea",
+    "short": "CEA",
+    "name": "Central Electricity Authority — installed capacity reports",
+    "publisher": "CEA, Ministry of Power",
+    "url": "https://cea.nic.in",
+    "category": "transport-energy",
+    "priority": 6
+  },
+  {
+    "id": "mnre",
+    "short": "MNRE",
+    "name": "Ministry of New and Renewable Energy",
+    "publisher": "MNRE",
+    "url": "https://mnre.gov.in",
+    "category": "transport-energy",
+    "priority": 7
+  },
+  {
+    "id": "tourism",
+    "short": "Ministry of Tourism",
+    "name": "India Tourism Statistics",
+    "publisher": "Ministry of Tourism",
+    "url": "https://tourism.gov.in",
+    "category": "tourism-heritage",
+    "priority": 1
+  },
+  {
+    "id": "asi",
+    "short": "ASI",
+    "name": "Archaeological Survey of India",
+    "publisher": "ASI, Ministry of Culture",
+    "url": "https://asi.nic.in",
+    "category": "tourism-heritage",
+    "priority": 2
+  },
+  {
+    "id": "unesco-whc",
+    "short": "UNESCO",
+    "name": "UNESCO World Heritage Centre — India",
+    "publisher": "UNESCO",
+    "url": "https://whc.unesco.org/en/statesparties/in",
+    "category": "tourism-heritage",
+    "priority": 3
+  },
+  {
+    "id": "gi-registry",
+    "short": "GI Registry",
+    "name": "Geographical Indications Registry",
+    "publisher": "Office of the CGPDTM, DPIIT",
+    "url": "https://ipindia.gov.in",
+    "category": "gi",
+    "priority": 1,
+    "notes": "Use the GI public search for application numbers and registration dates."
+  },
+  {
+    "id": "eci",
+    "short": "ECI",
+    "name": "Election Commission of India",
+    "publisher": "ECI",
+    "url": "https://www.eci.gov.in",
+    "category": "governance",
+    "priority": 1
+  },
+  {
+    "id": "sansad",
+    "short": "Sansad",
+    "name": "Lok Sabha and Rajya Sabha (Digital Sansad)",
+    "publisher": "Parliament of India",
+    "url": "https://sansad.in",
+    "category": "governance",
+    "priority": 2
+  },
+  {
+    "id": "india-gov",
+    "short": "india.gov.in",
+    "name": "National Portal of India",
+    "publisher": "NIC, MeitY",
+    "url": "https://www.india.gov.in",
+    "category": "governance",
+    "priority": 3
+  },
+  {
+    "id": "igod",
+    "short": "igod.gov.in",
+    "name": "Integrated Government Online Directory",
+    "publisher": "NIC, MeitY",
+    "url": "https://igod.gov.in",
+    "category": "governance",
+    "priority": 4,
+    "notes": "Default 'Verify on official site' link until each State/UT portal is verified."
+  },
+  {
+    "id": "pib",
+    "short": "PIB",
+    "name": "Press Information Bureau",
+    "publisher": "Ministry of Information and Broadcasting",
+    "url": "https://pib.gov.in",
+    "category": "governance",
+    "priority": 5,
+    "notes": "Project inaugurations and official announcements."
+  },
+  {
+    "id": "mha-zonal-councils",
+    "short": "MHA",
+    "name": "Zonal Councils",
+    "publisher": "Ministry of Home Affairs",
+    "url": "https://www.mha.gov.in",
+    "category": "governance",
+    "priority": 6,
+    "notes": "Basis of the region filter (Northern, Central, Eastern, Western, Southern, North-Eastern). A&N and Lakshadweep are grouped as 'Island UTs' editorially."
+  },
+  {
+    "id": "tribal-affairs",
+    "short": "MoTA",
+    "name": "Ministry of Tribal Affairs",
+    "publisher": "MoTA",
+    "url": "https://tribal.nic.in",
+    "category": "tribal-social",
+    "priority": 1,
+    "notes": "Notified STs and PVTGs."
+  },
+  {
+    "id": "ncsc",
+    "short": "NCSC",
+    "name": "National Commission for Scheduled Castes",
+    "publisher": "NCSC",
+    "url": "https://ncsc.nic.in",
+    "category": "tribal-social",
+    "priority": 2
+  },
+  {
+    "id": "ncst",
+    "short": "NCST",
+    "name": "National Commission for Scheduled Tribes",
+    "publisher": "NCST",
+    "url": "https://ncst.nic.in",
+    "category": "tribal-social",
+    "priority": 3
+  },
+  {
+    "id": "imd",
+    "short": "IMD",
+    "name": "India Meteorological Department",
+    "publisher": "IMD, Ministry of Earth Sciences",
+    "url": "https://mausam.imd.gov.in",
+    "category": "climate-hazards",
+    "priority": 1
+  },
+  {
+    "id": "ndma",
+    "short": "NDMA",
+    "name": "National Disaster Management Authority",
+    "publisher": "NDMA",
+    "url": "https://ndma.gov.in",
+    "category": "climate-hazards",
+    "priority": 2
+  },
+  {
+    "id": "bis",
+    "short": "BIS",
+    "name": "Bureau of Indian Standards — seismic zonation (IS 1893)",
+    "publisher": "BIS",
+    "url": "https://www.bis.gov.in",
+    "category": "climate-hazards",
+    "priority": 3
+  },
+  {
+    "id": "survey-of-india",
+    "short": "Survey of India",
+    "name": "Survey of India — official political map",
+    "publisher": "Survey of India, DST",
+    "url": "https://surveyofindia.gov.in",
+    "category": "maps",
+    "priority": 1,
+    "notes": "Only boundary source permitted (Principle 8)."
+  },
+  {
+    "id": "iso-3166",
+    "short": "ISO 3166-2",
+    "name": "ISO 3166-2:IN subdivision codes",
+    "publisher": "International Organization for Standardization",
+    "url": "https://www.iso.org/obp/ui/#iso:code:3166:IN",
+    "category": "standards",
+    "priority": 1
+  },
+  {
+    "id": "open-meteo",
+    "short": "Open-Meteo",
+    "name": "Open-Meteo weather API",
+    "publisher": "Open-Meteo (third party)",
+    "url": "https://open-meteo.com",
+    "category": "climate-hazards",
+    "priority": 9,
+    "notes": "Live weather widget only; labelled 'Live', never used for climate normals."
+  },
+  {
+    "id": "mh-sdb",
+    "short": "Maharashtra State Data Bank",
+    "name": "Maharashtra State Data Bank — Maharashtra's comparison with India",
+    "publisher": "Directorate of Economics & Statistics, Government of Maharashtra",
+    "url": "https://mahasdb.maharashtra.gov.in",
+    "category": "demographics",
+    "priority": 4,
+    "notes": "State-published compilation of Census and other official figures."
+  },
+  {
+    "id": "mh-gov",
+    "short": "Government of Maharashtra",
+    "name": "Government of Maharashtra departmental portals",
+    "publisher": "Government of Maharashtra",
+    "url": "https://www.maharashtra.gov.in",
+    "category": "governance",
+    "priority": 7,
+    "notes": "Cite the specific department page in each data point's url."
+  },
+  {
+    "id": "mh-lokbhavan",
+    "short": "Lok Bhavan, Maharashtra",
+    "name": "Lok Bhavan (formerly Raj Bhavan), Maharashtra",
+    "publisher": "Office of the Governor of Maharashtra",
+    "url": "https://lokbhavan.maharashtra.gov.in",
+    "category": "governance",
+    "priority": 8
+  },
+  {
+    "id": "newsonair",
+    "short": "All India Radio News",
+    "name": "News On AIR",
+    "publisher": "Prasar Bharati (public broadcaster)",
+    "url": "https://www.newsonair.gov.in",
+    "category": "governance",
+    "priority": 9,
+    "notes": "Used to confirm dated public events (oaths, inaugurations) when no ministry release is available."
+  },
+  {
+    "id": "nhsrcl",
+    "short": "NHSRCL",
+    "name": "National High Speed Rail Corporation Limited",
+    "publisher": "Ministry of Railways",
+    "url": "https://www.nhsrcl.in",
+    "category": "transport-energy",
+    "priority": 8
+  },
+  {
+    "id": "mh-tourism",
+    "short": "Maharashtra Tourism",
+    "name": "Department of Tourism, Government of Maharashtra",
+    "publisher": "Government of Maharashtra",
+    "url": "https://maharashtratourism.gov.in",
+    "category": "tourism-heritage",
+    "priority": 4
+  },
+  {
+    "id": "indian-wetlands",
+    "short": "MoEFCC Ramsar list",
+    "name": "Ramsar Sites of India (MoEFCC list)",
+    "publisher": "Ministry of Environment, Forest and Climate Change (Indian Wetlands portal)",
+    "url": "https://indianwetlands.in",
+    "category": "environment",
+    "priority": 5
+  },
+  {
+    "id": "bar-and-bench",
+    "short": "Bar & Bench",
+    "name": "Bar & Bench",
+    "publisher": "Bar & Bench (legal news, third party)",
+    "url": "https://www.barandbench.com",
+    "category": "governance",
+    "priority": 20,
+    "notes": "Third-party. Replace with the High Court's own notification when linked."
+  },
+  {
+    "id": "npcil",
+    "short": "NPCIL",
+    "name": "Nuclear Power Corporation of India Limited",
+    "publisher": "Department of Atomic Energy",
+    "url": "https://www.npcil.nic.in",
+    "category": "transport-energy",
+    "priority": 9
+  },
+  {
+    "id": "kl-spb",
+    "short": "Kerala State Planning Board",
+    "name": "Economic Review (Kerala State Planning Board)",
+    "publisher": "Kerala State Planning Board, Government of Kerala",
+    "url": "https://spb.kerala.gov.in",
+    "category": "economy",
+    "priority": 4,
+    "notes": "State-published compilation of Census 2011 and economic data."
+  },
+  {
+    "id": "kl-gov",
+    "short": "Government of Kerala",
+    "name": "Government of Kerala portal",
+    "publisher": "Government of Kerala",
+    "url": "https://kerala.gov.in",
+    "category": "governance",
+    "priority": 7
+  },
+  {
+    "id": "prs",
+    "short": "PRS Legislative Research",
+    "name": "PRS Bill Track",
+    "publisher": "PRS Legislative Research (independent, non-profit)",
+    "url": "https://prsindia.org",
+    "category": "governance",
+    "priority": 10,
+    "notes": "Independent tracker of Parliament's legislative record; used for bill dates."
+  },
+  {
+    "id": "onmanorama",
+    "short": "Onmanorama",
+    "name": "Onmanorama (Malayala Manorama)",
+    "publisher": "Malayala Manorama (news, third party)",
+    "url": "https://www.onmanorama.com",
+    "category": "governance",
+    "priority": 20,
+    "notes": "Third-party. Replace with the Gazette of India notification once linked."
+  },
+  {
+    "id": "keralakaumudi",
+    "short": "Kerala Kaumudi",
+    "name": "Kerala Kaumudi",
+    "publisher": "Kerala Kaumudi (news, third party)",
+    "url": "https://keralakaumudi.com",
+    "category": "governance",
+    "priority": 21,
+    "notes": "Third-party."
+  },
+  {
+    "id": "uni",
+    "short": "UNI",
+    "name": "United News of India",
+    "publisher": "United News of India (news agency, third party)",
+    "url": "https://www.uniindia.com",
+    "category": "governance",
+    "priority": 22,
+    "notes": "Third-party."
+  },
+  {
+    "id": "cag",
+    "short": "CAG",
+    "name": "Comptroller and Auditor General of India — State Finances Audit Report",
+    "publisher": "Office of the Comptroller and Auditor General of India",
+    "url": "https://cag.gov.in",
+    "category": "economy",
+    "priority": 7
+  },
+  {
+    "id": "pmindia",
+    "short": "PMO",
+    "name": "Prime Minister's Office — news updates",
+    "publisher": "Prime Minister's Office",
+    "url": "https://www.pmindia.gov.in",
+    "category": "governance",
+    "priority": 6
+  },
+  {
+    "id": "dl-planning",
+    "short": "Economic Survey of Delhi",
+    "name": "Economic Survey of Delhi 2023-24",
+    "publisher": "Planning Department, Government of NCT of Delhi",
+    "url": "https://delhiplanning.delhi.gov.in",
+    "category": "economy",
+    "priority": 4
+  },
+  {
+    "id": "dl-gov",
+    "short": "Government of NCT of Delhi",
+    "name": "Government of NCT of Delhi portal",
+    "publisher": "Government of NCT of Delhi",
+    "url": "https://delhi.gov.in",
+    "category": "governance",
+    "priority": 7
+  },
+  {
+    "id": "dl-lg",
+    "short": "Lok Niwas, Delhi",
+    "name": "Office of the Lieutenant Governor, Delhi",
+    "publisher": "Lok Niwas, Delhi",
+    "url": "https://lg.delhi.gov.in",
+    "category": "governance",
+    "priority": 8
+  },
+  {
+    "id": "pioneer",
+    "short": "The Pioneer",
+    "name": "The Pioneer",
+    "publisher": "The Pioneer (news, third party)",
+    "url": "https://www.dailypioneer.com",
+    "category": "governance",
+    "priority": 23,
+    "notes": "Third-party."
+  },
+  {
+    "id": "tribune",
+    "short": "The Tribune",
+    "name": "The Tribune",
+    "publisher": "The Tribune (news, third party)",
+    "url": "https://www.tribuneindia.com",
+    "category": "governance",
+    "priority": 24,
+    "notes": "Third-party."
+  },
+  {
+    "id": "la-gov",
+    "short": "UT Administration of Ladakh",
+    "name": "Union Territory of Ladakh portal",
+    "publisher": "Administration of Union Territory of Ladakh",
+    "url": "https://ladakh.gov.in",
+    "category": "governance",
+    "priority": 7
+  },
+  {
+    "id": "kargil-nic",
+    "short": "District Kargil",
+    "name": "District Kargil — Demography",
+    "publisher": "District Administration Kargil",
+    "url": "https://kargil.nic.in",
+    "category": "demographics",
+    "priority": 5
+  },
+  {
+    "id": "ncrtc",
+    "short": "NCRTC",
+    "name": "National Capital Region Transport Corporation",
+    "publisher": "NCRTC (Government of India and participating States)",
+    "url": "https://ncrtc.in",
+    "category": "transport-energy",
+    "priority": 9
+  },
+  {
+    "id": "dmrc",
+    "short": "DMRC",
+    "name": "Delhi Metro Rail Corporation",
+    "publisher": "DMRC (Government of India and GNCTD)",
+    "url": "https://www.delhimetrorail.com",
+    "category": "transport-energy",
+    "priority": 9
+  },
+  {
+    "id": "tn-des",
+    "short": "Tamil Nadu DES",
+    "name": "Tamil Nadu at a Glance / Select Socio-Economic Indicators of Tamil Nadu and India",
+    "publisher": "Department of Economics and Statistics, Government of Tamil Nadu",
+    "url": "https://des.tn.gov.in",
+    "category": "demographics",
+    "priority": 5,
+    "notes": "State-published compilation of Census 2011 figures."
+  },
+  {
+    "id": "up-des",
+    "short": "UP DES",
+    "name": "Uttar Pradesh in Figures / UP at a Glance",
+    "publisher": "Economics & Statistics Division, State Planning Institute, Government of Uttar Pradesh",
+    "url": "https://updes.up.nic.in",
+    "category": "demographics",
+    "priority": 5,
+    "notes": "State-published compilation of Census 2011 figures."
+  },
+  {
+    "id": "py-des",
+    "short": "Puducherry DES",
+    "name": "State-wise Population, Census 2011",
+    "publisher": "Directorate of Economics and Statistics, Government of Puducherry (citing ORGI)",
+    "url": "https://statistics.py.gov.in/state-wise-population",
+    "category": "demographics",
+    "priority": 6,
+    "notes": "Used as a cross-check of State totals and sex ratios."
+  },
+  {
+    "id": "president-of-india",
+    "short": "Rashtrapati Bhavan",
+    "name": "President of India — official website",
+    "publisher": "President's Secretariat",
+    "url": "https://presidentofindia.gov.in",
+    "category": "governance",
+    "priority": 5
+  },
+  {
+    "id": "vice-president-of-india",
+    "short": "Vice-President's Secretariat",
+    "name": "Vice-President of India — official website",
+    "publisher": "Vice-President's Secretariat",
+    "url": "https://vicepresidentofindia.nic.in",
+    "category": "governance",
+    "priority": 5
+  }
+]

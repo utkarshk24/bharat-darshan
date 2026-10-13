@@ -1,0 +1,216 @@
+{
+  "region": "IN-LA",
+  "module": "geography",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Ladakh lies on the Tibetan plateau's western edge, mostly above 3,000 m. Parallel ranges run north-west to south-east — the Great Himalaya, Zanskar, Ladakh and Karakoram — with the Indus flowing between them past Leh. Its tributaries, the Shyok and Nubra in the north and the Zanskar and Suru in the south and west, carve the main inhabited valleys. The Changthang plateau in the east holds high saline and freshwater lakes, including Pangong Tso, Tso Moriri and Tso Kar.\n\nLadakh borders Jammu & Kashmir to the west and Himachal Pradesh to the south. India's official map shows its boundaries extending to areas under the occupation of Pakistan and China, which is why area figures from different sources do not match.",
+        "hi": "लद्दाख तिब्बती पठार के पश्चिमी किनारे पर है, जिसका अधिकांश भाग 3,000 मीटर से ऊपर है। समानांतर पर्वत श्रेणियाँ उत्तर-पश्चिम से दक्षिण-पूर्व तक फैली हैं — महान हिमालय, ज़ांस्कर, लद्दाख और काराकोरम — और उनके बीच सिंधु लेह के पास से बहती है। उत्तर में श्योक और नुब्रा तथा दक्षिण व पश्चिम में ज़ांस्कर और सुरू जैसी सहायक नदियाँ मुख्य आबाद घाटियाँ बनाती हैं। पूर्व में चांगथांग पठार पर ऊँची खारी और मीठे पानी की झीलें हैं, जिनमें पैंगोंग त्सो, त्सो मोरीरी और त्सो कार शामिल हैं।\n\nलद्दाख के पश्चिम में जम्मू-कश्मीर और दक्षिण में हिमाचल प्रदेश है। भारत के आधिकारिक मानचित्र में इसकी सीमाएँ पाकिस्तान और चीन के कब्ज़े वाले क्षेत्रों तक दिखाई गई हैं, इसलिए विभिन्न स्रोतों के क्षेत्रफल आँकड़े मेल नहीं खाते।",
+        "mr": "लडाख तिबेटी पठाराच्या पश्चिम कडेवर असून त्याचा बहुतांश भाग 3,000 मीटरपेक्षा उंच आहे. समांतर पर्वतरांगा वायव्येकडून आग्नेयेकडे पसरल्या आहेत — महान हिमालय, झांस्कर, लडाख आणि काराकोरम — आणि त्यांच्यामधून सिंधू नदी लेहजवळून वाहते. उत्तरेकडील श्योक व नुब्रा आणि दक्षिण-पश्चिमेकडील झांस्कर व सुरू या उपनद्यांनी मुख्य वस्ती असलेली खोरी कोरली आहेत. पूर्वेकडील चांगथांग पठारावर उंचावरील खारी व गोड्या पाण्याची सरोवरे आहेत — पँगाँग त्सो, त्सो मोरिरी आणि त्सो कार.\n\nलडाखच्या पश्चिमेला जम्मू-काश्मीर आणि दक्षिणेला हिमाचल प्रदेश आहे. भारताच्या अधिकृत नकाशात त्याच्या सीमा पाकिस्तान व चीनच्या ताब्यातील प्रदेशांपर्यंत दाखवल्या आहेत, म्हणूनच वेगवेगळ्या स्रोतांतील क्षेत्रफळाचे आकडे जुळत नाहीत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "jk",
+          "name": {
+            "en": "Jammu & Kashmir (west)",
+            "hi": "जम्मू और कश्मीर (पश्चिम)",
+            "mr": "जम्मू आणि काश्मीर (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hp",
+          "name": {
+            "en": "Himachal Pradesh (south)",
+            "hi": "हिमाचल प्रदेश (दक्षिण)",
+            "mr": "हिमाचल प्रदेश (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbouring States and UTs",
+        "hi": "पड़ोसी राज्य और केंद्र शासित प्रदेश",
+        "mr": "शेजारी राज्ये व केंद्रशासित प्रदेश",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "indus",
+          "name": {
+            "en": "Indus (Sindhu)",
+            "hi": "सिंधु",
+            "mr": "सिंधू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Enters from Tibet and flows north-west past Leh.",
+            "hi": "तिब्बत से प्रवेश कर लेह के पास से उत्तर-पश्चिम की ओर बहती है।",
+            "mr": "तिबेटमधून प्रवेश करून लेहजवळून वायव्येकडे वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shyok",
+          "name": {
+            "en": "Shyok and Nubra",
+            "hi": "श्योक और नुब्रा",
+            "mr": "श्योक व नुब्रा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Northern valleys below the Karakoram.",
+            "hi": "काराकोरम के नीचे की उत्तरी घाटियाँ।",
+            "mr": "काराकोरमखालील उत्तरेकडील खोरी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "zanskar",
+          "name": {
+            "en": "Zanskar",
+            "hi": "ज़ांस्कर",
+            "mr": "झांस्कर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows through deep gorges to join the Indus near Nimmu; frozen in winter.",
+            "hi": "गहरी घाटियों से होकर निम्मू के पास सिंधु से मिलती है; सर्दियों में जम जाती है।",
+            "mr": "खोल घळींतून वाहत निम्मूजवळ सिंधूला मिळते; हिवाळ्यात गोठते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "suru",
+          "name": {
+            "en": "Suru",
+            "hi": "सुरू",
+            "mr": "सुरू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows past Kargil; its valley is the main farming area of Kargil district.",
+            "hi": "कारगिल के पास से बहती है; इसकी घाटी कारगिल ज़िले का मुख्य कृषि क्षेत्र है।",
+            "mr": "कारगिलजवळून वाहते; तिचे खोरे कारगिल जिल्ह्याचा मुख्य शेती प्रदेश आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Geographical area (administered and as per India's map)",
+            "hi": "भौगोलिक क्षेत्रफल (प्रशासित और भारत के मानचित्र के अनुसार)",
+            "mr": "भौगोलिक क्षेत्रफळ (प्रशासित व भारताच्या नकाशानुसार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Record both with clear labels."
+        },
+        {
+          "label": {
+            "en": "Elevation of main settlements and passes",
+            "hi": "मुख्य बस्तियों और दर्रों की ऊँचाई",
+            "mr": "मुख्य वस्त्या व खिंडींची उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "IS 1893 (Part 1), current revision."
+        }
+      ]
+    }
+  ]
+}

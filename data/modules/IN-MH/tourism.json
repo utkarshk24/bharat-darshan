@@ -1,0 +1,695 @@
+{
+  "region": "IN-MH",
+  "module": "tourism",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Maharashtra received about 18.94 crore domestic and 37 lakh foreign tourist visits in 2024, according to the Ministry of Tourism. The main draws are the Ajanta and Ellora caves, Mumbai's Victorian and Art Deco architecture, the Maratha forts, pilgrimage centres such as Shirdi, Pandharpur, Trimbakeshwar and the Jyotirlinga at Bhimashankar, hill stations such as Mahabaleshwar, Matheran and Lonavala, the Konkan beaches, and tiger safaris at Tadoba.\n\nNo special permit is needed for Indian or foreign visitors, apart from standard rules in protected areas and defence zones.",
+        "hi": "पर्यटन मंत्रालय के अनुसार 2024 में महाराष्ट्र में लगभग 18.94 करोड़ घरेलू और 37 लाख विदेशी पर्यटक-यात्राएँ हुईं। मुख्य आकर्षण हैं अजंता और एलोरा की गुफ़ाएँ, मुंबई की विक्टोरियन और आर्ट डेको इमारतें, मराठा क़िले, शिर्डी, पंढरपुर, त्र्यंबकेश्वर और भीमाशंकर ज्योतिर्लिंग जैसे तीर्थ, महाबलेश्वर, माथेरान और लोनावला जैसे हिल स्टेशन, कोंकण के समुद्र तट और ताडोबा में बाघ सफ़ारी।\n\nभारतीय या विदेशी पर्यटकों के लिए कोई विशेष परमिट ज़रूरी नहीं है; केवल संरक्षित क्षेत्रों और रक्षा क्षेत्रों के सामान्य नियम लागू होते हैं।",
+        "mr": "पर्यटन मंत्रालयानुसार 2024 मध्ये महाराष्ट्राला सुमारे 18.94 कोटी देशी आणि 37 लाख परदेशी पर्यटक भेटी मिळाल्या. अजिंठा-वेरूळ लेणी, मुंबईतील व्हिक्टोरियन व आर्ट डेको इमारती, मराठा किल्ले, शिर्डी, पंढरपूर, त्र्यंबकेश्वर व भीमाशंकर ज्योतिर्लिंग यांसारखी तीर्थक्षेत्रे, महाबळेश्वर, माथेरान, लोणावळा यांसारखी थंड हवेची ठिकाणे, कोकणातील समुद्रकिनारे आणि ताडोब्यातील व्याघ्र सफारी ही प्रमुख आकर्षणे आहेत.\n\nभारतीय किंवा परदेशी पर्यटकांना विशेष परवान्याची गरज नाही; केवळ संरक्षित क्षेत्रे व संरक्षण क्षेत्रांचे नेहमीचे नियम लागू होतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "tourism"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "dtv",
+          "label": {
+            "en": "Domestic tourist visits",
+            "hi": "घरेलू पर्यटक यात्राएँ",
+            "mr": "देशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 189371541,
+            "unit": "visits",
+            "period": "2024",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2199002&reg=1&lang=1",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Ministry of Tourism, via PIB Mumbai (4 Dec 2025)."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "previous": {
+            "value": 161359527,
+            "unit": "visits",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2199002&reg=1&lang=1",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "ftv",
+          "label": {
+            "en": "Foreign tourist visits",
+            "hi": "विदेशी पर्यटक यात्राएँ",
+            "mr": "परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 3705170,
+            "unit": "visits",
+            "period": "2024",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2199002&reg=1&lang=1",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Ministry of Tourism, via PIB Mumbai (4 Dec 2025)."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "previous": {
+            "value": 3387739,
+            "unit": "visits",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2199002&reg=1&lang=1",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "visits",
+      "title": {
+        "en": "Tourist visits, 2022–2024",
+        "hi": "पर्यटक यात्राएँ, 2022–2024",
+        "mr": "पर्यटक भेटी, 2022–2024",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "count",
+      "polarity": "neutral",
+      "series": [
+        {
+          "id": "dtv",
+          "label": {
+            "en": "Domestic",
+            "hi": "घरेलू",
+            "mr": "देशी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 111297624,
+              "unit": "visits",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2199002&reg=1&lang=1",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 161359527,
+              "unit": "visits",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2199002&reg=1&lang=1",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 189371541,
+              "unit": "visits",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2199002&reg=1&lang=1",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        },
+        {
+          "id": "ftv",
+          "label": {
+            "en": "Foreign",
+            "hi": "विदेशी",
+            "mr": "परदेशी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 1511623,
+              "unit": "visits",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2199002&reg=1&lang=1",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3387739,
+              "unit": "visits",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2199002&reg=1&lang=1",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3705170,
+              "unit": "visits",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2199002&reg=1&lang=1",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ],
+      "note": {
+        "en": "2022 figures reflect the recovery after the pandemic.",
+        "hi": "2022 के आँकड़े महामारी के बाद की वापसी दिखाते हैं।",
+        "mr": "2022 ची आकडेवारी महामारीनंतरचे सावरणे दर्शवते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ajanta",
+          "name": {
+            "en": "Ajanta and Ellora",
+            "hi": "अजंता और एलोरा",
+            "mr": "अजिंठा आणि वेरूळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mumbai",
+          "name": {
+            "en": "South Mumbai heritage precinct and Elephanta",
+            "hi": "दक्षिण मुंबई धरोहर क्षेत्र और एलिफेंटा",
+            "mr": "दक्षिण मुंबई वारसा परिसर आणि घारापुरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "forts",
+          "name": {
+            "en": "Raigad, Rajgad, Sindhudurg and other Maratha forts",
+            "hi": "रायगढ़, राजगढ़, सिंधुदुर्ग और अन्य मराठा क़िले",
+            "mr": "रायगड, राजगड, सिंधुदुर्ग व इतर मराठा किल्ले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage, trekking",
+            "hi": "धरोहर, ट्रेकिंग",
+            "mr": "वारसा, गिर्यारोहण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shirdi",
+          "name": {
+            "en": "Shirdi, Pandharpur, Trimbakeshwar, Bhimashankar",
+            "hi": "शिर्डी, पंढरपुर, त्र्यंबकेश्वर, भीमाशंकर",
+            "mr": "शिर्डी, पंढरपूर, त्र्यंबकेश्वर, भीमाशंकर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Spiritual",
+            "hi": "आध्यात्मिक",
+            "mr": "धार्मिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hills",
+          "name": {
+            "en": "Mahabaleshwar, Matheran, Lonavala",
+            "hi": "महाबलेश्वर, माथेरान, लोनावला",
+            "mr": "महाबळेश्वर, माथेरान, लोणावळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hill stations",
+            "hi": "हिल स्टेशन",
+            "mr": "थंड हवेची ठिकाणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tadoba",
+          "name": {
+            "en": "Tadoba–Andhari Tiger Reserve",
+            "hi": "ताडोबा–अंधारी बाघ अभयारण्य",
+            "mr": "ताडोबा–अंधारी व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Wildlife",
+            "hi": "वन्यजीव",
+            "mr": "वन्यजीव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "konkan",
+          "name": {
+            "en": "Tarkarli, Ganpatipule, Alibag, Diveagar",
+            "hi": "तारकर्ली, गणपतिपुळे, अलीबाग, दिवेआगर",
+            "mr": "तारकर्ली, गणपतीपुळे, अलिबाग, दिवेआगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Beaches",
+            "hi": "समुद्र तट",
+            "mr": "समुद्रकिनारे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kaas",
+          "name": {
+            "en": "Kaas plateau and Lonar crater",
+            "hi": "कास पठार और लोणार क्रेटर",
+            "mr": "कास पठार आणि लोणार विवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Nature, offbeat",
+            "hi": "प्रकृति, कम भीड़ वाले",
+            "mr": "निसर्ग, वेगळी ठिकाणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Mumbai: Gateway of India, Kala Ghoda and the Fort precinct, CSMT; ferry to Elephanta.",
+            "hi": "मुंबई: गेटवे ऑफ़ इंडिया, काला घोड़ा और फ़ोर्ट क्षेत्र, सीएसएमटी; एलिफेंटा तक फ़ेरी।",
+            "mr": "मुंबई: गेटवे ऑफ इंडिया, काळा घोडा व फोर्ट परिसर, सीएसएमटी; घारापुरीला फेरी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Chhatrapati Sambhajinagar base: Ellora and Daulatabad, then a full day at Ajanta.",
+            "hi": "छत्रपति संभाजीनगर से: एलोरा और दौलताबाद, फिर पूरा दिन अजंता।",
+            "mr": "छत्रपती संभाजीनगर मुक्काम: वेरूळ व देवगिरी (दौलताबाद), मग पूर्ण दिवस अजिंठा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pune's wadas and Shaniwar Wada, Sinhagad, then Mahabaleshwar and Pratapgad, and the Kaas plateau in season.",
+            "hi": "पुणे के वाड़े और शनिवारवाड़ा, सिंहगढ़, फिर महाबलेश्वर और प्रतापगढ़, और मौसम में कास पठार।",
+            "mr": "पुण्याचे वाडे व शनिवारवाडा, सिंहगड, मग महाबळेश्वर, प्रतापगड आणि हंगामात कास पठार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Konkan coast by road or Konkan Railway: Alibag, Ganpatipule, Ratnagiri, Sindhudurg fort and Tarkarli.",
+            "hi": "सड़क या कोंकण रेलवे से कोंकण तट: अलीबाग, गणपतिपुळे, रत्नागिरी, सिंधुदुर्ग क़िला और तारकर्ली।",
+            "mr": "रस्त्याने किंवा कोकण रेल्वेने कोकणकिनारा: अलिबाग, गणपतीपुळे, रत्नागिरी, सिंधुदुर्ग किल्ला आणि तारकर्ली.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "schemes",
+      "title": {
+        "en": "Ministry of Tourism projects in Maharashtra (selected)",
+        "hi": "महाराष्ट्र में पर्यटन मंत्रालय की परियोजनाएँ (चयनित)",
+        "mr": "महाराष्ट्रातील पर्यटन मंत्रालयाचे प्रकल्प (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Project",
+            "hi": "परियोजना",
+            "mr": "प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Scheme",
+            "hi": "योजना",
+            "mr": "योजना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Sanctioned (₹ crore)",
+            "hi": "स्वीकृत (₹ करोड़)",
+            "mr": "मंजूर (₹ कोटी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Sindhudurg Coastal Circuit (complete)",
+            "hi": "सिंधुदुर्ग तटीय सर्किट (पूर्ण)",
+            "mr": "सिंधुदुर्ग किनारी सर्किट (पूर्ण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "Swadesh Darshan",
+          "19.06"
+        ],
+        [
+          {
+            "en": "Shivsrushti Historical Theme Park, Phase 3, Pune",
+            "hi": "शिवसृष्टि ऐतिहासिक थीम पार्क, चरण 3, पुणे",
+            "mr": "शिवसृष्टी ऐतिहासिक थीम पार्क, टप्पा 3, पुणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "Swadesh Darshan 2.0",
+          "76.22"
+        ],
+        [
+          {
+            "en": "Trimbakeshwar, Nashik",
+            "hi": "त्र्यंबकेश्वर, नासिक",
+            "mr": "त्र्यंबकेश्वर, नाशिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "PRASHAD",
+          "45.41"
+        ],
+        [
+          {
+            "en": "Ram-Kal Path, Nashik",
+            "hi": "राम-काल पथ, नासिक",
+            "mr": "राम-काल पथ, नाशिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "SASCI",
+          "99.14"
+        ],
+        [
+          {
+            "en": "Ex-INS Guldar underwater museum, Sindhudurg",
+            "hi": "पूर्व आईएनएस गुलदार अंडरवॉटर संग्रहालय, सिंधुदुर्ग",
+            "mr": "माजी आयएनएस गुलदार पाण्याखालील संग्रहालय, सिंधुदुर्ग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "SASCI",
+          "46.91"
+        ],
+        [
+          {
+            "en": "Ahmednagar Fort",
+            "hi": "अहमदनगर क़िला",
+            "mr": "अहमदनगर किल्ला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "CBDD",
+          "25.00"
+        ]
+      ],
+      "sourceId": "pib",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2199002&reg=1&lang=1",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "period": "2015–2025"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Top source markets for foreign visitors",
+            "hi": "विदेशी पर्यटकों के प्रमुख स्रोत देश",
+            "mr": "परदेशी पर्यटकांचे प्रमुख देश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Statistics."
+        },
+        {
+          "label": {
+            "en": "Foreign exchange earnings from tourism",
+            "hi": "पर्यटन से विदेशी मुद्रा आय",
+            "mr": "पर्यटनातून परकीय चलन उत्पन्न",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "Not published state-wise; confirm."
+        }
+      ]
+    }
+  ]
+}

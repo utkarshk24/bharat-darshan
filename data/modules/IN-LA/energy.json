@@ -1,0 +1,55 @@
+{
+  "region": "IN-LA",
+  "module": "energy",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Ladakh has some of India's best solar conditions — high altitude, clear skies and cold air — as well as geothermal heat in the Puga valley. Local supply has come from small hydro stations on the Indus and Suru and, in remote areas, diesel generators; the region was connected to the national grid by a high-altitude transmission line in 2019. Large renewable-energy parks have been planned to export power to the rest of India.",
+        "hi": "लद्दाख में भारत की कुछ सबसे अच्छी सौर परिस्थितियाँ हैं — ऊँचाई, साफ़ आसमान और ठंडी हवा — साथ ही पुगा घाटी में भूतापीय ऊष्मा भी। स्थानीय आपूर्ति सिंधु और सुरू पर छोटे पनबिजली केंद्रों और दूरदराज़ के क्षेत्रों में डीज़ल जनरेटरों से होती रही है; 2019 में ऊँचाई पर बनी ट्रांसमिशन लाइन से यह क्षेत्र राष्ट्रीय ग्रिड से जुड़ा। शेष भारत को बिजली भेजने के लिए बड़े नवीकरणीय ऊर्जा पार्कों की योजना बनाई गई है।",
+        "mr": "लडाखमध्ये भारतातील काही सर्वोत्तम सौर परिस्थिती आहे — उंची, निरभ्र आकाश आणि थंड हवा — तसेच पुगा खोऱ्यात भूऔष्णिक उष्णताही आहे. स्थानिक पुरवठा सिंधू व सुरूवरील लहान जलविद्युत केंद्रांतून आणि दुर्गम भागांत डिझेल जनित्रांतून होत आला आहे; 2019 मध्ये उंचावरील पारेषण वाहिनीद्वारे हा प्रदेश राष्ट्रीय ग्रिडला जोडला गेला. उर्वरित भारताला वीज पाठवण्यासाठी मोठ्या नवीकरणीय ऊर्जा उद्यानांचे नियोजन झाले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Solar and geothermal potential (official estimates)",
+            "hi": "सौर और भूतापीय क्षमता (आधिकारिक अनुमान)",
+            "mr": "सौर व भूऔष्णिक क्षमता (अधिकृत अंदाज)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE / NIWE."
+        }
+      ]
+    }
+  ]
+}

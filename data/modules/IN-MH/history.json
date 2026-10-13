@@ -1,0 +1,550 @@
+{
+  "region": "IN-MH",
+  "module": "history",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The region's recorded history begins with the Satavahanas, who ruled much of the Deccan from Pratishthana (today's Paithan) around the turn of the common era. Successive dynasties — Vakatakas, Chalukyas, Rashtrakutas and the Yadavas of Devagiri — left behind the cave temples of Ajanta and Ellora. From the 14th century the Deccan sultanates held power until Chhatrapati Shivaji Maharaj founded the Maratha state in the 17th century. Maratha power later spread across much of India under the Peshwas, before British victory in 1818.\n\nUnder British rule, Bombay grew into a port and textile city and a centre of social reform and the freedom movement. After independence, the Samyukta Maharashtra movement led to the creation of a Marathi-speaking State on 1 May 1960.",
+        "hi": "इस क्षेत्र का दर्ज इतिहास सातवाहनों से शुरू होता है, जिन्होंने ईसवी सन् के आसपास प्रतिष्ठान (आज का पैठण) से दक्कन के बड़े हिस्से पर शासन किया। बाद के राजवंशों — वाकाटक, चालुक्य, राष्ट्रकूट और देवगिरि के यादव — ने अजंता और एलोरा के गुफ़ा मंदिर छोड़े। 14वीं सदी से दक्कन की सल्तनतें सत्ता में रहीं, जब तक कि 17वीं सदी में छत्रपति शिवाजी महाराज ने मराठा राज्य की स्थापना नहीं की। बाद में पेशवाओं के नेतृत्व में मराठा शक्ति भारत के बड़े हिस्से तक फैली, और 1818 में अंग्रेज़ों की जीत हुई।\n\nब्रिटिश शासन में बंबई बंदरगाह और कपड़ा उद्योग का शहर बना, और समाज सुधार तथा स्वतंत्रता आंदोलन का केंद्र भी। आज़ादी के बाद संयुक्त महाराष्ट्र आंदोलन के फलस्वरूप 1 मई 1960 को मराठी भाषी राज्य बना।",
+        "mr": "या प्रदेशाचा लिखित इतिहास सातवाहनांपासून सुरू होतो; इसवी सनाच्या आसपास त्यांनी प्रतिष्ठान (आजचे पैठण) येथून दख्खनच्या मोठ्या भागावर राज्य केले. त्यानंतरच्या राजघराण्यांनी — वाकाटक, चालुक्य, राष्ट्रकूट आणि देवगिरीचे यादव — अजिंठा-वेरूळची लेणी मागे ठेवली. चौदाव्या शतकापासून दख्खनच्या सुलतानशाह्या सत्तेवर होत्या; सतराव्या शतकात छत्रपती शिवाजी महाराजांनी मराठा राज्याची स्थापना केली. पुढे पेशव्यांच्या काळात मराठा सत्ता भारताच्या मोठ्या भागात पसरली, आणि 1818 मध्ये इंग्रजांचा विजय झाला.\n\nब्रिटिश राजवटीत मुंबई बंदर आणि कापडगिरण्यांचे शहर बनली, तसेच समाजसुधारणा आणि स्वातंत्र्यलढ्याचे केंद्रही. स्वातंत्र्यानंतर संयुक्त महाराष्ट्र चळवळीतून 1 मे 1960 रोजी मराठी भाषिक राज्य निर्माण झाले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "timeline",
+      "id": "t",
+      "title": {
+        "en": "Timeline",
+        "hi": "समयरेखा",
+        "mr": "कालरेषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "events": [
+        {
+          "id": "satavahana",
+          "year": -100,
+          "when": {
+            "en": "c. 1st century BCE",
+            "hi": "लगभग पहली सदी ईसा पूर्व",
+            "mr": "सुमारे इ.स.पू. पहिले शतक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "Satavahanas rule from Pratishthana (Paithan)",
+            "hi": "प्रतिष्ठान (पैठण) से सातवाहनों का शासन",
+            "mr": "प्रतिष्ठान (पैठण) येथून सातवाहनांची राजवट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ajanta",
+          "year": 460,
+          "when": {
+            "en": "5th century CE",
+            "hi": "5वीं सदी ईसवी",
+            "mr": "इ.स. पाचवे शतक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "Major phase of the Ajanta caves under the Vakatakas",
+            "hi": "वाकाटकों के समय अजंता गुफ़ाओं का प्रमुख चरण",
+            "mr": "वाकाटकांच्या काळात अजिंठा लेण्यांचा प्रमुख टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kailasa",
+          "year": 760,
+          "when": {
+            "en": "8th century",
+            "hi": "8वीं सदी",
+            "mr": "आठवे शतक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "Kailasa temple carved at Ellora under the Rashtrakutas",
+            "hi": "राष्ट्रकूटों के समय एलोरा में कैलास मंदिर की खुदाई",
+            "mr": "राष्ट्रकूटांच्या काळात वेरूळ येथे कैलास मंदिराचे कोरीवकाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dnyaneshwari",
+          "year": 1290,
+          "when": {
+            "en": "1290",
+            "hi": "1290",
+            "mr": "1290",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "Sant Dnyaneshwar completes the Dnyaneshwari",
+            "hi": "संत ज्ञानेश्वर ने ज्ञानेश्वरी पूरी की",
+            "mr": "संत ज्ञानेश्वरांनी ज्ञानेश्वरी पूर्ण केली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bahmani",
+          "year": 1347,
+          "when": {
+            "en": "1347",
+            "hi": "1347",
+            "mr": "1347",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "Bahmani Sultanate founded in the Deccan",
+            "hi": "दक्कन में बहमनी सल्तनत की स्थापना",
+            "mr": "दख्खनमध्ये बहमनी सुलतानशाहीची स्थापना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shivaji",
+          "year": 1674,
+          "when": {
+            "en": "1674",
+            "hi": "1674",
+            "mr": "1674",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "Coronation of Chhatrapati Shivaji Maharaj at Raigad",
+            "hi": "रायगढ़ में छत्रपति शिवाजी महाराज का राज्याभिषेक",
+            "mr": "रायगडावर छत्रपती शिवाजी महाराजांचा राज्याभिषेक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "1818",
+          "year": 1818,
+          "when": {
+            "en": "1818",
+            "hi": "1818",
+            "mr": "1818",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "End of Peshwa rule after the Third Anglo-Maratha War",
+            "hi": "तीसरे आंग्ल-मराठा युद्ध के बाद पेशवा शासन का अंत",
+            "mr": "तिसऱ्या इंग्रज-मराठा युद्धानंतर पेशवाईचा अस्त",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rail",
+          "year": 1853,
+          "when": {
+            "en": "16 April 1853",
+            "hi": "16 अप्रैल 1853",
+            "mr": "16 एप्रिल 1853",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "India's first passenger train runs from Bori Bunder to Thane",
+            "hi": "बोरी बंदर से ठाणे तक भारत की पहली यात्री रेलगाड़ी चली",
+            "mr": "बोरीबंदर ते ठाणे अशी भारतातील पहिली प्रवासी रेल्वे धावली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "satyashodhak",
+          "year": 1873,
+          "when": {
+            "en": "1873",
+            "hi": "1873",
+            "mr": "1873",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "Jyotirao Phule founds the Satyashodhak Samaj",
+            "hi": "ज्योतिराव फुले ने सत्यशोधक समाज की स्थापना की",
+            "mr": "जोतीराव फुले यांनी सत्यशोधक समाजाची स्थापना केली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "inc",
+          "year": 1885,
+          "when": {
+            "en": "1885",
+            "hi": "1885",
+            "mr": "1885",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "Indian National Congress holds its first session in Bombay",
+            "hi": "बंबई में भारतीय राष्ट्रीय कांग्रेस का पहला अधिवेशन",
+            "mr": "मुंबईत भारतीय राष्ट्रीय काँग्रेसचे पहिले अधिवेशन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mahad",
+          "year": 1927,
+          "when": {
+            "en": "1927",
+            "hi": "1927",
+            "mr": "1927",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "Dr B. R. Ambedkar leads the Mahad Satyagraha",
+            "hi": "डॉ. बी. आर. आंबेडकर के नेतृत्व में महाड सत्याग्रह",
+            "mr": "डॉ. बाबासाहेब आंबेडकरांच्या नेतृत्वाखाली महाडचा सत्याग्रह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "quit",
+          "year": 1942,
+          "when": {
+            "en": "8 August 1942",
+            "hi": "8 अगस्त 1942",
+            "mr": "8 ऑगस्ट 1942",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "Quit India resolution adopted at Gowalia Tank, Bombay",
+            "hi": "बंबई के गोवालिया टैंक मैदान में भारत छोड़ो प्रस्ताव पारित",
+            "mr": "मुंबईतील गोवालिया टँक मैदानावर ‘चले जाव’ ठराव मंजूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "1960",
+          "year": 1960,
+          "when": {
+            "en": "1 May 1960",
+            "hi": "1 मई 1960",
+            "mr": "1 मे 1960",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "label": {
+            "en": "Maharashtra State formed",
+            "hi": "महाराष्ट्र राज्य का गठन",
+            "mr": "महाराष्ट्र राज्याची स्थापना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Bombay Reorganisation Act, 1960, after the Samyukta Maharashtra movement.",
+            "hi": "संयुक्त महाराष्ट्र आंदोलन के बाद बंबई पुनर्गठन अधिनियम, 1960।",
+            "mr": "संयुक्त महाराष्ट्र चळवळीनंतर मुंबई पुनर्रचना अधिनियम, 1960.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "whs",
+      "title": {
+        "en": "UNESCO World Heritage properties",
+        "hi": "यूनेस्को विश्व धरोहर स्थल",
+        "mr": "युनेस्को जागतिक वारसा स्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Property",
+            "hi": "स्थल",
+            "mr": "स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Inscribed",
+            "hi": "सूची में शामिल",
+            "mr": "समावेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Type",
+            "hi": "प्रकार",
+            "mr": "प्रकार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Ajanta Caves",
+            "hi": "अजंता गुफ़ाएँ",
+            "mr": "अजिंठा लेणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1983",
+          {
+            "en": "Cultural",
+            "hi": "सांस्कृतिक",
+            "mr": "सांस्कृतिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        ],
+        [
+          {
+            "en": "Ellora Caves",
+            "hi": "एलोरा गुफ़ाएँ",
+            "mr": "वेरूळ लेणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1983",
+          {
+            "en": "Cultural",
+            "hi": "सांस्कृतिक",
+            "mr": "सांस्कृतिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        ],
+        [
+          {
+            "en": "Elephanta Caves",
+            "hi": "एलिफेंटा गुफ़ाएँ",
+            "mr": "घारापुरी (एलिफंटा) लेणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1987",
+          {
+            "en": "Cultural",
+            "hi": "सांस्कृतिक",
+            "mr": "सांस्कृतिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        ],
+        [
+          {
+            "en": "Chhatrapati Shivaji Terminus",
+            "hi": "छत्रपति शिवाजी टर्मिनस",
+            "mr": "छत्रपती शिवाजी टर्मिनस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2004",
+          {
+            "en": "Cultural",
+            "hi": "सांस्कृतिक",
+            "mr": "सांस्कृतिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        ],
+        [
+          {
+            "en": "Western Ghats (serial, shared with other States)",
+            "hi": "पश्चिमी घाट (कई राज्यों में फैली शृंखला)",
+            "mr": "पश्चिम घाट (अनेक राज्यांत विखुरलेली मालिका)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2012",
+          {
+            "en": "Natural",
+            "hi": "प्राकृतिक",
+            "mr": "नैसर्गिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        ],
+        [
+          {
+            "en": "Victorian Gothic and Art Deco Ensembles of Mumbai",
+            "hi": "मुंबई के विक्टोरियन गॉथिक और आर्ट डेको समूह",
+            "mr": "मुंबईतील व्हिक्टोरियन गॉथिक व आर्ट डेको वास्तुसमूह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2018",
+          {
+            "en": "Cultural",
+            "hi": "सांस्कृतिक",
+            "mr": "सांस्कृतिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        ],
+        [
+          {
+            "en": "Maratha Military Landscapes of India (11 of 12 forts are in Maharashtra)",
+            "hi": "भारत के मराठा सैन्य परिदृश्य (12 में से 11 क़िले महाराष्ट्र में)",
+            "mr": "भारतातील मराठा लष्करी भूप्रदेश (12 पैकी 11 किल्ले महाराष्ट्रात)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2025",
+          {
+            "en": "Cultural",
+            "hi": "सांस्कृतिक",
+            "mr": "सांस्कृतिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        ]
+      ],
+      "sourceId": "unesco-whc",
+      "url": "https://whc.unesco.org/en/statesparties/in",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "note": {
+        "en": "The Maratha forts are Shivneri, Lohagad, Raigad, Suvarnadurg, Panhala, Vijaydurg, Sindhudurg, Salher, Rajgad, Khanderi and Pratapgad; the twelfth, Gingee, is in Tamil Nadu. On the Tentative List: coastal fortifications of the Konkan (2024) and the Deccan Traps at Panchgani and Mahabaleshwar (2025).",
+        "hi": "मराठा क़िले हैं: शिवनेरी, लोहगढ़, रायगढ़, सुवर्णदुर्ग, पन्हाला, विजयदुर्ग, सिंधुदुर्ग, साल्हेर, राजगढ़, खांदेरी और प्रतापगढ़; बारहवाँ, जिंजी, तमिलनाडु में है। संभावित सूची में: कोंकण के तटीय क़िले (2024) और पंचगनी व महाबलेश्वर के दक्कन ट्रैप (2025)।",
+        "mr": "मराठा किल्ले: शिवनेरी, लोहगड, रायगड, सुवर्णदुर्ग, पन्हाळा, विजयदुर्ग, सिंधुदुर्ग, साल्हेर, राजगड, खांदेरी आणि प्रतापगड; बारावा, जिंजी, तमिळनाडूमध्ये आहे. संभाव्य यादीत: कोकणातील सागरी तटबंदी (2024) आणि पाचगणी-महाबळेश्वरचे दख्खन ट्रॅप (2025).",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

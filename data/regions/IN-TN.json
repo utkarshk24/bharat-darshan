@@ -1,0 +1,216 @@
+{
+  "code": "IN-TN",
+  "slug": "tamil-nadu",
+  "type": "state",
+  "governanceModel": "state",
+  "name": {
+    "en": "Tamil Nadu",
+    "hi": "तमिलनाडु",
+    "mr": "तमिळनाडू",
+    "_status": {
+      "hi": "draft",
+      "mr": "draft"
+    }
+  },
+  "zonalCouncil": "southern",
+  "accent": "#9f1239",
+  "motif": "kolam",
+  "tile": {
+    "row": 7,
+    "col": 2
+  },
+  "capitals": [
+    {
+      "role": "administrative",
+      "name": {
+        "en": "Chennai",
+        "hi": "चेन्नई",
+        "mr": "चेन्नई",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ],
+  "officialPortal": null,
+  "symbols": {},
+  "metrics": {
+    "population2011": {
+      "value": 72147030,
+      "unit": "persons",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Census 2011 total as published by the Department of Economics and Statistics, Tamil Nadu; matches the Puducherry DES state-wise table."
+    },
+    "area": {
+      "value": 130060,
+      "unit": "km²",
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026). The State gives 1,30,058 km²."
+    },
+    "density2011": {
+      "value": 555,
+      "unit": "persons per km²",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Tamil Nadu DES."
+    },
+    "sexRatio2011": {
+      "value": 996,
+      "unit": "females per 1000 males",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Puducherry DES state-wise table citing ORGI (987 in 2001). Tamil Nadu DES 'At a Glance' also gives 996."
+    },
+    "childSexRatio2011": {
+      "value": 943,
+      "unit": "girls per 1000 boys (0–6 yrs)",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 942 in 2001."
+    },
+    "literacyRate2011": {
+      "value": 80.09,
+      "unit": "%",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Population aged 7+. Male 86.77%, female 73.14% (Tamil Nadu DES)."
+    },
+    "urbanisation2011": {
+      "value": 48.4,
+      "unit": "%",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://www.des.tn.gov.in/sites/default/files/2021-02/AT%20A%20GLANCE%202021%20%20Final%206.1.2021.pdf",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Tamil Nadu DES, 'Tamil Nadu at a Glance 2021'."
+    },
+    "gsdpCurrent": {
+      "value": 3529052,
+      "unit": "₹ crore",
+      "period": "FY2025-26",
+      "periodType": "fy",
+      "sourceId": "mospi",
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "provisional",
+      "confidence": "Official",
+      "priceBase": {
+        "type": "current"
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25: ₹31,18,590 crore."
+    },
+    "perCapitaNsdpCurrent": {
+      "value": 408027,
+      "unit": "₹",
+      "period": "FY2025-26",
+      "periodType": "fy",
+      "sourceId": "mospi",
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "provisional",
+      "confidence": "Official",
+      "priceBase": {
+        "type": "current"
+      },
+      "note": "MoSPI, base 2011-12. FY2024-25: ₹3,61,619."
+    },
+    "forestCoverPct": {
+      "value": 20.34,
+      "unit": "% of geographical area",
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Computed from ISFR 2023 forest cover 26,450.22 km² ÷ geographical area 1,30,060 km²."
+    }
+  },
+  "timeSeries": {},
+  "government": {
+    "headOfState": {
+      "role": "governor",
+      "name": null,
+      "party": null,
+      "since": null,
+      "asOf": null,
+      "sourceId": "igod",
+      "url": null,
+      "verifyUrl": "https://igod.gov.in",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+    },
+    "headOfGovernment": {
+      "role": "chief-minister",
+      "name": null,
+      "party": null,
+      "since": null,
+      "asOf": null,
+      "sourceId": "igod",
+      "url": null,
+      "verifyUrl": "https://igod.gov.in",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+    }
+  },
+  "projects": [],
+  "giProducts": [],
+  "meta": {
+    "lastUpdated": "2026-10-13",
+    "editorialStatus": "seed"
+  },
+  "localName": {
+    "lang": "ta",
+    "script": "Taml",
+    "text": "தமிழ்நாடு"
+  }
+}

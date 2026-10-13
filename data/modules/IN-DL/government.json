@@ -1,0 +1,226 @@
+{
+  "region": "IN-DL",
+  "module": "government",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Delhi has a 70-member Legislative Assembly and a Council of Ministers led by the Chief Minister, under Article 239AA and the Government of National Capital Territory of Delhi Act, 1991. The Lieutenant Governor, appointed by the President, is the administrator. Public order, police and land are Union subjects in Delhi, and Parliament can legislate on any matter; the division of powers over services has been the subject of Supreme Court judgments and later legislation. Delhi elects 7 members to the Lok Sabha and 3 to the Rajya Sabha.\n\nLocal government is split between the Municipal Corporation of Delhi (reunified in 2022), the New Delhi Municipal Council and the Delhi Cantonment Board. In the February 2025 Assembly election, the BJP won 48 of 70 seats and Rekha Gupta became Chief Minister.",
+        "hi": "अनुच्छेद 239कक और राष्ट्रीय राजधानी क्षेत्र दिल्ली शासन अधिनियम, 1991 के तहत दिल्ली में 70 सदस्यों की विधानसभा और मुख्यमंत्री के नेतृत्व वाली मंत्रिपरिषद है। राष्ट्रपति द्वारा नियुक्त उपराज्यपाल प्रशासक हैं। दिल्ली में लोक व्यवस्था, पुलिस और भूमि केंद्र के विषय हैं, और संसद किसी भी विषय पर क़ानून बना सकती है; सेवाओं पर अधिकारों का बँटवारा सर्वोच्च न्यायालय के निर्णयों और बाद के क़ानूनों का विषय रहा है। दिल्ली से लोकसभा के 7 और राज्यसभा के 3 सदस्य चुने जाते हैं।\n\nस्थानीय शासन दिल्ली नगर निगम (2022 में पुनः एकीकृत), नई दिल्ली नगरपालिका परिषद और दिल्ली छावनी बोर्ड में बँटा है। फ़रवरी 2025 के विधानसभा चुनाव में भाजपा ने 70 में से 48 सीटें जीतीं और रेखा गुप्ता मुख्यमंत्री बनीं।",
+        "mr": "अनुच्छेद 239कक आणि राष्ट्रीय राजधानी प्रदेश दिल्ली शासन अधिनियम, 1991 नुसार दिल्लीत 70 सदस्यांची विधानसभा आणि मुख्यमंत्र्यांच्या नेतृत्वाखाली मंत्रिमंडळ आहे. राष्ट्रपतींनी नेमलेले नायब राज्यपाल हे प्रशासक आहेत. दिल्लीत सार्वजनिक सुव्यवस्था, पोलीस आणि जमीन हे केंद्राचे विषय आहेत, आणि संसद कोणत्याही विषयावर कायदा करू शकते; सेवांवरील अधिकारांचे वाटप सर्वोच्च न्यायालयाचे निकाल आणि नंतरच्या कायद्यांचा विषय राहिले आहे. दिल्लीतून लोकसभेवर 7 आणि राज्यसभेवर 3 सदस्य निवडले जातात.\n\nस्थानिक प्रशासन दिल्ली महानगरपालिका (2022 मध्ये पुन्हा एकत्रित), नवी दिल्ली नगरपालिका परिषद आणि दिल्ली छावणी मंडळ यांत विभागलेले आहे. फेब्रुवारी 2025 च्या विधानसभा निवडणुकीत भाजपने 70 पैकी 48 जागा जिंकल्या आणि रेखा गुप्ता मुख्यमंत्री झाल्या.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "eci",
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "table",
+      "id": "results",
+      "title": {
+        "en": "Legislative Assembly election, February 2025 — seats won",
+        "hi": "विधानसभा चुनाव, फ़रवरी 2025 — जीती गई सीटें",
+        "mr": "विधानसभा निवडणूक, फेब्रुवारी 2025 — जिंकलेल्या जागा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Party",
+            "hi": "दल",
+            "mr": "पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Seats",
+            "hi": "सीटें",
+            "mr": "जागा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          "Bharatiya Janata Party (BJP)",
+          48
+        ],
+        [
+          "Aam Aadmi Party (AAAP)",
+          22
+        ],
+        [
+          {
+            "en": "Total",
+            "hi": "कुल",
+            "mr": "एकूण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          70
+        ]
+      ],
+      "sourceId": "eci",
+      "url": "https://results.eci.gov.in/ResultAcGenFeb2025/",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "period": "2025",
+      "note": {
+        "en": "Party names and abbreviations as listed by the Election Commission. No other party won a seat. Parties are shown in order of seats, without colours or commentary.",
+        "hi": "दलों के नाम और संक्षिप्त रूप चुनाव आयोग की सूची के अनुसार। किसी अन्य दल को सीट नहीं मिली। दलों को सीटों के क्रम में, बिना रंग या टिप्पणी के दिखाया गया है।",
+        "mr": "पक्षांची नावे व संक्षेप निवडणूक आयोगाच्या यादीनुसार. इतर कोणत्याही पक्षाला जागा मिळाली नाही. पक्ष जागांच्या क्रमाने, रंग किंवा भाष्याशिवाय दाखवले आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "assembly",
+          "name": {
+            "en": "Legislative Assembly of Delhi",
+            "hi": "दिल्ली विधानसभा",
+            "mr": "दिल्ली विधानसभा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://delhiassembly.delhi.gov.in",
+          "sourceId": "dl-gov"
+        },
+        {
+          "id": "lg",
+          "name": {
+            "en": "Lok Niwas (Lieutenant Governor)",
+            "hi": "लोक निवास (उपराज्यपाल)",
+            "mr": "लोकनिवास (नायब राज्यपाल)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://lg.delhi.gov.in",
+          "sourceId": "dl-lg"
+        },
+        {
+          "id": "mcd",
+          "name": {
+            "en": "Municipal Corporation of Delhi",
+            "hi": "दिल्ली नगर निगम",
+            "mr": "दिल्ली महानगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://mcdonline.nic.in",
+          "sourceId": "dl-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official page for the Leader of Opposition",
+            "hi": "नेता प्रतिपक्ष का आधिकारिक पेज",
+            "mr": "विरोधी पक्षनेत्यांचे अधिकृत पान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-gov",
+          "note": "Legislative Assembly members' list."
+        },
+        {
+          "label": {
+            "en": "MCD wards and current Mayor",
+            "hi": "एमसीडी वार्ड और वर्तमान महापौर",
+            "mr": "एमसीडी प्रभाग व सध्याचे महापौर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-gov",
+          "note": "MCD website; Mayor's term is annual."
+        },
+        {
+          "label": {
+            "en": "Flagship welfare schemes",
+            "hi": "प्रमुख कल्याण योजनाएँ",
+            "mr": "प्रमुख कल्याणकारी योजना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-gov",
+          "note": "List with official scheme pages and current status."
+        }
+      ]
+    }
+  ]
+}

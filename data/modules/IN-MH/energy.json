@@ -1,0 +1,166 @@
+{
+  "region": "IN-MH",
+  "module": "energy",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Maharashtra is one of India's largest electricity producers and consumers. Coal-fired plants at Chandrapur and Koradi in Vidarbha, and at Nashik, provide much of the base load. The Koyna hydroelectric project in Satara district is among the largest in the country, and the Tarapur Atomic Power Station in Palghar, commissioned in 1969, was India's first nuclear power station. Solar and wind capacity has grown quickly, particularly in the drier districts of Marathwada and western Maharashtra.",
+        "hi": "महाराष्ट्र देश के सबसे बड़े बिजली उत्पादक और उपभोक्ता राज्यों में है। विदर्भ में चंद्रपुर और कोराडी तथा नासिक के कोयला संयंत्र आधार भार का बड़ा हिस्सा देते हैं। सातारा ज़िले की कोयना जलविद्युत परियोजना देश की सबसे बड़ी परियोजनाओं में है, और पालघर का तारापुर परमाणु बिजलीघर, जो 1969 में शुरू हुआ, भारत का पहला परमाणु बिजलीघर था। सौर और पवन क्षमता तेज़ी से बढ़ी है, ख़ासकर मराठवाड़ा और पश्चिमी महाराष्ट्र के सूखे ज़िलों में।",
+        "mr": "महाराष्ट्र हे देशातील सर्वांत मोठ्या वीज उत्पादक व वापरकर्त्या राज्यांपैकी एक आहे. विदर्भातील चंद्रपूर व कोराडी आणि नाशिक येथील कोळसा प्रकल्प पायाभूत भाराचा मोठा भाग पुरवतात. सातारा जिल्ह्यातील कोयना जलविद्युत प्रकल्प हा देशातील सर्वांत मोठ्या प्रकल्पांपैकी एक आहे, आणि 1969 मध्ये सुरू झालेले पालघरमधील तारापूर अणुऊर्जा केंद्र हे भारतातील पहिले अणुऊर्जा केंद्र होते. सौर व पवन क्षमता वेगाने वाढली आहे, विशेषतः मराठवाडा आणि पश्चिम महाराष्ट्रातील कोरड्या जिल्ह्यांत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "gen",
+          "label": {
+            "en": "Electricity generation (2021-22)",
+            "hi": "बिजली उत्पादन (2021-22)",
+            "mr": "वीजनिर्मिती (2021-22)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 131682,
+            "unit": "million kWh",
+            "period": "FY2021-22",
+            "periodType": "fy",
+            "sourceId": "mh-sdb",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Maharashtra State Data Bank."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "cons",
+          "label": {
+            "en": "Electricity consumption (2021-22)",
+            "hi": "बिजली खपत (2021-22)",
+            "mr": "वीज वापर (2021-22)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 138779,
+            "unit": "million kWh",
+            "period": "FY2021-22",
+            "periodType": "fy",
+            "sourceId": "mh-sdb",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Energy sold to ultimate consumers through distribution licensees."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "ind",
+          "label": {
+            "en": "Industrial share of consumption (2021-22)",
+            "hi": "खपत में उद्योग का हिस्सा (2021-22)",
+            "mr": "वापरातील उद्योगांचा वाटा (2021-22)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 38.5,
+            "unit": "%",
+            "period": "FY2021-22",
+            "periodType": "fy",
+            "sourceId": "mh-sdb",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "percent",
+          "polarity": "neutral",
+          "national": {
+            "value": 33.1,
+            "unit": "%",
+            "period": "FY2021-22",
+            "periodType": "fy",
+            "sourceId": "mh-sdb",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ]
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source (MW)",
+            "hi": "स्रोतवार स्थापित क्षमता (मेगावाट)",
+            "mr": "स्रोतनिहाय स्थापित क्षमता (मेगावॉट)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA monthly installed capacity report, Maharashtra rows."
+        },
+        {
+          "label": {
+            "en": "Renewable energy share",
+            "hi": "नवीकरणीय ऊर्जा का हिस्सा",
+            "mr": "अक्षय ऊर्जेचा वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE state-wise RE capacity."
+        },
+        {
+          "label": {
+            "en": "Per capita consumption",
+            "hi": "प्रति व्यक्ति खपत",
+            "mr": "दरडोई वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

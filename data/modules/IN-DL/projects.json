@@ -1,0 +1,88 @@
+{
+  "region": "IN-DL",
+  "module": "projects",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Delhi's recent infrastructure is mostly about moving people across a sprawling region. The 82 km Delhi–Meerut Namo Bharat corridor, India's first regional rapid transit line, was fully opened in February 2026. Delhi Metro's fourth phase is adding new corridors and ring connections. Other works — expressway links, Yamuna riverfront restoration and landfill clearance — are listed as gaps until an official status page is linked.",
+        "hi": "दिल्ली का हालिया बुनियादी ढाँचा मुख्यतः एक फैले हुए क्षेत्र में लोगों की आवाजाही पर केंद्रित है। भारत की पहली क्षेत्रीय रैपिड ट्रांज़िट लाइन, 82 किमी लंबा दिल्ली–मेरठ नमो भारत कॉरिडोर, फ़रवरी 2026 में पूरी तरह खुल गया। दिल्ली मेट्रो का चौथा चरण नए कॉरिडोर और रिंग कनेक्शन जोड़ रहा है। अन्य काम — एक्सप्रेसवे संपर्क, यमुना तट का पुनर्स्थापन और लैंडफ़िल हटाना — आधिकारिक स्थिति पेज जुड़ने तक कमियों में रखे गए हैं।",
+        "mr": "दिल्लीतील अलीकडच्या पायाभूत सुविधा मुख्यतः विस्तीर्ण प्रदेशात लोकांच्या ये-जा सुलभ करण्याबद्दल आहेत. भारतातील पहिली प्रादेशिक जलद परिवहन मार्गिका, 82 किमीची दिल्ली–मेरठ नमो भारत मार्गिका, फेब्रुवारी 2026 मध्ये पूर्णपणे खुली झाली. दिल्ली मेट्रोचा चौथा टप्पा नव्या मार्गिका आणि वर्तुळाकार जोडण्या वाढवत आहे. इतर कामे — द्रुतगती मार्गांच्या जोडण्या, यमुना किनाऱ्याचे पुनरुज्जीवन आणि कचराभूमी हटवणे — अधिकृत स्थितीचे पान जोडले जाईपर्यंत त्रुटींमध्ये दाखवली आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "newsonair",
+        "pmindia"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Delhi Metro Phase IV — current progress by corridor",
+            "hi": "दिल्ली मेट्रो चरण IV — कॉरिडोरवार वर्तमान प्रगति",
+            "mr": "दिल्ली मेट्रो टप्पा IV — मार्गिकानिहाय सद्यस्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dmrc",
+          "note": "DMRC project updates."
+        },
+        {
+          "label": {
+            "en": "Urban Extension Road-II and Dwarka Expressway (Delhi section)",
+            "hi": "अर्बन एक्सटेंशन रोड-II और द्वारका एक्सप्रेसवे (दिल्ली खंड)",
+            "mr": "अर्बन एक्स्टेन्शन रोड-II व द्वारका द्रुतगती मार्ग (दिल्ली भाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nhai",
+          "note": "NHAI / MoRTH status."
+        },
+        {
+          "label": {
+            "en": "Yamuna cleaning and riverfront projects",
+            "hi": "यमुना सफ़ाई और रिवरफ़्रंट परियोजनाएँ",
+            "mr": "यमुना स्वच्छता व नदीकिनारा प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-gov",
+          "note": "Delhi Jal Board / DDA."
+        },
+        {
+          "label": {
+            "en": "Legacy landfill remediation (Ghazipur, Bhalswa, Okhla)",
+            "hi": "पुराने लैंडफ़िल का निपटान (ग़ाज़ीपुर, भलस्वा, ओखला)",
+            "mr": "जुन्या कचराभूमींचे निराकरण (गाझीपूर, भलस्वा, ओखला)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-gov",
+          "note": "MCD status reports."
+        }
+      ]
+    }
+  ]
+}

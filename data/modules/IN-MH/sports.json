@@ -1,0 +1,147 @@
+{
+  "region": "IN-MH",
+  "module": "sports",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Cricket dominates popular sport, with Mumbai one of the most successful teams in domestic cricket and Wankhede Stadium a regular international venue. Traditional sports are strong too: kabaddi and kho-kho are played in schools across the State, and mallakhamb — gymnastics on a wooden pole or rope — is a Maharashtrian tradition. Kolhapur's talim (wrestling gyms) keep kushti alive.\n\nKhashaba Jadhav of Satara won India's first individual Olympic medal, a wrestling bronze at Helsinki in 1952. Swapnil Kusale of Kolhapur won bronze in 50 m rifle three positions at Paris 2024.",
+        "hi": "लोकप्रिय खेलों में क्रिकेट सबसे आगे है; घरेलू क्रिकेट में मुंबई सबसे सफल टीमों में है और वानखेड़े स्टेडियम नियमित अंतरराष्ट्रीय मैदान है। पारंपरिक खेल भी मज़बूत हैं: कबड्डी और खो-खो राज्य भर के स्कूलों में खेले जाते हैं, और मल्लखंब — लकड़ी के खंभे या रस्सी पर जिम्नास्टिक — महाराष्ट्र की परंपरा है। कोल्हापुर की तालीमें (कुश्ती अखाड़े) कुश्ती को जीवित रखती हैं।\n\nसातारा के खाशाबा जाधव ने 1952 के हेलसिंकी ओलंपिक में कुश्ती में कांस्य जीतकर भारत का पहला व्यक्तिगत ओलंपिक पदक दिलाया। कोल्हापुर के स्वप्निल कुसाले ने पेरिस 2024 में 50 मीटर राइफ़ल थ्री पोज़ीशन में कांस्य जीता।",
+        "mr": "लोकप्रिय खेळांत क्रिकेट आघाडीवर आहे; देशांतर्गत क्रिकेटमध्ये मुंबई सर्वांत यशस्वी संघांपैकी एक आहे आणि वानखेडे स्टेडियम नियमित आंतरराष्ट्रीय मैदान आहे. पारंपरिक खेळही बहरलेले आहेत: कबड्डी व खो-खो राज्यभरातील शाळांत खेळले जातात, आणि मल्लखांब — लाकडी खांबावर किंवा दोरावरील कसरत — ही महाराष्ट्राची परंपरा आहे. कोल्हापूरच्या तालमी कुस्तीची परंपरा जिवंत ठेवतात.\n\nसाताऱ्याचे खाशाबा जाधव यांनी 1952 च्या हेलसिंकी ऑलिंपिकमध्ये कुस्तीत कांस्यपदक जिंकून भारताला पहिले वैयक्तिक ऑलिंपिक पदक मिळवून दिले. कोल्हापूरच्या स्वप्नील कुसाळे यांनी पॅरिस 2024 मध्ये 50 मीटर रायफल थ्री पोझिशनमध्ये कांस्यपदक जिंकले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "wankhede",
+          "name": {
+            "en": "Wankhede Stadium, Mumbai",
+            "hi": "वानखेड़े स्टेडियम, मुंबई",
+            "mr": "वानखेडे स्टेडियम, मुंबई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "brabourne",
+          "name": {
+            "en": "Brabourne Stadium, Mumbai",
+            "hi": "ब्रेबोर्न स्टेडियम, मुंबई",
+            "mr": "ब्रेबॉर्न स्टेडियम, मुंबई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dyp",
+          "name": {
+            "en": "DY Patil Stadium, Navi Mumbai",
+            "hi": "डी. वाई. पाटिल स्टेडियम, नवी मुंबई",
+            "mr": "डी. वाय. पाटील स्टेडियम, नवी मुंबई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mca",
+          "name": {
+            "en": "MCA Stadium, Pune",
+            "hi": "एमसीए स्टेडियम, पुणे",
+            "mr": "एमसीए स्टेडियम, पुणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vca",
+          "name": {
+            "en": "VCA Stadium, Jamtha (Nagpur)",
+            "hi": "वीसीए स्टेडियम, जामठा (नागपुर)",
+            "mr": "व्हीसीए स्टेडियम, जामठा (नागपूर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "balewadi",
+          "name": {
+            "en": "Shree Shiv Chhatrapati Sports Complex, Balewadi (Pune)",
+            "hi": "श्री शिव छत्रपति क्रीड़ा संकुल, बालेवाड़ी (पुणे)",
+            "mr": "श्री शिवछत्रपती क्रीडा संकुल, बालेवाडी (पुणे)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Officially declared State sport",
+            "hi": "आधिकारिक राज्य खेल",
+            "mr": "अधिकृत राज्य खेळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-gov",
+          "note": "Confirm the Government Resolution."
+        },
+        {
+          "label": {
+            "en": "Sports academies and Khelo India centres",
+            "hi": "खेल अकादमियाँ और खेलो इंडिया केंद्र",
+            "mr": "क्रीडा प्रबोधिनी व खेलो इंडिया केंद्रे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-gov",
+          "note": "Department of Sports & Youth Services."
+        }
+      ]
+    }
+  ]
+}

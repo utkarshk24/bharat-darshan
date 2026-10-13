@@ -1,0 +1,320 @@
+{
+  "region": "IN-KL",
+  "module": "geography",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Keralam is long and thin: roughly 550 km from north to south but never much more than about 120 km wide. It falls into three natural belts running parallel to the coast. The lowland is a sandy coastal strip with lagoons, estuaries and the backwaters — a linked network of lakes and canals, of which Vembanad is the largest. The midland is rolling laterite country of rice paddies, coconut, rubber and spice gardens. The highland is the Western Ghats, rising to Anamudi in the Idukki hills, the highest peak in peninsular India.\n\nMore than forty short, fast rivers rise in the Ghats; most flow west to the sea, and a few flow east into Tamil Nadu and Karnataka. The Periyar is the longest and feeds the Idukki reservoir. The Palakkad Gap, a broad break in the Ghats, has long been the main land route to Tamil Nadu and funnels dry winds into the plains around it.",
+        "hi": "केरलम लंबा और पतला है: उत्तर से दक्षिण लगभग 550 किमी, लेकिन चौड़ाई कहीं भी लगभग 120 किमी से अधिक नहीं। यह तट के समानांतर तीन प्राकृतिक पट्टियों में बँटा है। निचली पट्टी रेतीला तटीय क्षेत्र है, जिसमें लैगून, मुहाने और बैकवाटर हैं — झीलों और नहरों का जुड़ा हुआ जाल, जिसमें वेम्बनाड सबसे बड़ी झील है। मध्य पट्टी लैटेराइट की लहरदार भूमि है, जहाँ धान, नारियल, रबर और मसालों के बाग़ हैं। ऊँची पट्टी पश्चिमी घाट है, जो इडुक्की की पहाड़ियों में आनामुडी तक उठती है — प्रायद्वीपीय भारत की सबसे ऊँची चोटी।\n\nघाट से चालीस से अधिक छोटी, तेज़ नदियाँ निकलती हैं; अधिकांश पश्चिम में समुद्र की ओर बहती हैं और कुछ पूर्व में तमिलनाडु व कर्नाटक की ओर। पेरियार सबसे लंबी नदी है और इडुक्की जलाशय को भरती है। घाट में एक चौड़ा दर्रा, पालक्काड गैप, लंबे समय से तमिलनाडु जाने का मुख्य थल मार्ग रहा है और आसपास के मैदानों में सूखी हवाएँ लाता है।",
+        "mr": "केरळम लांब आणि अरुंद आहे: उत्तर-दक्षिण सुमारे 550 किमी, पण रुंदी कुठेही सुमारे 120 किमीपेक्षा फारशी जास्त नाही. किनाऱ्याला समांतर असे तीन नैसर्गिक पट्टे आहेत. सखल पट्टा वाळूचा किनारी भाग असून त्यात खारकच्छ, नदीमुखे आणि बॅकवॉटर्स आहेत — सरोवरे आणि कालव्यांचे जोडलेले जाळे, ज्यात वेंबनाड हे सर्वांत मोठे सरोवर आहे. मधला पट्टा जांभ्या दगडाचा उंच-सखल प्रदेश असून तिथे भातखाचरे, नारळ, रबर आणि मसाल्यांच्या बागा आहेत. उंच पट्टा म्हणजे पश्चिम घाट, जो इडुक्कीच्या डोंगररांगांत आनामुडीपर्यंत चढतो — द्वीपकल्पीय भारतातील सर्वोच्च शिखर.\n\nघाटात चाळीसहून अधिक लहान, वेगवान नद्या उगम पावतात; बहुतेक पश्चिमेकडे समुद्राला मिळतात आणि काही पूर्वेकडे तमिळनाडू व कर्नाटकात जातात. पेरियार ही सर्वांत लांब नदी असून ती इडुक्की जलाशयाला पाणी पुरवते. घाटातील रुंद खिंड, पालक्काड गॅप, हा फार पूर्वीपासून तमिळनाडूकडे जाणारा मुख्य भूमार्ग आहे आणि त्यातून आसपासच्या मैदानात कोरडे वारे येतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 38852,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026). State documents (CAG, LSGD) cite 38,863 km²."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ka",
+          "name": {
+            "en": "Karnataka (north)",
+            "hi": "कर्नाटक (उत्तर)",
+            "mr": "कर्नाटक (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tn",
+          "name": {
+            "en": "Tamil Nadu (east)",
+            "hi": "तमिलनाडु (पूर्व)",
+            "mr": "तमिळनाडू (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "py",
+          "name": {
+            "en": "Puducherry (Mahe enclave)",
+            "hi": "पुदुच्चेरी (माहे अंतःक्षेत्र)",
+            "mr": "पुदुच्चेरी (माहे परिक्षेत्र)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sea",
+          "name": {
+            "en": "Arabian Sea (west)",
+            "hi": "अरब सागर (पश्चिम)",
+            "mr": "अरबी समुद्र (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "periyar",
+          "name": {
+            "en": "Periyar",
+            "hi": "पेरियार",
+            "mr": "पेरियार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Longest river; feeds the Idukki and Mullaperiyar reservoirs and reaches the sea near Kochi.",
+            "hi": "सबसे लंबी नदी; इडुक्की और मुल्लपेरियार जलाशयों को भरती है और कोच्चि के पास समुद्र में मिलती है।",
+            "mr": "सर्वांत लांब नदी; इडुक्की आणि मुल्लपेरियार जलाशयांना पाणी देते आणि कोचीजवळ समुद्राला मिळते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bharathapuzha",
+          "name": {
+            "en": "Bharathapuzha (Nila)",
+            "hi": "भारतपुझा (निला)",
+            "mr": "भारतपुझा (निळा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows west through the Palakkad Gap; closely tied to Malayalam literature and the arts.",
+            "hi": "पालक्काड गैप से पश्चिम की ओर बहती है; मलयालम साहित्य और कलाओं से गहराई से जुड़ी।",
+            "mr": "पालक्काड गॅपमधून पश्चिमेकडे वाहते; मल्याळम साहित्य व कलांशी घट्ट नाते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pamba",
+          "name": {
+            "en": "Pamba",
+            "hi": "पंबा",
+            "mr": "पंबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows past Sabarimala and Aranmula into Vembanad Lake.",
+            "hi": "सबरीमला और आरनमुला से होकर वेम्बनाड झील में मिलती है।",
+            "mr": "शबरीमला व आरनमुळा जवळून वाहत वेंबनाड सरोवरात मिळते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chaliyar",
+          "name": {
+            "en": "Chaliyar",
+            "hi": "चालियार",
+            "mr": "चालियार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Northern river reaching the sea near Kozhikode; Nilambur's teak forests lie in its basin.",
+            "hi": "उत्तरी नदी, जो कोझिकोड के पास समुद्र में मिलती है; निलांबुर के सागौन वन इसी घाटी में हैं।",
+            "mr": "कोझिकोडजवळ समुद्राला मिळणारी उत्तरेकडील नदी; निलांबूरची सागवने याच खोऱ्यात आहेत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kabini",
+          "name": {
+            "en": "Kabini",
+            "hi": "काबिनी",
+            "mr": "काबिनी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "One of the few east-flowing rivers; rises in Wayanad and joins the Kaveri in Karnataka.",
+            "hi": "पूर्व की ओर बहने वाली गिनी-चुनी नदियों में; वायनाड से निकलकर कर्नाटक में कावेरी से मिलती है।",
+            "mr": "पूर्वेकडे वाहणाऱ्या मोजक्या नद्यांपैकी एक; वायनाडमध्ये उगम पावून कर्नाटकात कावेरीला मिळते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official coastline length and highest-point elevation",
+            "hi": "आधिकारिक तटरेखा लंबाई और सर्वोच्च बिंदु की ऊँचाई",
+            "mr": "अधिकृत किनारपट्टी लांबी व सर्वोच्च बिंदूची उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Editorial text avoids exact figures until an official one is linked."
+        },
+        {
+          "label": {
+            "en": "Number of rivers (official list)",
+            "hi": "नदियों की संख्या (आधिकारिक सूची)",
+            "mr": "नद्यांची संख्या (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "kl-spb",
+          "note": "Water Resources Department list."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        },
+        {
+          "label": {
+            "en": "Latitude and longitude extent",
+            "hi": "अक्षांश-देशांतर विस्तार",
+            "mr": "अक्षांश-रेखांश विस्तार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India or the State gazetteer."
+        }
+      ]
+    }
+  ]
+}

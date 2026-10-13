@@ -1,0 +1,55 @@
+{
+  "region": "IN-MH",
+  "module": "diaspora",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Maharashtra is one of India's biggest destinations for internal migration. For more than a century, people have moved to Mumbai, Thane and Pune for work from across the State and from Uttar Pradesh, Bihar, Karnataka, Gujarat and other States, making the Mumbai region one of the most diverse in India. Within the State, seasonal migration from drought-prone districts to sugarcane fields and cities is common.\n\nMarathi-speaking communities have long histories outside the State — in Indore, Gwalior, Vadodara and Thanjavur, often linked to Maratha-era settlement — and there are sizeable Maharashtrian communities in the Gulf, North America and the United Kingdom.",
+        "hi": "महाराष्ट्र देश में आंतरिक प्रवास के सबसे बड़े गंतव्यों में है। सौ से अधिक वर्षों से राज्य भर से तथा उत्तर प्रदेश, बिहार, कर्नाटक, गुजरात और अन्य राज्यों से लोग काम के लिए मुंबई, ठाणे और पुणे आते रहे हैं, जिससे मुंबई क्षेत्र भारत के सबसे विविध क्षेत्रों में है। राज्य के भीतर सूखाग्रस्त ज़िलों से गन्ने के खेतों और शहरों की ओर मौसमी प्रवास आम है।\n\nमराठी भाषी समुदायों का राज्य के बाहर लंबा इतिहास है — इंदौर, ग्वालियर, वडोदरा और तंजावुर में, जो अक्सर मराठा काल की बसावट से जुड़ा है — और खाड़ी देशों, उत्तरी अमेरिका और ब्रिटेन में भी बड़े महाराष्ट्रीय समुदाय हैं।",
+        "mr": "महाराष्ट्र हे देशांतर्गत स्थलांतराचे सर्वांत मोठे केंद्र आहे. शंभरहून अधिक वर्षे राज्यभरातून तसेच उत्तर प्रदेश, बिहार, कर्नाटक, गुजरात आणि इतर राज्यांतून लोक कामासाठी मुंबई, ठाणे आणि पुण्यात येत आहेत, त्यामुळे मुंबई परिसर भारतातील सर्वांत वैविध्यपूर्ण प्रदेशांपैकी एक आहे. राज्यांतर्गत दुष्काळप्रवण जिल्ह्यांतून ऊसतोडणीसाठी आणि शहरांकडे हंगामी स्थलांतर सामान्य आहे.\n\nमराठी भाषक समुदायांचा राज्याबाहेरही दीर्घ इतिहास आहे — इंदूर, ग्वाल्हेर, बडोदा आणि तंजावर येथे, जो अनेकदा मराठाकालीन वसाहतींशी जोडलेला आहे — आणि आखाती देश, उत्तर अमेरिका व ब्रिटनमध्येही मोठे महाराष्ट्रीय समुदाय आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "In- and out-migration figures",
+            "hi": "आप्रवास और उत्प्रवास के आँकड़े",
+            "mr": "स्थलांतर (आवक-जावक) आकडेवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

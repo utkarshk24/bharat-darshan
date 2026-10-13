@@ -1,0 +1,499 @@
+{
+  "region": "IN-KL",
+  "module": "people",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "At the 2011 Census, Keralam had 3.34 crore people. Its population grew by only 4.9% in the decade to 2011, one of the slowest rates of any State, reflecting low fertility and heavy emigration. It had 1,084 women for every 1,000 men, the highest sex ratio of any State, and an effective literacy rate of about 94%. Nearly half the population (47.7%) was classed as urban, though towns and villages merge into one another along the coast, giving the State a distinctive \"rurban\" settlement pattern.\n\nMalayalam is the official language and the mother tongue of the great majority. Tamil is spoken along the eastern border and in Thiruvananthapuram and Palakkad; Kannada and Tulu in Kasaragod. Keralam is also home to one of India's oldest Christian communities, a large Muslim population concentrated in Malabar, and a historic Jewish community in Kochi.",
+        "hi": "2011 की जनगणना में केरलम की जनसंख्या 3.34 करोड़ थी। 2011 तक के दशक में जनसंख्या केवल 4.9% बढ़ी, जो राज्यों में सबसे धीमी दरों में से एक थी; इसके पीछे कम प्रजनन दर और बड़े पैमाने पर विदेश प्रवास है। यहाँ प्रति 1,000 पुरुषों पर 1,084 महिलाएँ थीं — किसी भी राज्य में सबसे अधिक लिंगानुपात — और प्रभावी साक्षरता दर लगभग 94% थी। लगभग आधी आबादी (47.7%) शहरी मानी गई, हालाँकि तट के साथ कस्बे और गाँव एक-दूसरे में घुल-मिल जाते हैं, जिससे राज्य का बसावट पैटर्न \"ग्रामीण-शहरी\" जैसा अनोखा है।\n\nमलयालम राजभाषा है और अधिकांश लोगों की मातृभाषा। पूर्वी सीमा पर तथा तिरुवनंतपुरम और पालक्काड में तमिल, और कासरगोड में कन्नड़ व तुलु बोली जाती है। केरलम भारत के सबसे पुराने ईसाई समुदायों में से एक, मलबार में केंद्रित बड़ी मुस्लिम आबादी और कोच्चि के ऐतिहासिक यहूदी समुदाय का भी घर है।",
+        "mr": "2011 च्या जनगणनेनुसार केरळमची लोकसंख्या 3.34 कोटी होती. 2011 पर्यंतच्या दशकात लोकसंख्या केवळ 4.9% ने वाढली — राज्यांमधील सर्वांत कमी दरांपैकी एक — कारण जननदर कमी आहे आणि परदेशी स्थलांतर मोठ्या प्रमाणात होते. दर 1,000 पुरुषांमागे 1,084 स्त्रिया होत्या, हे सर्व राज्यांत सर्वाधिक लिंग गुणोत्तर, आणि प्रभावी साक्षरता सुमारे 94% होती. जवळपास निम्मी लोकसंख्या (47.7%) नागरी गणली गेली; मात्र किनाऱ्यालगत गावे आणि शहरे एकमेकांत मिसळून जातात, त्यामुळे राज्याची वस्तीरचना \"ग्रामीण-नागरी\" अशी वेगळी आहे.\n\nमल्याळम ही राजभाषा आणि बहुसंख्य लोकांची मातृभाषा आहे. पूर्व सीमेवर तसेच तिरुवनंतपुरम व पालक्काडमध्ये तमिळ, तर कासारगोडमध्ये कन्नड व तुळू बोलली जाते. भारतातील सर्वांत जुन्या ख्रिस्ती समुदायांपैकी एक, मलबारमध्ये एकवटलेली मोठी मुस्लिम लोकसंख्या आणि कोचीतील ऐतिहासिक ज्यू समुदाय यांचेही केरळम हे घर आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "kl-spb"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 33406061,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 total as published by the Kerala State Planning Board (Economic Review). Males 1,60,27,412; females 1,73,78,649."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1084,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Highest among States at the 2011 Census."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 964,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PIB release of 11 Feb 2014 (RGI data). Was 960 in 2001. The State Planning Board also gives 964."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 960,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 94,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded in the Economic Review (\"94 per cent\")."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "urb",
+          "label": {
+            "en": "Urban population",
+            "hi": "शहरी जनसंख्या",
+            "mr": "नागरी लोकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 47.72,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Urban population share at the 2011 Census (Economic Review)."
+          },
+          "kind": "percent",
+          "polarity": "neutral",
+          "national": {
+            "value": 31.1,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 860,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Kerala State Planning Board, Economic Review."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "growth",
+          "label": {
+            "en": "Decadal growth, 2001–2011",
+            "hi": "दशकीय वृद्धि, 2001–2011",
+            "mr": "दशकातील वाढ, 2001–2011",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 4.9,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Kerala State Planning Board, Economic Review."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "langs",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ml",
+          "name": {
+            "en": "Malayalam",
+            "hi": "मलयालम",
+            "mr": "मल्याळम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official language",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ta",
+          "name": {
+            "en": "Tamil",
+            "hi": "तमिल",
+            "mr": "तमिळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Eastern border, Thiruvananthapuram, Palakkad",
+            "hi": "पूर्वी सीमा, तिरुवनंतपुरम, पालक्काड",
+            "mr": "पूर्व सीमा, तिरुवनंतपुरम, पालक्काड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kn",
+          "name": {
+            "en": "Kannada",
+            "hi": "कन्नड़",
+            "mr": "कन्नड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kasaragod",
+            "hi": "कासरगोड",
+            "mr": "कासारगोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tcy",
+          "name": {
+            "en": "Tulu",
+            "hi": "तुलु",
+            "mr": "तुळू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kasaragod",
+            "hi": "कासरगोड",
+            "mr": "कासारगोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kok",
+          "name": {
+            "en": "Konkani",
+            "hi": "कोंकणी",
+            "mr": "कोकणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kochi and coastal towns",
+            "hi": "कोच्चि और तटीय कस्बे",
+            "mr": "कोची व किनारी गावे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Languages",
+        "hi": "भाषाएँ",
+        "mr": "भाषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Religion shares (Census 2011, C-01)",
+            "hi": "धर्मवार हिस्सा (जनगणना 2011, C-01)",
+            "mr": "धर्मनिहाय वाटा (जनगणना 2011, C-01)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-01 table; show without commentary."
+        },
+        {
+          "label": {
+            "en": "SC and ST shares",
+            "hi": "अनुसूचित जाति और जनजाति का हिस्सा",
+            "mr": "अनुसूचित जाती व जमातींचा वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 PCA; earlier source link was not retrievable at access time."
+        },
+        {
+          "label": {
+            "en": "Literacy by sex",
+            "hi": "लिंगवार साक्षरता",
+            "mr": "लिंगनिहाय साक्षरता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 PCA."
+        },
+        {
+          "label": {
+            "en": "Current population (projected)",
+            "hi": "वर्तमान जनसंख्या (अनुमानित)",
+            "mr": "सध्याची लोकसंख्या (प्रक्षेपित)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw-projections",
+          "note": "MoHFW Technical Group projections; label as Projected."
+        },
+        {
+          "label": {
+            "en": "Mother-tongue shares (Census C-16)",
+            "hi": "मातृभाषावार हिस्सा (जनगणना C-16)",
+            "mr": "मातृभाषानिहाय वाटा (जनगणना C-16)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-16."
+        }
+      ]
+    }
+  ]
+}

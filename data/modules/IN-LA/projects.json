@@ -1,0 +1,74 @@
+{
+  "region": "IN-LA",
+  "module": "projects",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Ladakh's priority projects aim at all-weather access and clean energy. The Zojila tunnel will keep the Srinagar–Leh highway open through winter. Other projects announced by the Union Government include a large solar-and-storage park with a transmission line to the national grid, new tunnels on the Manali–Leh route and a geothermal pilot at Puga; these are listed as gaps until an official status page is linked.",
+        "hi": "लद्दाख की प्राथमिक परियोजनाएँ हर मौसम में पहुँच और स्वच्छ ऊर्जा पर केंद्रित हैं। ज़ोजिला सुरंग श्रीनगर–लेह राजमार्ग को सर्दियों में भी खुला रखेगी। केंद्र सरकार द्वारा घोषित अन्य परियोजनाओं में राष्ट्रीय ग्रिड तक ट्रांसमिशन लाइन वाला बड़ा सौर-और-भंडारण पार्क, मनाली–लेह मार्ग पर नई सुरंगें और पुगा में भूतापीय पायलट परियोजना शामिल हैं; आधिकारिक स्थिति पेज जुड़ने तक इन्हें कमियों में रखा गया है।",
+        "mr": "लडाखचे प्राधान्याचे प्रकल्प बारमाही संपर्क आणि स्वच्छ ऊर्जेवर केंद्रित आहेत. झोजिला बोगद्यामुळे श्रीनगर–लेह महामार्ग हिवाळ्यातही खुला राहील. केंद्र सरकारने जाहीर केलेल्या इतर प्रकल्पांत राष्ट्रीय ग्रिडपर्यंत पारेषण वाहिनी असलेले मोठे सौर-व-साठवण उद्यान, मनाली–लेह मार्गावरील नवे बोगदे आणि पुगा येथील भूऔष्णिक प्रायोगिक प्रकल्प यांचा समावेश आहे; अधिकृत स्थितीचे पान जोडले जाईपर्यंत ते त्रुटींमध्ये दाखवले आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "sansad"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Ladakh renewable energy park and transmission line — official status",
+            "hi": "लद्दाख नवीकरणीय ऊर्जा पार्क और ट्रांसमिशन लाइन — आधिकारिक स्थिति",
+            "mr": "लडाख नवीकरणीय ऊर्जा उद्यान व पारेषण वाहिनी — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE / Cabinet approval and progress."
+        },
+        {
+          "label": {
+            "en": "Shinku La tunnel (Himachal–Zanskar) — status",
+            "hi": "शिंकु ला सुरंग (हिमाचल–ज़ांस्कर) — स्थिति",
+            "mr": "शिंकू ला बोगदा (हिमाचल–झांस्कर) — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH / BRO."
+        },
+        {
+          "label": {
+            "en": "Zojila tunnel — current completion date",
+            "hi": "ज़ोजिला सुरंग — वर्तमान पूर्णता तिथि",
+            "mr": "झोजिला बोगदा — सध्याची पूर्णत्व तारीख",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "Latest MoRTH / NHIDCL statement."
+        }
+      ]
+    }
+  ]
+}

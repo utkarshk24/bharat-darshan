@@ -1,0 +1,55 @@
+{
+  "region": "IN-DL",
+  "module": "digital",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Delhi and its NCR neighbours form one of India's largest start-up and technology clusters, with consumer internet, fintech, logistics and software companies spread between Delhi, Gurugram and Noida. Many government services are delivered online through the e-District portal, and the city hosts the headquarters of national digital agencies.",
+        "hi": "दिल्ली और उसके एनसीआर पड़ोसी भारत के सबसे बड़े स्टार्टअप और प्रौद्योगिकी क्लस्टरों में से एक बनाते हैं; उपभोक्ता इंटरनेट, फ़िनटेक, लॉजिस्टिक्स और सॉफ़्टवेयर कंपनियाँ दिल्ली, गुरुग्राम और नोएडा में फैली हैं। कई सरकारी सेवाएँ ई-डिस्ट्रिक्ट पोर्टल के ज़रिए ऑनलाइन मिलती हैं, और शहर में राष्ट्रीय डिजिटल एजेंसियों के मुख्यालय हैं।",
+        "mr": "दिल्ली आणि तिचे एनसीआरमधील शेजारी मिळून भारतातील सर्वांत मोठ्या स्टार्टअप व तंत्रज्ञान समूहांपैकी एक बनवतात; ग्राहक इंटरनेट, फिनटेक, लॉजिस्टिक्स आणि सॉफ्टवेअर कंपन्या दिल्ली, गुरुग्राम व नोएडामध्ये पसरलेल्या आहेत. अनेक सरकारी सेवा ई-डिस्ट्रिक्ट पोर्टलवरून ऑनलाइन मिळतात, आणि राष्ट्रीय डिजिटल संस्थांची मुख्यालये शहरात आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI Indian Telecom Services Performance Indicators (Delhi circle)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

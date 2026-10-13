@@ -1,0 +1,75 @@
+{
+  "region": "IN-MH",
+  "module": "projects",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Maharashtra is in the middle of a large transport build-out, much of it around the Mumbai Metropolitan Region. Recent completions include the Atal Setu sea bridge, the full Samruddhi expressway from Nagpur, Mumbai Metro Line 3 and the first phase of Navi Mumbai International Airport. Major works still under way include the Mumbai–Ahmedabad high-speed rail line and the Vadhavan deep-sea port in Palghar.\n\nEach project below shows its status only as stated by an official source, with the date it was checked.",
+        "hi": "महाराष्ट्र में परिवहन ढाँचे का बड़ा निर्माण चल रहा है, जिसका बड़ा हिस्सा मुंबई महानगर क्षेत्र के आसपास है। हाल में पूरे हुए कामों में अटल सेतु समुद्री पुल, नागपुर से पूरा समृद्धि एक्सप्रेसवे, मुंबई मेट्रो लाइन 3 और नवी मुंबई अंतरराष्ट्रीय हवाई अड्डे का पहला चरण शामिल हैं। मुंबई–अहमदाबाद हाई-स्पीड रेल और पालघर का वाढवण गहरे समुद्र का बंदरगाह अभी निर्माणाधीन हैं।\n\nनीचे हर परियोजना की स्थिति केवल आधिकारिक स्रोत के अनुसार, जाँच की तारीख़ के साथ दिखाई गई है।",
+        "mr": "महाराष्ट्रात वाहतूक पायाभूत सुविधांची मोठी उभारणी सुरू असून तिचा मोठा भाग मुंबई महानगर प्रदेशाभोवती आहे. नुकत्याच पूर्ण झालेल्या कामांत अटल सेतू सागरी पूल, नागपूरपासूनचा संपूर्ण समृद्धी महामार्ग, मुंबई मेट्रो मार्गिका 3 आणि नवी मुंबई आंतरराष्ट्रीय विमानतळाचा पहिला टप्पा यांचा समावेश आहे. मुंबई–अहमदाबाद अतिजलद रेल्वे आणि पालघरमधील वाढवण खोल समुद्री बंदर यांचे काम अद्याप सुरू आहे.\n\nखालील प्रत्येक प्रकल्पाची स्थिती केवळ अधिकृत स्रोतानुसार, तपासणीच्या दिनांकासह दाखवली आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pib",
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "State vision document (e.g. Viksit Maharashtra 2047)",
+            "hi": "राज्य विज़न दस्तावेज़ (जैसे विकसित महाराष्ट्र 2047)",
+            "mr": "राज्य दृष्टी दस्तऐवज (उदा. विकसित महाराष्ट्र 2047)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-gov",
+          "note": "Link the officially published document, if released."
+        },
+        {
+          "label": {
+            "en": "Smart Cities and AMRUT cities",
+            "hi": "स्मार्ट सिटी और अमृत शहर",
+            "mr": "स्मार्ट सिटी व अमृत शहरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-gov",
+          "note": "MoHUA lists for Maharashtra."
+        },
+        {
+          "label": {
+            "en": "Other metro, coastal road and irrigation projects",
+            "hi": "अन्य मेट्रो, तटीय सड़क और सिंचाई परियोजनाएँ",
+            "mr": "इतर मेट्रो, सागरी किनारा मार्ग व सिंचन प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-gov",
+          "note": "Add each with an official status source."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "region": "IN-KL",
+  "module": "transport",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Keralam has four international airports — Thiruvananthapuram, Kochi, Kozhikode (Karipur) and Kannur — an unusually high number for its size, driven by Gulf travel. Kochi's airport was developed as a public–private company and runs on solar power. The railway runs the length of the coast from Kasaragod to Thiruvananthapuram, and NH 66 is the main road spine.\n\nKochi has a metro and, since 2023, a Water Metro using electric boats to link the islands of the harbour. The West Coast Canal (National Waterway 3) and the backwaters carry ferries and houseboats. Cochin Port and the new Vizhinjam port handle sea freight.",
+        "hi": "केरलम में चार अंतरराष्ट्रीय हवाई अड्डे हैं — तिरुवनंतपुरम, कोच्चि, कोझिकोड (करिपुर) और कण्णूर — जो इसके आकार के हिसाब से असामान्य रूप से अधिक हैं; इसका कारण खाड़ी देशों की यात्रा है। कोच्चि हवाई अड्डा सार्वजनिक–निजी कंपनी के रूप में विकसित हुआ और सौर ऊर्जा से चलता है। रेल लाइन कासरगोड से तिरुवनंतपुरम तक पूरे तट के साथ चलती है, और एनएच 66 मुख्य सड़क धुरी है।\n\nकोच्चि में मेट्रो है और 2023 से वाटर मेट्रो भी, जो इलेक्ट्रिक नौकाओं से बंदरगाह के द्वीपों को जोड़ती है। पश्चिमी तट नहर (राष्ट्रीय जलमार्ग 3) और बैकवाटर में फ़ेरी और हाउसबोट चलती हैं। कोचीन बंदरगाह और नया विझिंजम बंदरगाह समुद्री माल संभालते हैं।",
+        "mr": "केरळममध्ये चार आंतरराष्ट्रीय विमानतळ आहेत — तिरुवनंतपुरम, कोची, कोझिकोड (करिपूर) आणि कण्णूर — राज्याच्या आकाराच्या मानाने ही संख्या असामान्यपणे जास्त आहे, आणि त्यामागे आखाती देशांचा प्रवास आहे. कोची विमानतळ सार्वजनिक–खासगी कंपनी म्हणून विकसित झाले असून ते सौरऊर्जेवर चालते. रेल्वेमार्ग कासारगोडपासून तिरुवनंतपुरमपर्यंत संपूर्ण किनाऱ्यालगत जातो आणि एनएच 66 हा मुख्य रस्ता आहे.\n\nकोचीत मेट्रो आहे आणि 2023 पासून वॉटर मेट्रोही, जी विजेवरील नौकांद्वारे बंदरातील बेटे जोडते. पश्चिम किनारा कालवा (राष्ट्रीय जलमार्ग 3) आणि बॅकवॉटर्समध्ये फेरीबोटी व हाऊसबोटी चालतात. कोचीन बंदर आणि नवे विझिंजम बंदर सागरी मालवाहतूक हाताळतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "trv",
+          "name": {
+            "en": "Thiruvananthapuram International Airport",
+            "hi": "तिरुवनंतपुरम अंतरराष्ट्रीय हवाई अड्डा",
+            "mr": "तिरुवनंतपुरम आंतरराष्ट्रीय विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "TRV",
+            "hi": "TRV",
+            "mr": "TRV",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cok",
+          "name": {
+            "en": "Cochin International Airport",
+            "hi": "कोचीन अंतरराष्ट्रीय हवाई अड्डा",
+            "mr": "कोचीन आंतरराष्ट्रीय विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "COK",
+            "hi": "COK",
+            "mr": "COK",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ccj",
+          "name": {
+            "en": "Calicut International Airport (Karipur)",
+            "hi": "कालीकट अंतरराष्ट्रीय हवाई अड्डा (करिपुर)",
+            "mr": "कालिकत आंतरराष्ट्रीय विमानतळ (करिपूर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "CCJ",
+            "hi": "CCJ",
+            "mr": "CCJ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cnn",
+          "name": {
+            "en": "Kannur International Airport",
+            "hi": "कण्णूर अंतरराष्ट्रीय हवाई अड्डा",
+            "mr": "कण्णूर आंतरराष्ट्रीय विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "CNN",
+            "hi": "CNN",
+            "mr": "CNN",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "National highway length",
+            "hi": "राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Railway route length",
+            "hi": "रेलवे मार्ग की लंबाई",
+            "mr": "रेल्वे मार्गाची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Indian Railways Year Book."
+        },
+        {
+          "label": {
+            "en": "Metro and Water Metro network length and ridership",
+            "hi": "मेट्रो और वाटर मेट्रो नेटवर्क लंबाई और यात्री संख्या",
+            "mr": "मेट्रो व वॉटर मेट्रो जाळ्याची लांबी व प्रवासी संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "kl-gov",
+          "note": "KMRL annual report."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics (CIAL publishes its own)."
+        }
+      ]
+    }
+  ]
+}

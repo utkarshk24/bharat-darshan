@@ -1,0 +1,133 @@
+{
+ "source": "NFHS via MoSPI API, combined rural+urban, accessed 2026-10-13. N4 = 2015-16, N5 = 2019-21.",
+ "MH": {
+  "stunted": [
+   34.4,
+   35.24
+  ],
+  "wasted": [
+   25.6,
+   25.6
+  ],
+  "underweight": [
+   36.0,
+   36.12
+  ],
+  "institutional_N5": 94.67
+ },
+ "KL": {
+  "stunted": [
+   19.7,
+   23.41
+  ],
+  "wasted": [
+   15.7,
+   15.75
+  ],
+  "underweight": [
+   16.1,
+   19.67
+  ],
+  "institutional_N5": 99.76
+ },
+ "DL": {
+  "stunted": [
+   32.3,
+   30.87
+  ],
+  "wasted": [
+   17.1,
+   11.24
+  ],
+  "underweight": [
+   27.0,
+   21.82
+  ],
+  "institutional_N5": 91.77
+ },
+ "LA": {
+  "stunted": [
+   null,
+   30.53
+  ],
+  "wasted": [
+   null,
+   17.46
+  ],
+  "underweight": [
+   null,
+   20.36
+  ],
+  "institutional_N5": 95.06,
+  "note": "Ladakh has no separate NFHS-4 figure (part of J&K then)."
+ },
+ "IN": {
+  "stunted": [
+   38.4,
+   35.47
+  ],
+  "wasted": [
+   21.0,
+   19.26
+  ],
+  "underweight": [
+   35.7,
+   32.11
+  ],
+  "institutional_N5": 88.59
+ },
+ "SRS_2021_PIB_PRID2128024": {
+  "MH": {
+   "MMR_2019_21": 38,
+   "U5MR": 16,
+   "NMR": 11
+  },
+  "KL": {
+   "MMR_2019_21": 20,
+   "U5MR": 8,
+   "NMR": 4
+  },
+  "DL": {
+   "U5MR": 14,
+   "NMR": 8
+  },
+  "IN": {
+   "MMR_2019_21": 93,
+   "U5MR": 31,
+   "NMR": 19,
+   "IMR": 27,
+   "SRB": 913,
+   "TFR": 2.0
+  }
+ },
+ "TN": {
+  "stunted": [
+   27.1,
+   25.04
+  ],
+  "wasted": [
+   19.7,
+   14.61
+  ],
+  "underweight": [
+   23.8,
+   21.96
+  ],
+  "institutional_N5": 99.59
+ },
+ "UP": {
+  "stunted": [
+   46.3,
+   39.71
+  ],
+  "wasted": [
+   17.9,
+   17.32
+  ],
+  "underweight": [
+   39.5,
+   32.14
+  ],
+  "institutional_N5": 83.4
+ }
+}

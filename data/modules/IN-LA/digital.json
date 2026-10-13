@@ -1,0 +1,55 @@
+{
+  "region": "IN-LA",
+  "module": "digital",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mobile and internet coverage has expanded in Leh, Kargil and the main valleys, but many high villages, passes and trekking routes still have little or no signal. Visitors should note that prepaid connections from other States may not work in Ladakh, while postpaid connections generally do.",
+        "hi": "लेह, कारगिल और मुख्य घाटियों में मोबाइल और इंटरनेट कवरेज बढ़ा है, लेकिन कई ऊँचे गाँवों, दर्रों और ट्रेकिंग मार्गों पर अब भी बहुत कम या कोई सिग्नल नहीं है। पर्यटक ध्यान दें कि दूसरे राज्यों के प्रीपेड कनेक्शन लद्दाख में काम न करें, जबकि पोस्टपेड आम तौर पर काम करते हैं।",
+        "mr": "लेह, कारगिल आणि मुख्य खोऱ्यांत मोबाइल व इंटरनेट व्याप्ती वाढली आहे, पण अनेक उंचावरील गावे, खिंडी आणि ट्रेकिंग मार्गांवर अजूनही फारसा किंवा अजिबात सिग्नल नसतो. पर्यटकांनी लक्षात ठेवावे की इतर राज्यांतील प्रीपेड जोडण्या लडाखमध्ये चालू शकत नाहीत, तर पोस्टपेड सहसा चालतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Village connectivity (mobile and broadband)",
+            "hi": "गाँवों में संपर्क (मोबाइल और ब्रॉडबैंड)",
+            "mr": "गावांतील संपर्क (मोबाइल व ब्रॉडबँड)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Department of Telecommunications / USOF."
+        },
+        {
+          "label": {
+            "en": "Prepaid-SIM rules for visitors",
+            "hi": "पर्यटकों के लिए प्रीपेड सिम नियम",
+            "mr": "पर्यटकांसाठी प्रीपेड सिम नियम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Confirm the current rule with DoT before publishing as fact."
+        }
+      ]
+    }
+  ]
+}

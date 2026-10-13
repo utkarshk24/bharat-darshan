@@ -1,0 +1,214 @@
+{
+  "region": "IN-DL",
+  "module": "transport",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Indira Gandhi International Airport is one of the busiest airports in South Asia. Delhi Metro, opened in 2002, has grown into one of the world's largest metro networks and carries millions of trips a day across Delhi and neighbouring NCR towns; the Namo Bharat RRTS now links Sarai Kale Khan to Meerut. New Delhi, Old Delhi (Delhi Junction), Hazrat Nizamuddin and Anand Vihar are the main railway terminals. Delhi Transport Corporation runs a large and increasingly electric bus fleet, and the Ring Road and Outer Ring Road connect to expressways towards Gurugram, Jaipur, Meerut and Mumbai.",
+        "hi": "इंदिरा गांधी अंतरराष्ट्रीय हवाई अड्डा दक्षिण एशिया के सबसे व्यस्त हवाई अड्डों में है। 2002 में शुरू हुई दिल्ली मेट्रो दुनिया के सबसे बड़े मेट्रो नेटवर्कों में से एक बन गई है और दिल्ली व पड़ोसी एनसीआर शहरों में रोज़ लाखों यात्राएँ कराती है; नमो भारत आरआरटीएस अब सराय काले ख़ाँ को मेरठ से जोड़ता है। नई दिल्ली, पुरानी दिल्ली (दिल्ली जंक्शन), हज़रत निज़ामुद्दीन और आनंद विहार मुख्य रेलवे टर्मिनल हैं। दिल्ली परिवहन निगम की बड़ी और बढ़ती इलेक्ट्रिक बस सेवा है, और रिंग रोड व आउटर रिंग रोड गुरुग्राम, जयपुर, मेरठ और मुंबई की ओर जाने वाले एक्सप्रेसवे से जुड़ते हैं।",
+        "mr": "इंदिरा गांधी आंतरराष्ट्रीय विमानतळ हा दक्षिण आशियातील सर्वांत गजबजलेल्या विमानतळांपैकी एक आहे. 2002 मध्ये सुरू झालेली दिल्ली मेट्रो जगातील सर्वांत मोठ्या मेट्रो जाळ्यांपैकी एक झाली असून दिल्ली व शेजारच्या एनसीआर शहरांत दररोज लाखो प्रवास घडवते; नमो भारत आरआरटीएस आता सराय काले खाँला मेरठशी जोडते. नवी दिल्ली, जुनी दिल्ली (दिल्ली जंक्शन), हजरत निजामुद्दीन आणि आनंद विहार ही प्रमुख रेल्वे टर्मिनस आहेत. दिल्ली परिवहन महामंडळाचा मोठा आणि वाढत्या प्रमाणात विजेवर चालणारा बसताफा आहे, आणि रिंग रोड व आऊटर रिंग रोड गुरुग्राम, जयपूर, मेरठ व मुंबईकडे जाणाऱ्या द्रुतगती मार्गांना जोडतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "hubs",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "del",
+          "name": {
+            "en": "Indira Gandhi International Airport",
+            "hi": "इंदिरा गांधी अंतरराष्ट्रीय हवाई अड्डा",
+            "mr": "इंदिरा गांधी आंतरराष्ट्रीय विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "DEL",
+            "hi": "DEL",
+            "mr": "DEL",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ndls",
+          "name": {
+            "en": "New Delhi railway station",
+            "hi": "नई दिल्ली रेलवे स्टेशन",
+            "mr": "नवी दिल्ली रेल्वे स्थानक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "NDLS",
+            "hi": "NDLS",
+            "mr": "NDLS",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dli",
+          "name": {
+            "en": "Delhi Junction (Old Delhi)",
+            "hi": "दिल्ली जंक्शन (पुरानी दिल्ली)",
+            "mr": "दिल्ली जंक्शन (जुनी दिल्ली)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "DLI",
+            "hi": "DLI",
+            "mr": "DLI",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nzm",
+          "name": {
+            "en": "Hazrat Nizamuddin",
+            "hi": "हज़रत निज़ामुद्दीन",
+            "mr": "हजरत निजामुद्दीन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "NZM",
+            "hi": "NZM",
+            "mr": "NZM",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "anvt",
+          "name": {
+            "en": "Anand Vihar Terminal",
+            "hi": "आनंद विहार टर्मिनल",
+            "mr": "आनंद विहार टर्मिनल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "ANVT",
+            "hi": "ANVT",
+            "mr": "ANVT",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "skk",
+          "name": {
+            "en": "Sarai Kale Khan (Namo Bharat)",
+            "hi": "सराय काले ख़ाँ (नमो भारत)",
+            "mr": "सराय काले खाँ (नमो भारत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "RRTS",
+            "hi": "RRTS",
+            "mr": "RRTS",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Main transport hubs",
+        "hi": "मुख्य परिवहन केंद्र",
+        "mr": "प्रमुख वाहतूक केंद्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Delhi Metro network length and daily ridership",
+            "hi": "दिल्ली मेट्रो नेटवर्क लंबाई और दैनिक यात्री",
+            "mr": "दिल्ली मेट्रो जाळ्याची लांबी व दैनिक प्रवासी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dmrc",
+          "note": "DMRC annual report."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        },
+        {
+          "label": {
+            "en": "Registered vehicles and electric buses",
+            "hi": "पंजीकृत वाहन और इलेक्ट्रिक बसें",
+            "mr": "नोंदणीकृत वाहने व विजेवरील बसगाड्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-planning",
+          "note": "Economic Survey of Delhi, transport chapter."
+        }
+      ]
+    }
+  ]
+}

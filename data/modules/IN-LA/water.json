@@ -1,0 +1,55 @@
+{
+  "region": "IN-LA",
+  "module": "water",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "With almost no rain, Ladakh's farms depend on snow and glacier melt carried to fields by channels, so water arrives late in spring, when sowing needs it most. Communities have responded with artificial glaciers and \"ice stupas\" — structures that freeze winter streamflow and release it as they melt in April and May. The Indus, Shyok, Zanskar and Suru are the main rivers; their flows are expected to change as glaciers retreat.",
+        "hi": "लगभग बिना वर्षा वाले लद्दाख के खेत नालियों के ज़रिए खेतों तक पहुँचने वाले बर्फ़ और ग्लेशियर के पिघले पानी पर निर्भर हैं, इसलिए पानी वसंत में देर से आता है, जब बुआई को उसकी सबसे ज़्यादा ज़रूरत होती है। समुदायों ने इसका जवाब कृत्रिम ग्लेशियरों और \"आइस स्तूपों\" से दिया है — ऐसी संरचनाएँ जो सर्दियों के प्रवाह को जमा देती हैं और अप्रैल-मई में पिघलकर पानी देती हैं। सिंधु, श्योक, ज़ांस्कर और सुरू मुख्य नदियाँ हैं; ग्लेशियरों के पीछे हटने से इनके प्रवाह में बदलाव की आशंका है।",
+        "mr": "जवळपास पाऊस नसलेल्या लडाखमधील शेती पाटांद्वारे शेतांपर्यंत पोहोचणाऱ्या बर्फ व हिमनदीच्या वितळलेल्या पाण्यावर अवलंबून आहे, त्यामुळे पाणी वसंतात उशिरा येते — नेमके पेरणीला सर्वाधिक गरज असताना. यावर समुदायांनी कृत्रिम हिमनद्या आणि \"आइस स्तूप\" यांचा उपाय शोधला आहे — हिवाळ्यातील प्रवाह गोठवून एप्रिल-मेमध्ये वितळताना पाणी देणाऱ्या रचना. सिंधू, श्योक, झांस्कर आणि सुरू या मुख्य नद्या आहेत; हिमनद्या मागे सरकल्याने त्यांच्या प्रवाहात बदल होण्याची अपेक्षा आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        },
+        {
+          "label": {
+            "en": "Irrigated area",
+            "hi": "सिंचित क्षेत्र",
+            "mr": "सिंचित क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "la-gov",
+          "note": "UT Agriculture Department."
+        }
+      ]
+    }
+  ]
+}

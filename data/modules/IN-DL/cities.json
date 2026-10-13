@@ -1,0 +1,180 @@
+{
+  "region": "IN-DL",
+  "module": "cities",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Delhi is a single city-territory rather than a State of many cities. Its historic and planned parts each have a distinct character: Old Delhi (Shahjahanabad) inside the Mughal walls; Lutyens' New Delhi, the capital complex of wide avenues and bungalows; the post-Partition colonies of the west and south; DDA's planned sub-cities such as Dwarka and Rohini; and the dense, fast-growing settlements of the east and north-east across the Yamuna.",
+        "hi": "दिल्ली कई शहरों वाला राज्य नहीं, बल्कि एक ही शहर-क्षेत्र है। इसके ऐतिहासिक और नियोजित हिस्सों की अपनी अलग पहचान है: मुग़ल दीवारों के भीतर पुरानी दिल्ली (शाहजहानाबाद); चौड़ी सड़कों और बंगलों वाला लुटियंस की नई दिल्ली का राजधानी परिसर; पश्चिम और दक्षिण की विभाजन के बाद बसी कॉलोनियाँ; द्वारका और रोहिणी जैसे डीडीए के नियोजित उप-नगर; और यमुना पार पूर्वी व उत्तर-पूर्वी दिल्ली की घनी, तेज़ी से बढ़ती बस्तियाँ।",
+        "mr": "दिल्ली हे अनेक शहरांचे राज्य नसून एकच शहर-प्रदेश आहे. तिच्या ऐतिहासिक आणि नियोजित भागांची स्वतंत्र ओळख आहे: मुघल तटबंदीतील जुनी दिल्ली (शाहजहानाबाद); रुंद रस्ते व बंगल्यांचा लुटियन्सच्या नव्या दिल्लीचा राजधानी परिसर; पश्चिम व दक्षिणेकडील फाळणीनंतर वसलेल्या वसाहती; द्वारका आणि रोहिणीसारखी डीडीएची नियोजित उपनगरे; आणि यमुनेपलीकडील पूर्व व ईशान्य दिल्लीतील दाट, झपाट्याने वाढणाऱ्या वस्त्या.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "areas",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "old",
+          "name": {
+            "en": "Old Delhi (Shahjahanabad)",
+            "hi": "पुरानी दिल्ली (शाहजहानाबाद)",
+            "mr": "जुनी दिल्ली (शाहजहानाबाद)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Walled Mughal city: Chandni Chowk, Red Fort, Jama Masjid, wholesale markets.",
+            "hi": "मुग़ल परकोटा शहर: चाँदनी चौक, लाल क़िला, जामा मस्जिद, थोक बाज़ार।",
+            "mr": "मुघल तटबंदीचे शहर: चांदनी चौक, लाल किल्ला, जामा मशीद, घाऊक बाजारपेठा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "new",
+          "name": {
+            "en": "New Delhi (NDMC area)",
+            "hi": "नई दिल्ली (एनडीएमसी क्षेत्र)",
+            "mr": "नवी दिल्ली (एनडीएमसी क्षेत्र)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Seat of the Union Government; Rashtrapati Bhavan, Parliament, Connaught Place.",
+            "hi": "केंद्र सरकार का मुख्यालय; राष्ट्रपति भवन, संसद, कनॉट प्लेस।",
+            "mr": "केंद्र सरकारचे मुख्यालय; राष्ट्रपती भवन, संसद, कॅनॉट प्लेस.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "south",
+          "name": {
+            "en": "South Delhi",
+            "hi": "दक्षिणी दिल्ली",
+            "mr": "दक्षिण दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Mehrauli, Hauz Khas, Saket; markets, malls and Sultanate ruins.",
+            "hi": "महरौली, हौज़ ख़ास, साकेत; बाज़ार, मॉल और सल्तनत कालीन खंडहर।",
+            "mr": "मेहरौली, हौज खास, साकेत; बाजारपेठा, मॉल आणि सल्तनतकालीन अवशेष.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dwarka",
+          "name": {
+            "en": "Dwarka and Rohini",
+            "hi": "द्वारका और रोहिणी",
+            "mr": "द्वारका आणि रोहिणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Large planned residential sub-cities in the south-west and north-west.",
+            "hi": "दक्षिण-पश्चिम और उत्तर-पश्चिम में बड़े नियोजित आवासीय उप-नगर।",
+            "mr": "नैर्ऋत्य व वायव्येकडील मोठी नियोजित निवासी उपनगरे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "east",
+          "name": {
+            "en": "East and North-East Delhi",
+            "hi": "पूर्वी और उत्तर-पूर्वी दिल्ली",
+            "mr": "पूर्व व ईशान्य दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Dense neighbourhoods across the Yamuna, linked by metro to Noida and Ghaziabad.",
+            "hi": "यमुना पार की घनी बस्तियाँ, मेट्रो से नोएडा और ग़ाज़ियाबाद से जुड़ी।",
+            "mr": "यमुनेपलीकडील दाट वस्त्या, मेट्रोने नोएडा व गाझियाबादशी जोडलेल्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Parts of the city",
+        "hi": "शहर के हिस्से",
+        "mr": "शहराचे भाग",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Current list of revenue districts and populations",
+            "hi": "राजस्व ज़िलों की वर्तमान सूची और जनसंख्या",
+            "mr": "महसूल जिल्ह्यांची सध्याची यादी व लोकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-gov",
+          "note": "Revenue Department notification; Census 2011 district tables."
+        },
+        {
+          "label": {
+            "en": "Unauthorised colonies and JJ clusters (count)",
+            "hi": "अनधिकृत कॉलोनियाँ और झुग्गी बस्तियाँ (संख्या)",
+            "mr": "अनधिकृत वसाहती व झोपडपट्ट्या (संख्या)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dl-planning",
+          "note": "Economic Survey of Delhi, housing chapter."
+        }
+      ]
+    }
+  ]
+}

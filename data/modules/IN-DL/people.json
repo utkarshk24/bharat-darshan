@@ -1,0 +1,525 @@
+{
+  "region": "IN-DL",
+  "module": "people",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "At the 2011 Census, Delhi had 1.68 crore residents, up 21.2% in a decade, and a density of 11,320 people per km² — the highest of any State or UT, against 382 for India. Its population has grown almost tenfold since 1951, driven largely by migration. It is overwhelmingly urban (97.5%). The sex ratio, 868 women per 1,000 men in 2011, is low but rose from 821 in 2001; literacy was 86.2% (men 90.9%, women 80.8%). The MoHFW Technical Group projects Delhi's population at about 2.25 crore in 2026.\n\nHindi is the main language, with Punjabi and Urdu recognised as second official languages; Delhi's population also speaks almost every language of India, from Bengali in Chittaranjan Park to Malayalam, Tamil and the languages of the North-East.",
+        "hi": "2011 की जनगणना में दिल्ली की जनसंख्या 1.68 करोड़ थी, जो एक दशक में 21.2% बढ़ी, और घनत्व 11,320 व्यक्ति प्रति किमी² था — किसी भी राज्य या केंद्र शासित प्रदेश में सबसे अधिक, जबकि भारत का 382 है। 1951 से इसकी आबादी लगभग दस गुना हो चुकी है, जिसका मुख्य कारण प्रवास है। यह लगभग पूरी तरह शहरी (97.5%) है। 2011 में लिंगानुपात प्रति 1,000 पुरुषों पर 868 महिलाएँ था — कम, पर 2001 के 821 से अधिक; साक्षरता 86.2% (पुरुष 90.9%, महिलाएँ 80.8%) थी। स्वास्थ्य मंत्रालय के तकनीकी समूह के अनुमान के अनुसार 2026 में दिल्ली की आबादी लगभग 2.25 करोड़ है।\n\nहिंदी मुख्य भाषा है, और पंजाबी व उर्दू द्वितीय राजभाषाएँ हैं; दिल्ली में भारत की लगभग हर भाषा बोली जाती है — चितरंजन पार्क की बांग्ला से लेकर मलयालम, तमिल और पूर्वोत्तर की भाषाओं तक।",
+        "mr": "2011 च्या जनगणनेनुसार दिल्लीची लोकसंख्या 1.68 कोटी होती, दशकभरात 21.2% वाढ, आणि घनता दर किमी² ला 11,320 — सर्व राज्ये व केंद्रशासित प्रदेशांत सर्वाधिक, तर भारताची 382. 1951 पासून लोकसंख्या जवळपास दहापट वाढली आहे, आणि त्याचे मुख्य कारण स्थलांतर आहे. प्रदेश जवळपास पूर्णपणे नागरी (97.5%) आहे. 2011 मध्ये लिंग गुणोत्तर दर 1,000 पुरुषांमागे 868 स्त्रिया होते — कमी, पण 2001 च्या 821 पेक्षा जास्त; साक्षरता 86.2% (पुरुष 90.9%, स्त्रिया 80.8%) होती. आरोग्य मंत्रालयाच्या तांत्रिक गटाच्या प्रक्षेपणानुसार 2026 मध्ये दिल्लीची लोकसंख्या सुमारे 2.25 कोटी आहे.\n\nहिंदी ही मुख्य भाषा असून पंजाबी व उर्दू दुसऱ्या राजभाषा आहेत; दिल्लीत भारतातील जवळपास प्रत्येक भाषा बोलली जाते — चित्तरंजन पार्कमधील बंगालीपासून मल्याळम, तमिळ आणि ईशान्येकडील भाषांपर्यंत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "dl-planning",
+        "mohfw-projections"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 16787941,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 total as published in the Economic Survey of Delhi 2023-24, Chapter 19 (Demographic Profile)."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "proj",
+          "label": {
+            "en": "Population, 2026 (projected)",
+            "hi": "जनसंख्या, 2026 (अनुमानित)",
+            "mr": "लोकसंख्या, 2026 (प्रक्षेपित)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 22540000,
+            "unit": "persons",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "mohfw-projections",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "projected",
+            "confidence": "Official estimate/projection",
+            "note": "MoHFW Technical Group on Population Projections (July 2020): 22,540 thousand, as reproduced in the Economic Survey of Delhi 2023-24. A projection, not a count."
+          },
+          "kind": "count",
+          "polarity": "neutral"
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 11320,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Highest of any State or UT at the 2011 Census; India 382."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 868,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Up from 821 in 2001."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 821,
+            "unit": "females per 1000 males",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 871,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PIB release of 11 Feb 2014 (RGI data). Was 868 in 2001."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 868,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 86.2,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+. Male 90.9%, female 80.8%."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "litf",
+          "label": {
+            "en": "Female literacy",
+            "hi": "महिला साक्षरता",
+            "mr": "स्त्री साक्षरता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 80.8,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better"
+        },
+        {
+          "id": "urb",
+          "label": {
+            "en": "Urban population",
+            "hi": "शहरी जनसंख्या",
+            "mr": "नागरी लोकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 97.5,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Economic Survey of Delhi gives 97.50%."
+          },
+          "kind": "percent",
+          "polarity": "neutral",
+          "national": {
+            "value": 31.1,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "series",
+      "id": "pop-series",
+      "title": {
+        "en": "Population at each Census, 1951–2011",
+        "hi": "हर जनगणना में जनसंख्या, 1951–2011",
+        "mr": "प्रत्येक जनगणनेतील लोकसंख्या, 1951–2011",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "number",
+      "polarity": "neutral",
+      "series": [
+        {
+          "id": "dl",
+          "label": {
+            "en": "Delhi",
+            "hi": "दिल्ली",
+            "mr": "दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 17.44,
+              "unit": "lakh persons",
+              "period": "1951",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 26.59,
+              "unit": "lakh persons",
+              "period": "1961",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 40.66,
+              "unit": "lakh persons",
+              "period": "1971",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 62.2,
+              "unit": "lakh persons",
+              "period": "1981",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 94.21,
+              "unit": "lakh persons",
+              "period": "1991",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 138.51,
+              "unit": "lakh persons",
+              "period": "2001",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 167.88,
+              "unit": "lakh persons",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Economic Survey of Delhi 2023-24, Statement 19.2; earlier censuses adjusted to the 2011 jurisdiction."
+            }
+          ]
+        }
+      ],
+      "note": {
+        "en": "Values in lakh. Census years only; projections are shown separately above.",
+        "hi": "आँकड़े लाख में। केवल जनगणना वर्ष; अनुमान ऊपर अलग दिखाए गए हैं।",
+        "mr": "आकडे लाखांत. फक्त जनगणना वर्षे; प्रक्षेपण वर वेगळे दाखवले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Religion shares (Census 2011, C-01)",
+            "hi": "धर्मवार हिस्सा (जनगणना 2011, C-01)",
+            "mr": "धर्मनिहाय वाटा (जनगणना 2011, C-01)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-01 table; show without commentary."
+        },
+        {
+          "label": {
+            "en": "SC share (Delhi has no notified STs)",
+            "hi": "अनुसूचित जाति का हिस्सा (दिल्ली में कोई अधिसूचित जनजाति नहीं)",
+            "mr": "अनुसूचित जातींचा वाटा (दिल्लीत अधिसूचित जमाती नाहीत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 PCA."
+        },
+        {
+          "label": {
+            "en": "Mother-tongue shares (Census C-16)",
+            "hi": "मातृभाषावार हिस्सा (जनगणना C-16)",
+            "mr": "मातृभाषानिहाय वाटा (जनगणना C-16)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-16."
+        },
+        {
+          "label": {
+            "en": "Migrant share of population",
+            "hi": "जनसंख्या में प्रवासियों का हिस्सा",
+            "mr": "लोकसंख्येतील स्थलांतरितांचा वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "region": "IN-KL",
+  "module": "energy",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Keralam's own electricity generation has historically come mostly from hydropower, with the Idukki arch dam scheme the largest. Because rainfall varies from year to year and demand has grown, the State buys a large share of its power from central generating stations and the market. Rooftop solar has grown quickly, helped by high household electrification and the Kochi airport's example; the Kerala State Electricity Board (KSEB) is the main utility.",
+        "hi": "केरलम की अपनी बिजली का अधिकांश हिस्सा ऐतिहासिक रूप से जलविद्युत से आता रहा है, जिसमें इडुक्की आर्च बाँध योजना सबसे बड़ी है। वर्षा साल-दर-साल बदलती है और माँग बढ़ी है, इसलिए राज्य अपनी बिजली का बड़ा हिस्सा केंद्रीय उत्पादन केंद्रों और बाज़ार से ख़रीदता है। छत पर सौर ऊर्जा तेज़ी से बढ़ी है, जिसमें घरों के व्यापक विद्युतीकरण और कोच्चि हवाई अड्डे के उदाहरण ने मदद की; केरल राज्य विद्युत बोर्ड (केएसईबी) मुख्य वितरक है।",
+        "mr": "केरळमची स्वतःची वीजनिर्मिती पूर्वीपासून मुख्यतः जलविद्युतवर आधारित आहे; इडुक्की कमान धरण योजना सर्वांत मोठी. पाऊस वर्षागणिक बदलतो आणि मागणी वाढली आहे, त्यामुळे राज्य आपल्या विजेचा मोठा भाग केंद्रीय वीजनिर्मिती केंद्रांकडून आणि बाजारातून खरेदी करते. घरांचे व्यापक विद्युतीकरण आणि कोची विमानतळाच्या उदाहरणामुळे छतावरील सौरऊर्जा झपाट्याने वाढली आहे; केरळ राज्य वीज मंडळ (केएसईबी) ही मुख्य वितरण संस्था आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report (portal blocked automated access)."
+        },
+        {
+          "label": {
+            "en": "Renewable share and rooftop solar capacity",
+            "hi": "नवीकरणीय हिस्सा और छत सौर क्षमता",
+            "mr": "नवीकरणीय वाटा व छतावरील सौर क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE state-wise RE capacity."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "region": "IN-LA",
+  "module": "tourism",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Most visitors base themselves in Leh and make trips over high passes to the Nubra valley and Pangong Tso, with longer journeys to Tso Moriri, Zanskar and the Kargil–Suru region. Monasteries, trekking, mountaineering, river rafting on the Indus and Zanskar, and winter treks on the frozen Zanskar (the Chadar) are the main draws. The Kargil War Memorial at Drass receives a steady flow of visitors.",
+        "hi": "अधिकांश पर्यटक लेह में ठहरते हैं और ऊँचे दर्रों के पार नुब्रा घाटी और पैंगोंग त्सो जाते हैं; लंबी यात्राएँ त्सो मोरीरी, ज़ांस्कर और कारगिल–सुरू क्षेत्र तक होती हैं। मठ, ट्रेकिंग, पर्वतारोहण, सिंधु और ज़ांस्कर में रिवर राफ़्टिंग, और जमी हुई ज़ांस्कर पर सर्दियों का ट्रेक (चादर) मुख्य आकर्षण हैं। द्रास के कारगिल युद्ध स्मारक पर लगातार आगंतुक आते हैं।",
+        "mr": "बहुतेक पर्यटक लेहमध्ये मुक्काम करून उंच खिंडी ओलांडत नुब्रा खोरे आणि पँगाँग त्सोला जातात; त्सो मोरिरी, झांस्कर आणि कारगिल–सुरू भागापर्यंत लांबचे प्रवासही होतात. मठ, ट्रेकिंग, गिर्यारोहण, सिंधू व झांस्करमधील रिव्हर राफ्टिंग, आणि गोठलेल्या झांस्करवरील हिवाळी ट्रेक (चादर) ही मुख्य आकर्षणे आहेत. द्रास येथील कारगिल युद्ध स्मारकाला सतत पर्यटक भेट देतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "leh",
+          "name": {
+            "en": "Leh Palace, Shanti Stupa and the old town",
+            "hi": "लेह महल, शांति स्तूप और पुराना शहर",
+            "mr": "लेह राजवाडा, शांती स्तूप आणि जुने शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Leh",
+            "hi": "लेह",
+            "mr": "लेह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gompas",
+          "name": {
+            "en": "Hemis, Thiksey, Alchi and Lamayuru monasteries",
+            "hi": "हेमिस, थिकसे, अलची और लामायुरु मठ",
+            "mr": "हेमिस, थिकसे, अलची व लामायुरू मठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Monasteries",
+            "hi": "मठ",
+            "mr": "मठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nubra",
+          "name": {
+            "en": "Nubra valley and Diskit",
+            "hi": "नुब्रा घाटी और डिस्किट",
+            "mr": "नुब्रा खोरे आणि डिस्किट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Valleys, dunes",
+            "hi": "घाटियाँ, टीले",
+            "mr": "खोरी, ढिगारे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pangong",
+          "name": {
+            "en": "Pangong Tso",
+            "hi": "पैंगोंग त्सो",
+            "mr": "पँगाँग त्सो",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "High lake; permit needed",
+            "hi": "ऊँची झील; परमिट ज़रूरी",
+            "mr": "उंचावरील सरोवर; परवाना आवश्यक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tsomoriri",
+          "name": {
+            "en": "Tso Moriri and Tso Kar",
+            "hi": "त्सो मोरीरी और त्सो कार",
+            "mr": "त्सो मोरिरी व त्सो कार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "zanskar",
+          "name": {
+            "en": "Zanskar valley",
+            "hi": "ज़ांस्कर घाटी",
+            "mr": "झांस्कर खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Remote valley, trekking",
+            "hi": "दूरस्थ घाटी, ट्रेकिंग",
+            "mr": "दुर्गम खोरे, ट्रेकिंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "drass",
+          "name": {
+            "en": "Kargil War Memorial, Drass",
+            "hi": "कारगिल युद्ध स्मारक, द्रास",
+            "mr": "कारगिल युद्ध स्मारक, द्रास",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Memorial",
+            "hi": "स्मारक",
+            "mr": "स्मारक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Acclimatise in Leh; Leh Palace, Shanti Stupa, then Thiksey, Shey and Hemis.",
+            "hi": "लेह में अनुकूलन; लेह महल, शांति स्तूप, फिर थिकसे, शे और हेमिस।",
+            "mr": "लेहमध्ये जुळवून घ्या; लेह राजवाडा, शांती स्तूप, नंतर थिकसे, शे व हेमिस.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Add Nubra over Khardung La and a night at Pangong Tso (permits required).",
+            "hi": "खारदुंग ला पार नुब्रा और पैंगोंग त्सो पर एक रात जोड़ें (परमिट ज़रूरी)।",
+            "mr": "खारदुंग ला ओलांडून नुब्रा आणि पँगाँग त्सोवर एक रात्र जोडा (परवाने आवश्यक).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Continue west via Lamayuru to Kargil and Drass, or south-east to Tso Moriri.",
+            "hi": "लामायुरु होते हुए पश्चिम में कारगिल और द्रास, या दक्षिण-पूर्व में त्सो मोरीरी जाएँ।",
+            "mr": "लामायुरूमार्गे पश्चिमेला कारगिल व द्रास, किंवा आग्नेयेला त्सो मोरिरी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tourist arrivals (domestic and foreign)",
+            "hi": "पर्यटक आगमन (घरेलू और विदेशी)",
+            "mr": "पर्यटक आगमन (देशी व परदेशी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "la-gov",
+          "note": "Tourism Department, UT Ladakh."
+        },
+        {
+          "label": {
+            "en": "Carrying-capacity and environmental fee rules",
+            "hi": "वहन क्षमता और पर्यावरण शुल्क नियम",
+            "mr": "वहनक्षमता व पर्यावरण शुल्क नियम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "la-gov",
+          "note": "District notifications."
+        }
+      ]
+    }
+  ]
+}

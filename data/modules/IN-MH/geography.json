@@ -1,0 +1,368 @@
+{
+  "region": "IN-MH",
+  "module": "geography",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Maharashtra has three broad belts. The narrow Konkan coast runs about 720 km along the Arabian Sea, cut by creeks and estuaries. Behind it the Sahyadri rise steeply; Kalsubai (about 1,646 m) is the highest point. East of the crest lies the Deccan plateau, built of layered basalt from ancient lava flows, which slopes gently towards the Wainganga basin in Vidarbha.\n\nMost large rivers rise in the Sahyadri and flow east to the Bay of Bengal: the Godavari from Trimbakeshwar near Nashik, and the Krishna from Mahabaleshwar, with the Bhima as a major tributary. The Tapi and Narmada system drains the north-west towards the Arabian Sea. Lonar Lake in Buldhana district fills a crater formed by a meteorite impact.",
+        "hi": "महाराष्ट्र तीन मुख्य पट्टियों में बँटा है। संकरी कोंकण पट्टी अरब सागर के साथ लगभग 720 किमी तक फैली है, जिसे खाड़ियाँ और मुहाने काटते हैं। उसके पीछे सह्याद्रि की खड़ी ढलानें उठती हैं; कळसूबाई (लगभग 1,646 मीटर) सबसे ऊँची चोटी है। चोटी के पूर्व में दक्कन का पठार है, जो प्राचीन लावा प्रवाहों से बनी बेसाल्ट की परतों से बना है और विदर्भ में वैनगंगा घाटी की ओर धीरे-धीरे ढलता है।\n\nअधिकांश बड़ी नदियाँ सह्याद्रि से निकलकर पूर्व की ओर बंगाल की खाड़ी में जाती हैं: गोदावरी नासिक के पास त्र्यंबकेश्वर से और कृष्णा महाबलेश्वर से, जिसकी प्रमुख सहायक नदी भीमा है। उत्तर-पश्चिम का जल तापी के रास्ते अरब सागर में जाता है। बुलढाणा ज़िले की लोणार झील उल्कापिंड के टकराने से बने गड्ढे में भरी है।",
+        "mr": "महाराष्ट्राचे तीन प्रमुख पट्टे आहेत. चिंचोळी कोकणपट्टी अरबी समुद्राच्या काठाने सुमारे 720 किमी पसरली असून खाड्या आणि नदीमुखांनी ती छेदलेली आहे. तिच्या मागे सह्याद्री उभा चढतो; कळसूबाई (सुमारे 1,646 मीटर) हे सर्वोच्च शिखर आहे. माथ्याच्या पूर्वेला प्राचीन लाव्हारसाच्या थरांनी बनलेले बेसॉल्टचे दख्खन पठार असून ते विदर्भातील वैनगंगेच्या खोऱ्याकडे हळूहळू उतरत जाते.\n\nबहुतेक मोठ्या नद्या सह्याद्रीत उगम पावून पूर्वेकडे बंगालच्या उपसागराकडे वाहतात: गोदावरी नाशिकजवळ त्र्यंबकेश्वर येथून आणि कृष्णा महाबळेश्वर येथून; भीमा ही कृष्णेची प्रमुख उपनदी आहे. वायव्य भागाचे पाणी तापीमार्गे अरबी समुद्राला मिळते. बुलढाणा जिल्ह्यातील लोणार सरोवर उल्कापाताने तयार झालेल्या विवरात साचले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 307713,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026). Census 2011 rounds this to 3.08 lakh km²."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "gj",
+          "name": {
+            "en": "Gujarat",
+            "hi": "गुजरात",
+            "mr": "गुजरात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dh",
+          "name": {
+            "en": "Dadra & Nagar Haveli and Daman & Diu",
+            "hi": "दादरा और नगर हवेली और दमन और दीव",
+            "mr": "दादरा आणि नगर हवेली आणि दमण आणि दीव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mp",
+          "name": {
+            "en": "Madhya Pradesh",
+            "hi": "मध्य प्रदेश",
+            "mr": "मध्य प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ct",
+          "name": {
+            "en": "Chhattisgarh",
+            "hi": "छत्तीसगढ़",
+            "mr": "छत्तीसगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tg",
+          "name": {
+            "en": "Telangana",
+            "hi": "तेलंगाना",
+            "mr": "तेलंगणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ka",
+          "name": {
+            "en": "Karnataka",
+            "hi": "कर्नाटक",
+            "mr": "कर्नाटक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ga",
+          "name": {
+            "en": "Goa",
+            "hi": "गोवा",
+            "mr": "गोवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sea",
+          "name": {
+            "en": "Arabian Sea (west)",
+            "hi": "अरब सागर (पश्चिम)",
+            "mr": "अरबी समुद्र (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "godavari",
+          "name": {
+            "en": "Godavari",
+            "hi": "गोदावरी",
+            "mr": "गोदावरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises at Trimbakeshwar (Nashik district); flows east across Marathwada.",
+            "hi": "त्र्यंबकेश्वर (नासिक ज़िला) से उद्गम; मराठवाड़ा से होकर पूर्व की ओर।",
+            "mr": "त्र्यंबकेश्वर (नाशिक जिल्हा) येथे उगम; मराठवाड्यातून पूर्वेकडे वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "krishna",
+          "name": {
+            "en": "Krishna",
+            "hi": "कृष्णा",
+            "mr": "कृष्णा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises near Mahabaleshwar; flows south-east into Karnataka.",
+            "hi": "महाबलेश्वर के पास से उद्गम; दक्षिण-पूर्व में कर्नाटक की ओर।",
+            "mr": "महाबळेश्वरजवळ उगम; आग्नेयेकडे कर्नाटकात जाते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhima",
+          "name": {
+            "en": "Bhima",
+            "hi": "भीमा",
+            "mr": "भीमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Krishna tributary; Pandharpur stands on its banks.",
+            "hi": "कृष्णा की सहायक नदी; पंढरपुर इसी के तट पर है।",
+            "mr": "कृष्णेची उपनदी; पंढरपूर हिच्या काठी आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tapi",
+          "name": {
+            "en": "Tapi",
+            "hi": "तापी",
+            "mr": "तापी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows west through Khandesh to the Arabian Sea.",
+            "hi": "खानदेश से होकर पश्चिम में अरब सागर तक।",
+            "mr": "खानदेशातून पश्चिमेकडे अरबी समुद्राकडे वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "wainganga",
+          "name": {
+            "en": "Wainganga",
+            "hi": "वैनगंगा",
+            "mr": "वैनगंगा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Main river of eastern Vidarbha, part of the Godavari basin.",
+            "hi": "पूर्वी विदर्भ की मुख्य नदी, गोदावरी घाटी का भाग।",
+            "mr": "पूर्व विदर्भातील प्रमुख नदी, गोदावरी खोऱ्याचा भाग.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Latitude and longitude extent",
+            "hi": "अक्षांश-देशांतर विस्तार",
+            "mr": "अक्षांश-रेखांश विस्तार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Take from Survey of India or the State gazetteer."
+        },
+        {
+          "label": {
+            "en": "Coastline length (official)",
+            "hi": "तटरेखा की लंबाई (आधिकारिक)",
+            "mr": "किनारपट्टीची लांबी (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Editorial text uses about 720 km; confirm against an official figure."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        },
+        {
+          "label": {
+            "en": "Soils and mineral output",
+            "hi": "मिट्टी और खनिज उत्पादन",
+            "mr": "माती व खनिज उत्पादन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-sdb",
+          "note": "Indian Bureau of Mines / State Economic Survey."
+        }
+      ]
+    }
+  ]
+}

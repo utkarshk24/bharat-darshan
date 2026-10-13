@@ -1,0 +1,209 @@
+{
+  "region": "IN-KL",
+  "module": "climate",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Keralam has a humid tropical climate with little seasonal change in temperature, but rainfall dominates the calendar. The south-west monsoon usually reaches the Indian mainland here first, around the start of June, and brings most of the year's rain by September. A second, smaller season of rain — the north-east monsoon, locally called Thulavarsham — follows in October and November. December to February is the driest and most comfortable stretch; March to May is hot and sticky, broken by pre-monsoon thunderstorms.\n\nThe hills are much cooler. Munnar, Wayanad and the Idukki highlands can be chilly on winter nights, while the coast stays warm all year.",
+        "hi": "केरलम की जलवायु आर्द्र उष्णकटिबंधीय है; तापमान में मौसमी बदलाव कम है, लेकिन साल का कैलेंडर वर्षा तय करती है। दक्षिण-पश्चिम मानसून आम तौर पर भारत की मुख्य भूमि पर सबसे पहले यहीं, जून की शुरुआत के आसपास पहुँचता है और सितंबर तक साल की अधिकांश वर्षा दे जाता है। इसके बाद अक्टूबर और नवंबर में दूसरा, छोटा वर्षा काल आता है — उत्तर-पूर्व मानसून, जिसे यहाँ तुलावर्षम कहते हैं। दिसंबर से फ़रवरी सबसे सूखा और सुहावना समय है; मार्च से मई गर्म और उमस भरा रहता है, बीच-बीच में मानसून-पूर्व आँधी-बारिश होती है।\n\nपहाड़ियाँ काफ़ी ठंडी हैं। मुन्नार, वायनाड और इडुक्की के ऊँचे इलाक़ों में सर्दियों की रातें ठिठुरन भरी हो सकती हैं, जबकि तट साल भर गर्म रहता है।",
+        "mr": "केरळमचे हवामान दमट उष्णकटिबंधीय आहे; तापमानात ऋतूनुसार फारसा फरक पडत नाही, पण वर्षाचे वेळापत्रक पाऊस ठरवतो. नैर्ऋत्य मोसमी पाऊस साधारणपणे जूनच्या सुरुवातीला भारताच्या मुख्य भूमीवर सर्वप्रथम इथेच दाखल होतो आणि सप्टेंबरपर्यंत वर्षभराचा बहुतांश पाऊस देतो. त्यानंतर ऑक्टोबर-नोव्हेंबरमध्ये दुसरा, लहान पावसाळा येतो — ईशान्य मोसमी पाऊस, ज्याला स्थानिक भाषेत तुलावर्षम म्हणतात. डिसेंबर ते फेब्रुवारी हा सर्वांत कोरडा आणि आल्हाददायक काळ; मार्च ते मे उष्ण व दमट असतो, अधूनमधून मान्सूनपूर्व वादळी पाऊस पडतो.\n\nडोंगराळ भाग बराच थंड असतो. मुन्नार, वायनाड आणि इडुक्कीच्या उंच भागात हिवाळ्यातील रात्री गारठा जाणवतो, तर किनारपट्टी वर्षभर उबदार राहते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Thiruvananthapuram",
+            "hi": "तिरुवनंतपुरम",
+            "mr": "तिरुवनंतपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 8.5241,
+          "lon": 76.9366
+        },
+        {
+          "name": {
+            "en": "Kochi",
+            "hi": "कोच्चि",
+            "mr": "कोची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 9.9312,
+          "lon": 76.2673
+        },
+        {
+          "name": {
+            "en": "Kozhikode",
+            "hi": "कोझिकोड",
+            "mr": "कोझिकोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 11.2588,
+          "lon": 75.7804
+        },
+        {
+          "name": {
+            "en": "Munnar",
+            "hi": "मुन्नार",
+            "mr": "मुन्नार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 10.0889,
+          "lon": 77.0595
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "December to February",
+            "hi": "दिसंबर से फ़रवरी",
+            "mr": "डिसेंबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Driest and most comfortable: backwaters, beaches, hill stations and festivals.",
+            "hi": "सबसे सूखा और सुहावना: बैकवाटर, समुद्र तट, हिल स्टेशन और उत्सव।",
+            "mr": "सर्वांत कोरडा आणि आल्हाददायक: बॅकवॉटर्स, समुद्रकिनारे, थंड हवेची ठिकाणे आणि उत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "June to September",
+            "hi": "जून से सितंबर",
+            "mr": "जून ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Green and dramatic; season for Ayurveda treatments and the August boat races, with flood and landslide risk.",
+            "hi": "हरियाली और नाटकीय नज़ारे; आयुर्वेदिक उपचार और अगस्त की नौका दौड़ का मौसम, पर बाढ़ और भूस्खलन का ख़तरा।",
+            "mr": "हिरवाई आणि नाट्यमय निसर्ग; आयुर्वेदिक उपचार आणि ऑगस्टमधील नौका शर्यतींचा काळ, मात्र पूर व दरडींचा धोका.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "onam",
+          "name": {
+            "en": "August–September (Onam)",
+            "hi": "अगस्त–सितंबर (ओणम)",
+            "mr": "ऑगस्ट–सप्टेंबर (ओणम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Harvest festival season with flower carpets, feasts and cultural events.",
+            "hi": "फूलों की रंगोली, भोज और सांस्कृतिक कार्यक्रमों वाला फ़सल उत्सव का मौसम।",
+            "mr": "फुलांच्या रांगोळ्या, मेजवान्या आणि सांस्कृतिक कार्यक्रमांचा सुगीचा सणासुदीचा काळ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Monthly temperature and rainfall normals",
+            "hi": "मासिक तापमान और वर्षा सामान्य",
+            "mr": "मासिक तापमान व पर्जन्य सरासरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD climatological normals for Thiruvananthapuram, Kochi, Kozhikode."
+        },
+        {
+          "label": {
+            "en": "Annual rainfall (State average)",
+            "hi": "वार्षिक वर्षा (राज्य औसत)",
+            "mr": "वार्षिक पर्जन्य (राज्य सरासरी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics."
+        },
+        {
+          "label": {
+            "en": "Climate-change vulnerability",
+            "hi": "जलवायु परिवर्तन संवेदनशीलता",
+            "mr": "हवामान बदल असुरक्षितता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ndma",
+          "note": "Kerala State Action Plan on Climate Change."
+        }
+      ]
+    }
+  ]
+}

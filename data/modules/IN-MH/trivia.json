@@ -1,0 +1,138 @@
+{
+  "region": "IN-MH",
+  "module": "trivia",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "gsdp",
+          "name": {
+            "en": "Maharashtra has the largest GSDP of any Indian State (FY2024-25, MoSPI).",
+            "hi": "महाराष्ट्र का जीएसडीपी देश के सभी राज्यों में सबसे अधिक है (वित्त वर्ष 2024-25, मोस्पी)।",
+            "mr": "महाराष्ट्राचे जीएसडीपी देशातील सर्व राज्यांत सर्वाधिक आहे (आ.व. 2024-25, मोस्पी).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://mospi.gov.in",
+          "sourceId": "mospi"
+        },
+        {
+          "id": "whs",
+          "name": {
+            "en": "It has seven UNESCO World Heritage properties, including 11 of the 12 forts of the Maratha Military Landscapes (2025).",
+            "hi": "यहाँ सात यूनेस्को विश्व धरोहर स्थल हैं, जिनमें मराठा सैन्य परिदृश्य (2025) के 12 में से 11 क़िले शामिल हैं।",
+            "mr": "येथे युनेस्कोची सात जागतिक वारसा स्थळे आहेत, ज्यात मराठा लष्करी भूप्रदेशातील (2025) 12 पैकी 11 किल्ले आहेत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://whc.unesco.org/en/list/1739",
+          "sourceId": "unesco-whc"
+        },
+        {
+          "id": "gi",
+          "name": {
+            "en": "Its 55 registered GIs range from Alphonso mangoes to Miraj sitars.",
+            "hi": "इसके 55 पंजीकृत जीआई में अल्फांसो आम से लेकर मिरज के सितार तक शामिल हैं।",
+            "mr": "हापूस आंब्यापासून मिरजेच्या सतारीपर्यंत येथे 55 नोंदणीकृत जीआय आहेत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "sourceId": "gi-registry"
+        },
+        {
+          "id": "lonar",
+          "name": {
+            "en": "Lonar Lake fills a meteorite impact crater and is a Ramsar wetland (2020).",
+            "hi": "लोणार झील उल्कापिंड से बने गड्ढे में है और रामसर आर्द्रभूमि (2020) है।",
+            "mr": "लोणार सरोवर उल्कापाताने बनलेल्या विवरात असून ते रामसर पाणथळ स्थळ (2020) आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+          "sourceId": "indian-wetlands"
+        },
+        {
+          "id": "rail",
+          "name": {
+            "en": "India's first passenger train ran from Bori Bunder (Mumbai) to Thane on 16 April 1853.",
+            "hi": "भारत की पहली यात्री रेलगाड़ी 16 अप्रैल 1853 को बोरी बंदर (मुंबई) से ठाणे तक चली।",
+            "mr": "भारतातील पहिली प्रवासी रेल्वे 16 एप्रिल 1853 रोजी बोरीबंदर (मुंबई) ते ठाणे धावली.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://indianrailways.gov.in",
+          "sourceId": "railways"
+        },
+        {
+          "id": "tarapur",
+          "name": {
+            "en": "Tarapur, commissioned in 1969, was India's first nuclear power station.",
+            "hi": "1969 में शुरू हुआ तारापुर भारत का पहला परमाणु बिजलीघर था।",
+            "mr": "1969 मध्ये सुरू झालेले तारापूर हे भारतातील पहिले अणुऊर्जा केंद्र होते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.npcil.nic.in",
+          "sourceId": "npcil"
+        },
+        {
+          "id": "classical",
+          "name": {
+            "en": "Marathi was declared a classical language in October 2024.",
+            "hi": "अक्टूबर 2024 में मराठी को शास्त्रीय भाषा घोषित किया गया।",
+            "mr": "ऑक्टोबर 2024 मध्ये मराठीला अभिजात भाषेचा दर्जा मिळाला.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2061660&reg=48&lang=2",
+          "sourceId": "pib"
+        },
+        {
+          "id": "olympic",
+          "name": {
+            "en": "Khashaba Jadhav won India's first individual Olympic medal, in wrestling, at Helsinki 1952.",
+            "hi": "खाशाबा जाधव ने 1952 हेलसिंकी में कुश्ती में भारत का पहला व्यक्तिगत ओलंपिक पदक जीता।",
+            "mr": "खाशाबा जाधव यांनी 1952 च्या हेलसिंकी ऑलिंपिकमध्ये कुस्तीत भारताचे पहिले वैयक्तिक पदक जिंकले.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

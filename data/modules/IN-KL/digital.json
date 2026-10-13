@@ -1,0 +1,68 @@
+{
+  "region": "IN-KL",
+  "module": "digital",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Technopark in Thiruvananthapuram, opened in 1990, was one of India's first IT parks; Infopark in Kochi and Cyberpark in Kozhikode followed. The Kerala Startup Mission supports young companies, and the State-owned K-FON network aims to bring broadband to households and public offices. Digital University Kerala, in Thiruvananthapuram, focuses on digital technology education and research.",
+        "hi": "1990 में खुला तिरुवनंतपुरम का टेक्नोपार्क भारत के पहले आईटी पार्कों में था; बाद में कोच्चि में इन्फ़ोपार्क और कोझिकोड में साइबरपार्क बने। केरल स्टार्टअप मिशन नई कंपनियों को सहायता देता है, और राज्य के स्वामित्व वाला के-फ़ोन नेटवर्क घरों और सरकारी दफ़्तरों तक ब्रॉडबैंड पहुँचाने का लक्ष्य रखता है। तिरुवनंतपुरम का डिजिटल विश्वविद्यालय केरल डिजिटल प्रौद्योगिकी की शिक्षा और शोध पर केंद्रित है।",
+        "mr": "1990 मध्ये सुरू झालेले तिरुवनंतपुरमचे टेक्नोपार्क हे भारतातील पहिल्या आयटी पार्कांपैकी एक होते; त्यानंतर कोचीत इन्फोपार्क आणि कोझिकोडमध्ये सायबरपार्क उभे राहिले. केरळ स्टार्टअप मिशन नव्या कंपन्यांना पाठबळ देते, तर राज्याच्या मालकीचे के-फोन जाळे घरे आणि सरकारी कार्यालयांपर्यंत ब्रॉडबँड पोहोचवण्याचे उद्दिष्ट ठेवते. तिरुवनंतपुरममधील डिजिटल युनिव्हर्सिटी केरळ डिजिटल तंत्रज्ञानातील शिक्षण व संशोधनावर भर देते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI Indian Telecom Services Performance Indicators (Kerala circle)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        },
+        {
+          "label": {
+            "en": "K-FON connections",
+            "hi": "के-फ़ोन कनेक्शन",
+            "mr": "के-फोन जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "kl-gov",
+          "note": "K-FON official dashboard."
+        }
+      ]
+    }
+  ]
+}

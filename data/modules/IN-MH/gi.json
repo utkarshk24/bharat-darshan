@@ -1,0 +1,61 @@
+{
+  "region": "IN-MH",
+  "module": "gi",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Maharashtra has 55 registered Geographical Indications, more than most States, as listed by the GI Registry on 31 December 2025. Most are agricultural — from Alphonso mangoes and Nashik grapes to Lasalgaon onions and several regional rice and turmeric varieties — alongside crafts such as Paithani saris, Kolhapuri chappals, Warli painting, Miraj sitars and tanpuras, and Pen's Ganesh idols. Three GIs are shared with neighbouring States.",
+        "hi": "जीआई रजिस्ट्री की 31 दिसंबर 2025 की सूची के अनुसार महाराष्ट्र के 55 पंजीकृत भौगोलिक संकेतक (जीआई) हैं, जो अधिकांश राज्यों से अधिक है। इनमें ज़्यादातर कृषि उत्पाद हैं — अल्फांसो आम और नासिक के अंगूर से लेकर लासलगांव प्याज़ और चावल व हल्दी की कई क्षेत्रीय किस्में — साथ ही पैठणी साड़ी, कोल्हापुरी चप्पल, वारली चित्रकला, मिरज के सितार और तानपूरे, और पेण की गणेश मूर्तियाँ जैसे शिल्प भी। तीन जीआई पड़ोसी राज्यों के साथ साझा हैं।",
+        "mr": "जीआय रजिस्ट्रीच्या 31 डिसेंबर 2025 च्या यादीनुसार महाराष्ट्राची 55 नोंदणीकृत भौगोलिक मानांकने (जीआय) आहेत, जी बहुतेक राज्यांपेक्षा अधिक आहेत. यात बहुतांश कृषी उत्पादने आहेत — हापूस आंबा आणि नाशिकच्या द्राक्षांपासून लासलगावचा कांदा आणि तांदूळ व हळदीच्या अनेक प्रादेशिक जातींपर्यंत — सोबतच पैठणी, कोल्हापुरी चप्पल, वारली चित्रकला, मिरजेच्या सतारी व तानपुरे आणि पेणच्या गणेशमूर्ती यांसारख्या हस्तकलाही. तीन जीआय शेजारी राज्यांसोबत सामायिक आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "gi-registry"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "gi",
+      "id": "gi"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Registration year and producing region for each GI",
+            "hi": "हर जीआई का पंजीकरण वर्ष और उत्पादन क्षेत्र",
+            "mr": "प्रत्येक जीआयचे नोंदणी वर्ष व उत्पादन क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "gi-registry",
+          "note": "GI Registry application detail pages."
+        },
+        {
+          "label": {
+            "en": "One District One Product (ODOP) items",
+            "hi": "एक ज़िला एक उत्पाद (ओडीओपी)",
+            "mr": "एक जिल्हा एक उत्पादन (ओडीओपी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dpiit",
+          "note": "DPIIT ODOP list for Maharashtra."
+        }
+      ]
+    }
+  ]
+}

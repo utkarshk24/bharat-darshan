@@ -1,0 +1,498 @@
+{
+  "region": "IN-KL",
+  "module": "nature",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Keralam is one of India's greenest States: forest cover was about 56.8% of its area in ISFR 2023, against 21.8% nationally. Most of the forest lies along the Western Ghats, a UNESCO World Heritage biodiversity hotspot, ranging from tropical wet evergreen forest to the high-altitude shola grasslands where the Nilgiri tahr lives. Silent Valley holds one of the last undisturbed rainforests in the peninsula, and the Neelakurinji shrub blankets the Munnar hills in blue roughly once every twelve years.\n\nThe coast has mangroves, lagoons and three Ramsar wetlands — Vembanad-Kol, Ashtamudi and Sasthamkotta. Periyar and Parambikulam are tiger reserves, and the Ghats forests also hold one of India's largest elephant populations.",
+        "hi": "केरलम भारत के सबसे हरे-भरे राज्यों में है: आईएसएफ़आर 2023 में इसके लगभग 56.8% क्षेत्र पर वन आवरण था, जबकि राष्ट्रीय स्तर 21.8% है। अधिकांश वन पश्चिमी घाट के साथ हैं, जो यूनेस्को विश्व धरोहर और जैव विविधता हॉटस्पॉट है; यहाँ उष्णकटिबंधीय सदाबहार वनों से लेकर ऊँचाई वाले शोला घास के मैदान तक हैं, जहाँ नीलगिरि ताहर रहता है। साइलेंट वैली प्रायद्वीप के अंतिम अछूते वर्षावनों में से एक है, और नीलकुरिंजी की झाड़ी लगभग हर बारह साल में मुन्नार की पहाड़ियों को नीले रंग से ढक देती है।\n\nतट पर मैंग्रोव, लैगून और तीन रामसर आर्द्रभूमियाँ हैं — वेम्बनाड-कोल, अष्टमुडी और शास्तामकोट्टा। पेरियार और परम्बिकुलम बाघ अभयारण्य हैं, और घाट के वनों में भारत की सबसे बड़ी हाथी आबादियों में से एक भी है।",
+        "mr": "केरळम हे भारतातील सर्वांत हिरव्यागार राज्यांपैकी एक आहे: आयएसएफआर 2023 नुसार राज्याच्या सुमारे 56.8% क्षेत्रावर वनाच्छादन होते, तर राष्ट्रीय प्रमाण 21.8% आहे. बहुतांश वने पश्चिम घाटालगत आहेत — युनेस्को जागतिक वारसा आणि जैवविविधता हॉटस्पॉट — जिथे उष्णकटिबंधीय सदाहरित वनांपासून उंचावरील शोला गवताळ प्रदेशांपर्यंत विविधता आहे; निलगिरी ताहर याच प्रदेशात राहतो. सायलेंट व्हॅली हे द्वीपकल्पातील शेवटच्या अबाधित वर्षावनांपैकी एक आहे, आणि नीलकुरिंजीचे झुडूप साधारण दर बारा वर्षांनी मुन्नारचे डोंगर निळ्या रंगात न्हाऊन टाकते.\n\nकिनाऱ्यावर खारफुटी, खारकच्छ आणि तीन रामसर पाणथळ स्थळे आहेत — वेंबनाड-कोल, अष्टमुडी आणि शास्तामकोट्टा. पेरियार आणि परंबिकुळम हे व्याघ्र प्रकल्प आहेत, आणि घाटातील वनांत भारतातील सर्वांत मोठ्या हत्ती लोकसंख्येपैकी एक आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "indian-wetlands",
+        "unesco-whc"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 22059.36,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 21925.94,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 56.78,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 22,059.36 km² ÷ geographical area 38,852 km²."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "ramsar",
+      "title": {
+        "en": "Ramsar wetlands",
+        "hi": "रामसर आर्द्रभूमियाँ",
+        "mr": "रामसर पाणथळ स्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Site",
+            "hi": "स्थल",
+            "mr": "स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Designated",
+            "hi": "घोषित",
+            "mr": "घोषणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Vembanad-Kol wetland",
+            "hi": "वेम्बनाड-कोल आर्द्रभूमि",
+            "mr": "वेंबनाड-कोल पाणथळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "19 Aug 2002"
+        ],
+        [
+          {
+            "en": "Ashtamudi wetland (Kollam)",
+            "hi": "अष्टमुडी आर्द्रभूमि (कोल्लम)",
+            "mr": "अष्टमुडी पाणथळ (कोल्लम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "19 Aug 2002"
+        ],
+        [
+          {
+            "en": "Sasthamkotta Lake (Kollam)",
+            "hi": "शास्तामकोट्टा झील (कोल्लम)",
+            "mr": "शास्तामकोट्टा सरोवर (कोल्लम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "19 Aug 2002"
+        ]
+      ],
+      "sourceId": "indian-wetlands",
+      "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "note": {
+        "en": "India has 99 Ramsar sites (list as on 21 April 2026). Areas to be added from the official list.",
+        "hi": "भारत में 99 रामसर स्थल हैं (21 अप्रैल 2026 की सूची)। क्षेत्रफल आधिकारिक सूची से जोड़ा जाएगा।",
+        "mr": "भारतात 99 रामसर स्थळे आहेत (21 एप्रिल 2026 ची यादी). क्षेत्रफळ अधिकृत यादीतून जोडले जाईल.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "protected",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "periyar",
+          "name": {
+            "en": "Periyar Tiger Reserve",
+            "hi": "पेरियार बाघ अभयारण्य",
+            "mr": "पेरियार व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Idukki–Pathanamthitta",
+            "hi": "इडुक्की–पत्तनमतिट्टा",
+            "mr": "इडुक्की–पत्तनमतिट्टा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "parambikulam",
+          "name": {
+            "en": "Parambikulam Tiger Reserve",
+            "hi": "परम्बिकुलम बाघ अभयारण्य",
+            "mr": "परंबिकुळम व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Palakkad",
+            "hi": "पालक्काड",
+            "mr": "पालक्काड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "silent",
+          "name": {
+            "en": "Silent Valley National Park",
+            "hi": "साइलेंट वैली राष्ट्रीय उद्यान",
+            "mr": "सायलेंट व्हॅली राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Palakkad",
+            "hi": "पालक्काड",
+            "mr": "पालक्काड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "eravikulam",
+          "name": {
+            "en": "Eravikulam National Park",
+            "hi": "एरविकुलम राष्ट्रीय उद्यान",
+            "mr": "एरविकुळम राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Munnar; Nilgiri tahr",
+            "hi": "मुन्नार; नीलगिरि ताहर",
+            "mr": "मुन्नार; निलगिरी ताहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "wayanad",
+          "name": {
+            "en": "Wayanad Wildlife Sanctuary",
+            "hi": "वायनाड वन्यजीव अभयारण्य",
+            "mr": "वायनाड वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Part of the Nilgiri Biosphere Reserve",
+            "hi": "नीलगिरि बायोस्फ़ीयर रिज़र्व का भाग",
+            "mr": "निलगिरी जीवावरण राखीव क्षेत्राचा भाग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thattekad",
+          "name": {
+            "en": "Thattekad Bird Sanctuary",
+            "hi": "तट्टेक्काड पक्षी अभयारण्य",
+            "mr": "तट्टेक्काड पक्षी अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ernakulam",
+            "hi": "एर्नाकुलम",
+            "mr": "एर्णाकुलम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Protected areas (selected)",
+        "hi": "संरक्षित क्षेत्र (चयनित)",
+        "mr": "संरक्षित क्षेत्रे (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "species",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "elephant",
+          "name": {
+            "en": "Asian elephant",
+            "hi": "एशियाई हाथी",
+            "mr": "आशियाई हत्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tahr",
+          "name": {
+            "en": "Nilgiri tahr",
+            "hi": "नीलगिरि ताहर",
+            "mr": "निलगिरी ताहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lionmacaque",
+          "name": {
+            "en": "Lion-tailed macaque",
+            "hi": "शेरपूँछ मकाक (सिंहपुच्छ बंदर)",
+            "mr": "सिंहपुच्छ माकड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hornbill",
+          "name": {
+            "en": "Great hornbill",
+            "hi": "ग्रेट हॉर्नबिल",
+            "mr": "राज धनेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiger",
+          "name": {
+            "en": "Bengal tiger",
+            "hi": "बंगाल बाघ",
+            "mr": "पट्टेरी वाघ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kurinji",
+          "name": {
+            "en": "Neelakurinji",
+            "hi": "नीलकुरिंजी",
+            "mr": "नीलकुरिंजी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key species",
+        "hi": "प्रमुख प्रजातियाँ",
+        "mr": "प्रमुख प्रजाती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tiger reserve areas (core, buffer)",
+            "hi": "बाघ अभयारण्य क्षेत्रफल (कोर, बफ़र)",
+            "mr": "व्याघ्र प्रकल्प क्षेत्र (गाभा, बफर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ntca",
+          "note": "NTCA tiger reserve list."
+        },
+        {
+          "label": {
+            "en": "Ramsar site areas",
+            "hi": "रामसर स्थलों का क्षेत्रफल",
+            "mr": "रामसर स्थळांचे क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "indian-wetlands",
+          "note": "MoEFCC Ramsar list."
+        },
+        {
+          "label": {
+            "en": "National parks and sanctuaries (count, area)",
+            "hi": "राष्ट्रीय उद्यान और अभयारण्य (संख्या, क्षेत्रफल)",
+            "mr": "राष्ट्रीय उद्याने व अभयारण्ये (संख्या, क्षेत्र)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "moefcc",
+          "note": "ENVIS / Wildlife Institute of India database."
+        },
+        {
+          "label": {
+            "en": "Mangrove cover",
+            "hi": "मैंग्रोव आवरण",
+            "mr": "खारफुटी आच्छादन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "fsi",
+          "note": "ISFR 2023, Kerala chapter."
+        }
+      ]
+    }
+  ]
+}

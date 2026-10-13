@@ -1,0 +1,81 @@
+{
+  "region": "IN-KL",
+  "module": "water",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Despite heavy rainfall, water is a seasonal worry in Keralam. The short rivers carry rain to the sea quickly, so summer shortages are common in the midlands, and saline water pushes up the estuaries in the dry months; the Thanneermukkom barrage on Vembanad Lake was built to keep salt water out of the Kuttanad paddy fields, much of which lie below sea level. Open dug wells remain an important household source. The Mullaperiyar dam, on the Periyar in Keralam but operated by Tamil Nadu, has been the subject of a long inter-State dispute.",
+        "hi": "भारी वर्षा के बावजूद केरलम में पानी मौसमी चिंता है। छोटी नदियाँ बारिश का पानी जल्दी समुद्र तक पहुँचा देती हैं, इसलिए मध्य क्षेत्र में गर्मियों में कमी आम है, और सूखे महीनों में खारा पानी मुहानों में ऊपर चढ़ आता है; वेम्बनाड झील पर थन्नीरमुक्कम बराज कुट्टनाड के धान के खेतों — जिनका बड़ा हिस्सा समुद्र तल से नीचे है — से खारे पानी को दूर रखने के लिए बना। खुले कुएँ आज भी घरों का महत्त्वपूर्ण जल स्रोत हैं। पेरियार पर केरलम में स्थित लेकिन तमिलनाडु द्वारा संचालित मुल्लपेरियार बाँध लंबे अंतर-राज्यीय विवाद का विषय रहा है।",
+        "mr": "भरपूर पाऊस असूनही केरळममध्ये पाणी ही हंगामी चिंता आहे. लहान नद्या पावसाचे पाणी लवकर समुद्रात वाहून नेतात, त्यामुळे मधल्या पट्ट्यात उन्हाळ्यात टंचाई सामान्य आहे, आणि कोरड्या महिन्यांत खारे पाणी नदीमुखांत वर चढते; कुट्टनाडची भातशेती — जिचा मोठा भाग समुद्रसपाटीखाली आहे — खाऱ्या पाण्यापासून वाचवण्यासाठी वेंबनाड सरोवरावर थण्णीरमुक्कम बंधारा बांधला गेला. उघड्या विहिरी आजही घरगुती पाण्याचा महत्त्वाचा स्रोत आहेत. पेरियार नदीवरील, केरळममध्ये असलेले पण तमिळनाडूकडून चालवले जाणारे मुल्लपेरियार धरण दीर्घ आंतरराज्य वादाचा विषय राहिले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Large dams (count) and storage",
+            "hi": "बड़े बाँध (संख्या) और भंडारण",
+            "mr": "मोठी धरणे (संख्या) व साठा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "kl-gov",
+          "note": "Central Water Commission National Register of Large Dams."
+        },
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "kl-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        },
+        {
+          "label": {
+            "en": "Net irrigated area",
+            "hi": "शुद्ध सिंचित क्षेत्र",
+            "mr": "निव्वळ सिंचित क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "kl-spb",
+          "note": "Economic Review / Land Use Statistics."
+        }
+      ]
+    }
+  ]
+}

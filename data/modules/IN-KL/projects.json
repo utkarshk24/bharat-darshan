@@ -1,0 +1,87 @@
+{
+  "region": "IN-KL",
+  "module": "projects",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Keralam's flagship recent project is the Vizhinjam International Deepwater Multipurpose Seaport near Thiruvananthapuram, dedicated to the nation in May 2025 as India's first dedicated container transshipment port. Other works in the pipeline include the extension of Kochi Metro and road widening along the national highway corridor; these are listed as gaps below until an official status page is linked.",
+        "hi": "केरलम की हाल की प्रमुख परियोजना तिरुवनंतपुरम के पास विझिंजम अंतरराष्ट्रीय डीपवाटर बहुउद्देशीय बंदरगाह है, जिसे मई 2025 में भारत के पहले समर्पित कंटेनर ट्रांसशिपमेंट बंदरगाह के रूप में राष्ट्र को समर्पित किया गया। कोच्चि मेट्रो का विस्तार और राष्ट्रीय राजमार्ग गलियारे का चौड़ीकरण भी प्रगति में हैं; आधिकारिक स्थिति पेज जुड़ने तक इन्हें नीचे कमियों में रखा गया है।",
+        "mr": "तिरुवनंतपुरमजवळील विझिंजम आंतरराष्ट्रीय खोल पाण्याचे बहुउद्देशीय बंदर हा केरळमचा अलीकडचा प्रमुख प्रकल्प असून मे 2025 मध्ये भारतातील पहिले समर्पित कंटेनर ट्रान्सशिपमेंट बंदर म्हणून ते राष्ट्राला समर्पित झाले. कोची मेट्रोचा विस्तार आणि राष्ट्रीय महामार्ग मार्गिकेचे रुंदीकरण हेही प्रगतिपथावर आहेत; अधिकृत स्थितीचे पान जोडले जाईपर्यंत ते खाली त्रुटींमध्ये दाखवले आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Kochi Metro Phase 2 (Kakkanad line) — official status and cost",
+            "hi": "कोच्चि मेट्रो चरण 2 (काक्कनाड लाइन) — आधिकारिक स्थिति और लागत",
+            "mr": "कोची मेट्रो टप्पा 2 (काक्कनाड मार्गिका) — अधिकृत स्थिती व खर्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "kl-gov",
+          "note": "KMRL or MoHUA page."
+        },
+        {
+          "label": {
+            "en": "NH 66 six-laning — official progress",
+            "hi": "एनएच 66 छह-लेन — आधिकारिक प्रगति",
+            "mr": "एनएच 66 सहापदरीकरण — अधिकृत प्रगती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH / NHAI project status."
+        },
+        {
+          "label": {
+            "en": "Vizhinjam port Phase 2 and developer details",
+            "hi": "विझिंजम बंदरगाह चरण 2 और विकासकर्ता विवरण",
+            "mr": "विझिंजम बंदर टप्पा 2 व विकासक तपशील",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "kl-gov",
+          "note": "Vizhinjam International Seaport Ltd."
+        },
+        {
+          "label": {
+            "en": "State vision document",
+            "hi": "राज्य दृष्टि दस्तावेज़",
+            "mr": "राज्य दृष्टी दस्तऐवज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "kl-spb",
+          "note": "State Planning Board."
+        }
+      ]
+    }
+  ]
+}

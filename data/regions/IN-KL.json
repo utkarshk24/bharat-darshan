@@ -1,0 +1,1489 @@
+{
+  "code": "IN-KL",
+  "slug": "keralam",
+  "type": "state",
+  "governanceModel": "state",
+  "name": {
+    "en": "Keralam",
+    "hi": "केरलम",
+    "mr": "केरळम",
+    "_status": {
+      "hi": "draft",
+      "mr": "draft"
+    }
+  },
+  "zonalCouncil": "southern",
+  "accent": "#047857",
+  "motif": "kolam",
+  "tile": {
+    "row": 7,
+    "col": 1
+  },
+  "capitals": [
+    {
+      "role": "administrative",
+      "name": {
+        "en": "Thiruvananthapuram",
+        "hi": "तिरुवनंतपुरम",
+        "mr": "तिरुवनंतपुरम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ],
+  "officialPortal": "https://kerala.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Indian elephant",
+        "hi": "भारतीय हाथी",
+        "mr": "भारतीय हत्ती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Elephas maximus indicus",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Great hornbill",
+        "hi": "मलबार धनेश (ग्रेट हॉर्नबिल)",
+        "mr": "राज धनेश (ग्रेट हॉर्नबिल)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Buceros bicornis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Golden shower (Kanikkonna)",
+        "hi": "अमलतास (कणिक्कोन्ना)",
+        "mr": "बहावा (कणिक्कोन्ना)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Cassia fistula",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Coconut palm",
+        "hi": "नारियल",
+        "mr": "नारळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Cocos nucifera",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "fish": {
+      "name": {
+        "en": "Pearl spot (Karimeen)",
+        "hi": "करिमीन (पर्ल स्पॉट)",
+        "mr": "करिमीन (पर्ल स्पॉट)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Etroplus suratensis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "fruit": {
+      "name": {
+        "en": "Jackfruit",
+        "hi": "कटहल",
+        "mr": "फणस",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Artocarpus heterophyllus",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "butterfly": {
+      "name": {
+        "en": "Malabar banded peacock",
+        "hi": "मलबार बैंडेड पीकॉक",
+        "mr": "मलबार बँडेड पीकॉक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Papilio buddha",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
+  "metrics": {
+    "population2011": {
+      "value": 33406061,
+      "unit": "persons",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Census 2011 total as published by the Kerala State Planning Board (Economic Review). Males 1,60,27,412; females 1,73,78,649."
+    },
+    "area": {
+      "value": 38852,
+      "unit": "km²",
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026). State documents (CAG, LSGD) cite 38,863 km²."
+    },
+    "density2011": {
+      "value": 860,
+      "unit": "persons per km²",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Kerala State Planning Board, Economic Review."
+    },
+    "sexRatio2011": {
+      "value": 1084,
+      "unit": "females per 1000 males",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Highest among States at the 2011 Census."
+    },
+    "childSexRatio2011": {
+      "value": 964,
+      "unit": "girls per 1000 boys (0–6 yrs)",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 960 in 2001. The State Planning Board also gives 964."
+    },
+    "literacyRate2011": {
+      "value": 94,
+      "unit": "%",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Population aged 7+, as rounded in the Economic Review (\"94 per cent\")."
+    },
+    "urbanisation2011": {
+      "value": 47.72,
+      "unit": "%",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Urban population share at the 2011 Census (Economic Review)."
+    },
+    "gsdpCurrent": {
+      "value": 1248533,
+      "unit": "₹ crore",
+      "period": "FY2024-25",
+      "periodType": "fy",
+      "sourceId": "mospi",
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "provisional",
+      "confidence": "Official",
+      "priceBase": {
+        "type": "current"
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2025-26 not yet published for Keralam. FY2023-24: ₹11,35,372 crore."
+    },
+    "perCapitaNsdpCurrent": {
+      "value": 308338,
+      "unit": "₹",
+      "period": "FY2024-25",
+      "periodType": "fy",
+      "sourceId": "mospi",
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "provisional",
+      "confidence": "Official",
+      "priceBase": {
+        "type": "current"
+      },
+      "note": "MoSPI, base 2011-12."
+    },
+    "forestCoverPct": {
+      "value": 56.78,
+      "unit": "% of geographical area",
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-13",
+      "dataLevel": "state",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Computed from ISFR 2023 forest cover 22,059.36 km² ÷ geographical area 38,852 km²."
+    }
+  },
+  "timeSeries": {},
+  "government": {
+    "headOfState": {
+      "role": "governor",
+      "name": {
+        "en": "Rajendra Vishwanath Arlekar",
+        "hi": "राजेंद्र विश्वनाथ आर्लेकर",
+        "mr": "राजेंद्र विश्वनाथ आर्लेकर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": null,
+      "since": null,
+      "asOf": "2026-10-13",
+      "sourceId": "uni",
+      "url": "https://test.uniindia.com/kerala-govt-objects-to-governor-s-meeting-with-officials-seeks-to-prevent-recurrence/south/news/3881569.html",
+      "verifyUrl": "https://igod.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Took office in January 2025 (oath scheduled for 2 January 2025, per Kerala Kaumudi). Named as Governor in reports of June and August 2026. Kerala's Raj Bhavan was renamed Lok Bhavan on 1 December 2025. Confirm against the Lok Bhavan website."
+    },
+    "headOfGovernment": {
+      "role": "chief-minister",
+      "name": {
+        "en": "V. D. Satheesan",
+        "hi": "वी. डी. सतीशन",
+        "mr": "व्ही. डी. सतीशन",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "INC",
+      "since": "2026-05-18",
+      "asOf": "2026-10-13",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/congress-leader-vd-satheesan-sworn-in-as-chief-minister-of-keralam/",
+      "verifyUrl": "https://kerala.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Sworn in on 18 May 2026 with 20 Cabinet ministers, after the UDF won the April 2026 Assembly election (News On AIR)."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Thiruvanchoor Radhakrishnan",
+          "hi": "तिरुवंचूर राधाकृष्णन",
+          "mr": "तिरुवंचूर राधाकृष्णन",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "INC",
+        "since": null,
+        "asOf": "2026-10-13",
+        "sourceId": "newsonair",
+        "url": "https://newsonair.gov.in/lok-sabha-speaker-congratulates-thiruvanchoor-radhakrishnan-electing-speaker-of-16th-kerala-legislative-assembly/",
+        "verifyUrl": "https://www.niyamasabha.org",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Elected Speaker of the 16th Kerala Legislative Assembly; congratulated by the Lok Sabha Speaker on 22 May 2026 (News On AIR). Won 101 of 139 votes cast (Kerala Kaumudi)."
+      },
+      {
+        "role": "leader-of-opposition",
+        "name": {
+          "en": "Pinarayi Vijayan",
+          "hi": "पिनराई विजयन",
+          "mr": "पिनराई विजयन",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "CPI(M)",
+        "since": null,
+        "asOf": "2026-10-13",
+        "sourceId": "keralakaumudi",
+        "url": "https://www.keralakaumudi.com/en/kerala/general/thiruvanchoor-radhakrishnan-elected-speaker-of-16th-kerala-assembly-1751437",
+        "verifyUrl": "https://www.niyamasabha.org",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Named Opposition Leader by the CPI(M) in May 2026 (UNI) and referred to as Opposition Leader in the House on 22 May 2026 (Kerala Kaumudi). Former Chief Minister (2016–2026)."
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "vizhinjam",
+      "name": {
+        "en": "Vizhinjam International Deepwater Multipurpose Seaport (Phase 1)",
+        "hi": "विझिंजम अंतरराष्ट्रीय डीपवाटर बहुउद्देशीय बंदरगाह (चरण 1)",
+        "mr": "विझिंजम आंतरराष्ट्रीय खोल पाण्याचे बहुउद्देशीय बंदर (टप्पा 1)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "India's first dedicated container transshipment port, near Thiruvananthapuram, with a natural draught of nearly 20 metres. Dedicated to the nation on 2 May 2025; described as the country's first semi-automated port.",
+        "hi": "तिरुवनंतपुरम के पास भारत का पहला समर्पित कंटेनर ट्रांसशिपमेंट बंदरगाह, जिसकी प्राकृतिक गहराई लगभग 20 मीटर है। 2 मई 2025 को राष्ट्र को समर्पित; इसे देश का पहला अर्ध-स्वचालित बंदरगाह बताया गया।",
+        "mr": "तिरुवनंतपुरमजवळील भारतातील पहिले समर्पित कंटेनर ट्रान्सशिपमेंट बंदर; नैसर्गिक खोली सुमारे 20 मीटर. 2 मे 2025 रोजी राष्ट्राला समर्पित; देशातील पहिले अर्ध-स्वयंचलित बंदर म्हणून उल्लेख.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "ports",
+      "agency": null,
+      "start": null,
+      "completion": "May 2025",
+      "status": "Completed",
+      "asOf": "2026-10-13",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/pm-modi-to-dedicate-vizhinjam-international-port-indias-1st-semi-automated-port/",
+      "confidence": "Official",
+      "cost": {
+        "value": 8800,
+        "unit": "₹ crore",
+        "period": "2025",
+        "periodType": "calendar",
+        "sourceId": "newsonair",
+        "url": "https://www.newsonair.gov.in/pm-modi-to-dedicate-vizhinjam-international-port-indias-1st-semi-automated-port/",
+        "accessDate": "2026-10-13",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "about ₹8,800 crore"
+      }
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "alleppey-green-cardamom",
+      "name": {
+        "en": "Alleppey Green Cardamom",
+        "hi": "अलेप्पी हरी इलायची",
+        "mr": "अलेप्पी हिरवी वेलची",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "72",
+      "filingDate": "2006-09-14",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "id": "malabar-pepper",
+      "name": {
+        "en": "Malabar Pepper",
+        "hi": "मलबार काली मिर्च",
+        "mr": "मलबार मिरी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "49 & 56",
+      "filingDate": "2006-02-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Karnataka",
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "id": "monsooned-malabar-arabica-coffee",
+      "name": {
+        "en": "Monsooned Malabar Arabica Coffee",
+        "hi": "मॉनसून्ड मलबार अरेबिका कॉफ़ी",
+        "mr": "मॉन्सून्ड मलबार अरेबिका कॉफी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "85",
+      "filingDate": "2007-04-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Karnataka"
+      ]
+    },
+    {
+      "id": "monsooned-malabar-robusta-coffee",
+      "name": {
+        "en": "Monsooned Malabar Robusta Coffee",
+        "hi": "मॉनसून्ड मलबार रोबस्टा कॉफ़ी",
+        "mr": "मॉन्सून्ड मलबार रोबस्टा कॉफी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "114",
+      "filingDate": "2007-10-12",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Karnataka"
+      ]
+    },
+    {
+      "id": "navara-rice",
+      "name": {
+        "en": "Navara Rice",
+        "hi": "नवारा चावल",
+        "mr": "नवारा तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "17",
+      "filingDate": "2004-11-25",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "palakkadan-matta-rice",
+      "name": {
+        "en": "Palakkadan Matta Rice",
+        "hi": "पालक्काडन मट्टा चावल",
+        "mr": "पालक्काडन मट्टा तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "36",
+      "filingDate": "2005-04-18",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "pokkali-rice",
+      "name": {
+        "en": "Pokkali Rice",
+        "hi": "पोक्काली चावल",
+        "mr": "पोक्काली तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "81",
+      "filingDate": "2007-01-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "vazhakulam-pineapple",
+      "name": {
+        "en": "Vazhakulam Pineapple",
+        "hi": "वाझकुलम अनानास",
+        "mr": "वाझकुलम अननस",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "130 & 141",
+      "filingDate": "2008-08-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "wayanad-jeerakasala-rice",
+      "name": {
+        "en": "Wayanad Jeerakasala Rice",
+        "hi": "वायनाड जीरकशाला चावल",
+        "mr": "वायनाड जीरकशाला तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "186",
+      "filingDate": "2009-09-23",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "wayanad-gandhakasala-rice",
+      "name": {
+        "en": "Wayanad Gandhakasala Rice",
+        "hi": "वायनाड गंधकशाला चावल",
+        "mr": "वायनाड गंधकशाला तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "187",
+      "filingDate": "2009-09-23",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kaipad-rice",
+      "name": {
+        "en": "Kaipad Rice",
+        "hi": "कैपाड चावल",
+        "mr": "कैपाड तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "242",
+      "filingDate": "2011-09-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chengalikodan-nendran-banana",
+      "name": {
+        "en": "Chengalikodan Nendran Banana",
+        "hi": "चेंगालिकोडन नेंद्रन केला",
+        "mr": "चेंगालिकोडन नेंद्रन केळी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "479",
+      "filingDate": "2014-03-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "nilambur-teak",
+      "name": {
+        "en": "Nilambur Teak",
+        "hi": "निलांबुर सागौन",
+        "mr": "निलांबूर साग",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "543",
+      "filingDate": "2016-01-18",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "wayanaad-robusta-coffee",
+      "name": {
+        "en": "Wayanaad Robusta Coffee",
+        "hi": "वायनाड रोबस्टा कॉफ़ी",
+        "mr": "वायनाड रोबस्टा कॉफी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "605",
+      "filingDate": "2018-01-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "tirur-betel-leaf-tirur-vettila",
+      "name": {
+        "en": "Tirur Betel Leaf (Tirur Vettila)",
+        "hi": "तिरूर पान (तिरूर वेट्टिला)",
+        "mr": "तिरूर विड्याचे पान (तिरूर वेट्टिला)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "641",
+      "filingDate": "2018-12-20",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kuttiattoor-mango-kuttiattoor-manga",
+      "name": {
+        "en": "Kuttiattoor Mango (Kuttiattoor Manga)",
+        "hi": "कुट्टियाट्टूर आम",
+        "mr": "कुट्टियाट्टूर आंबा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "660",
+      "filingDate": "2019-09-04",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "edayur-chilli",
+      "name": {
+        "en": "Edayur Chilli",
+        "hi": "एडयूर मिर्च",
+        "mr": "एडयूर मिरची",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "662",
+      "filingDate": "2019-10-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "attappady-aattukombu-avara",
+      "name": {
+        "en": "Attappady Aattukombu Avara",
+        "hi": "अट्टप्पाडी आट्टुकोम्बु अवरा (सेम)",
+        "mr": "अट्टप्पाडी आट्टुकोम्बु अवरा (घेवडा)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "686",
+      "filingDate": "2020-03-16",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "attappady-thuvara",
+      "name": {
+        "en": "Attappady Thuvara",
+        "hi": "अट्टप्पाडी तुवरा (अरहर)",
+        "mr": "अट्टप्पाडी तुवरा (तूर)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "687",
+      "filingDate": "2020-03-16",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "onattukara-ellu",
+      "name": {
+        "en": "Onattukara Ellu",
+        "hi": "ओणाट्टुकरा एल्लु (तिल)",
+        "mr": "ओणाट्टुकरा एल्लु (तीळ)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "736",
+      "filingDate": "2021-01-12",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kanthalloor-vattavada-veluthulli",
+      "name": {
+        "en": "Kanthalloor Vattavada Veluthulli",
+        "hi": "कांतल्लूर वट्टवडा वेलुत्तुल्ली (लहसुन)",
+        "mr": "कांतल्लूर वट्टवडा वेलुत्तुल्ली (लसूण)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "749",
+      "filingDate": "2021-04-12",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kodungallur-pottuvellari",
+      "name": {
+        "en": "Kodungallur Pottuvellari",
+        "hi": "कोडुंगल्लूर पोट्टुवेल्लरी (ककड़ी)",
+        "mr": "कोडुंगल्लूर पोट्टुवेल्लरी (काकडी)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "752",
+      "filingDate": "2021-04-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "thalanadan-grambu-clove",
+      "name": {
+        "en": "Thalanadan Grambu (Clove)",
+        "hi": "तलनाडन ग्राम्पु (लौंग)",
+        "mr": "तलनाडन ग्राम्पु (लवंग)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "1038",
+      "filingDate": "2022-12-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "central-travancore-jaggery",
+      "name": {
+        "en": "Central Travancore Jaggery",
+        "hi": "मध्य त्रावणकोर गुड़",
+        "mr": "मध्य त्रावणकोर गूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "163",
+      "filingDate": "2009-03-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "marayoor-jaggery-marayoor-sharkara",
+      "name": {
+        "en": "Marayoor Jaggery (Marayoor Sharkara)",
+        "hi": "मरयूर गुड़ (मरयूर शर्करा)",
+        "mr": "मरयूर गूळ (मरयूर शर्करा)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "613",
+      "filingDate": "2018-03-16",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "aranmula-kannadi-aranmula-metal-mirror",
+      "name": {
+        "en": "Aranmula Kannadi (Aranmula Metal Mirror)",
+        "hi": "आरनमुला कण्णाडी (धातु दर्पण)",
+        "mr": "आरनमुळा कण्णाडी (धातूचा आरसा)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "3",
+      "filingDate": "2003-12-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "payyannur-pavithra-ring",
+      "name": {
+        "en": "Payyannur Pavithra Ring",
+        "hi": "पय्यन्नूर पवित्र अंगूठी",
+        "mr": "पय्यन्नूर पवित्र अंगठी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "6",
+      "filingDate": "2004-02-23",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "alleppey-coir",
+      "name": {
+        "en": "Alleppey Coir",
+        "hi": "अलेप्पी कॉयर (नारियल रेशा)",
+        "mr": "अलेप्पी काथ्या (कॉयर)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "54",
+      "filingDate": "2006-07-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "brass-broidered-coconut-shell-crafts-of-kerala",
+      "name": {
+        "en": "Brass Broidered Coconut Shell Crafts of Kerala",
+        "hi": "केरल के पीतल-जड़ित नारियल खोल शिल्प",
+        "mr": "केरळची पितळ नक्षीच्या करवंटी हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "57",
+      "filingDate": "2006-07-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "screw-pine-craft-of-kerala",
+      "name": {
+        "en": "Screw Pine Craft of Kerala",
+        "hi": "केरल का केवड़ा पत्ती शिल्प",
+        "mr": "केरळची केवडा पानांची हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "58",
+      "filingDate": "2006-07-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "maddalam-of-palakkad",
+      "name": {
+        "en": "Maddalam of Palakkad",
+        "hi": "पालक्काड का मद्दलम",
+        "mr": "पालक्काडचे मद्दलम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "59",
+      "filingDate": "2006-07-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "cannanore-home-furnishings",
+      "name": {
+        "en": "Cannanore Home Furnishings",
+        "hi": "कण्णूर गृह सज्जा वस्त्र",
+        "mr": "कण्णूर गृहसजावट वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "144",
+      "filingDate": "2008-11-14",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "balaramapuram-sarees-and-fine-cotton-fabrics",
+      "name": {
+        "en": "Balaramapuram Sarees and Fine Cotton Fabrics",
+        "hi": "बलरामपुरम साड़ियाँ और महीन सूती वस्त्र",
+        "mr": "बलरामपुरम साड्या व तलम सुती वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "152",
+      "filingDate": "2009-01-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kasaragod-sarees",
+      "name": {
+        "en": "Kasaragod Sarees",
+        "hi": "कासरगोड साड़ियाँ",
+        "mr": "कासारगोड साड्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "170",
+      "filingDate": "2009-05-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kuthampully-sarees",
+      "name": {
+        "en": "Kuthampully Sarees",
+        "hi": "कुत्ताम्पुल्ली साड़ियाँ",
+        "mr": "कुत्ताम्पुल्ली साड्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "179",
+      "filingDate": "2009-07-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chendamangalam-dhoties-set-mundu",
+      "name": {
+        "en": "Chendamangalam Dhoties & Set Mundu",
+        "hi": "चेंदमंगलम धोती और सेट मुंडु",
+        "mr": "चेंदमंगलम धोतर व सेट मुंडू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "225",
+      "filingDate": "2010-11-18",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kuthampully-dhoties-set-mundu",
+      "name": {
+        "en": "Kuthampully Dhoties & Set Mundu",
+        "hi": "कुत्ताम्पुल्ली धोती और सेट मुंडु",
+        "mr": "कुत्ताम्पुल्ली धोतर व सेट मुंडू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "402",
+      "filingDate": "2013-02-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "maddalam-of-palakkad-logo",
+      "name": {
+        "en": "Maddalam of Palakkad (Logo)",
+        "hi": "पालक्काड का मद्दलम (लोगो)",
+        "mr": "पालक्काडचे मद्दलम (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "516",
+      "filingDate": "2015-01-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "brass-broidered-coconut-shell-crafts-of-kerala-logo",
+      "name": {
+        "en": "Brass Broidered Coconut Shell Crafts of Kerala (Logo)",
+        "hi": "केरल के पीतल-जड़ित नारियल खोल शिल्प (लोगो)",
+        "mr": "केरळची पितळ नक्षीच्या करवंटी हस्तकला (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "517",
+      "filingDate": "2015-01-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "screw-pine-craft-of-kerala-logo",
+      "name": {
+        "en": "Screw Pine Craft of Kerala (Logo)",
+        "hi": "केरल का केवड़ा पत्ती शिल्प (लोगो)",
+        "mr": "केरळची केवडा पानांची हस्तकला (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "518",
+      "filingDate": "2015-01-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kannadippaya-bamboo-mat",
+      "name": {
+        "en": "Kannadippaya (Bamboo Mat)",
+        "hi": "कण्णाडिप्पाया (बाँस की चटाई)",
+        "mr": "कण्णाडिप्पाया (बांबूची चटई)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "927",
+      "filingDate": "2022-07-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    }
+  ],
+  "meta": {
+    "lastUpdated": "2026-10-13",
+    "editorialStatus": "draft"
+  },
+  "localName": {
+    "lang": "ml",
+    "script": "Mlym",
+    "text": "കേരളം"
+  },
+  "formerNames": [
+    {
+      "en": "Kerala",
+      "hi": "केरल",
+      "mr": "केरळ",
+      "_status": {
+        "hi": "draft",
+        "mr": "draft"
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "region": "IN-LA",
+  "module": "cities",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "towns",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "leh",
+          "name": {
+            "en": "Leh",
+            "hi": "लेह",
+            "mr": "लेह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Administrative centre and main town; old town below the palace, bazaar, monasteries nearby.",
+            "hi": "प्रशासनिक केंद्र और मुख्य नगर; महल के नीचे पुराना शहर, बाज़ार, पास में मठ।",
+            "mr": "प्रशासकीय केंद्र व मुख्य शहर; राजवाड्याखाली जुने शहर, बाजार, जवळ मठ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kargil",
+          "name": {
+            "en": "Kargil",
+            "hi": "कारगिल",
+            "mr": "कारगिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Second town, on the Suru; gateway to Zanskar and the Suru valley.",
+            "hi": "सुरू पर दूसरा बड़ा नगर; ज़ांस्कर और सुरू घाटी का प्रवेश द्वार।",
+            "mr": "सुरू नदीकाठचे दुसरे शहर; झांस्कर व सुरू खोऱ्याचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "District HQ",
+            "hi": "ज़िला मुख्यालय",
+            "mr": "जिल्हा मुख्यालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "drass",
+          "name": {
+            "en": "Drass",
+            "hi": "द्रास",
+            "mr": "द्रास",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "On the highway below Zoji La; known for extreme winter cold.",
+            "hi": "ज़ोजिला के नीचे राजमार्ग पर; कड़ाके की सर्दी के लिए प्रसिद्ध।",
+            "mr": "झोजिलाखालील महामार्गावर; कडाक्याच्या थंडीसाठी प्रसिद्ध.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Town",
+            "hi": "कस्बा",
+            "mr": "गाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "padum",
+          "name": {
+            "en": "Padum",
+            "hi": "पदुम",
+            "mr": "पदुम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Main settlement of Zanskar.",
+            "hi": "ज़ांस्कर की मुख्य बस्ती।",
+            "mr": "झांस्करमधील मुख्य वस्ती.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Zanskar",
+            "hi": "ज़ांस्कर",
+            "mr": "झांस्कर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "diskit",
+          "name": {
+            "en": "Diskit",
+            "hi": "डिस्किट",
+            "mr": "डिस्किट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Main village of the Nubra valley, with its hilltop monastery.",
+            "hi": "नुब्रा घाटी का मुख्य गाँव, पहाड़ी पर मठ के साथ।",
+            "mr": "नुब्रा खोऱ्यातील मुख्य गाव, टेकडीवरील मठासह.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Nubra",
+            "hi": "नुब्रा",
+            "mr": "नुब्रा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Main towns",
+        "hi": "मुख्य नगर",
+        "mr": "मुख्य शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Town populations (Census 2011)",
+            "hi": "नगरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 town directory."
+        }
+      ]
+    }
+  ]
+}

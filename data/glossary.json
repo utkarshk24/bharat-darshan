@@ -1,0 +1,230 @@
+[
+  {
+    "id": "gsdp",
+    "abbreviation": "GSDP",
+    "term": { "en": "Gross State Domestic Product", "hi": "सकल राज्य घरेलू उत्पाद", "mr": "सकल राज्य देशांतर्गत उत्पादन", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "The total value of all final goods and services produced within a State or UT's boundaries in a year. Reported at current prices and at constant prices, which remove the effect of inflation using a base year.",
+      "hi": "किसी राज्य या केंद्र शासित प्रदेश की सीमा के भीतर एक वर्ष में उत्पादित सभी अंतिम वस्तुओं और सेवाओं का कुल मूल्य। इसे प्रचलित मूल्यों पर और स्थिर मूल्यों पर बताया जाता है; स्थिर मूल्य किसी आधार वर्ष के सहारे महँगाई का असर हटा देते हैं।",
+      "mr": "एखाद्या राज्याच्या किंवा केंद्रशासित प्रदेशाच्या हद्दीत एका वर्षात तयार झालेल्या सर्व अंतिम वस्तू व सेवांचे एकूण मूल्य. ते चालू किमतींत आणि स्थिर किमतींत दिले जाते; स्थिर किमती आधारवर्ष वापरून महागाईचा परिणाम वगळतात.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["nsdp", "constant-prices", "current-prices", "financial-year"]
+  },
+  {
+    "id": "nsdp",
+    "abbreviation": "NSDP",
+    "term": { "en": "Net State Domestic Product", "hi": "शुद्ध राज्य घरेलू उत्पाद", "mr": "निव्वळ राज्य देशांतर्गत उत्पादन", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "GSDP minus the wear and tear on machinery, buildings and other fixed capital (depreciation) during the year.",
+      "hi": "जीएसडीपी में से वर्ष के दौरान मशीनों, भवनों और अन्य स्थायी पूँजी की घिसावट (मूल्यह्रास) घटाने पर प्राप्त मूल्य।",
+      "mr": "वर्षभरात यंत्रसामग्री, इमारती व इतर स्थिर भांडवलाची झालेली झीज (घसारा) जीएसडीपीमधून वजा केल्यावर मिळणारे मूल्य.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["gsdp", "per-capita-nsdp"]
+  },
+  {
+    "id": "per-capita-nsdp",
+    "term": { "en": "Per capita NSDP", "hi": "प्रति व्यक्ति शुद्ध राज्य घरेलू उत्पाद", "mr": "दरडोई निव्वळ राज्य देशांतर्गत उत्पादन", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "NSDP divided by the population. It is the usual official measure of a State's average income, published in rupees only; there are no official state-level PPP figures.",
+      "hi": "एनएसडीपी को जनसंख्या से भाग देने पर प्राप्त मूल्य। राज्य की औसत आय का यही सामान्य आधिकारिक माप है, जो केवल रुपये में प्रकाशित होता है; राज्य-स्तर पर कोई आधिकारिक पीपीपी आँकड़े नहीं हैं।",
+      "mr": "एनएसडीपीला लोकसंख्येने भागल्यावर मिळणारे मूल्य. राज्याच्या सरासरी उत्पन्नाचे हे नेहमीचे अधिकृत मोजमाप असून ते फक्त रुपयांत प्रसिद्ध होते; राज्यस्तरावर अधिकृत पीपीपी आकडे नाहीत.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["nsdp"]
+  },
+  {
+    "id": "current-prices",
+    "term": { "en": "Current prices", "hi": "प्रचलित मूल्य", "mr": "चालू किमती", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Values measured at the prices prevailing in the year itself, so they include the effect of inflation.",
+      "hi": "उसी वर्ष के प्रचलित मूल्यों पर मापे गए आँकड़े, इसलिए इनमें महँगाई का असर शामिल रहता है।",
+      "mr": "त्याच वर्षीच्या प्रचलित किमतींनुसार मोजलेली मूल्ये; त्यामुळे त्यांत महागाईचा परिणाम समाविष्ट असतो.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["constant-prices"]
+  },
+  {
+    "id": "constant-prices",
+    "term": { "en": "Constant prices", "hi": "स्थिर मूल्य", "mr": "स्थिर किमती", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Values re-expressed at the prices of a fixed base year, so that year-to-year changes show real growth. Always quote the base year.",
+      "hi": "किसी निश्चित आधार वर्ष के मूल्यों पर दोबारा व्यक्त किए गए आँकड़े, ताकि साल-दर-साल बदलाव वास्तविक वृद्धि दिखाएँ। आधार वर्ष हमेशा बताएँ।",
+      "mr": "ठराविक आधारवर्षाच्या किमतींनुसार पुन्हा मांडलेली मूल्ये, ज्यामुळे वर्षागणिक बदल प्रत्यक्ष वाढ दाखवतो. आधारवर्ष नेहमी नमूद करा.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["current-prices", "gsdp"]
+  },
+  {
+    "id": "financial-year",
+    "abbreviation": "FY",
+    "term": { "en": "Financial year", "hi": "वित्तीय वर्ष", "mr": "आर्थिक वर्ष", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "India's accounting year, running from 1 April to 31 March. Written here as FY2023-24. It is never mixed with calendar-year data without a label.",
+      "hi": "भारत का लेखा वर्ष, जो 1 अप्रैल से 31 मार्च तक चलता है। यहाँ इसे FY2023-24 के रूप में लिखा जाता है और बिना लेबल के कभी कैलेंडर-वर्ष के आँकड़ों के साथ नहीं मिलाया जाता।",
+      "mr": "भारताचे हिशेबी वर्ष, जे 1 एप्रिल ते 31 मार्च असते. येथे ते FY2023-24 असे लिहिले जाते आणि लेबलशिवाय कधीही कॅलेंडर-वर्षाच्या आकडेवारीत मिसळले जात नाही.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["gsdp"]
+  },
+  {
+    "id": "sex-ratio",
+    "term": { "en": "Sex ratio", "hi": "लिंगानुपात", "mr": "लिंग गुणोत्तर", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Number of females per 1,000 males in the population. A census measure; survey figures (NFHS) and sex ratio at birth (SRS) use different definitions and are shown separately.",
+      "hi": "जनसंख्या में प्रति 1,000 पुरुषों पर महिलाओं की संख्या। यह जनगणना का माप है; सर्वेक्षण (एनएफएचएस) के आँकड़े और जन्म के समय लिंगानुपात (एसआरएस) अलग परिभाषाओं पर आधारित हैं, इसलिए अलग दिखाए जाते हैं।",
+      "mr": "लोकसंख्येत दर 1,000 पुरुषांमागे स्त्रियांची संख्या. हे जनगणनेतील मोजमाप आहे; सर्वेक्षणाचे (एनएफएचएस) आकडे आणि जन्मावेळचे लिंग गुणोत्तर (एसआरएस) यांच्या व्याख्या वेगळ्या असल्याने ते स्वतंत्रपणे दाखवले जातात.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["child-sex-ratio"]
+  },
+  {
+    "id": "child-sex-ratio",
+    "term": { "en": "Child sex ratio (0–6 years)", "hi": "शिशु लिंगानुपात (0–6 वर्ष)", "mr": "बाल लिंग गुणोत्तर (0–6 वर्षे)", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Number of girls per 1,000 boys in the 0–6 age group, as counted in the census.",
+      "hi": "जनगणना के अनुसार 0–6 वर्ष आयु वर्ग में प्रति 1,000 लड़कों पर लड़कियों की संख्या।",
+      "mr": "जनगणनेनुसार 0–6 वयोगटात दर 1,000 मुलांमागे मुलींची संख्या.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["sex-ratio"]
+  },
+  {
+    "id": "literacy-rate",
+    "term": { "en": "Literacy rate", "hi": "साक्षरता दर", "mr": "साक्षरता दर", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Share of people aged 7 and above who can both read and write with understanding in any language. Measured in the census, not every year.",
+      "hi": "7 वर्ष और उससे अधिक आयु के उन लोगों का प्रतिशत जो किसी भी भाषा में समझकर पढ़-लिख सकते हैं। इसे जनगणना में मापा जाता है, हर वर्ष नहीं।",
+      "mr": "7 वर्षे व त्याहून अधिक वयाच्या ज्या व्यक्ती कोणत्याही भाषेत समजून वाचू व लिहू शकतात त्यांचे प्रमाण. हे जनगणनेत मोजले जाते, दरवर्षी नाही.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": []
+  },
+  {
+    "id": "population-density",
+    "term": { "en": "Population density", "hi": "जनसंख्या घनत्व", "mr": "लोकसंख्येची घनता", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Number of people per square kilometre of area.",
+      "hi": "प्रति वर्ग किलोमीटर क्षेत्र में रहने वाले लोगों की संख्या।",
+      "mr": "दर चौरस किलोमीटर क्षेत्रफळात राहणाऱ्या लोकांची संख्या.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": []
+  },
+  {
+    "id": "decadal-growth",
+    "term": { "en": "Decadal growth rate", "hi": "दशकीय वृद्धि दर", "mr": "दशवार्षिक वाढीचा दर", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Percentage change in population between two consecutive censuses, usually ten years apart.",
+      "hi": "लगातार दो जनगणनाओं के बीच, जो प्रायः दस वर्ष के अंतर पर होती हैं, जनसंख्या में हुआ प्रतिशत बदलाव।",
+      "mr": "सहसा दहा वर्षांच्या अंतराने होणाऱ्या लागोपाठच्या दोन जनगणनांदरम्यान लोकसंख्येतील टक्केवारी बदल.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": []
+  },
+  {
+    "id": "urbanisation",
+    "term": { "en": "Urbanisation", "hi": "शहरीकरण", "mr": "नागरीकरण", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Share of the population living in areas the census classifies as urban (statutory towns and census towns).",
+      "hi": "जनसंख्या का वह हिस्सा जो जनगणना द्वारा शहरी माने गए क्षेत्रों (वैधानिक नगरों और जनगणना नगरों) में रहता है।",
+      "mr": "जनगणनेने नागरी म्हणून वर्गीकृत केलेल्या भागांत (वैधानिक नगरे व जनगणना नगरे) राहणाऱ्या लोकसंख्येचे प्रमाण.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": []
+  },
+  {
+    "id": "imr",
+    "abbreviation": "IMR",
+    "term": { "en": "Infant mortality rate", "hi": "शिशु मृत्यु दर", "mr": "अर्भक मृत्यू दर", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Deaths of infants under one year of age per 1,000 live births in a year, as estimated by the Sample Registration System. Lower is better.",
+      "hi": "एक वर्ष में प्रति 1,000 जीवित जन्मों पर एक वर्ष से कम आयु के शिशुओं की मृत्यु, जैसा नमूना पंजीकरण प्रणाली (एसआरएस) अनुमान लगाती है। कम होना बेहतर है।",
+      "mr": "नमुना नोंदणी पद्धतीच्या (एसआरएस) अंदाजानुसार, एका वर्षात दर 1,000 जिवंत जन्मांमागे एक वर्षाखालील बालकांचे मृत्यू. हा दर कमी असणे चांगले.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["mmr"]
+  },
+  {
+    "id": "mmr",
+    "abbreviation": "MMR",
+    "term": { "en": "Maternal mortality ratio", "hi": "मातृ मृत्यु अनुपात", "mr": "माता मृत्यू प्रमाण", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Maternal deaths per 1,00,000 live births, published by SRS for a multi-year window and for larger States only. Lower is better.",
+      "hi": "प्रति 1,00,000 जीवित जन्मों पर मातृ मृत्यु; एसआरएस इसे कई वर्षों की अवधि के लिए और केवल बड़े राज्यों के लिए प्रकाशित करता है। कम होना बेहतर है।",
+      "mr": "दर 1,00,000 जिवंत जन्मांमागे मातांचे मृत्यू; एसआरएस हे प्रमाण अनेक वर्षांच्या कालावधीसाठी आणि फक्त मोठ्या राज्यांसाठी प्रसिद्ध करते. हे प्रमाण कमी असणे चांगले.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["imr"]
+  },
+  {
+    "id": "ger",
+    "abbreviation": "GER",
+    "term": { "en": "Gross enrolment ratio", "hi": "सकल नामांकन अनुपात", "mr": "एकूण नोंदणी गुणोत्तर", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Total enrolment at a level of education, regardless of age, as a percentage of the population in the official age group for that level. It can exceed 100.",
+      "hi": "किसी शिक्षा स्तर पर, उम्र की परवाह किए बिना, कुल नामांकन को उस स्तर के आधिकारिक आयु वर्ग की जनसंख्या के प्रतिशत के रूप में व्यक्त करना। यह 100 से अधिक भी हो सकता है।",
+      "mr": "एखाद्या शिक्षणस्तरावरील वयाचा विचार न करता झालेली एकूण नोंदणी, त्या स्तराच्या अधिकृत वयोगटातील लोकसंख्येच्या टक्केवारीत. हे गुणोत्तर 100 पेक्षा जास्तही असू शकते.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": []
+  },
+  {
+    "id": "lfpr",
+    "abbreviation": "LFPR",
+    "term": { "en": "Labour force participation rate", "hi": "श्रम बल भागीदारी दर", "mr": "श्रमशक्ती सहभाग दर", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Share of the population that is working or seeking work. PLFS reports it by age group and status; always note which.",
+      "hi": "जनसंख्या का वह हिस्सा जो काम कर रहा है या काम ढूँढ रहा है। पीएलएफएस इसे आयु वर्ग और स्थिति के अनुसार बताता है; हमेशा स्पष्ट करें कि कौन-सा।",
+      "mr": "लोकसंख्येपैकी जे काम करत आहेत किंवा काम शोधत आहेत त्यांचे प्रमाण. पीएलएफएस हे वयोगट व स्थितीनुसार देते; कोणते ते नेहमी नमूद करा.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["unemployment-rate"]
+  },
+  {
+    "id": "unemployment-rate",
+    "term": { "en": "Unemployment rate", "hi": "बेरोज़गारी दर", "mr": "बेरोजगारी दर", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "Share of the labour force that is not working but is available for and seeking work. Higher is worse.",
+      "hi": "श्रम बल का वह हिस्सा जो काम नहीं कर रहा, पर काम के लिए उपलब्ध है और उसे ढूँढ रहा है। अधिक होना बदतर है।",
+      "mr": "श्रमशक्तीपैकी जे काम करत नाहीत पण कामासाठी उपलब्ध असून काम शोधत आहेत त्यांचे प्रमाण. हा दर जास्त असणे वाईट.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["lfpr"]
+  },
+  {
+    "id": "union-territory",
+    "abbreviation": "UT",
+    "term": { "en": "Union Territory", "hi": "केंद्र शासित प्रदेश", "mr": "केंद्रशासित प्रदेश", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "A territory administered by the Union Government through an Administrator or Lieutenant Governor appointed by the President. Delhi, Jammu & Kashmir and Puducherry also have elected legislatures.",
+      "hi": "ऐसा क्षेत्र जिसका प्रशासन केंद्र सरकार राष्ट्रपति द्वारा नियुक्त प्रशासक या उपराज्यपाल के माध्यम से करती है। दिल्ली, जम्मू और कश्मीर तथा पुडुचेरी में निर्वाचित विधानसभाएँ भी हैं।",
+      "mr": "राष्ट्रपतींनी नेमलेल्या प्रशासक किंवा नायब राज्यपालांमार्फत केंद्र सरकार ज्याचा कारभार चालवते असा प्रदेश. दिल्ली, जम्मू आणि काश्मीर व पुदुच्चेरी येथे निवडून आलेली विधानसभाही आहे.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["lieutenant-governor"]
+  },
+  {
+    "id": "lieutenant-governor",
+    "term": { "en": "Lieutenant Governor", "hi": "उपराज्यपाल", "mr": "नायब राज्यपाल", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "The President's representative who heads the administration of certain Union Territories.",
+      "hi": "राष्ट्रपति का प्रतिनिधि, जो कुछ केंद्र शासित प्रदेशों के प्रशासन का प्रमुख होता है।",
+      "mr": "काही केंद्रशासित प्रदेशांच्या प्रशासनाचे प्रमुख असलेले राष्ट्रपतींचे प्रतिनिधी.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": ["union-territory"]
+  },
+  {
+    "id": "projected",
+    "term": { "en": "Projected (population)", "hi": "प्रक्षेपित (जनसंख्या)", "mr": "प्रक्षेपित (लोकसंख्या)", "_status": { "hi": "draft", "mr": "draft" } },
+    "definition": {
+      "en": "An official estimate of present or future population calculated from the last census, published by the MoHFW Technical Group on Population Projections. It is not a census count.",
+      "hi": "पिछली जनगणना के आधार पर गणना किया गया वर्तमान या भावी जनसंख्या का आधिकारिक अनुमान, जिसे स्वास्थ्य मंत्रालय का जनसंख्या प्रक्षेपण तकनीकी समूह प्रकाशित करता है। यह जनगणना की गिनती नहीं है।",
+      "mr": "मागील जनगणनेच्या आधारे काढलेला सध्याच्या किंवा भावी लोकसंख्येचा अधिकृत अंदाज, जो आरोग्य मंत्रालयाचा लोकसंख्या प्रक्षेपण तांत्रिक गट प्रसिद्ध करतो. ही जनगणनेतील प्रत्यक्ष गणना नाही.",
+      "_status": { "hi": "draft", "mr": "draft" }
+    },
+    "related": []
+  }
+]

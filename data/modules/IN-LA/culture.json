@@ -1,0 +1,285 @@
+{
+  "region": "IN-LA",
+  "module": "culture",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Monastery festivals are the high points of Ladakh's calendar. At Hemis, Thiksey, Lamayuru and other gompas, monks in masks and brocade perform cham dances that depict the victory of good over evil. Losar, the Ladakhi new year, falls in winter. In Kargil and the Suru valley, Shia Muslim observances such as Muharram are central to community life. Polo, played on village grounds and in Leh, and archery contests accompany many festivals.\n\nThe food is built for cold and altitude: thukpa and skyu (noodle and dough stews), momos, tsampa (roasted barley flour), khambir bread, butter tea and apricots fresh or dried.",
+        "hi": "मठों के उत्सव लद्दाख के कैलेंडर के मुख्य आकर्षण हैं। हेमिस, थिकसे, लामायुरु और अन्य गोम्पाओं में मुखौटे और ज़री के वस्त्र पहने भिक्षु छम नृत्य करते हैं, जो बुराई पर अच्छाई की जीत दर्शाते हैं। लद्दाखी नववर्ष लोसर सर्दियों में आता है। कारगिल और सुरू घाटी में मुहर्रम जैसे शिया अनुष्ठान सामुदायिक जीवन के केंद्र में हैं। गाँव के मैदानों और लेह में खेला जाने वाला पोलो और तीरंदाज़ी प्रतियोगिताएँ कई उत्सवों का हिस्सा हैं।\n\nखान-पान ठंड और ऊँचाई के अनुकूल है: थुकपा और स्कयू (नूडल और आटे के शोरबे), मोमो, त्सम्पा (भुने जौ का आटा), खंबीर रोटी, मक्खन वाली चाय और ताज़ी या सूखी ख़ुबानी।",
+        "mr": "मठांतील उत्सव हे लडाखच्या वर्षातील ठळक प्रसंग आहेत. हेमिस, थिकसे, लामायुरू आणि इतर गोंपांमध्ये मुखवटे व जरीचे पोशाख घातलेले भिक्षू छम नृत्य करतात, जे वाईटावर चांगल्याचा विजय दर्शवते. लडाखी नववर्ष लोसार हिवाळ्यात येते. कारगिल व सुरू खोऱ्यात मोहरमसारखे शिया धार्मिक विधी सामुदायिक जीवनाच्या केंद्रस्थानी आहेत. गावांच्या मैदानांवर व लेहमध्ये खेळला जाणारा पोलो आणि तिरंदाजी स्पर्धा अनेक उत्सवांचा भाग असतात.\n\nखाद्यपदार्थ थंडी आणि उंचीला साजेसे आहेत: थुकपा आणि स्क्यू (नूडल्स व कणकेचे रस्से), मोमो, त्सम्पा (भाजलेल्या बार्लीचे पीठ), खंबीर भाकरी, लोण्याचा चहा आणि ताजे किंवा सुके जर्दाळू.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "festivals",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "hemis",
+          "name": {
+            "en": "Hemis Tsechu",
+            "hi": "हेमिस त्सेचु",
+            "mr": "हेमिस त्सेचू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Masked cham dances in Hemis monastery's courtyard.",
+            "hi": "हेमिस मठ के आँगन में मुखौटा छम नृत्य।",
+            "mr": "हेमिस मठाच्या प्रांगणात मुखवटा छम नृत्य.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "June–July",
+            "hi": "जून–जुलाई",
+            "mr": "जून–जुलै",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "losar",
+          "name": {
+            "en": "Losar",
+            "hi": "लोसर",
+            "mr": "लोसार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Ladakhi new year, with family feasts and rituals.",
+            "hi": "पारिवारिक भोज और अनुष्ठानों के साथ लद्दाखी नववर्ष।",
+            "mr": "कौटुंबिक मेजवान्या व विधींसह लडाखी नववर्ष.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "December–January",
+            "hi": "दिसंबर–जनवरी",
+            "mr": "डिसेंबर–जानेवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sindhu",
+          "name": {
+            "en": "Sindhu Darshan",
+            "hi": "सिंधु दर्शन",
+            "mr": "सिंधू दर्शन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Celebration on the banks of the Indus near Leh.",
+            "hi": "लेह के पास सिंधु के तट पर उत्सव।",
+            "mr": "लेहजवळ सिंधूच्या काठी उत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "June",
+            "hi": "जून",
+            "mr": "जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ladakhfest",
+          "name": {
+            "en": "Ladakh Festival",
+            "hi": "लद्दाख महोत्सव",
+            "mr": "लडाख महोत्सव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Cultural parades, music, polo and archery.",
+            "hi": "सांस्कृतिक झाँकियाँ, संगीत, पोलो और तीरंदाज़ी।",
+            "mr": "सांस्कृतिक मिरवणुका, संगीत, पोलो आणि तिरंदाजी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "September",
+            "hi": "सितंबर",
+            "mr": "सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "muharram",
+          "name": {
+            "en": "Muharram",
+            "hi": "मुहर्रम",
+            "mr": "मोहरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Major observance in Kargil.",
+            "hi": "कारगिल में प्रमुख धार्मिक अनुष्ठान।",
+            "mr": "कारगिलमधील प्रमुख धार्मिक विधी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Lunar calendar",
+            "hi": "चंद्र कैलेंडर",
+            "mr": "चांद्र दिनदर्शिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Festivals",
+        "hi": "त्योहार",
+        "mr": "सण-उत्सव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "food",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "thukpa",
+          "name": {
+            "en": "Thukpa and skyu",
+            "hi": "थुकपा और स्कयू",
+            "mr": "थुकपा व स्क्यू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "momo",
+          "name": {
+            "en": "Momos",
+            "hi": "मोमो",
+            "mr": "मोमो",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tsampa",
+          "name": {
+            "en": "Tsampa",
+            "hi": "त्सम्पा",
+            "mr": "त्सम्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khambir",
+          "name": {
+            "en": "Khambir bread",
+            "hi": "खंबीर रोटी",
+            "mr": "खंबीर भाकरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tea",
+          "name": {
+            "en": "Butter tea (gur gur cha)",
+            "hi": "मक्खन वाली चाय (गुड़ गुड़ चा)",
+            "mr": "लोण्याचा चहा (गुर गुर चा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "apricot",
+          "name": {
+            "en": "Apricots",
+            "hi": "ख़ुबानी",
+            "mr": "जर्दाळू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Food",
+        "hi": "खान-पान",
+        "mr": "खाद्यसंस्कृती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

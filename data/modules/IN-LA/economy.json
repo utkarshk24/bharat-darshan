@@ -1,0 +1,320 @@
+{
+  "region": "IN-LA",
+  "module": "economy",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Ladakh's economy rests on government services and the armed forces, tourism, agriculture and livestock. Farming is limited to a short growing season in irrigated valleys — barley, wheat, peas, vegetables and orchards of apricot and apple — while the Changpa herders of Changthang produce the fine pashmina fibre. Tourism has grown fast since the 1970s and supports hotels, homestays, transport and trekking. Solar and geothermal resources are being explored for clean energy.\n\nPLFS data show unusually high participation: 66.2% of people aged 15+ and 61.0% of women were in the labour force in 2025, well above the national 59.3% and 40.0%. The unemployment rate fell from 8.1% in 2022 to 4.0% in 2025. MoSPI does not publish a separate GSDP series for the Union Territory.",
+        "hi": "लद्दाख की अर्थव्यवस्था सरकारी सेवाओं और सशस्त्र बलों, पर्यटन, कृषि और पशुपालन पर टिकी है। सिंचित घाटियों में खेती का मौसम छोटा है — जौ, गेहूँ, मटर, सब्ज़ियाँ और ख़ुबानी व सेब के बाग़ — जबकि चांगथांग के चांगपा पशुपालक महीन पश्मीना रेशा पैदा करते हैं। 1970 के दशक से पर्यटन तेज़ी से बढ़ा है और होटल, होमस्टे, परिवहन और ट्रेकिंग को सहारा देता है। स्वच्छ ऊर्जा के लिए सौर और भूतापीय संसाधनों की खोज हो रही है।\n\nपीएलएफ़एस आँकड़े असामान्य रूप से ऊँची भागीदारी दिखाते हैं: 2025 में 15+ आयु के 66.2% लोग और 61.0% महिलाएँ श्रम बल में थीं, जो राष्ट्रीय 59.3% और 40.0% से काफ़ी अधिक है। बेरोज़गारी दर 2022 के 8.1% से घटकर 2025 में 4.0% हो गई। मोस्पी इस केंद्र शासित प्रदेश के लिए अलग जीएसडीपी शृंखला प्रकाशित नहीं करता।",
+        "mr": "लडाखची अर्थव्यवस्था सरकारी सेवा व सशस्त्र दले, पर्यटन, शेती आणि पशुपालनावर आधारित आहे. सिंचित खोऱ्यांत शेतीचा हंगाम छोटा असतो — बार्ली, गहू, वाटाणा, भाज्या आणि जर्दाळू व सफरचंदाच्या बागा — तर चांगथांगमधील चांगपा पशुपालक तलम पश्मिना धागा निर्माण करतात. 1970 च्या दशकापासून पर्यटन झपाट्याने वाढले असून ते हॉटेले, होमस्टे, वाहतूक आणि ट्रेकिंगला आधार देते. स्वच्छ ऊर्जेसाठी सौर व भूऔष्णिक संसाधनांचा शोध सुरू आहे.\n\nपीएलएफएस आकडेवारी असामान्यपणे उच्च सहभाग दाखवते: 2025 मध्ये 15+ वयाच्या 66.2% व्यक्ती आणि 61.0% स्त्रिया श्रमशक्तीत होत्या — राष्ट्रीय 59.3% आणि 40.0% पेक्षा बऱ्याच जास्त. बेरोजगारी दर 2022 मधील 8.1% वरून 2025 मध्ये 4.0% झाला. मोस्पी या केंद्रशासित प्रदेशासाठी स्वतंत्र जीएसडीपी मालिका प्रसिद्ध करत नाही.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "plfs"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ur",
+          "label": {
+            "en": "Unemployment rate, 15+ (PS+SS)",
+            "hi": "बेरोज़गारी दर, 15+ (पीएस+एसएस)",
+            "mr": "बेरोजगारी दर, 15+ (पीएस+एसएस)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 4.0,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PLFS annual, calendar year, usual status (PS+SS), persons 15 years and above."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 4.3,
+            "unit": "%",
+            "period": "2024",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 3.1,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lfpr",
+          "label": {
+            "en": "Labour force participation, women 15+",
+            "hi": "श्रम बल भागीदारी, महिलाएँ 15+",
+            "mr": "श्रमशक्ती सहभाग, महिला 15+",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 61.0,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PLFS annual 2025, PS+SS. All persons: 66.2% (India 59.3%)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 40.0,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Key indicators",
+        "hi": "मुख्य संकेतक",
+        "mr": "प्रमुख निर्देशक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "series",
+      "id": "ur-series",
+      "title": {
+        "en": "Unemployment rate, persons 15+ (PLFS)",
+        "hi": "बेरोज़गारी दर, 15+ आयु (पीएलएफ़एस)",
+        "mr": "बेरोजगारी दर, 15+ वय (पीएलएफएस)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "lower-is-better",
+      "series": [
+        {
+          "id": "la",
+          "label": {
+            "en": "Ladakh",
+            "hi": "लद्दाख",
+            "mr": "लडाख",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 8.1,
+              "unit": "%",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 5.5,
+              "unit": "%",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 4.3,
+              "unit": "%",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 4.0,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            }
+          ]
+        },
+        {
+          "id": "in",
+          "label": {
+            "en": "India",
+            "hi": "भारत",
+            "mr": "भारत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 3.6,
+              "unit": "%",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.1,
+              "unit": "%",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.2,
+              "unit": "%",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.1,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "GSDP and per capita income",
+            "hi": "जीएसडीपी और प्रति व्यक्ति आय",
+            "mr": "जीएसडीपी व दरडोई उत्पन्न",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mospi",
+          "note": "Not in the MoSPI State series; check the UT Directorate of Economics & Statistics."
+        },
+        {
+          "label": {
+            "en": "Tourist arrivals",
+            "hi": "पर्यटक आगमन",
+            "mr": "पर्यटक आगमन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "la-gov",
+          "note": "Tourism Department, UT Ladakh."
+        },
+        {
+          "label": {
+            "en": "Pashmina production",
+            "hi": "पश्मीना उत्पादन",
+            "mr": "पश्मिना उत्पादन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "la-gov",
+          "note": "Sheep Husbandry Department."
+        }
+      ]
+    }
+  ]
+}

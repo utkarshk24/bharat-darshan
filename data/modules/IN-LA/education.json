@@ -1,0 +1,233 @@
+{
+  "region": "IN-LA",
+  "module": "education",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Higher education in Ladakh is young and small. The 2021-22 AISHE survey recorded 2 universities and 6 colleges, and a gross enrolment ratio of 11.5% for ages 18–23, up from 7.9% in 2019-20 but well below the national 28.4%; many students still leave for Jammu, Srinagar, Chandigarh and Delhi. The University of Ladakh, set up in 2018, has campuses in Leh and Kargil. Ladakh is also known for alternative schooling experiments, such as the Students' Educational and Cultural Movement of Ladakh (SECMOL).",
+        "hi": "लद्दाख में उच्च शिक्षा नई और छोटी है। 2021-22 के एआईएसएचई सर्वेक्षण में 2 विश्वविद्यालय और 6 कॉलेज दर्ज हुए, और 18–23 आयु का सकल नामांकन अनुपात 11.5% था — 2019-20 के 7.9% से अधिक, लेकिन राष्ट्रीय 28.4% से काफ़ी कम; कई छात्र अब भी जम्मू, श्रीनगर, चंडीगढ़ और दिल्ली जाते हैं। 2018 में स्थापित लद्दाख विश्वविद्यालय के परिसर लेह और कारगिल में हैं। लद्दाख वैकल्पिक शिक्षा के प्रयोगों के लिए भी जाना जाता है, जैसे स्टूडेंट्स एजुकेशनल एंड कल्चरल मूवमेंट ऑफ़ लद्दाख (सेकमोल)।",
+        "mr": "लडाखमधील उच्चशिक्षण नवे आणि लहान आहे. 2021-22 च्या एआयएसएचई सर्वेक्षणात 2 विद्यापीठे आणि 6 महाविद्यालये नोंदली गेली, आणि 18–23 वयोगटाचे एकूण नोंदणी गुणोत्तर 11.5% होते — 2019-20 च्या 7.9% पेक्षा जास्त, पण राष्ट्रीय 28.4% पेक्षा बरेच कमी; अनेक विद्यार्थी अजूनही जम्मू, श्रीनगर, चंदीगड आणि दिल्लीला जातात. 2018 मध्ये स्थापन झालेल्या लडाख विद्यापीठाचे परिसर लेह व कारगिलमध्ये आहेत. स्टुडंट्स एज्युकेशनल अँड कल्चरल मूव्हमेंट ऑफ लडाख (सेकमोल) सारख्या पर्यायी शिक्षण प्रयोगांसाठीही लडाख ओळखला जातो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 11.5,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 8.38,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 2,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 6,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2019-20 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2019-20 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2019-20 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "la",
+          "label": {
+            "en": "Ladakh",
+            "hi": "लद्दाख",
+            "mr": "लडाख",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 7.91,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 8.38,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 11.5,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "Literacy rate (Census 2011, Leh + Kargil)",
+            "hi": "साक्षरता दर (जनगणना 2011, लेह + कारगिल)",
+            "mr": "साक्षरता दर (जनगणना 2011, लेह + कारगिल)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 PCA."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "region": "IN-MH",
+  "module": "water",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Most of Maharashtra drains east through the Godavari and Krishna basins, with smaller shares in the Tapi–Narmada system and the short west-flowing Konkan rivers. The State has the largest number of large dams in India, but much of the Deccan plateau relies on rain-fed farming and seasonal groundwater, and Marathwada in particular faces recurring drought and drinking-water shortages.\n\nWater sharing with neighbouring States has been settled or contested before tribunals, including the Krishna and Godavari Water Disputes Tribunals and the Mahadayi tribunal shared with Goa and Karnataka. This section presents those matters neutrally, with official sources.",
+        "hi": "महाराष्ट्र का अधिकांश हिस्सा गोदावरी और कृष्णा घाटियों से होकर पूर्व की ओर बहता है; छोटा हिस्सा तापी–नर्मदा प्रणाली और कोंकण की पश्चिम-वाहिनी छोटी नदियों में जाता है। राज्य में देश के सबसे अधिक बड़े बाँध हैं, फिर भी दक्कन पठार का बड़ा भाग वर्षा-आधारित खेती और मौसमी भूजल पर निर्भर है, और विशेषकर मराठवाड़ा बार-बार सूखे और पेयजल की कमी का सामना करता है।\n\nपड़ोसी राज्यों के साथ जल-बँटवारे के मामले न्यायाधिकरणों में तय या विचाराधीन रहे हैं, जिनमें कृष्णा और गोदावरी जल विवाद न्यायाधिकरण तथा गोवा और कर्नाटक के साथ महादयी न्यायाधिकरण शामिल हैं। यह खंड इन मामलों को आधिकारिक स्रोतों के साथ निष्पक्ष रूप से प्रस्तुत करता है।",
+        "mr": "महाराष्ट्राचा बहुतांश भाग गोदावरी आणि कृष्णा खोऱ्यांतून पूर्वेकडे वाहतो; थोडा भाग तापी–नर्मदा प्रणालीत आणि कोकणातील पश्चिमवाहिनी लहान नद्यांत जातो. देशात सर्वाधिक मोठी धरणे महाराष्ट्रात आहेत, तरीही दख्खन पठाराचा मोठा भाग पावसावर अवलंबून शेती आणि हंगामी भूजलावर चालतो, आणि विशेषतः मराठवाड्याला वारंवार दुष्काळ व पिण्याच्या पाण्याच्या टंचाईला तोंड द्यावे लागते.\n\nशेजारी राज्यांसोबतचे पाणीवाटपाचे प्रश्न लवादांसमोर निकाली निघाले आहेत किंवा प्रलंबित आहेत, ज्यात कृष्णा आणि गोदावरी पाणीतंटा लवाद तसेच गोवा व कर्नाटकसोबतचा म्हादई लवाद यांचा समावेश आहे. हा विभाग हे प्रश्न अधिकृत स्रोतांसह निःपक्षपणे मांडतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Large dams (count)",
+            "hi": "बड़े बाँध (संख्या)",
+            "mr": "मोठी धरणे (संख्या)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-gov",
+          "note": "Central Water Commission National Register of Large Dams."
+        },
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        },
+        {
+          "label": {
+            "en": "Net irrigated area",
+            "hi": "शुद्ध सिंचित क्षेत्र",
+            "mr": "निव्वळ सिंचित क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-sdb",
+          "note": "State Data Bank lists gross irrigated area as not available; use Land Use Statistics."
+        }
+      ]
+    }
+  ]
+}

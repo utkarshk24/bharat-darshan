@@ -1,0 +1,588 @@
+{
+  "region": "IN-MH",
+  "module": "nature",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "About 16.5% of Maharashtra's area is under forest cover, below the national 21.8%. Forests are concentrated in two belts: the moist forests of the Sahyadri, part of the Western Ghats biodiversity hotspot, and the dry deciduous teak and bamboo forests of eastern Vidarbha. The coast has mangroves along creeks such as Thane Creek, which draws large flocks of flamingos in winter.\n\nThe State has six tiger reserves and three Ramsar wetlands. The Kaas plateau near Satara is known for its seasonal carpets of wildflowers after the monsoon. Human–wildlife conflict, especially with tigers and leopards near Chandrapur and on the edges of Mumbai, is a recurring challenge.",
+        "hi": "महाराष्ट्र के लगभग 16.5% क्षेत्र पर वन आवरण है, जो राष्ट्रीय 21.8% से कम है। वन दो पट्टियों में केंद्रित हैं: पश्चिमी घाट जैव-विविधता हॉटस्पॉट का हिस्सा सह्याद्रि के नम वन, और पूर्वी विदर्भ के शुष्क पर्णपाती सागौन व बाँस के वन। तट पर ठाणे खाड़ी जैसी खाड़ियों के किनारे मैंग्रोव हैं, जहाँ सर्दियों में फ़्लेमिंगो के बड़े झुंड आते हैं।\n\nराज्य में छह बाघ अभयारण्य और तीन रामसर आर्द्रभूमियाँ हैं। सातारा के पास कास पठार मानसून के बाद खिलने वाले जंगली फूलों के लिए जाना जाता है। मानव-वन्यजीव संघर्ष, ख़ासकर चंद्रपुर के पास और मुंबई के किनारों पर बाघ और तेंदुओं के साथ, एक बार-बार आने वाली चुनौती है।",
+        "mr": "महाराष्ट्राच्या सुमारे 16.5% क्षेत्रावर वनाच्छादन आहे, जे राष्ट्रीय 21.8% पेक्षा कमी आहे. वने दोन पट्ट्यांत एकवटलेली आहेत: पश्चिम घाट जैवविविधता केंद्राचा भाग असलेली सह्याद्रीतील आर्द्र वने, आणि पूर्व विदर्भातील शुष्क पानगळीची साग व बांबूची वने. किनाऱ्यावर ठाणे खाडीसारख्या खाड्यांलगत खारफुटी आहे, जिथे हिवाळ्यात रोहित (फ्लेमिंगो) पक्ष्यांचे मोठे थवे येतात.\n\nराज्यात सहा व्याघ्र प्रकल्प आणि तीन रामसर पाणथळ स्थळे आहेत. साताऱ्याजवळचे कास पठार पावसाळ्यानंतर फुलणाऱ्या रानफुलांच्या गालिच्यांसाठी प्रसिद्ध आहे. मानव-वन्यजीव संघर्ष, विशेषतः चंद्रपूरजवळ आणि मुंबईच्या सीमेवर वाघ व बिबट्यांशी, हे सातत्याने समोर येणारे आव्हान आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "ntca",
+        "indian-wetlands"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 50858.53,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 50913.0,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 16.53,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 50,858.53 km² ÷ geographical area 3,07,713 km²."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "tiger",
+      "title": {
+        "en": "Tiger reserves",
+        "hi": "बाघ अभयारण्य",
+        "mr": "व्याघ्र प्रकल्प",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Tiger reserve",
+            "hi": "बाघ अभयारण्य",
+            "mr": "व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Notified",
+            "hi": "अधिसूचित",
+            "mr": "अधिसूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Core (km²)",
+            "hi": "कोर (किमी²)",
+            "mr": "गाभा (किमी²)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Buffer (km²)",
+            "hi": "बफ़र (किमी²)",
+            "mr": "बफर (किमी²)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Total (km²)",
+            "hi": "कुल (किमी²)",
+            "mr": "एकूण (किमी²)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Melghat",
+            "hi": "मेलघाट",
+            "mr": "मेळघाट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2007",
+          "1,500.49",
+          "1,268.03",
+          "2,768.52"
+        ],
+        [
+          {
+            "en": "Nawegaon–Nagzira",
+            "hi": "नवेगांव–नागझिरा",
+            "mr": "नवेगाव–नागझिरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2013",
+          "653.67",
+          "1,241.27",
+          "1,894.94"
+        ],
+        [
+          {
+            "en": "Tadoba–Andhari",
+            "hi": "ताडोबा–अंधारी",
+            "mr": "ताडोबा–अंधारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2007",
+          "625.82",
+          "1,101.77",
+          "1,727.59"
+        ],
+        [
+          {
+            "en": "Sahyadri",
+            "hi": "सह्याद्रि",
+            "mr": "सह्याद्री",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2012",
+          "600.12",
+          "565.45",
+          "1,165.57"
+        ],
+        [
+          {
+            "en": "Bor",
+            "hi": "बोर",
+            "mr": "बोर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2014",
+          "138.12",
+          "678.15",
+          "816.27"
+        ],
+        [
+          {
+            "en": "Pench (Maharashtra)",
+            "hi": "पेंच (महाराष्ट्र)",
+            "mr": "पेंच (महाराष्ट्र)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2007",
+          "257.26",
+          "483.96",
+          "741.22"
+        ]
+      ],
+      "sourceId": "ntca",
+      "url": "https://ntca.gov.in/tiger-reserves/",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "note": {
+        "en": "Notification year as listed by NTCA (Melghat was among India's first tiger reserves in 1973-74; the year shown is the later notification of its core). India has 58 tiger reserves.",
+        "hi": "अधिसूचना वर्ष एनटीसीए की सूची के अनुसार (मेलघाट 1973-74 में भारत के पहले बाघ अभयारण्यों में था; दिखाया गया वर्ष उसके कोर क्षेत्र की बाद की अधिसूचना है)। भारत में 58 बाघ अभयारण्य हैं।",
+        "mr": "अधिसूचना वर्ष एनटीसीएच्या यादीनुसार (मेळघाट 1973-74 मध्ये भारतातील पहिल्या व्याघ्र प्रकल्पांपैकी एक होता; दाखवलेले वर्ष त्याच्या गाभा क्षेत्राच्या नंतरच्या अधिसूचनेचे आहे). भारतात 58 व्याघ्र प्रकल्प आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "ramsar",
+      "title": {
+        "en": "Ramsar wetlands",
+        "hi": "रामसर आर्द्रभूमियाँ",
+        "mr": "रामसर पाणथळ स्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Site",
+            "hi": "स्थल",
+            "mr": "स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Designated",
+            "hi": "घोषित",
+            "mr": "घोषणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Area (ha)",
+            "hi": "क्षेत्रफल (हे.)",
+            "mr": "क्षेत्र (हे.)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Nandur Madhameshwar (Nashik)",
+            "hi": "नांदूर मधमेश्वर (नासिक)",
+            "mr": "नांदूर मध्यमेश्वर (नाशिक)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "21 Jun 2019",
+          1437
+        ],
+        [
+          {
+            "en": "Lonar Lake (Buldhana)",
+            "hi": "लोणार झील (बुलढाणा)",
+            "mr": "लोणार सरोवर (बुलढाणा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "22 Jul 2020",
+          427
+        ],
+        [
+          {
+            "en": "Thane Creek",
+            "hi": "ठाणे खाड़ी",
+            "mr": "ठाणे खाडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "13 Apr 2022",
+          6521
+        ]
+      ],
+      "sourceId": "indian-wetlands",
+      "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "note": {
+        "en": "India has 99 Ramsar sites (list as on 21 April 2026).",
+        "hi": "भारत में 99 रामसर स्थल हैं (21 अप्रैल 2026 की सूची)।",
+        "mr": "भारतात 99 रामसर स्थळे आहेत (21 एप्रिल 2026 ची यादी).",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "species",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "tiger",
+          "name": {
+            "en": "Bengal tiger",
+            "hi": "बंगाल बाघ",
+            "mr": "पट्टेरी वाघ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Tadoba, Melghat, Pench",
+            "hi": "ताडोबा, मेलघाट, पेंच",
+            "mr": "ताडोबा, मेळघाट, पेंच",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shekru",
+          "name": {
+            "en": "Indian giant squirrel (Shekru)",
+            "hi": "भारतीय विशाल गिलहरी (शेकरू)",
+            "mr": "शेकरू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bhimashankar",
+            "hi": "भीमाशंकर",
+            "mr": "भीमाशंकर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gib",
+          "name": {
+            "en": "Great Indian bustard",
+            "hi": "सोन चिरैया (ग्रेट इंडियन बस्टर्ड)",
+            "mr": "माळढोक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Critically endangered; Solapur grasslands",
+            "hi": "अति संकटग्रस्त; सोलापुर के घास के मैदान",
+            "mr": "अतिसंकटग्रस्त; सोलापूरची गवताळ कुरणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "flamingo",
+          "name": {
+            "en": "Flamingos",
+            "hi": "फ़्लेमिंगो",
+            "mr": "रोहित (फ्लेमिंगो)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Thane Creek, winter",
+            "hi": "ठाणे खाड़ी, सर्दियाँ",
+            "mr": "ठाणे खाडी, हिवाळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "leopard",
+          "name": {
+            "en": "Leopard",
+            "hi": "तेंदुआ",
+            "mr": "बिबट्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Sanjay Gandhi National Park, Junnar",
+            "hi": "संजय गांधी राष्ट्रीय उद्यान, जुन्नर",
+            "mr": "संजय गांधी राष्ट्रीय उद्यान, जुन्नर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "blackbuck",
+          "name": {
+            "en": "Blackbuck",
+            "hi": "काला हिरण",
+            "mr": "काळवीट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Grasslands of the Deccan",
+            "hi": "दक्कन के घास के मैदान",
+            "mr": "दख्खनची गवताळ कुरणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key species",
+        "hi": "प्रमुख प्रजातियाँ",
+        "mr": "प्रमुख प्रजाती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "National parks and sanctuaries (count, area)",
+            "hi": "राष्ट्रीय उद्यान और अभयारण्य (संख्या, क्षेत्रफल)",
+            "mr": "राष्ट्रीय उद्याने व अभयारण्ये (संख्या, क्षेत्र)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "moefcc",
+          "note": "ENVIS Protected Areas database / Maharashtra Forest Department."
+        },
+        {
+          "label": {
+            "en": "Mangrove and tree cover",
+            "hi": "मैंग्रोव और वृक्ष आवरण",
+            "mr": "खारफुटी व वृक्षाच्छादन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "fsi",
+          "note": "ISFR 2023, Maharashtra chapter."
+        },
+        {
+          "label": {
+            "en": "Biosphere and elephant reserves",
+            "hi": "बायोस्फ़ीयर और हाथी रिज़र्व",
+            "mr": "जीवावरण व हत्ती राखीव क्षेत्रे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "moefcc",
+          "note": "MoEFCC lists."
+        }
+      ]
+    }
+  ]
+}

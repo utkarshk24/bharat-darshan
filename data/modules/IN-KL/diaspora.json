@@ -1,0 +1,89 @@
+{
+  "region": "IN-KL",
+  "module": "diaspora",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Emigration has shaped modern Keralam more than almost any other State. Since the oil boom of the 1970s, hundreds of thousands of Keralites have worked in the Gulf countries — as nurses, engineers, drivers, shop staff and construction workers — and many more have settled in Europe, North America and Australia. Remittances built houses and schools across the State, and \"Gulf money\" became part of the culture and literature. The State government's NORKA department and NORKA Roots support emigrants and returnees, and the Loka Kerala Sabha brings diaspora representatives together.",
+        "hi": "आधुनिक केरलम को प्रवास ने लगभग किसी भी अन्य राज्य से अधिक आकार दिया है। 1970 के दशक के तेल उछाल के बाद से लाखों केरलवासी खाड़ी देशों में काम करते रहे हैं — नर्स, इंजीनियर, ड्राइवर, दुकान कर्मचारी और निर्माण मज़दूर के रूप में — और बहुत से लोग यूरोप, उत्तरी अमेरिका और ऑस्ट्रेलिया में बस गए हैं। भेजे गए पैसों से पूरे राज्य में घर और स्कूल बने, और \"गल्फ़ का पैसा\" संस्कृति और साहित्य का हिस्सा बन गया। राज्य सरकार का नोर्का विभाग और नोर्का रूट्स प्रवासियों और लौटने वालों की सहायता करते हैं, और लोक केरल सभा प्रवासी प्रतिनिधियों को एक मंच पर लाती है।",
+        "mr": "आधुनिक केरळमला स्थलांतराने इतर जवळपास कोणत्याही राज्यापेक्षा जास्त आकार दिला आहे. 1970 च्या दशकातील तेलतेजीपासून लाखो केरळीय आखाती देशांत काम करत आले आहेत — परिचारिका, अभियंते, चालक, दुकान कर्मचारी आणि बांधकाम कामगार म्हणून — आणि अनेक जण युरोप, उत्तर अमेरिका व ऑस्ट्रेलियात स्थायिक झाले आहेत. पाठवलेल्या पैशांतून राज्यभर घरे आणि शाळा उभ्या राहिल्या, आणि \"गल्फचा पैसा\" संस्कृती व साहित्याचा भाग बनला. राज्य सरकारचा नोर्का विभाग आणि नोर्का रूट्स स्थलांतरित व परतलेल्यांना साहाय्य करतात, आणि लोक केरळ सभा परदेशस्थ प्रतिनिधींना एकत्र आणते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "norka",
+          "name": {
+            "en": "NORKA Roots",
+            "hi": "नोर्का रूट्स",
+            "mr": "नोर्का रूट्स",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://norkaroots.kerala.gov.in",
+          "sourceId": "kl-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants and return migrants",
+            "hi": "प्रवासियों और लौटे प्रवासियों की संख्या",
+            "mr": "स्थलांतरित व परतलेल्यांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "kl-spb",
+          "note": "Kerala Migration Survey (latest round)."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

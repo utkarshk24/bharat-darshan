@@ -1,0 +1,488 @@
+{
+  "region": "IN-KL",
+  "module": "cities",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "tvm",
+          "name": {
+            "en": "Thiruvananthapuram",
+            "hi": "तिरुवनंतपुरम",
+            "mr": "तिरुवनंतपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "State capital; Padmanabhaswamy temple, Technopark, ISRO's Vikram Sarabhai Space Centre and the new Vizhinjam port.",
+            "hi": "राज्य की राजधानी; पद्मनाभस्वामी मंदिर, टेक्नोपार्क, इसरो का विक्रम साराभाई अंतरिक्ष केंद्र और नया विझिंजम बंदरगाह।",
+            "mr": "राज्याची राजधानी; पद्मनाभस्वामी मंदिर, टेक्नोपार्क, इस्रोचे विक्रम साराभाई अंतराळ केंद्र आणि नवे विझिंजम बंदर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kochi",
+          "name": {
+            "en": "Kochi",
+            "hi": "कोच्चि",
+            "mr": "कोची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Main port and commercial city; shipyard, naval base, metro and Water Metro, and the Kochi-Muziris Biennale.",
+            "hi": "मुख्य बंदरगाह और व्यावसायिक शहर; शिपयार्ड, नौसैनिक अड्डा, मेट्रो और वाटर मेट्रो, और कोच्चि-मुज़िरिस बिएनाले।",
+            "mr": "प्रमुख बंदर व व्यापारी शहर; जहाजबांधणी कारखाना, नौदल तळ, मेट्रो व वॉटर मेट्रो, आणि कोची-मुझिरिस बिएनाले.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Port, commerce",
+            "hi": "बंदरगाह, वाणिज्य",
+            "mr": "बंदर, व्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kozhikode",
+          "name": {
+            "en": "Kozhikode",
+            "hi": "कोझिकोड",
+            "mr": "कोझिकोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Historic Zamorin port; UNESCO City of Literature (2023); halwa and Malabar cuisine.",
+            "hi": "ज़मोरिन का ऐतिहासिक बंदरगाह; यूनेस्को साहित्य नगर (2023); हलवा और मलबारी व्यंजन।",
+            "mr": "झामोरिनचे ऐतिहासिक बंदर; युनेस्को साहित्य नगरी (2023); हलवा आणि मलबारी पदार्थ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Malabar",
+            "hi": "मलबार",
+            "mr": "मलबार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thrissur",
+          "name": {
+            "en": "Thrissur",
+            "hi": "त्रिशूर",
+            "mr": "त्रिशूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Cultural capital; Thrissur Pooram, Kerala Kalamandalam nearby at Cheruthuruthy, gold trade.",
+            "hi": "सांस्कृतिक राजधानी; त्रिशूर पूरम, पास में चेरुतुरुत्ती में केरल कलामंडलम, सोने का व्यापार।",
+            "mr": "सांस्कृतिक राजधानी; त्रिशूर पूरम, जवळच चेरुतुरुत्ती येथे केरळ कलामंडलम, सोन्याचा व्यापार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Culture",
+            "hi": "संस्कृति",
+            "mr": "संस्कृती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kollam",
+          "name": {
+            "en": "Kollam",
+            "hi": "कोल्लम",
+            "mr": "कोल्लम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Old trading port; cashew industry; gateway to Ashtamudi Lake.",
+            "hi": "पुराना व्यापारिक बंदरगाह; काजू उद्योग; अष्टमुडी झील का प्रवेश द्वार।",
+            "mr": "जुने व्यापारी बंदर; काजू उद्योग; अष्टमुडी सरोवराचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Cashew, port",
+            "hi": "काजू, बंदरगाह",
+            "mr": "काजू, बंदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kannur",
+          "name": {
+            "en": "Kannur",
+            "hi": "कण्णूर",
+            "mr": "कण्णूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Handloom town and home of Theyyam; St Angelo Fort.",
+            "hi": "हथकरघा नगर और थेय्यम की भूमि; सेंट एंजेलो क़िला।",
+            "mr": "हातमाग नगरी आणि थेय्यमची भूमी; सेंट अँजेलो किल्ला.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Handloom, Theyyam",
+            "hi": "हथकरघा, थेय्यम",
+            "mr": "हातमाग, थेय्यम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "alappuzha",
+          "name": {
+            "en": "Alappuzha",
+            "hi": "आलप्पुझा",
+            "mr": "अलप्पुझा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Canals, coir and houseboats; the Nehru Trophy boat race.",
+            "hi": "नहरें, नारियल रेशा और हाउसबोट; नेहरू ट्रॉफ़ी नौका दौड़।",
+            "mr": "कालवे, काथ्या आणि हाऊसबोटी; नेहरू ट्रॉफी नौका शर्यत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Backwaters",
+            "hi": "बैकवाटर",
+            "mr": "बॅकवॉटर्स",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kottayam",
+          "name": {
+            "en": "Kottayam",
+            "hi": "कोट्टयम",
+            "mr": "कोट्टयम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Centre of publishing and rubber trade; gateway to Kumarakom.",
+            "hi": "प्रकाशन और रबर व्यापार का केंद्र; कुमारकोम का प्रवेश द्वार।",
+            "mr": "प्रकाशन व रबर व्यापाराचे केंद्र; कुमारकोमचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Print, rubber",
+            "hi": "प्रकाशन, रबर",
+            "mr": "प्रकाशन, रबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "thiruvananthapuram",
+          "name": {
+            "en": "Thiruvananthapuram",
+            "hi": "तिरुवनंतपुरम",
+            "mr": "तिरुवनंतपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kollam",
+          "name": {
+            "en": "Kollam",
+            "hi": "कोल्लम",
+            "mr": "कोल्लम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pathanamthitta",
+          "name": {
+            "en": "Pathanamthitta",
+            "hi": "पत्तनमतिट्टा",
+            "mr": "पत्तनमतिट्टा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "alappuzha",
+          "name": {
+            "en": "Alappuzha",
+            "hi": "आलप्पुझा",
+            "mr": "अलप्पुझा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kottayam",
+          "name": {
+            "en": "Kottayam",
+            "hi": "कोट्टयम",
+            "mr": "कोट्टयम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "idukki",
+          "name": {
+            "en": "Idukki",
+            "hi": "इडुक्की",
+            "mr": "इडुक्की",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ernakulam",
+          "name": {
+            "en": "Ernakulam",
+            "hi": "एर्नाकुलम",
+            "mr": "एर्णाकुलम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thrissur",
+          "name": {
+            "en": "Thrissur",
+            "hi": "त्रिशूर",
+            "mr": "त्रिशूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "palakkad",
+          "name": {
+            "en": "Palakkad",
+            "hi": "पालक्काड",
+            "mr": "पालक्काड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "malappuram",
+          "name": {
+            "en": "Malappuram",
+            "hi": "मलप्पुरम",
+            "mr": "मलप्पुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kozhikode",
+          "name": {
+            "en": "Kozhikode",
+            "hi": "कोझिकोड",
+            "mr": "कोझिकोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "wayanad",
+          "name": {
+            "en": "Wayanad",
+            "hi": "वायनाड",
+            "mr": "वायनाड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kannur",
+          "name": {
+            "en": "Kannur",
+            "hi": "कण्णूर",
+            "mr": "कण्णूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kasaragod",
+          "name": {
+            "en": "Kasaragod",
+            "hi": "कासरगोड",
+            "mr": "कासारगोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": "kl-spb",
+      "url": "https://spb.kerala.gov.in/economic-review/ER2015/Chapter1/chapter01.html",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "title": {
+        "en": "The 14 districts (south to north)",
+        "hi": "14 ज़िले (दक्षिण से उत्तर)",
+        "mr": "14 जिल्हे (दक्षिण ते उत्तर)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "District populations (Census 2011)",
+            "hi": "ज़िलावार जनसंख्या (जनगणना 2011)",
+            "mr": "जिल्हानिहाय लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 A-1 / District Census Handbooks."
+        },
+        {
+          "label": {
+            "en": "Urban agglomeration populations and city tiers",
+            "hi": "नगरीय समूह जनसंख्या और शहर श्रेणी",
+            "mr": "नागरी समूह लोकसंख्या व शहर श्रेणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 UA tables."
+        }
+      ]
+    }
+  ]
+}

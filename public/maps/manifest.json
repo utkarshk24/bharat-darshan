@@ -1,0 +1,13 @@
+{
+  "$comment": "Install an official Survey of India boundary file here (TopoJSON). Until 'file' is set and 'verified' is true, the site renders the tile-grid cartogram, which draws no boundaries. See docs/MAPS.md.",
+  "boundaries": {
+    "file": null,
+    "format": "topojson",
+    "object": "states",
+    "idProperty": "iso_code",
+    "sourceId": "survey-of-india",
+    "verified": false,
+    "verifiedBy": null,
+    "verifiedOn": null
+  }
+}

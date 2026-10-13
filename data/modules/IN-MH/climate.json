@@ -1,0 +1,209 @@
+{
+  "region": "IN-MH",
+  "module": "climate",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Maharashtra has a tropical monsoon climate with three clear seasons: a hot summer from March to May, the south-west monsoon from June to September, and a mild, dry winter from November to February.\n\nRainfall varies sharply across short distances. The Konkan coast and the Sahyadri crest receive very heavy monsoon rain, while the plateau just east of the ghats lies in a rain shadow, which is why parts of Marathwada and western Maharashtra are drought-prone. Vidarbha has the hottest summers, with peak temperatures that often cross 45 °C.",
+        "hi": "महाराष्ट्र की जलवायु उष्णकटिबंधीय मानसूनी है, जिसमें तीन स्पष्ट ऋतुएँ हैं: मार्च से मई तक गर्मी, जून से सितंबर तक दक्षिण-पश्चिम मानसून, और नवंबर से फ़रवरी तक हल्की, सूखी सर्दी।\n\nकम दूरी में ही वर्षा में बड़ा अंतर दिखता है। कोंकण तट और सह्याद्रि की चोटियों पर मानसून में बहुत भारी वर्षा होती है, जबकि घाट के ठीक पूर्व का पठार वृष्टि-छाया में आता है; इसी कारण मराठवाड़ा और पश्चिमी महाराष्ट्र के कुछ हिस्से सूखाग्रस्त रहते हैं। विदर्भ में सबसे तेज़ गर्मी पड़ती है, जहाँ तापमान अक्सर 45 °C से ऊपर चला जाता है।",
+        "mr": "महाराष्ट्राचे हवामान उष्णकटिबंधीय मोसमी आहे आणि त्यात तीन स्पष्ट ऋतू आहेत: मार्च ते मे उन्हाळा, जून ते सप्टेंबर नैर्ऋत्य मोसमी पाऊस, आणि नोव्हेंबर ते फेब्रुवारी सौम्य, कोरडा हिवाळा.\n\nकमी अंतरातच पावसात मोठा फरक दिसतो. कोकणकिनारा आणि सह्याद्रीच्या माथ्यावर पावसाळ्यात अतिवृष्टी होते, तर घाटाच्या लगेच पूर्वेकडील पठार पर्जन्यछायेत येते; म्हणूनच मराठवाडा आणि पश्चिम महाराष्ट्राचा काही भाग दुष्काळप्रवण आहे. विदर्भात सर्वांत तीव्र उन्हाळा असतो आणि तापमान अनेकदा 45 °C च्या पुढे जाते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Mumbai",
+            "hi": "मुंबई",
+            "mr": "मुंबई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 19.076,
+          "lon": 72.8777
+        },
+        {
+          "name": {
+            "en": "Pune",
+            "hi": "पुणे",
+            "mr": "पुणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 18.5204,
+          "lon": 73.8567
+        },
+        {
+          "name": {
+            "en": "Nagpur",
+            "hi": "नागपुर",
+            "mr": "नागपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 21.1458,
+          "lon": 79.0882
+        },
+        {
+          "name": {
+            "en": "Chhatrapati Sambhajinagar",
+            "hi": "छत्रपति संभाजीनगर",
+            "mr": "छत्रपती संभाजीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 19.8762,
+          "lon": 75.3433
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to February",
+            "hi": "अक्टूबर से फ़रवरी",
+            "mr": "ऑक्टोबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best for most travel: forts, caves, cities and wildlife.",
+            "hi": "अधिकांश यात्राओं के लिए सबसे अच्छा: क़िले, गुफ़ाएँ, शहर और वन्यजीव।",
+            "mr": "बहुतेक प्रवासासाठी उत्तम: किल्ले, लेणी, शहरे आणि वन्यजीव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "July to September",
+            "hi": "जुलाई से सितंबर",
+            "mr": "जुलै ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Waterfalls and green ghats; landslide and flood risk on ghat roads.",
+            "hi": "झरने और हरे-भरे घाट; घाट सड़कों पर भूस्खलन और बाढ़ का ख़तरा।",
+            "mr": "धबधबे आणि हिरवेगार घाट; घाटरस्त्यांवर दरडी व पुराचा धोका.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "March to May",
+            "hi": "मार्च से मई",
+            "mr": "मार्च ते मे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hot inland; tiger sightings peak in Vidarbha reserves.",
+            "hi": "भीतरी इलाक़ों में तेज़ गर्मी; विदर्भ के अभयारण्यों में बाघ दिखने की संभावना सबसे अधिक।",
+            "mr": "अंतर्गत भागात कडक उन्हाळा; विदर्भातील व्याघ्र प्रकल्पांत वाघ दिसण्याची शक्यता सर्वाधिक.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Monthly temperature and rainfall normals",
+            "hi": "मासिक तापमान और वर्षा सामान्य",
+            "mr": "मासिक तापमान व पर्जन्य सरासरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD climatological normals for Mumbai, Pune, Nagpur, Chh. Sambhajinagar."
+        },
+        {
+          "label": {
+            "en": "Köppen climate zones (sourced)",
+            "hi": "कोपेन जलवायु क्षेत्र (स्रोत सहित)",
+            "mr": "कोपेन हवामान विभाग (स्रोतासह)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "Cite IMD or a peer-reviewed Köppen map."
+        },
+        {
+          "label": {
+            "en": "Climate-change vulnerability",
+            "hi": "जलवायु परिवर्तन संवेदनशीलता",
+            "mr": "हवामान बदल असुरक्षितता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ndma",
+          "note": "Maharashtra State Action Plan on Climate Change; DST vulnerability index."
+        }
+      ]
+    }
+  ]
+}

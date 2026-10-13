@@ -1,0 +1,381 @@
+{
+  "region": "IN-KL",
+  "module": "tourism",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tourism is one of Keralam's most visible industries, marketed for decades under the \"God's Own Country\" tagline. Visitors come for houseboat cruises on the Alappuzha and Kumarakom backwaters, the tea hills of Munnar and the forests of Thekkady and Wayanad, beaches at Kovalam and Varkala, and the layered history of Fort Kochi and Mattancherry. Ayurveda retreats, temple festivals and the Kochi-Muziris Biennale of contemporary art draw their own audiences.",
+        "hi": "पर्यटन केरलम के सबसे नज़र आने वाले उद्योगों में है, जिसका दशकों से \"गॉड्स ओन कंट्री\" टैगलाइन के साथ प्रचार होता रहा है। पर्यटक आलप्पुझा और कुमारकोम के बैकवाटर में हाउसबोट सैर, मुन्नार की चाय पहाड़ियों, तेक्कडी और वायनाड के जंगलों, कोवलम और वर्कला के समुद्र तटों, और फ़ोर्ट कोच्चि व मट्टनचेरी के परतदार इतिहास के लिए आते हैं। आयुर्वेद केंद्र, मंदिर उत्सव और समकालीन कला का कोच्चि-मुज़िरिस बिएनाले अपने-अपने दर्शक खींचते हैं।",
+        "mr": "पर्यटन हा केरळमच्या सर्वांत ठळक उद्योगांपैकी एक आहे; अनेक दशके \"गॉड्स ओन कंट्री\" या घोषवाक्याने त्याचा प्रचार होत आला आहे. पर्यटक अलप्पुझा आणि कुमारकोमच्या बॅकवॉटर्समधील हाऊसबोट सफर, मुन्नारचे चहाचे डोंगर, तेक्कडी व वायनाडची जंगले, कोवळम आणि वर्कलाचे समुद्रकिनारे, आणि फोर्ट कोची व मट्टांचेरीचा बहुपदरी इतिहास पाहण्यासाठी येतात. आयुर्वेद केंद्रे, मंदिरोत्सव आणि समकालीन कलेचे कोची-मुझिरिस बिएनाले यांनाही स्वतंत्र प्रेक्षक लाभतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "backwaters",
+          "name": {
+            "en": "Alappuzha and Kumarakom backwaters",
+            "hi": "आलप्पुझा और कुमारकोम बैकवाटर",
+            "mr": "अलप्पुझा व कुमारकोम बॅकवॉटर्स",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Backwaters",
+            "hi": "बैकवाटर",
+            "mr": "बॅकवॉटर्स",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kochi",
+          "name": {
+            "en": "Fort Kochi and Mattancherry",
+            "hi": "फ़ोर्ट कोच्चि और मट्टनचेरी",
+            "mr": "फोर्ट कोची व मट्टांचेरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "munnar",
+          "name": {
+            "en": "Munnar",
+            "hi": "मुन्नार",
+            "mr": "मुन्नार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hill station, tea",
+            "hi": "हिल स्टेशन, चाय",
+            "mr": "थंड हवेचे ठिकाण, चहा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thekkady",
+          "name": {
+            "en": "Thekkady (Periyar)",
+            "hi": "तेक्कडी (पेरियार)",
+            "mr": "तेक्कडी (पेरियार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Wildlife, spice gardens",
+            "hi": "वन्यजीव, मसाला बागान",
+            "mr": "वन्यजीव, मसाल्याच्या बागा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "wayanad",
+          "name": {
+            "en": "Wayanad",
+            "hi": "वायनाड",
+            "mr": "वायनाड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Forests, Edakkal caves",
+            "hi": "जंगल, एडक्कल गुफ़ाएँ",
+            "mr": "जंगले, एडक्कल लेणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "beaches",
+          "name": {
+            "en": "Kovalam and Varkala",
+            "hi": "कोवलम और वर्कला",
+            "mr": "कोवळम व वर्कला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Beaches",
+            "hi": "समुद्र तट",
+            "mr": "समुद्रकिनारे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "temples",
+          "name": {
+            "en": "Padmanabhaswamy, Guruvayur and Sabarimala",
+            "hi": "पद्मनाभस्वामी, गुरुवायूर और सबरीमला",
+            "mr": "पद्मनाभस्वामी, गुरुवायूर व शबरीमला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage",
+            "hi": "तीर्थ",
+            "mr": "तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bekal",
+          "name": {
+            "en": "Bekal Fort",
+            "hi": "बेकल क़िला",
+            "mr": "बेकल किल्ला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Coastal fort, Kasaragod",
+            "hi": "तटीय क़िला, कासरगोड",
+            "mr": "किनारी किल्ला, कासारगोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Kochi: Fort Kochi, Chinese fishing nets, Mattancherry Palace and the Paradesi Synagogue; a Kathakali performance.",
+            "hi": "कोच्चि: फ़ोर्ट कोच्चि, चीनी मछली जाल, मट्टनचेरी महल और परदेसी सिनेगॉग; कथकली प्रदर्शन।",
+            "mr": "कोची: फोर्ट कोची, चिनी मासेमारी जाळी, मट्टांचेरी राजवाडा आणि परदेसी सिनेगॉग; कथकलीचा प्रयोग.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Add an overnight houseboat on the Alappuzha backwaters.",
+            "hi": "आलप्पुझा बैकवाटर में एक रात हाउसबोट पर जोड़ें।",
+            "mr": "अलप्पुझाच्या बॅकवॉटर्समध्ये हाऊसबोटवर एक रात्र जोडा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Kochi, Munnar's tea hills and Thekkady's forest and spice gardens.",
+            "hi": "कोच्चि, मुन्नार की चाय पहाड़ियाँ और तेक्कडी के जंगल व मसाला बागान।",
+            "mr": "कोची, मुन्नारचे चहाचे डोंगर आणि तेक्कडीची जंगले व मसाल्याच्या बागा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Continue south via the backwaters to Thiruvananthapuram, Kovalam and Varkala.",
+            "hi": "बैकवाटर के रास्ते दक्षिण में तिरुवनंतपुरम, कोवलम और वर्कला तक जाएँ।",
+            "mr": "बॅकवॉटर्समार्गे दक्षिणेकडे तिरुवनंतपुरम, कोवळम आणि वर्कलापर्यंत जा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kt",
+          "name": {
+            "en": "Kerala Tourism (official)",
+            "hi": "केरल पर्यटन (आधिकारिक)",
+            "mr": "केरळ पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.keralatourism.org",
+          "sourceId": "kl-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits",
+            "hi": "घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Statistics / Kerala Tourism Statistics (latest year)."
+        },
+        {
+          "label": {
+            "en": "Earnings from tourism",
+            "hi": "पर्यटन से आय",
+            "mr": "पर्यटनातून उत्पन्न",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "Kerala Tourism Statistics."
+        }
+      ]
+    }
+  ]
+}

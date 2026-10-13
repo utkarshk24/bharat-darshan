@@ -1,0 +1,255 @@
+{
+  "region": "IN-KL",
+  "module": "civic",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Kerala portal",
+            "hi": "केरल सरकार पोर्टल",
+            "mr": "केरळ शासन संकेतस्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://kerala.gov.in",
+          "sourceId": "kl-gov"
+        },
+        {
+          "id": "edistrict",
+          "name": {
+            "en": "e-District Kerala — certificates and services",
+            "hi": "ई-डिस्ट्रिक्ट केरल — प्रमाणपत्र और सेवाएँ",
+            "mr": "ई-डिस्ट्रिक्ट केरळ — प्रमाणपत्रे व सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://edistrict.kerala.gov.in",
+          "sourceId": "kl-gov"
+        },
+        {
+          "id": "rti",
+          "name": {
+            "en": "RTI Online (Government of India)",
+            "hi": "आरटीआई ऑनलाइन (भारत सरकार)",
+            "mr": "माहितीचा अधिकार ऑनलाइन (भारत सरकार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rtionline.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "tourism",
+          "name": {
+            "en": "Kerala Tourism",
+            "hi": "केरल पर्यटन",
+            "mr": "केरळ पर्यटन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.keralatourism.org",
+          "sourceId": "kl-gov"
+        },
+        {
+          "id": "consumer",
+          "name": {
+            "en": "National Consumer Helpline",
+            "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन",
+            "mr": "राष्ट्रीय ग्राहक हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://consumerhelpline.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official websites",
+        "hi": "आधिकारिक वेबसाइटें",
+        "mr": "अधिकृत संकेतस्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "std",
+      "title": {
+        "en": "STD codes of major cities",
+        "hi": "प्रमुख शहरों के एसटीडी कोड",
+        "mr": "प्रमुख शहरांचे एसटीडी कोड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "City",
+            "hi": "शहर",
+            "mr": "शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Code",
+            "hi": "कोड",
+            "mr": "कोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Thiruvananthapuram",
+            "hi": "तिरुवनंतपुरम",
+            "mr": "तिरुवनंतपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0471"
+        ],
+        [
+          {
+            "en": "Kochi (Ernakulam)",
+            "hi": "कोच्चि (एर्नाकुलम)",
+            "mr": "कोची (एर्णाकुलम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0484"
+        ],
+        [
+          {
+            "en": "Kozhikode",
+            "hi": "कोझिकोड",
+            "mr": "कोझिकोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0495"
+        ],
+        [
+          {
+            "en": "Thrissur",
+            "hi": "त्रिशूर",
+            "mr": "त्रिशूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0487"
+        ],
+        [
+          {
+            "en": "Kollam",
+            "hi": "कोल्लम",
+            "mr": "कोल्लम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0474"
+        ],
+        [
+          {
+            "en": "Kannur",
+            "hi": "कण्णूर",
+            "mr": "कण्णूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0497"
+        ],
+        [
+          {
+            "en": "Alappuzha",
+            "hi": "आलप्पुझा",
+            "mr": "अलप्पुझा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0477"
+        ]
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "note": {
+        "en": "Editorial list; to be checked against the Department of Telecommunications numbering plan.",
+        "hi": "संपादकीय सूची; दूरसंचार विभाग की नंबरिंग योजना से जाँची जाएगी।",
+        "mr": "संपादकीय यादी; दूरसंचार विभागाच्या क्रमांक योजनेशी पडताळली जाईल.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Verified local business directory (MSMEs, co-operatives, FPOs, artisan clusters)",
+            "hi": "सत्यापित स्थानीय व्यवसाय निर्देशिका (एमएसएमई, सहकारी, एफ़पीओ, कारीगर क्लस्टर)",
+            "mr": "पडताळलेली स्थानिक उद्योग सूची (एमएसएमई, सहकारी संस्था, एफपीओ, कारागीर समूह)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Udyam Registration, Kudumbashree and co-operative registrars."
+        }
+      ]
+    }
+  ]
+}

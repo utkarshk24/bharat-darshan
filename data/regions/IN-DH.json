@@ -1,0 +1,199 @@
+{
+  "code": "IN-DH",
+  "slug": "dadra-and-nagar-haveli-and-daman-and-diu",
+  "type": "ut",
+  "governanceModel": "ut-without-legislature",
+  "name": {
+    "en": "Dadra & Nagar Haveli and Daman & Diu",
+    "hi": "दादरा और नगर हवेली और दमन और दीव",
+    "mr": "दादरा आणि नगर हवेली आणि दमण आणि दीव",
+    "_status": {
+      "hi": "draft",
+      "mr": "draft"
+    }
+  },
+  "zonalCouncil": "western",
+  "accent": "#0f766e",
+  "motif": "warli",
+  "tile": {
+    "row": 5,
+    "col": 0
+  },
+  "capitals": [
+    {
+      "role": "administrative",
+      "name": {
+        "en": "Daman",
+        "hi": "दमन",
+        "mr": "दमण",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ],
+  "officialPortal": null,
+  "symbols": {},
+  "metrics": {
+    "population2011": {
+      "value": null,
+      "unit": "persons",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": null,
+      "accessDate": null,
+      "dataLevel": "state",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+    },
+    "area": {
+      "value": null,
+      "unit": "km²",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": null,
+      "accessDate": null,
+      "dataLevel": "state",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "Census 2011 area figures, or Survey of India; record which."
+    },
+    "density2011": {
+      "value": null,
+      "unit": "persons per km²",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": null,
+      "accessDate": null,
+      "dataLevel": "state",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "Census 2011 PCA."
+    },
+    "sexRatio2011": {
+      "value": null,
+      "unit": "females per 1000 males",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": null,
+      "accessDate": null,
+      "dataLevel": "state",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "Census 2011 PCA."
+    },
+    "childSexRatio2011": {
+      "value": null,
+      "unit": "girls per 1000 boys (0–6 yrs)",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": null,
+      "accessDate": null,
+      "dataLevel": "state",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "Census 2011 PCA."
+    },
+    "literacyRate2011": {
+      "value": null,
+      "unit": "%",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": null,
+      "accessDate": null,
+      "dataLevel": "state",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "Census 2011 PCA, population aged 7+."
+    },
+    "urbanisation2011": {
+      "value": null,
+      "unit": "%",
+      "period": "2011",
+      "periodType": "census",
+      "sourceId": "census",
+      "url": null,
+      "accessDate": null,
+      "dataLevel": "state",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "Census 2011 PCA urban share."
+    },
+    "gsdpCurrent": {
+      "value": null,
+      "unit": "₹ crore",
+      "period": "FY2023-24",
+      "periodType": "fy",
+      "sourceId": "mospi",
+      "url": null,
+      "accessDate": null,
+      "dataLevel": "state",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
+      "priceBase": {
+        "type": "current"
+      }
+    },
+    "perCapitaNsdpCurrent": {
+      "value": null,
+      "unit": "₹",
+      "period": "FY2023-24",
+      "periodType": "fy",
+      "sourceId": "mospi",
+      "url": null,
+      "accessDate": null,
+      "dataLevel": "state",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
+      "priceBase": {
+        "type": "current"
+      }
+    },
+    "forestCoverPct": {
+      "value": null,
+      "unit": "% of geographical area",
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": null,
+      "accessDate": null,
+      "dataLevel": "state",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "ISFR 2023, state chapter."
+    }
+  },
+  "timeSeries": {},
+  "government": {
+    "headOfState": {
+      "role": "administrator",
+      "name": null,
+      "party": null,
+      "since": null,
+      "asOf": null,
+      "sourceId": "igod",
+      "url": null,
+      "verifyUrl": "https://igod.gov.in",
+      "revisionStatus": "TODO",
+      "confidence": "Official",
+      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+    },
+    "headOfGovernment": null
+  },
+  "projects": [],
+  "giProducts": [],
+  "meta": {
+    "lastUpdated": "2026-10-13",
+    "editorialStatus": "seed"
+  }
+}

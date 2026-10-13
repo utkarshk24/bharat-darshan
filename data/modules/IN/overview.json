@@ -1,0 +1,2567 @@
+{
+  "region": "IN",
+  "module": "overview",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "intro",
+      "body": {
+        "en": "India is a Union of 28 States and 8 Union Territories, home to about 121 crore people at the 2011 Census. It stretches from the Himalaya and the Karakoram in the north to the Indian Ocean in the south, and from the Thar desert in the west to the hills of the North-East. The Constitution, in force since 26 January 1950, sets up a parliamentary democracy with a federal structure: the Union and the States share power through three lists of subjects, and Union Territories are governed by the Union, three of them — Delhi, Puducherry and Jammu & Kashmir — with elected legislatures.\n\nThis page brings together national reference figures and compares States and UTs where an official State-wise series exists. Each State and UT has its own profile; the four reference profiles (Maharashtra, Keralam, Delhi and Ladakh) are the most complete so far.",
+        "hi": "भारत 28 राज्यों और 8 केंद्र शासित प्रदेशों का संघ है; 2011 की जनगणना में इसकी आबादी लगभग 121 करोड़ थी। यह उत्तर में हिमालय और काराकोरम से दक्षिण में हिंद महासागर तक, और पश्चिम में थार मरुस्थल से पूर्वोत्तर की पहाड़ियों तक फैला है। 26 जनवरी 1950 से लागू संविधान संघीय ढाँचे वाला संसदीय लोकतंत्र स्थापित करता है: संघ और राज्य विषयों की तीन सूचियों के माध्यम से शक्तियाँ बाँटते हैं, और केंद्र शासित प्रदेशों का शासन संघ करता है — इनमें से तीन, दिल्ली, पुदुच्चेरी और जम्मू-कश्मीर, में निर्वाचित विधानसभाएँ हैं।\n\nयह पेज राष्ट्रीय संदर्भ आँकड़ों को एक साथ लाता है और जहाँ आधिकारिक राज्यवार शृंखला उपलब्ध है, वहाँ राज्यों और केंद्र शासित प्रदेशों की तुलना करता है। हर राज्य और केंद्र शासित प्रदेश का अपना प्रोफ़ाइल है; चार संदर्भ प्रोफ़ाइल (महाराष्ट्र, केरलम, दिल्ली और लद्दाख) अब तक सबसे पूर्ण हैं।",
+        "mr": "भारत हा 28 राज्ये आणि 8 केंद्रशासित प्रदेशांचा संघ आहे; 2011 च्या जनगणनेनुसार त्याची लोकसंख्या सुमारे 121 कोटी होती. उत्तरेकडील हिमालय व काराकोरमपासून दक्षिणेकडील हिंदी महासागरापर्यंत, आणि पश्चिमेकडील थरच्या वाळवंटापासून ईशान्येकडील डोंगररांगांपर्यंत तो पसरलेला आहे. 26 जानेवारी 1950 पासून लागू असलेली राज्यघटना संघराज्यीय रचनेची संसदीय लोकशाही स्थापन करते: संघ आणि राज्ये विषयांच्या तीन सूचींद्वारे अधिकार वाटून घेतात, आणि केंद्रशासित प्रदेशांचा कारभार संघ पाहतो — त्यांपैकी दिल्ली, पुदुच्चेरी आणि जम्मू-काश्मीर या तिघांना निवडून आलेली विधिमंडळे आहेत.\n\nहे पान राष्ट्रीय संदर्भ आकडेवारी एकत्र आणते आणि जिथे अधिकृत राज्यनिहाय मालिका उपलब्ध आहे तिथे राज्ये व केंद्रशासित प्रदेशांची तुलना करते. प्रत्येक राज्य व केंद्रशासित प्रदेशाचे स्वतंत्र माहितीपान आहे; चार संदर्भ माहितीपाने (महाराष्ट्र, केरळम, दिल्ली आणि लडाख) आतापर्यंत सर्वाधिक परिपूर्ण आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "glance",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          },
+          "kind": "count",
+          "polarity": "neutral"
+        },
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 382,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "National figure of 382 as cited in the Economic Survey of Delhi 2023-24 (Census 2011)."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better"
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better"
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better"
+        },
+        {
+          "id": "urb",
+          "label": {
+            "en": "Urban population",
+            "hi": "शहरी जनसंख्या",
+            "mr": "नागरी लोकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 31.1,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        },
+        {
+          "id": "gdp",
+          "label": {
+            "en": "GDP, current prices",
+            "hi": "जीडीपी, प्रचलित मूल्य",
+            "mr": "जीडीपी, चालू किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 33068145,
+            "unit": "₹ crore",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            },
+            "note": "MoSPI national accounts, base 2011-12 (current series), Provisional Estimates for FY2024-25. MoSPI has since released a 2022-23 base series; the 2011-12 base is used here so that it matches the State GSDP series."
+          },
+          "kind": "rupeeCrore",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 30122955,
+            "unit": "₹ crore",
+            "period": "FY2023-24",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "revised",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          }
+        },
+        {
+          "id": "forest",
+          "label": {
+            "en": "Forest cover",
+            "hi": "वन आवरण",
+            "mr": "वनाच्छादन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better"
+        }
+      ],
+      "title": {
+        "en": "India at a glance",
+        "hi": "भारत एक नज़र में",
+        "mr": "भारत दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "table",
+      "id": "structure",
+      "title": {
+        "en": "How India is organised",
+        "hi": "भारत की संरचना",
+        "mr": "भारताची रचना",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Item",
+            "hi": "विषय",
+            "mr": "बाब",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Count",
+            "hi": "संख्या",
+            "mr": "संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "States",
+            "hi": "राज्य",
+            "mr": "राज्ये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          28
+        ],
+        [
+          {
+            "en": "Union Territories",
+            "hi": "केंद्र शासित प्रदेश",
+            "mr": "केंद्रशासित प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          8
+        ],
+        [
+          {
+            "en": "— of which with an elected legislature",
+            "hi": "— जिनमें निर्वाचित विधानसभा है",
+            "mr": "— त्यांपैकी निवडून आलेले विधिमंडळ असलेले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          3
+        ],
+        [
+          {
+            "en": "Zonal Councils",
+            "hi": "क्षेत्रीय परिषदें",
+            "mr": "विभागीय परिषदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          5
+        ],
+        [
+          {
+            "en": "Lok Sabha seats",
+            "hi": "लोकसभा सीटें",
+            "mr": "लोकसभा जागा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          543
+        ]
+      ],
+      "sourceId": "india-gov",
+      "url": "https://www.india.gov.in",
+      "accessDate": "2026-10-13",
+      "confidence": "Editorial",
+      "note": {
+        "en": "Constitutional and statutory counts, to be linked to the relevant articles and notifications in review. The North Eastern Council is a separate statutory body; this site groups regions using the five Zonal Councils plus the North-East.",
+        "hi": "संवैधानिक और वैधानिक गणनाएँ; समीक्षा में इन्हें संबंधित अनुच्छेदों और अधिसूचनाओं से जोड़ा जाएगा। पूर्वोत्तर परिषद एक अलग वैधानिक निकाय है; यह साइट क्षेत्रों को पाँच क्षेत्रीय परिषदों और पूर्वोत्तर के आधार पर समूहित करती है।",
+        "mr": "घटनात्मक व वैधानिक संख्या; तपासणीत त्या संबंधित अनुच्छेद व अधिसूचनांशी जोडल्या जातील. ईशान्य परिषद ही स्वतंत्र वैधानिक संस्था आहे; हे संकेतस्थळ प्रदेशांचे गट पाच विभागीय परिषदा आणि ईशान्य यांच्या आधारे करते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "series",
+      "id": "gdp-series",
+      "title": {
+        "en": "GDP, FY2011-12 to FY2025-26",
+        "hi": "जीडीपी, वित्त वर्ष 2011-12 से 2025-26",
+        "mr": "जीडीपी, आ.व. 2011-12 ते 2025-26",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "rupeeCrore",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "current",
+          "label": {
+            "en": "Current prices",
+            "hi": "प्रचलित मूल्य",
+            "mr": "चालू किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 8736328,
+              "unit": "₹ crore",
+              "period": "FY2011-12",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 9944013,
+              "unit": "₹ crore",
+              "period": "FY2012-13",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 11233521,
+              "unit": "₹ crore",
+              "period": "FY2013-14",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 12467959,
+              "unit": "₹ crore",
+              "period": "FY2014-15",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 13771873,
+              "unit": "₹ crore",
+              "period": "FY2015-16",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 15391669,
+              "unit": "₹ crore",
+              "period": "FY2016-17",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 17090042,
+              "unit": "₹ crore",
+              "period": "FY2017-18",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 18899668,
+              "unit": "₹ crore",
+              "period": "FY2018-19",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 20103592,
+              "unit": "₹ crore",
+              "period": "FY2019-20",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 19854096,
+              "unit": "₹ crore",
+              "period": "FY2020-21",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 23597398,
+              "unit": "₹ crore",
+              "period": "FY2021-22",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "revised",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 26890472,
+              "unit": "₹ crore",
+              "period": "FY2022-23",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 30122955,
+              "unit": "₹ crore",
+              "period": "FY2023-24",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "revised",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "First Revised Estimates."
+            },
+            {
+              "value": 33068145,
+              "unit": "₹ crore",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "Provisional Estimates."
+            },
+            {
+              "value": 35713886,
+              "unit": "₹ crore",
+              "period": "FY2025-26",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "First Advance Estimates."
+            }
+          ]
+        },
+        {
+          "id": "constant",
+          "label": {
+            "en": "Constant 2011-12 prices",
+            "hi": "स्थिर 2011-12 मूल्य",
+            "mr": "स्थिर 2011-12 किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 8736328,
+              "unit": "₹ crore",
+              "period": "FY2011-12",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 9213016,
+              "unit": "₹ crore",
+              "period": "FY2012-13",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 9801369,
+              "unit": "₹ crore",
+              "period": "FY2013-14",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 10527673,
+              "unit": "₹ crore",
+              "period": "FY2014-15",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 11369493,
+              "unit": "₹ crore",
+              "period": "FY2015-16",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 12308193,
+              "unit": "₹ crore",
+              "period": "FY2016-17",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 13144582,
+              "unit": "₹ crore",
+              "period": "FY2017-18",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 13992913,
+              "unit": "₹ crore",
+              "period": "FY2018-19",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 14534640,
+              "unit": "₹ crore",
+              "period": "FY2019-20",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 13694869,
+              "unit": "₹ crore",
+              "period": "FY2020-21",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 15021846,
+              "unit": "₹ crore",
+              "period": "FY2021-22",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "revised",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 16164913,
+              "unit": "₹ crore",
+              "period": "FY2022-23",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 17650590,
+              "unit": "₹ crore",
+              "period": "FY2023-24",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "revised",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              },
+              "note": "First Revised Estimates."
+            },
+            {
+              "value": 18796955,
+              "unit": "₹ crore",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              },
+              "note": "Provisional Estimates."
+            },
+            {
+              "value": 20189918,
+              "unit": "₹ crore",
+              "period": "FY2025-26",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-13",
+              "dataLevel": "national",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              },
+              "note": "First Advance Estimates."
+            }
+          ]
+        }
+      ],
+      "note": {
+        "en": "MoSPI, base 2011-12, latest available revision for each year (FY2025-26 is the First Advance Estimate). MoSPI has released a new 2022-23 base series; it is not mixed in here.",
+        "hi": "मोस्पी, आधार 2011-12, हर वर्ष का नवीनतम उपलब्ध संशोधन (वित्त वर्ष 2025-26 पहला अग्रिम अनुमान है)। मोस्पी ने नई 2022-23 आधार शृंखला जारी की है; उसे यहाँ मिलाया नहीं गया है।",
+        "mr": "मोस्पी, आधार 2011-12, प्रत्येक वर्षाची नवीनतम उपलब्ध सुधारणा (आ.व. 2025-26 हा पहिला आगाऊ अंदाज). मोस्पीने नवी 2022-23 आधार मालिका प्रसिद्ध केली आहे; ती येथे मिसळलेली नाही.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "economies",
+      "title": {
+        "en": "State economies, FY2024-25 (GSDP at current prices)",
+        "hi": "राज्यों की अर्थव्यवस्थाएँ, वित्त वर्ष 2024-25 (प्रचलित मूल्यों पर जीएसडीपी)",
+        "mr": "राज्यांच्या अर्थव्यवस्था, आ.व. 2024-25 (चालू किमतींनुसार जीएसडीपी)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "State / UT",
+            "hi": "राज्य / केंद्र शासित प्रदेश",
+            "mr": "राज्य / केंद्रशासित प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Rank",
+            "hi": "क्रम",
+            "mr": "क्रमांक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "GSDP (₹ crore)",
+            "hi": "जीएसडीपी (₹ करोड़)",
+            "mr": "जीएसडीपी (₹ कोटी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Share of India's GDP (%)",
+            "hi": "भारत के जीडीपी में हिस्सा (%)",
+            "mr": "भारताच्या जीडीपीतील वाटा (%)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Growth over FY2023-24 (%)",
+            "hi": "वित्त वर्ष 2023-24 से वृद्धि (%)",
+            "mr": "आ.व. 2023-24 पासून वाढ (%)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Maharashtra",
+            "hi": "महाराष्ट्र",
+            "mr": "महाराष्ट्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1,
+          4622138,
+          "13.98",
+          "12.2"
+        ],
+        [
+          {
+            "en": "Tamil Nadu",
+            "hi": "तमिलनाडु",
+            "mr": "तमिळनाडू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2,
+          3118590,
+          "9.43",
+          "16.0"
+        ],
+        [
+          {
+            "en": "Uttar Pradesh",
+            "hi": "उत्तर प्रदेश",
+            "mr": "उत्तर प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          3,
+          3024621,
+          "9.15",
+          "13.4"
+        ],
+        [
+          {
+            "en": "Karnataka",
+            "hi": "कर्नाटक",
+            "mr": "कर्नाटक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          4,
+          2906063,
+          "8.79",
+          "12.0"
+        ],
+        [
+          {
+            "en": "Gujarat",
+            "hi": "गुजरात",
+            "mr": "गुजरात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          5,
+          2703518,
+          "8.18",
+          "10.2"
+        ],
+        [
+          {
+            "en": "West Bengal",
+            "hi": "पश्चिम बंगाल",
+            "mr": "पश्चिम बंगाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          6,
+          1812372,
+          "5.48",
+          "9.8"
+        ],
+        [
+          {
+            "en": "Rajasthan",
+            "hi": "राजस्थान",
+            "mr": "राजस्थान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          7,
+          1701190,
+          "5.14",
+          "11.8"
+        ],
+        [
+          {
+            "en": "Telangana",
+            "hi": "तेलंगाना",
+            "mr": "तेलंगणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          8,
+          1609902,
+          "4.87",
+          "10.6"
+        ],
+        [
+          {
+            "en": "Andhra Pradesh",
+            "hi": "आंध्र प्रदेश",
+            "mr": "आंध्र प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          9,
+          1591226,
+          "4.81",
+          "11.8"
+        ],
+        [
+          {
+            "en": "Madhya Pradesh",
+            "hi": "मध्य प्रदेश",
+            "mr": "मध्य प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          10,
+          1502428,
+          "4.54",
+          "10.3"
+        ],
+        [
+          {
+            "en": "Keralam",
+            "hi": "केरलम",
+            "mr": "केरळम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          11,
+          1248533,
+          "3.78",
+          "10.0"
+        ],
+        [
+          {
+            "en": "Delhi",
+            "hi": "दिल्ली",
+            "mr": "दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          12,
+          1212851,
+          "3.67",
+          "8.9"
+        ],
+        [
+          {
+            "en": "Bihar",
+            "hi": "बिहार",
+            "mr": "बिहार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          13,
+          990492,
+          "3.00",
+          "12.9"
+        ],
+        [
+          {
+            "en": "Odisha",
+            "hi": "ओडिशा",
+            "mr": "ओडिशा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          14,
+          903057,
+          "2.73",
+          "10.0"
+        ],
+        [
+          {
+            "en": "Punjab",
+            "hi": "पंजाब",
+            "mr": "पंजाब",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          15,
+          825932,
+          "2.50",
+          "9.0"
+        ],
+        [
+          {
+            "en": "Chhattisgarh",
+            "hi": "छत्तीसगढ़",
+            "mr": "छत्तीसगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          16,
+          565845,
+          "1.71",
+          "10.5"
+        ],
+        [
+          {
+            "en": "Jharkhand",
+            "hi": "झारखंड",
+            "mr": "झारखंड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          17,
+          516255,
+          "1.56",
+          "10.9"
+        ],
+        [
+          {
+            "en": "Uttarakhand",
+            "hi": "उत्तराखंड",
+            "mr": "उत्तराखंड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          18,
+          347981,
+          "1.05",
+          "10.5"
+        ],
+        [
+          {
+            "en": "Jammu & Kashmir",
+            "hi": "जम्मू और कश्मीर",
+            "mr": "जम्मू आणि काश्मीर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          19,
+          262358,
+          "0.79",
+          "11.1"
+        ],
+        [
+          {
+            "en": "Himachal Pradesh",
+            "hi": "हिमाचल प्रदेश",
+            "mr": "हिमाचल प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          20,
+          230587,
+          "0.70",
+          "10.1"
+        ],
+        [
+          {
+            "en": "Goa",
+            "hi": "गोवा",
+            "mr": "गोवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          21,
+          117079,
+          "0.35",
+          "19.7"
+        ],
+        [
+          {
+            "en": "Tripura",
+            "hi": "त्रिपुरा",
+            "mr": "त्रिपुरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          22,
+          87170,
+          "0.26",
+          "11.4"
+        ],
+        [
+          {
+            "en": "Chandigarh",
+            "hi": "चंडीगढ़",
+            "mr": "चंदीगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          23,
+          68073,
+          "0.21",
+          "9.0"
+        ],
+        [
+          {
+            "en": "Meghalaya",
+            "hi": "मेघालय",
+            "mr": "मेघालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          24,
+          59626,
+          "0.18",
+          "12.0"
+        ],
+        [
+          {
+            "en": "Sikkim",
+            "hi": "सिक्किम",
+            "mr": "सिक्किम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          25,
+          53340,
+          "0.16",
+          "11.2"
+        ],
+        [
+          {
+            "en": "Puducherry",
+            "hi": "पुडुचेरी",
+            "mr": "पुदुच्चेरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          26,
+          52163,
+          "0.16",
+          "11.1"
+        ],
+        [
+          {
+            "en": "Manipur",
+            "hi": "मणिपुर",
+            "mr": "मणिपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          27,
+          50309,
+          "0.15",
+          "15.9"
+        ],
+        [
+          {
+            "en": "Arunachal Pradesh",
+            "hi": "अरुणाचल प्रदेश",
+            "mr": "अरुणाचल प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          28,
+          44261,
+          "0.13",
+          "17.6"
+        ],
+        [
+          {
+            "en": "Mizoram",
+            "hi": "मिज़ोरम",
+            "mr": "मिझोराम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          29,
+          38343,
+          "0.12",
+          "15.2"
+        ],
+        [
+          {
+            "en": "Andaman & Nicobar Islands",
+            "hi": "अंडमान और निकोबार द्वीपसमूह",
+            "mr": "अंदमान आणि निकोबार बेटे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          30,
+          13064,
+          "0.04",
+          "4.6"
+        ]
+      ],
+      "sourceId": "mospi",
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "period": "FY2024-25",
+      "note": {
+        "en": "MoSPI state-wise GSDP, base 2011-12, current prices; 30 States/UTs had an FY2024-25 value at access time (Assam, Haryana, Nagaland, Ladakh, Lakshadweep and Dadra & Nagar Haveli and Daman & Diu did not). Share is computed against India's GDP for FY2024-25 (Provisional Estimates, ₹3,30,68,145 crore); because State and national estimates are compiled separately, shares are indicative and need not add up to 100. Growth is nominal (current prices).",
+        "hi": "मोस्पी का राज्यवार जीएसडीपी, आधार 2011-12, प्रचलित मूल्य; पहुँच के समय 30 राज्यों/केंद्र शासित प्रदेशों के लिए वित्त वर्ष 2024-25 का मान उपलब्ध था (असम, हरियाणा, नगालैंड, लद्दाख, लक्षद्वीप तथा दादरा और नगर हवेली और दमन और दीव का नहीं)। हिस्सा वित्त वर्ष 2024-25 के भारत के जीडीपी (अनंतिम अनुमान, ₹3,30,68,145 करोड़) के सापेक्ष गणना किया गया है; राज्य और राष्ट्रीय अनुमान अलग-अलग तैयार होते हैं, इसलिए हिस्से सांकेतिक हैं और उनका योग 100 होना ज़रूरी नहीं। वृद्धि नाममात्र (प्रचलित मूल्य) है।",
+        "mr": "मोस्पीचे राज्यनिहाय जीएसडीपी, आधार 2011-12, चालू किमती; उपलब्धतेच्या वेळी 30 राज्ये/केंद्रशासित प्रदेशांसाठी आ.व. 2024-25 चे मूल्य उपलब्ध होते (आसाम, हरियाणा, नागालँड, लडाख, लक्षद्वीप आणि दादरा व नगर हवेली आणि दमण व दीव यांचे नाही). वाटा आ.व. 2024-25 च्या भारताच्या जीडीपीच्या (तात्पुरते अंदाज, ₹3,30,68,145 कोटी) तुलनेत काढला आहे; राज्य व राष्ट्रीय अंदाज स्वतंत्रपणे तयार होतात, त्यामुळे वाटे सूचक असून त्यांची बेरीज 100 असणे आवश्यक नाही. वाढ नाममात्र (चालू किमती) आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "facts",
+      "id": "labour",
+      "items": [
+        {
+          "id": "ur",
+          "label": {
+            "en": "Unemployment rate, 15+ (PS+SS)",
+            "hi": "बेरोज़गारी दर, 15+ (पीएस+एसएस)",
+            "mr": "बेरोजगारी दर, 15+ (पीएस+एसएस)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 3.1,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PLFS annual, calendar year, usual status (PS+SS)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 3.2,
+            "unit": "%",
+            "period": "2024",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lfpr",
+          "label": {
+            "en": "Labour force participation, 15+",
+            "hi": "श्रम बल भागीदारी, 15+",
+            "mr": "श्रमशक्ती सहभाग, 15+",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 59.3,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better"
+        },
+        {
+          "id": "lfprf",
+          "label": {
+            "en": "Labour force participation, women 15+",
+            "hi": "श्रम बल भागीदारी, महिलाएँ 15+",
+            "mr": "श्रमशक्ती सहभाग, महिला 15+",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 40.0,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better"
+        },
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better"
+        }
+      ],
+      "title": {
+        "en": "Work and education",
+        "hi": "रोज़गार और शिक्षा",
+        "mr": "रोजगार व शिक्षण",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "facts",
+      "id": "health",
+      "items": [
+        {
+          "id": "imr",
+          "label": {
+            "en": "Infant mortality rate",
+            "hi": "शिशु मृत्यु दर",
+            "mr": "अर्भक मृत्युदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 27,
+            "unit": "per 1,000 live births",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128024&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS 2021, via PIB (10 May 2025)."
+          },
+          "kind": "number",
+          "polarity": "lower-is-better"
+        },
+        {
+          "id": "u5mr",
+          "label": {
+            "en": "Under-five mortality rate",
+            "hi": "पाँच वर्ष से कम आयु की मृत्यु दर",
+            "mr": "पाच वर्षांखालील मृत्युदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 31,
+            "unit": "per 1,000 live births",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128024&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "lower-is-better"
+        },
+        {
+          "id": "mmr",
+          "label": {
+            "en": "Maternal mortality ratio",
+            "hi": "मातृ मृत्यु अनुपात",
+            "mr": "मातामृत्यू प्रमाण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 93,
+            "unit": "per 1,00,000 live births",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "srs",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128024&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "lower-is-better"
+        },
+        {
+          "id": "tfr",
+          "label": {
+            "en": "Total fertility rate",
+            "hi": "कुल प्रजनन दर",
+            "mr": "एकूण जननदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 2.0,
+            "unit": "children per woman",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128024&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "stunt",
+          "label": {
+            "en": "Stunted children under 5",
+            "hi": "5 वर्ष से कम आयु के ठिगने बच्चे",
+            "mr": "5 वर्षांखालील खुजी मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 35.47,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 38.4,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "inst",
+          "label": {
+            "en": "Institutional births",
+            "hi": "संस्थागत प्रसव",
+            "mr": "संस्थात्मक प्रसूती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 88.59,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better"
+        }
+      ],
+      "title": {
+        "en": "Health",
+        "hi": "स्वास्थ्य",
+        "mr": "आरोग्य",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "ger-table",
+      "title": {
+        "en": "Higher-education GER by State/UT, 2021-22",
+        "hi": "राज्य/केंद्र शासित प्रदेशवार उच्च शिक्षा जीईआर, 2021-22",
+        "mr": "राज्य/केंद्रशासित प्रदेशनिहाय उच्चशिक्षण जीईआर, 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "State / UT",
+            "hi": "राज्य / केंद्र शासित प्रदेश",
+            "mr": "राज्य / केंद्रशासित प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "GER, 18–23 (%)",
+            "hi": "जीईआर, 18–23 (%)",
+            "mr": "जीईआर, 18–23 (%)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Chandigarh",
+            "hi": "चंडीगढ़",
+            "mr": "चंदीगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "64.8"
+        ],
+        [
+          {
+            "en": "Puducherry",
+            "hi": "पुडुचेरी",
+            "mr": "पुदुच्चेरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "61.5"
+        ],
+        [
+          {
+            "en": "Delhi",
+            "hi": "दिल्ली",
+            "mr": "दिल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "49.0"
+        ],
+        [
+          {
+            "en": "Tamil Nadu",
+            "hi": "तमिलनाडु",
+            "mr": "तमिळनाडू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "47.0"
+        ],
+        [
+          {
+            "en": "Himachal Pradesh",
+            "hi": "हिमाचल प्रदेश",
+            "mr": "हिमाचल प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "43.1"
+        ],
+        [
+          {
+            "en": "Uttarakhand",
+            "hi": "उत्तराखंड",
+            "mr": "उत्तराखंड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "41.8"
+        ],
+        [
+          {
+            "en": "Keralam",
+            "hi": "केरलम",
+            "mr": "केरळम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "41.3"
+        ],
+        [
+          {
+            "en": "Telangana",
+            "hi": "तेलंगाना",
+            "mr": "तेलंगणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "40.0"
+        ],
+        [
+          {
+            "en": "Sikkim",
+            "hi": "सिक्किम",
+            "mr": "सिक्किम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "38.6"
+        ],
+        [
+          {
+            "en": "Andhra Pradesh",
+            "hi": "आंध्र प्रदेश",
+            "mr": "आंध्र प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "36.5"
+        ],
+        [
+          {
+            "en": "Arunachal Pradesh",
+            "hi": "अरुणाचल प्रदेश",
+            "mr": "अरुणाचल प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "36.5"
+        ],
+        [
+          {
+            "en": "Karnataka",
+            "hi": "कर्नाटक",
+            "mr": "कर्नाटक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "36.2"
+        ],
+        [
+          {
+            "en": "Goa",
+            "hi": "गोवा",
+            "mr": "गोवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "35.8"
+        ],
+        [
+          {
+            "en": "Manipur",
+            "hi": "मणिपुर",
+            "mr": "मणिपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "35.4"
+        ],
+        [
+          {
+            "en": "Maharashtra",
+            "hi": "महाराष्ट्र",
+            "mr": "महाराष्ट्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "35.3"
+        ],
+        [
+          {
+            "en": "Haryana",
+            "hi": "हरियाणा",
+            "mr": "हरियाणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "33.3"
+        ],
+        [
+          {
+            "en": "Mizoram",
+            "hi": "मिज़ोरम",
+            "mr": "मिझोराम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "32.3"
+        ],
+        [
+          {
+            "en": "Madhya Pradesh",
+            "hi": "मध्य प्रदेश",
+            "mr": "मध्य प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "28.9"
+        ],
+        [
+          {
+            "en": "Rajasthan",
+            "hi": "राजस्थान",
+            "mr": "राजस्थान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "28.6"
+        ],
+        [
+          {
+            "en": "Punjab",
+            "hi": "पंजाब",
+            "mr": "पंजाब",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "27.4"
+        ],
+        [
+          {
+            "en": "West Bengal",
+            "hi": "पश्चिम बंगाल",
+            "mr": "पश्चिम बंगाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "26.3"
+        ],
+        [
+          {
+            "en": "Meghalaya",
+            "hi": "मेघालय",
+            "mr": "मेघालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "25.4"
+        ],
+        [
+          {
+            "en": "Jammu & Kashmir",
+            "hi": "जम्मू और कश्मीर",
+            "mr": "जम्मू आणि काश्मीर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "24.8"
+        ],
+        [
+          {
+            "en": "Uttar Pradesh",
+            "hi": "उत्तर प्रदेश",
+            "mr": "उत्तर प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "24.1"
+        ],
+        [
+          {
+            "en": "Gujarat",
+            "hi": "गुजरात",
+            "mr": "गुजरात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "24.0"
+        ],
+        [
+          {
+            "en": "Andaman & Nicobar Islands",
+            "hi": "अंडमान और निकोबार द्वीपसमूह",
+            "mr": "अंदमान आणि निकोबार बेटे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "22.6"
+        ],
+        [
+          {
+            "en": "Odisha",
+            "hi": "ओडिशा",
+            "mr": "ओडिशा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "22.1"
+        ],
+        [
+          {
+            "en": "Tripura",
+            "hi": "त्रिपुरा",
+            "mr": "त्रिपुरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "20.7"
+        ],
+        [
+          {
+            "en": "Chhattisgarh",
+            "hi": "छत्तीसगढ़",
+            "mr": "छत्तीसगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "19.6"
+        ],
+        [
+          {
+            "en": "Nagaland",
+            "hi": "नागालैंड",
+            "mr": "नागालँड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "18.8"
+        ],
+        [
+          {
+            "en": "Jharkhand",
+            "hi": "झारखंड",
+            "mr": "झारखंड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "18.6"
+        ],
+        [
+          {
+            "en": "Bihar",
+            "hi": "बिहार",
+            "mr": "बिहार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "17.1"
+        ],
+        [
+          {
+            "en": "Assam",
+            "hi": "असम",
+            "mr": "आसाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "16.9"
+        ],
+        [
+          {
+            "en": "Ladakh",
+            "hi": "लद्दाख",
+            "mr": "लडाख",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "11.5"
+        ],
+        [
+          {
+            "en": "Dadra & Nagar Haveli and Daman & Diu",
+            "hi": "दादरा और नगर हवेली और दमन और दीव",
+            "mr": "दादरा आणि नगर हवेली आणि दमण आणि दीव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "11.2"
+        ],
+        [
+          {
+            "en": "Lakshadweep",
+            "hi": "लक्षद्वीप",
+            "mr": "लक्षद्वीप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1.1"
+        ]
+      ],
+      "sourceId": "aishe",
+      "url": "https://aishe.gov.in",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "period": "2021-22",
+      "note": {
+        "en": "AISHE 2021-22, all categories, both sexes (via MoSPI API). India: 28.4%. Small UTs with large colleges serving neighbouring States (Chandigarh, Puducherry) show very high ratios.",
+        "hi": "एआईएसएचई 2021-22, सभी श्रेणियाँ, दोनों लिंग (मोस्पी एपीआई से)। भारत: 28.4%। पड़ोसी राज्यों के छात्रों को पढ़ाने वाले बड़े कॉलेजों वाले छोटे केंद्र शासित प्रदेशों (चंडीगढ़, पुदुच्चेरी) में अनुपात बहुत ऊँचा दिखता है।",
+        "mr": "एआयएसएचई 2021-22, सर्व प्रवर्ग, दोन्ही लिंग (मोस्पी एपीआयद्वारे). भारत: 28.4%. शेजारी राज्यांतील विद्यार्थ्यांना शिक्षण देणारी मोठी महाविद्यालये असलेल्या लहान केंद्रशासित प्रदेशांत (चंदीगड, पुदुच्चेरी) गुणोत्तर खूप जास्त दिसते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "facts",
+      "id": "heritage",
+      "items": [
+        {
+          "id": "whs",
+          "label": {
+            "en": "UNESCO World Heritage properties",
+            "hi": "यूनेस्को विश्व धरोहर स्थल",
+            "mr": "युनेस्को जागतिक वारसा स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 45,
+            "unit": "count",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "unesco-whc",
+            "url": "https://whc.unesco.org/en/statesparties/in",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Including Sarnath (2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "ramsar",
+          "label": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळ स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 99,
+            "unit": "count",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "indian-wetlands",
+            "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "MoEFCC list as on 21 April 2026."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "tiger",
+          "label": {
+            "en": "Tiger reserves",
+            "hi": "बाघ अभयारण्य",
+            "mr": "व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 58,
+            "unit": "count",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "ntca",
+            "url": "https://ntca.gov.in/tiger-reserves/",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "As listed by NTCA at access time."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Heritage and nature",
+        "hi": "धरोहर और प्रकृति",
+        "mr": "वारसा व निसर्ग",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "india",
+          "name": {
+            "en": "National Portal of India",
+            "hi": "भारत का राष्ट्रीय पोर्टल",
+            "mr": "भारताचे राष्ट्रीय संकेतस्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.india.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "igod",
+          "name": {
+            "en": "Integrated Government Online Directory",
+            "hi": "एकीकृत सरकारी ऑनलाइन निर्देशिका",
+            "mr": "एकात्मिक सरकारी ऑनलाइन निर्देशिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://igod.gov.in",
+          "sourceId": "igod"
+        },
+        {
+          "id": "mospi",
+          "name": {
+            "en": "Ministry of Statistics and Programme Implementation",
+            "hi": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय",
+            "mr": "सांख्यिकी व कार्यक्रम अंमलबजावणी मंत्रालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://mospi.gov.in",
+          "sourceId": "mospi"
+        },
+        {
+          "id": "census",
+          "name": {
+            "en": "Census of India",
+            "hi": "भारत की जनगणना",
+            "mr": "भारताची जनगणना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://censusindia.gov.in",
+          "sourceId": "census"
+        },
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "sansad",
+          "name": {
+            "en": "Parliament of India",
+            "hi": "भारत की संसद",
+            "mr": "भारताची संसद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://sansad.in",
+          "sourceId": "sansad"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Per capita net national income",
+            "hi": "प्रति व्यक्ति शुद्ध राष्ट्रीय आय",
+            "mr": "दरडोई निव्वळ राष्ट्रीय उत्पन्न",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mospi",
+          "note": "MoSPI national accounts statement (per capita NNI)."
+        },
+        {
+          "label": {
+            "en": "GDP in the new 2022-23 base",
+            "hi": "नए 2022-23 आधार में जीडीपी",
+            "mr": "नव्या 2022-23 आधारातील जीडीपी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mospi",
+          "note": "Show separately, never mixed with the 2011-12 base series."
+        },
+        {
+          "label": {
+            "en": "Current population (projected)",
+            "hi": "वर्तमान जनसंख्या (अनुमानित)",
+            "mr": "सध्याची लोकसंख्या (प्रक्षेपित)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw-projections",
+          "note": "MoHFW Technical Group projection; label as Projected. Census 2027 results will replace it."
+        },
+        {
+          "label": {
+            "en": "Chief Justice of India",
+            "hi": "भारत के मुख्य न्यायाधीश",
+            "mr": "भारताचे सरन्यायाधीश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Add with asOf from the Supreme Court website."
+        },
+        {
+          "label": {
+            "en": "Registered GIs (national total)",
+            "hi": "पंजीकृत जीआई (राष्ट्रीय कुल)",
+            "mr": "नोंदणीकृत जीआय (राष्ट्रीय एकूण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "gi-registry",
+          "note": "Count from the GI Registry list as on the latest date."
+        },
+        {
+          "label": {
+            "en": "State GSDP for Assam, Haryana, Nagaland and three UTs (FY2024-25)",
+            "hi": "असम, हरियाणा, नगालैंड और तीन केंद्र शासित प्रदेशों का जीएसडीपी (वित्त वर्ष 2024-25)",
+            "mr": "आसाम, हरियाणा, नागालँड व तीन केंद्रशासित प्रदेशांचे जीएसडीपी (आ.व. 2024-25)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mospi",
+          "note": "Not yet in the MoSPI State series at access time."
+        }
+      ]
+    }
+  ]
+}

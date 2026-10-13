@@ -1,0 +1,388 @@
+{
+  "region": "IN-KL",
+  "module": "personalities",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "people",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "shankara",
+          "name": {
+            "en": "Adi Shankaracharya",
+            "hi": "आदि शंकराचार्य",
+            "mr": "आद्य शंकराचार्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Philosopher of Advaita Vedanta, born at Kalady.",
+            "hi": "अद्वैत वेदांत के दार्शनिक, कालडी में जन्मे।",
+            "mr": "अद्वैत वेदान्ताचे तत्त्वज्ञ, कालडी येथे जन्म.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Philosophy",
+            "hi": "दर्शन",
+            "mr": "तत्त्वज्ञान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "swathi",
+          "name": {
+            "en": "Swathi Thirunal",
+            "hi": "स्वाति तिरुनाल",
+            "mr": "स्वाती तिरुनाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "19th-century ruler of Travancore and composer of Carnatic music.",
+            "hi": "19वीं सदी के त्रावणकोर के शासक और कर्नाटक संगीत के रचनाकार।",
+            "mr": "एकोणिसाव्या शतकातील त्रावणकोरचे राजे आणि कर्नाटक संगीताचे रचनाकार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Music",
+            "hi": "संगीत",
+            "mr": "संगीत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ravivarma",
+          "name": {
+            "en": "Raja Ravi Varma",
+            "hi": "राजा रवि वर्मा",
+            "mr": "राजा रविवर्मा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Painter who brought Indian mythological subjects to oil and print.",
+            "hi": "चित्रकार, जिन्होंने भारतीय पौराणिक विषयों को तैलचित्र और छपाई तक पहुँचाया।",
+            "mr": "भारतीय पौराणिक विषय तैलचित्र आणि छापचित्रांपर्यंत नेणारे चित्रकार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Art",
+            "hi": "कला",
+            "mr": "कला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "narayanaguru",
+          "name": {
+            "en": "Sree Narayana Guru",
+            "hi": "श्री नारायण गुरु",
+            "mr": "श्री नारायण गुरू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Saint and social reformer: \"one caste, one religion, one God for humankind\".",
+            "hi": "संत और समाज सुधारक: \"मनुष्य के लिए एक जाति, एक धर्म, एक ईश्वर\"।",
+            "mr": "संत व समाजसुधारक: \"मानवासाठी एक जात, एक धर्म, एक ईश्वर\".",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Reform",
+            "hi": "समाज सुधार",
+            "mr": "समाजसुधारणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ayyankali",
+          "name": {
+            "en": "Ayyankali",
+            "hi": "अय्यंकाली",
+            "mr": "अय्यंकाळी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Leader of Dalit rights, education and labour struggles in Travancore.",
+            "hi": "त्रावणकोर में दलित अधिकार, शिक्षा और श्रमिक संघर्षों के नेता।",
+            "mr": "त्रावणकोरमधील दलित हक्क, शिक्षण व कामगार लढ्यांचे नेते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Reform",
+            "hi": "समाज सुधार",
+            "mr": "समाजसुधारणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "narayanan",
+          "name": {
+            "en": "K. R. Narayanan",
+            "hi": "के. आर. नारायणन",
+            "mr": "के. आर. नारायणन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Tenth President of India (1997–2002).",
+            "hi": "भारत के दसवें राष्ट्रपति (1997–2002)।",
+            "mr": "भारताचे दहावे राष्ट्रपती (1997–2002).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Public life",
+            "hi": "सार्वजनिक जीवन",
+            "mr": "सार्वजनिक जीवन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kurien",
+          "name": {
+            "en": "Verghese Kurien",
+            "hi": "वर्गीज़ कुरियन",
+            "mr": "व्हर्गिस कुरियन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Born in Kozhikode; architect of the White Revolution and the Amul co-operative model.",
+            "hi": "कोझिकोड में जन्मे; श्वेत क्रांति और अमूल सहकारी मॉडल के शिल्पकार।",
+            "mr": "कोझिकोडमध्ये जन्म; धवलक्रांती आणि अमूल सहकारी प्रारूपाचे शिल्पकार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Co-operatives",
+            "hi": "सहकारिता",
+            "mr": "सहकार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "basheer",
+          "name": {
+            "en": "Vaikom Muhammad Basheer",
+            "hi": "वैकम मुहम्मद बशीर",
+            "mr": "वैकम मुहम्मद बशीर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Malayalam novelist and short-story writer of wit and compassion.",
+            "hi": "हास्य और करुणा से भरे मलयालम उपन्यासकार और कहानीकार।",
+            "mr": "विनोद आणि करुणेने भरलेले मल्याळम कादंबरीकार व कथाकार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Literature",
+            "hi": "साहित्य",
+            "mr": "साहित्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kamaladas",
+          "name": {
+            "en": "Kamala Das (Kamala Surayya)",
+            "hi": "कमला दास (कमला सुरैया)",
+            "mr": "कमला दास (कमला सुरय्या)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Poet in English and Malayalam (as Madhavikutty).",
+            "hi": "अंग्रेज़ी और मलयालम (माधविकुट्टी नाम से) की कवयित्री।",
+            "mr": "इंग्रजी आणि मल्याळममधील (माधविकुट्टी नावाने) कवयित्री.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Literature",
+            "hi": "साहित्य",
+            "mr": "साहित्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mt",
+          "name": {
+            "en": "M. T. Vasudevan Nair",
+            "hi": "एम. टी. वासुदेवन नायर",
+            "mr": "एम. टी. वासुदेवन नायर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Novelist and screenwriter; Jnanpith Award 1995.",
+            "hi": "उपन्यासकार और पटकथा लेखक; 1995 में ज्ञानपीठ पुरस्कार।",
+            "mr": "कादंबरीकार व पटकथाकार; 1995 चा ज्ञानपीठ पुरस्कार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Literature, cinema",
+            "hi": "साहित्य, सिनेमा",
+            "mr": "साहित्य, चित्रपट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "usha",
+          "name": {
+            "en": "P. T. Usha",
+            "hi": "पी. टी. उषा",
+            "mr": "पी. टी. उषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Sprinter and hurdler; multiple Asian Games and Asian Championships gold medallist.",
+            "hi": "धाविका और बाधा दौड़ एथलीट; कई एशियाई खेलों और एशियाई चैंपियनशिप की स्वर्ण पदक विजेता।",
+            "mr": "धावपटू व अडथळा शर्यतपटू; अनेक आशियाई स्पर्धा व आशियाई अजिंक्यपद स्पर्धांतील सुवर्णपदक विजेत्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Sport",
+            "hi": "खेल",
+            "mr": "क्रीडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "yesudas",
+          "name": {
+            "en": "K. J. Yesudas",
+            "hi": "के. जे. येसुदास",
+            "mr": "के. जे. येसुदास",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Playback and classical singer with a career of over six decades.",
+            "hi": "छह दशकों से अधिक के करियर वाले पार्श्व और शास्त्रीय गायक।",
+            "mr": "सहा दशकांहून अधिक कारकीर्द असलेले पार्श्व व शास्त्रीय गायक.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Music",
+            "hi": "संगीत",
+            "mr": "संगीत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Notable personalities",
+        "hi": "प्रमुख व्यक्तित्व",
+        "mr": "उल्लेखनीय व्यक्तिमत्त्वे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

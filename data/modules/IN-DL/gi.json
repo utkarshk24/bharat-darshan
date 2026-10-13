@@ -1,0 +1,48 @@
+{
+  "region": "IN-DL",
+  "module": "gi",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Delhi has no Geographical Indication of its own in the GI Registry's list as on 31 December 2025. It shares one: Basmati rice, registered for the Indo-Gangetic plain across Punjab, Haryana, Himachal Pradesh, Delhi, Uttarakhand, western Uttar Pradesh and Jammu & Kashmir. The city's crafts — zardozi embroidery, attar, Old Delhi's kite-making and miniature painting — are not yet registered GIs.",
+        "hi": "जीआई रजिस्ट्री की 31 दिसंबर 2025 की सूची में दिल्ली का अपना कोई भौगोलिक संकेतक नहीं है। यह एक जीआई साझा करती है: बासमती चावल, जो पंजाब, हरियाणा, हिमाचल प्रदेश, दिल्ली, उत्तराखंड, पश्चिमी उत्तर प्रदेश और जम्मू-कश्मीर के सिंधु-गंगा मैदान के लिए पंजीकृत है। शहर के शिल्प — ज़रदोज़ी कढ़ाई, इत्र, पुरानी दिल्ली की पतंगसाज़ी और लघु चित्रकला — अभी पंजीकृत जीआई नहीं हैं।",
+        "mr": "जीआय रजिस्ट्रीच्या 31 डिसेंबर 2025 च्या यादीत दिल्लीचे स्वतःचे कोणतेही भौगोलिक मानांकन नाही. ती एक जीआय सामायिक करते: बासमती तांदूळ, जो पंजाब, हरियाणा, हिमाचल प्रदेश, दिल्ली, उत्तराखंड, पश्चिम उत्तर प्रदेश आणि जम्मू-काश्मीरच्या सिंधू-गंगा मैदानासाठी नोंदणीकृत आहे. शहरातील हस्तकला — जरदोजी भरतकाम, अत्तर, जुन्या दिल्लीतील पतंगनिर्मिती आणि लघुचित्रकला — अद्याप नोंदणीकृत जीआय नाहीत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "gi-registry"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "gi",
+      "id": "gi"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "One District One Product (ODOP) items",
+            "hi": "एक ज़िला एक उत्पाद (ओडीओपी)",
+            "mr": "एक जिल्हा एक उत्पादन (ओडीओपी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dpiit",
+          "note": "DPIIT ODOP list for Delhi."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "region": "IN-MH",
+  "module": "digital",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mumbai and Pune are among India's main technology and start-up centres, with IT parks at Hinjawadi and Kharadi in Pune, and Navi Mumbai, Thane and Powai in the Mumbai region. Mumbai is also a hub for fintech, media and data centres, helped by its submarine cable landing stations. Nagpur's MIHAN zone hosts IT and aviation services.",
+        "hi": "मुंबई और पुणे भारत के प्रमुख प्रौद्योगिकी और स्टार्टअप केंद्रों में हैं; पुणे में हिंजवडी और खराडी, और मुंबई क्षेत्र में नवी मुंबई, ठाणे और पवई में आईटी पार्क हैं। समुद्री केबलों के लैंडिंग स्टेशनों के कारण मुंबई फ़िनटेक, मीडिया और डेटा सेंटरों का भी केंद्र है। नागपुर के मिहान क्षेत्र में आईटी और विमानन सेवाएँ हैं।",
+        "mr": "मुंबई आणि पुणे ही भारतातील प्रमुख तंत्रज्ञान व स्टार्टअप केंद्रांपैकी आहेत; पुण्यात हिंजवडी आणि खराडी, तर मुंबई परिसरात नवी मुंबई, ठाणे आणि पवई येथे आयटी पार्क आहेत. सागरी केबलच्या लँडिंग स्थानकांमुळे मुंबई फिनटेक, माध्यमे आणि डेटा सेंटरचेही केंद्र आहे. नागपूरच्या मिहान क्षेत्रात आयटी आणि विमानसेवा उद्योग आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI Indian Telecom Services Performance Indicators (Maharashtra + Mumbai circles)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        },
+        {
+          "label": {
+            "en": "BharatNet and 5G coverage",
+            "hi": "भारतनेट और 5जी कवरेज",
+            "mr": "भारतनेट व 5जी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Department of Telecommunications."
+        },
+        {
+          "label": {
+            "en": "Common Service Centres",
+            "hi": "कॉमन सर्विस सेंटर",
+            "mr": "आपले सरकार सेवा केंद्रे / सीएससी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CSC SPV dashboard."
+        }
+      ]
+    }
+  ]
+}

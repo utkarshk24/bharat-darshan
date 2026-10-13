@@ -1,0 +1,108 @@
+{
+  "region": "IN-DL",
+  "module": "trivia",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "density",
+          "name": {
+            "en": "At 11,320 people per km² in 2011, Delhi was the most densely populated State or UT.",
+            "hi": "2011 में 11,320 व्यक्ति प्रति किमी² के साथ दिल्ली सबसे घनी आबादी वाला राज्य या केंद्र शासित प्रदेश थी।",
+            "mr": "2011 मध्ये दर किमी² ला 11,320 लोकांसह दिल्ली हा सर्वाधिक दाट लोकवस्तीचा राज्य किंवा केंद्रशासित प्रदेश होता.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+          "sourceId": "dl-planning"
+        },
+        {
+          "id": "grow",
+          "name": {
+            "en": "Its population grew from 17.44 lakh in 1951 to 167.88 lakh in 2011 — almost tenfold.",
+            "hi": "इसकी आबादी 1951 के 17.44 लाख से 2011 में 167.88 लाख हो गई — लगभग दस गुना।",
+            "mr": "तिची लोकसंख्या 1951 मधील 17.44 लाखांवरून 2011 मध्ये 167.88 लाख झाली — जवळपास दहापट.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_19_0.pdf",
+          "sourceId": "dl-planning"
+        },
+        {
+          "id": "whs",
+          "name": {
+            "en": "Delhi has three UNESCO World Heritage Sites: Qutb Minar, Humayun's Tomb and the Red Fort.",
+            "hi": "दिल्ली में तीन यूनेस्को विश्व धरोहर स्थल हैं: क़ुतुब मीनार, हुमायूँ का मक़बरा और लाल क़िला।",
+            "mr": "दिल्लीत तीन युनेस्को जागतिक वारसा स्थळे आहेत: कुतुबमिनार, हुमायूनची कबर आणि लाल किल्ला.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://whc.unesco.org/en/statesparties/in",
+          "sourceId": "unesco-whc"
+        },
+        {
+          "id": "rrts",
+          "name": {
+            "en": "The 82 km Delhi–Meerut Namo Bharat is India's first regional rapid transit corridor.",
+            "hi": "82 किमी लंबा दिल्ली–मेरठ नमो भारत भारत का पहला क्षेत्रीय रैपिड ट्रांज़िट कॉरिडोर है।",
+            "mr": "82 किमीची दिल्ली–मेरठ नमो भारत ही भारतातील पहिली प्रादेशिक जलद परिवहन मार्गिका आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.newsonair.gov.in/pm-modi-flags-off-meerut-metro-namo-bharat-train-in-uttar-pradesh",
+          "sourceId": "newsonair"
+        },
+        {
+          "id": "asiad",
+          "name": {
+            "en": "Delhi hosted the first Asian Games, in 1951.",
+            "hi": "दिल्ली ने 1951 में पहले एशियाई खेलों की मेज़बानी की।",
+            "mr": "दिल्लीने 1951 मध्ये पहिल्या आशियाई क्रीडा स्पर्धांचे यजमानपद भूषवले.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "capital",
+          "name": {
+            "en": "The decision to move the capital from Calcutta was announced at the Delhi Durbar of 1911.",
+            "hi": "कलकत्ता से राजधानी हटाने का निर्णय 1911 के दिल्ली दरबार में घोषित हुआ।",
+            "mr": "कलकत्त्याहून राजधानी हलवण्याचा निर्णय 1911 च्या दिल्ली दरबारात जाहीर झाला.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

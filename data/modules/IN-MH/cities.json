@@ -1,0 +1,916 @@
+{
+  "region": "IN-MH",
+  "module": "cities",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "mumbai",
+          "name": {
+            "en": "Mumbai",
+            "hi": "मुंबई",
+            "mr": "मुंबई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "State capital; India's financial and film capital; ports, Victorian Gothic and Art Deco heritage.",
+            "hi": "राज्य की राजधानी; भारत की वित्तीय और फ़िल्म राजधानी; बंदरगाह, विक्टोरियन गॉथिक और आर्ट डेको विरासत।",
+            "mr": "राज्याची राजधानी; भारताची आर्थिक व चित्रपट राजधानी; बंदरे, व्हिक्टोरियन गॉथिक व आर्ट डेको वारसा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Brihanmumbai Municipal Corporation",
+            "hi": "बृहन्मुंबई महानगरपालिका",
+            "mr": "बृहन्मुंबई महानगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pune",
+          "name": {
+            "en": "Pune",
+            "hi": "पुणे",
+            "mr": "पुणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Education and IT hub; automotive industry around Chakan and Pimpri-Chinchwad; Peshwa-era heritage.",
+            "hi": "शिक्षा और आईटी केंद्र; चाकण और पिंपरी-चिंचवड़ के आसपास ऑटोमोबाइल उद्योग; पेशवा काल की विरासत।",
+            "mr": "शिक्षण व आयटी केंद्र; चाकण आणि पिंपरी-चिंचवड परिसरात वाहन उद्योग; पेशवेकालीन वारसा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pune Municipal Corporation",
+            "hi": "पुणे महानगरपालिका",
+            "mr": "पुणे महानगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nagpur",
+          "name": {
+            "en": "Nagpur",
+            "hi": "नागपुर",
+            "mr": "नागपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Winter session capital; geographic centre of India; oranges, MIHAN logistics hub.",
+            "hi": "शीतकालीन सत्र की राजधानी; भारत का भौगोलिक केंद्र; संतरे, मिहान लॉजिस्टिक्स केंद्र।",
+            "mr": "हिवाळी अधिवेशनाची राजधानी; भारताचा भौगोलिक मध्य; संत्री, मिहान लॉजिस्टिक्स केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Nagpur Municipal Corporation",
+            "hi": "नागपुर महानगरपालिका",
+            "mr": "नागपूर महानगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thane",
+          "name": {
+            "en": "Thane",
+            "hi": "ठाणे",
+            "mr": "ठाणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Lake city and fast-growing residential and industrial centre in the Mumbai region.",
+            "hi": "मुंबई क्षेत्र का झीलों वाला शहर और तेज़ी से बढ़ता आवासीय व औद्योगिक केंद्र।",
+            "mr": "मुंबई परिसरातील तलावांचे शहर आणि वेगाने वाढणारे निवासी व औद्योगिक केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Thane Municipal Corporation",
+            "hi": "ठाणे महानगरपालिका",
+            "mr": "ठाणे महानगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nashik",
+          "name": {
+            "en": "Nashik",
+            "hi": "नासिक",
+            "mr": "नाशिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pilgrimage city on the Godavari, host of the Kumbh Mela; grapes and wine; HAL aircraft plant at Ozar.",
+            "hi": "गोदावरी तट का तीर्थ नगर, कुंभ मेले का आयोजक; अंगूर और वाइन; ओझर में एचएएल विमान संयंत्र।",
+            "mr": "गोदावरीकाठचे तीर्थक्षेत्र, कुंभमेळ्याचे यजमान; द्राक्षे व वाइन; ओझर येथे एचएएलचा विमान कारखाना.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Nashik Municipal Corporation",
+            "hi": "नासिक महानगरपालिका",
+            "mr": "नाशिक महानगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chs",
+          "name": {
+            "en": "Chhatrapati Sambhajinagar",
+            "hi": "छत्रपति संभाजीनगर",
+            "mr": "छत्रपती संभाजीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Gateway to Ajanta and Ellora; Bibi-ka-Maqbara; auto industry at Waluj and Shendra.",
+            "hi": "अजंता और एलोरा का प्रवेश द्वार; बीबी का मक़बरा; वालुज और शेंद्रा में ऑटो उद्योग।",
+            "mr": "अजिंठा-वेरूळचे प्रवेशद्वार; बीबी का मकबरा; वाळूज व शेंद्रा येथे वाहन उद्योग.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Chhatrapati Sambhajinagar Municipal Corporation",
+            "hi": "छत्रपति संभाजीनगर महानगरपालिका",
+            "mr": "छत्रपती संभाजीनगर महानगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "solapur",
+          "name": {
+            "en": "Solapur",
+            "hi": "सोलापुर",
+            "mr": "सोलापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Textile city known for chaddars and terry towels; close to Pandharpur and Tuljapur.",
+            "hi": "चादरों और टेरी तौलियों के लिए प्रसिद्ध कपड़ा शहर; पंढरपुर और तुलजापुर के पास।",
+            "mr": "चादरी आणि टेरी टॉवेलसाठी प्रसिद्ध वस्त्रनगरी; पंढरपूर व तुळजापूरजवळ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Solapur Municipal Corporation",
+            "hi": "सोलापुर महानगरपालिका",
+            "mr": "सोलापूर महानगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kolhapur",
+          "name": {
+            "en": "Kolhapur",
+            "hi": "कोल्हापुर",
+            "mr": "कोल्हापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Mahalaxmi temple, Kolhapuri chappals and cuisine, wrestling tradition and sugar co-operatives.",
+            "hi": "महालक्ष्मी मंदिर, कोल्हापुरी चप्पल और व्यंजन, कुश्ती की परंपरा और चीनी सहकारी संस्थाएँ।",
+            "mr": "महालक्ष्मी मंदिर, कोल्हापुरी चप्पल व खाद्यसंस्कृती, कुस्तीची परंपरा आणि साखर सहकारी संस्था.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kolhapur Municipal Corporation",
+            "hi": "कोल्हापुर महानगरपालिका",
+            "mr": "कोल्हापूर महानगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "districts",
+      "title": {
+        "en": "Districts at the 2011 Census",
+        "hi": "2011 की जनगणना के अनुसार ज़िले",
+        "mr": "2011 च्या जनगणनेनुसार जिल्हे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "District (current name)",
+            "hi": "ज़िला (वर्तमान नाम)",
+            "mr": "जिल्हा (सध्याचे नाव)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Population",
+            "hi": "जनसंख्या",
+            "mr": "लोकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Growth 2001–11 (%)",
+            "hi": "वृद्धि 2001–11 (%)",
+            "mr": "वाढ 2001–11 (%)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Density (/km²)",
+            "hi": "घनत्व (/किमी²)",
+            "mr": "घनता (/किमी²)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Nandurbar",
+            "hi": "नंदुरबार",
+            "mr": "नंदुरबार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1646177,
+          "25.5",
+          972,
+          276
+        ],
+        [
+          {
+            "en": "Dhule",
+            "hi": "धुले",
+            "mr": "धुळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2048781,
+          "20.0",
+          941,
+          285
+        ],
+        [
+          {
+            "en": "Jalgaon",
+            "hi": "जलगांव",
+            "mr": "जळगाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          4224442,
+          "14.7",
+          922,
+          359
+        ],
+        [
+          {
+            "en": "Buldhana",
+            "hi": "बुलढाणा",
+            "mr": "बुलढाणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2588039,
+          "15.9",
+          928,
+          268
+        ],
+        [
+          {
+            "en": "Akola",
+            "hi": "अकोला",
+            "mr": "अकोला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1818617,
+          "11.6",
+          942,
+          321
+        ],
+        [
+          {
+            "en": "Washim",
+            "hi": "वाशिम",
+            "mr": "वाशिम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1196714,
+          "17.2",
+          926,
+          244
+        ],
+        [
+          {
+            "en": "Amravati",
+            "hi": "अमरावती",
+            "mr": "अमरावती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2887826,
+          "10.8",
+          947,
+          237
+        ],
+        [
+          {
+            "en": "Wardha",
+            "hi": "वर्धा",
+            "mr": "वर्धा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1296157,
+          "4.8",
+          946,
+          205
+        ],
+        [
+          {
+            "en": "Nagpur",
+            "hi": "नागपुर",
+            "mr": "नागपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          4653171,
+          "14.4",
+          948,
+          470
+        ],
+        [
+          {
+            "en": "Bhandara",
+            "hi": "भंडारा",
+            "mr": "भंडारा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1198810,
+          "5.5",
+          984,
+          293
+        ],
+        [
+          {
+            "en": "Gondia",
+            "hi": "गोंदिया",
+            "mr": "गोंदिया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1322331,
+          "10.1",
+          996,
+          253
+        ],
+        [
+          {
+            "en": "Gadchiroli",
+            "hi": "गढ़चिरौली",
+            "mr": "गडचिरोली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1071795,
+          "10.5",
+          975,
+          74
+        ],
+        [
+          {
+            "en": "Chandrapur",
+            "hi": "चंद्रपुर",
+            "mr": "चंद्रपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2194262,
+          "6.0",
+          959,
+          192
+        ],
+        [
+          {
+            "en": "Yavatmal",
+            "hi": "यवतमाल",
+            "mr": "यवतमाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2775457,
+          "12.9",
+          947,
+          204
+        ],
+        [
+          {
+            "en": "Nanded",
+            "hi": "नांदेड़",
+            "mr": "नांदेड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          3356566,
+          "16.7",
+          937,
+          319
+        ],
+        [
+          {
+            "en": "Hingoli",
+            "hi": "हिंगोली",
+            "mr": "हिंगोली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1178973,
+          "19.4",
+          935,
+          244
+        ],
+        [
+          {
+            "en": "Parbhani",
+            "hi": "परभणी",
+            "mr": "परभणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1835982,
+          "20.2",
+          940,
+          295
+        ],
+        [
+          {
+            "en": "Jalna",
+            "hi": "जालना",
+            "mr": "जालना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1958483,
+          "21.8",
+          929,
+          255
+        ],
+        [
+          {
+            "en": "Chhatrapati Sambhajinagar (Aurangabad)",
+            "hi": "छत्रपति संभाजीनगर (औरंगाबाद)",
+            "mr": "छत्रपती संभाजीनगर (औरंगाबाद)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          3695928,
+          "27.3",
+          917,
+          365
+        ],
+        [
+          {
+            "en": "Nashik",
+            "hi": "नासिक",
+            "mr": "नाशिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          6109052,
+          "22.3",
+          931,
+          393
+        ],
+        [
+          {
+            "en": "Thane (incl. present Palghar)",
+            "hi": "ठाणे (वर्तमान पालघर सहित)",
+            "mr": "ठाणे (सध्याच्या पालघरसह)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          11054131,
+          "35.9",
+          880,
+          1157
+        ],
+        [
+          {
+            "en": "Mumbai Suburban",
+            "hi": "मुंबई उपनगर",
+            "mr": "मुंबई उपनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          9332481,
+          "8.0",
+          857,
+          20925
+        ],
+        [
+          {
+            "en": "Mumbai City",
+            "hi": "मुंबई शहर",
+            "mr": "मुंबई शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          3145966,
+          "-5.8",
+          838,
+          20038
+        ],
+        [
+          {
+            "en": "Raigad",
+            "hi": "रायगढ़",
+            "mr": "रायगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2635394,
+          "19.4",
+          955,
+          368
+        ],
+        [
+          {
+            "en": "Pune",
+            "hi": "पुणे",
+            "mr": "पुणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          9426959,
+          "30.3",
+          910,
+          603
+        ],
+        [
+          {
+            "en": "Ahilyanagar (Ahmednagar)",
+            "hi": "अहिल्यानगर (अहमदनगर)",
+            "mr": "अहिल्यानगर (अहमदनगर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          4543083,
+          "12.4",
+          934,
+          266
+        ],
+        [
+          {
+            "en": "Beed",
+            "hi": "बीड",
+            "mr": "बीड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2585962,
+          "19.7",
+          912,
+          242
+        ],
+        [
+          {
+            "en": "Latur",
+            "hi": "लातूर",
+            "mr": "लातूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2455543,
+          "18.0",
+          924,
+          343
+        ],
+        [
+          {
+            "en": "Dharashiv (Osmanabad)",
+            "hi": "धाराशिव (उस्मानाबाद)",
+            "mr": "धाराशिव (उस्मानाबाद)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1660311,
+          "11.7",
+          920,
+          219
+        ],
+        [
+          {
+            "en": "Solapur",
+            "hi": "सोलापुर",
+            "mr": "सोलापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          4315527,
+          "12.1",
+          932,
+          290
+        ],
+        [
+          {
+            "en": "Satara",
+            "hi": "सातारा",
+            "mr": "सातारा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          3003922,
+          "6.9",
+          986,
+          287
+        ],
+        [
+          {
+            "en": "Ratnagiri",
+            "hi": "रत्नागिरी",
+            "mr": "रत्नागिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          1612672,
+          "-5.0",
+          1123,
+          196
+        ],
+        [
+          {
+            "en": "Sindhudurg",
+            "hi": "सिंधुदुर्ग",
+            "mr": "सिंधुदुर्ग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          848868,
+          "-2.3",
+          1037,
+          163
+        ],
+        [
+          {
+            "en": "Kolhapur",
+            "hi": "कोल्हापुर",
+            "mr": "कोल्हापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          3874015,
+          "10.0",
+          953,
+          504
+        ],
+        [
+          {
+            "en": "Sangli",
+            "hi": "सांगली",
+            "mr": "सांगली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2820575,
+          "9.2",
+          964,
+          329
+        ]
+      ],
+      "sourceId": "mh-sdb",
+      "url": "https://mahasdb.maharashtra.gov.in/SDB_Reports/Population_Census/PDF/Districtwise%20population,%20Decadal%20Growth%20rate,%20Sex%20Ratio%20and%20Density%20according%20to%20Census%202011.pdf",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "period": "2011",
+      "note": {
+        "en": "Maharashtra had 35 districts in 2011. Palghar was carved out of Thane in 2014, making 36. Former names are shown in brackets.",
+        "hi": "2011 में महाराष्ट्र में 35 ज़िले थे। 2014 में ठाणे से पालघर अलग हुआ, जिससे संख्या 36 हुई। पूर्व नाम कोष्ठक में दिए गए हैं।",
+        "mr": "2011 मध्ये महाराष्ट्रात 35 जिल्हे होते. 2014 मध्ये ठाण्यातून पालघर वेगळा झाल्याने संख्या 36 झाली. पूर्वीची नावे कंसात दिली आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Urban agglomeration populations and city tiers",
+            "hi": "नगरीय समूह जनसंख्या और शहर श्रेणी",
+            "mr": "नागरी समूह लोकसंख्या व शहर श्रेणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 UA tables; Ministry of Finance HRA classification."
+        },
+        {
+          "label": {
+            "en": "District explorer pages",
+            "hi": "ज़िला एक्सप्लोरर पेज",
+            "mr": "जिल्हा माहितीपाने",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mh-gov",
+          "note": "Phase 3."
+        }
+      ]
+    }
+  ]
+}

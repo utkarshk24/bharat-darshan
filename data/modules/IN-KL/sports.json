@@ -1,0 +1,123 @@
+{
+  "region": "IN-KL",
+  "module": "sports",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Football has a passionate following, especially in Malabar, where sevens tournaments draw big crowds; Kerala has won the national Santosh Trophy several times, and Kerala Blasters FC plays in the Indian Super League at Kochi. Athletics has produced Olympians and Asian Games medallists, P. T. Usha the best known among them. Volleyball, cricket and the traditional snake-boat races are also widely followed, and Kalaripayattu is both a sport and a living martial tradition.",
+        "hi": "फ़ुटबॉल के प्रति गहरा लगाव है, ख़ासकर मलबार में, जहाँ सेवन्स टूर्नामेंट में भारी भीड़ जुटती है; केरल ने राष्ट्रीय संतोष ट्रॉफ़ी कई बार जीती है, और केरला ब्लास्टर्स एफ़सी कोच्चि से इंडियन सुपर लीग में खेलता है। एथलेटिक्स ने ओलंपियन और एशियाई खेलों के पदक विजेता दिए हैं, जिनमें पी. टी. उषा सबसे प्रसिद्ध हैं। वॉलीबॉल, क्रिकेट और पारंपरिक सर्प-नौका दौड़ भी ख़ूब लोकप्रिय हैं, और कलरीपयट्टु खेल भी है और जीवित युद्ध परंपरा भी।",
+        "mr": "फुटबॉलचे वेड मोठे आहे, विशेषतः मलबारमध्ये, जिथे सेव्हन्स स्पर्धांना प्रचंड गर्दी होते; केरळने राष्ट्रीय संतोष ट्रॉफी अनेकदा जिंकली आहे आणि केरळा ब्लास्टर्स एफसी कोचीतून इंडियन सुपर लीगमध्ये खेळतो. अॅथलेटिक्सने ऑलिम्पियन आणि आशियाई स्पर्धांतील पदकविजेते दिले आहेत; पी. टी. उषा त्यांतील सर्वांत प्रसिद्ध. व्हॉलीबॉल, क्रिकेट आणि पारंपरिक सर्प-नौका शर्यतीही लोकप्रिय आहेत, आणि कळरीपयट्टू हा खेळही आहे आणि जिवंत युद्धपरंपराही.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "greenfield",
+          "name": {
+            "en": "Greenfield International Stadium, Thiruvananthapuram",
+            "hi": "ग्रीनफ़ील्ड अंतरराष्ट्रीय स्टेडियम, तिरुवनंतपुरम",
+            "mr": "ग्रीनफिल्ड आंतरराष्ट्रीय स्टेडियम, तिरुवनंतपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jln",
+          "name": {
+            "en": "Jawaharlal Nehru Stadium, Kochi",
+            "hi": "जवाहरलाल नेहरू स्टेडियम, कोच्चि",
+            "mr": "जवाहरलाल नेहरू स्टेडियम, कोची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ems",
+          "name": {
+            "en": "EMS Stadium, Kozhikode",
+            "hi": "ईएमएस स्टेडियम, कोझिकोड",
+            "mr": "ईएमएस स्टेडियम, कोझिकोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "punnamada",
+          "name": {
+            "en": "Punnamada Lake (Nehru Trophy), Alappuzha",
+            "hi": "पुन्नमडा झील (नेहरू ट्रॉफ़ी), आलप्पुझा",
+            "mr": "पुन्नमडा सरोवर (नेहरू ट्रॉफी), अलप्पुझा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Santosh Trophy titles (official count)",
+            "hi": "संतोष ट्रॉफ़ी ख़िताब (आधिकारिक संख्या)",
+            "mr": "संतोष ट्रॉफी विजेतेपदे (अधिकृत संख्या)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "All India Football Federation records."
+        },
+        {
+          "label": {
+            "en": "Sports academies and Khelo India centres",
+            "hi": "खेल अकादमियाँ और खेलो इंडिया केंद्र",
+            "mr": "क्रीडा अकादमी व खेलो इंडिया केंद्रे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Sports Authority of India."
+        }
+      ]
+    }
+  ]
+}

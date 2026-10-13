@@ -1,0 +1,287 @@
+{
+  "region": "IN-LA",
+  "module": "people",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Ladakh's population is small and spread across valleys separated by high passes. Leh district is predominantly Buddhist and Kargil district predominantly Muslim, with smaller Christian, Hindu and Sikh communities; most of the population belongs to Scheduled Tribes. Ladakhi (Bhoti) and Purgi are the main languages, with Balti, Shina (Brokskat), Changskat and Zanskari spoken in particular areas, and Hindi, Urdu and English used in administration and education. The Changpa of the Changthang plateau are pastoral nomads who herd yak, sheep and pashmina goats.",
+        "hi": "लद्दाख की आबादी कम है और ऊँचे दर्रों से अलग घाटियों में फैली है। लेह ज़िले में बौद्ध और कारगिल ज़िले में मुस्लिम बहुसंख्यक हैं, साथ में छोटे ईसाई, हिंदू और सिख समुदाय हैं; अधिकांश आबादी अनुसूचित जनजातियों की है। लद्दाखी (भोटी) और पुरगी मुख्य भाषाएँ हैं; कुछ क्षेत्रों में बाल्टी, शिना (ब्रोकस्कट), चांगस्कट और ज़ांस्करी बोली जाती हैं, और प्रशासन व शिक्षा में हिंदी, उर्दू और अंग्रेज़ी का प्रयोग होता है। चांगथांग पठार के चांगपा पशुपालक घुमंतू हैं, जो याक, भेड़ और पश्मीना बकरियाँ पालते हैं।",
+        "mr": "लडाखची लोकसंख्या कमी असून उंच खिंडींनी विभागलेल्या खोऱ्यांत पसरलेली आहे. लेह जिल्ह्यात बौद्ध आणि कारगिल जिल्ह्यात मुस्लिम बहुसंख्य आहेत, सोबत लहान ख्रिस्ती, हिंदू व शीख समुदाय आहेत; बहुतांश लोकसंख्या अनुसूचित जमातींची आहे. लडाखी (भोटी) आणि पुरगी या मुख्य भाषा आहेत; काही भागांत बाल्टी, शिना (ब्रोकस्कट), चांगस्कट व झांस्करी बोलल्या जातात, आणि प्रशासन व शिक्षणात हिंदी, उर्दू व इंग्रजी वापरल्या जातात. चांगथांग पठारावरील चांगपा हे भटके पशुपालक असून ते याक, मेंढ्या आणि पश्मिना शेळ्या पाळतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "table",
+      "id": "kargil",
+      "title": {
+        "en": "Kargil district at the 2011 Census",
+        "hi": "2011 की जनगणना में कारगिल ज़िला",
+        "mr": "2011 च्या जनगणनेनुसार कारगिल जिल्हा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Item",
+            "hi": "विषय",
+            "mr": "बाब",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Value",
+            "hi": "मान",
+            "mr": "मूल्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Population",
+            "hi": "जनसंख्या",
+            "mr": "लोकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          140802
+        ],
+        [
+          {
+            "en": "Rural",
+            "hi": "ग्रामीण",
+            "mr": "ग्रामीण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          124464
+        ],
+        [
+          {
+            "en": "Urban",
+            "hi": "शहरी",
+            "mr": "नागरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          16338
+        ],
+        [
+          {
+            "en": "Area (km²)",
+            "hi": "क्षेत्रफल (किमी²)",
+            "mr": "क्षेत्रफळ (किमी²)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          14036
+        ],
+        [
+          {
+            "en": "Villages",
+            "hi": "गाँव",
+            "mr": "गावे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          129
+        ]
+      ],
+      "sourceId": "kargil-nic",
+      "url": "https://kargil.nic.in/demography/",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "period": "2011",
+      "note": {
+        "en": "As published by the District Administration, Kargil. A matching official table for Leh district was not retrievable at access time, so no UT total is shown.",
+        "hi": "कारगिल ज़िला प्रशासन द्वारा प्रकाशित। लेह ज़िले की समान आधिकारिक तालिका उपलब्ध नहीं हो सकी, इसलिए केंद्र शासित प्रदेश का कुल आँकड़ा नहीं दिखाया गया।",
+        "mr": "कारगिल जिल्हा प्रशासनाने प्रसिद्ध केल्याप्रमाणे. लेह जिल्ह्याचा तसाच अधिकृत तक्ता मिळू न शकल्याने केंद्रशासित प्रदेशाची एकूण संख्या दाखवलेली नाही.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "langs",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "bhoti",
+          "name": {
+            "en": "Ladakhi (Bhoti)",
+            "hi": "लद्दाखी (भोटी)",
+            "mr": "लडाखी (भोटी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "purgi",
+          "name": {
+            "en": "Purgi",
+            "hi": "पुरगी",
+            "mr": "पुरगी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "balti",
+          "name": {
+            "en": "Balti",
+            "hi": "बाल्टी",
+            "mr": "बाल्टी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shina",
+          "name": {
+            "en": "Shina (Brokskat)",
+            "hi": "शिना (ब्रोकस्कट)",
+            "mr": "शिना (ब्रोकस्कट)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hindi",
+          "name": {
+            "en": "Hindi",
+            "hi": "हिंदी",
+            "mr": "हिंदी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "urdu",
+          "name": {
+            "en": "Urdu",
+            "hi": "उर्दू",
+            "mr": "उर्दू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "english",
+          "name": {
+            "en": "English",
+            "hi": "अंग्रेज़ी",
+            "mr": "इंग्रजी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Languages",
+        "hi": "भाषाएँ",
+        "mr": "भाषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "UT population, sex ratio, literacy and urban share (Census 2011)",
+            "hi": "केंद्र शासित प्रदेश की जनसंख्या, लिंगानुपात, साक्षरता और शहरी हिस्सा (जनगणना 2011)",
+            "mr": "केंद्रशासित प्रदेशाची लोकसंख्या, लिंग गुणोत्तर, साक्षरता व नागरी वाटा (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Sum Leh and Kargil district PCA; label as recomputed for the new UT."
+        },
+        {
+          "label": {
+            "en": "ST share by district",
+            "hi": "ज़िलेवार अनुसूचित जनजाति हिस्सा",
+            "mr": "जिल्हानिहाय अनुसूचित जमाती वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 PCA ST tables."
+        },
+        {
+          "label": {
+            "en": "Current population (projected)",
+            "hi": "वर्तमान जनसंख्या (अनुमानित)",
+            "mr": "सध्याची लोकसंख्या (प्रक्षेपित)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw-projections",
+          "note": "Check whether the MoHFW projections report Ladakh separately."
+        }
+      ]
+    }
+  ]
+}

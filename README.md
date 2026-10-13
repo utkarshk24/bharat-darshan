@@ -12,6 +12,7 @@ npm run dev              # http://localhost:3000 → redirects to /en
 npm run validate-data    # schema + content checks, writes docs/DATA-GAP-REPORT.md
 npm test                 # unit tests (formatters, transliteration, validator, search, message parity)
 npm run build            # static generation of ~3,200 pages (3 locales × 36 regions × 26 modules + site pages)
+npm run build:pages      # static export for GitHub Pages into out/ (see "Publishing" below)
 npm run og               # re-render social-preview images into public/og (needs a local Chrome/Chromium; set CHROME=… if not found)
 ```
 
@@ -54,6 +55,20 @@ docs/                       ← IA, design system, style guide, quality plan, ma
 ## Authoring a profile module
 
 Each module is `data/modules/IN-XX/<module>.json` with `{ region, module, asOf, status, blocks[] }`. Block types: `prose`, `facts`, `list`, `timeline`, `series`, `table`, `links`, `weather`, `projects`, `gi`, `officeholders`, `gaps`. Numbers live only in `facts`, `series` and `table` blocks (with full provenance); prose that states facts must list `sourceIds` unless tagged `Editorial`. Anything the module should show but can't yet goes in a `gaps` block so it appears on the page and in the gap report.
+
+## Publishing (GitHub Pages)
+
+Live at **https://utkarshk24.github.io/bharat-darshan/**. Every push to `main` runs `.github/workflows/pages.yml`: validate data → tests → `npm run build:pages` → deploy `out/`.
+
+One-time setup: repo **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+`build:pages` sets `basePath` to `/<repo name>`, exports static HTML (`output: "export"`, trailing slashes), and replaces the three server features Pages can't run:
+
+- **Locale detection:** the proxy is replaced by `out/index.html`, which picks en/hi/mr from the browser.
+- **Kerala → Keralam redirect:** replaced by redirect pages at the old addresses.
+- **Localized catch-all 404:** replaced by the site-wide `404.html`.
+
+Canonical, hreflang and Open Graph URLs are absolute, built from `NEXT_PUBLIC_SITE_URL`, so the sub-path is kept. A normal `npm run build` / `npm start` (or Vercel) is unaffected.
 
 ## Data-update workflow
 

@@ -1,4 +1,6 @@
 import type { MetadataRoute } from "next";
+
+export const dynamic = "force-static";
 import { locales } from "@/i18n/routing";
 import { getRegions } from "@/lib/data";
 import { NAV } from "@/lib/nav";

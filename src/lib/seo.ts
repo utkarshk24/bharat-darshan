@@ -1,16 +1,21 @@
 import type { Metadata } from "next";
 import { intlTag, locales, type Locale } from "@/i18n/routing";
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://bharat-darshan.example";
+/** Full public address including any sub-path, e.g. https://utkarshk24.github.io/bharat-darshan */
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://bharat-darshan.example").replace(/\/$/, "");
+/** Sub-path the site is served under ("" at a domain root). Must match next.config basePath. */
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+/** Absolute URL for a site path. Used for canonical/hreflang/OG so a sub-path is never dropped. */
+export const absUrl = (path: string) => `${SITE_URL}${path}`;
 
 /** Canonical + hreflang alternates for a locale-less path like "/states/kerala" (Section 13.3). */
 export function localeAlternates(path: string, locale: Locale): Metadata["alternates"] {
   const clean = path === "/" ? "" : path;
   return {
-    canonical: `/${locale}${clean}`,
+    canonical: absUrl(`/${locale}${clean}`),
     languages: Object.fromEntries([
-      ...locales.map((l) => [l === "en" ? "en-IN" : `${l}-IN`, `/${l}${clean}`]),
-      ["x-default", `/en${clean}`],
+      ...locales.map((l) => [l === "en" ? "en-IN" : `${l}-IN`, absUrl(`/${l}${clean}`)]),
+      ["x-default", absUrl(`/en${clean}`)],
     ]),
   };
 }
@@ -23,7 +28,7 @@ const SITE_NAME: Record<Locale, string> = { en: "Bharat Darshan", hi: "भार
  * Next replaces a parent's openGraph object wholesale, so siteName/locale/type are repeated here.
  */
 export function socialMeta(locale: Locale, key = "home"): Pick<Metadata, "openGraph" | "twitter"> {
-  const url = `/og/${locale}/${key}.png`;
+  const url = absUrl(`/og/${locale}/${key}.png`);
   return {
     openGraph: {
       siteName: SITE_NAME[locale],

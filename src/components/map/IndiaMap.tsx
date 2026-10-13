@@ -37,7 +37,7 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
   const [manifest, setManifest] = useState<BoundaryManifest | null>(null);
 
   useEffect(() => {
-    fetch("/maps/manifest.json")
+    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/maps/manifest.json`)
       .then((r) => (r.ok ? r.json() : null))
       .then((m) => m?.boundaries?.file && m.boundaries.verified === true && m.boundaries.sourceId === "survey-of-india" && setManifest(m.boundaries))
       .catch(() => {});
@@ -127,7 +127,7 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
                   return (
                     <a
                       key={r.code}
-                      href={`/${locale}${hrefFor(r)}`}
+                      href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/${locale}${hrefFor(r)}`}
                       onClick={(e) => {
                         e.preventDefault();
                         router.push(hrefFor(r));

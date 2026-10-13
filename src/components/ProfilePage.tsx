@@ -7,7 +7,7 @@ import { ModuleBlocks } from "./blocks/ModuleBlocks";
 import { formatDate } from "@/lib/format";
 import { pick } from "@/lib/l10n";
 import type { ModuleKey } from "@/lib/nav";
-import { SITE_URL } from "@/lib/seo";
+import { BASE_PATH, SITE_URL } from "@/lib/seo";
 import { ModuleNav } from "./ModuleNav";
 import { StatCard, type ValueKind } from "./StatCard";
 import { OfficeholderCard } from "./OfficeholderCard";
@@ -56,8 +56,8 @@ export async function ProfilePage({ region: r, locale, module }: { region: Regio
         <div className="relative mx-auto max-w-7xl px-4 py-10">
           <nav aria-label="Breadcrumb" className="mb-3 text-sm">
             <ol className="flex flex-wrap gap-1 text-muted">
-              <li><a href={`/${locale}`}>{t("nav.home")}</a> /</li>
-              <li><a href={`/${locale}/${r.type === "state" ? "states" : "uts"}`}>{r.type === "state" ? t("common.states") : t("common.uts")}</a> /</li>
+              <li><a href={`${BASE_PATH}/${locale}`}>{t("nav.home")}</a> /</li>
+              <li><a href={`${BASE_PATH}/${locale}/${r.type === "state" ? "states" : "uts"}`}>{r.type === "state" ? t("common.states") : t("common.uts")}</a> /</li>
               <li aria-current="page">{pick(r.name, locale)}</li>
             </ol>
           </nav>

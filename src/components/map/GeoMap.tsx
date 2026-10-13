@@ -39,7 +39,7 @@ export function GeoMap({ manifest, regions, layer, focus, onActive, onOpen }: {
   const [fc, setFc] = useState<FeatureCollection<Geometry, Record<string, unknown>> | null>(null);
 
   useEffect(() => {
-    fetch(`/maps/${manifest.file}`)
+    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/maps/${manifest.file}`)
       .then((r) => r.json())
       .then((topo: Topology) => {
         const obj = topo.objects[manifest.object] as GeometryCollection<Record<string, unknown>>;

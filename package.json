@@ -11,7 +11,8 @@
     "validate-data": "tsx scripts/validate-data.ts",
     "validate-data:links": "tsx scripts/validate-data.ts --check-links",
     "test": "vitest run",
-    "og": "tsx scripts/og/generate-og.ts"
+    "og": "tsx scripts/og/generate-og.ts",
+    "build:pages": "node scripts/pages/build-pages.mjs"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.3.0",

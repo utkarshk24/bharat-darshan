@@ -8,7 +8,9 @@ import { PreferencesProvider, themeScript } from "@/components/Preferences";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { getDataAsOn } from "@/lib/data";
-import { SITE_URL, localeAlternates, socialMeta } from "@/lib/seo";
+import { preload } from "react-dom";
+import { BASE_PATH, SITE_URL, localeAlternates, socialMeta } from "@/lib/seo";
+import { coreFontCss, primaryFont } from "@/lib/fonts";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -40,11 +42,14 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
   const t = await getTranslations("common");
+  // Start the main text font with the HTML instead of after the stylesheet.
+  preload(primaryFont(BASE_PATH, locale), { as: "font", type: "font/woff2", crossOrigin: "anonymous" });
 
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <style dangerouslySetInnerHTML={{ __html: coreFontCss(BASE_PATH) }} />
       </head>
       <body className="min-h-screen bg-bg text-text antialiased">
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-surface focus:px-4 focus:py-2">

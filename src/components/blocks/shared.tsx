@@ -2,8 +2,10 @@ import { useTranslations } from "next-intl";
 import type { Confidence } from "@/lib/schema";
 import { ConfidenceBadge } from "../ConfidenceBadge";
 
-export function BlockTitle({ children }: { children: React.ReactNode }) {
-  return <h3 className="mb-3 text-xl font-semibold">{children}</h3>;
+/** Block heading. Level 3 under a module's own h2; level 2 where blocks sit directly under the page h1 (overview). */
+export function BlockTitle({ children, level = 3 }: { children: React.ReactNode; level?: 2 | 3 }) {
+  const H = level === 2 ? "h2" : "h3";
+  return <H className="mb-3 text-xl font-semibold">{children}</H>;
 }
 
 /** Compact provenance footer used by lists, tables and timelines. */

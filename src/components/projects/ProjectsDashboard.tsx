@@ -69,7 +69,7 @@ export function ProjectsDashboard({ items, sourceLabels }: { items: ProjectItem[
                 type="button"
                 aria-pressed={status === st}
                 onClick={() => setStatus(status === st ? null : st)}
-                className={cn("rounded-xl border bg-surface p-3 text-left", status === st ? "border-navy ring-2 ring-navy/30" : "border-border", n === 0 && "opacity-60")}
+                className={cn("rounded-xl border bg-surface p-3 text-left", status === st ? "border-navy ring-2 ring-navy/30" : "border-border")}
               >
                 <span className="flex items-center gap-1.5 text-xs text-muted">
                   <span aria-hidden className="size-2.5 rounded-full" style={{ background: STATUS_STYLE[st] }} />

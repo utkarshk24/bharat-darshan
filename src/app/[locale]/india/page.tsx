@@ -28,7 +28,7 @@ export default async function Page({ params }: { params: Promise<{ locale: Local
         {locale !== "en" && <span className="text-xs text-muted">{t("common.translationDraft")}</span>}
         <Link href="/compare" className="rounded-full border border-border px-3 py-1 text-sm">{t("nav.compare")} →</Link>
       </PageHeader>
-      <ModuleBlocks blocks={content.blocks} region={india} locale={locale} />
+      <ModuleBlocks blocks={content.blocks} region={india} locale={locale} headingLevel={2} />
       <div className="mt-10">
         <Disclaimer />
       </div>

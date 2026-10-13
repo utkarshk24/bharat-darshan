@@ -54,7 +54,7 @@ export async function ProfilePage({ region: r, locale, module }: { region: Regio
         <Motif motif={r.motif} color={r.accent} opacity={0.18} className="absolute inset-0" />
         <div className="absolute inset-x-0 top-0 h-1.5" style={{ background: r.accent }} />
         <div className="relative mx-auto max-w-7xl px-4 py-10">
-          <nav aria-label="Breadcrumb" className="mb-3 text-sm">
+          <nav aria-label={t("common.breadcrumb")} className="breadcrumb mb-3 text-sm">
             <ol className="flex flex-wrap gap-1 text-muted">
               <li><a href={`${BASE_PATH}/${locale}`}>{t("nav.home")}</a> /</li>
               <li><a href={`${BASE_PATH}/${locale}/${r.type === "state" ? "states" : "uts"}`}>{r.type === "state" ? t("common.states") : t("common.uts")}</a> /</li>
@@ -107,7 +107,7 @@ export async function ProfilePage({ region: r, locale, module }: { region: Regio
                   </div>
                 </div>
               )}
-              {content && <ModuleBlocks blocks={content.blocks.filter((b) => b.id.startsWith("intro"))} region={r} locale={locale} />}
+              {content && <ModuleBlocks blocks={content.blocks.filter((b) => b.id.startsWith("intro"))} region={r} locale={locale} headingLevel={2} />}
 
               <section aria-labelledby="glance-h">
                 <h2 id="glance-h" className="mb-4 text-2xl font-bold">{t("profile.atAGlance")}</h2>
@@ -146,7 +146,7 @@ export async function ProfilePage({ region: r, locale, module }: { region: Regio
                 </div>
               </section>
 
-              {content && <ModuleBlocks blocks={content.blocks.filter((b) => !b.id.startsWith("intro"))} region={r} locale={locale} />}
+              {content && <ModuleBlocks blocks={content.blocks.filter((b) => !b.id.startsWith("intro"))} region={r} locale={locale} headingLevel={2} />}
 
               {Object.keys(r.symbols).length > 0 && (
                 <section aria-labelledby="sym-h">

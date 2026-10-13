@@ -25,13 +25,14 @@ export function LocaleSwitcher() {
           lang={l}
           hrefLang={l}
           aria-current={l === locale ? "true" : undefined}
-          aria-label={LABEL[l].long}
           className={cn(
             "px-2.5 py-1.5 no-underline",
             l === locale ? "bg-navy text-bg font-semibold" : "text-text hover:bg-surface-2",
           )}
         >
-          <span aria-hidden>{LABEL[l].short}</span>
+          {/* Visible abbreviation first so the accessible name contains it (WCAG 2.5.3) */}
+          {LABEL[l].short}
+          <span className="sr-only"> {LABEL[l].long}</span>
         </Link>
       ))}
     </div>

@@ -1,0 +1,74 @@
+# Release checks against the live site (MVP exit criteria):
+#   Lighthouse mobile ≥ 90 (performance, accessibility), axe accessibility scan, source-URL check.
+# Runs after each successful Pages deploy, weekly, and on demand (Actions → Quality checks → Run workflow).
+name: Quality checks
+
+on:
+  workflow_run:
+    workflows: [Deploy to GitHub Pages]
+    types: [completed]
+  schedule:
+    - cron: "17 3 * * 1" # Mondays 08:47 IST
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  SITE: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name || 'bharat-darshan' }}
+
+jobs:
+  lighthouse:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lighthouse (mobile)
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          configPath: ./lighthouserc.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          urls: |
+            ${{ env.SITE }}/en/
+            ${{ env.SITE }}/hi/states/maharashtra/
+            ${{ env.SITE }}/mr/compare/
+            ${{ env.SITE }}/en/gi/
+            ${{ env.SITE }}/en/india/
+
+  axe:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: browser-actions/setup-chrome@v1
+        id: chrome
+        with:
+          install-chromedriver: true
+      - name: axe accessibility scan (WCAG 2.1 AA)
+        run: |
+          npx --yes @axe-core/cli@4 \
+            "$SITE/en/" "$SITE/hi/" "$SITE/mr/" \
+            "$SITE/en/states/maharashtra/" "$SITE/hi/uts/ladakh/economy/" \
+            "$SITE/en/compare/" "$SITE/en/gi/" "$SITE/mr/projects/" "$SITE/en/themes/economy/" \
+            --tags wcag2a,wcag2aa,wcag21a,wcag21aa \
+            --chromedriver-path "${{ steps.chrome.outputs.chromedriver-path }}" \
+            --chrome-path "${{ steps.chrome.outputs.chrome-path }}" \
+            --exit
+
+  source-links:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    # Government sites are often slow or geo-blocked from US runners: report, don't block.
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Check every source URL in the dataset
+        run: npm run validate-data:links

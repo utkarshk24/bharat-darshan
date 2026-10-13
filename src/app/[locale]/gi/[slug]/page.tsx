@@ -50,7 +50,7 @@ export default async function Page({ params }: { params: Promise<{ locale: Local
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10">
-      <nav aria-label={t("common.breadcrumb")} className="mb-4 text-sm text-muted">
+      <nav aria-label={t("common.breadcrumb")} className="breadcrumb mb-4 text-sm text-muted">
         <Link href="/">{t("nav.home")}</Link> / <Link href="/gi">{t("gi.title")}</Link> / <span>{pick(p.name, locale)}</span>
       </nav>
       <div className="rounded-2xl border border-border bg-surface p-6" style={{ borderTop: `4px solid ${g.region.accent}` }}>

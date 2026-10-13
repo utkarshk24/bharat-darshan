@@ -1,10 +1,14 @@
 import "./globals.css";
+import { coreFontCss } from "@/lib/fonts";
 
 const B = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export default function GlobalNotFound() {
   return (
     <html lang="en">
+      <head>
+        <style dangerouslySetInnerHTML={{ __html: coreFontCss(B) }} />
+      </head>
       <body className="grid min-h-screen place-items-center p-8 text-center">
         <div>
           <h1 className="text-2xl font-bold">Page not found</h1>

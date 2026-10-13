@@ -42,7 +42,7 @@ export default async function Page({ params }: { params: Promise<{ locale: Local
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
-      <nav aria-label={t("common.breadcrumb")} className="mb-4 text-sm text-muted">
+      <nav aria-label={t("common.breadcrumb")} className="breadcrumb mb-4 text-sm text-muted">
         <Link href="/">{t("nav.home")}</Link> / <Link href="/themes">{t("themes.title")}</Link> / <span>{t(`themes.names.${th.key}`)}</span>
       </nav>
       <PageHeader title={t(`themes.names.${th.key}`)} intro={t(`themes.blurbs.${th.key}`)}>

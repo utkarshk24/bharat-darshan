@@ -134,7 +134,7 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
                       }}
                       onMouseEnter={() => setActive(r)}
                       onFocus={() => setActive(r)}
-                      aria-label={name}
+                      aria-label={`${shortCode(r)}, ${name}`}
                       className="outline-none [&:focus-visible>rect]:stroke-[var(--focus)] [&:focus-visible>rect]:stroke-[4]"
                     >
                       <title>{name}</title>

@@ -17,7 +17,7 @@ import { Digits } from "../Num";
 const short = (id: string | null | undefined) => (id ? sourceName(id)?.short ?? id : null);
 
 /** Renders a module's typed blocks (Section 7). Server component. */
-export async function ModuleBlocks({ blocks, region, locale }: { blocks: Block[]; region: Region; locale: Locale }) {
+export async function ModuleBlocks({ blocks, region, locale, headingLevel = 3 }: { blocks: Block[]; region: Region; locale: Locale; headingLevel?: 2 | 3 }) {
   const t = await getTranslations();
   const L = (v: Parameters<typeof pick>[0]) => pick(v, locale);
 
@@ -28,7 +28,7 @@ export async function ModuleBlocks({ blocks, region, locale }: { blocks: Block[]
           case "prose":
             return (
               <section key={b.id}>
-                {b.title && <BlockTitle>{L(b.title)}</BlockTitle>}
+                {b.title && <BlockTitle level={headingLevel}>{L(b.title)}</BlockTitle>}
                 <div className="max-w-3xl space-y-3 text-[1.05rem]">
                   {L(b.body).split(/\n\n+/).map((p, i) => <p key={i}>{p}</p>)}
                 </div>
@@ -54,7 +54,7 @@ export async function ModuleBlocks({ blocks, region, locale }: { blocks: Block[]
           case "facts":
             return (
               <section key={b.id}>
-                {b.title && <BlockTitle>{L(b.title)}</BlockTitle>}
+                {b.title && <BlockTitle level={headingLevel}>{L(b.title)}</BlockTitle>}
                 <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
                   {b.items.map((f) => (
                     <StatCard
@@ -75,7 +75,7 @@ export async function ModuleBlocks({ blocks, region, locale }: { blocks: Block[]
           case "list":
             return (
               <section key={b.id}>
-                {b.title && <BlockTitle>{L(b.title)}</BlockTitle>}
+                {b.title && <BlockTitle level={headingLevel}>{L(b.title)}</BlockTitle>}
                 {b.layout === "chips" ? (
                   <ul className="flex flex-wrap gap-2">
                     {b.items.map((it) => (
@@ -125,7 +125,7 @@ export async function ModuleBlocks({ blocks, region, locale }: { blocks: Block[]
           case "timeline":
             return (
               <section key={b.id}>
-                {b.title && <BlockTitle>{L(b.title)}</BlockTitle>}
+                {b.title && <BlockTitle level={headingLevel}>{L(b.title)}</BlockTitle>}
                 <ol className="relative ml-3 max-w-3xl border-l-2 pl-6" style={{ borderColor: region.accent }}>
                   {[...b.events].sort((x, y) => x.year - y.year).map((e) => (
                     <li key={e.id} className="relative mb-5 last:mb-0">
@@ -142,7 +142,7 @@ export async function ModuleBlocks({ blocks, region, locale }: { blocks: Block[]
           case "series":
             return (
               <section key={b.id}>
-                <BlockTitle>{L(b.title)}</BlockTitle>
+                <BlockTitle level={headingLevel}>{L(b.title)}</BlockTitle>
                 <SeriesChart
                   block={b}
                   labels={b.series.map((s) => L(s.label))}
@@ -154,7 +154,7 @@ export async function ModuleBlocks({ blocks, region, locale }: { blocks: Block[]
           case "table":
             return (
               <section key={b.id}>
-                <BlockTitle>{L(b.title)}</BlockTitle>
+                <BlockTitle level={headingLevel}>{L(b.title)}</BlockTitle>
                 <div className="overflow-x-auto rounded-xl border border-border bg-surface">
                   <table className="w-full text-sm">
                     <thead className="bg-surface-2">
@@ -193,7 +193,7 @@ export async function ModuleBlocks({ blocks, region, locale }: { blocks: Block[]
           case "links":
             return (
               <section key={b.id}>
-                {b.title && <BlockTitle>{L(b.title)}</BlockTitle>}
+                {b.title && <BlockTitle level={headingLevel}>{L(b.title)}</BlockTitle>}
                 <ul className="grid gap-2 sm:grid-cols-2">
                   {b.items.map((l) => (
                     <li key={l.url} className="rounded-lg border border-border bg-surface px-4 py-3">

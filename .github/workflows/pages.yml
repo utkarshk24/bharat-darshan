@@ -36,6 +36,10 @@ jobs:
           PAGES_BASE_PATH: /${{ github.event.repository.name }}
           PAGES_SITE_ORIGIN: https://${{ github.repository_owner }}.github.io
         run: npm run build:pages
+      - name: Internal link check
+        env:
+          PAGES_BASE_PATH: /${{ github.event.repository.name }}
+        run: npm run check:links
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out

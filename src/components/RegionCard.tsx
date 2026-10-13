@@ -32,7 +32,7 @@ export function RegionCard({ r }: { r: RegionSummary }) {
   const heads = [r.headOfGovernment, r.headOfState].filter(Boolean);
 
   return (
-    <article className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-sm transition hover:shadow-md focus-within:ring-2 focus-within:ring-[var(--focus)]">
+    <article className="cv-card group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-sm transition hover:shadow-md focus-within:ring-2 focus-within:ring-[var(--focus)]">
       <div className="relative h-20" style={{ background: `${r.accent}1a` }}>
         <Motif motif={r.motif} color={r.accent} opacity={0.5} className="absolute inset-0" />
         <div className="absolute inset-x-0 top-0 h-1.5" style={{ background: r.accent }} />

@@ -110,7 +110,7 @@ export function SeriesChart({ block, labels, sourceLabel, note, hideSummary }: {
       {view === "chart" ? (
         <div className="h-72 w-full" role="img" aria-label={labels.join(", ")}>
           <LazyLines rows={rows} block={block} labels={labels} fmt={fmt} locale={locale} />
-          {block.kind === "rupeeCrore" && <p className="text-right text-[11px] text-muted">L = ₹ lakh crore</p>}
+          {block.kind === "rupeeCrore" && <p className="text-right text-[11px] text-muted">{t("lakhCroreAxis")}</p>}
         </div>
       ) : (
         <div className="max-h-80 overflow-auto">

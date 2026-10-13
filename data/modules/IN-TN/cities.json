@@ -1,0 +1,806 @@
+{
+  "region": "IN-TN",
+  "module": "cities",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "chennai",
+          "name": {
+            "en": "Chennai",
+            "hi": "चेन्नई",
+            "mr": "चेन्नई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "State capital (Madras until 1996); port, car and electronics industry, IT corridor, Marina beach and the December music season.",
+            "hi": "राज्य की राजधानी (1996 तक मद्रास); बंदरगाह, कार और इलेक्ट्रॉनिक्स उद्योग, आईटी कॉरिडोर, मरीना बीच और दिसंबर का संगीत सीज़न।",
+            "mr": "राज्याची राजधानी (1996 पर्यंत मद्रास); बंदर, मोटार व इलेक्ट्रॉनिक्स उद्योग, आयटी कॉरिडॉर, मरीना किनारा आणि डिसेंबरचा संगीत हंगाम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "coimbatore",
+          "name": {
+            "en": "Coimbatore",
+            "hi": "कोयंबटूर",
+            "mr": "कोइंबतूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Textile and engineering hub — pumps, motors, wet grinders — and gateway to the Nilgiris.",
+            "hi": "कपड़ा और इंजीनियरिंग केंद्र — पंप, मोटर, वेट ग्राइंडर — और नीलगिरि का प्रवेश द्वार।",
+            "mr": "कापड व अभियांत्रिकी केंद्र — पंप, मोटर, वेट ग्राइंडर — आणि निलगिरीचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "madurai",
+          "name": {
+            "en": "Madurai",
+            "hi": "मदुरै",
+            "mr": "मदुराई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Ancient Pandya capital around the Meenakshi temple; jasmine and sungudi saris.",
+            "hi": "मीनाक्षी मंदिर के चारों ओर बसी प्राचीन पांड्य राजधानी; चमेली और सुंगुडी साड़ियाँ।",
+            "mr": "मीनाक्षी मंदिराभोवती वसलेली प्राचीन पांड्य राजधानी; मोगरा व सुंगुडी साड्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Temple city",
+            "hi": "मंदिर नगर",
+            "mr": "मंदिरनगरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "trichy",
+          "name": {
+            "en": "Tiruchirappalli",
+            "hi": "तिरुचिरापल्ली",
+            "mr": "तिरुचिरापल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rock Fort temple and Srirangam on the Kaveri; BHEL and education hub.",
+            "hi": "कावेरी तट पर रॉक फ़ोर्ट मंदिर और श्रीरंगम; भेल और शिक्षा केंद्र।",
+            "mr": "कावेरीकाठी रॉक फोर्ट मंदिर व श्रीरंगम; भेल आणि शिक्षण केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Delta gateway",
+            "hi": "डेल्टा का द्वार",
+            "mr": "त्रिभुज प्रदेशाचे द्वार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "salem",
+          "name": {
+            "en": "Salem",
+            "hi": "सेलम",
+            "mr": "सेलम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Steel plant, sago and textiles; gateway to Yercaud.",
+            "hi": "इस्पात संयंत्र, साबूदाना और कपड़ा; येरकॉड का प्रवेश द्वार।",
+            "mr": "पोलाद प्रकल्प, साबुदाणा व कापड; येरकॉडचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiruppur",
+          "name": {
+            "en": "Tiruppur",
+            "hi": "तिरुप्पुर",
+            "mr": "तिरुप्पूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "India's knitwear capital, exporting garments worldwide.",
+            "hi": "भारत की निटवियर राजधानी, जहाँ से दुनिया भर में परिधान निर्यात होते हैं।",
+            "mr": "भारताची विणलेल्या कपड्यांची राजधानी; जगभर कपडे निर्यात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Knitwear",
+            "hi": "निटवियर",
+            "mr": "विणलेले कपडे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tirunelveli",
+          "name": {
+            "en": "Tirunelveli",
+            "hi": "तिरुनेलवेली",
+            "mr": "तिरुनेलवेली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Nellaiappar temple, the Thamirabarani and Tirunelveli halwa.",
+            "hi": "नेल्लैयप्पर मंदिर, ताम्रपर्णी नदी और तिरुनेलवेली हलवा।",
+            "mr": "नेल्लैयप्पर मंदिर, ताम्रपर्णी नदी आणि तिरुनेलवेली हलवा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "South",
+            "hi": "दक्षिण",
+            "mr": "दक्षिण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vellore",
+          "name": {
+            "en": "Vellore",
+            "hi": "वेल्लोर",
+            "mr": "वेल्लोर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Vellore Fort, Christian Medical College and the leather belt.",
+            "hi": "वेल्लोर क़िला, क्रिश्चियन मेडिकल कॉलेज और चमड़ा पट्टी।",
+            "mr": "वेल्लोर किल्ला, ख्रिश्चन मेडिकल कॉलेज आणि चामडे पट्टा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Health, leather",
+            "hi": "स्वास्थ्य, चमड़ा",
+            "mr": "आरोग्य, चामडे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thoothukudi",
+          "name": {
+            "en": "Thoothukudi",
+            "hi": "थूथुकुडी",
+            "mr": "थुथुकुडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Major port, salt pans and pearl-fishing history; the new spaceport nearby.",
+            "hi": "बड़ा बंदरगाह, नमक के खेत और मोती निकालने का इतिहास; पास में नया अंतरिक्ष प्रक्षेपण केंद्र।",
+            "mr": "मोठे बंदर, मिठागरे आणि मोतीमासेमारीचा इतिहास; जवळच नवे अंतराळ प्रक्षेपण केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Port",
+            "hi": "बंदरगाह",
+            "mr": "बंदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ariyalur",
+          "name": {
+            "en": "Ariyalur",
+            "hi": "अरियलूर",
+            "mr": "अरियलूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chengalpattu",
+          "name": {
+            "en": "Chengalpattu",
+            "hi": "चेंगलपट्टु",
+            "mr": "चेंगलपट्टू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chennai",
+          "name": {
+            "en": "Chennai",
+            "hi": "चेन्नई",
+            "mr": "चेन्नई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "coimbatore",
+          "name": {
+            "en": "Coimbatore",
+            "hi": "कोयंबटूर",
+            "mr": "कोइंबतूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cuddalore",
+          "name": {
+            "en": "Cuddalore",
+            "hi": "कडलूर",
+            "mr": "कडलूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dharmapuri",
+          "name": {
+            "en": "Dharmapuri",
+            "hi": "धर्मपुरी",
+            "mr": "धर्मपुरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dindigul",
+          "name": {
+            "en": "Dindigul",
+            "hi": "डिंडीगुल",
+            "mr": "दिंडीगुल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "erode",
+          "name": {
+            "en": "Erode",
+            "hi": "इरोड",
+            "mr": "इरोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kallakurichi",
+          "name": {
+            "en": "Kallakurichi",
+            "hi": "कल्लकुरिची",
+            "mr": "कल्लकुरिची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kancheepuram",
+          "name": {
+            "en": "Kancheepuram",
+            "hi": "कांचीपुरम",
+            "mr": "कांचीपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kanniyakumari",
+          "name": {
+            "en": "Kanniyakumari",
+            "hi": "कन्याकुमारी",
+            "mr": "कन्याकुमारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "karur",
+          "name": {
+            "en": "Karur",
+            "hi": "करूर",
+            "mr": "करूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "krishnagiri",
+          "name": {
+            "en": "Krishnagiri",
+            "hi": "कृष्णगिरि",
+            "mr": "कृष्णगिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "madurai",
+          "name": {
+            "en": "Madurai",
+            "hi": "मदुरै",
+            "mr": "मदुराई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mayiladuthurai",
+          "name": {
+            "en": "Mayiladuthurai",
+            "hi": "मयिलाडुतुरै",
+            "mr": "मयिलाडुतुरै",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nagapattinam",
+          "name": {
+            "en": "Nagapattinam",
+            "hi": "नागपट्टिनम",
+            "mr": "नागपट्टिनम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "namakkal",
+          "name": {
+            "en": "Namakkal",
+            "hi": "नामक्कल",
+            "mr": "नामक्कल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nilgiris",
+          "name": {
+            "en": "Nilgiris",
+            "hi": "नीलगिरि",
+            "mr": "निलगिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "perambalur",
+          "name": {
+            "en": "Perambalur",
+            "hi": "पेरम्बलूर",
+            "mr": "पेरंबलूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pudukkottai",
+          "name": {
+            "en": "Pudukkottai",
+            "hi": "पुदुक्कोट्टै",
+            "mr": "पुदुक्कोट्टै",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ramanathapuram",
+          "name": {
+            "en": "Ramanathapuram",
+            "hi": "रामनाथपुरम",
+            "mr": "रामनाथपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ranipet",
+          "name": {
+            "en": "Ranipet",
+            "hi": "रानीपेट",
+            "mr": "राणीपेट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "salem",
+          "name": {
+            "en": "Salem",
+            "hi": "सेलम",
+            "mr": "सेलम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sivaganga",
+          "name": {
+            "en": "Sivaganga",
+            "hi": "शिवगंगा",
+            "mr": "शिवगंगा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tenkasi",
+          "name": {
+            "en": "Tenkasi",
+            "hi": "तेनकासी",
+            "mr": "तेनकासी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thanjavur",
+          "name": {
+            "en": "Thanjavur",
+            "hi": "तंजावुर",
+            "mr": "तंजावूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "theni",
+          "name": {
+            "en": "Theni",
+            "hi": "थेनी",
+            "mr": "थेनी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thoothukudi",
+          "name": {
+            "en": "Thoothukudi",
+            "hi": "थूथुकुडी",
+            "mr": "थुथुकुडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiruchirappalli",
+          "name": {
+            "en": "Tiruchirappalli",
+            "hi": "तिरुचिरापल्ली",
+            "mr": "तिरुचिरापल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tirunelveli",
+          "name": {
+            "en": "Tirunelveli",
+            "hi": "तिरुनेलवेली",
+            "mr": "तिरुनेलवेली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tirupathur",
+          "name": {
+            "en": "Tirupathur",
+            "hi": "तिरुपत्तूर",
+            "mr": "तिरुपत्तूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiruppur",
+          "name": {
+            "en": "Tiruppur",
+            "hi": "तिरुप्पुर",
+            "mr": "तिरुप्पूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiruvallur",
+          "name": {
+            "en": "Tiruvallur",
+            "hi": "तिरुवल्लूर",
+            "mr": "तिरुवल्लूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiruvannamalai",
+          "name": {
+            "en": "Tiruvannamalai",
+            "hi": "तिरुवण्णामलै",
+            "mr": "तिरुवण्णामलै",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiruvarur",
+          "name": {
+            "en": "Tiruvarur",
+            "hi": "तिरुवारूर",
+            "mr": "तिरुवारूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vellore",
+          "name": {
+            "en": "Vellore",
+            "hi": "वेल्लोर",
+            "mr": "वेल्लोर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "viluppuram",
+          "name": {
+            "en": "Viluppuram",
+            "hi": "विलुप्पुरम",
+            "mr": "विलुप्पुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "virudhunagar",
+          "name": {
+            "en": "Virudhunagar",
+            "hi": "विरुधुनगर",
+            "mr": "विरुधुनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": "tn-des",
+      "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "title": {
+        "en": "The 38 districts (alphabetical)",
+        "hi": "38 ज़िले (वर्णानुक्रम)",
+        "mr": "38 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "District populations (Census 2011, adjusted for new districts)",
+            "hi": "ज़िलावार जनसंख्या (जनगणना 2011, नए ज़िलों के अनुसार)",
+            "mr": "जिल्हानिहाय लोकसंख्या (जनगणना 2011, नव्या जिल्ह्यांनुसार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "District Census Handbooks; several districts were created after 2011."
+        },
+        {
+          "label": {
+            "en": "Urban agglomeration populations and city tiers",
+            "hi": "नगरीय समूह जनसंख्या और शहर श्रेणी",
+            "mr": "नागरी समूह लोकसंख्या व शहर श्रेणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 UA tables."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+{
+  "region": "IN-TN",
+  "module": "tourism",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tamil Nadu is one of India's most visited States. In the Ministry of Tourism's figures it recorded about 35.7 crore domestic tourist visits in 2025 (provisional), up from 30.7 crore in 2024; foreign tourist visits were about 15.5 lakh in 2025, still well below the 68.7 lakh of 2019. Much of the travel is pilgrimage — to Madurai, Rameswaram, Tiruchendur, Palani, Srirangam, Tiruvannamalai, Velankanni and Nagore — alongside the heritage circuit of Mamallapuram, Kanchipuram, Thanjavur and Chettinad, the hill stations of Ooty, Kodaikanal and Yercaud, and Kanniyakumari at the tip of the peninsula.",
+        "hi": "तमिलनाडु भारत के सबसे ज़्यादा देखे जाने वाले राज्यों में है। पर्यटन मंत्रालय के आँकड़ों में 2025 में यहाँ लगभग 35.7 करोड़ घरेलू पर्यटक यात्राएँ (अनंतिम) दर्ज हुईं, जो 2024 के 30.7 करोड़ से अधिक हैं; विदेशी पर्यटक यात्राएँ 2025 में लगभग 15.5 लाख थीं, जो 2019 के 68.7 लाख से अब भी काफ़ी कम हैं। अधिकांश यात्राएँ तीर्थ हैं — मदुरै, रामेश्वरम, तिरुचेंदूर, पलनी, श्रीरंगम, तिरुवण्णामलै, वेलांकन्नी और नागोर — साथ में मामल्लपुरम, कांचीपुरम, तंजावुर और चेट्टिनाड का धरोहर परिपथ, ऊटी, कोडैकनाल और येरकॉड के हिल स्टेशन, और प्रायद्वीप के छोर पर कन्याकुमारी।",
+        "mr": "तमिळनाडू हे भारतातील सर्वाधिक भेट दिल्या जाणाऱ्या राज्यांपैकी एक आहे. पर्यटन मंत्रालयाच्या आकडेवारीनुसार 2025 मध्ये येथे सुमारे 35.7 कोटी देशी पर्यटक भेटी (तात्पुरत्या) नोंदल्या गेल्या — 2024 मधील 30.7 कोटींपेक्षा जास्त; परदेशी पर्यटक भेटी 2025 मध्ये सुमारे 15.5 लाख होत्या, 2019 मधील 68.7 लाखांपेक्षा अजूनही बऱ्याच कमी. बहुतेक प्रवास तीर्थयात्रा असतात — मदुराई, रामेश्वरम, तिरुचेंदूर, पळनी, श्रीरंगम, तिरुवण्णामलै, वेलांकण्णी आणि नागोर — सोबत मामल्लपुरम, कांचीपुरम, तंजावूर व चेट्टिनाडचे वारसा परिक्रमा मार्ग, ऊटी, कोडैकनाल व येरकॉडची थंड हवेची ठिकाणे, आणि द्वीपकल्पाच्या टोकावरील कन्याकुमारी.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "tourism"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "dtv",
+          "label": {
+            "en": "Domestic tourist visits",
+            "hi": "घरेलू पर्यटक यात्राएँ",
+            "mr": "देशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 357095556,
+            "unit": "visits",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 3834, 16 March 2026 (Ministry of Tourism, from State Tourism Departments). 2025 is provisional."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "previous": {
+            "value": 306842014,
+            "unit": "visits",
+            "period": "2024",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 4132840356,
+            "unit": "visits",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 3834, 16 March 2026 (Ministry of Tourism, from State Tourism Departments). 2025 is provisional."
+          }
+        },
+        {
+          "id": "ftv",
+          "label": {
+            "en": "Foreign tourist visits",
+            "hi": "विदेशी पर्यटक यात्राएँ",
+            "mr": "परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1545988,
+            "unit": "visits",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 3834, 16 March 2026 (Ministry of Tourism, from State Tourism Departments). 2025 is provisional."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "previous": {
+            "value": 1161302,
+            "unit": "visits",
+            "period": "2024",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 24018320,
+            "unit": "visits",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 3834, 16 March 2026 (Ministry of Tourism, from State Tourism Departments). 2025 is provisional."
+          }
+        }
+      ],
+      "title": {
+        "en": "Tourist visits",
+        "hi": "पर्यटक यात्राएँ",
+        "mr": "पर्यटक भेटी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "series",
+      "id": "tv-series",
+      "title": {
+        "en": "Tourist visits, 2016–2025",
+        "hi": "पर्यटक यात्राएँ, 2016–2025",
+        "mr": "पर्यटक भेटी, 2016–2025",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "count",
+      "polarity": "neutral",
+      "series": [
+        {
+          "id": "dtv",
+          "label": {
+            "en": "Domestic",
+            "hi": "घरेलू",
+            "mr": "देशी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 343812413,
+              "unit": "visits",
+              "period": "2016",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 345061140,
+              "unit": "visits",
+              "period": "2017",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 385909376,
+              "unit": "visits",
+              "period": "2018",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 494865257,
+              "unit": "visits",
+              "period": "2019",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 140651241,
+              "unit": "visits",
+              "period": "2020",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 115336719,
+              "unit": "visits",
+              "period": "2021",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 218584846,
+              "unit": "visits",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 286011515,
+              "unit": "visits",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 306842014,
+              "unit": "visits",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 357095556,
+              "unit": "visits",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "note": "Lok Sabha Unstarred Q. 3834, 16 March 2026 (Ministry of Tourism, from State Tourism Departments). 2025 is provisional."
+            }
+          ]
+        },
+        {
+          "id": "ftv",
+          "label": {
+            "en": "Foreign",
+            "hi": "विदेशी",
+            "mr": "परदेशी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 4721978,
+              "unit": "visits",
+              "period": "2016",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 4860455,
+              "unit": "visits",
+              "period": "2017",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 6074345,
+              "unit": "visits",
+              "period": "2018",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 6866327,
+              "unit": "visits",
+              "period": "2019",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 1228323,
+              "unit": "visits",
+              "period": "2020",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 57622,
+              "unit": "visits",
+              "period": "2021",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 407126,
+              "unit": "visits",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 1174899,
+              "unit": "visits",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 1161302,
+              "unit": "visits",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 1545988,
+              "unit": "visits",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "tourism",
+              "url": "https://tourism.gov.in/sites/default/files/2026-03/usq.3834%20for%2016.03.2026.pdf",
+              "accessDate": "2026-10-13",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "note": "Lok Sabha Unstarred Q. 3834, 16 March 2026 (Ministry of Tourism, from State Tourism Departments). 2025 is provisional."
+            }
+          ]
+        }
+      ],
+      "note": {
+        "en": "The fall in 2020–21 reflects the pandemic. Visits are counted by State tourism departments and include repeat visits.",
+        "hi": "2020–21 की गिरावट महामारी को दर्शाती है। यात्राएँ राज्य पर्यटन विभाग गिनते हैं और इनमें दोबारा की गई यात्राएँ भी शामिल हैं।",
+        "mr": "2020–21 मधील घसरण महामारीमुळे आहे. भेटी राज्य पर्यटन विभाग मोजतात आणि त्यात पुनर्भेटींचाही समावेश असतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "madurai",
+          "name": {
+            "en": "Meenakshi Amman temple, Madurai",
+            "hi": "मीनाक्षी अम्मन मंदिर, मदुरै",
+            "mr": "मीनाक्षी अम्मन मंदिर, मदुराई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Temple town",
+            "hi": "मंदिर नगर",
+            "mr": "मंदिरनगरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mamallapuram",
+          "name": {
+            "en": "Mamallapuram (Mahabalipuram)",
+            "hi": "मामल्लपुरम (महाबलीपुरम)",
+            "mr": "मामल्लपुरम (महाबलीपुरम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO heritage, beach",
+            "hi": "यूनेस्को धरोहर, समुद्र तट",
+            "mr": "युनेस्को वारसा, समुद्रकिनारा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thanjavur",
+          "name": {
+            "en": "Thanjavur and the Chola temples",
+            "hi": "तंजावुर और चोल मंदिर",
+            "mr": "तंजावूर व चोळ मंदिरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO heritage",
+            "hi": "यूनेस्को धरोहर",
+            "mr": "युनेस्को वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rameswaram",
+          "name": {
+            "en": "Rameswaram and Dhanushkodi",
+            "hi": "रामेश्वरम और धनुषकोडी",
+            "mr": "रामेश्वरम व धनुष्कोडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage, Pamban bridge",
+            "hi": "तीर्थ, पंबन पुल",
+            "mr": "तीर्थक्षेत्र, पंबन पूल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ooty",
+          "name": {
+            "en": "Ooty and the Nilgiri Mountain Railway",
+            "hi": "ऊटी और नीलगिरि पर्वतीय रेल",
+            "mr": "ऊटी व निलगिरी पर्वतीय रेल्वे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hill station",
+            "hi": "हिल स्टेशन",
+            "mr": "थंड हवेचे ठिकाण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kodaikanal",
+          "name": {
+            "en": "Kodaikanal",
+            "hi": "कोडैकनाल",
+            "mr": "कोडैकनाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hill station, lake",
+            "hi": "हिल स्टेशन, झील",
+            "mr": "थंड हवेचे ठिकाण, तलाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kanyakumari",
+          "name": {
+            "en": "Kanniyakumari",
+            "hi": "कन्याकुमारी",
+            "mr": "कन्याकुमारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Land's end, Vivekananda Rock",
+            "hi": "भूमि का छोर, विवेकानंद शिला",
+            "mr": "भूमीचे टोक, विवेकानंद शिला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chettinad",
+          "name": {
+            "en": "Chettinad mansions (Karaikudi)",
+            "hi": "चेट्टिनाड हवेलियाँ (कराइकुडी)",
+            "mr": "चेट्टिनाड वाडे (कराइकुडी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Architecture, cuisine",
+            "hi": "स्थापत्य, व्यंजन",
+            "mr": "स्थापत्य, खाद्यपदार्थ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kanchipuram",
+          "name": {
+            "en": "Kanchipuram",
+            "hi": "कांचीपुरम",
+            "mr": "कांचीपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Temples, silk",
+            "hi": "मंदिर, रेशम",
+            "mr": "मंदिरे, रेशीम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Chennai: Kapaleeshwarar temple, Marina beach, Fort St George and the Government Museum; a day trip to Mamallapuram.",
+            "hi": "चेन्नई: कपालीश्वरर मंदिर, मरीना बीच, फ़ोर्ट सेंट जॉर्ज और सरकारी संग्रहालय; मामल्लपुरम की एक दिन की यात्रा।",
+            "mr": "चेन्नई: कपालीश्वरर मंदिर, मरीना किनारा, फोर्ट सेंट जॉर्ज आणि शासकीय संग्रहालय; मामल्लपुरमची एकदिवसीय सहल.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Add Kanchipuram's temples and silk weavers.",
+            "hi": "कांचीपुरम के मंदिर और रेशम बुनकर जोड़ें।",
+            "mr": "कांचीपुरमची मंदिरे व रेशीम विणकर जोडा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Temple trail: Thanjavur, Gangaikonda Cholapuram, Kumbakonam, Srirangam and Madurai.",
+            "hi": "मंदिर पथ: तंजावुर, गंगैकोंड चोलपुरम, कुंभकोणम, श्रीरंगम और मदुरै।",
+            "mr": "मंदिर मार्ग: तंजावूर, गंगैकोंड चोळपुरम, कुंभकोणम, श्रीरंगम व मदुराई.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Continue from Madurai to Rameswaram and Kanniyakumari, or up to Kodaikanal.",
+            "hi": "मदुरै से रामेश्वरम और कन्याकुमारी तक, या कोडैकनाल तक आगे बढ़ें।",
+            "mr": "मदुराईहून रामेश्वरम व कन्याकुमारीपर्यंत, किंवा कोडैकनालपर्यंत पुढे जा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "tt",
+          "name": {
+            "en": "Tamil Nadu Tourism (official)",
+            "hi": "तमिलनाडु पर्यटन (आधिकारिक)",
+            "mr": "तमिळनाडू पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.tamilnadutourism.tn.gov.in",
+          "sourceId": "tn-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Earnings from tourism",
+            "hi": "पर्यटन से आय",
+            "mr": "पर्यटनातून उत्पन्न",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "State tourism department statistics."
+        },
+        {
+          "label": {
+            "en": "Most visited sites (ASI ticketed monuments)",
+            "hi": "सबसे अधिक देखे गए स्थल (एएसआई टिकट वाले स्मारक)",
+            "mr": "सर्वाधिक भेट दिलेली स्थळे (एएसआय तिकीट स्मारके)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "asi",
+          "note": "India Tourism Statistics, monument-wise visitors."
+        }
+      ]
+    }
+  ]
+}

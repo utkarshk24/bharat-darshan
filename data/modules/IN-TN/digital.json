@@ -1,0 +1,68 @@
+{
+  "region": "IN-TN",
+  "module": "digital",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chennai is one of India's main software and IT-services centres. TIDEL Park, opened in 2000, anchored the IT Corridor along Old Mahabalipuram Road, which now runs past campuses of large Indian and multinational firms; Coimbatore, Madurai and Tiruchirappalli have smaller IT parks. Electronics manufacturing — including mobile-phone assembly at Sriperumbudur and Hosur — has grown quickly. Chennai is also a landing point for international submarine data cables. The Tamil Nadu e-Governance Agency and the State's Tamil Nadu Startup and Innovation Mission (StartupTN) support digital services and young companies.",
+        "hi": "चेन्नई भारत के प्रमुख सॉफ़्टवेयर और आईटी सेवा केंद्रों में है। 2000 में खुले टाइडल पार्क ने ओल्ड महाबलीपुरम रोड पर आईटी कॉरिडोर की नींव रखी, जहाँ अब बड़ी भारतीय और बहुराष्ट्रीय कंपनियों के परिसर हैं; कोयंबटूर, मदुरै और तिरुचिरापल्ली में छोटे आईटी पार्क हैं। इलेक्ट्रॉनिक्स विनिर्माण — श्रीपेरुंबुदूर और होसूर में मोबाइल फ़ोन असेंबली सहित — तेज़ी से बढ़ा है। चेन्नई अंतरराष्ट्रीय समुद्री डेटा केबलों का लैंडिंग बिंदु भी है। तमिलनाडु ई-गवर्नेंस एजेंसी और राज्य का तमिलनाडु स्टार्टअप एवं इनोवेशन मिशन (स्टार्टअपटीएन) डिजिटल सेवाओं और नई कंपनियों को सहायता देते हैं।",
+        "mr": "चेन्नई हे भारतातील प्रमुख सॉफ्टवेअर व आयटी सेवा केंद्रांपैकी एक आहे. 2000 मध्ये सुरू झालेल्या टायडल पार्कने ओल्ड महाबलीपुरम रोडवरील आयटी कॉरिडॉरचा पाया घातला, जिथे आता मोठ्या भारतीय व बहुराष्ट्रीय कंपन्यांची संकुले आहेत; कोइंबतूर, मदुराई व तिरुचिरापल्लीत लहान आयटी पार्क आहेत. इलेक्ट्रॉनिक्स उत्पादन — श्रीपेरुंबुदूर व होसूर येथील मोबाइल फोन जुळणीसह — झपाट्याने वाढले आहे. चेन्नई हे आंतरराष्ट्रीय समुद्राखालील डेटा केबल्सचे किनारी स्थानकही आहे. तमिळनाडू ई-गव्हर्नन्स एजन्सी आणि राज्याचे तमिळनाडू स्टार्टअप व इनोव्हेशन मिशन (स्टार्टअपटीएन) डिजिटल सेवा व नव्या कंपन्यांना पाठबळ देतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI Indian Telecom Services Performance Indicators (Tamil Nadu circle)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        },
+        {
+          "label": {
+            "en": "Software and electronics exports",
+            "hi": "सॉफ़्टवेयर और इलेक्ट्रॉनिक्स निर्यात",
+            "mr": "सॉफ्टवेअर व इलेक्ट्रॉनिक्स निर्यात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "STPI / MeitY state data."
+        }
+      ]
+    }
+  ]
+}

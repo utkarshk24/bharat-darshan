@@ -74,8 +74,10 @@ def sector_table(g, period="FY2024-25"):
 
 
 def gdp_series(mo, label_years):
+    _a, _b = label_years.split(" to ")  # "FY2011-12 to FY2024-25"
     return [
-        {"type": "series", "id": "gsdp-series", "title": L(f"GSDP, {label_years}", f"जीएसडीपी, {label_years.replace('FY', 'वित्त वर्ष ')}", f"जीएसडीपी, {label_years.replace('FY', 'आ.व. ')}"),
+        {"type": "series", "id": "gsdp-series", "title": L(f"GSDP, {label_years}", f"जीएसडीपी, {_a.replace('FY', 'वित्त वर्ष ')} से {_b.replace('FY', 'वित्त वर्ष ')} तक",
+                                                           f"जीएसडीपी, {_a.replace('FY', 'आ.व. ')} ते {_b.replace('FY', 'आ.व. ')}"),
          "kind": "rupeeCrore", "polarity": "higher-is-better",
          "series": [
              {"id": "current", "label": L("Current prices", "प्रचलित मूल्य", "चालू किमती"), "points": fy_points(mo, "gsdp", 0, "₹ crore", CUR)},

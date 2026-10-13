@@ -1,0 +1,68 @@
+{
+  "region": "IN-TN",
+  "module": "energy",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tamil Nadu has one of India's most varied power systems. Wind farms line the passes at Muppandal near Kanniyakumari and around Palakkad Gap and Theni, where the winds funnel through the Western Ghats, and large solar parks have been built in the southern districts such as Ramanathapuram. Coal-fired stations run at Ennore, North Chennai, Mettur and Thoothukudi, the Kudankulam nuclear plant has two 1,000 MW units in operation with four more under construction, and the Kalpakkam site near Chennai hosts nuclear reactors and research facilities. Hydropower comes from the Nilgiris and the Kaveri. State-owned companies under TNEB Limited generate and distribute much of the State's power.",
+        "hi": "तमिलनाडु की बिजली व्यवस्था भारत में सबसे विविध व्यवस्थाओं में है। कन्याकुमारी के पास मुप्पंदल और पालक्काड गैप व थेनी के आसपास के दर्रों में, जहाँ हवाएँ पश्चिमी घाट से होकर तेज़ होती हैं, पवन फ़ार्मों की कतारें हैं, और रामनाथपुरम जैसे दक्षिणी ज़िलों में बड़े सौर पार्क बने हैं। कोयला आधारित संयंत्र एन्नोर, उत्तर चेन्नई, मेट्टूर और थूथुकुडी में हैं; कुडनकुलम परमाणु संयंत्र में 1,000 मेगावाट की दो इकाइयाँ चल रही हैं और चार और बन रही हैं; और चेन्नई के पास कल्पक्कम में परमाणु रिएक्टर और शोध सुविधाएँ हैं। जलविद्युत नीलगिरि और कावेरी से आती है। टीएनईबी लिमिटेड के अधीन राज्य की कंपनियाँ राज्य की बिजली का बड़ा हिस्सा बनाती और वितरित करती हैं।",
+        "mr": "तमिळनाडूची वीजव्यवस्था भारतातील सर्वांत वैविध्यपूर्ण व्यवस्थांपैकी एक आहे. कन्याकुमारीजवळील मुप्पंदल आणि पालक्काड गॅप व थेनीच्या खिंडींत — जिथे पश्चिम घाटातून वारे वेगाने वाहतात — पवनचक्क्यांच्या रांगा आहेत, आणि रामनाथपुरमसारख्या दक्षिणेकडील जिल्ह्यांत मोठी सौर उद्याने उभी राहिली आहेत. कोळशावरील केंद्रे एन्नोर, उत्तर चेन्नई, मेट्टूर आणि थुथुकुडी येथे आहेत; कुडनकुलम अणुऊर्जा प्रकल्पात 1,000 मेगावॉटची दोन युनिट्स चालू असून आणखी चार उभारली जात आहेत; आणि चेन्नईजवळील कल्पक्कम येथे अणुभट्ट्या व संशोधन सुविधा आहेत. जलविद्युत निलगिरी व कावेरीतून मिळते. टीएनईबी लिमिटेडअंतर्गत राज्याच्या मालकीच्या कंपन्या राज्यातील विजेचा मोठा भाग निर्माण करतात व वितरित करतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report (portal blocked automated access)."
+        },
+        {
+          "label": {
+            "en": "Wind and solar capacity",
+            "hi": "पवन और सौर क्षमता",
+            "mr": "पवन व सौर क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE state-wise RE capacity."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

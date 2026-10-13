@@ -2,7 +2,7 @@
 
 Tri-lingual (English · हिन्दी · मराठी) encyclopedia, atlas and data dashboard of India's 28 States and 8 Union Territories.
 
-**Status: Phase 2 complete (draft, awaiting review).** Phase 1 (foundation) is complete. Four reference profiles are populated across all 26 modules in three languages (draft translations): **Maharashtra** ([report](docs/PHASE-2-MAHARASHTRA-REPORT.md)), **Keralam** (formerly Kerala; `/states/keralam`, old address redirects), **Delhi** (UT with legislature) and **Ladakh** (UT without legislature) — see [docs/PHASE-2-REFERENCE-PROFILES-REPORT.md](docs/PHASE-2-REFERENCE-PROFILES-REPORT.md). The **India overview** (`/india`) and the **comparison prototype** (`/compare`, MH · TN · UP · KL by default, plus Delhi and Ladakh) complete Phase 2 — see [docs/PHASE-2-COMPLETION-REPORT.md](docs/PHASE-2-COMPLETION-REPORT.md). The national **GI Products** directory (`/gi`, one page per GI), **Projects & Vision** dashboard (`/projects`), **Themes** (`/themes`) and per-page social-preview images followed — see [docs/PHASE-2-FINAL-ITEMS-REPORT.md](docs/PHASE-2-FINAL-ITEMS-REPORT.md). The other 32 regions show identity data and "Not available" until Phase 3.
+**Status: Phase 3 in progress (draft).** Tamil Nadu is the first Phase 3 profile — see [docs/PHASE-3-PROGRESS-REPORT.md](docs/PHASE-3-PROGRESS-REPORT.md). Phase 2 is complete (draft, awaiting review). Phase 1 (foundation) is complete. Four reference profiles are populated across all 26 modules in three languages (draft translations): **Maharashtra** ([report](docs/PHASE-2-MAHARASHTRA-REPORT.md)), **Keralam** (formerly Kerala; `/states/keralam`, old address redirects), **Delhi** (UT with legislature) and **Ladakh** (UT without legislature) — see [docs/PHASE-2-REFERENCE-PROFILES-REPORT.md](docs/PHASE-2-REFERENCE-PROFILES-REPORT.md). The **India overview** (`/india`) and the **comparison prototype** (`/compare`, MH · TN · UP · KL by default, plus Delhi and Ladakh) complete Phase 2 — see [docs/PHASE-2-COMPLETION-REPORT.md](docs/PHASE-2-COMPLETION-REPORT.md). The national **GI Products** directory (`/gi`, one page per GI), **Projects & Vision** dashboard (`/projects`), **Themes** (`/themes`) and per-page social-preview images followed — see [docs/PHASE-2-FINAL-ITEMS-REPORT.md](docs/PHASE-2-FINAL-ITEMS-REPORT.md). The other 31 regions show identity data and "Not available" until their Phase 3 batch.
 
 ## Quick start
 
@@ -13,6 +13,8 @@ npm run validate-data    # schema + content checks, writes docs/DATA-GAP-REPORT.
 npm test                 # unit tests (formatters, transliteration, validator, search, message parity)
 npm run build            # static generation of ~3,200 pages (3 locales × 36 regions × 26 modules + site pages)
 npm run build:pages      # static export for GitHub Pages into out/ (see "Publishing" below)
+npm run check:links      # offline check of every internal link in out/ (run after build:pages)
+npm run fonts            # re-subset regional-script fonts after adding local-script text (needs fonttools + brotli)
 npm run og               # re-render social-preview images into public/og (needs a local Chrome/Chromium; set CHROME=… if not found)
 ```
 

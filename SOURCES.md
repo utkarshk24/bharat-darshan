@@ -75,6 +75,8 @@ Generated from `data/sources.json` by `scripts/authoring/gen_sources_md.py` — 
 | `npcil` | [Nuclear Power Corporation of India Limited](https://www.npcil.nic.in) | Department of Atomic Energy |  |
 | `ncrtc` | [National Capital Region Transport Corporation](https://ncrtc.in) | NCRTC (Government of India and participating States) |  |
 | `dmrc` | [Delhi Metro Rail Corporation](https://www.delhimetrorail.com) | DMRC (Government of India and GNCTD) |  |
+| `thefederal` | [The Federal](https://thefederal.com) | The Federal (news, third party) | Third-party. Replace with an NPCIL or Department of Atomic Energy status page once linked. |
+| `theprint` | [ThePrint](https://theprint.in) | ThePrint (news, third party) | Third-party. |
 
 ## Tourism & heritage
 
@@ -104,12 +106,15 @@ Generated from `data/sources.json` by `scripts/authoring/gen_sources_md.py` — 
 | `vice-president-of-india` | [Vice-President of India — official website](https://vicepresidentofindia.nic.in) | Vice-President's Secretariat |  |
 | `mha-zonal-councils` | [Zonal Councils](https://www.mha.gov.in) | Ministry of Home Affairs | Basis of the region filter (Northern, Central, Eastern, Western, Southern, North-Eastern). A&N and Lakshadweep are grouped as 'Island UTs' editorially. |
 | `pmindia` | [Prime Minister's Office — news updates](https://www.pmindia.gov.in) | Prime Minister's Office |  |
+| `isro` | [Indian Space Research Organisation — news and updates](https://www.isro.gov.in) | Department of Space, Government of India |  |
 | `mh-gov` | [Government of Maharashtra departmental portals](https://www.maharashtra.gov.in) | Government of Maharashtra | Cite the specific department page in each data point's url. |
 | `kl-gov` | [Government of Kerala portal](https://kerala.gov.in) | Government of Kerala |  |
 | `dl-gov` | [Government of NCT of Delhi portal](https://delhi.gov.in) | Government of NCT of Delhi |  |
 | `la-gov` | [Union Territory of Ladakh portal](https://ladakh.gov.in) | Administration of Union Territory of Ladakh |  |
+| `tn-gov` | [Government of Tamil Nadu portal](https://www.tn.gov.in) | Government of Tamil Nadu |  |
 | `mh-lokbhavan` | [Lok Bhavan (formerly Raj Bhavan), Maharashtra](https://lokbhavan.maharashtra.gov.in) | Office of the Governor of Maharashtra |  |
 | `dl-lg` | [Office of the Lieutenant Governor, Delhi](https://lg.delhi.gov.in) | Lok Niwas, Delhi |  |
+| `tn-lokbhavan` | [Lok Bhavan (formerly Raj Bhavan), Tamil Nadu](https://lokbhavan.tn.gov.in) | Office of the Governor of Tamil Nadu |  |
 | `newsonair` | [News On AIR](https://www.newsonair.gov.in) | Prasar Bharati (public broadcaster) | Used to confirm dated public events (oaths, inaugurations) when no ministry release is available. |
 | `prs` | [PRS Bill Track](https://prsindia.org) | PRS Legislative Research (independent, non-profit) | Independent tracker of Parliament's legislative record; used for bill dates. |
 | `bar-and-bench` | [Bar & Bench](https://www.barandbench.com) | Bar & Bench (legal news, third party) | Third-party. Replace with the High Court's own notification when linked. |

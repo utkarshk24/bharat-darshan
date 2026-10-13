@@ -1,0 +1,283 @@
+{
+  "region": "IN-TN",
+  "module": "transport",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chennai is the hub: its international airport is one of the busiest in India, and the city has a metro, suburban rail and the elevated MRTS line. Other airports serve Coimbatore, Madurai, Tiruchirappalli, Thoothukudi and Salem. Three major ports — Chennai, Kamarajar (Ennore) and V. O. Chidambaranar (Thoothukudi) — handle containers, coal, cars and bulk cargo.\n\nThe rail network links every district headquarters, and the Nilgiri Mountain Railway, a UNESCO World Heritage line, climbs from Mettupalayam to Ooty on a rack-and-pinion track. The State-owned transport corporations run one of India's largest public bus fleets, and the East Coast Road runs along the shore from Chennai to Puducherry and beyond.",
+        "hi": "चेन्नई केंद्र है: इसका अंतरराष्ट्रीय हवाई अड्डा भारत के सबसे व्यस्त हवाई अड्डों में है, और शहर में मेट्रो, उपनगरीय रेल और ऊँची एमआरटीएस लाइन है। अन्य हवाई अड्डे कोयंबटूर, मदुरै, तिरुचिरापल्ली, थूथुकुडी और सेलम में हैं। तीन बड़े बंदरगाह — चेन्नई, कामराजर (एन्नोर) और वी. ओ. चिदंबरनार (थूथुकुडी) — कंटेनर, कोयला, कारें और थोक माल संभालते हैं।\n\nरेल नेटवर्क हर ज़िला मुख्यालय को जोड़ता है, और यूनेस्को विश्व धरोहर नीलगिरि पर्वतीय रेल रैक-एंड-पिनियन पटरी पर मेट्टुपालयम से ऊटी तक चढ़ती है। राज्य की परिवहन निगमें भारत के सबसे बड़े सार्वजनिक बस बेड़ों में से एक चलाती हैं, और ईस्ट कोस्ट रोड तट के साथ चेन्नई से पुदुच्चेरी और आगे तक जाती है।",
+        "mr": "चेन्नई हे केंद्र आहे: इथले आंतरराष्ट्रीय विमानतळ भारतातील सर्वांत गजबजलेल्या विमानतळांपैकी एक आहे, आणि शहरात मेट्रो, उपनगरी रेल्वे व उन्नत एमआरटीएस मार्ग आहे. इतर विमानतळ कोइंबतूर, मदुराई, तिरुचिरापल्ली, थुथुकुडी आणि सेलम येथे आहेत. तीन मोठी बंदरे — चेन्नई, कामराजर (एन्नोर) आणि व्ही. ओ. चिदंबरनार (थुथुकुडी) — कंटेनर, कोळसा, मोटारी आणि घाऊक माल हाताळतात.\n\nरेल्वे जाळे प्रत्येक जिल्हा मुख्यालय जोडते, आणि युनेस्को जागतिक वारसा असलेली निलगिरी पर्वतीय रेल्वे दातेरी रुळांवरून मेट्टुपालयमपासून ऊटीपर्यंत चढते. राज्याच्या परिवहन महामंडळांचा सार्वजनिक बसताफा भारतातील सर्वांत मोठ्यांपैकी एक आहे, आणि ईस्ट कोस्ट रोड किनाऱ्यालगत चेन्नईपासून पुदुच्चेरी व पुढे जातो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "maa",
+          "name": {
+            "en": "Chennai International Airport",
+            "hi": "चेन्नई अंतरराष्ट्रीय हवाई अड्डा",
+            "mr": "चेन्नई आंतरराष्ट्रीय विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "MAA",
+            "hi": "MAA",
+            "mr": "MAA",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cjb",
+          "name": {
+            "en": "Coimbatore International Airport",
+            "hi": "कोयंबटूर अंतरराष्ट्रीय हवाई अड्डा",
+            "mr": "कोइंबतूर आंतरराष्ट्रीय विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "CJB",
+            "hi": "CJB",
+            "mr": "CJB",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ixm",
+          "name": {
+            "en": "Madurai Airport",
+            "hi": "मदुरै हवाई अड्डा",
+            "mr": "मदुराई विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "IXM",
+            "hi": "IXM",
+            "mr": "IXM",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "trz",
+          "name": {
+            "en": "Tiruchirappalli International Airport",
+            "hi": "तिरुचिरापल्ली अंतरराष्ट्रीय हवाई अड्डा",
+            "mr": "तिरुचिरापल्ली आंतरराष्ट्रीय विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "TRZ",
+            "hi": "TRZ",
+            "mr": "TRZ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tcr",
+          "name": {
+            "en": "Thoothukudi Airport",
+            "hi": "थूथुकुडी हवाई अड्डा",
+            "mr": "थुथुकुडी विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "TCR",
+            "hi": "TCR",
+            "mr": "TCR",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sxv",
+          "name": {
+            "en": "Salem Airport",
+            "hi": "सेलम हवाई अड्डा",
+            "mr": "सेलम विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "SXV",
+            "hi": "SXV",
+            "mr": "SXV",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "ports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "chennai",
+          "name": {
+            "en": "Chennai Port",
+            "hi": "चेन्नई बंदरगाह",
+            "mr": "चेन्नई बंदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kamarajar",
+          "name": {
+            "en": "Kamarajar Port (Ennore)",
+            "hi": "कामराजर बंदरगाह (एन्नोर)",
+            "mr": "कामराजर बंदर (एन्नोर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "voc",
+          "name": {
+            "en": "V. O. Chidambaranar Port (Thoothukudi)",
+            "hi": "वी. ओ. चिदंबरनार बंदरगाह (थूथुकुडी)",
+            "mr": "व्ही. ओ. चिदंबरनार बंदर (थुथुकुडी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major ports",
+        "hi": "बड़े बंदरगाह",
+        "mr": "मोठी बंदरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "National highway length",
+            "hi": "राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Railway route length",
+            "hi": "रेलवे मार्ग की लंबाई",
+            "mr": "रेल्वे मार्गाची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Indian Railways Year Book."
+        },
+        {
+          "label": {
+            "en": "Port cargo traffic",
+            "hi": "बंदरगाह माल यातायात",
+            "mr": "बंदर मालवाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Ports, Shipping and Waterways statistics."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

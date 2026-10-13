@@ -1,0 +1,583 @@
+{
+  "region": "IN-TN",
+  "module": "people",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "At the 2011 Census Tamil Nadu had 7.21 crore people. It grew by 15.6% in the decade to 2011 and had 996 women for every 1,000 men, well above the national 943. Literacy was 80.1% (men 86.8%, women 73.1%). Almost half the population (48.4%) lived in towns and cities — among the highest shares of any large State — and the Chennai, Coimbatore and Madurai regions are heavily urbanised.\n\nTamil is the official language and the mother tongue of the large majority. Telugu, Kannada, Urdu, Malayalam and Saurashtra are spoken by significant communities, and the Nilgiris are home to Toda, Kota, Irula and Badaga communities. Scheduled Castes formed about 20.0% and Scheduled Tribes about 1.1% of the population in 2011 (calculated from the State's Census counts).",
+        "hi": "2011 की जनगणना में तमिलनाडु की जनसंख्या 7.21 करोड़ थी, । 2011 तक के दशक में यह 15.6% बढ़ी और यहाँ प्रति 1,000 पुरुषों पर 996 महिलाएँ थीं, जो राष्ट्रीय 943 से काफ़ी ऊपर है। साक्षरता 80.1% थी (पुरुष 86.8%, महिलाएँ 73.1%)। लगभग आधी आबादी (48.4%) कस्बों और शहरों में रहती थी — बड़े राज्यों में सबसे अधिक हिस्सों में से एक — और चेन्नई, कोयंबटूर और मदुरै क्षेत्र अत्यधिक शहरीकृत हैं।\n\nतमिल राजभाषा है और अधिकांश लोगों की मातृभाषा। तेलुगु, कन्नड़, उर्दू, मलयालम और सौराष्ट्र बोलने वाले बड़े समुदाय हैं, और नीलगिरि टोडा, कोटा, इरुला और बडगा समुदायों का घर है। 2011 में अनुसूचित जातियाँ लगभग 20.0% और अनुसूचित जनजातियाँ लगभग 1.1% थीं (राज्य के जनगणना आँकड़ों से गणना)।",
+        "mr": "2011 च्या जनगणनेनुसार तमिळनाडूची लोकसंख्या 7.21 कोटी होती. 2011 पर्यंतच्या दशकात ती 15.6% ने वाढली, आणि दर 1,000 पुरुषांमागे 996 स्त्रिया होत्या — राष्ट्रीय 943 पेक्षा बरेच जास्त. साक्षरता 80.1% होती (पुरुष 86.8%, स्त्रिया 73.1%). जवळपास निम्मी लोकसंख्या (48.4%) गावे-शहरांत राहत होती — मोठ्या राज्यांतील सर्वाधिक प्रमाणांपैकी एक — आणि चेन्नई, कोइंबतूर व मदुराई परिसर मोठ्या प्रमाणात नागरी आहेत.\n\nतमिळ ही राजभाषा आणि बहुसंख्यांची मातृभाषा आहे. तेलुगू, कन्नड, उर्दू, मल्याळम आणि सौराष्ट्र भाषिकांचे मोठे समुदाय आहेत, आणि निलगिरी हे तोडा, कोटा, इरुळा व बडगा समुदायांचे घर आहे. 2011 मध्ये अनुसूचित जाती सुमारे 20.0% आणि अनुसूचित जमाती सुमारे 1.1% होत्या (राज्याच्या जनगणना आकड्यांवरून गणना).",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "tn-des",
+        "census"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 72147030,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 total as published by the Department of Economics and Statistics, Tamil Nadu; matches the Puducherry DES state-wise table."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 996,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Puducherry DES state-wise table citing ORGI (987 in 2001). Tamil Nadu DES 'At a Glance' also gives 996."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 943,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PIB release of 11 Feb 2014 (RGI data). Was 942 in 2001."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 942,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 80.09,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+. Male 86.77%, female 73.14% (Tamil Nadu DES)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "urb",
+          "label": {
+            "en": "Urban population",
+            "hi": "शहरी जनसंख्या",
+            "mr": "नागरी लोकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 48.4,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.des.tn.gov.in/sites/default/files/2021-02/AT%20A%20GLANCE%202021%20%20Final%206.1.2021.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Tamil Nadu DES, 'Tamil Nadu at a Glance 2021'."
+          },
+          "kind": "percent",
+          "polarity": "neutral",
+          "national": {
+            "value": 31.1,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 555,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Tamil Nadu DES."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "growth",
+          "label": {
+            "en": "Decadal growth, 2001–2011",
+            "hi": "दशकीय वृद्धि, 2001–2011",
+            "mr": "दशकातील वाढ, 2001–2011",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 15.61,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Tamil Nadu DES."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        },
+        {
+          "id": "sc",
+          "label": {
+            "en": "Scheduled Castes, share of population",
+            "hi": "अनुसूचित जातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 20.01,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: SC population 1,44,38,445 ÷ total 7,21,47,030 (Tamil Nadu DES, Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        },
+        {
+          "id": "st",
+          "label": {
+            "en": "Scheduled Tribes, share of population",
+            "hi": "अनुसूचित जनजातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जमाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1.1,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: ST population 7,94,697 ÷ total 7,21,47,030 (Tamil Nadu DES, Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "langs",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ta",
+          "name": {
+            "en": "Tamil",
+            "hi": "तमिल",
+            "mr": "तमिळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official language",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "te",
+          "name": {
+            "en": "Telugu",
+            "hi": "तेलुगु",
+            "mr": "तेलुगू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Northern districts and cities",
+            "hi": "उत्तरी ज़िले और शहर",
+            "mr": "उत्तरेकडील जिल्हे व शहरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kn",
+          "name": {
+            "en": "Kannada",
+            "hi": "कन्नड़",
+            "mr": "कन्नड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Krishnagiri, Erode, Nilgiris",
+            "hi": "कृष्णगिरि, इरोड, नीलगिरि",
+            "mr": "कृष्णगिरी, इरोड, निलगिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ur",
+          "name": {
+            "en": "Urdu",
+            "hi": "उर्दू",
+            "mr": "उर्दू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Vellore, Chennai, Ambur",
+            "hi": "वेल्लोर, चेन्नई, आम्बूर",
+            "mr": "वेल्लोर, चेन्नई, आंबूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ml",
+          "name": {
+            "en": "Malayalam",
+            "hi": "मलयालम",
+            "mr": "मल्याळम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kanniyakumari, Coimbatore, Nilgiris",
+            "hi": "कन्याकुमारी, कोयंबटूर, नीलगिरि",
+            "mr": "कन्याकुमारी, कोइंबतूर, निलगिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "saz",
+          "name": {
+            "en": "Saurashtra",
+            "hi": "सौराष्ट्र",
+            "mr": "सौराष्ट्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Madurai and the Kaveri delta",
+            "hi": "मदुरै और कावेरी डेल्टा",
+            "mr": "मदुराई व कावेरी त्रिभुज प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bfq",
+          "name": {
+            "en": "Badaga",
+            "hi": "बडगा",
+            "mr": "बडगा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Nilgiris",
+            "hi": "नीलगिरि",
+            "mr": "निलगिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Languages",
+        "hi": "भाषाएँ",
+        "mr": "भाषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Religion shares (Census 2011, C-01)",
+            "hi": "धर्मवार हिस्सा (जनगणना 2011, C-01)",
+            "mr": "धर्मनिहाय वाटा (जनगणना 2011, C-01)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-01 table; show without commentary."
+        },
+        {
+          "label": {
+            "en": "Mother-tongue shares (Census C-16)",
+            "hi": "मातृभाषावार हिस्सा (जनगणना C-16)",
+            "mr": "मातृभाषानिहाय वाटा (जनगणना C-16)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-16."
+        },
+        {
+          "label": {
+            "en": "Current population (projected)",
+            "hi": "वर्तमान जनसंख्या (अनुमानित)",
+            "mr": "सध्याची लोकसंख्या (प्रक्षेपित)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw-projections",
+          "note": "MoHFW Technical Group projections; label as Projected."
+        },
+        {
+          "label": {
+            "en": "Particularly vulnerable tribal groups",
+            "hi": "विशेष रूप से कमज़ोर जनजातीय समूह",
+            "mr": "विशेष असुरक्षित आदिवासी गट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tribal-affairs",
+          "note": "Ministry of Tribal Affairs PVTG list for Tamil Nadu."
+        }
+      ]
+    }
+  ]
+}

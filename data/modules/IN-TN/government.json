@@ -1,0 +1,357 @@
+{
+  "region": "IN-TN",
+  "module": "government",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tamil Nadu has a unicameral legislature — the Legislative Council was abolished in 1986 — with a 234-member Legislative Assembly that meets at Fort St George, Chennai. The State elects 39 members to the Lok Sabha and 18 to the Rajya Sabha.\n\nFrom 1967 to 2026 the State was governed by one of two Dravidian parties, the DMK or the AIADMK. In the Assembly election held on 23 April 2026, with results on 4 May, the newly formed Tamilaga Vettri Kazhagam (TVK) won 108 seats and became the largest party, short of a majority. Its founder, C. Joseph Vijay, was sworn in as Chief Minister on 10 May 2026 with the support of the INC, CPI, CPI(M), VCK and IUML. The Governor, Rajendra Vishwanath Arlekar, has held additional charge of Tamil Nadu since 12 March 2026.",
+        "hi": "तमिलनाडु में एकसदनीय विधानमंडल है — विधान परिषद 1986 में समाप्त कर दी गई — जिसमें 234 सदस्यों वाली विधानसभा है, जो चेन्नई के फ़ोर्ट सेंट जॉर्ज में बैठती है। राज्य से लोकसभा के 39 और राज्यसभा के 18 सदस्य चुने जाते हैं।\n\n1967 से 2026 तक राज्य में दो द्रविड़ दलों — द्रमुक या अन्नाद्रमुक — में से किसी एक का शासन रहा। 23 अप्रैल 2026 को हुए विधानसभा चुनाव में, जिसके परिणाम 4 मई को आए, नवगठित तमिलगा वेट्री कड़गम (टीवीके) ने 108 सीटें जीतीं और बहुमत से कुछ दूर सबसे बड़ा दल बना। इसके संस्थापक सी. जोसेफ़ विजय ने कांग्रेस, भाकपा, माकपा, वीसीके और आईयूएमएल के समर्थन से 10 मई 2026 को मुख्यमंत्री पद की शपथ ली। राज्यपाल राजेंद्र विश्वनाथ आर्लेकर 12 मार्च 2026 से तमिलनाडु का अतिरिक्त प्रभार सँभाल रहे हैं।",
+        "mr": "तमिळनाडूमध्ये एकसदनी विधिमंडळ आहे — विधान परिषद 1986 मध्ये रद्द करण्यात आली — आणि 234 सदस्यांची विधानसभा चेन्नईच्या फोर्ट सेंट जॉर्जमध्ये भरते. राज्यातून लोकसभेवर 39 आणि राज्यसभेवर 18 सदस्य निवडले जातात.\n\n1967 ते 2026 या काळात राज्यात द्रमुक किंवा अण्णाद्रमुक या दोनपैकी एका द्रविड पक्षाचे सरकार होते. 23 एप्रिल 2026 रोजी झालेल्या विधानसभा निवडणुकीत, ज्याचे निकाल 4 मे रोजी लागले, नव्याने स्थापन झालेल्या तमिळगा वेट्री कळगमने (टीव्हीके) 108 जागा जिंकल्या आणि बहुमतापासून थोडा दूर राहिलेला सर्वांत मोठा पक्ष ठरला. त्याचे संस्थापक सी. जोसेफ विजय यांनी काँग्रेस, भाकप, माकप, व्हीसीके आणि आययूएमएल यांच्या पाठिंब्याने 10 मे 2026 रोजी मुख्यमंत्रिपदाची शपथ घेतली. राज्यपाल राजेंद्र विश्वनाथ आर्लेकर 12 मार्च 2026 पासून तमिळनाडूचा अतिरिक्त कार्यभार सांभाळत आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "eci",
+        "newsonair",
+        "tn-lokbhavan"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "table",
+      "id": "results",
+      "title": {
+        "en": "Legislative Assembly election, 2026 — seats won",
+        "hi": "विधानसभा चुनाव, 2026 — जीती गई सीटें",
+        "mr": "विधानसभा निवडणूक, 2026 — जिंकलेल्या जागा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Party",
+            "hi": "दल",
+            "mr": "पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Seats",
+            "hi": "सीटें",
+            "mr": "जागा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          "Tamilaga Vettri Kazhagam (TVK)",
+          108
+        ],
+        [
+          "Dravida Munnetra Kazhagam (DMK)",
+          59
+        ],
+        [
+          "All India Anna Dravida Munnetra Kazhagam (AIADMK)",
+          47
+        ],
+        [
+          "Indian National Congress (INC)",
+          5
+        ],
+        [
+          "Pattali Makkal Katchi (PMK)",
+          4
+        ],
+        [
+          {
+            "en": "Two seats each: VCK, CPI, CPI(M), IUML",
+            "hi": "दो-दो सीटें: VCK, CPI, CPI(M), IUML",
+            "mr": "प्रत्येकी दोन जागा: VCK, CPI, CPI(M), IUML",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          8
+        ],
+        [
+          {
+            "en": "One seat each: DMDK, BJP, AMMK",
+            "hi": "एक-एक सीट: DMDK, BJP, AMMK",
+            "mr": "प्रत्येकी एक जागा: DMDK, BJP, AMMK",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          3
+        ],
+        [
+          {
+            "en": "Total",
+            "hi": "कुल",
+            "mr": "एकूण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          234
+        ]
+      ],
+      "sourceId": "eci",
+      "url": "https://results.eci.gov.in/ResultAcGenMay2026/partywiseresult-S22.htm",
+      "accessDate": "2026-10-13",
+      "confidence": "Third-party verified",
+      "period": "2026",
+      "note": {
+        "en": "Seats won as declared on 4 May 2026. The Election Commission's results page loads its table dynamically and could not be read when this was compiled, so the tally was taken from news and reference compilations of the ECI result and is marked for verification. Parties are shown by seats, without colours or commentary. Several seats have since fallen vacant after resignations.",
+        "hi": "4 मई 2026 को घोषित जीती गई सीटें। चुनाव आयोग का परिणाम पेज अपनी तालिका गतिशील रूप से लोड करता है और संकलन के समय पढ़ा नहीं जा सका, इसलिए आँकड़े ईसीआई परिणाम के समाचार और संदर्भ संकलनों से लिए गए हैं और सत्यापन के लिए चिह्नित हैं। दलों को सीटों के क्रम में, बिना रंग या टिप्पणी के दिखाया गया है। इस्तीफ़ों के बाद कई सीटें खाली हुई हैं।",
+        "mr": "4 मे 2026 रोजी जाहीर झालेल्या जिंकलेल्या जागा. निवडणूक आयोगाचे निकाल पान आपली तालिका गतिमानपणे लोड करते आणि संकलनाच्या वेळी ते वाचता आले नाही, त्यामुळे आकडे ईसीआय निकालाच्या वृत्त व संदर्भ संकलनांतून घेतले असून पडताळणीसाठी चिन्हांकित आहेत. पक्ष जागांच्या क्रमाने, रंग किंवा भाष्याशिवाय दाखवले आहेत. राजीनाम्यांनंतर काही जागा रिक्त झाल्या आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "assembly",
+          "name": {
+            "en": "Tamil Nadu Legislative Assembly",
+            "hi": "तमिलनाडु विधानसभा",
+            "mr": "तमिळनाडू विधानसभा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.assembly.tn.gov.in",
+          "sourceId": "tn-gov"
+        },
+        {
+          "id": "lokbhavan",
+          "name": {
+            "en": "Lok Bhavan, Tamil Nadu (Governor)",
+            "hi": "लोक भवन, तमिलनाडु (राज्यपाल)",
+            "mr": "लोकभवन, तमिळनाडू (राज्यपाल)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://lokbhavan.tn.gov.in",
+          "sourceId": "tn-lokbhavan"
+        },
+        {
+          "id": "sec",
+          "name": {
+            "en": "Tamil Nadu State Election Commission",
+            "hi": "तमिलनाडु राज्य निर्वाचन आयोग",
+            "mr": "तमिळनाडू राज्य निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://tnsec.tn.gov.in",
+          "sourceId": "tn-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "local",
+      "title": {
+        "en": "Local bodies, 2022-23",
+        "hi": "स्थानीय निकाय, 2022-23",
+        "mr": "स्थानिक स्वराज्य संस्था, 2022-23",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Type",
+            "hi": "प्रकार",
+            "mr": "प्रकार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Number",
+            "hi": "संख्या",
+            "mr": "संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Municipal corporations",
+            "hi": "नगर निगम",
+            "mr": "महानगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          21
+        ],
+        [
+          {
+            "en": "Municipalities",
+            "hi": "नगरपालिकाएँ",
+            "mr": "नगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          142
+        ],
+        [
+          {
+            "en": "Town panchayats",
+            "hi": "नगर पंचायतें",
+            "mr": "नगर पंचायती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          528
+        ],
+        [
+          {
+            "en": "Village panchayats",
+            "hi": "ग्राम पंचायतें",
+            "mr": "ग्रामपंचायती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "12,525"
+        ]
+      ],
+      "sourceId": "tn-des",
+      "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+      "accessDate": "2026-10-13",
+      "confidence": "Official",
+      "period": "2022-23"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official 2026 results table (ECI Form-20)",
+            "hi": "2026 का आधिकारिक परिणाम (ईसीआई फ़ॉर्म-20)",
+            "mr": "2026 चा अधिकृत निकाल (ईसीआय फॉर्म-20)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "Replace the compiled tally with the ECI statistical report once published."
+        },
+        {
+          "label": {
+            "en": "Leader of Opposition — formal recognition",
+            "hi": "विपक्ष के नेता — औपचारिक मान्यता",
+            "mr": "विरोधी पक्षनेते — औपचारिक मान्यता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tn-gov",
+          "note": "Assembly website or Gazette notification."
+        },
+        {
+          "label": {
+            "en": "Flagship welfare schemes",
+            "hi": "प्रमुख कल्याण योजनाएँ",
+            "mr": "प्रमुख कल्याणकारी योजना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tn-gov",
+          "note": "List with official scheme pages and current status."
+        }
+      ]
+    }
+  ]
+}

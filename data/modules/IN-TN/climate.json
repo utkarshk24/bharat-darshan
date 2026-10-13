@@ -1,0 +1,244 @@
+{
+  "region": "IN-TN",
+  "module": "climate",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tamil Nadu's rainfall calendar is the reverse of most of India. The Western Ghats block much of the south-west monsoon (June–September), so the coast gets most of its rain from the north-east monsoon in October to December, often with cyclones from the Bay of Bengal. The interior gets a share of both seasons. The State's normal annual rainfall was 966.8 mm in the 2022-23 reference year of the Tamil Nadu statistics department.\n\nThe plains are hot for most of the year — April to June is the peak, with Chennai's humidity making it feel hotter — while December to February is mild and pleasant. The hill stations of Ooty (Udhagamandalam), Kodaikanal and Yercaud stay cool, with frost on some winter nights in the Nilgiris.",
+        "hi": "तमिलनाडु का वर्षा कैलेंडर अधिकांश भारत से उल्टा है। पश्चिमी घाट दक्षिण-पश्चिम मानसून (जून–सितंबर) का बड़ा हिस्सा रोक लेते हैं, इसलिए तट को अधिकतर वर्षा अक्टूबर से दिसंबर में उत्तर-पूर्व मानसून से मिलती है, अक्सर बंगाल की खाड़ी के चक्रवातों के साथ। भीतरी भाग को दोनों मौसमों का हिस्सा मिलता है। तमिलनाडु सांख्यिकी विभाग के 2022-23 संदर्भ वर्ष में राज्य की सामान्य वार्षिक वर्षा 966.8 मिमी थी।\n\nमैदान साल के अधिकांश समय गर्म रहते हैं — अप्रैल से जून चरम होता है, और चेन्नई की उमस इसे और गर्म महसूस कराती है — जबकि दिसंबर से फ़रवरी हल्का और सुहावना रहता है। ऊटी (उदगमंडलम), कोडैकनाल और येरकॉड के हिल स्टेशन ठंडे रहते हैं; नीलगिरि में सर्दियों की कुछ रातों में पाला भी पड़ता है।",
+        "mr": "तमिळनाडूचे पावसाचे वेळापत्रक बहुतांश भारताच्या उलट आहे. पश्चिम घाट नैर्ऋत्य मोसमी पावसाचा (जून–सप्टेंबर) मोठा भाग अडवतो, त्यामुळे किनारपट्टीला बहुतेक पाऊस ऑक्टोबर ते डिसेंबरदरम्यान ईशान्य मोसमी वाऱ्यांपासून मिळतो — अनेकदा बंगालच्या उपसागरातील चक्रीवादळांसह. अंतर्गत भागाला दोन्ही हंगामांचा वाटा मिळतो. तमिळनाडू सांख्यिकी विभागाच्या 2022-23 संदर्भ वर्षात राज्याचा सरासरी वार्षिक पाऊस 966.8 मिमी होता.\n\nमैदानी भाग वर्षातील बहुतेक काळ उष्ण असतो — एप्रिल ते जून हा कळस, आणि चेन्नईची आर्द्रता उष्मा अधिक जाणवायला लावते — तर डिसेंबर ते फेब्रुवारी सौम्य आणि आल्हाददायक असतो. ऊटी (उदगमंडलम), कोडैकनाल आणि येरकॉड ही थंड हवेची ठिकाणे गार राहतात; निलगिरीत हिवाळ्यातील काही रात्री दवबिंदू गोठतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "tn-des"
+      ],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "rain",
+          "label": {
+            "en": "Normal annual rainfall (State)",
+            "hi": "सामान्य वार्षिक वर्षा (राज्य)",
+            "mr": "सरासरी वार्षिक पाऊस (राज्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 966.8,
+            "unit": "mm",
+            "period": "FY2022-23",
+            "periodType": "fy",
+            "sourceId": "tn-des",
+            "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Tamil Nadu DES, 'Tamil Nadu at a Glance', for June 2022–May 2023 (actual that year: 1,170.6 mm)."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Chennai",
+            "hi": "चेन्नई",
+            "mr": "चेन्नई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 13.0827,
+          "lon": 80.2707
+        },
+        {
+          "name": {
+            "en": "Madurai",
+            "hi": "मदुरै",
+            "mr": "मदुराई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 9.9252,
+          "lon": 78.1198
+        },
+        {
+          "name": {
+            "en": "Coimbatore",
+            "hi": "कोयंबटूर",
+            "mr": "कोइंबतूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 11.0168,
+          "lon": 76.9558
+        },
+        {
+          "name": {
+            "en": "Ooty (Udhagamandalam)",
+            "hi": "ऊटी (उदगमंडलम)",
+            "mr": "ऊटी (उदगमंडलम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 11.4102,
+          "lon": 76.695
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "November to February",
+            "hi": "नवंबर से फ़रवरी",
+            "mr": "नोव्हेंबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Most comfortable on the plains; temple towns, Chennai's music season and Pongal in mid-January.",
+            "hi": "मैदानों में सबसे सुहावना; मंदिर नगर, चेन्नई का संगीत सीज़न और जनवरी के मध्य में पोंगल।",
+            "mr": "मैदानी भागात सर्वांत आल्हाददायक; मंदिरनगरे, चेन्नईचा संगीत हंगाम आणि जानेवारीच्या मध्यात पोंगल.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "April to June",
+            "hi": "अप्रैल से जून",
+            "mr": "एप्रिल ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hot on the plains; the season for the Nilgiris, Kodaikanal and Yercaud.",
+            "hi": "मैदानों में गर्मी; नीलगिरि, कोडैकनाल और येरकॉड का मौसम।",
+            "mr": "मैदानांत उष्मा; निलगिरी, कोडैकनाल व येरकॉडचा हंगाम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ne",
+          "name": {
+            "en": "October to December",
+            "hi": "अक्टूबर से दिसंबर",
+            "mr": "ऑक्टोबर ते डिसेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "North-east monsoon: heavy rain and cyclone risk on the coast; check IMD alerts.",
+            "hi": "उत्तर-पूर्व मानसून: तट पर भारी वर्षा और चक्रवात का ख़तरा; आईएमडी अलर्ट देखें।",
+            "mr": "ईशान्य मोसमी पाऊस: किनाऱ्यावर मुसळधार पाऊस व चक्रीवादळाचा धोका; आयएमडी इशारे पाहा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Monthly temperature and rainfall normals",
+            "hi": "मासिक तापमान और वर्षा सामान्य",
+            "mr": "मासिक तापमान व पर्जन्य सरासरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD climatological normals for Chennai, Madurai, Coimbatore, Ooty."
+        },
+        {
+          "label": {
+            "en": "Seasonal rainfall split (south-west vs north-east monsoon)",
+            "hi": "मौसमी वर्षा विभाजन (दक्षिण-पश्चिम बनाम उत्तर-पूर्व मानसून)",
+            "mr": "हंगामनिहाय पाऊस (नैर्ऋत्य विरुद्ध ईशान्य मोसमी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD Tamil Nadu sub-division statistics."
+        },
+        {
+          "label": {
+            "en": "Climate-change vulnerability",
+            "hi": "जलवायु परिवर्तन संवेदनशीलता",
+            "mr": "हवामान बदल असुरक्षितता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ndma",
+          "note": "Tamil Nadu State Action Plan on Climate Change."
+        }
+      ]
+    }
+  ]
+}

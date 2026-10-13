@@ -1,0 +1,358 @@
+{
+  "region": "IN-TN",
+  "module": "geography",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tamil Nadu falls into a few broad landscapes. Along the east runs a long, low coastal plain — the Coromandel Coast — with lagoons such as Pulicat, beaches and mangroves at Pichavaram. Inland, a dry, rolling plateau of red soils and scattered rocky hills stretches to the Western Ghats, which rise along the western border into the Nilgiris, the Anamalai and the Palani hills; Doddabetta in the Nilgiris is the highest point in the State. The Eastern Ghats appear as isolated ranges — the Javadhu, Shevaroy (Yercaud) and Kolli hills.\n\nThe Kaveri is the lifeline. It enters from Karnataka, is held by the Mettur dam and fans out into a broad delta around Thanjavur, the State's historic rice bowl. Other rivers — the Vaigai, Thamirabarani, Palar and Pennaiyar — are shorter and more seasonal. At Rameswaram a chain of shoals runs towards Sri Lanka across the Palk Strait, and at Kanniyakumari three seas meet.",
+        "hi": "तमिलनाडु कुछ बड़े भूदृश्यों में बँटा है। पूर्व में एक लंबा, निचला तटीय मैदान — कोरोमंडल तट — है, जिसमें पुलिकट जैसे लैगून, समुद्र तट और पिच्चावरम के मैंग्रोव हैं। भीतर की ओर लाल मिट्टी और बिखरी चट्टानी पहाड़ियों वाला सूखा, लहरदार पठार पश्चिमी घाट तक फैला है, जो पश्चिमी सीमा पर नीलगिरि, अनामलै और पलनी पहाड़ियों के रूप में उठते हैं; नीलगिरि का दोड्डाबेट्टा राज्य का सबसे ऊँचा बिंदु है। पूर्वी घाट अलग-अलग पहाड़ियों के रूप में दिखते हैं — जव्वादु, शेवरॉय (येरकॉड) और कोल्ली पहाड़ियाँ।\n\nकावेरी जीवनरेखा है। यह कर्नाटक से आती है, मेट्टूर बाँध में रोकी जाती है और तंजावुर के आसपास एक चौड़े डेल्टा में फैल जाती है, जो राज्य का ऐतिहासिक धान का कटोरा है। अन्य नदियाँ — वैगै, ताम्रपर्णी, पालार और पेन्नैयार — छोटी और अधिक मौसमी हैं। रामेश्वरम से पाक जलडमरूमध्य के पार श्रीलंका की ओर रेतीले टीलों की एक शृंखला जाती है, और कन्याकुमारी में तीन समुद्र मिलते हैं।",
+        "mr": "तमिळनाडूचे काही ठळक भूप्रदेश आहेत. पूर्वेकडे लांब, सखल किनारी मैदान — कोरोमंडल किनारा — असून त्यात पुलिकतसारखे खारकच्छ, समुद्रकिनारे आणि पिच्चावरमची खारफुटी आहे. आतल्या भागात तांबड्या मातीचे, विखुरलेल्या खडकाळ टेकड्यांचे कोरडे, उंचसखल पठार पश्चिम घाटापर्यंत पसरले आहे; पश्चिम सीमेवर घाट निलगिरी, अनामलै आणि पळनी डोंगररांगांच्या रूपाने उंचावतो, आणि निलगिरीतील दोड्डाबेट्टा हे राज्यातील सर्वोच्च ठिकाण आहे. पूर्व घाट सुट्या डोंगररांगांच्या रूपात दिसतो — जव्वादू, शेवरॉय (येरकॉड) आणि कोल्ली डोंगर.\n\nकावेरी ही जीवनरेखा आहे. ती कर्नाटकातून येते, मेट्टूर धरणात अडवली जाते आणि तंजावूरभोवती विस्तीर्ण त्रिभुज प्रदेशात पसरते — राज्याचे ऐतिहासिक भाताचे कोठार. इतर नद्या — वैगै, ताम्रपर्णी, पालार आणि पेन्नैयार — लहान आणि अधिक हंगामी आहेत. रामेश्वरमपासून पाल्क सामुद्रधुनी ओलांडून श्रीलंकेकडे वाळूच्या उथळ पट्ट्यांची मालिका जाते, आणि कन्याकुमारीला तीन समुद्र मिळतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 130060,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026). The State gives 1,30,058 km²."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        },
+        {
+          "id": "coast",
+          "label": {
+            "en": "Coastline",
+            "hi": "तटरेखा",
+            "mr": "किनारपट्टी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1076,
+            "unit": "km",
+            "period": "FY2022-23",
+            "periodType": "fy",
+            "sourceId": "tn-des",
+            "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Tamil Nadu DES, 'Tamil Nadu at a Glance' (2022-23)."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ap",
+          "name": {
+            "en": "Andhra Pradesh (north)",
+            "hi": "आंध्र प्रदेश (उत्तर)",
+            "mr": "आंध्र प्रदेश (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ka",
+          "name": {
+            "en": "Karnataka (north-west)",
+            "hi": "कर्नाटक (उत्तर-पश्चिम)",
+            "mr": "कर्नाटक (वायव्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kl",
+          "name": {
+            "en": "Keralam (west)",
+            "hi": "केरलम (पश्चिम)",
+            "mr": "केरळम (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "py",
+          "name": {
+            "en": "Puducherry (enclaves)",
+            "hi": "पुदुच्चेरी (अंतःक्षेत्र)",
+            "mr": "पुदुच्चेरी (परिक्षेत्रे)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bay",
+          "name": {
+            "en": "Bay of Bengal (east)",
+            "hi": "बंगाल की खाड़ी (पूर्व)",
+            "mr": "बंगालचा उपसागर (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lk",
+          "name": {
+            "en": "Sri Lanka, across the Palk Strait",
+            "hi": "पाक जलडमरूमध्य के पार श्रीलंका",
+            "mr": "पाल्क सामुद्रधुनीपलीकडे श्रीलंका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kaveri",
+          "name": {
+            "en": "Kaveri (Cauvery)",
+            "hi": "कावेरी",
+            "mr": "कावेरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Enters from Karnataka; Mettur dam; Grand Anicut (Kallanai) near Thanjavur; feeds the delta.",
+            "hi": "कर्नाटक से आती है; मेट्टूर बाँध; तंजावुर के पास ग्रैंड अनिकट (कल्लणै); डेल्टा को सींचती है।",
+            "mr": "कर्नाटकातून येते; मेट्टूर धरण; तंजावूरजवळील ग्रँड अनिकट (कल्लणै); त्रिभुज प्रदेशाला पाणी देते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vaigai",
+          "name": {
+            "en": "Vaigai",
+            "hi": "वैगै",
+            "mr": "वैगै",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows past Madurai to the Palk Bay; seasonal in its lower course.",
+            "hi": "मदुरै से होकर पाक खाड़ी तक बहती है; निचले भाग में मौसमी।",
+            "mr": "मदुराईजवळून पाल्क उपसागराकडे वाहते; खालच्या भागात हंगामी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thamirabarani",
+          "name": {
+            "en": "Thamirabarani",
+            "hi": "ताम्रपर्णी",
+            "mr": "ताम्रपर्णी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Perennial river of the far south, through Tirunelveli to the Gulf of Mannar.",
+            "hi": "सुदूर दक्षिण की बारहमासी नदी, तिरुनेलवेली से होकर मन्नार की खाड़ी तक।",
+            "mr": "दक्षिण टोकाची बारमाही नदी, तिरुनेलवेलीतून मन्नारच्या आखाताकडे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "palar",
+          "name": {
+            "en": "Palar",
+            "hi": "पालार",
+            "mr": "पालार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Northern river through Vellore and Kancheepuram; largely dry outside the monsoon.",
+            "hi": "वेल्लोर और कांचीपुरम से होकर बहने वाली उत्तरी नदी; मानसून के बाहर अधिकतर सूखी।",
+            "mr": "वेल्लोर व कांचीपुरममधून वाहणारी उत्तरेकडील नदी; पावसाळ्याबाहेर बहुतांश कोरडी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhavani",
+          "name": {
+            "en": "Bhavani",
+            "hi": "भवानी",
+            "mr": "भवानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises in the Nilgiris; Bhavanisagar dam; joins the Kaveri at Bhavani.",
+            "hi": "नीलगिरि से निकलती है; भवानीसागर बाँध; भवानी में कावेरी से मिलती है।",
+            "mr": "निलगिरीत उगम; भवानीसागर धरण; भवानी येथे कावेरीला मिळते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Highest-point elevation (official)",
+            "hi": "सर्वोच्च बिंदु की ऊँचाई (आधिकारिक)",
+            "mr": "सर्वोच्च बिंदूची उंची (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Editorial text avoids an exact figure until an official one is linked."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        },
+        {
+          "label": {
+            "en": "Latitude and longitude extent",
+            "hi": "अक्षांश-देशांतर विस्तार",
+            "mr": "अक्षांश-रेखांश विस्तार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India or the State gazetteer."
+        }
+      ]
+    }
+  ]
+}

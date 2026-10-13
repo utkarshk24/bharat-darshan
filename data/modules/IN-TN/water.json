@@ -1,0 +1,81 @@
+{
+  "region": "IN-TN",
+  "module": "water",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Water is a defining issue in Tamil Nadu. Most of the State lies in the rain shadow of the Western Ghats and depends on the north-east monsoon, so storage and sharing matter enormously. The Kaveri's waters have long been shared with Karnataka under tribunal awards and Supreme Court orders, now administered by the Cauvery Water Management Authority; the Mettur dam (1934) and the ancient Grand Anicut (Kallanai) regulate the flow into the delta.\n\nFor centuries villages have depended on networks of tanks (eris) that store monsoon run-off for irrigation and recharge groundwater. Chennai draws on several reservoirs, Krishna water from Andhra Pradesh and the Veeranam lake, and runs seawater desalination plants; floods in 2015 and droughts in 2017 and 2019 showed how exposed the city is to both extremes.",
+        "hi": "तमिलनाडु में पानी एक निर्णायक मुद्दा है। राज्य का अधिकांश भाग पश्चिमी घाट की वृष्टि-छाया में है और उत्तर-पूर्व मानसून पर निर्भर है, इसलिए भंडारण और बँटवारा बहुत मायने रखते हैं। कावेरी का पानी लंबे समय से न्यायाधिकरण के निर्णयों और सर्वोच्च न्यायालय के आदेशों के तहत कर्नाटक के साथ बँटता रहा है, जिसका प्रबंधन अब कावेरी जल प्रबंधन प्राधिकरण करता है; मेट्टूर बाँध (1934) और प्राचीन ग्रैंड अनिकट (कल्लणै) डेल्टा में बहाव को नियंत्रित करते हैं।\n\nसदियों से गाँव तालाबों (एरी) के जाल पर निर्भर रहे हैं, जो सिंचाई के लिए मानसून का पानी जमा करते हैं और भूजल को भरते हैं। चेन्नई कई जलाशयों, आंध्र प्रदेश से आने वाले कृष्णा जल और वीरानम झील पर निर्भर है, और समुद्री जल के विलवणीकरण संयंत्र भी चलाता है; 2015 की बाढ़ और 2017 व 2019 के सूखे ने दिखाया कि शहर दोनों अतियों के सामने कितना असुरक्षित है।",
+        "mr": "तमिळनाडूत पाणी हा निर्णायक प्रश्न आहे. राज्याचा बहुतांश भाग पश्चिम घाटाच्या पर्जन्यछायेत असून ईशान्य मोसमी पावसावर अवलंबून आहे, त्यामुळे साठवण आणि वाटप फार महत्त्वाचे ठरते. कावेरीचे पाणी दीर्घकाळापासून लवाद निवाडे व सर्वोच्च न्यायालयाच्या आदेशांनुसार कर्नाटकसोबत वाटले जाते, आणि आता त्याचे व्यवस्थापन कावेरी जल व्यवस्थापन प्राधिकरण करते; मेट्टूर धरण (1934) आणि प्राचीन ग्रँड अनिकट (कल्लणै) त्रिभुज प्रदेशातील प्रवाह नियंत्रित करतात.\n\nशतकानुशतके गावे तलावांच्या (एरी) जाळ्यावर अवलंबून राहिली आहेत — ते सिंचनासाठी पावसाचे पाणी साठवतात आणि भूजल पुनर्भरण करतात. चेन्नई अनेक जलाशय, आंध्र प्रदेशातून येणारे कृष्णेचे पाणी आणि वीरानम तलावावर अवलंबून आहे, आणि समुद्राचे पाणी गोडे करणारे प्रकल्पही चालवते; 2015 चा पूर आणि 2017 व 2019 चा दुष्काळ यांनी शहर दोन्ही टोकांना किती असुरक्षित आहे हे दाखवले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Large dams (count) and storage",
+            "hi": "बड़े बाँध (संख्या) और भंडारण",
+            "mr": "मोठी धरणे (संख्या) व साठा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tn-gov",
+          "note": "Central Water Commission National Register of Large Dams."
+        },
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tn-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Number of irrigation tanks",
+            "hi": "सिंचाई तालाबों की संख्या",
+            "mr": "सिंचन तलावांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tn-gov",
+          "note": "Water Resources Department."
+        },
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        }
+      ]
+    }
+  ]
+}

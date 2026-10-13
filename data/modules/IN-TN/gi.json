@@ -1,0 +1,61 @@
+{
+  "region": "IN-TN",
+  "module": "gi",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tamil Nadu has 74 Geographical Indications under its own name in the GI Registry's list as on 31 December 2025 — 40 handicrafts, 23 agricultural products, 9 foodstuffs and 2 manufactured goods — one of the longest lists of any State; two more, Malabar pepper and Alleppey green cardamom, are shared with Keralam and appear under Keralam in this directory. Salem fabric was among the very first GIs filed in India (2004), and Kancheepuram silk followed the same year. The list spans Thanjavur's paintings, art plates, dolls and veena, Swamimalai bronzes, Madurai's jasmine and sungudi saris, sweets such as Srivilliputtur palkova, Kovilpatti kadalai mittai and Palani panchamirtham, and industrial products such as Dindigul locks and the Coimbatore wet grinder.",
+        "hi": "जीआई रजिस्ट्री की 31 दिसंबर 2025 की सूची में तमिलनाडु के अपने नाम से 74 भौगोलिक संकेतक हैं — 40 हस्तशिल्प, 23 कृषि उत्पाद, 9 खाद्य पदार्थ और 2 विनिर्मित वस्तुएँ — जो किसी भी राज्य की सबसे लंबी सूचियों में है; दो और, मलबार काली मिर्च और अलेप्पी हरी इलायची, केरलम के साथ साझा हैं और इस निर्देशिका में केरलम के अंतर्गत दिखते हैं। सेलम वस्त्र भारत में दर्ज पहले जीआई में था (2004), और उसी वर्ष कांचीपुरम रेशम भी। सूची में तंजावुर की चित्रकला, कला थालियाँ, गुड़ियाँ और वीणा, स्वामीमलै की कांस्य प्रतिमाएँ, मदुरै की चमेली और सुंगुडी साड़ियाँ, श्रीविल्लिपुत्तूर पालकोवा, कोविलपट्टी कडलै मिट्टाई और पलनी पंचामृतम जैसी मिठाइयाँ, और डिंडीगुल ताले व कोयंबटूर वेट ग्राइंडर जैसे औद्योगिक उत्पाद शामिल हैं।",
+        "mr": "जीआय रजिस्ट्रीच्या 31 डिसेंबर 2025 च्या यादीत तमिळनाडूच्या स्वतःच्या नावाने 74 भौगोलिक मानांकने आहेत — 40 हस्तकला, 23 कृषी उत्पादने, 9 खाद्यपदार्थ आणि 2 उत्पादित वस्तू — कोणत्याही राज्याच्या सर्वांत मोठ्या यादींपैकी एक; आणखी दोन, मलबार मिरी आणि अलेप्पी हिरवी वेलची, केरळमसोबत सामायिक असून या सूचीत केरळमखाली दिसतात. सेलम वस्त्र हे भारतात दाखल झालेल्या पहिल्या जीआयपैकी एक होते (2004), आणि त्याच वर्षी कांचीपुरम रेशीमही. यादीत तंजावूरची चित्रकला, कलात्मक ताटे, बाहुल्या आणि वीणा, स्वामीमलैच्या कांस्य मूर्ती, मदुराईचा मोगरा आणि सुंगुडी साड्या, श्रीविल्लिपुत्तूर पालकोवा, कोविलपट्टी कडलै मिट्टाई व पळनी पंचामृतमसारख्या मिठाया, आणि दिंडीगुल कुलपे व कोइंबतूर वेट ग्राइंडरसारखी औद्योगिक उत्पादने आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "gi-registry"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "gi",
+      "id": "gi"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Registration year and producing region for each GI",
+            "hi": "हर जीआई का पंजीकरण वर्ष और उत्पादन क्षेत्र",
+            "mr": "प्रत्येक जीआयचे नोंदणी वर्ष व उत्पादन क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "gi-registry",
+          "note": "GI public search, certificate details."
+        },
+        {
+          "label": {
+            "en": "One District One Product (ODOP) items",
+            "hi": "एक ज़िला एक उत्पाद (ओडीओपी)",
+            "mr": "एक जिल्हा एक उत्पादन (ओडीओपी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dpiit",
+          "note": "DPIIT ODOP list for Tamil Nadu."
+        }
+      ]
+    }
+  ]
+}

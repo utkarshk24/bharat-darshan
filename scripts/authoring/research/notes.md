@@ -75,3 +75,16 @@
 - UP Census (UP DES "UP at a glance 2022" / UP in figures 2022, https://updes.up.nic.in/updes/data/upinfigures/up%20in%20figures-%202022.pdf): pop 199,812,341 (M 104,480,510; F 95,331,831); urban 22.27%; density 829; sex ratio 912; literacy 67.7 (M 77.3, F 57.2).
 - Puducherry DES state-wise population table (https://statistics.py.gov.in/state-wise-population) confirms TN 72,147,030 / 996, UP 199,812,341 / 912, MH 112,374,333 / 929, KL 33,406,061 / 1084.
 - National officeholders: President Droupadi Murmu (sworn in 25 Jul 2022; presidentofindia.gov.in); VP C. P. Radhakrishnan (vicepresidentofindia.nic.in, page updated 2 Sep 2026); PM Narendra Modi (pmindia.gov.in, news 12 Oct 2026); Lok Sabha Speaker Om Birla (newsonair 2 May 2026 — reconstituted committees; a removal resolution was listed in March 2026).
+
+# Tamil Nadu (accessed 2026-10-13) — Phase 3 batch 1
+- Governor: Rajendra Vishwanath Arlekar, additional charge from 12 Mar 2026 (lokbhavan.tn.gov.in/?p=15099); also Governor of Keralam. Predecessor R. N. Ravi → West Bengal.
+- CM C. Joseph Vijay (TVK) sworn in 10 May 2026, 9 ministers, support INC/CPI/CPI(M)/VCK/IUML = 120 of 234 (newsonair). Speaker J. C. D. Prabhakar (TVK) 12 May 2026; Dy Speaker Ravisankar (Thoraiyur). LoP Udhayanidhi Stalin (DMK) per newsonair 12 May.
+- 2026 election: poll 23 Apr, count 4 May. TVK 108, DMK 59, AIADMK 47, INC 5, PMK 4, VCK/CPI/CPI(M)/IUML 2 each, DMDK/BJP/AMMK 1 each = 234. ECI pages render via JS (unreadable) → marked Third-party verified.
+- TN DES 'At a Glance' (2022-23): 38 districts, 314 taluks, 16,743 revenue villages, coastline 1,076 km, decadal growth 15.61%, SC 1,44,38,445, ST 7,94,697, literacy M 86.77 F 73.14, rainfall normal 966.8 mm (actual 1,170.6), local bodies 21/142/528/12,525, LE 73.2 (2016-20), crops table. Sex ratio given as both 917 and 996 in the document; IMR 12.5 vs 13 → not used.
+- SRS 2021 (PIB PRID 2128024): TN MMR 49, U5MR 14, NMR 9; KA MMR 63, U5MR 21; GJ MMR 53, U5MR 24; WB U5MR 20; UP not listed.
+- Tourism LS USQ 3834 (16.03.2026): TN DTV/FTV 2016–2025 (2025 provisional 35,70,95,556 / 15,45,988); India 2025 4,13,28,40,356 / 2,40,18,320. Only Manipur and TN listed separately.
+- Ramsar (MoEFCC list 21.04.2026): TN 20 sites (table in tn_mod3.py).
+- Forest (LS AU1550): TN 26,511.18 → 26,450.22; KA GA 1,91,791, 39,106.57 → 39,254.27; GJ GA 1,96,244, 14,836.57 → 15,016.64; WB GA 88,752, 16,782.11 → 16,832.33; UP 14,927.37 → 15,045.80.
+- GI: 74 TN entries (gi_tn.tsv); Malabar pepper and Alleppey cardamom are under KL (shared).
+- Projects: Chennai Metro Ph II ₹63,246 cr, 118.9 km, 128 stns (Cabinet 3 Oct 2024, pmindia); Poonamallee–Vadapalani 14.6 km opened 11 Oct 2026 (newsonair). New Pamban bridge 2.08 km, >₹700 cr, 6 Apr 2025 (pmindia). Kulasekarapattinam spaceport foundation 28 Feb 2024 (isro.gov.in). Kudankulam 3–4 ~81% / 5–6 ~42% (Jan 2026) per The Federal (third party).
+- MoSPI: TN GSVA FY2024-25 by industry saved in mospi_tn.json; AISHE GER 2017-18..2021-22 saved.

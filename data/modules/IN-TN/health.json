@@ -1,0 +1,437 @@
+{
+  "region": "IN-TN",
+  "module": "health",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tamil Nadu has strong public health outcomes. In the Sample Registration System, its maternal mortality was 49 per lakh live births in 2019-21 (India 93) and under-five mortality 14 per 1,000 live births in 2021 (India 31); it was one of only six States and UTs that had already met the SDG target for neonatal mortality. Almost all births (99.6% in NFHS-5) take place in health facilities, and child stunting fell from 27.1% in NFHS-4 to 25.0% in NFHS-5.\n\nThe public system is built around primary health centres and district hospitals, with a large network of government medical colleges; Chennai and Vellore are major destinations for specialist care, including for patients from other States and countries. Life expectancy at birth was 73.2 years in 2016-20.",
+        "hi": "तमिलनाडु के सार्वजनिक स्वास्थ्य परिणाम मज़बूत हैं। नमूना पंजीकरण प्रणाली में यहाँ 2019-21 में मातृ मृत्यु अनुपात प्रति लाख जीवित जन्म पर 49 (भारत 93) और 2021 में पाँच वर्ष से कम आयु की मृत्यु दर प्रति 1,000 जीवित जन्म पर 14 (भारत 31) थी; यह उन केवल छह राज्यों/केंद्र शासित प्रदेशों में था जो नवजात मृत्यु दर का एसडीजी लक्ष्य पहले ही पा चुके थे। लगभग सभी प्रसव (एनएफ़एचएस-5 में 99.6%) स्वास्थ्य संस्थानों में होते हैं, और बच्चों में ठिगनापन एनएफ़एचएस-4 के 27.1% से घटकर एनएफ़एचएस-5 में 25.0% रह गया।\n\nसार्वजनिक व्यवस्था प्राथमिक स्वास्थ्य केंद्रों और ज़िला अस्पतालों पर आधारित है, साथ में सरकारी मेडिकल कॉलेजों का बड़ा नेटवर्क है; चेन्नई और वेल्लोर विशेषज्ञ इलाज के बड़े केंद्र हैं, जहाँ दूसरे राज्यों और देशों से भी मरीज़ आते हैं। 2016-20 में जन्म के समय जीवन प्रत्याशा 73.2 वर्ष थी।",
+        "mr": "तमिळनाडूचे सार्वजनिक आरोग्य परिणाम भक्कम आहेत. नमुना नोंदणी पद्धतीनुसार येथे 2019-21 मध्ये मातामृत्यू प्रमाण दर लाख जिवंत जन्मांमागे 49 (भारत 93) आणि 2021 मध्ये पाच वर्षांखालील मृत्युदर दर 1,000 जिवंत जन्मांमागे 14 (भारत 31) होता; नवजात मृत्युदराचे एसडीजी उद्दिष्ट आधीच गाठलेल्या केवळ सहा राज्य/केंद्रशासित प्रदेशांपैकी हे एक होते. जवळपास सर्व प्रसूती (एनएफएचएस-5 मध्ये 99.6%) आरोग्य संस्थांत होतात, आणि मुलांमधील खुजेपणा एनएफएचएस-4 मधील 27.1% वरून एनएफएचएस-5 मध्ये 25.0% वर आला.\n\nसार्वजनिक व्यवस्था प्राथमिक आरोग्य केंद्रे आणि जिल्हा रुग्णालयांवर उभी आहे, सोबत सरकारी वैद्यकीय महाविद्यालयांचे मोठे जाळे आहे; चेन्नई व वेल्लोर ही विशेषज्ञ उपचारांची मोठी केंद्रे असून इतर राज्ये व देशांतूनही रुग्ण येतात. 2016-20 मध्ये जन्मतः आयुर्मान 73.2 वर्षे होते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "srs",
+        "nfhs",
+        "tn-des"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "srs",
+      "items": [
+        {
+          "id": "mmr",
+          "label": {
+            "en": "Maternal mortality ratio",
+            "hi": "मातृ मृत्यु अनुपात",
+            "mr": "मातामृत्यू प्रमाण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 49,
+            "unit": "per 1,00,000 live births",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "srs",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128024&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS special bulletin, via PIB (10 May 2025)."
+          },
+          "kind": "number",
+          "polarity": "lower-is-better",
+          "national": {
+            "value": 93,
+            "unit": "per 1,00,000 live births",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "srs",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128024&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "u5mr",
+          "label": {
+            "en": "Under-five mortality rate",
+            "hi": "पाँच वर्ष से कम आयु की मृत्यु दर",
+            "mr": "पाच वर्षांखालील मृत्युदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 14,
+            "unit": "per 1,000 live births",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128024&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS 2021, via PIB (10 May 2025)."
+          },
+          "kind": "number",
+          "polarity": "lower-is-better",
+          "national": {
+            "value": 31,
+            "unit": "per 1,000 live births",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128024&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "nmr",
+          "label": {
+            "en": "Neonatal mortality rate",
+            "hi": "नवजात मृत्यु दर",
+            "mr": "नवजात मृत्युदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 9,
+            "unit": "per 1,000 live births",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128024&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "lower-is-better",
+          "national": {
+            "value": 19,
+            "unit": "per 1,000 live births",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128024&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "le",
+          "label": {
+            "en": "Life expectancy at birth",
+            "hi": "जन्म के समय जीवन प्रत्याशा",
+            "mr": "जन्मतः आयुर्मान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 73.2,
+            "unit": "years",
+            "period": "2016-20",
+            "periodType": "survey",
+            "sourceId": "srs",
+            "url": "https://des.tn.gov.in/sites/default/files/2024-01/At_a_glance_%2029_12_2023.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS abridged life table 2016-20, as published by Tamil Nadu DES (male 71.0, female 75.5)."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better"
+        }
+      ],
+      "title": {
+        "en": "Mortality (Sample Registration System)",
+        "hi": "मृत्यु दर (नमूना पंजीकरण प्रणाली)",
+        "mr": "मृत्युदर (नमुना नोंदणी पद्धत)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "facts",
+      "id": "nfhs",
+      "items": [
+        {
+          "id": "stunt",
+          "label": {
+            "en": "Stunted children under 5",
+            "hi": "5 वर्ष से कम आयु के ठिगने बच्चे",
+            "mr": "5 वर्षांखालील खुजी मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 25.04,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 27.1,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 35.47,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "waste",
+          "label": {
+            "en": "Wasted children under 5",
+            "hi": "5 वर्ष से कम आयु के दुबले (वेस्टेड) बच्चे",
+            "mr": "5 वर्षांखालील कृश मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 14.61,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 19.7,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 19.26,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "under",
+          "label": {
+            "en": "Underweight children under 5",
+            "hi": "5 वर्ष से कम आयु के कम वज़न वाले बच्चे",
+            "mr": "5 वर्षांखालील कमी वजनाची मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 21.96,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 23.8,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 32.11,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "inst",
+          "label": {
+            "en": "Institutional births",
+            "hi": "संस्थागत प्रसव",
+            "mr": "संस्थात्मक प्रसूती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 99.59,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, births in the five years before the survey."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 88.59,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Child nutrition and births (NFHS-5)",
+        "hi": "बाल पोषण और प्रसव (एनएफ़एचएस-5)",
+        "mr": "बालपोषण व प्रसूती (एनएफएचएस-5)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Infant mortality rate (State)",
+            "hi": "शिशु मृत्यु दर (राज्य)",
+            "mr": "अर्भक मृत्युदर (राज्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "srs",
+          "note": "SRS Statistical Report; the State's two published figures for 2020 (12.5 and 13) differ, so neither is shown."
+        },
+        {
+          "label": {
+            "en": "Hospitals and health centres",
+            "hi": "अस्पताल और स्वास्थ्य केंद्र",
+            "mr": "रुग्णालये व आरोग्य केंद्रे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw",
+          "note": "Health Dynamics of India (Infrastructure & Human Resources)."
+        },
+        {
+          "label": {
+            "en": "Anaemia and immunisation",
+            "hi": "एनीमिया और टीकाकरण",
+            "mr": "रक्तक्षय व लसीकरण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nfhs",
+          "note": "NFHS-5 State fact sheet."
+        }
+      ]
+    }
+  ]
+}

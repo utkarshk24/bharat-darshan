@@ -1,0 +1,132 @@
+{
+  "region": "IN-TN",
+  "module": "trivia",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ramsar",
+          "name": {
+            "en": "Tamil Nadu has 20 Ramsar wetlands — more than any other State.",
+            "hi": "तमिलनाडु में 20 रामसर आर्द्रभूमियाँ हैं — किसी भी अन्य राज्य से अधिक।",
+            "mr": "तमिळनाडूत 20 रामसर पाणथळ स्थळे आहेत — इतर कोणत्याही राज्यापेक्षा जास्त.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+          "sourceId": "indian-wetlands"
+        },
+        {
+          "id": "pamban",
+          "name": {
+            "en": "The New Pamban bridge to Rameswaram (2025) is India's first vertical-lift sea bridge; its span rises 17 m to let ships through.",
+            "hi": "रामेश्वरम का नया पंबन पुल (2025) भारत का पहला वर्टिकल-लिफ़्ट समुद्री पुल है; जहाज़ों के लिए इसका स्पैन 17 मीटर ऊपर उठता है।",
+            "mr": "रामेश्वरमचा नवा पंबन पूल (2025) हा भारतातील पहिला उभा उचलला जाणारा सागरी पूल आहे; जहाजांसाठी त्याचा गाळा 17 मीटर वर उचलला जातो.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://pmindia.gov.in/?p=16587222",
+          "sourceId": "pmindia"
+        },
+        {
+          "id": "salem",
+          "name": {
+            "en": "Salem fabric was filed as a GI in February 2004, among the very first in India.",
+            "hi": "सेलम वस्त्र फ़रवरी 2004 में जीआई के रूप में दर्ज हुआ — भारत के बिल्कुल पहले जीआई में।",
+            "mr": "सेलम वस्त्र फेब्रुवारी 2004 मध्ये जीआय म्हणून दाखल झाले — भारतातील अगदी पहिल्या जीआयपैकी एक.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "sourceId": "gi-registry"
+        },
+        {
+          "id": "nmr",
+          "name": {
+            "en": "Tamil Nadu was one of only six States and UTs to have met the SDG target for neonatal mortality in SRS 2021.",
+            "hi": "एसआरएस 2021 में तमिलनाडु नवजात मृत्यु दर का एसडीजी लक्ष्य पा चुके केवल छह राज्यों/केंद्र शासित प्रदेशों में था।",
+            "mr": "एसआरएस 2021 नुसार नवजात मृत्युदराचे एसडीजी उद्दिष्ट गाठलेल्या केवळ सहा राज्य/केंद्रशासित प्रदेशांपैकी तमिळनाडू एक होते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128024&reg=48&lang=2",
+          "sourceId": "srs"
+        },
+        {
+          "id": "classical",
+          "name": {
+            "en": "Tamil was the first language to be declared a classical language by the Government of India, in 2004.",
+            "hi": "2004 में भारत सरकार द्वारा शास्त्रीय भाषा घोषित होने वाली पहली भाषा तमिल थी।",
+            "mr": "2004 मध्ये भारत सरकारने अभिजात भाषा म्हणून घोषित केलेली पहिली भाषा तमिळ होती.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chess",
+          "name": {
+            "en": "India's first chess grandmaster, Viswanathan Anand, is from Chennai, and Mamallapuram hosted the 2022 Chess Olympiad.",
+            "hi": "भारत के पहले शतरंज ग्रैंडमास्टर विश्वनाथन आनंद चेन्नई से हैं, और मामल्लपुरम ने 2022 के शतरंज ओलंपियाड की मेज़बानी की।",
+            "mr": "भारताचे पहिले बुद्धिबळ ग्रँडमास्टर विश्वनाथन आनंद चेन्नईचे आहेत, आणि मामल्लपुरमने 2022 च्या बुद्धिबळ ऑलिम्पियाडचे यजमानपद भूषवले.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kallanai",
+          "name": {
+            "en": "The Grand Anicut (Kallanai) on the Kaveri, attributed to the early Chola king Karikalan, is among the oldest water-regulation structures still in use.",
+            "hi": "कावेरी पर ग्रैंड अनिकट (कल्लणै), जिसका श्रेय आरंभिक चोल राजा करिकालन को दिया जाता है, आज भी उपयोग में आने वाली सबसे पुरानी जल-नियमन संरचनाओं में है।",
+            "mr": "कावेरीवरील ग्रँड अनिकट (कल्लणै), ज्याचे श्रेय प्रारंभिक चोळ राजा करिकालनला दिले जाते, आजही वापरात असलेल्या सर्वांत जुन्या जलनियंत्रण रचनांपैकी एक आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nilgiri",
+          "name": {
+            "en": "The Nilgiri Mountain Railway climbs to Ooty on a rack-and-pinion track, the only one of its kind in India.",
+            "hi": "नीलगिरि पर्वतीय रेल रैक-एंड-पिनियन पटरी पर ऊटी तक चढ़ती है — भारत में अपनी तरह की इकलौती।",
+            "mr": "निलगिरी पर्वतीय रेल्वे दातेरी रुळांवरून ऊटीपर्यंत चढते — भारतातील अशा प्रकारची एकमेव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

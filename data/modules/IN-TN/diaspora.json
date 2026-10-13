@@ -1,0 +1,68 @@
+{
+  "region": "IN-TN",
+  "module": "diaspora",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Tamil diaspora is one of the oldest and most widespread from India. In the 19th and early 20th centuries, workers from the Tamil country went to plantations and public works in Sri Lanka, Malaya, Burma, Mauritius, South Africa, Fiji and the Caribbean, and many communities there still speak Tamil; it is one of the four official languages of Singapore. Since the 1970s many have gone to work in the Gulf, and professionals — especially engineers, doctors and IT specialists — have settled in North America, the United Kingdom, Australia and Europe. The State government has a department for the welfare of non-resident Tamils.",
+        "hi": "तमिल प्रवासी समुदाय भारत से सबसे पुराने और सबसे व्यापक प्रवासी समुदायों में है। 19वीं और 20वीं सदी के शुरुआती दौर में तमिल देश के मज़दूर श्रीलंका, मलाया, बर्मा, मॉरीशस, दक्षिण अफ़्रीका, फ़िजी और कैरिबियन के बागानों और सार्वजनिक निर्माण कार्यों में गए, और वहाँ के कई समुदाय आज भी तमिल बोलते हैं; यह सिंगापुर की चार राजभाषाओं में से एक है। 1970 के दशक से बहुत से लोग खाड़ी देशों में काम करने गए, और पेशेवर — ख़ासकर इंजीनियर, डॉक्टर और आईटी विशेषज्ञ — उत्तरी अमेरिका, ब्रिटेन, ऑस्ट्रेलिया और यूरोप में बस गए हैं। राज्य सरकार में अनिवासी तमिलों के कल्याण के लिए एक विभाग है।",
+        "mr": "तमिळ परदेशस्थ समुदाय भारतातील सर्वांत जुन्या व व्यापक समुदायांपैकी आहे. एकोणिसाव्या व विसाव्या शतकाच्या सुरुवातीला तमिळ प्रदेशातील मजूर श्रीलंका, मलाया, ब्रह्मदेश, मॉरिशस, दक्षिण आफ्रिका, फिजी आणि कॅरिबियनमधील मळे व सार्वजनिक बांधकामांवर गेले, आणि तिथले अनेक समुदाय आजही तमिळ बोलतात; सिंगापूरच्या चार राजभाषांपैकी ती एक आहे. 1970 च्या दशकापासून अनेक जण आखाती देशांत कामाला गेले, आणि व्यावसायिक — विशेषतः अभियंते, डॉक्टर व आयटी तज्ज्ञ — उत्तर अमेरिका, ब्रिटन, ऑस्ट्रेलिया आणि युरोपात स्थायिक झाले आहेत. राज्य सरकारमध्ये अनिवासी तमिळांच्या कल्याणासाठी विभाग आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants by destination",
+            "hi": "गंतव्यवार प्रवासियों की संख्या",
+            "mr": "गंतव्यनिहाय स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of External Affairs / Tamil Nadu Migration Survey."
+        },
+        {
+          "label": {
+            "en": "Official link: non-resident Tamils welfare department",
+            "hi": "आधिकारिक लिंक: अनिवासी तमिल कल्याण विभाग",
+            "mr": "अधिकृत दुवा: अनिवासी तमिळ कल्याण विभाग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tn-gov",
+          "note": "Add the department's verified web address."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "region": "IN-TN",
+  "module": "projects",
+  "asOf": "2026-10-13",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Recent and ongoing infrastructure in Tamil Nadu includes Chennai Metro Phase II, the largest urban transit project in the State, whose first stretch opened in October 2026; the New Pamban rail bridge to Rameswaram, India's first vertical-lift sea bridge, opened in April 2025; ISRO's second spaceport at Kulasekarapattinam; and four more reactors at the Kudankulam nuclear plant. Each card shows its source and the date it was checked; status labels follow that source.",
+        "hi": "तमिलनाडु में हालिया और जारी बुनियादी ढाँचे में चेन्नई मेट्रो चरण II शामिल है — राज्य की सबसे बड़ी शहरी परिवहन परियोजना, जिसका पहला खंड अक्टूबर 2026 में शुरू हुआ; रामेश्वरम तक नया पंबन रेल पुल, भारत का पहला वर्टिकल-लिफ़्ट समुद्री पुल, जो अप्रैल 2025 में खुला; कुलशेखरपट्टिनम में इसरो का दूसरा अंतरिक्ष प्रक्षेपण केंद्र; और कुडनकुलम परमाणु संयंत्र में चार और रिएक्टर। हर कार्ड पर उसका स्रोत और जाँच की तारीख़ है; स्थिति उसी स्रोत के अनुसार है।",
+        "mr": "तमिळनाडूतील अलीकडच्या व चालू पायाभूत प्रकल्पांत चेन्नई मेट्रो टप्पा II — राज्यातील सर्वांत मोठा नागरी वाहतूक प्रकल्प, ज्याचा पहिला भाग ऑक्टोबर 2026 मध्ये सुरू झाला; रामेश्वरमपर्यंतचा नवा पंबन रेल्वे पूल, भारतातील पहिला उभा उचलला जाणारा सागरी पूल, जो एप्रिल 2025 मध्ये खुला झाला; कुलशेखरपट्टिनम येथील इस्रोचे दुसरे अंतराळ प्रक्षेपण केंद्र; आणि कुडनकुलम अणुऊर्जा प्रकल्पातील आणखी चार अणुभट्ट्या यांचा समावेश आहे. प्रत्येक कार्डावर स्रोत आणि तपासणीची तारीख आहे; स्थिती त्याच स्रोतानुसार आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pmindia",
+        "newsonair",
+        "isro"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Chennai Metro Phase II — corridor-wise progress",
+            "hi": "चेन्नई मेट्रो चरण II — कॉरिडोरवार प्रगति",
+            "mr": "चेन्नई मेट्रो टप्पा II — मार्गिकानिहाय प्रगती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tn-gov",
+          "note": "CMRL project status page."
+        },
+        {
+          "label": {
+            "en": "Kudankulam Units 3–6 — official status",
+            "hi": "कुडनकुलम इकाइयाँ 3–6 — आधिकारिक स्थिति",
+            "mr": "कुडनकुलम युनिट 3–6 — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "npcil",
+          "note": "NPCIL or DAE status page to replace the news citation."
+        },
+        {
+          "label": {
+            "en": "Parandur greenfield airport — official status",
+            "hi": "परंदूर ग्रीनफ़ील्ड हवाई अड्डा — आधिकारिक स्थिति",
+            "mr": "परंदूर ग्रीनफिल्ड विमानतळ — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "civil-aviation",
+          "note": "MoCA / TIDCO page."
+        },
+        {
+          "label": {
+            "en": "State vision document",
+            "hi": "राज्य दृष्टि दस्तावेज़",
+            "mr": "राज्य दृष्टी दस्तऐवज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tn-gov",
+          "note": "State Planning Commission."
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
- "source": "MoSPI NAS API, base 2011-12, current series, accessed 2026-10-13. MoSPI state codes: TN 24, UP 27.",
+ "source": "MoSPI NAS API, base 2011-12, current series, accessed 2026-10-13. MoSPI state codes: TN 24, UP 27. GSVA by industry FY2024-25 (₹ lakh, current prices) fetched 2026-10-13.",
  "gsdp": {
   "FY2025-26": [
    3529052,
@@ -123,5 +123,19 @@
    93112,
    93112
   ]
+ },
+ "gsva2024_25_current_lakh": {
+  "agri": 37728364,
+  "mining": 895491,
+  "manufacturing": 52729276,
+  "utilities": 8012736,
+  "construction": 34862875,
+  "trade_hotels": 33220551,
+  "transport_comm": 14110135,
+  "financial": 15084148,
+  "realestate_prof": 53389650,
+  "public_admin": 7539475,
+  "other": 31696459,
+  "total": 289269159
  }
 }

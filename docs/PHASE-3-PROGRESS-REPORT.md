@@ -38,6 +38,8 @@ What changed:
 
 The English home page (88) is the one most likely to fall just short of 90.
 
+**Update, 14 October 2026:** the live-site checks had been failing because of two configuration errors, not because of the site: an invalid Lighthouse preset, and the axe command-line tool's browser driver. Both are fixed, and the axe scan now runs through Playwright (`npm run check:a11y`) on 12 pages, including the new States. The first full run against the live GitHub Pages site **passed**: Lighthouse performance and accessibility were at least 90 on all five pages, axe found no WCAG 2.1 AA violations, and the source-link check completed.
+
 ## 2. Phase 3, batch 1: Tamil Nadu (complete draft)
 
 All 26 sections are written in English, Hindi and Marathi, in the same structure as the Phase 2 profiles.

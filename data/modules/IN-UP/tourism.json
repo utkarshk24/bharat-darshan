@@ -1,0 +1,478 @@
+{
+  "region": "IN-UP",
+  "module": "tourism",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Uttar Pradesh receives more domestic tourist visits than any State listed by the Ministry of Tourism — about 64.7 crore in 2024 (provisional), up from 31.8 crore in 2022 — driven by pilgrimage to Ayodhya, Varanasi, Prayagraj and Mathura–Vrindavan. Foreign visits were about 22.7 lakh in 2024, centred on Agra's Taj Mahal and the Buddhist circuit of Sarnath, Kushinagar, Kapilvastu and Shravasti. The Maha Kumbh at Prayagraj in early 2025 alone drew several crore pilgrims.",
+        "hi": "पर्यटन मंत्रालय के आँकड़ों में उत्तर प्रदेश में सबसे अधिक घरेलू पर्यटक यात्राएँ होती हैं — 2024 में लगभग 64.7 करोड़ (अनंतिम), जो 2022 के 31.8 करोड़ से अधिक हैं — जिसका मुख्य कारण अयोध्या, वाराणसी, प्रयागराज और मथुरा–वृंदावन की तीर्थयात्राएँ हैं। 2024 में विदेशी यात्राएँ लगभग 22.7 लाख थीं, जो आगरा के ताजमहल और सारनाथ, कुशीनगर, कपिलवस्तु और श्रावस्ती के बौद्ध परिपथ पर केंद्रित थीं। 2025 की शुरुआत में प्रयागराज के महाकुंभ में ही कई करोड़ श्रद्धालु आए।",
+        "mr": "पर्यटन मंत्रालयाच्या आकडेवारीनुसार उत्तर प्रदेशला सर्वाधिक देशी पर्यटक भेटी मिळतात — 2024 मध्ये सुमारे 64.7 कोटी (तात्पुरत्या), 2022 मधील 31.8 कोटींपेक्षा जास्त — मुख्यतः अयोध्या, वाराणसी, प्रयागराज व मथुरा–वृंदावन येथील तीर्थयात्रांमुळे. 2024 मध्ये परदेशी भेटी सुमारे 22.7 लाख होत्या, ज्या आग्र्याचा ताजमहाल आणि सारनाथ, कुशीनगर, कपिलवस्तू व श्रावस्तीच्या बौद्ध परिक्रमेवर केंद्रित होत्या. 2025 च्या सुरुवातीच्या प्रयागराज महाकुंभालाच अनेक कोटी भाविक आले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "tourism"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "dtv",
+          "label": {
+            "en": "Domestic tourist visits",
+            "hi": "घरेलू पर्यटक यात्राएँ",
+            "mr": "देशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 646807000,
+            "unit": "visits",
+            "period": "2024",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://tourism.gov.in/sites/default/files/2025-03/usq.3180%20for%2027.03.2025.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 3180, 27 March 2025 (Ministry of Tourism, from the State Tourism Department). Published in lakh visits (e.g. 6,468.07 lakh); 2024 is provisional."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "previous": {
+            "value": 478526000,
+            "unit": "visits",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://tourism.gov.in/sites/default/files/2025-03/usq.3180%20for%2027.03.2025.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Published in lakh visits."
+          }
+        },
+        {
+          "id": "ftv",
+          "label": {
+            "en": "Foreign tourist visits",
+            "hi": "विदेशी पर्यटक यात्राएँ",
+            "mr": "परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 2269000,
+            "unit": "visits",
+            "period": "2024",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://tourism.gov.in/sites/default/files/2025-03/usq.3180%20for%2027.03.2025.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 3180, 27 March 2025 (Ministry of Tourism, from the State Tourism Department). Published in lakh visits (e.g. 6,468.07 lakh); 2024 is provisional."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "previous": {
+            "value": 1601000,
+            "unit": "visits",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "tourism",
+            "url": "https://tourism.gov.in/sites/default/files/2025-03/usq.3180%20for%2027.03.2025.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Published in lakh visits."
+          }
+        }
+      ],
+      "title": {
+        "en": "Tourist visits",
+        "hi": "पर्यटक यात्राएँ",
+        "mr": "पर्यटक भेटी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "taj",
+          "name": {
+            "en": "Taj Mahal and Agra Fort",
+            "hi": "ताजमहल और आगरा क़िला",
+            "mr": "ताजमहाल व आग्र्याचा किल्ला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO heritage",
+            "hi": "यूनेस्को धरोहर",
+            "mr": "युनेस्को वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "varanasi",
+          "name": {
+            "en": "Varanasi ghats and Sarnath",
+            "hi": "वाराणसी के घाट और सारनाथ",
+            "mr": "वाराणसीचे घाट व सारनाथ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage, heritage",
+            "hi": "तीर्थ, धरोहर",
+            "mr": "तीर्थक्षेत्र, वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ayodhya",
+          "name": {
+            "en": "Ayodhya",
+            "hi": "अयोध्या",
+            "mr": "अयोध्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage",
+            "hi": "तीर्थ",
+            "mr": "तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "prayagraj",
+          "name": {
+            "en": "Prayagraj and the Sangam",
+            "hi": "प्रयागराज और संगम",
+            "mr": "प्रयागराज व संगम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage, Kumbh",
+            "hi": "तीर्थ, कुंभ",
+            "mr": "तीर्थक्षेत्र, कुंभ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "braj",
+          "name": {
+            "en": "Mathura and Vrindavan",
+            "hi": "मथुरा और वृंदावन",
+            "mr": "मथुरा व वृंदावन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Krishna pilgrimage",
+            "hi": "कृष्ण तीर्थ",
+            "mr": "कृष्ण तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lucknow",
+          "name": {
+            "en": "Lucknow",
+            "hi": "लखनऊ",
+            "mr": "लखनौ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Nawabi heritage, food",
+            "hi": "नवाबी धरोहर, व्यंजन",
+            "mr": "नवाबी वारसा, खाद्यपदार्थ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sikri",
+          "name": {
+            "en": "Fatehpur Sikri",
+            "hi": "फ़तेहपुर सीकरी",
+            "mr": "फतेहपूर सिक्री",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO heritage",
+            "hi": "यूनेस्को धरोहर",
+            "mr": "युनेस्को वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dudhwa",
+          "name": {
+            "en": "Dudhwa National Park",
+            "hi": "दुधवा राष्ट्रीय उद्यान",
+            "mr": "दुधवा राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Wildlife (Nov–Jun)",
+            "hi": "वन्यजीव (नवंबर–जून)",
+            "mr": "वन्यजीव (नोव्हें.–जून)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Agra: Taj Mahal at sunrise, Agra Fort, and Fatehpur Sikri.",
+            "hi": "आगरा: सूर्योदय पर ताजमहल, आगरा क़िला और फ़तेहपुर सीकरी।",
+            "mr": "आग्रा: सूर्योदयाला ताजमहाल, आग्र्याचा किल्ला आणि फतेहपूर सिक्री.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Varanasi: dawn boat on the ghats, Ganga aarti, Sarnath.",
+            "hi": "वाराणसी: भोर में घाटों पर नौका, गंगा आरती, सारनाथ।",
+            "mr": "वाराणसी: पहाटे घाटांवर नौकाविहार, गंगा आरती, सारनाथ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Lucknow, Ayodhya and Varanasi by road or rail.",
+            "hi": "सड़क या रेल से लखनऊ, अयोध्या और वाराणसी।",
+            "mr": "रस्ता किंवा रेल्वेने लखनौ, अयोध्या व वाराणसी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Agra and Mathura–Vrindavan, then Lucknow, Prayagraj and Varanasi.",
+            "hi": "आगरा और मथुरा–वृंदावन, फिर लखनऊ, प्रयागराज और वाराणसी।",
+            "mr": "आग्रा व मथुरा–वृंदावन, नंतर लखनौ, प्रयागराज व वाराणसी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "upt",
+          "name": {
+            "en": "Uttar Pradesh Tourism (official)",
+            "hi": "उत्तर प्रदेश पर्यटन (आधिकारिक)",
+            "mr": "उत्तर प्रदेश पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.uptourism.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tourist visits before 2022 and for 2025",
+            "hi": "2022 से पहले और 2025 की पर्यटक यात्राएँ",
+            "mr": "2022 पूर्वीच्या व 2025 च्या पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Statistics."
+        },
+        {
+          "label": {
+            "en": "Earnings from tourism",
+            "hi": "पर्यटन से आय",
+            "mr": "पर्यटनातून उत्पन्न",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "State tourism department."
+        }
+      ]
+    }
+  ]
+}

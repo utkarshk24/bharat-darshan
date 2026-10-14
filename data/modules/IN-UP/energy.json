@@ -1,0 +1,68 @@
+{
+  "region": "IN-UP",
+  "module": "energy",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Most of Uttar Pradesh's electricity comes from coal. The largest stations are in the Singrauli coalfield region of Sonbhadra district — Anpara, Obra, Rihand and Singrauli — with others at Dadri, Unchahar, Panki and Harduaganj. The Narora Atomic Power Station on the Ganga in Bulandshahr district is the State's nuclear plant. Solar capacity has grown, especially in Bundelkhand, and rooftop solar is spreading in cities. Demand is very large and seasonal, peaking in the summer and the paddy-irrigation months; the State's distribution companies operate under UP Power Corporation Limited.",
+        "hi": "उत्तर प्रदेश की अधिकांश बिजली कोयले से आती है। सबसे बड़े संयंत्र सोनभद्र ज़िले के सिंगरौली कोयला क्षेत्र में हैं — अनपरा, ओबरा, रिहंद और सिंगरौली — और अन्य दादरी, ऊँचाहार, पनकी और हरदुआगंज में। बुलंदशहर ज़िले में गंगा किनारे नरौरा परमाणु बिजलीघर राज्य का परमाणु संयंत्र है। सौर क्षमता बढ़ी है, ख़ासकर बुंदेलखंड में, और शहरों में छत पर सौर ऊर्जा फैल रही है। माँग बहुत बड़ी और मौसमी है, जो गर्मियों और धान सिंचाई के महीनों में चरम पर होती है; राज्य की वितरण कंपनियाँ उत्तर प्रदेश पावर कॉर्पोरेशन लिमिटेड के अधीन काम करती हैं।",
+        "mr": "उत्तर प्रदेशची बहुतांश वीज कोळशापासून येते. सर्वांत मोठी केंद्रे सोनभद्र जिल्ह्यातील सिंगरौली कोळसा क्षेत्रात आहेत — अनपरा, ओबरा, रिहंद व सिंगरौली — आणि इतर दादरी, ऊंचाहार, पनकी व हरदुआगंज येथे. बुलंदशहर जिल्ह्यात गंगाकाठचे नरौरा अणुऊर्जा केंद्र हे राज्यातील अणुवीज केंद्र आहे. सौरक्षमता वाढली आहे, विशेषतः बुंदेलखंडमध्ये, आणि शहरांत छतावरील सौरऊर्जा पसरत आहे. मागणी प्रचंड व हंगामी असून उन्हाळ्यात आणि भातसिंचनाच्या महिन्यांत शिखरावर असते; राज्याच्या वितरण कंपन्या उत्तर प्रदेश पॉवर कॉर्पोरेशन लिमिटेडअंतर्गत चालतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Solar capacity",
+            "hi": "सौर क्षमता",
+            "mr": "सौर क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE state-wise RE capacity."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

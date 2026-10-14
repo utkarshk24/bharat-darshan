@@ -1,0 +1,211 @@
+{
+  "region": "IN-UP",
+  "module": "transport",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Uttar Pradesh sits on the main routes between Delhi and eastern India. Its railway network is one of the densest in the country, with major junctions at Prayagraj, Kanpur, Lucknow, Gorakhpur, Pt. Deen Dayal Upadhyaya (Mughalsarai) and Jhansi, and both the Eastern and Western Dedicated Freight Corridors run through it. The Grand Trunk Road and a growing network of expressways link the cities. Lucknow, Kanpur, Agra and Noida have metro systems, and Ghaziabad is served by the Delhi Metro and the Delhi–Meerut RRTS. International airports serve Lucknow, Varanasi and Noida (Jewar), with Ayodhya, Kushinagar, Prayagraj, Gorakhpur, Agra and other cities on the domestic network.",
+        "hi": "उत्तर प्रदेश दिल्ली और पूर्वी भारत के बीच मुख्य मार्गों पर स्थित है। इसका रेल नेटवर्क देश के सबसे सघन नेटवर्कों में है, जिसमें प्रयागराज, कानपुर, लखनऊ, गोरखपुर, पं. दीनदयाल उपाध्याय (मुग़लसराय) और झाँसी बड़े जंक्शन हैं, और पूर्वी व पश्चिमी दोनों समर्पित माल गलियारे इससे होकर गुज़रते हैं। ग्रैंड ट्रंक रोड और एक्सप्रेसवे का बढ़ता जाल शहरों को जोड़ता है। लखनऊ, कानपुर, आगरा और नोएडा में मेट्रो है, और ग़ाज़ियाबाद को दिल्ली मेट्रो और दिल्ली–मेरठ आरआरटीएस सेवा देते हैं। लखनऊ, वाराणसी और नोएडा (जेवर) में अंतरराष्ट्रीय हवाई अड्डे हैं, और अयोध्या, कुशीनगर, प्रयागराज, गोरखपुर, आगरा व अन्य शहर घरेलू नेटवर्क पर हैं।",
+        "mr": "उत्तर प्रदेश दिल्ली आणि पूर्व भारत यांच्यातील मुख्य मार्गांवर आहे. त्याचे रेल्वे जाळे देशातील सर्वांत दाट जाळ्यांपैकी असून प्रयागराज, कानपूर, लखनौ, गोरखपूर, पं. दीनदयाळ उपाध्याय (मुघलसराय) व झाशी ही मोठी जंक्शन्स आहेत, आणि पूर्व व पश्चिम दोन्ही समर्पित मालवाहतूक मार्गिका राज्यातून जातात. ग्रँड ट्रंक रोड आणि वाढते द्रुतगती मार्ग शहरे जोडतात. लखनौ, कानपूर, आग्रा व नोएडात मेट्रो आहे, आणि गाझियाबादला दिल्ली मेट्रो व दिल्ली–मेरठ आरआरटीएसची सेवा मिळते. लखनौ, वाराणसी व नोएडा (जेवर) येथे आंतरराष्ट्रीय विमानतळ आहेत, तर अयोध्या, कुशीनगर, प्रयागराज, गोरखपूर, आग्रा व इतर शहरे देशांतर्गत जाळ्यावर आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "lko",
+          "name": {
+            "en": "Chaudhary Charan Singh International Airport, Lucknow",
+            "hi": "चौधरी चरण सिंह अंतरराष्ट्रीय हवाई अड्डा, लखनऊ",
+            "mr": "चौधरी चरणसिंह आंतरराष्ट्रीय विमानतळ, लखनौ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "LKO",
+            "hi": "LKO",
+            "mr": "LKO",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vns",
+          "name": {
+            "en": "Lal Bahadur Shastri International Airport, Varanasi",
+            "hi": "लाल बहादुर शास्त्री अंतरराष्ट्रीय हवाई अड्डा, वाराणसी",
+            "mr": "लाल बहादूर शास्त्री आंतरराष्ट्रीय विमानतळ, वाराणसी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "VNS",
+            "hi": "VNS",
+            "mr": "VNS",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "noida",
+          "name": {
+            "en": "Noida International Airport, Jewar",
+            "hi": "नोएडा अंतरराष्ट्रीय हवाई अड्डा, जेवर",
+            "mr": "नोएडा आंतरराष्ट्रीय विमानतळ, जेवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Opened 2026",
+            "hi": "2026 में खुला",
+            "mr": "2026 मध्ये सुरू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ayj",
+          "name": {
+            "en": "Ayodhya airport",
+            "hi": "अयोध्या हवाई अड्डा",
+            "mr": "अयोध्या विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kbk",
+          "name": {
+            "en": "Kushinagar airport",
+            "hi": "कुशीनगर हवाई अड्डा",
+            "mr": "कुशीनगर विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ixd",
+          "name": {
+            "en": "Prayagraj airport",
+            "hi": "प्रयागराज हवाई अड्डा",
+            "mr": "प्रयागराज विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gop",
+          "name": {
+            "en": "Gorakhpur airport",
+            "hi": "गोरखपुर हवाई अड्डा",
+            "mr": "गोरखपूर विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "agr",
+          "name": {
+            "en": "Agra airport",
+            "hi": "आगरा हवाई अड्डा",
+            "mr": "आग्रा विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports (selected)",
+        "hi": "हवाई अड्डे (चयनित)",
+        "mr": "विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Expressway and national highway length",
+            "hi": "एक्सप्रेसवे और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "द्रुतगती मार्ग व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics; UPEIDA."
+        },
+        {
+          "label": {
+            "en": "Railway route length",
+            "hi": "रेलवे मार्ग की लंबाई",
+            "mr": "रेल्वे मार्गाची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Indian Railways Year Book."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

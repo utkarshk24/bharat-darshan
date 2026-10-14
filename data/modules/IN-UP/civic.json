@@ -1,0 +1,255 @@
+{
+  "region": "IN-UP",
+  "module": "civic",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Uttar Pradesh portal",
+            "hi": "उत्तर प्रदेश सरकार पोर्टल",
+            "mr": "उत्तर प्रदेश शासन संकेतस्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://up.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "edistrict",
+          "name": {
+            "en": "e-District Uttar Pradesh — certificates and services",
+            "hi": "ई-डिस्ट्रिक्ट उत्तर प्रदेश — प्रमाणपत्र और सेवाएँ",
+            "mr": "ई-डिस्ट्रिक्ट उत्तर प्रदेश — प्रमाणपत्रे व सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://edistrict.up.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "rti",
+          "name": {
+            "en": "RTI Online (Government of India)",
+            "hi": "आरटीआई ऑनलाइन (भारत सरकार)",
+            "mr": "माहितीचा अधिकार ऑनलाइन (भारत सरकार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rtionline.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "tourism",
+          "name": {
+            "en": "Uttar Pradesh Tourism",
+            "hi": "उत्तर प्रदेश पर्यटन",
+            "mr": "उत्तर प्रदेश पर्यटन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.uptourism.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "consumer",
+          "name": {
+            "en": "National Consumer Helpline",
+            "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन",
+            "mr": "राष्ट्रीय ग्राहक हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://consumerhelpline.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official websites",
+        "hi": "आधिकारिक वेबसाइटें",
+        "mr": "अधिकृत संकेतस्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "std",
+      "title": {
+        "en": "STD codes of major cities",
+        "hi": "प्रमुख शहरों के एसटीडी कोड",
+        "mr": "प्रमुख शहरांचे एसटीडी कोड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "City",
+            "hi": "शहर",
+            "mr": "शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Code",
+            "hi": "कोड",
+            "mr": "कोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Lucknow",
+            "hi": "लखनऊ",
+            "mr": "लखनौ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0522"
+        ],
+        [
+          {
+            "en": "Kanpur",
+            "hi": "कानपुर",
+            "mr": "कानपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0512"
+        ],
+        [
+          {
+            "en": "Agra",
+            "hi": "आगरा",
+            "mr": "आग्रा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0562"
+        ],
+        [
+          {
+            "en": "Varanasi",
+            "hi": "वाराणसी",
+            "mr": "वाराणसी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0542"
+        ],
+        [
+          {
+            "en": "Prayagraj",
+            "hi": "प्रयागराज",
+            "mr": "प्रयागराज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0532"
+        ],
+        [
+          {
+            "en": "Meerut",
+            "hi": "मेरठ",
+            "mr": "मेरठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0121"
+        ],
+        [
+          {
+            "en": "Gorakhpur",
+            "hi": "गोरखपुर",
+            "mr": "गोरखपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0551"
+        ]
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "note": {
+        "en": "Editorial list; to be checked against the Department of Telecommunications numbering plan.",
+        "hi": "संपादकीय सूची; दूरसंचार विभाग की नंबरिंग योजना से जाँची जाएगी।",
+        "mr": "संपादकीय यादी; दूरसंचार विभागाच्या क्रमांक योजनेशी पडताळली जाईल.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Verified local business directory",
+            "hi": "सत्यापित स्थानीय व्यवसाय निर्देशिका",
+            "mr": "पडताळलेली स्थानिक उद्योग सूची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Udyam Registration, ODOP clusters and co-operative registrars."
+        }
+      ]
+    }
+  ]
+}

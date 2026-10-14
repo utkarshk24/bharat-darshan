@@ -2,7 +2,7 @@
 import json, os
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data")
-TODAY = "2026-10-13"
+TODAY = os.environ.get("BD_TODAY", "2026-10-13")  # access date for newly researched values
 
 
 def L(en, hi, mr, status="draft"):

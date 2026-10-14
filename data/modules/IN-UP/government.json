@@ -1,0 +1,342 @@
+{
+  "region": "IN-UP",
+  "module": "government",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Uttar Pradesh has a bicameral legislature in Lucknow: the 403-member Legislative Assembly (Vidhan Sabha) — the largest State assembly in India — and a 100-member Legislative Council (Vidhan Parishad). The State elects 80 members to the Lok Sabha, more than any other State, and 31 to the Rajya Sabha.\n\nIn the 2022 Assembly election the BJP won 255 seats and Yogi Adityanath was sworn in for a second consecutive term as Chief Minister on 25 March 2022. Satish Mahana is Speaker, and Mata Prasad Pandey of the Samajwadi Party has been Leader of Opposition since July 2024. The next Assembly election is due in 2027. Anandiben Patel has been Governor since July 2019.",
+        "hi": "उत्तर प्रदेश में लखनऊ में द्विसदनीय विधानमंडल है: 403 सदस्यों वाली विधानसभा — भारत की सबसे बड़ी राज्य विधानसभा — और 100 सदस्यों वाली विधान परिषद। राज्य से लोकसभा के 80 सदस्य चुने जाते हैं, जो किसी भी अन्य राज्य से अधिक हैं, और राज्यसभा के 31।\n\n2022 के विधानसभा चुनाव में भाजपा ने 255 सीटें जीतीं और योगी आदित्यनाथ ने 25 मार्च 2022 को लगातार दूसरे कार्यकाल के लिए मुख्यमंत्री पद की शपथ ली। सतीश महाना अध्यक्ष हैं, और समाजवादी पार्टी के माता प्रसाद पांडेय जुलाई 2024 से नेता प्रतिपक्ष हैं। अगला विधानसभा चुनाव 2027 में होना है। आनंदीबेन पटेल जुलाई 2019 से राज्यपाल हैं।",
+        "mr": "उत्तर प्रदेशमध्ये लखनौ येथे द्विसदनी विधिमंडळ आहे: 403 सदस्यांची विधानसभा — भारतातील सर्वांत मोठी राज्य विधानसभा — आणि 100 सदस्यांची विधान परिषद. राज्यातून लोकसभेवर 80 सदस्य निवडले जातात — इतर कोणत्याही राज्यापेक्षा जास्त — आणि राज्यसभेवर 31.\n\n2022 च्या विधानसभा निवडणुकीत भाजपने 255 जागा जिंकल्या आणि योगी आदित्यनाथ यांनी 25 मार्च 2022 रोजी सलग दुसऱ्यांदा मुख्यमंत्रिपदाची शपथ घेतली. सतीश महाना अध्यक्ष आहेत, आणि समाजवादी पक्षाचे माता प्रसाद पांडे जुलै 2024 पासून विरोधी पक्षनेते आहेत. पुढील विधानसभा निवडणूक 2027 मध्ये होणार आहे. आनंदीबेन पटेल जुलै 2019 पासून राज्यपाल आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "eci",
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "table",
+      "id": "results",
+      "title": {
+        "en": "Legislative Assembly election, 2022 — seats won",
+        "hi": "विधानसभा चुनाव, 2022 — जीती गई सीटें",
+        "mr": "विधानसभा निवडणूक, 2022 — जिंकलेल्या जागा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Party",
+            "hi": "दल",
+            "mr": "पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Seats",
+            "hi": "सीटें",
+            "mr": "जागा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          "Bharatiya Janata Party (BJP)",
+          255
+        ],
+        [
+          "Samajwadi Party (SP)",
+          111
+        ],
+        [
+          "Apna Dal (Soneylal)",
+          12
+        ],
+        [
+          "Rashtriya Lok Dal (RLD)",
+          8
+        ],
+        [
+          "Nirbal Indian Shoshit Hamara Aam Dal (NISHAD)",
+          6
+        ],
+        [
+          "Suheldev Bharatiya Samaj Party (SBSP)",
+          6
+        ],
+        [
+          "Indian National Congress (INC)",
+          2
+        ],
+        [
+          "Jansatta Dal Loktantrik",
+          2
+        ],
+        [
+          "Bahujan Samaj Party (BSP)",
+          1
+        ],
+        [
+          {
+            "en": "Total",
+            "hi": "कुल",
+            "mr": "एकूण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          403
+        ]
+      ],
+      "sourceId": "eci",
+      "url": "https://results.eci.gov.in/ResultAcGenMar2022/partywiseresult-S24.htm",
+      "accessDate": "2026-10-14",
+      "confidence": "Official",
+      "period": "2022",
+      "note": {
+        "en": "Seats won as listed by the Election Commission (results declared March 2022). Parties are shown by seats, without colours or commentary. By-elections and defections since 2022 have changed party strengths in the House.",
+        "hi": "चुनाव आयोग की सूची के अनुसार जीती गई सीटें (परिणाम मार्च 2022 में घोषित)। दलों को सीटों के क्रम में, बिना रंग या टिप्पणी के दिखाया गया है। 2022 के बाद उपचुनावों और दलबदल से सदन में दलों की संख्या बदली है।",
+        "mr": "निवडणूक आयोगाच्या यादीनुसार जिंकलेल्या जागा (निकाल मार्च 2022 मध्ये जाहीर). पक्ष जागांच्या क्रमाने, रंग किंवा भाष्याशिवाय दाखवले आहेत. 2022 नंतरच्या पोटनिवडणुका व पक्षांतरांमुळे सभागृहातील पक्षीय बळ बदलले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "local",
+      "title": {
+        "en": "Local bodies",
+        "hi": "स्थानीय निकाय",
+        "mr": "स्थानिक स्वराज्य संस्था",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Type",
+            "hi": "प्रकार",
+            "mr": "प्रकार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Number",
+            "hi": "संख्या",
+            "mr": "संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Nagar nigams (municipal corporations)",
+            "hi": "नगर निगम",
+            "mr": "महानगरपालिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          17
+        ],
+        [
+          {
+            "en": "Nagar palika parishads",
+            "hi": "नगर पालिका परिषदें",
+            "mr": "नगरपालिका परिषदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          200
+        ],
+        [
+          {
+            "en": "Nagar panchayats",
+            "hi": "नगर पंचायतें",
+            "mr": "नगर पंचायती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          508
+        ],
+        [
+          {
+            "en": "Gram panchayats",
+            "hi": "ग्राम पंचायतें",
+            "mr": "ग्रामपंचायती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "58,189"
+        ]
+      ],
+      "sourceId": "up-des",
+      "url": "https://updes.up.nic.in/updes/data/upinfigures/up%20in%20figures-%202022.pdf",
+      "accessDate": "2026-10-14",
+      "confidence": "Official",
+      "note": {
+        "en": "Urban bodies as on 31 March 2021; gram panchayats as on 31 March 2022.",
+        "hi": "नगरीय निकाय 31 मार्च 2021 की स्थिति में; ग्राम पंचायतें 31 मार्च 2022 की स्थिति में।",
+        "mr": "नागरी संस्था 31 मार्च 2021 रोजीच्या; ग्रामपंचायती 31 मार्च 2022 रोजीच्या.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "assembly",
+          "name": {
+            "en": "Uttar Pradesh Legislative Assembly",
+            "hi": "उत्तर प्रदेश विधानसभा",
+            "mr": "उत्तर प्रदेश विधानसभा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://uplegisassembly.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Uttar Pradesh",
+            "hi": "उत्तर प्रदेश सरकार",
+            "mr": "उत्तर प्रदेश शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://up.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Governor's official page (Lok Bhavan, Uttar Pradesh)",
+            "hi": "राज्यपाल का आधिकारिक पेज (लोक भवन, उत्तर प्रदेश)",
+            "mr": "राज्यपालांचे अधिकृत पान (लोकभवन, उत्तर प्रदेश)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Replace the news citations with the official page."
+        },
+        {
+          "label": {
+            "en": "Current party strength in the Assembly",
+            "hi": "विधानसभा में वर्तमान दलीय स्थिति",
+            "mr": "विधानसभेतील सध्याचे पक्षीय बळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Assembly secretariat member list."
+        },
+        {
+          "label": {
+            "en": "Flagship welfare schemes",
+            "hi": "प्रमुख कल्याण योजनाएँ",
+            "mr": "प्रमुख कल्याणकारी योजना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "List with official scheme pages and current status."
+        }
+      ]
+    }
+  ]
+}

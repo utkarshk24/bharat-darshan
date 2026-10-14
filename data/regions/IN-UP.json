@@ -33,8 +33,89 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://up.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Swamp deer (barasingha)",
+        "hi": "बारहसिंगा",
+        "mr": "बारशिंगा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Rucervus duvaucelii",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Sarus crane",
+        "hi": "सारस",
+        "mr": "सारस क्रौंच",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Antigone antigone",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Palash (flame of the forest)",
+        "hi": "पलाश (टेसू)",
+        "mr": "पळस",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Butea monosperma",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Ashoka",
+        "hi": "अशोक",
+        "mr": "अशोक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Saraca asoca",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "fish": {
+      "name": {
+        "en": "Chital (clown knifefish)",
+        "hi": "चीतल मछली",
+        "mr": "चितळ मासा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Chitala chitala",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
       "value": 199812341,
@@ -177,35 +258,2138 @@
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Anandiben Patel",
+        "hi": "आनंदीबेन पटेल",
+        "mr": "आनंदीबेन पटेल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2019-07-29",
+      "asOf": "2026-10-14",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/budget-session-of-up-legislative-assembly-begins-with-address-of-governor-anandiben-patel",
+      "verifyUrl": "https://up.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Governor since 29 July 2019; she addressed the Legislature's budget session on 9 February 2026 (News On AIR). Still named as Chancellor of State universities in August 2026. Confirm on the Lok Bhavan, Uttar Pradesh website."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "name": {
+        "en": "Yogi Adityanath",
+        "hi": "योगी आदित्यनाथ",
+        "mr": "योगी आदित्यनाथ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "BJP",
+      "since": "2022-03-25",
+      "asOf": "2026-10-14",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/tag/up-cm-yogi-adityanath",
+      "verifyUrl": "https://up.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "note": "Second consecutive term; sworn in on 25 March 2022 (first term from 19 March 2017). Referred to as Chief Minister in News On AIR reports through 2026."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Satish Mahana",
+          "hi": "सतीश महाना",
+          "mr": "सतीश महाना",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2022-03-29",
+        "asOf": "2026-10-14",
+        "sourceId": "newsonair",
+        "url": "https://www.newsonair.gov.in/uttar-pradesh-assembly-monsoon-session-begins-today",
+        "verifyUrl": "https://uplegisassembly.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Speaker of the 18th Legislative Assembly; named in News On AIR's report of 29 July 2024."
+      },
+      {
+        "role": "leader-of-opposition",
+        "name": {
+          "en": "Mata Prasad Pandey",
+          "hi": "माता प्रसाद पांडेय",
+          "mr": "माता प्रसाद पांडे",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "SP",
+        "since": "2024-07-28",
+        "asOf": "2026-10-14",
+        "sourceId": "newsonair",
+        "url": "https://www.newsonair.gov.in/uttar-pradesh-assembly-monsoon-session-begins-today",
+        "verifyUrl": "https://uplegisassembly.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Samajwadi Party; introduced as Leader of Opposition at the start of the monsoon session on 29 July 2024 (News On AIR)."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "noida-airport",
+      "name": {
+        "en": "Noida International Airport, Jewar (Phase I)",
+        "hi": "नोएडा अंतरराष्ट्रीय हवाई अड्डा, जेवर (चरण I)",
+        "mr": "नोएडा आंतरराष्ट्रीय विमानतळ, जेवर (टप्पा I)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A second airport for the Delhi region, at Jewar in Gautam Buddh Nagar district, built under a public–private partnership. Phase I has a 3,900 m runway for wide-body aircraft and a capacity of 12 million passengers a year, expandable to 70 million. Inaugurated on 28 March 2026.",
+        "hi": "दिल्ली क्षेत्र के लिए दूसरा हवाई अड्डा, गौतम बुद्ध नगर ज़िले के जेवर में, सार्वजनिक–निजी भागीदारी से बना। चरण I में चौड़े विमानों के लिए 3,900 मीटर का रनवे है और क्षमता सालाना 1.2 करोड़ यात्रियों की है, जिसे 7 करोड़ तक बढ़ाया जा सकता है। 28 मार्च 2026 को उद्घाटन।",
+        "mr": "दिल्ली परिसरासाठी दुसरे विमानतळ, गौतमबुद्धनगर जिल्ह्यातील जेवर येथे, सार्वजनिक–खासगी भागीदारीतून उभारलेले. टप्पा I मध्ये रुंद विमानांसाठी 3,900 मीटरची धावपट्टी असून वार्षिक क्षमता 1.2 कोटी प्रवासी आहे, जी 7 कोटींपर्यंत वाढवता येईल. 28 मार्च 2026 रोजी उद्घाटन.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "transport",
+      "agency": null,
+      "start": null,
+      "completion": "March 2026",
+      "status": "Completed",
+      "asOf": "2026-10-14",
+      "sourceId": "pmindia",
+      "url": "https://www.pmindia.gov.in/?p=16818806",
+      "confidence": "Official",
+      "cost": {
+        "value": 11200,
+        "unit": "₹ crore",
+        "period": "2026",
+        "periodType": "calendar",
+        "sourceId": "pmindia",
+        "url": "https://www.pmindia.gov.in/?p=16818806",
+        "accessDate": "2026-10-14",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "About ₹11,200 crore for Phase I (PMO)."
+      }
+    },
+    {
+      "id": "ganga-expressway",
+      "name": {
+        "en": "Ganga Expressway (Meerut–Prayagraj)",
+        "hi": "गंगा एक्सप्रेसवे (मेरठ–प्रयागराज)",
+        "mr": "गंगा द्रुतगती मार्ग (मेरठ–प्रयागराज)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A 594 km access-controlled expressway through 12 districts from Meerut to Prayagraj, cutting the journey from about 12 hours to about 6. Built by the Uttar Pradesh Expressways Industrial Development Authority; inaugurated on 29 April 2026.",
+        "hi": "मेरठ से प्रयागराज तक 12 ज़िलों से गुज़रने वाला 594 किमी का एक्सेस-नियंत्रित एक्सप्रेसवे, जिससे यात्रा लगभग 12 घंटे से घटकर लगभग 6 घंटे रह जाती है। उत्तर प्रदेश एक्सप्रेसवे औद्योगिक विकास प्राधिकरण द्वारा निर्मित; 29 अप्रैल 2026 को उद्घाटन।",
+        "mr": "मेरठपासून प्रयागराजपर्यंत 12 जिल्ह्यांतून जाणारा 594 किमीचा प्रवेश-नियंत्रित द्रुतगती मार्ग; प्रवास सुमारे 12 तासांवरून सुमारे 6 तासांवर येतो. उत्तर प्रदेश द्रुतगती मार्ग औद्योगिक विकास प्राधिकरणाने बांधला; 29 एप्रिल 2026 रोजी उद्घाटन.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "transport",
+      "agency": "Uttar Pradesh Expressways Industrial Development Authority (UPEIDA)",
+      "start": null,
+      "completion": "April 2026",
+      "status": "Completed",
+      "asOf": "2026-10-14",
+      "sourceId": "newsonair",
+      "url": "https://newsonair.gov.in/pm-modi-inaugurates-594-km-long-ganga-expressway-connecting-meerut-to-prayagraj/",
+      "confidence": "Official"
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "allahabad-surkha-guava",
+      "name": {
+        "en": "Allahabad Surkha Guava",
+        "hi": "इलाहाबादी सुर्ख़ा अमरूद",
+        "mr": "अलाहाबादी सुरखा पेरू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "50",
+      "filingDate": "2006-02-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "mango-malihabadi-dusseheri",
+      "name": {
+        "en": "Mango Malihabadi Dusseheri",
+        "hi": "मलीहाबादी दशहरी आम",
+        "mr": "मलीहाबादी दशेरी आंबा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "125",
+      "filingDate": "2008-05-15",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kalanamak-rice",
+      "name": {
+        "en": "Kalanamak Rice",
+        "hi": "कालानमक चावल",
+        "mr": "काळानमक तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "205",
+      "filingDate": "2010-03-25",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "rataul-mango",
+      "name": {
+        "en": "Rataul Mango",
+        "hi": "रटौल आम",
+        "mr": "रटौल आंबा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "206",
+      "filingDate": "2010-04-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "adamchini-chawal",
+      "name": {
+        "en": "Adamchini Chawal",
+        "hi": "आदमचीनी चावल",
+        "mr": "आदमचिनी तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "715",
+      "filingDate": "2020-11-04",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "pratapgarh-aonla",
+      "name": {
+        "en": "Pratapgarh Aonla",
+        "hi": "प्रतापगढ़ आँवला",
+        "mr": "प्रतापगढ आवळा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "668",
+      "filingDate": "2019-10-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-langda-aam-mango",
+      "name": {
+        "en": "Banaras Langda Aam (Mango)",
+        "hi": "बनारसी लंगड़ा आम",
+        "mr": "बनारसी लंगडा आंबा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "716",
+      "filingDate": "2020-11-04",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ramnagar-bhanta-brinjal",
+      "name": {
+        "en": "Ramnagar Bhanta (Brinjal)",
+        "hi": "रामनगर भंटा (बैंगन)",
+        "mr": "रामनगर भांटा (वांगे)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "717",
+      "filingDate": "2020-11-04",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-pan-betel-leaf",
+      "name": {
+        "en": "Banaras Pan (Betel Leaf)",
+        "hi": "बनारसी पान",
+        "mr": "बनारसी विड्याचे पान",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "730",
+      "filingDate": "2020-12-30",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-lal-bharwamirch",
+      "name": {
+        "en": "Banaras Lal Bharwamirch",
+        "hi": "बनारसी लाल भरवा मिर्च",
+        "mr": "बनारसी लाल भरली मिरची",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "823",
+      "filingDate": "2022-02-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chiraigaon-karonda-of-varanasi",
+      "name": {
+        "en": "Chiraigaon Karonda of Varanasi",
+        "hi": "वाराणसी का चिरईगाँव करौंदा",
+        "mr": "वाराणसीचे चिरईगाव करवंद",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "833",
+      "filingDate": "2022-02-15",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "hathras-hing",
+      "name": {
+        "en": "Hathras Hing",
+        "hi": "हाथरस हींग",
+        "mr": "हाथरस हिंग",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "672",
+      "filingDate": "2019-10-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "muzaffarnagar-gur-jaggery",
+      "name": {
+        "en": "Muzaffarnagar Gur (Jaggery)",
+        "hi": "मुज़फ़्फ़रनगर गुड़",
+        "mr": "मुजफ्फरनगर गूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "723",
+      "filingDate": "2020-12-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-lal-peda",
+      "name": {
+        "en": "Banaras Lal Peda",
+        "hi": "बनारसी लाल पेड़ा",
+        "mr": "बनारसी लाल पेढा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "859",
+      "filingDate": "2022-03-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "jaunpur-imarti",
+      "name": {
+        "en": "Jaunpur Imarti",
+        "hi": "जौनपुर इमरती",
+        "mr": "जौनपूर इमरती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "999",
+      "filingDate": "2022-10-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-thandai",
+      "name": {
+        "en": "Banaras Thandai",
+        "hi": "बनारसी ठंडाई",
+        "mr": "बनारसी थंडाई",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "1000",
+      "filingDate": "2022-10-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-tirangi-barfi",
+      "name": {
+        "en": "Banaras Tirangi Barfi",
+        "hi": "बनारसी तिरंगी बर्फ़ी",
+        "mr": "बनारसी तिरंगी बर्फी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "941",
+      "filingDate": "2022-08-12",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-brocades-and-sarees",
+      "name": {
+        "en": "Banaras Brocades And Sarees",
+        "hi": "बनारसी ब्रोकेड और साड़ियाँ",
+        "mr": "बनारसी जरीकाम व साड्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "99",
+      "filingDate": "2007-07-04",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "lucknow-chikan-craft",
+      "name": {
+        "en": "Lucknow Chikan Craft",
+        "hi": "लखनवी चिकनकारी",
+        "mr": "लखनवी चिकनकारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "119",
+      "filingDate": "2007-12-07",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "hand-made-carpet-of-bhadohi",
+      "name": {
+        "en": "Hand Made Carpet of Bhadohi",
+        "hi": "भदोही का हस्तनिर्मित क़ालीन",
+        "mr": "भदोहीचा हाताने विणलेला गालिचा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "148",
+      "filingDate": "2008-12-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "firozabad-glass-logo",
+      "name": {
+        "en": "Firozabad Glass (Logo)",
+        "hi": "फ़िरोज़ाबाद काँच (लोगो)",
+        "mr": "फिरोजाबाद काच (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "155 & 156",
+      "filingDate": "2009-02-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kanpur-saddlery-logo",
+      "name": {
+        "en": "Kanpur Saddlery (Logo)",
+        "hi": "कानपुर ज़ीनसाज़ी (लोगो)",
+        "mr": "कानपूर खोगीर (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "159 & 160",
+      "filingDate": "2009-02-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "moradabad-metal-craft-logo",
+      "name": {
+        "en": "Moradabad Metal Craft (Logo)",
+        "hi": "मुरादाबाद धातु शिल्प (लोगो)",
+        "mr": "मुरादाबाद धातुकाम (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "161 & 162",
+      "filingDate": "2009-02-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "varanasi-glass-beads",
+      "name": {
+        "en": "Varanasi Glass Beads",
+        "hi": "वाराणसी काँच के मनके",
+        "mr": "वाराणसी काचेचे मणी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "177",
+      "filingDate": "2009-07-06",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "khurja-pottery",
+      "name": {
+        "en": "Khurja Pottery",
+        "hi": "खुर्जा मृद्भांड",
+        "mr": "खुर्जा मातीची भांडी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "178",
+      "filingDate": "2009-07-06",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "saharanpur-wood-craft",
+      "name": {
+        "en": "Saharanpur Wood Craft",
+        "hi": "सहारनपुर काष्ठ शिल्प",
+        "mr": "सहारनपूर काष्ठकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "184",
+      "filingDate": "2009-08-17",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "agra-durrie",
+      "name": {
+        "en": "Agra Durrie",
+        "hi": "आगरा दरी",
+        "mr": "आग्रा सतरंजी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "233",
+      "filingDate": "2011-04-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "farrukhabad-prints",
+      "name": {
+        "en": "Farrukhabad Prints",
+        "hi": "फ़र्रुख़ाबाद छपाई",
+        "mr": "फर्रुखाबाद छपाई",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "234",
+      "filingDate": "2011-04-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "lucknow-zardozi",
+      "name": {
+        "en": "Lucknow Zardozi",
+        "hi": "लखनऊ ज़रदोज़ी",
+        "mr": "लखनौ जरदोजी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "236",
+      "filingDate": "2011-04-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-brocades-and-sarees-logo",
+      "name": {
+        "en": "Banaras Brocades And Sarees (Logo)",
+        "hi": "बनारसी ब्रोकेड और साड़ियाँ (लोगो)",
+        "mr": "बनारसी जरीकाम व साड्या (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "237",
+      "filingDate": "2011-04-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-gulabi-meenakari-craft",
+      "name": {
+        "en": "Banaras Gulabi Meenakari Craft",
+        "hi": "बनारसी गुलाबी मीनाकारी",
+        "mr": "बनारसी गुलाबी मीनाकारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "397",
+      "filingDate": "2013-01-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-metal-repouse-craft",
+      "name": {
+        "en": "Banaras Metal Repouse Craft",
+        "hi": "बनारसी धातु उभार (रिपूसे) शिल्प",
+        "mr": "बनारसी धातू उठाव (रिपूसे) काम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "398",
+      "filingDate": "2013-01-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "varanasi-wooden-lacquerware-toys",
+      "name": {
+        "en": "Varanasi Wooden Lacquerware & Toys",
+        "hi": "वाराणसी लकड़ी के लाख के बर्तन और खिलौने",
+        "mr": "वाराणसी लाखेची लाकडी भांडी व खेळणी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "457",
+      "filingDate": "2013-10-31",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "mirzapur-handmade-dari",
+      "name": {
+        "en": "Mirzapur Handmade Dari",
+        "hi": "मिर्ज़ापुर हस्तनिर्मित दरी",
+        "mr": "मिर्झापूर हाताने विणलेली सतरंजी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "458",
+      "filingDate": "2013-10-31",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "nizamabad-black-clay-pottery",
+      "name": {
+        "en": "Nizamabad Black Clay Pottery",
+        "hi": "निज़ामाबाद काली मिट्टी के बर्तन",
+        "mr": "निजामाबाद काळ्या मातीची भांडी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "459",
+      "filingDate": "2013-10-31",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ghazipur-wall-hanging",
+      "name": {
+        "en": "Ghazipur Wall Hanging",
+        "hi": "ग़ाज़ीपुर दीवार सज्जा",
+        "mr": "गाझीपूर भिंत सजावट",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "555",
+      "filingDate": "2016-07-25",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "varanasi-soft-stone-jali-work",
+      "name": {
+        "en": "Varanasi Soft Stone Jali Work",
+        "hi": "वाराणसी मुलायम पत्थर जाली काम",
+        "mr": "वाराणसी मऊ दगडी जाळीकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "556",
+      "filingDate": "2016-07-25",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "gorakhpur-terracotta",
+      "name": {
+        "en": "Gorakhpur Terracotta",
+        "hi": "गोरखपुर टेराकोटा",
+        "mr": "गोरखपूर टेराकोटा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "619",
+      "filingDate": "2018-09-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-zardozi",
+      "name": {
+        "en": "Banaras Zardozi",
+        "hi": "बनारसी ज़रदोज़ी",
+        "mr": "बनारसी जरदोजी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "620",
+      "filingDate": "2018-09-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chunar-glaze-pottery",
+      "name": {
+        "en": "Chunar Glaze Pottery",
+        "hi": "चुनार चमकदार मृद्भांड",
+        "mr": "चुनार चकाकी मातीची भांडी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "621",
+      "filingDate": "2018-09-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "mirzapur-pital-bartan",
+      "name": {
+        "en": "Mirzapur Pital Bartan",
+        "hi": "मिर्ज़ापुर पीतल बर्तन",
+        "mr": "मिर्झापूर पितळी भांडी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "622",
+      "filingDate": "2018-09-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-wood-carving",
+      "name": {
+        "en": "Banaras Wood Carving",
+        "hi": "बनारसी काष्ठ नक़्क़ाशी",
+        "mr": "बनारसी काष्ठ कोरीवकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "623",
+      "filingDate": "2018-09-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-hand-block-print",
+      "name": {
+        "en": "Banaras Hand Block Print",
+        "hi": "बनारसी हस्त ठप्पा छपाई",
+        "mr": "बनारसी हातठसा छपाई",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "624",
+      "filingDate": "2018-09-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "mau-saree",
+      "name": {
+        "en": "Mau Saree",
+        "hi": "मऊ साड़ी",
+        "mr": "मऊ साडी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "645",
+      "filingDate": "2019-03-04",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "aligarh-tala",
+      "name": {
+        "en": "Aligarh Tala",
+        "hi": "अलीगढ़ ताला",
+        "mr": "अलीगढ कुलूप",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "664",
+      "filingDate": "2019-10-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bakhira-brassware",
+      "name": {
+        "en": "Bakhira Brassware",
+        "hi": "बखिरा पीतल के बर्तन",
+        "mr": "बखिरा पितळी भांडी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "665",
+      "filingDate": "2019-10-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banda-shazar-patthar-craft",
+      "name": {
+        "en": "Banda Shazar Patthar craft",
+        "hi": "बाँदा शजर पत्थर शिल्प",
+        "mr": "बांदा शजर दगड कलाकुसर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "666",
+      "filingDate": "2019-10-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "nagina-wood-craft",
+      "name": {
+        "en": "Nagina Wood Craft",
+        "hi": "नगीना काष्ठ शिल्प",
+        "mr": "नगीना काष्ठकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "667",
+      "filingDate": "2019-10-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "mahoba-gaura-patthar-hastashlip",
+      "name": {
+        "en": "Mahoba Gaura Patthar Hastashlip",
+        "hi": "महोबा गौरा पत्थर हस्तशिल्प",
+        "mr": "महोबा गौरा दगड हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "671",
+      "filingDate": "2019-10-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "mainpuri-tarkashi",
+      "name": {
+        "en": "Mainpuri Tarkashi",
+        "hi": "मैनपुरी तारकशी",
+        "mr": "मैनपुरी तारकशी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "673",
+      "filingDate": "2019-10-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sambhal-horn-craft",
+      "name": {
+        "en": "Sambhal Horn Craft",
+        "hi": "संभल सींग शिल्प",
+        "mr": "संभल शिंगकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "674",
+      "filingDate": "2019-10-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "amroha-dholak",
+      "name": {
+        "en": "Amroha Dholak",
+        "hi": "अमरोहा ढोलक",
+        "mr": "अमरोहा ढोलक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "670",
+      "filingDate": "2019-10-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "baghpat-home-furnishings",
+      "name": {
+        "en": "Baghpat Home Furnishings",
+        "hi": "बागपत गृह सज्जा वस्त्र",
+        "mr": "बागपत गृहसजावट वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "731",
+      "filingDate": "2020-12-30",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "barabanki-handloom-product",
+      "name": {
+        "en": "Barabanki Handloom Product",
+        "hi": "बाराबंकी हथकरघा उत्पाद",
+        "mr": "बाराबंकी हातमाग उत्पादने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "732",
+      "filingDate": "2020-12-30",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kalpi-handmade-paper",
+      "name": {
+        "en": "Kalpi Handmade Paper",
+        "hi": "कालपी हस्तनिर्मित काग़ज़",
+        "mr": "काल्पी हातकागद",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "733",
+      "filingDate": "2020-12-30",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "jalesar-dhatu-shilp-metal-craft",
+      "name": {
+        "en": "Jalesar Dhatu Shilp (Metal Craft)",
+        "hi": "जलेसर धातु शिल्प",
+        "mr": "जलेसर धातुकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "722",
+      "filingDate": "2020-12-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "patchwork-of-rampur",
+      "name": {
+        "en": "Patchwork of Rampur",
+        "hi": "रामपुर का पैचवर्क",
+        "mr": "रामपूरचे ठिगळकाम (पॅचवर्क)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "677",
+      "filingDate": "2019-11-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "mathura-sanjhi-craft",
+      "name": {
+        "en": "Mathura Sanjhi Craft",
+        "hi": "मथुरा साँझी शिल्प",
+        "mr": "मथुरा सांझी कला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "818",
+      "filingDate": "2022-01-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-tabla",
+      "name": {
+        "en": "Banaras Tabla",
+        "hi": "बनारसी तबला",
+        "mr": "बनारसी तबला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "822",
+      "filingDate": "2022-02-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "pilibhit-bansuri",
+      "name": {
+        "en": "Pilibhit Bansuri",
+        "hi": "पीलीभीत बाँसुरी",
+        "mr": "पिलीभीत बासरी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "824",
+      "filingDate": "2022-02-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-shehnai",
+      "name": {
+        "en": "Banaras Shehnai",
+        "hi": "बनारसी शहनाई",
+        "mr": "बनारसी सनई",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "924",
+      "filingDate": "2022-07-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sambhal-bone-craft",
+      "name": {
+        "en": "Sambhal Bone Craft",
+        "hi": "संभल अस्थि शिल्प",
+        "mr": "संभल हाडकाम कला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "930",
+      "filingDate": "2022-07-22",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "moonj-craft-of-uttar-pradesh",
+      "name": {
+        "en": "Moonj Craft of Uttar Pradesh",
+        "hi": "उत्तर प्रदेश का मूँज शिल्प",
+        "mr": "उत्तर प्रदेशची मुंज गवत कला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "933",
+      "filingDate": "2022-07-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chitrakoot-wooden-craft-toys",
+      "name": {
+        "en": "Chitrakoot Wooden Craft & Toys",
+        "hi": "चित्रकूट काष्ठ शिल्प और खिलौने",
+        "mr": "चित्रकूट काष्ठकला व खेळणी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "936",
+      "filingDate": "2022-08-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-mural-painting",
+      "name": {
+        "en": "Banaras Mural Painting",
+        "hi": "बनारसी भित्ति चित्रकला",
+        "mr": "बनारसी भित्तिचित्रकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "1033",
+      "filingDate": "2022-12-16",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "pilkhuwa-hand-block-print-textile",
+      "name": {
+        "en": "Pilkhuwa Hand Block Print Textile",
+        "hi": "पिलखुवा हस्त ठप्पा छपाई वस्त्र",
+        "mr": "पिलखुवा हातठसा छपाई वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "820",
+      "filingDate": "2022-01-25",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaras-metal-casting-craft",
+      "name": {
+        "en": "Banaras Metal Casting Craft",
+        "hi": "बनारसी धातु ढलाई शिल्प",
+        "mr": "बनारसी धातू ओतकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "923",
+      "filingDate": "2022-07-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bareilly-cane-bamboo-craft",
+      "name": {
+        "en": "Bareilly Cane & Bamboo Craft",
+        "hi": "बरेली बेंत और बाँस शिल्प",
+        "mr": "बरेली वेत व बांबू कला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "926",
+      "filingDate": "2022-07-18",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "tharu-embroidery-of-uttar-pradesh",
+      "name": {
+        "en": "Tharu Embroidery of Uttar Pradesh",
+        "hi": "उत्तर प्रदेश की थारू कढ़ाई",
+        "mr": "उत्तर प्रदेशचे थारू भरतकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "928",
+      "filingDate": "2022-07-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bareilly-zari-zardoji",
+      "name": {
+        "en": "Bareilly Zari Zardoji",
+        "hi": "बरेली ज़री ज़रदोज़ी",
+        "mr": "बरेली जरी जरदोजी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "929",
+      "filingDate": "2022-07-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "mathura-zari-poshak",
+      "name": {
+        "en": "Mathura Zari Poshak",
+        "hi": "मथुरा ज़री पोशाक",
+        "mr": "मथुरा जरी पोशाख",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1147",
+      "filingDate": "2023-10-04",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kannauj-perfume-logo",
+      "name": {
+        "en": "Kannauj Perfume (Logo)",
+        "hi": "कन्नौज इत्र (लोगो)",
+        "mr": "कन्नौज अत्तर (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "157 & 158",
+      "filingDate": "2009-02-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "meerut-scissors",
+      "name": {
+        "en": "Meerut Scissors",
+        "hi": "मेरठ कैंची",
+        "mr": "मेरठ कात्री",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "389",
+      "filingDate": "2012-12-12",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "agra-leather-footwear",
+      "name": {
+        "en": "Agra Leather Footwear",
+        "hi": "आगरा चमड़े के जूते",
+        "mr": "आग्रा चामडी पादत्राणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "721",
+      "filingDate": "2020-12-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "meerut-bugle",
+      "name": {
+        "en": "Meerut Bugle",
+        "hi": "मेरठ बिगुल",
+        "mr": "मेरठ बिगुल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "1219",
+      "filingDate": "2024-04-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chunar-balua-patthar",
+      "name": {
+        "en": "Chunar Balua Patthar",
+        "hi": "चुनार बलुआ पत्थर",
+        "mr": "चुनार वालुकाश्म",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "natural"
+      ],
+      "applicationNo": "557",
+      "filingDate": "2016-07-25",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "agra-stone-inlay-work",
+      "name": {
+        "en": "Agra Stone Inlay Work",
+        "hi": "आगरा पत्थर पच्चीकारी",
+        "mr": "आग्रा दगडी जडावकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "661",
+      "filingDate": "2019-09-30",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bareilly-terracotta",
+      "name": {
+        "en": "Bareilly Terracotta",
+        "hi": "बरेली टेराकोटा",
+        "mr": "बरेली टेराकोटा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "678",
+      "filingDate": "2019-11-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-14",
+    "editorialStatus": "draft"
   }
 }

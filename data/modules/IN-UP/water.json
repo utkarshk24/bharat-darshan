@@ -1,0 +1,68 @@
+{
+  "region": "IN-UP",
+  "module": "water",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Uttar Pradesh has abundant rivers but uneven water. The Ganga and its tributaries, the Upper and Lower Ganga canals (opened in the 19th century) and a very large number of tube wells irrigate the plains, making the State a leading producer of wheat, rice and sugarcane. The cost is falling groundwater in the western districts, arsenic and fluoride in parts of the east and the Bundelkhand region, and polluted river stretches near cities, which the national Namami Gange programme targets.\n\nBundelkhand in the south suffers recurrent drought; the Ken–Betwa river link, shared with Madhya Pradesh, is intended to move water into the region. In the east, the Ghaghara, Rapti and Gandak flood large areas most monsoons.",
+        "hi": "उत्तर प्रदेश में नदियाँ प्रचुर हैं, लेकिन पानी असमान रूप से उपलब्ध है। गंगा और उसकी सहायक नदियाँ, 19वीं सदी में खुली ऊपरी और निचली गंगा नहरें और बहुत बड़ी संख्या में नलकूप मैदानों को सींचते हैं, जिससे राज्य गेहूँ, चावल और गन्ने का प्रमुख उत्पादक है। इसकी क़ीमत पश्चिमी ज़िलों में गिरता भूजल, पूर्व और बुंदेलखंड के कुछ भागों में आर्सेनिक और फ़्लोराइड, और शहरों के पास प्रदूषित नदी खंड हैं, जिन पर राष्ट्रीय नमामि गंगे कार्यक्रम केंद्रित है।\n\nदक्षिण में बुंदेलखंड बार-बार सूखे से जूझता है; मध्य प्रदेश के साथ साझा केन–बेतवा नदी जोड़ परियोजना का उद्देश्य इस क्षेत्र में पानी पहुँचाना है। पूर्व में घाघरा, राप्ती और गंडक लगभग हर मानसून में बड़े क्षेत्र को बाढ़ में डुबो देती हैं।",
+        "mr": "उत्तर प्रदेशात नद्या भरपूर आहेत, पण पाणी असमान आहे. गंगा व तिच्या उपनद्या, एकोणिसाव्या शतकात सुरू झालेले वरचे व खालचे गंगा कालवे आणि अतिशय मोठ्या संख्येने कूपनलिका मैदानांना पाणी देतात, त्यामुळे राज्य गहू, तांदूळ व उसाचे आघाडीचे उत्पादक आहे. याची किंमत म्हणजे पश्चिमेकडील जिल्ह्यांत घटते भूजल, पूर्व भागात व बुंदेलखंडच्या काही भागांत आर्सेनिक व फ्लोराइड, आणि शहरांजवळील प्रदूषित नदीपट्टे — ज्यांवर राष्ट्रीय नमामि गंगे कार्यक्रम केंद्रित आहे.\n\nदक्षिणेकडील बुंदेलखंड वारंवार दुष्काळ सोसतो; मध्य प्रदेशसोबत सामायिक केन–बेतवा नदीजोड प्रकल्पाचा उद्देश या भागात पाणी पोहोचवणे आहे. पूर्वेकडे घाघरा, राप्ती व गंडक जवळपास दर पावसाळ्यात मोठा भाग पुराखाली आणतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Net irrigated area and sources",
+            "hi": "शुद्ध सिंचित क्षेत्र और स्रोत",
+            "mr": "निव्वळ सिंचित क्षेत्र व स्रोत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "up-des",
+          "note": "Land use statistics."
+        },
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        }
+      ]
+    }
+  ]
+}

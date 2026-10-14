@@ -1,0 +1,61 @@
+{
+  "region": "IN-UP",
+  "module": "gi",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Uttar Pradesh has 78 registered Geographical Indications in the GI Registry's list as on 31 December 2025 — the most of any State in this directory — of which 56 are handicrafts. Varanasi alone accounts for more than twenty, from Banarasi brocades and saris, gulabi meenakari and wooden toys to the tabla, shehnai, langda mango, paan and thandai. Other well-known names are Lucknow chikankari and zardozi, Bhadohi carpets, Moradabad metal craft, Firozabad glass, Khurja pottery, Nizamabad black clay pottery, Kannauj perfume, Agra stone inlay, the Kalanamak rice of Siddharthnagar and Malihabadi Dussehri mangoes.",
+        "hi": "जीआई रजिस्ट्री की 31 दिसंबर 2025 की सूची में उत्तर प्रदेश के 78 पंजीकृत भौगोलिक संकेतक हैं — इस निर्देशिका में किसी भी राज्य से अधिक — जिनमें 56 हस्तशिल्प हैं। अकेले वाराणसी के बीस से अधिक हैं — बनारसी ब्रोकेड और साड़ियों, गुलाबी मीनाकारी और लकड़ी के खिलौनों से लेकर तबला, शहनाई, लंगड़ा आम, पान और ठंडाई तक। अन्य प्रसिद्ध नाम हैं लखनवी चिकनकारी और ज़रदोज़ी, भदोही के क़ालीन, मुरादाबाद का धातु शिल्प, फ़िरोज़ाबाद का काँच, खुर्जा के मृद्भांड, निज़ामाबाद के काले मिट्टी के बर्तन, कन्नौज का इत्र, आगरा की पत्थर पच्चीकारी, सिद्धार्थनगर का कालानमक चावल और मलीहाबादी दशहरी आम।",
+        "mr": "जीआय रजिस्ट्रीच्या 31 डिसेंबर 2025 च्या यादीत उत्तर प्रदेशची 78 नोंदणीकृत भौगोलिक मानांकने आहेत — या सूचीतील कोणत्याही राज्यापेक्षा जास्त — त्यांतील 56 हस्तकला आहेत. एकट्या वाराणसीची वीसहून अधिक आहेत — बनारसी जरीकाम व साड्या, गुलाबी मीनाकारी व लाकडी खेळण्यांपासून तबला, सनई, लंगडा आंबा, पान व थंडाईपर्यंत. इतर प्रसिद्ध नावे म्हणजे लखनवी चिकनकारी व जरदोजी, भदोहीचे गालिचे, मुरादाबादचे धातुकाम, फिरोजाबादची काच, खुर्जाची मातीची भांडी, निजामाबादची काळ्या मातीची भांडी, कनौजचे अत्तर, आग्र्याचे दगडी जडावकाम, सिद्धार्थनगरचा काळानमक तांदूळ आणि मलीहाबादी दशेरी आंबा.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "gi-registry"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "gi",
+      "id": "gi"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Registration year and producing region for each GI",
+            "hi": "हर जीआई का पंजीकरण वर्ष और उत्पादन क्षेत्र",
+            "mr": "प्रत्येक जीआयचे नोंदणी वर्ष व उत्पादन क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "gi-registry",
+          "note": "GI public search, certificate details."
+        },
+        {
+          "label": {
+            "en": "One District One Product (ODOP) list",
+            "hi": "एक ज़िला एक उत्पाद (ओडीओपी) सूची",
+            "mr": "एक जिल्हा एक उत्पादन (ओडीओपी) यादी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "dpiit",
+          "note": "UP ODOP portal / DPIIT list."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "region": "IN-UP",
+  "module": "digital",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Noida and Greater Noida, in the Delhi region, are among India's largest centres of electronics manufacturing — especially mobile phones and components — and host many IT and IT-enabled services firms. Lucknow, Kanpur and Varanasi have smaller IT clusters and growing start-up activity, supported by incubators at IIT Kanpur and other institutions. Large data-centre campuses have come up around Greater Noida.",
+        "hi": "दिल्ली क्षेत्र में स्थित नोएडा और ग्रेटर नोएडा भारत के सबसे बड़े इलेक्ट्रॉनिक्स विनिर्माण केंद्रों में हैं — ख़ासकर मोबाइल फ़ोन और पुर्ज़े — और यहाँ कई आईटी और आईटी-सक्षम सेवा कंपनियाँ हैं। लखनऊ, कानपुर और वाराणसी में छोटे आईटी क्लस्टर और बढ़ती स्टार्टअप गतिविधि है, जिसे आईआईटी कानपुर और अन्य संस्थानों के इनक्यूबेटर सहारा देते हैं। ग्रेटर नोएडा के आसपास बड़े डेटा सेंटर परिसर बने हैं।",
+        "mr": "दिल्ली परिसरातील नोएडा व ग्रेटर नोएडा ही भारतातील सर्वांत मोठ्या इलेक्ट्रॉनिक्स उत्पादन केंद्रांपैकी आहेत — विशेषतः मोबाइल फोन व सुटे भाग — आणि तिथे अनेक आयटी व आयटी-आधारित सेवा कंपन्या आहेत. लखनौ, कानपूर व वाराणसीत लहान आयटी समूह आणि वाढती स्टार्टअप उलाढाल आहे, ज्याला आयआयटी कानपूर व इतर संस्थांचे इनक्युबेटर पाठबळ देतात. ग्रेटर नोएडाभोवती मोठी डेटा सेंटर संकुले उभी राहिली आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (UP East and UP West circles)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        },
+        {
+          "label": {
+            "en": "Electronics production and exports",
+            "hi": "इलेक्ट्रॉनिक्स उत्पादन और निर्यात",
+            "mr": "इलेक्ट्रॉनिक्स उत्पादन व निर्यात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "MeitY / State electronics policy reports."
+        }
+      ]
+    }
+  ]
+}

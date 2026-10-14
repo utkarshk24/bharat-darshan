@@ -1,0 +1,120 @@
+{
+  "region": "IN-UP",
+  "module": "trivia",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "pop",
+          "name": {
+            "en": "At the 2011 Census, about one in six Indians lived in Uttar Pradesh — 19.98 crore people.",
+            "hi": "2011 की जनगणना में लगभग हर छठा भारतीय उत्तर प्रदेश में रहता था — 19.98 करोड़ लोग।",
+            "mr": "2011 च्या जनगणनेत जवळपास दर सहावा भारतीय उत्तर प्रदेशात राहत होता — 19.98 कोटी लोक.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://updes.up.nic.in/updes/data/upinfigures/up%20in%20figures-%202022.pdf",
+          "sourceId": "up-des"
+        },
+        {
+          "id": "gi",
+          "name": {
+            "en": "With 78 registered GIs, it has the most of any State in this directory; more than twenty are from Varanasi.",
+            "hi": "78 पंजीकृत जीआई के साथ इस निर्देशिका में सबसे अधिक इसी राज्य के हैं; बीस से अधिक वाराणसी के हैं।",
+            "mr": "78 नोंदणीकृत जीआयसह या सूचीत सर्वाधिक याच राज्याची आहेत; वीसहून अधिक वाराणसीची आहेत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "sourceId": "gi-registry"
+        },
+        {
+          "id": "ganga",
+          "name": {
+            "en": "The Ganga Expressway (2026) runs 594 km from Meerut to Prayagraj through 12 districts.",
+            "hi": "गंगा एक्सप्रेसवे (2026) मेरठ से प्रयागराज तक 12 ज़िलों से होकर 594 किमी जाता है।",
+            "mr": "गंगा द्रुतगती मार्ग (2026) मेरठपासून प्रयागराजपर्यंत 12 जिल्ह्यांतून 594 किमी जातो.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://newsonair.gov.in/pm-modi-inaugurates-594-km-long-ganga-expressway-connecting-meerut-to-prayagraj/",
+          "sourceId": "newsonair"
+        },
+        {
+          "id": "ls",
+          "name": {
+            "en": "It elects 80 members to the Lok Sabha — more than any other State.",
+            "hi": "यह लोकसभा में 80 सदस्य भेजता है — किसी भी अन्य राज्य से अधिक।",
+            "mr": "ते लोकसभेवर 80 सदस्य पाठवते — इतर कोणत्याही राज्यापेक्षा जास्त.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dhyan",
+          "name": {
+            "en": "National Sports Day, 29 August, marks the birthday of hockey legend Major Dhyan Chand.",
+            "hi": "राष्ट्रीय खेल दिवस, 29 अगस्त, हॉकी के महानायक मेजर ध्यानचंद का जन्मदिन है।",
+            "mr": "राष्ट्रीय क्रीडा दिन, 29 ऑगस्ट, हा हॉकीतील महानायक मेजर ध्यानचंद यांचा जन्मदिवस आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kumbh",
+          "name": {
+            "en": "The Kumbh Mela is on UNESCO's list of the Intangible Cultural Heritage of Humanity (2017).",
+            "hi": "कुंभ मेला यूनेस्को की मानवता की अमूर्त सांस्कृतिक धरोहर सूची में है (2017)।",
+            "mr": "कुंभमेळा युनेस्कोच्या मानवतेच्या अमूर्त सांस्कृतिक वारसा यादीत आहे (2017).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sarnath",
+          "name": {
+            "en": "Sarnath, where the Buddha gave his first sermon, became a UNESCO World Heritage Site in 2026.",
+            "hi": "सारनाथ, जहाँ बुद्ध ने पहला उपदेश दिया, 2026 में यूनेस्को विश्व धरोहर स्थल बना।",
+            "mr": "बुद्धांनी जिथे पहिले प्रवचन दिले ते सारनाथ 2026 मध्ये युनेस्को जागतिक वारसा स्थळ झाले.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://whc.unesco.org/en/statesparties/in",
+          "sourceId": "unesco-whc"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

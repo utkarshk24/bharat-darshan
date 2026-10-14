@@ -1,0 +1,655 @@
+{
+  "region": "IN-UP",
+  "module": "nature",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Uttar Pradesh is one of India's least forested States — forest cover was about 6.2% of its area in ISFR 2023 — because almost all of the Gangetic plain has long been farmed. The richest wild landscape is the Terai along the Nepal border, where Dudhwa and Pilibhit tiger reserves protect tall grasslands and sal forest with tigers, swamp deer (barasingha), the State animal, one-horned rhinoceroses reintroduced into Dudhwa, and the Bengal florican. Amangarh in Bijnor adjoins Corbett, and Ranipur in Chitrakoot protects dry forest in the south.\n\nWetlands matter a great deal: the State has 12 Ramsar sites, from the Upper Ganga stretch, home to the Gangetic dolphin and gharial, to village lakes such as Nawabganj, Sur Sarovar and Bakhira that host migratory waterbirds and the sarus crane, the State bird. The Chambal sanctuary, shared with Madhya Pradesh and Rajasthan, protects one of the last strongholds of the gharial.",
+        "hi": "उत्तर प्रदेश भारत के सबसे कम वन वाले राज्यों में है — आईएसएफ़आर 2023 में इसके क्षेत्रफल का लगभग 6.2% वनाच्छादित था — क्योंकि गंगा का लगभग पूरा मैदान लंबे समय से खेती में है। सबसे समृद्ध वन्य भूदृश्य नेपाल सीमा पर तराई है, जहाँ दुधवा और पीलीभीत बाघ अभयारण्य ऊँची घास और साल के वनों की रक्षा करते हैं, जिनमें बाघ, राज्य पशु बारहसिंगा, दुधवा में फिर से बसाए गए एक सींग वाले गैंडे और बंगाल फ़्लोरिकन रहते हैं। बिजनौर का अमानगढ़ कॉर्बेट से सटा है, और चित्रकूट का रानीपुर दक्षिण के शुष्क वनों की रक्षा करता है।\n\nआर्द्रभूमियाँ बहुत महत्त्वपूर्ण हैं: राज्य में 12 रामसर स्थल हैं — गंगा डॉल्फ़िन और घड़ियाल के आवास ऊपरी गंगा खंड से लेकर नवाबगंज, सूर सरोवर और बखिरा जैसी गाँव की झीलों तक, जहाँ प्रवासी जलपक्षी और राज्य पक्षी सारस आते हैं। मध्य प्रदेश और राजस्थान के साथ साझा चंबल अभयारण्य घड़ियाल के अंतिम गढ़ों में से एक की रक्षा करता है।",
+        "mr": "उत्तर प्रदेश हे भारतातील सर्वांत कमी वनक्षेत्र असलेल्या राज्यांपैकी एक आहे — आयएसएफआर 2023 नुसार क्षेत्रफळाच्या सुमारे 6.2% भागावर वनाच्छादन होते — कारण गंगेचे जवळपास संपूर्ण मैदान दीर्घकाळ लागवडीखाली आहे. सर्वांत समृद्ध वन्य प्रदेश नेपाळ सीमेवरील तराई आहे, जिथे दुधवा व पिलीभीत व्याघ्र प्रकल्प उंच गवताळ प्रदेश व सालवनांचे संरक्षण करतात — वाघ, राज्यप्राणी बारशिंगा, दुधवात पुन्हा वसवलेले एकशिंगी गेंडे आणि बंगाल फ्लोरिकन तिथे आहेत. बिजनौरमधील अमानगड कॉर्बेटला लागून आहे, आणि चित्रकूटमधील राणीपूर दक्षिणेकडील कोरड्या वनांचे संरक्षण करते.\n\nपाणथळ जागा फार महत्त्वाच्या आहेत: राज्यात 12 रामसर स्थळे आहेत — गांगेय डॉल्फिन व घडियालचा अधिवास असलेल्या वरच्या गंगा पट्ट्यापासून ते नवाबगंज, सूर सरोवर व बखिरा यांसारख्या गावतलावांपर्यंत, जिथे स्थलांतरित पाणपक्षी आणि राज्यपक्षी सारस येतात. मध्य प्रदेश व राजस्थानसोबत सामायिक चंबळ अभयारण्य घडियालच्या शेवटच्या बालेकिल्ल्यांपैकी एकाचे संरक्षण करते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "indian-wetlands"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 15045.8,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 14927.37,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 6.24,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 15,045.80 km² ÷ geographical area 2,40,928 km²."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        },
+        {
+          "id": "ramsar",
+          "label": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळ स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 12,
+            "unit": "sites",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "indian-wetlands",
+            "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "MoEFCC list of Ramsar sites as on 21 April 2026 (India total 99)."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "ramsar",
+      "title": {
+        "en": "Ramsar wetlands",
+        "hi": "रामसर आर्द्रभूमियाँ",
+        "mr": "रामसर पाणथळ स्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Site",
+            "hi": "स्थल",
+            "mr": "स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Designated",
+            "hi": "घोषित",
+            "mr": "घोषणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Area (ha)",
+            "hi": "क्षेत्रफल (हेक्टेयर)",
+            "mr": "क्षेत्रफळ (हेक्टर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Upper Ganga River (Brijghat to Narora)",
+            "hi": "ऊपरी गंगा नदी (बृजघाट से नरौरा)",
+            "mr": "वरची गंगा नदी (बृजघाट ते नरौरा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "8 Nov 2005",
+          "26,590"
+        ],
+        [
+          {
+            "en": "Nawabganj Bird Sanctuary",
+            "hi": "नवाबगंज पक्षी अभयारण्य",
+            "mr": "नवाबगंज पक्षी अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "19 Sep 2019",
+          "225"
+        ],
+        [
+          {
+            "en": "Sarsai Nawar Jheel",
+            "hi": "सरसई नावर झील",
+            "mr": "सरसई नावर तलाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "19 Sep 2019",
+          "161"
+        ],
+        [
+          {
+            "en": "Sandi Bird Sanctuary",
+            "hi": "सांडी पक्षी अभयारण्य",
+            "mr": "सांडी पक्षी अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "26 Sep 2019",
+          "309"
+        ],
+        [
+          {
+            "en": "Samaspur Bird Sanctuary",
+            "hi": "समसपुर पक्षी अभयारण्य",
+            "mr": "समसपूर पक्षी अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "3 Oct 2019",
+          "799"
+        ],
+        [
+          {
+            "en": "Parvati Arga Bird Sanctuary",
+            "hi": "पार्वती अरगा पक्षी अभयारण्य",
+            "mr": "पार्वती अरगा पक्षी अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2 Dec 2019",
+          "722"
+        ],
+        [
+          {
+            "en": "Saman Bird Sanctuary",
+            "hi": "समान पक्षी अभयारण्य",
+            "mr": "समान पक्षी अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2 Dec 2019",
+          "526"
+        ],
+        [
+          {
+            "en": "Sur Sarovar",
+            "hi": "सूर सरोवर",
+            "mr": "सूर सरोवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "21 Aug 2020",
+          "431"
+        ],
+        [
+          {
+            "en": "Haiderpur Wetland",
+            "hi": "हैदरपुर आर्द्रभूमि",
+            "mr": "हैदरपूर पाणथळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "13 Apr 2021",
+          "6,908"
+        ],
+        [
+          {
+            "en": "Bakhira Wildlife Sanctuary",
+            "hi": "बखिरा वन्यजीव अभयारण्य",
+            "mr": "बखिरा वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "29 Jun 2021",
+          "2,894"
+        ],
+        [
+          {
+            "en": "Patna Bird Sanctuary",
+            "hi": "पटना पक्षी अभयारण्य",
+            "mr": "पटना पक्षी अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "4 Dec 2025",
+          "108.86"
+        ],
+        [
+          {
+            "en": "Sheikha Jheel Bird Sanctuary",
+            "hi": "शेखा झील पक्षी अभयारण्य",
+            "mr": "शेखा झील पक्षी अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "19 Jan 2026",
+          "40.31"
+        ]
+      ],
+      "sourceId": "indian-wetlands",
+      "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+      "accessDate": "2026-10-14",
+      "confidence": "Official",
+      "note": {
+        "en": "MoEFCC list as on 21 April 2026.",
+        "hi": "21 अप्रैल 2026 की पर्यावरण मंत्रालय सूची।",
+        "mr": "21 एप्रिल 2026 ची पर्यावरण मंत्रालयाची यादी.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "protected",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "dudhwa",
+          "name": {
+            "en": "Dudhwa Tiger Reserve",
+            "hi": "दुधवा बाघ अभयारण्य",
+            "mr": "दुधवा व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Lakhimpur Kheri; rhino, barasingha",
+            "hi": "लखीमपुर खीरी; गैंडा, बारहसिंगा",
+            "mr": "लखीमपूर खेरी; गेंडा, बारशिंगा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pilibhit",
+          "name": {
+            "en": "Pilibhit Tiger Reserve",
+            "hi": "पीलीभीत बाघ अभयारण्य",
+            "mr": "पिलीभीत व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Terai",
+            "hi": "तराई",
+            "mr": "तराई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "amangarh",
+          "name": {
+            "en": "Amangarh Tiger Reserve",
+            "hi": "अमानगढ़ बाघ अभयारण्य",
+            "mr": "अमानगड व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bijnor, adjoining Corbett",
+            "hi": "बिजनौर, कॉर्बेट से सटा",
+            "mr": "बिजनौर, कॉर्बेटलगत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ranipur",
+          "name": {
+            "en": "Ranipur Tiger Reserve",
+            "hi": "रानीपुर बाघ अभयारण्य",
+            "mr": "राणीपूर व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Chitrakoot",
+            "hi": "चित्रकूट",
+            "mr": "चित्रकूट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chambal",
+          "name": {
+            "en": "National Chambal Sanctuary",
+            "hi": "राष्ट्रीय चंबल अभयारण्य",
+            "mr": "राष्ट्रीय चंबळ अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Gharial; shared with MP and Rajasthan",
+            "hi": "घड़ियाल; मध्य प्रदेश और राजस्थान के साथ साझा",
+            "mr": "घडियाल; मध्य प्रदेश व राजस्थानसोबत सामायिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "katarniaghat",
+          "name": {
+            "en": "Katarniaghat Wildlife Sanctuary",
+            "hi": "कतर्नियाघाट वन्यजीव अभयारण्य",
+            "mr": "कतर्नियाघाट वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bahraich",
+            "hi": "बहराइच",
+            "mr": "बहराइच",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Protected areas (selected)",
+        "hi": "संरक्षित क्षेत्र (चयनित)",
+        "mr": "संरक्षित क्षेत्रे (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "species",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "barasingha",
+          "name": {
+            "en": "Swamp deer (barasingha)",
+            "hi": "बारहसिंगा",
+            "mr": "बारशिंगा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sarus",
+          "name": {
+            "en": "Sarus crane",
+            "hi": "सारस",
+            "mr": "सारस क्रौंच",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiger",
+          "name": {
+            "en": "Bengal tiger",
+            "hi": "बंगाल बाघ",
+            "mr": "पट्टेरी वाघ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rhino",
+          "name": {
+            "en": "One-horned rhinoceros",
+            "hi": "एक सींग वाला गैंडा",
+            "mr": "एकशिंगी गेंडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dolphin",
+          "name": {
+            "en": "Gangetic dolphin",
+            "hi": "गंगा डॉल्फ़िन (सूंस)",
+            "mr": "गांगेय डॉल्फिन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gharial",
+          "name": {
+            "en": "Gharial",
+            "hi": "घड़ियाल",
+            "mr": "घडियाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "florican",
+          "name": {
+            "en": "Bengal florican",
+            "hi": "बंगाल फ़्लोरिकन",
+            "mr": "बंगाल फ्लोरिकन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key species",
+        "hi": "प्रमुख प्रजातियाँ",
+        "mr": "प्रमुख प्रजाती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tiger reserve areas and tiger estimates",
+            "hi": "बाघ अभयारण्य क्षेत्रफल और बाघों का अनुमान",
+            "mr": "व्याघ्र प्रकल्प क्षेत्र व वाघांचा अंदाज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ntca",
+          "note": "NTCA tiger reserve list."
+        },
+        {
+          "label": {
+            "en": "National parks and sanctuaries (count, area)",
+            "hi": "राष्ट्रीय उद्यान और अभयारण्य (संख्या, क्षेत्रफल)",
+            "mr": "राष्ट्रीय उद्याने व अभयारण्ये (संख्या, क्षेत्र)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "moefcc",
+          "note": "ENVIS / WII database."
+        },
+        {
+          "label": {
+            "en": "Sarus crane count",
+            "hi": "सारस गणना",
+            "mr": "सारस गणना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "moefcc",
+          "note": "State Forest Department sarus census."
+        }
+      ]
+    }
+  ]
+}

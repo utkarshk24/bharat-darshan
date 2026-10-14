@@ -1,0 +1,379 @@
+{
+  "region": "IN-UP",
+  "module": "geography",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Most of Uttar Pradesh is a vast, flat alluvial plain built by the Ganga and its tributaries — one of the most densely farmed landscapes on Earth. Along the northern border with Nepal runs the Terai, a belt of tall grassland, sal forest and swamp at the foot of the Himalaya, now protected in Dudhwa and Pilibhit. In the south the land rises into the rocky Bundelkhand plateau and the Vindhya and Kaimur hills around Mirzapur and Sonbhadra, which are drier and less fertile.\n\nThe Ganga enters the plains near Bijnor and flows south-east past Kanpur, Prayagraj and Varanasi. The Yamuna runs parallel to it past Mathura and Agra and joins it at the Triveni Sangam in Prayagraj. Other major rivers — the Ramganga, Gomti, Ghaghara, Rapti, Gandak, Betwa and Ken — feed the system; floods in the eastern districts and dry spells in Bundelkhand are both recurring problems.",
+        "hi": "उत्तर प्रदेश का अधिकांश भाग गंगा और उसकी सहायक नदियों से बना विशाल, समतल जलोढ़ मैदान है — धरती के सबसे सघन खेती वाले भूदृश्यों में से एक। नेपाल से लगी उत्तरी सीमा के साथ हिमालय की तलहटी में तराई की पट्टी है, जिसमें ऊँची घास, साल के वन और दलदल हैं, जो अब दुधवा और पीलीभीत में संरक्षित हैं। दक्षिण में भूमि बुंदेलखंड के पथरीले पठार और मिर्ज़ापुर व सोनभद्र के आसपास विंध्य और कैमूर पहाड़ियों में उठती है, जो अधिक सूखी और कम उपजाऊ है।\n\nगंगा बिजनौर के पास मैदान में प्रवेश करती है और कानपुर, प्रयागराज और वाराणसी से होकर दक्षिण-पूर्व की ओर बहती है। यमुना मथुरा और आगरा से होकर इसके समानांतर बहती है और प्रयागराज के त्रिवेणी संगम पर इससे मिलती है। अन्य बड़ी नदियाँ — रामगंगा, गोमती, घाघरा, राप्ती, गंडक, बेतवा और केन — इस तंत्र को जल देती हैं; पूर्वी ज़िलों में बाढ़ और बुंदेलखंड में सूखा, दोनों बार-बार आने वाली समस्याएँ हैं।",
+        "mr": "उत्तर प्रदेशचा बहुतांश भाग गंगा व तिच्या उपनद्यांनी घडवलेले विशाल, सपाट गाळाचे मैदान आहे — पृथ्वीवरील सर्वांत दाट शेती असलेल्या प्रदेशांपैकी एक. नेपाळलगतच्या उत्तर सीमेवर हिमालयाच्या पायथ्याशी तराईचा पट्टा आहे — उंच गवत, सालवृक्षांची वने आणि दलदल — जो आता दुधवा व पिलीभीत येथे संरक्षित आहे. दक्षिणेकडे जमीन बुंदेलखंडच्या खडकाळ पठारात आणि मिर्झापूर व सोनभद्रभोवतीच्या विंध्य व कैमूर डोंगरांत उंचावते, जो भाग अधिक कोरडा व कमी सुपीक आहे.\n\nगंगा बिजनौरजवळ मैदानात प्रवेश करते आणि कानपूर, प्रयागराज व वाराणसीवरून आग्नेयेकडे वाहते. यमुना मथुरा व आग्र्यावरून तिला समांतर वाहते आणि प्रयागराजच्या त्रिवेणी संगमावर तिला मिळते. इतर मोठ्या नद्या — रामगंगा, गोमती, घाघरा, राप्ती, गंडक, बेतवा आणि केन — या प्रणालीला पाणी पुरवतात; पूर्वेकडील जिल्ह्यांत पूर आणि बुंदेलखंडमध्ये दुष्काळ, या दोन्ही वारंवार येणाऱ्या समस्या आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 240928,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "uk",
+          "name": {
+            "en": "Uttarakhand (north-west)",
+            "hi": "उत्तराखंड (उत्तर-पश्चिम)",
+            "mr": "उत्तराखंड (वायव्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "np",
+          "name": {
+            "en": "Nepal (north)",
+            "hi": "नेपाल (उत्तर)",
+            "mr": "नेपाळ (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hp",
+          "name": {
+            "en": "Himachal Pradesh (north-west)",
+            "hi": "हिमाचल प्रदेश (उत्तर-पश्चिम)",
+            "mr": "हिमाचल प्रदेश (वायव्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hr",
+          "name": {
+            "en": "Haryana (west)",
+            "hi": "हरियाणा (पश्चिम)",
+            "mr": "हरियाणा (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dl",
+          "name": {
+            "en": "Delhi (west)",
+            "hi": "दिल्ली (पश्चिम)",
+            "mr": "दिल्ली (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rj",
+          "name": {
+            "en": "Rajasthan (west)",
+            "hi": "राजस्थान (पश्चिम)",
+            "mr": "राजस्थान (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mp",
+          "name": {
+            "en": "Madhya Pradesh (south)",
+            "hi": "मध्य प्रदेश (दक्षिण)",
+            "mr": "मध्य प्रदेश (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ct",
+          "name": {
+            "en": "Chhattisgarh (south-east)",
+            "hi": "छत्तीसगढ़ (दक्षिण-पूर्व)",
+            "mr": "छत्तीसगड (आग्नेय)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jh",
+          "name": {
+            "en": "Jharkhand (south-east)",
+            "hi": "झारखंड (दक्षिण-पूर्व)",
+            "mr": "झारखंड (आग्नेय)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "br",
+          "name": {
+            "en": "Bihar (east)",
+            "hi": "बिहार (पूर्व)",
+            "mr": "बिहार (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ganga",
+          "name": {
+            "en": "Ganga",
+            "hi": "गंगा",
+            "mr": "गंगा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows past Kanpur, Prayagraj and Varanasi; the Upper Ganga stretch is a Ramsar site.",
+            "hi": "कानपुर, प्रयागराज और वाराणसी से होकर बहती है; ऊपरी गंगा खंड रामसर स्थल है।",
+            "mr": "कानपूर, प्रयागराज व वाराणसीवरून वाहते; वरचा गंगा पट्टा रामसर स्थळ आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "yamuna",
+          "name": {
+            "en": "Yamuna",
+            "hi": "यमुना",
+            "mr": "यमुना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Past Mathura and Agra to the Sangam at Prayagraj.",
+            "hi": "मथुरा और आगरा से होकर प्रयागराज के संगम तक।",
+            "mr": "मथुरा व आग्र्यावरून प्रयागराजच्या संगमापर्यंत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gomti",
+          "name": {
+            "en": "Gomti",
+            "hi": "गोमती",
+            "mr": "गोमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises in Pilibhit; flows through Lucknow and joins the Ganga near Varanasi.",
+            "hi": "पीलीभीत से निकलती है; लखनऊ से होकर वाराणसी के पास गंगा में मिलती है।",
+            "mr": "पिलीभीतमध्ये उगम; लखनौतून वाहत वाराणसीजवळ गंगेला मिळते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ghaghara",
+          "name": {
+            "en": "Ghaghara (Saryu)",
+            "hi": "घाघरा (सरयू)",
+            "mr": "घाघरा (शरयू)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Large Himalayan river; known as the Saryu at Ayodhya.",
+            "hi": "बड़ी हिमालयी नदी; अयोध्या में सरयू कहलाती है।",
+            "mr": "मोठी हिमालयीन नदी; अयोध्येत शरयू म्हणून ओळखली जाते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "betwa",
+          "name": {
+            "en": "Betwa and Ken",
+            "hi": "बेतवा और केन",
+            "mr": "बेतवा व केन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rivers of Bundelkhand flowing north to the Yamuna.",
+            "hi": "बुंदेलखंड की नदियाँ, जो उत्तर में यमुना तक बहती हैं।",
+            "mr": "बुंदेलखंडच्या नद्या, उत्तरेकडे यमुनेला मिळतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        },
+        {
+          "label": {
+            "en": "Highest and lowest elevation (official)",
+            "hi": "सर्वोच्च और निम्नतम ऊँचाई (आधिकारिक)",
+            "mr": "सर्वोच्च व नीचांकी उंची (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India or the State gazetteer."
+        },
+        {
+          "label": {
+            "en": "Latitude and longitude extent",
+            "hi": "अक्षांश-देशांतर विस्तार",
+            "mr": "अक्षांश-रेखांश विस्तार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India or the State gazetteer."
+        }
+      ]
+    }
+  ]
+}

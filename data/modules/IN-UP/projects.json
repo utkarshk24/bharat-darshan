@@ -1,0 +1,75 @@
+{
+  "region": "IN-UP",
+  "module": "projects",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Uttar Pradesh has built a network of access-controlled expressways over the past decade — Yamuna, Agra–Lucknow, Purvanchal, Bundelkhand, Gorakhpur Link and, in April 2026, the 594 km Ganga Expressway from Meerut to Prayagraj — along with new airports, the largest being Noida International Airport at Jewar, opened in March 2026. Both dedicated freight corridors also pass through the State. Each card shows its source and the date it was checked.",
+        "hi": "उत्तर प्रदेश ने पिछले एक दशक में एक्सेस-नियंत्रित एक्सप्रेसवे का जाल बनाया है — यमुना, आगरा–लखनऊ, पूर्वांचल, बुंदेलखंड, गोरखपुर लिंक और अप्रैल 2026 में मेरठ से प्रयागराज तक 594 किमी का गंगा एक्सप्रेसवे — साथ ही नए हवाई अड्डे, जिनमें सबसे बड़ा जेवर का नोएडा अंतरराष्ट्रीय हवाई अड्डा है, जो मार्च 2026 में खुला। दोनों समर्पित माल गलियारे भी राज्य से होकर जाते हैं। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "उत्तर प्रदेशने गेल्या दशकात प्रवेश-नियंत्रित द्रुतगती मार्गांचे जाळे उभारले आहे — यमुना, आग्रा–लखनौ, पूर्वांचल, बुंदेलखंड, गोरखपूर लिंक आणि एप्रिल 2026 मध्ये मेरठ ते प्रयागराज 594 किमीचा गंगा द्रुतगती मार्ग — सोबत नवे विमानतळ, त्यांतील सर्वांत मोठे म्हणजे मार्च 2026 मध्ये सुरू झालेले जेवरचे नोएडा आंतरराष्ट्रीय विमानतळ. दोन्ही समर्पित मालवाहतूक मार्गिकाही राज्यातून जातात. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pmindia",
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Metro projects (Kanpur, Agra) — official status",
+            "hi": "मेट्रो परियोजनाएँ (कानपुर, आगरा) — आधिकारिक स्थिति",
+            "mr": "मेट्रो प्रकल्प (कानपूर, आग्रा) — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "UP Metro Rail Corporation status pages."
+        },
+        {
+          "label": {
+            "en": "Ken–Betwa river link — UP share and status",
+            "hi": "केन–बेतवा नदी जोड़ — उत्तर प्रदेश का हिस्सा और स्थिति",
+            "mr": "केन–बेतवा नदीजोड — उत्तर प्रदेशचा वाटा व स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "National Water Development Agency."
+        },
+        {
+          "label": {
+            "en": "State vision document",
+            "hi": "राज्य दृष्टि दस्तावेज़",
+            "mr": "राज्य दृष्टी दस्तऐवज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "State Planning Department."
+        }
+      ]
+    }
+  ]
+}

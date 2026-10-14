@@ -1,0 +1,535 @@
+{
+  "region": "IN-UP",
+  "module": "people",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "At the 2011 Census Uttar Pradesh had 19.98 crore people — more than any other State, and more than most countries. It had 912 women for every 1,000 men, below the national 943, and the child sex ratio was 902. Literacy was 67.7% (men 77.3%, women 57.2%), below the national level, and about 22.3% of people lived in towns, so the State remains largely rural. Population density was 829 per km², among the highest of any large State.\n\nHindi in its regional forms — Awadhi, Braj, Bhojpuri, Bundeli and Khari Boli in the west — is spoken by most people, and Urdu is widely used, especially in Lucknow and the western cities. Scheduled Castes formed about 20.7% and Scheduled Tribes about 0.57% of the population in 2011 (calculated from the State's Census counts).",
+        "hi": "2011 की जनगणना में उत्तर प्रदेश की जनसंख्या 19.98 करोड़ थी — किसी भी अन्य राज्य से अधिक, और अधिकांश देशों से भी अधिक। यहाँ प्रति 1,000 पुरुषों पर 912 महिलाएँ थीं, जो राष्ट्रीय 943 से कम है, और शिशु लिंगानुपात 902 था। साक्षरता 67.7% थी (पुरुष 77.3%, महिलाएँ 57.2%), जो राष्ट्रीय स्तर से कम है, और लगभग 22.3% लोग शहरों में रहते थे, इसलिए राज्य अब भी मुख्यतः ग्रामीण है। जनसंख्या घनत्व 829 प्रति वर्ग किमी था, जो बड़े राज्यों में सबसे अधिक में से है।\n\nहिंदी अपने क्षेत्रीय रूपों में — अवधी, ब्रज, भोजपुरी, बुंदेली और पश्चिम में खड़ी बोली — अधिकांश लोग बोलते हैं, और उर्दू का भी व्यापक उपयोग है, ख़ासकर लखनऊ और पश्चिमी शहरों में। 2011 में अनुसूचित जातियाँ लगभग 20.7% और अनुसूचित जनजातियाँ लगभग 0.57% थीं (राज्य के जनगणना आँकड़ों से गणना)।",
+        "mr": "2011 च्या जनगणनेनुसार उत्तर प्रदेशची लोकसंख्या 19.98 कोटी होती — इतर कोणत्याही राज्यापेक्षा आणि बहुतेक देशांपेक्षाही जास्त. दर 1,000 पुरुषांमागे 912 स्त्रिया होत्या, राष्ट्रीय 943 पेक्षा कमी, आणि बाल लिंग गुणोत्तर 902 होते. साक्षरता 67.7% होती (पुरुष 77.3%, स्त्रिया 57.2%), राष्ट्रीय पातळीपेक्षा कमी, आणि सुमारे 22.3% लोक शहरांत राहत होते, त्यामुळे राज्य अजूनही मुख्यतः ग्रामीण आहे. लोकसंख्येची घनता दर चौ.किमी 829 होती — मोठ्या राज्यांतील सर्वाधिकांपैकी एक.\n\nहिंदी तिच्या प्रादेशिक रूपांत — अवधी, ब्रज, भोजपुरी, बुंदेली आणि पश्चिमेला खडी बोली — बहुसंख्य लोक बोलतात, आणि उर्दूचाही व्यापक वापर होतो, विशेषतः लखनौ व पश्चिमेकडील शहरांत. 2011 मध्ये अनुसूचित जाती सुमारे 20.7% आणि अनुसूचित जमाती सुमारे 0.57% होत्या (राज्याच्या जनगणना आकड्यांवरून गणना).",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "up-des",
+        "census"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 199812341,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://updes.up.nic.in/updes/data/upinfigures/up%20in%20figures-%202022.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 total as published by the Economics & Statistics Division, Government of Uttar Pradesh. Males 10,44,80,510; females 9,53,31,831."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 912,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://updes.up.nic.in/updes/data/upinfigures/up%20in%20figures-%202022.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Also 912 in the Puducherry DES state-wise table (898 in 2001)."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 902,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PIB release of 11 Feb 2014 (RGI data). Was 916 in 2001."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 916,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 67.7,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://updes.up.nic.in/updes/data/upinfigures/up%20in%20figures-%202022.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by UP DES. Male 77.3%, female 57.2%."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "urb",
+          "label": {
+            "en": "Urban population",
+            "hi": "शहरी जनसंख्या",
+            "mr": "नागरी लोकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 22.27,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://updes.up.nic.in/updes/data/upinfigures/up%20in%20figures-%202022.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Urban population 4,44,95,063 (UP DES)."
+          },
+          "kind": "percent",
+          "polarity": "neutral",
+          "national": {
+            "value": 31.1,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 829,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://updes.up.nic.in/updes/data/upinfigures/up%20in%20figures-%202022.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "UP DES."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "sc",
+          "label": {
+            "en": "Scheduled Castes, share of population",
+            "hi": "अनुसूचित जातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 20.7,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "up-des",
+            "url": "https://updes.up.nic.in/updes/data/upinfigures/up%20in%20figures-%202022.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: SC population 4,13,57,608 ÷ total 19,98,12,341 (UP DES, Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        },
+        {
+          "id": "st",
+          "label": {
+            "en": "Scheduled Tribes, share of population",
+            "hi": "अनुसूचित जनजातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जमाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 0.57,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "up-des",
+            "url": "https://updes.up.nic.in/updes/data/upinfigures/up%20in%20figures-%202022.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: ST population 11,34,273 ÷ total 19,98,12,341 (UP DES, Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "langs",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "hi",
+          "name": {
+            "en": "Hindi",
+            "hi": "हिंदी",
+            "mr": "हिंदी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official language",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ur",
+          "name": {
+            "en": "Urdu",
+            "hi": "उर्दू",
+            "mr": "उर्दू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Second official language",
+            "hi": "दूसरी राजभाषा",
+            "mr": "दुसरी राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "awa",
+          "name": {
+            "en": "Awadhi",
+            "hi": "अवधी",
+            "mr": "अवधी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Central UP (Awadh)",
+            "hi": "मध्य उत्तर प्रदेश (अवध)",
+            "mr": "मध्य उत्तर प्रदेश (अवध)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bho",
+          "name": {
+            "en": "Bhojpuri",
+            "hi": "भोजपुरी",
+            "mr": "भोजपुरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Eastern UP (Purvanchal)",
+            "hi": "पूर्वी उत्तर प्रदेश (पूर्वांचल)",
+            "mr": "पूर्व उत्तर प्रदेश (पूर्वांचल)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bra",
+          "name": {
+            "en": "Braj Bhasha",
+            "hi": "ब्रजभाषा",
+            "mr": "ब्रजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mathura–Agra region",
+            "hi": "मथुरा–आगरा क्षेत्र",
+            "mr": "मथुरा–आग्रा परिसर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bns",
+          "name": {
+            "en": "Bundeli",
+            "hi": "बुंदेली",
+            "mr": "बुंदेली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bundelkhand",
+            "hi": "बुंदेलखंड",
+            "mr": "बुंदेलखंड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Languages",
+        "hi": "भाषाएँ",
+        "mr": "भाषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Decadal growth, 2001–2011",
+            "hi": "दशकीय वृद्धि, 2001–2011",
+            "mr": "दशकातील वाढ, 2001–2011",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 Provisional/Final Population Totals for Uttar Pradesh."
+        },
+        {
+          "label": {
+            "en": "Religion shares (Census 2011, C-01)",
+            "hi": "धर्मवार हिस्सा (जनगणना 2011, C-01)",
+            "mr": "धर्मनिहाय वाटा (जनगणना 2011, C-01)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-01 table; show without commentary."
+        },
+        {
+          "label": {
+            "en": "Mother-tongue shares (Census C-16)",
+            "hi": "मातृभाषावार हिस्सा (जनगणना C-16)",
+            "mr": "मातृभाषानिहाय वाटा (जनगणना C-16)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-16."
+        },
+        {
+          "label": {
+            "en": "Current population (projected)",
+            "hi": "वर्तमान जनसंख्या (अनुमानित)",
+            "mr": "सध्याची लोकसंख्या (प्रक्षेपित)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw-projections",
+          "note": "MoHFW Technical Group projections; label as Projected."
+        }
+      ]
+    }
+  ]
+}

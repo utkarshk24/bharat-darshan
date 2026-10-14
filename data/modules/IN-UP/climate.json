@@ -1,0 +1,209 @@
+{
+  "region": "IN-UP",
+  "module": "climate",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Uttar Pradesh has a strongly seasonal, continental monsoon climate. Summers (April–June) are very hot and dry, with dusty westerly winds (loo) and temperatures that often pass 45 °C in the west and Bundelkhand. The south-west monsoon arrives in late June and brings most of the year's rain by September, with more rain in the east and the Terai than in the west. Winters (December–February) are cool to cold, with dense fog across the plains in December and January that disrupts roads, rail and flights, and occasional cold waves.",
+        "hi": "उत्तर प्रदेश की जलवायु स्पष्ट मौसमी, महाद्वीपीय मानसूनी है। गर्मियाँ (अप्रैल–जून) बहुत गर्म और सूखी होती हैं, धूल भरी पछुआ हवाएँ (लू) चलती हैं और पश्चिम व बुंदेलखंड में तापमान अक्सर 45 °C से ऊपर चला जाता है। दक्षिण-पश्चिम मानसून जून के अंत में आता है और सितंबर तक साल की अधिकांश वर्षा देता है; पश्चिम की तुलना में पूर्व और तराई में अधिक वर्षा होती है। सर्दियाँ (दिसंबर–फ़रवरी) ठंडी होती हैं; दिसंबर और जनवरी में मैदानों पर घना कोहरा सड़क, रेल और उड़ानों को बाधित करता है, और कभी-कभी शीत लहर चलती है।",
+        "mr": "उत्तर प्रदेशचे हवामान ठळकपणे हंगामी, खंडीय मोसमी आहे. उन्हाळा (एप्रिल–जून) अतिशय उष्ण व कोरडा असतो; धुळीचे पश्चिमी वारे (लू) वाहतात आणि पश्चिम भाग व बुंदेलखंडमध्ये तापमान अनेकदा 45 °C च्या पुढे जाते. नैर्ऋत्य मोसमी पाऊस जूनच्या शेवटी येतो आणि सप्टेंबरपर्यंत वर्षभराचा बहुतांश पाऊस देतो; पश्चिमेपेक्षा पूर्वेला व तराईत जास्त पाऊस पडतो. हिवाळा (डिसेंबर–फेब्रुवारी) थंड असतो; डिसेंबर-जानेवारीत मैदानावर दाट धुके पडून रस्ते, रेल्वे व विमानसेवा विस्कळीत होतात, आणि अधूनमधून थंडीची लाट येते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Lucknow",
+            "hi": "लखनऊ",
+            "mr": "लखनौ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 26.8467,
+          "lon": 80.9462
+        },
+        {
+          "name": {
+            "en": "Varanasi",
+            "hi": "वाराणसी",
+            "mr": "वाराणसी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 25.3176,
+          "lon": 82.9739
+        },
+        {
+          "name": {
+            "en": "Agra",
+            "hi": "आगरा",
+            "mr": "आग्रा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 27.1767,
+          "lon": 78.0081
+        },
+        {
+          "name": {
+            "en": "Prayagraj",
+            "hi": "प्रयागराज",
+            "mr": "प्रयागराज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 25.4358,
+          "lon": 81.8463
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to March",
+            "hi": "अक्टूबर से मार्च",
+            "mr": "ऑक्टोबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best for sightseeing in Agra, Lucknow and Varanasi; Dev Deepavali in November; Magh Mela at Prayagraj in January–February. Expect fog in December–January.",
+            "hi": "आगरा, लखनऊ और वाराणसी घूमने का सबसे अच्छा समय; नवंबर में देव दीपावली; जनवरी–फ़रवरी में प्रयागराज का माघ मेला। दिसंबर–जनवरी में कोहरे की संभावना।",
+            "mr": "आग्रा, लखनौ व वाराणसी पाहण्यासाठी उत्तम; नोव्हेंबरमध्ये देव दीपावली; जानेवारी–फेब्रुवारीत प्रयागराजचा माघमेळा. डिसेंबर–जानेवारीत धुक्याची शक्यता.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "April to June",
+            "hi": "अप्रैल से जून",
+            "mr": "एप्रिल ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Very hot; plan early-morning visits.",
+            "hi": "बहुत गर्मी; सुबह जल्दी घूमने की योजना बनाएँ।",
+            "mr": "अतिशय उष्ण; सकाळी लवकर भेटींचे नियोजन करा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "July to September",
+            "hi": "जुलाई से सितंबर",
+            "mr": "जुलै ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Humid, with flooding risk in the east; Terai parks close for the season.",
+            "hi": "उमस भरा, पूर्व में बाढ़ का ख़तरा; तराई के उद्यान इस मौसम में बंद रहते हैं।",
+            "mr": "दमट, पूर्वेला पुराचा धोका; तराईतील उद्याने या काळात बंद असतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (State)",
+            "hi": "सामान्य वार्षिक वर्षा (राज्य)",
+            "mr": "सरासरी वार्षिक पाऊस (राज्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics for East and West UP sub-divisions."
+        },
+        {
+          "label": {
+            "en": "Monthly temperature and rainfall normals",
+            "hi": "मासिक तापमान और वर्षा सामान्य",
+            "mr": "मासिक तापमान व पर्जन्य सरासरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD climatological normals for Lucknow, Varanasi, Agra."
+        },
+        {
+          "label": {
+            "en": "Heatwave and cold-wave days",
+            "hi": "लू और शीत लहर के दिन",
+            "mr": "उष्णतेची व थंडीची लाट असलेले दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD annual climate summary."
+        }
+      ]
+    }
+  ]
+}

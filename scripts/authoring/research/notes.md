@@ -88,3 +88,33 @@
 - GI: 74 TN entries (gi_tn.tsv); Malabar pepper and Alleppey cardamom are under KL (shared).
 - Projects: Chennai Metro Ph II ₹63,246 cr, 118.9 km, 128 stns (Cabinet 3 Oct 2024, pmindia); Poonamallee–Vadapalani 14.6 km opened 11 Oct 2026 (newsonair). New Pamban bridge 2.08 km, >₹700 cr, 6 Apr 2025 (pmindia). Kulasekarapattinam spaceport foundation 28 Feb 2024 (isro.gov.in). Kudankulam 3–4 ~81% / 5–6 ~42% (Jan 2026) per The Federal (third party).
 - MoSPI: TN GSVA FY2024-25 by industry saved in mospi_tn.json; AISHE GER 2017-18..2021-22 saved.
+
+# Phase 3 batch 2 (accessed 2026-10-14)
+## Uttar Pradesh
+- Tourism: Rajya Sabha USQ 3180 (27.03.2025), UP only — DTV/FTV lakh: 2022 3,179.13/6.50; 2023 4,785.26/16.01; 2024P 6,468.07/22.69. (Earlier notes said Lok Sabha — corrected.)
+- ECI 2022 (results.eci.gov.in/ResultAcGenMar2022/partywiseresult-S24.htm): BJP 255, SP 111, AD(S) 12, RLD 8, NISHAD 6, SBSP 6, INC 2, JD(L) 2, BSP 1 = 403.
+## Karnataka
+- MoSPI state code 12 (Gujarat 08, West Bengal 29). GSDP/PCNSDP to FY2025-26 and GSVA FY2024-25 in mospi_ka/gj/wb.json.
+- CM D. K. Shivakumar (INC) from 3 Jun 2026; Governor Thaawarchand Gehlot administered oath to 19 ministers 3 Aug 2026 (newsonair). Speaker G. S. Patil (INC, Aug 2026) and LoP R. Ashoka (BJP) per UNI 14 Aug 2026.
+- 12 Oct 2026 Rashtrapati Bhavan communiqué (ANI/UNI/DH): Sudha Yadav → Karnataka; Om Prakash Mathur (Sikkim) → Keralam; Arlekar (Keralam) → Tamil Nadu; Braj Mohan Ram → Odisha; Dhal Singh Bisen → Uttarakhand; Dushyant Gautam → Sikkim. Effective on assuming charge.
+- ECI 2023 (ResultAcGenMay2023/partywiseresult-S10.htm): INC 135, BJP 66, JD(S) 19, KRPP 1, SKP 1, IND 2 = 224.
+- Census via PYD table: 61,095,297; SR 973 (965); CSR 948 (946, PIB); literacy 75.4 (ES India 2021-22 Stat App tab 8.5); urban 38.67% (KA Economic Survey 2023-24, OpenCity copy).
+- SC 104.75 lakh 17.1%, ST 42.49 lakh 7.0% (Delhi Planning table 17.2).
+- KA ES 2025-26: GP 5,946 / TP 239 / ZP 31; foodgrains 2025-26 2nd AE 136.22 lakh t; capacity 37,072.95 MW Dec 2025, RE >53.32%. ES 2023-24: foodgrains 2022-23 143.55 lakh t.
+- Metro: Yellow Line 19 km, 16 stns, ~₹7,160 cr, opened 10 Aug 2025; Phase 3 >44 km, 31 stns, >₹15,610 cr, foundation same day (pmindia).
+- GI: 45 KA-only (gi_ka.tsv); shared Malabar pepper, Monsooned Malabar Arabica/Robusta (with KL), Kolhapuri chappal (with MH).
+- Tourism: no calendar-year State figure found (KA ES gives only Apr–Dec 2025: 3,017.47 lakh DTV / 4.37 lakh FTV) → gap.
+## Gujarat
+- Governor Acharya Devvrat, CM Bhupendra Patel, Deputy CM Harsh Sanghavi (newsonair 4 Mar 2026). Speaker Shankar Chaudhary (20 Dec 2022, ThePrint). No recognised LoP (INC 17 < 10%).
+- ECI 2022 (ResultAcGenDec2022/partywiseresult-S06.htm): BJP 156, INC 17, AAP 5, IND 3, SP 1 = 182.
+- 34 districts after Vav-Tharad (newsonair 1 Jan 2025).
+- Census: 60,439,692; SR 919 (920); CSR 890 (883); literacy 78.0; SC 6.7%, ST 14.8% (NITI 2025). Urban share not found officially (SER gives 2.57 of 6.04 crore) → gap.
+- SER 2022-23 (OpenCity copy): foodgrains 2021-22 108.15 lakh t; cotton 73.88 lakh bales; oilseeds 70.72 lakh t; capacity 42,208 MW (31.3.2022); 15.10% of India's RE; coastline 1,600 km.
+- Projects: MAHSR (PIB 2272190, 8 of 12 stations, 21 of 25 river bridges in GJ); Dholera fab >₹91,000 cr foundation 13 Mar 2024 (pmindia).
+- GI: 29 GJ-only; Warli painting shared.
+## West Bengal
+- 2026 election: polls 23 & 29 Apr, count 4 May. BJP 207, AITC 80 (newsonair 9 May). CM Suvendu Adhikari sworn in 9 May 2026 by Governor R. N. Ravi. Speaker Rathindra Bose (Pioneer, 15 May). TMC legislature party split 2026; LoP disputed → gap.
+- Census: 91,276,115; SR 950 (934); CSR 956 (960); literacy 76.3; SC 23.5%, ST 5.8% (NITI 2025). Urban share not found officially → gap.
+- Kolkata metro 13.61 km (3 stretches) opened 22 Aug 2025; Kona Expressway 7.2 km >₹1,200 cr foundation (PIB 2159869).
+- GI: 35 WB-only incl. Darjeeling Tea (App 1 & 2); Dalle Khursani shared with Sikkim.
+- ES India 2021-22 Stat App: tab 8.1 LE 2014-18 KA 69.4, GJ 69.9, WB 71.6, India 69.4; tab 8.2 IMR 2019 KA 21, GJ 25, WB 20; BR/DR 2019 KA 16.9/6.2, GJ 19.5/5.6, WB 14.9/5.3.

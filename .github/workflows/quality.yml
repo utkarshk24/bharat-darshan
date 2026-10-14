@@ -40,23 +40,18 @@ jobs:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+      - run: npm ci
       - uses: browser-actions/setup-chrome@v1
         id: chrome
-        with:
-          install-chromedriver: true
       - name: axe accessibility scan (WCAG 2.1 AA)
-        run: |
-          npx --yes @axe-core/cli@4 \
-            "$SITE/en/" "$SITE/hi/" "$SITE/mr/" \
-            "$SITE/en/states/maharashtra/" "$SITE/hi/uts/ladakh/economy/" \
-            "$SITE/en/compare/" "$SITE/en/gi/" "$SITE/mr/projects/" "$SITE/en/themes/economy/" \
-            --tags wcag2a,wcag2aa,wcag21a,wcag21aa \
-            --chromedriver-path "${{ steps.chrome.outputs.chromedriver-path }}" \
-            --chrome-path "${{ steps.chrome.outputs.chrome-path }}" \
-            --exit
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: node scripts/quality/axe.mjs
 
   source-links:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'

@@ -1,0 +1,74 @@
+{
+  "region": "IN-KA",
+  "module": "projects",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Much of Karnataka's large infrastructure spending is in and around Bengaluru: the Namma Metro network, which passed 96 km with the opening of the Yellow Line in August 2025, the Phase 3 metro lines, a suburban rail network and new ring roads. Elsewhere, irrigation projects on the Krishna and the Upper Bhadra, and port and highway works on the coast, are the main programmes. Each card shows its source and the date it was checked.",
+        "hi": "कर्नाटक का अधिकांश बड़ा बुनियादी ढाँचा ख़र्च बेंगलूरु और उसके आसपास है: नम्मा मेट्रो नेटवर्क, जो अगस्त 2025 में येलो लाइन खुलने के साथ 96 किमी पार कर गया, मेट्रो चरण 3 की लाइनें, उपनगरीय रेल नेटवर्क और नई रिंग रोड। अन्य जगहों पर कृष्णा और अपर भद्रा की सिंचाई परियोजनाएँ, और तट पर बंदरगाह व राजमार्ग कार्य मुख्य कार्यक्रम हैं। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "कर्नाटकचा बहुतांश मोठा पायाभूत खर्च बंगळूरु व परिसरात आहे: नम्मा मेट्रो जाळे — ऑगस्ट 2025 मध्ये यलो लाईन सुरू झाल्याने 96 किमीच्या पुढे — मेट्रो टप्पा 3 च्या मार्गिका, उपनगरी रेल्वे जाळे आणि नवे वर्तुळाकार मार्ग. इतरत्र, कृष्णा व अप्पर भद्रा सिंचन प्रकल्प आणि किनारपट्टीवरील बंदर व महामार्गांची कामे हे मुख्य कार्यक्रम आहेत. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pmindia"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Bengaluru Suburban Rail — official status",
+            "hi": "बेंगलूरु उपनगरीय रेल — आधिकारिक स्थिति",
+            "mr": "बंगळूरु उपनगरी रेल्वे — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "K-RIDE project status page."
+        },
+        {
+          "label": {
+            "en": "Upper Bhadra and Krishna Stage III irrigation — status",
+            "hi": "अपर भद्रा और कृष्णा चरण III सिंचाई — स्थिति",
+            "mr": "अप्पर भद्रा व कृष्णा टप्पा III सिंचन — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Water Resources Department."
+        },
+        {
+          "label": {
+            "en": "Bengaluru–Mysuru expressway — completion record",
+            "hi": "बेंगलूरु–मैसूरु एक्सप्रेसवे — पूर्णता रिकॉर्ड",
+            "mr": "बंगळूरु–म्हैसूरु द्रुतगती मार्ग — पूर्णत्वाची नोंद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nhai",
+          "note": "NHAI / PIB release."
+        }
+      ]
+    }
+  ]
+}

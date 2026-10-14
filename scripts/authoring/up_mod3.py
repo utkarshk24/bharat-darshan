@@ -113,7 +113,7 @@ module(R, "gi", [
 # ---------------- T. Tourism ----------------
 TV = [("2022", 317913000, 650000), ("2023", 478526000, 1601000), ("2024", 646807000, 2269000)]
 tdp = lambda v, y: dp(v, "visits", y, "calendar", "tourism", TOUR, rev="provisional" if y == "2024" else "final",
-                      note="Lok Sabha Unstarred Q. 3180, 27 March 2025 (Ministry of Tourism, from the State Tourism Department). Published in lakh visits (e.g. 6,468.07 lakh); 2024 is provisional." if y == "2024" else "Published in lakh visits.")
+                      note="Rajya Sabha Unstarred Q. 3180, 27 March 2025 (Ministry of Tourism, from the State Tourism Department). Published in lakh visits (e.g. 6,468.07 lakh); 2024 is provisional." if y == "2024" else "Published in lakh visits.")
 module(R, "tourism", [
     prose("p1", L(
         "Uttar Pradesh receives more domestic tourist visits than any State listed by the Ministry of Tourism — about 64.7 crore in 2024 (provisional), up from 31.8 crore in 2022 — driven by pilgrimage to Ayodhya, Varanasi, Prayagraj and Mathura–Vrindavan. Foreign visits were about 22.7 lakh in 2024, centred on Agra's Taj Mahal and the Buddhist circuit of Sarnath, Kushinagar, Kapilvastu and Shravasti. The Maha Kumbh at Prayagraj in early 2025 alone drew several crore pilgrims.",

@@ -1,0 +1,126 @@
+{
+  "region": "IN-KA",
+  "module": "energy",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Karnataka has one of India's highest shares of renewable power. The Economic Survey of Karnataka 2025-26 puts installed generation capacity at 37,072.95 MW as of December 2025, with renewables making up more than half. The Pavagada solar park in Tumakuru district is among the largest in the world, and wind farms run across the northern and central districts. Hydro stations on the Sharavati, Kali and Kaveri — including Linganamakki and Shivanasamudra, one of Asia's first hydro-electric stations (1902) — and coal plants at Raichur, Ballari (Kudithini) and Yermarus make up much of the rest. The Kaiga nuclear power station is in Uttara Kannada district.",
+        "hi": "कर्नाटक में अक्षय ऊर्जा का हिस्सा भारत में सबसे अधिक में से है। कर्नाटक आर्थिक सर्वेक्षण 2025-26 के अनुसार दिसंबर 2025 तक स्थापित उत्पादन क्षमता 37,072.95 मेगावाट थी, जिसमें आधे से अधिक अक्षय ऊर्जा है। तुमकूरु ज़िले का पावगडा सौर पार्क दुनिया के सबसे बड़े सौर पार्कों में है, और उत्तरी व मध्य ज़िलों में पवन फ़ार्म हैं। शरावती, काली और कावेरी पर जलविद्युत केंद्र — जिनमें लिंगनमक्की और एशिया के पहले जलविद्युत केंद्रों में से एक शिवनसमुद्र (1902) शामिल हैं — और रायचूर, बल्लारी (कुडितिनी) व येरमरस के कोयला संयंत्र बाकी क्षमता का बड़ा हिस्सा हैं। कैगा परमाणु बिजलीघर उत्तर कन्नड़ ज़िले में है।",
+        "mr": "अक्षय ऊर्जेचा वाटा असलेल्या भारतातील आघाडीच्या राज्यांपैकी कर्नाटक एक आहे. कर्नाटक आर्थिक पाहणी 2025-26 नुसार डिसेंबर 2025 पर्यंत स्थापित निर्मिती क्षमता 37,072.95 मेगावॉट होती, ज्यात निम्म्याहून अधिक अक्षय ऊर्जा आहे. तुमकूरु जिल्ह्यातील पावगडा सौर उद्यान जगातील सर्वांत मोठ्या सौर उद्यानांपैकी आहे, आणि उत्तर व मध्य जिल्ह्यांत पवनऊर्जा प्रकल्प आहेत. शरावती, काळी व कावेरीवरील जलविद्युत केंद्रे — लिंगनमक्की आणि आशियातील पहिल्या जलविद्युत केंद्रांपैकी एक शिवनसमुद्र (1902) यांसह — आणि रायचूर, बळ्ळारी (कुडितिनी) व येरमरस येथील कोळसा केंद्रे उरलेल्या क्षमतेचा मोठा भाग आहेत. कैगा अणुऊर्जा केंद्र उत्तर कन्नड जिल्ह्यात आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "ka-des"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "cap",
+          "label": {
+            "en": "Installed generation capacity",
+            "hi": "स्थापित उत्पादन क्षमता",
+            "mr": "स्थापित निर्मिती क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 37072.95,
+            "unit": "MW",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "ka-des",
+            "url": "https://data.opencity.in/dataset/699b7b8d-3813-4e44-8d70-cfdf1414ee85/resource/ee584e22-2c78-4a54-9054-74db776a9a53/download/economic_survey_2025-26_english_finalmpdf_1772796504.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "As of December 2025: public sector 13,759.78 MW, private sector 23,313.17 MW (Economic Survey of Karnataka 2025-26)."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better"
+        },
+        {
+          "id": "re",
+          "label": {
+            "en": "Renewable share of installed capacity",
+            "hi": "स्थापित क्षमता में अक्षय ऊर्जा का हिस्सा",
+            "mr": "स्थापित क्षमतेत अक्षय ऊर्जेचा वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 53.32,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "ka-des",
+            "url": "https://data.opencity.in/dataset/699b7b8d-3813-4e44-8d70-cfdf1414ee85/resource/ee584e22-2c78-4a54-9054-74db776a9a53/download/economic_survey_2025-26_english_finalmpdf_1772796504.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "'Over 53.32%' as of December 2025, excluding IPP thermal and mini-hydro (Economic Survey of Karnataka 2025-26)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better"
+        }
+      ],
+      "title": {
+        "en": "Power capacity",
+        "hi": "बिजली क्षमता",
+        "mr": "वीज क्षमता",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Capacity by source (CEA)",
+            "hi": "स्रोतवार क्षमता (सीईए)",
+            "mr": "स्रोतनिहाय क्षमता (सीईए)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

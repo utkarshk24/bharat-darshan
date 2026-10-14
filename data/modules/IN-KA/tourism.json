@@ -1,0 +1,402 @@
+{
+  "region": "IN-KA",
+  "module": "tourism",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Karnataka's attractions cover a wide range: the World Heritage ruins of Hampi and the temples of Badami, Aihole, Pattadakal, Belur and Halebidu; Mysuru's palace and Dasara; the coffee hills of Kodagu and Chikkamagaluru; wildlife safaris at Bandipur, Nagarahole and Kabini; the beaches and temple towns of the coast — Gokarna, Murudeshwar, Udupi; Jog Falls; and Shravanabelagola, where the 57-foot statue of Gommateshwara draws Jain pilgrims for the Mahamastakabhisheka every twelve years.",
+        "hi": "कर्नाटक के आकर्षण बहुत विविध हैं: हम्पी के विश्व धरोहर खंडहर और बादामी, ऐहोले, पट्टदकल, बेलूर व हलेबीडु के मंदिर; मैसूरु का महल और दशहरा; कोडगु और चिक्कमगलूरु की कॉफ़ी पहाड़ियाँ; बांदीपुर, नागरहोले और काबिनी में वन्यजीव सफ़ारी; तट के समुद्र तट और मंदिर नगर — गोकर्ण, मुरुडेश्वर, उडुपी; जोग जलप्रपात; और श्रवणबेलगोला, जहाँ गोम्मटेश्वर की 57 फ़ुट ऊँची प्रतिमा का हर बारह वर्ष में होने वाला महामस्तकाभिषेक जैन तीर्थयात्रियों को आकर्षित करता है।",
+        "mr": "कर्नाटकातील आकर्षणे अतिशय वैविध्यपूर्ण आहेत: हंपीचे जागतिक वारसा अवशेष आणि बदामी, ऐहोळे, पट्टदकल, बेलूर व हळेबीडूची मंदिरे; म्हैसूरुचा राजवाडा व दसरा; कोडगू व चिक्कमगळूरुचे कॉफीचे डोंगर; बांदीपूर, नागरहोळे व काबिनी येथील वन्यजीव सफारी; किनारपट्टीवरील समुद्रकिनारे व मंदिरनगरी — गोकर्ण, मुरुडेश्वर, उडुपी; जोग धबधबा; आणि श्रवणबेळगोळ, जिथे गोमटेश्वराच्या 57 फूट उंच मूर्तीचा दर बारा वर्षांनी होणारा महामस्तकाभिषेक जैन यात्रेकरूंना आकर्षित करतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "hampi",
+          "name": {
+            "en": "Hampi",
+            "hi": "हम्पी",
+            "mr": "हंपी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO heritage",
+            "hi": "यूनेस्को धरोहर",
+            "mr": "युनेस्को वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mysuru",
+          "name": {
+            "en": "Mysuru Palace and Chamundi Hill",
+            "hi": "मैसूरु महल और चामुंडी पहाड़ी",
+            "mr": "म्हैसूरु राजवाडा व चामुंडी टेकडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "belur",
+          "name": {
+            "en": "Belur and Halebidu",
+            "hi": "बेलूर और हलेबीडु",
+            "mr": "बेलूर व हळेबीडू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO heritage",
+            "hi": "यूनेस्को धरोहर",
+            "mr": "युनेस्को वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "badami",
+          "name": {
+            "en": "Badami, Aihole and Pattadakal",
+            "hi": "बादामी, ऐहोले और पट्टदकल",
+            "mr": "बदामी, ऐहोळे व पट्टदकल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Chalukya temples",
+            "hi": "चालुक्य मंदिर",
+            "mr": "चालुक्य मंदिरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kodagu",
+          "name": {
+            "en": "Kodagu (Coorg)",
+            "hi": "कोडगु (कुर्ग)",
+            "mr": "कोडगू (कूर्ग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hills and coffee",
+            "hi": "पहाड़ियाँ और कॉफ़ी",
+            "mr": "डोंगर व कॉफी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kabini",
+          "name": {
+            "en": "Kabini and Nagarahole",
+            "hi": "काबिनी और नागरहोले",
+            "mr": "काबिनी व नागरहोळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Wildlife",
+            "hi": "वन्यजीव",
+            "mr": "वन्यजीव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gokarna",
+          "name": {
+            "en": "Gokarna and Murudeshwar",
+            "hi": "गोकर्ण और मुरुडेश्वर",
+            "mr": "गोकर्ण व मुरुडेश्वर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Beaches, temples",
+            "hi": "समुद्र तट, मंदिर",
+            "mr": "समुद्रकिनारे, मंदिरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jog",
+          "name": {
+            "en": "Jog Falls",
+            "hi": "जोग जलप्रपात",
+            "mr": "जोग धबधबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Best in monsoon",
+            "hi": "मानसून में सबसे सुंदर",
+            "mr": "पावसाळ्यात सर्वोत्तम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shravanabelagola",
+          "name": {
+            "en": "Shravanabelagola",
+            "hi": "श्रवणबेलगोला",
+            "mr": "श्रवणबेळगोळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jain pilgrimage",
+            "hi": "जैन तीर्थ",
+            "mr": "जैन तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Mysuru: palace, Chamundi Hill, Srirangapatna and Ranganathittu.",
+            "hi": "मैसूरु: महल, चामुंडी पहाड़ी, श्रीरंगपट्टण और रंगनथिट्टु।",
+            "mr": "म्हैसूरु: राजवाडा, चामुंडी टेकडी, श्रीरंगपट्टण व रंगनथिट्टू.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hampi and the Tungabhadra, with a day trip to Badami or Pattadakal.",
+            "hi": "हम्पी और तुंगभद्रा, बादामी या पट्टदकल की एक दिन की यात्रा के साथ।",
+            "mr": "हंपी व तुंगभद्रा, बदामी किंवा पट्टदकलच्या एकदिवसीय सहलीसह.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Bengaluru, Mysuru and Kodagu, or Belur–Halebidu–Chikkamagaluru.",
+            "hi": "बेंगलूरु, मैसूरु और कोडगु, या बेलूर–हलेबीडु–चिक्कमगलूरु।",
+            "mr": "बंगळूरु, म्हैसूरु व कोडगू, किंवा बेलूर–हळेबीडू–चिक्कमगळूरु.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Coastal Karnataka from Mangaluru to Udupi, Murudeshwar, Gokarna and Jog Falls.",
+            "hi": "मंगलूरु से उडुपी, मुरुडेश्वर, गोकर्ण और जोग जलप्रपात तक तटीय कर्नाटक।",
+            "mr": "मंगळूरुपासून उडुपी, मुरुडेश्वर, गोकर्ण व जोग धबधब्यापर्यंत किनारी कर्नाटक.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kst",
+          "name": {
+            "en": "Karnataka Tourism (official)",
+            "hi": "कर्नाटक पर्यटन (आधिकारिक)",
+            "mr": "कर्नाटक पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://karnatakatourism.org",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by calendar year",
+            "hi": "कैलेंडर वर्ष के अनुसार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "कॅलेंडर वर्षानुसार देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table; the Economic Survey of Karnataka 2025-26 gives only a part-year figure, so it is not shown."
+        },
+        {
+          "label": {
+            "en": "Earnings from tourism",
+            "hi": "पर्यटन से आय",
+            "mr": "पर्यटनातून उत्पन्न",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "State tourism department."
+        }
+      ]
+    }
+  ]
+}

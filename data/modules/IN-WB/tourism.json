@@ -1,0 +1,381 @@
+{
+  "region": "IN-WB",
+  "module": "tourism",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "West Bengal combines a great colonial-era city with mountains, mangroves and heritage towns. Kolkata's Victoria Memorial, Howrah Bridge, Dakshineswar and Belur Math, the Indian Museum and its Durga Puja draw large crowds. Darjeeling, Kalimpong and the Singalila ridge offer tea gardens, monasteries and views of Kangchenjunga; the Dooars have wildlife parks; the Sundarbans can be explored by boat; and Bishnupur, Murshidabad and Santiniketan are heritage centres. Digha and Mandarmani are popular beach towns, and Gangasagar on Sagar Island hosts a large pilgrimage fair every January.",
+        "hi": "पश्चिम बंगाल एक महान औपनिवेशिक-युगीन शहर को पहाड़ों, मैंग्रोव और धरोहर नगरों से जोड़ता है। कोलकाता का विक्टोरिया मेमोरियल, हावड़ा ब्रिज, दक्षिणेश्वर और बेलूर मठ, भारतीय संग्रहालय और इसकी दुर्गा पूजा बड़ी भीड़ खींचते हैं। दार्जिलिंग, कालिम्पोंग और सिंगालीला रिज चाय बागान, मठ और कंचनजंगा के दृश्य देते हैं; डुआर्स में वन्यजीव उद्यान हैं; सुंदरबन नाव से घूमा जा सकता है; और बिष्णुपुर, मुर्शिदाबाद और शांतिनिकेतन धरोहर केंद्र हैं। दीघा और मंदारमणि लोकप्रिय समुद्र तटीय नगर हैं, और सागर द्वीप पर गंगासागर में हर जनवरी बड़ा तीर्थ मेला लगता है।",
+        "mr": "पश्चिम बंगाल एका महान वसाहतकालीन शहराला पर्वत, खारफुटी व वारसा नगरांशी जोडते. कोलकात्याचे व्हिक्टोरिया मेमोरियल, हावडा पूल, दक्षिणेश्वर व बेलूर मठ, भारतीय संग्रहालय आणि तिथली दुर्गापूजा मोठी गर्दी खेचतात. दार्जिलिंग, कालिम्पोंग व सिंगालीला डोंगररांग चहामळे, मठ व कांचनजंगाचे दर्शन देतात; डुआर्समध्ये वन्यजीव उद्याने आहेत; सुंदरबन बोटीतून पाहता येते; आणि बिष्णुपूर, मुर्शिदाबाद व शांतिनिकेतन ही वारसा केंद्रे आहेत. दिघा व मंदारमणी ही लोकप्रिय समुद्रकिनाऱ्याची गावे आहेत, आणि सागर बेटावरील गंगासागर येथे दर जानेवारीत मोठी तीर्थयात्रा जत्रा भरते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kolkata",
+          "name": {
+            "en": "Kolkata: Victoria Memorial, Howrah Bridge, College Street",
+            "hi": "कोलकाता: विक्टोरिया मेमोरियल, हावड़ा ब्रिज, कॉलेज स्ट्रीट",
+            "mr": "कोलकाता: व्हिक्टोरिया मेमोरियल, हावडा पूल, कॉलेज स्ट्रीट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "City heritage",
+            "hi": "नगर धरोहर",
+            "mr": "शहरी वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "darjeeling",
+          "name": {
+            "en": "Darjeeling and the toy train",
+            "hi": "दार्जिलिंग और टॉय ट्रेन",
+            "mr": "दार्जिलिंग व टॉय ट्रेन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO railway",
+            "hi": "यूनेस्को रेल",
+            "mr": "युनेस्को रेल्वे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sundarbans",
+          "name": {
+            "en": "Sundarbans",
+            "hi": "सुंदरबन",
+            "mr": "सुंदरबन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mangroves, tigers",
+            "hi": "मैंग्रोव, बाघ",
+            "mr": "खारफुटी, वाघ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "santiniketan",
+          "name": {
+            "en": "Santiniketan",
+            "hi": "शांतिनिकेतन",
+            "mr": "शांतिनिकेतन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO heritage",
+            "hi": "यूनेस्को धरोहर",
+            "mr": "युनेस्को वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bishnupur",
+          "name": {
+            "en": "Bishnupur",
+            "hi": "बिष्णुपुर",
+            "mr": "बिष्णुपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Terracotta temples",
+            "hi": "टेराकोटा मंदिर",
+            "mr": "टेराकोटा मंदिरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dooars",
+          "name": {
+            "en": "Jaldapara and Gorumara (Dooars)",
+            "hi": "जलदापाड़ा और गोरुमारा (डुआर्स)",
+            "mr": "जलदापाडा व गोरुमारा (डुआर्स)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Wildlife (Sep–Jun)",
+            "hi": "वन्यजीव (सितंबर–जून)",
+            "mr": "वन्यजीव (सप्टें.–जून)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "murshidabad",
+          "name": {
+            "en": "Murshidabad",
+            "hi": "मुर्शिदाबाद",
+            "mr": "मुर्शिदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Nawabi heritage",
+            "hi": "नवाबी धरोहर",
+            "mr": "नवाबी वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gangasagar",
+          "name": {
+            "en": "Gangasagar",
+            "hi": "गंगासागर",
+            "mr": "गंगासागर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage (January)",
+            "hi": "तीर्थ (जनवरी)",
+            "mr": "तीर्थक्षेत्र (जानेवारी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Kolkata: Victoria Memorial, Howrah Bridge at dawn, Kumartuli, Dakshineswar and Belur Math.",
+            "hi": "कोलकाता: विक्टोरिया मेमोरियल, भोर में हावड़ा ब्रिज, कुमारटुली, दक्षिणेश्वर और बेलूर मठ।",
+            "mr": "कोलकाता: व्हिक्टोरिया मेमोरियल, पहाटे हावडा पूल, कुमारटुली, दक्षिणेश्वर व बेलूर मठ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Sundarbans by boat from Godkhali, with nights on the islands.",
+            "hi": "गोदखाली से नाव द्वारा सुंदरबन, द्वीपों पर रात्रि विश्राम के साथ।",
+            "mr": "गोदखालीहून बोटीने सुंदरबन, बेटांवर मुक्कामासह.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Darjeeling and Kalimpong via Siliguri, with the toy train and Tiger Hill sunrise.",
+            "hi": "सिलीगुड़ी होकर दार्जिलिंग और कालिम्पोंग, टॉय ट्रेन और टाइगर हिल के सूर्योदय के साथ।",
+            "mr": "सिलिगुडीमार्गे दार्जिलिंग व कालिम्पोंग, टॉय ट्रेन व टायगर हिलच्या सूर्योदयासह.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Kolkata, Santiniketan and Bishnupur, then Murshidabad.",
+            "hi": "कोलकाता, शांतिनिकेतन और बिष्णुपुर, फिर मुर्शिदाबाद।",
+            "mr": "कोलकाता, शांतिनिकेतन व बिष्णुपूर, नंतर मुर्शिदाबाद.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "wbt",
+          "name": {
+            "en": "West Bengal Tourism (official)",
+            "hi": "पश्चिम बंगाल पर्यटन (आधिकारिक)",
+            "mr": "पश्चिम बंगाल पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://wbtourism.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        },
+        {
+          "label": {
+            "en": "Earnings from tourism",
+            "hi": "पर्यटन से आय",
+            "mr": "पर्यटनातून उत्पन्न",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "State tourism department."
+        }
+      ]
+    }
+  ]
+}

@@ -33,7 +33,7 @@ r["symbols"] = {
 r["government"] = {
     "headOfState": office("governor", L("Rajendra Vishwanath Arlekar", "राजेंद्र विश्वनाथ आर्लेकर", "राजेंद्र विश्वनाथ आर्लेकर"), None, "2026-03-12",
                           "tn-lokbhavan", GOV_URL, "https://lokbhavan.tn.gov.in",
-                          note="Sworn in at Lok Bhavan, Chennai, on 12 March 2026 by the Chief Justice of the Madras High Court (Lok Bhavan, Tamil Nadu). Holds additional charge: he is also Governor of Keralam. Succeeded R. N. Ravi, who moved to West Bengal."),
+                          note="Sworn in at Lok Bhavan, Chennai, on 12 March 2026 by the Chief Justice of the Madras High Court (Lok Bhavan, Tamil Nadu). Took additional charge of Tamil Nadu while Governor of Keralam, succeeding R. N. Ravi, who moved to West Bengal. On 12 October 2026 the President appointed him Governor of Tamil Nadu and named Om Prakash Mathur Governor of Keralam (Rashtrapati Bhavan communiqué, reported by UNI and ANI)."),
     "headOfGovernment": office("chief-minister", L("C. Joseph Vijay", "सी. जोसेफ़ विजय", "सी. जोसेफ विजय"), "TVK", "2026-05-10",
                                "newsonair", CM_URL, "https://www.tn.gov.in",
                                note="Founder of Tamilaga Vettri Kazhagam (TVK). Sworn in on 10 May 2026 with nine ministers, with the support of INC, CPI, CPI(M), VCK and IUML — 120 of 234 MLAs-elect (News On AIR)."),

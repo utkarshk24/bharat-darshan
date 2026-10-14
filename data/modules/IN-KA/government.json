@@ -1,0 +1,328 @@
+{
+  "region": "IN-KA",
+  "module": "government",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Karnataka has a bicameral legislature that meets at the Vidhana Soudha in Bengaluru and holds a winter session at the Suvarna Vidhana Soudha in Belagavi. The Legislative Assembly has 224 elected members and the Legislative Council 75. The State elects 28 members to the Lok Sabha and 12 to the Rajya Sabha.\n\nIn the May 2023 Assembly election the Indian National Congress won 135 seats and Siddaramaiah became Chief Minister. On 3 June 2026 D. K. Shivakumar took office as Chief Minister. G. S. Patil was elected Speaker in August 2026, and R. Ashoka of the BJP is Leader of Opposition. Thaawarchand Gehlot has been Governor since July 2021; in October 2026 the President appointed Sudha Yadav to succeed him. The next Assembly election is due in 2028.",
+        "hi": "कर्नाटक में द्विसदनीय विधानमंडल है, जो बेंगलूरु के विधान सौध में बैठता है और बेलगावी के सुवर्ण विधान सौध में शीतकालीन सत्र करता है। विधानसभा में 224 निर्वाचित सदस्य और विधान परिषद में 75 सदस्य हैं। राज्य से लोकसभा के 28 और राज्यसभा के 12 सदस्य चुने जाते हैं।\n\nमई 2023 के विधानसभा चुनाव में भारतीय राष्ट्रीय कांग्रेस ने 135 सीटें जीतीं और सिद्धरामय्या मुख्यमंत्री बने। 3 जून 2026 को डी. के. शिवकुमार ने मुख्यमंत्री का पद संभाला। अगस्त 2026 में जी. एस. पाटिल अध्यक्ष चुने गए, और भाजपा के आर. अशोक नेता प्रतिपक्ष हैं। थावरचंद गहलोत जुलाई 2021 से राज्यपाल हैं; अक्टूबर 2026 में राष्ट्रपति ने उनके स्थान पर सुधा यादव को नियुक्त किया। अगला विधानसभा चुनाव 2028 में होना है।",
+        "mr": "कर्नाटकमध्ये द्विसदनी विधिमंडळ आहे; ते बंगळूरुच्या विधानसौधमध्ये भरते आणि बेळगावीच्या सुवर्ण विधानसौधमध्ये हिवाळी अधिवेशन घेते. विधानसभेत 224 निर्वाचित सदस्य आणि विधान परिषदेत 75 सदस्य आहेत. राज्यातून लोकसभेवर 28 आणि राज्यसभेवर 12 सदस्य निवडले जातात.\n\nमे 2023 च्या विधानसभा निवडणुकीत भारतीय राष्ट्रीय काँग्रेसने 135 जागा जिंकल्या आणि सिद्धरामय्या मुख्यमंत्री झाले. 3 जून 2026 रोजी डी. के. शिवकुमार यांनी मुख्यमंत्रिपदाची सूत्रे स्वीकारली. ऑगस्ट 2026 मध्ये जी. एस. पाटील अध्यक्षपदी निवडले गेले, आणि भाजपचे आर. अशोक विरोधी पक्षनेते आहेत. थावरचंद गेहलोत जुलै 2021 पासून राज्यपाल आहेत; ऑक्टोबर 2026 मध्ये राष्ट्रपतींनी त्यांच्या जागी सुधा यादव यांची नियुक्ती केली. पुढील विधानसभा निवडणूक 2028 मध्ये होणार आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "eci",
+        "newsonair",
+        "uni"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "table",
+      "id": "results",
+      "title": {
+        "en": "Legislative Assembly election, 2023 — seats won",
+        "hi": "विधानसभा चुनाव, 2023 — जीती गई सीटें",
+        "mr": "विधानसभा निवडणूक, 2023 — जिंकलेल्या जागा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Party",
+            "hi": "दल",
+            "mr": "पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Seats",
+            "hi": "सीटें",
+            "mr": "जागा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          "Indian National Congress (INC)",
+          135
+        ],
+        [
+          "Bharatiya Janata Party (BJP)",
+          66
+        ],
+        [
+          "Janata Dal (Secular) (JD(S))",
+          19
+        ],
+        [
+          "Kalyana Rajya Pragathi Paksha",
+          1
+        ],
+        [
+          "Sarvodaya Karnataka Paksha",
+          1
+        ],
+        [
+          {
+            "en": "Independents",
+            "hi": "निर्दलीय",
+            "mr": "अपक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          2
+        ],
+        [
+          {
+            "en": "Total",
+            "hi": "कुल",
+            "mr": "एकूण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          224
+        ]
+      ],
+      "sourceId": "eci",
+      "url": "https://results.eci.gov.in/ResultAcGenMay2023/partywiseresult-S10.htm",
+      "accessDate": "2026-10-14",
+      "confidence": "Official",
+      "period": "2023",
+      "note": {
+        "en": "Seats won as listed by the Election Commission (results declared 13 May 2023). Parties are shown by seats, without colours or commentary. By-elections and changes since 2023 have altered party strengths in the House.",
+        "hi": "चुनाव आयोग की सूची के अनुसार जीती गई सीटें (परिणाम 13 मई 2023 को घोषित)। दलों को सीटों के क्रम में, बिना रंग या टिप्पणी के दिखाया गया है। 2023 के बाद उपचुनावों और बदलावों से सदन में दलों की संख्या बदली है।",
+        "mr": "निवडणूक आयोगाच्या यादीनुसार जिंकलेल्या जागा (निकाल 13 मे 2023 रोजी जाहीर). पक्ष जागांच्या क्रमाने, रंग किंवा भाष्याशिवाय दाखवले आहेत. 2023 नंतरच्या पोटनिवडणुका व बदलांमुळे सभागृहातील पक्षीय बळ बदलले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "local",
+      "title": {
+        "en": "Panchayati Raj institutions",
+        "hi": "पंचायती राज संस्थाएँ",
+        "mr": "पंचायत राज संस्था",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Type",
+            "hi": "प्रकार",
+            "mr": "प्रकार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Number",
+            "hi": "संख्या",
+            "mr": "संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Zilla panchayats",
+            "hi": "ज़िला पंचायतें",
+            "mr": "जिल्हा परिषदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          31
+        ],
+        [
+          {
+            "en": "Taluk panchayats",
+            "hi": "तालुक पंचायतें",
+            "mr": "तालुका पंचायती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          239
+        ],
+        [
+          {
+            "en": "Gram panchayats",
+            "hi": "ग्राम पंचायतें",
+            "mr": "ग्रामपंचायती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "5,946"
+        ]
+      ],
+      "sourceId": "ka-des",
+      "url": "https://data.opencity.in/dataset/699b7b8d-3813-4e44-8d70-cfdf1414ee85/resource/ee584e22-2c78-4a54-9054-74db776a9a53/download/economic_survey_2025-26_english_finalmpdf_1772796504.pdf",
+      "accessDate": "2026-10-14",
+      "confidence": "Official",
+      "period": "2025-26",
+      "note": {
+        "en": "Economic Survey of Karnataka 2025-26.",
+        "hi": "कर्नाटक आर्थिक सर्वेक्षण 2025-26।",
+        "mr": "कर्नाटक आर्थिक पाहणी 2025-26.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "assembly",
+          "name": {
+            "en": "Karnataka Legislative Assembly",
+            "hi": "कर्नाटक विधानसभा",
+            "mr": "कर्नाटक विधानसभा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://kla.kar.nic.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Karnataka",
+            "hi": "कर्नाटक सरकार",
+            "mr": "कर्नाटक शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.karnataka.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Speaker and Leader of Opposition — official confirmation",
+            "hi": "अध्यक्ष और नेता प्रतिपक्ष — आधिकारिक पुष्टि",
+            "mr": "अध्यक्ष व विरोधी पक्षनेते — अधिकृत पुष्टी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Replace the UNI citations with the Assembly secretariat page."
+        },
+        {
+          "label": {
+            "en": "Urban local bodies by type",
+            "hi": "प्रकार के अनुसार नगरीय निकाय",
+            "mr": "प्रकारानुसार नागरी स्वराज्य संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ka-des",
+          "note": "Urban Development Department list."
+        },
+        {
+          "label": {
+            "en": "Current party strength in the Assembly",
+            "hi": "विधानसभा में वर्तमान दलीय स्थिति",
+            "mr": "विधानसभेतील सध्याचे पक्षीय बळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Assembly secretariat member list."
+        }
+      ]
+    }
+  ]
+}

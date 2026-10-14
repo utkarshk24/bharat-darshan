@@ -1,0 +1,196 @@
+{
+  "region": "IN-GJ",
+  "module": "climate",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Most of Gujarat has a hot, semi-arid climate. Summers (March–June) are very hot, with temperatures often above 42 °C in Ahmedabad and Kutch. The south-west monsoon, from late June to September, brings heavy rain to the south — Valsad, Navsari and the Dangs — and much less to the north and Kutch, which are prone to drought. Winters (November–February) are mild and dry, though the Rann and northern districts can be cold at night. Coastal Saurashtra and Kutch are exposed to Arabian Sea cyclones in May–June and October–November.",
+        "hi": "गुजरात के अधिकांश भाग की जलवायु गर्म, अर्ध-शुष्क है। गर्मियाँ (मार्च–जून) बहुत गर्म होती हैं, और अहमदाबाद व कच्छ में तापमान अक्सर 42 °C से ऊपर रहता है। जून के अंत से सितंबर तक दक्षिण-पश्चिम मानसून दक्षिण — वलसाड, नवसारी और डांग — में भारी वर्षा लाता है, जबकि उत्तर और कच्छ में बहुत कम, जो सूखा-प्रवण हैं। सर्दियाँ (नवंबर–फ़रवरी) सुहावनी और सूखी होती हैं, हालाँकि रण और उत्तरी ज़िलों में रातें ठंडी हो सकती हैं। तटीय सौराष्ट्र और कच्छ मई–जून और अक्टूबर–नवंबर में अरब सागर के चक्रवातों की चपेट में आते हैं।",
+        "mr": "गुजरातच्या बहुतांश भागाचे हवामान उष्ण, अर्धशुष्क आहे. उन्हाळा (मार्च–जून) अतिशय उष्ण असतो, आणि अहमदाबाद व कच्छमध्ये तापमान अनेकदा 42 °C च्या पुढे जाते. जूनच्या अखेरीपासून सप्टेंबरपर्यंत नैर्ऋत्य मान्सून दक्षिणेत — वलसाड, नवसारी व डांग — मुसळधार पाऊस आणतो, तर उत्तर भाग व कच्छमध्ये फार कमी, जे दुष्काळप्रवण आहेत. हिवाळा (नोव्हेंबर–फेब्रुवारी) सौम्य व कोरडा असतो, मात्र रण व उत्तरेकडील जिल्ह्यांत रात्री थंड असू शकतात. किनारी सौराष्ट्र व कच्छ मे–जून आणि ऑक्टोबर–नोव्हेंबरमध्ये अरबी समुद्रातील चक्रीवादळांच्या तडाख्यात येतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Ahmedabad",
+            "hi": "अहमदाबाद",
+            "mr": "अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 23.0225,
+          "lon": 72.5714
+        },
+        {
+          "name": {
+            "en": "Surat",
+            "hi": "सूरत",
+            "mr": "सुरत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 21.1702,
+          "lon": 72.8311
+        },
+        {
+          "name": {
+            "en": "Rajkot",
+            "hi": "राजकोट",
+            "mr": "राजकोट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 22.3039,
+          "lon": 70.8022
+        },
+        {
+          "name": {
+            "en": "Bhuj",
+            "hi": "भुज",
+            "mr": "भुज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 23.242,
+          "lon": 69.6669
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "November to February",
+            "hi": "नवंबर से फ़रवरी",
+            "mr": "नोव्हेंबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best overall; the Rann Utsav in Kutch and Gir safaris (park open mid-October to mid-June).",
+            "hi": "सबसे अच्छा समय; कच्छ में रण उत्सव और गिर सफ़ारी (उद्यान मध्य-अक्टूबर से मध्य-जून तक खुला)।",
+            "mr": "सर्वोत्तम काळ; कच्छमधील रण उत्सव आणि गीर सफारी (उद्यान ऑक्टोबरच्या मध्यापासून जूनच्या मध्यापर्यंत खुले).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "navratri",
+          "name": {
+            "en": "September–October (Navratri)",
+            "hi": "सितंबर–अक्टूबर (नवरात्रि)",
+            "mr": "सप्टेंबर–ऑक्टोबर (नवरात्र)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Nine nights of garba across the State.",
+            "hi": "पूरे राज्य में नौ रातों का गरबा।",
+            "mr": "राज्यभर नऊ रात्री गरबा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "March to June",
+            "hi": "मार्च से जून",
+            "mr": "मार्च ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Very hot; plan early mornings.",
+            "hi": "बहुत गर्मी; सुबह जल्दी की योजना बनाएँ।",
+            "mr": "अतिशय उष्ण; सकाळी लवकर नियोजन करा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (State and sub-divisions)",
+            "hi": "सामान्य वार्षिक वर्षा (राज्य और उप-मंडल)",
+            "mr": "सरासरी वार्षिक पाऊस (राज्य व उपविभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics for Gujarat Region and Saurashtra & Kutch."
+        },
+        {
+          "label": {
+            "en": "Cyclone landfalls by year",
+            "hi": "वर्षवार चक्रवात का तट पर पहुँचना",
+            "mr": "वर्षनिहाय चक्रीवादळांचे किनाऱ्यावर येणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD cyclone e-Atlas."
+        }
+      ]
+    }
+  ]
+}

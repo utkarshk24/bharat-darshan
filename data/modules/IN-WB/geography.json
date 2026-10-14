@@ -1,0 +1,346 @@
+{
+  "region": "IN-WB",
+  "module": "geography",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "West Bengal is long and narrow, running about 600 km from north to south. In the far north the Darjeeling and Kalimpong hills rise into the Himalaya, with Sandakphu on the Nepal border the State's highest point. Below them lie the Terai and the Dooars, a belt of forest, tea gardens and rivers at the foot of the hills. Most of the State is the flat, fertile Gangetic delta — among the most intensively farmed land in the world — crossed by the Bhagirathi–Hooghly, the main distributary of the Ganga, on which Kolkata stands. The western districts of Purulia, Bankura and Paschim Medinipur rise onto the red, rolling edge of the Chota Nagpur plateau. In the south, the Sundarbans delta of tidal creeks and mangrove islands meets the Bay of Bengal.\n\nThe Ganga enters the State at Farakka, where a barrage diverts water into the Hooghly before the main river flows on into Bangladesh as the Padma. The Teesta, Mahananda, Damodar, Rupnarayan and Subarnarekha are other major rivers; the Damodar Valley dams were built to control floods.",
+        "hi": "पश्चिम बंगाल लंबा और संकरा है, जो उत्तर से दक्षिण लगभग 600 किमी फैला है। सुदूर उत्तर में दार्जिलिंग और कालिम्पोंग की पहाड़ियाँ हिमालय में उठती हैं, और नेपाल सीमा पर संदकफू राज्य का सबसे ऊँचा स्थान है। इनके नीचे तराई और डुआर्स हैं — पहाड़ियों की तलहटी में वन, चाय बागानों और नदियों की पट्टी। राज्य का अधिकांश भाग समतल, उपजाऊ गंगा डेल्टा है — दुनिया की सबसे सघन खेती वाली भूमि में से — जिसे गंगा की मुख्य वितरिका भागीरथी–हुगली पार करती है, जिसके किनारे कोलकाता बसा है। पश्चिम के पुरुलिया, बाँकुड़ा और पश्चिम मेदिनीपुर ज़िले छोटा नागपुर पठार के लाल, लहरदार किनारे पर हैं। दक्षिण में ज्वारीय खाड़ियों और मैंग्रोव द्वीपों वाला सुंदरबन डेल्टा बंगाल की खाड़ी से मिलता है।\n\nगंगा फ़रक्का में राज्य में प्रवेश करती है, जहाँ एक बराज पानी को हुगली में मोड़ता है और मुख्य नदी आगे पद्मा के रूप में बांग्लादेश जाती है। तीस्ता, महानंदा, दामोदर, रूपनारायण और सुवर्णरेखा अन्य बड़ी नदियाँ हैं; बाढ़ नियंत्रण के लिए दामोदर घाटी के बाँध बनाए गए।",
+        "mr": "पश्चिम बंगाल लांब व अरुंद असून उत्तर-दक्षिण सुमारे 600 किमी पसरले आहे. अगदी उत्तरेला दार्जिलिंग व कालिम्पोंगचे डोंगर हिमालयात उंचावतात, आणि नेपाळ सीमेवरील संदकफू हे राज्यातील सर्वोच्च ठिकाण आहे. त्यांच्या खाली तराई व डुआर्स आहेत — डोंगरपायथ्याशी जंगल, चहामळे व नद्यांचा पट्टा. राज्याचा बहुतांश भाग सपाट, सुपीक गंगा त्रिभुज प्रदेश आहे — जगातील सर्वाधिक सघन शेती असलेल्या भूमीपैकी — ज्यातून गंगेची मुख्य उपशाखा भागीरथी–हुगळी वाहते, जिच्या काठावर कोलकाता वसले आहे. पश्चिमेकडील पुरुलिया, बांकुडा व पश्चिम मेदिनीपूर जिल्हे छोटा नागपूर पठाराच्या तांबड्या, लहरी कडेवर आहेत. दक्षिणेला भरती-ओहोटीच्या खाड्या व खारफुटी बेटांचा सुंदरबन त्रिभुज प्रदेश बंगालच्या उपसागराला मिळतो.\n\nगंगा फरक्का येथे राज्यात प्रवेश करते, जिथे एक बंधारा पाणी हुगळीत वळवतो आणि मुख्य नदी पुढे पद्मा म्हणून बांगलादेशात जाते. तिस्ता, महानंदा, दामोदर, रूपनारायण व सुवर्णरेखा या इतर मोठ्या नद्या आहेत; पूरनियंत्रणासाठी दामोदर खोऱ्यातील धरणे बांधली गेली.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 88752,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026); NITI Aayog also gives 88,752 km²."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "sk",
+          "name": {
+            "en": "Sikkim (north)",
+            "hi": "सिक्किम (उत्तर)",
+            "mr": "सिक्कीम (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "np",
+          "name": {
+            "en": "Nepal (north-west)",
+            "hi": "नेपाल (उत्तर-पश्चिम)",
+            "mr": "नेपाळ (वायव्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bt",
+          "name": {
+            "en": "Bhutan (north-east)",
+            "hi": "भूटान (उत्तर-पूर्व)",
+            "mr": "भूतान (ईशान्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "as",
+          "name": {
+            "en": "Assam (north-east)",
+            "hi": "असम (उत्तर-पूर्व)",
+            "mr": "आसाम (ईशान्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bd",
+          "name": {
+            "en": "Bangladesh (east)",
+            "hi": "बांग्लादेश (पूर्व)",
+            "mr": "बांगलादेश (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "br",
+          "name": {
+            "en": "Bihar (west)",
+            "hi": "बिहार (पश्चिम)",
+            "mr": "बिहार (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jh",
+          "name": {
+            "en": "Jharkhand (west)",
+            "hi": "झारखंड (पश्चिम)",
+            "mr": "झारखंड (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "or",
+          "name": {
+            "en": "Odisha (south-west)",
+            "hi": "ओडिशा (दक्षिण-पश्चिम)",
+            "mr": "ओडिशा (नैर्ऋत्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sea",
+          "name": {
+            "en": "Bay of Bengal (south)",
+            "hi": "बंगाल की खाड़ी (दक्षिण)",
+            "mr": "बंगालचा उपसागर (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "hooghly",
+          "name": {
+            "en": "Bhagirathi–Hooghly",
+            "hi": "भागीरथी–हुगली",
+            "mr": "भागीरथी–हुगळी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Ganga distributary flowing past Kolkata and Howrah to the sea.",
+            "hi": "गंगा की वितरिका, जो कोलकाता और हावड़ा से होकर समुद्र तक बहती है।",
+            "mr": "गंगेची उपशाखा, कोलकाता व हावड्यावरून समुद्रापर्यंत वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "teesta",
+          "name": {
+            "en": "Teesta",
+            "hi": "तीस्ता",
+            "mr": "तिस्ता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Himalayan river of the north, flowing on into Bangladesh.",
+            "hi": "उत्तर की हिमालयी नदी, जो आगे बांग्लादेश जाती है।",
+            "mr": "उत्तरेकडील हिमालयीन नदी, पुढे बांगलादेशात जाते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "damodar",
+          "name": {
+            "en": "Damodar",
+            "hi": "दामोदर",
+            "mr": "दामोदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Once 'the sorrow of Bengal'; dams of the Damodar Valley Corporation.",
+            "hi": "कभी 'बंगाल का शोक'; दामोदर घाटी निगम के बाँध।",
+            "mr": "एकेकाळी 'बंगालचे दुःख'; दामोदर खोरे महामंडळाची धरणे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mahananda",
+          "name": {
+            "en": "Mahananda",
+            "hi": "महानंदा",
+            "mr": "महानंदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows past Siliguri and Malda.",
+            "hi": "सिलीगुड़ी और मालदा से होकर बहती है।",
+            "mr": "सिलिगुडी व मालदावरून वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Highest point (Sandakphu) — official elevation",
+            "hi": "सर्वोच्च बिंदु (संदकफू) — आधिकारिक ऊँचाई",
+            "mr": "सर्वोच्च शिखर (संदकफू) — अधिकृत उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India or the State gazetteer."
+        },
+        {
+          "label": {
+            "en": "Coastline length (official)",
+            "hi": "तटरेखा की लंबाई (आधिकारिक)",
+            "mr": "किनारपट्टीची लांबी (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India / NHO figure."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        }
+      ]
+    }
+  ]
+}

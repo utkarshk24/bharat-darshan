@@ -1,0 +1,438 @@
+{
+  "region": "IN-WB",
+  "module": "education",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "West Bengal's higher-education gross enrolment ratio (ages 18–23) was 26.3% in 2021-22 in AISHE, up from 21.3% the year before but below the national 28.4%; women's GER (26.8%) was slightly above men's (25.9%). The State had 58 universities and 1,514 colleges. Literacy at the 2011 Census was 76.3%.\n\nKolkata has some of India's oldest modern institutions — the University of Calcutta (1857), Presidency University (founded as Hindu College in 1817), Jadavpur University and the Asiatic Society — together with the Indian Statistical Institute, IIM Calcutta, IISER Kolkata, the Bose Institute and the Saha Institute of Nuclear Physics. IIT Kharagpur, the first IIT (1951), and Tagore's Visva-Bharati at Santiniketan are elsewhere in the State.",
+        "hi": "एआईएसएचई के अनुसार 2021-22 में पश्चिम बंगाल का उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 26.3% था, जो पिछले वर्ष के 21.3% से अधिक पर राष्ट्रीय 28.4% से कम है; महिलाओं का जीईआर (26.8%) पुरुषों (25.9%) से थोड़ा अधिक था। राज्य में 58 विश्वविद्यालय और 1,514 कॉलेज थे। 2011 की जनगणना में साक्षरता 76.3% थी।\n\nकोलकाता में भारत के कुछ सबसे पुराने आधुनिक संस्थान हैं — कलकत्ता विश्वविद्यालय (1857), प्रेसिडेंसी विश्वविद्यालय (1817 में हिंदू कॉलेज के रूप में स्थापित), जादवपुर विश्वविद्यालय और एशियाटिक सोसाइटी — साथ में भारतीय सांख्यिकी संस्थान, आईआईएम कलकत्ता, आईआईएसईआर कोलकाता, बोस संस्थान और साहा परमाणु भौतिकी संस्थान। पहला आईआईटी (1951), आईआईटी खड़गपुर, और शांतिनिकेतन में टैगोर का विश्व-भारती राज्य के अन्य हिस्सों में हैं।",
+        "mr": "एआयएसएचईनुसार 2021-22 मध्ये पश्चिम बंगालचे उच्चशिक्षणातील एकूण नोंदणी गुणोत्तर (18–23 वय) 26.3% होते — मागील वर्षीच्या 21.3% पेक्षा जास्त पण राष्ट्रीय 28.4% पेक्षा कमी; स्त्रियांचे जीईआर (26.8%) पुरुषांपेक्षा (25.9%) किंचित जास्त होते. राज्यात 58 विद्यापीठे व 1,514 महाविद्यालये होती. 2011 च्या जनगणनेत साक्षरता 76.3% होती.\n\nकोलकात्यात भारतातील काही सर्वांत जुन्या आधुनिक संस्था आहेत — कलकत्ता विद्यापीठ (1857), प्रेसिडेन्सी विद्यापीठ (1817 मध्ये हिंदू कॉलेज म्हणून स्थापन), जादवपूर विद्यापीठ व एशियाटिक सोसायटी — सोबत भारतीय सांख्यिकी संस्था, आयआयएम कलकत्ता, आयसर कोलकाता, बोस संस्था व साहा अणुभौतिकी संस्था. पहिले आयआयटी (1951), आयआयटी खरगपूर, आणि शांतिनिकेतनमधील टागोरांचे विश्वभारती राज्याच्या इतर भागांत आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 26.3,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 21.26,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 58,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1514,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "wb",
+          "label": {
+            "en": "West Bengal",
+            "hi": "पश्चिम बंगाल",
+            "mr": "पश्चिम बंगाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 19.09,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 19.82,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 20.58,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 21.26,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 26.3,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "iitkgp",
+          "name": {
+            "en": "IIT Kharagpur",
+            "hi": "आईआईटी खड़गपुर",
+            "mr": "आयआयटी खरगपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kharagpur, 1951",
+            "hi": "खड़गपुर, 1951",
+            "mr": "खरगपूर, 1951",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cu",
+          "name": {
+            "en": "University of Calcutta",
+            "hi": "कलकत्ता विश्वविद्यालय",
+            "mr": "कलकत्ता विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kolkata, 1857",
+            "hi": "कोलकाता, 1857",
+            "mr": "कोलकाता, 1857",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "isi",
+          "name": {
+            "en": "Indian Statistical Institute",
+            "hi": "भारतीय सांख्यिकी संस्थान",
+            "mr": "भारतीय सांख्यिकी संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kolkata",
+            "hi": "कोलकाता",
+            "mr": "कोलकाता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iimc",
+          "name": {
+            "en": "IIM Calcutta",
+            "hi": "आईआईएम कलकत्ता",
+            "mr": "आयआयएम कलकत्ता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kolkata",
+            "hi": "कोलकाता",
+            "mr": "कोलकाता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ju",
+          "name": {
+            "en": "Jadavpur University",
+            "hi": "जादवपुर विश्वविद्यालय",
+            "mr": "जादवपूर विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kolkata",
+            "hi": "कोलकाता",
+            "mr": "कोलकाता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iiserk",
+          "name": {
+            "en": "IISER Kolkata",
+            "hi": "आईआईएसईआर कोलकाता",
+            "mr": "आयसर कोलकाता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mohanpur",
+            "hi": "मोहनपुर",
+            "mr": "मोहनपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vb",
+          "name": {
+            "en": "Visva-Bharati",
+            "hi": "विश्व-भारती",
+            "mr": "विश्वभारती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Santiniketan",
+            "hi": "शांतिनिकेतन",
+            "mr": "शांतिनिकेतन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "National institutions (selected)",
+        "hi": "राष्ट्रीय संस्थान (चयनित)",
+        "mr": "राष्ट्रीय संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "Dropout rates by level",
+            "hi": "स्तरवार ड्रॉपआउट दर",
+            "mr": "स्तरनिहाय गळती दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+."
+        },
+        {
+          "label": {
+            "en": "NIRF-ranked institutions",
+            "hi": "एनआईआरएफ़ रैंक वाले संस्थान",
+            "mr": "एनआयआरएफ क्रमवारीतील संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nirf",
+          "note": "Latest NIRF list filtered to West Bengal."
+        }
+      ]
+    }
+  ]
+}

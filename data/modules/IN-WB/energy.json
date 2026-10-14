@@ -1,0 +1,68 @@
+{
+  "region": "IN-WB",
+  "module": "energy",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Most of West Bengal's electricity comes from coal, mined in the Raniganj coalfield and brought from neighbouring Jharkhand. Major stations include NTPC Farakka, the State's Kolaghat, Bakreshwar, Sagardighi and Santaldih plants, the Damodar Valley Corporation's stations at Mejia and Durgapur, and private plants serving Kolkata. Hydro-electric stations in the Darjeeling hills and on the Teesta, and the Purulia pumped-storage project, provide peaking power, and rooftop and canal-top solar are growing.",
+        "hi": "पश्चिम बंगाल की अधिकांश बिजली कोयले से आती है, जो रानीगंज कोयला क्षेत्र से निकाला जाता है और पड़ोसी झारखंड से आता है। प्रमुख संयंत्रों में एनटीपीसी फ़रक्का, राज्य के कोलाघाट, बक्रेश्वर, सागरदीघी और संतालडीह संयंत्र, मेजिया और दुर्गापुर में दामोदर घाटी निगम के संयंत्र, और कोलकाता को बिजली देने वाले निजी संयंत्र शामिल हैं। दार्जिलिंग पहाड़ियों और तीस्ता पर जलविद्युत केंद्र और पुरुलिया पंप्ड-स्टोरेज परियोजना पीक समय की बिजली देते हैं, और छतों और नहरों पर सौर ऊर्जा बढ़ रही है।",
+        "mr": "पश्चिम बंगालची बहुतांश वीज कोळशापासून येते — राणीगंज कोळसा क्षेत्रातून खणलेला व शेजारच्या झारखंडमधून येणारा. प्रमुख केंद्रांत एनटीपीसी फरक्का, राज्याची कोलाघाट, बक्रेश्वर, सागरदिघी व संतालडीह केंद्रे, मेजिया व दुर्गापूर येथील दामोदर खोरे महामंडळाची केंद्रे, आणि कोलकात्याला वीज पुरवणारी खासगी केंद्रे यांचा समावेश आहे. दार्जिलिंगच्या डोंगरांतील व तिस्तावरील जलविद्युत केंद्रे आणि पुरुलिया पंप्ड-स्टोरेज प्रकल्प कमाल मागणीच्या वेळी वीज देतात, आणि छतावरील व कालव्यावरील सौरऊर्जा वाढत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Renewable capacity",
+            "hi": "अक्षय ऊर्जा क्षमता",
+            "mr": "अक्षय ऊर्जा क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE state-wise RE capacity."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

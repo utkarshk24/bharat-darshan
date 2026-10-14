@@ -1,0 +1,243 @@
+{
+  "region": "IN-GJ",
+  "module": "civic",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Gujarat portal",
+            "hi": "गुजरात सरकार पोर्टल",
+            "mr": "गुजरात शासन संकेतस्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://gujaratindia.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "digitalgujarat",
+          "name": {
+            "en": "Digital Gujarat — certificates and services",
+            "hi": "डिजिटल गुजरात — प्रमाणपत्र और सेवाएँ",
+            "mr": "डिजिटल गुजरात — प्रमाणपत्रे व सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.digitalgujarat.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "rti",
+          "name": {
+            "en": "RTI Online (Government of India)",
+            "hi": "आरटीआई ऑनलाइन (भारत सरकार)",
+            "mr": "माहितीचा अधिकार ऑनलाइन (भारत सरकार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rtionline.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "tourism",
+          "name": {
+            "en": "Gujarat Tourism",
+            "hi": "गुजरात पर्यटन",
+            "mr": "गुजरात पर्यटन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.gujarattourism.com",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "consumer",
+          "name": {
+            "en": "National Consumer Helpline",
+            "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन",
+            "mr": "राष्ट्रीय ग्राहक हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://consumerhelpline.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official websites",
+        "hi": "आधिकारिक वेबसाइटें",
+        "mr": "अधिकृत संकेतस्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "std",
+      "title": {
+        "en": "STD codes of major cities",
+        "hi": "प्रमुख शहरों के एसटीडी कोड",
+        "mr": "प्रमुख शहरांचे एसटीडी कोड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "City",
+            "hi": "शहर",
+            "mr": "शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Code",
+            "hi": "कोड",
+            "mr": "कोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Ahmedabad",
+            "hi": "अहमदाबाद",
+            "mr": "अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "079"
+        ],
+        [
+          {
+            "en": "Surat",
+            "hi": "सूरत",
+            "mr": "सुरत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0261"
+        ],
+        [
+          {
+            "en": "Vadodara",
+            "hi": "वडोदरा",
+            "mr": "वडोदरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0265"
+        ],
+        [
+          {
+            "en": "Rajkot",
+            "hi": "राजकोट",
+            "mr": "राजकोट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0281"
+        ],
+        [
+          {
+            "en": "Bhavnagar",
+            "hi": "भावनगर",
+            "mr": "भावनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0278"
+        ],
+        [
+          {
+            "en": "Jamnagar",
+            "hi": "जामनगर",
+            "mr": "जामनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0288"
+        ]
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "note": {
+        "en": "Editorial list; to be checked against the Department of Telecommunications numbering plan.",
+        "hi": "संपादकीय सूची; दूरसंचार विभाग की नंबरिंग योजना से जाँची जाएगी।",
+        "mr": "संपादकीय यादी; दूरसंचार विभागाच्या क्रमांक योजनेशी पडताळली जाईल.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Verified local business directory",
+            "hi": "सत्यापित स्थानीय व्यवसाय निर्देशिका",
+            "mr": "पडताळलेली स्थानिक उद्योग सूची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Udyam Registration and co-operative registrars."
+        }
+      ]
+    }
+  ]
+}

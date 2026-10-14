@@ -1,0 +1,55 @@
+{
+  "region": "IN-GJ",
+  "module": "diaspora",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gujaratis are among the most widespread of Indian communities. Traders from Kutch and Saurashtra sailed to Oman, Zanzibar and the East African coast for centuries; in the colonial period many settled in Kenya, Uganda and Tanzania, and after the expulsions of the 1970s large numbers moved to the United Kingdom, where Leicester and north-west London have large Gujarati populations. Since the 1960s many have settled in the United States, Canada and Australia, often in business. Within India, Gujarati communities are prominent in Mumbai and in trading towns across the country.",
+        "hi": "गुजराती भारत के सबसे व्यापक रूप से फैले समुदायों में हैं। कच्छ और सौराष्ट्र के व्यापारी सदियों से ओमान, ज़ांज़ीबार और पूर्वी अफ़्रीकी तट तक जाते रहे; औपनिवेशिक काल में बहुत से लोग केन्या, युगांडा और तंज़ानिया में बसे, और 1970 के दशक के निष्कासनों के बाद बड़ी संख्या में लोग ब्रिटेन गए, जहाँ लेस्टर और उत्तर-पश्चिम लंदन में बड़ी गुजराती आबादी है। 1960 के दशक से बहुत से लोग संयुक्त राज्य अमेरिका, कनाडा और ऑस्ट्रेलिया में बसे हैं, अक्सर व्यापार में। भारत के भीतर, मुंबई और देश भर के व्यापारिक नगरों में गुजराती समुदाय प्रमुख हैं।",
+        "mr": "गुजराती हे भारतातील सर्वांत दूरवर पसरलेल्या समुदायांपैकी आहेत. कच्छ व सौराष्ट्रातील व्यापारी शतकानुशतके ओमान, झांझिबार व पूर्व आफ्रिकेच्या किनाऱ्यापर्यंत जात असत; वसाहतकाळात अनेक जण केनिया, युगांडा व टांझानियात स्थायिक झाले, आणि 1970 च्या दशकातील हकालपट्टीनंतर मोठ्या संख्येने लोक ब्रिटनमध्ये गेले, जिथे लेस्टर व वायव्य लंडनमध्ये मोठी गुजराती लोकसंख्या आहे. 1960 च्या दशकापासून अनेक जण अमेरिका, कॅनडा व ऑस्ट्रेलियात, बहुतेकदा व्यवसायात, स्थायिक झाले आहेत. भारतात मुंबई व देशभरातील व्यापारी शहरांत गुजराती समुदाय ठळकपणे आढळतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants and internal migrants",
+            "hi": "प्रवासियों और आंतरिक प्रवासियों की संख्या",
+            "mr": "परदेशी व देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables; MEA."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "region": "IN-WB",
+  "module": "transport",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Kolkata is the transport hub of eastern India. Netaji Subhas Chandra Bose International Airport links the city to South-East Asia and the Gulf, and Bagdogra near Siliguri serves the hills, Sikkim and the North-East; Durgapur (Kazi Nazrul Islam Airport) and Cooch Behar have smaller airports. Howrah and Sealdah are among the busiest railway stations in India, and Kolkata is the headquarters of the Eastern and South Eastern Railways and of the Metro Railway. The Syama Prasad Mookerjee Port has docks at Kolkata and Haldia. Siliguri, on the narrow 'Chicken's Neck' corridor, links mainland India with the North-East. The Darjeeling Himalayan Railway's toy train still climbs to Darjeeling.",
+        "hi": "कोलकाता पूर्वी भारत का परिवहन केंद्र है। नेताजी सुभाष चंद्र बोस अंतरराष्ट्रीय हवाई अड्डा शहर को दक्षिण-पूर्व एशिया और खाड़ी से जोड़ता है, और सिलीगुड़ी के पास बागडोगरा पहाड़ियों, सिक्किम और पूर्वोत्तर को सेवा देता है; दुर्गापुर (काज़ी नज़रुल इस्लाम हवाई अड्डा) और कूचबिहार में छोटे हवाई अड्डे हैं। हावड़ा और सियालदह भारत के सबसे व्यस्त रेलवे स्टेशनों में हैं, और कोलकाता पूर्व रेलवे, दक्षिण पूर्व रेलवे और मेट्रो रेलवे का मुख्यालय है। श्यामा प्रसाद मुखर्जी पोर्ट की गोदियाँ कोलकाता और हल्दिया में हैं। संकरे 'चिकन्स नेक' गलियारे पर स्थित सिलीगुड़ी मुख्य भूमि भारत को पूर्वोत्तर से जोड़ता है। दार्जिलिंग हिमालयन रेलवे की टॉय ट्रेन आज भी दार्जिलिंग तक चढ़ती है।",
+        "mr": "कोलकाता हे पूर्व भारताचे वाहतूक केंद्र आहे. नेताजी सुभाषचंद्र बोस आंतरराष्ट्रीय विमानतळ शहराला आग्नेय आशिया व आखाती देशांशी जोडते, आणि सिलिगुडीजवळील बागडोगरा डोंगराळ भाग, सिक्कीम व ईशान्य भारताला सेवा देते; दुर्गापूर (काझी नजरुल इस्लाम विमानतळ) व कूचबिहार येथे लहान विमानतळ आहेत. हावडा व सियालदह ही भारतातील सर्वांत व्यस्त रेल्वे स्थानकांपैकी आहेत, आणि कोलकाता पूर्व रेल्वे, दक्षिण पूर्व रेल्वे व मेट्रो रेल्वेचे मुख्यालय आहे. श्यामाप्रसाद मुखर्जी बंदराच्या गोद्या कोलकाता व हल्दिया येथे आहेत. अरुंद 'चिकन्स नेक' मार्गिकेवरील सिलिगुडी मुख्य भारताला ईशान्येशी जोडते. दार्जिलिंग हिमालयन रेल्वेची टॉय ट्रेन आजही दार्जिलिंगपर्यंत चढते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ccu",
+          "name": {
+            "en": "Netaji Subhas Chandra Bose International Airport, Kolkata",
+            "hi": "नेताजी सुभाष चंद्र बोस अंतरराष्ट्रीय हवाई अड्डा, कोलकाता",
+            "mr": "नेताजी सुभाषचंद्र बोस आंतरराष्ट्रीय विमानतळ, कोलकाता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "CCU",
+            "hi": "CCU",
+            "mr": "CCU",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ixb",
+          "name": {
+            "en": "Bagdogra airport",
+            "hi": "बागडोगरा हवाई अड्डा",
+            "mr": "बागडोगरा विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "IXB",
+            "hi": "IXB",
+            "mr": "IXB",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rdp",
+          "name": {
+            "en": "Kazi Nazrul Islam Airport, Durgapur",
+            "hi": "काज़ी नज़रुल इस्लाम हवाई अड्डा, दुर्गापुर",
+            "mr": "काझी नजरुल इस्लाम विमानतळ, दुर्गापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "coh",
+          "name": {
+            "en": "Cooch Behar airport",
+            "hi": "कूचबिहार हवाई अड्डा",
+            "mr": "कूचबिहार विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports (selected)",
+        "hi": "हवाई अड्डे (चयनित)",
+        "mr": "विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Kolkata Metro operational length (official)",
+            "hi": "कोलकाता मेट्रो की चालू लंबाई (आधिकारिक)",
+            "mr": "कोलकाता मेट्रोची कार्यरत लांबी (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Metro Railway Kolkata."
+        },
+        {
+          "label": {
+            "en": "Port and airport traffic",
+            "hi": "बंदरगाह और हवाई अड्डा यातायात",
+            "mr": "बंदर व विमानतळ वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI statistics; Indian Ports Association."
+        }
+      ]
+    }
+  ]
+}

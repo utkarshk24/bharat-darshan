@@ -1,0 +1,126 @@
+{
+  "region": "IN-GJ",
+  "module": "energy",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gujarat is one of India's largest power producers. The State's Socio-Economic Review put installed capacity at 42,208 MW on 31 March 2022, second among the States, and Gujarat had 15.1% of the country's installed renewable capacity. Large coal and gas stations stand at Mundra, Wanakbori, Ukai and Gandhinagar; the Kakrapar atomic power station is near Surat. Wind farms run along the Kutch and Saurashtra coasts, solar parks include Charanka in Patan district, and the very large Khavda renewable park in the Rann of Kutch is being built in phases. Jamnagar hosts one of the world's largest refinery complexes.",
+        "hi": "गुजरात भारत के सबसे बड़े बिजली उत्पादकों में है। राज्य की सामाजिक-आर्थिक समीक्षा के अनुसार 31 मार्च 2022 को स्थापित क्षमता 42,208 मेगावाट थी, जो राज्यों में दूसरे स्थान पर है, और देश की स्थापित अक्षय क्षमता का 15.1% गुजरात में था। बड़े कोयला और गैस संयंत्र मुंद्रा, वणाकबोरी, उकाई और गांधीनगर में हैं; काकरापार परमाणु बिजलीघर सूरत के पास है। कच्छ और सौराष्ट्र के तटों पर पवन फ़ार्म हैं, सौर पार्कों में पाटन ज़िले का चारणका शामिल है, और कच्छ के रण में बहुत बड़ा खावड़ा अक्षय पार्क चरणों में बन रहा है। जामनगर में दुनिया के सबसे बड़े रिफ़ाइनरी परिसरों में से एक है।",
+        "mr": "गुजरात हे भारतातील सर्वांत मोठ्या वीज उत्पादकांपैकी एक आहे. राज्याच्या सामाजिक-आर्थिक आढाव्यानुसार 31 मार्च 2022 रोजी स्थापित क्षमता 42,208 मेगावॉट होती — राज्यांत दुसरी — आणि देशाच्या स्थापित अक्षय क्षमतेपैकी 15.1% गुजरातमध्ये होती. मोठी कोळसा व वायू केंद्रे मुंद्रा, वणाकबोरी, उकाई व गांधीनगर येथे आहेत; काक्रापार अणुऊर्जा केंद्र सुरतजवळ आहे. कच्छ व सौराष्ट्राच्या किनाऱ्यांवर पवनऊर्जा प्रकल्प आहेत, सौर उद्यानांत पाटण जिल्ह्यातील चारणका आहे, आणि कच्छच्या रणात प्रचंड खावडा अक्षय उद्यान टप्प्याटप्प्याने उभारले जात आहे. जामनगरमध्ये जगातील सर्वांत मोठ्या तेलशुद्धीकरण संकुलांपैकी एक आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "gj-des"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "cap",
+          "label": {
+            "en": "Installed power capacity",
+            "hi": "स्थापित बिजली क्षमता",
+            "mr": "स्थापित वीज क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 42208,
+            "unit": "MW",
+            "period": "2022",
+            "periodType": "calendar",
+            "sourceId": "gj-des",
+            "url": "https://data.opencity.in/dataset/ac23cf45-bf10-4f17-b389-cb49c6c72fc6/resource/1704d67b-ca8d-4231-9540-389f7c8001ae/download/socioeconomicreview202223english27_02_23_10_14_25.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "As on 31 March 2022 (Socio-Economic Review, Gujarat State 2022-23)."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better"
+        },
+        {
+          "id": "reshare",
+          "label": {
+            "en": "Share of India's installed renewable capacity",
+            "hi": "भारत की स्थापित अक्षय क्षमता में हिस्सा",
+            "mr": "भारताच्या स्थापित अक्षय क्षमतेतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 15.1,
+            "unit": "%",
+            "period": "2022",
+            "periodType": "calendar",
+            "sourceId": "gj-des",
+            "url": "https://data.opencity.in/dataset/ac23cf45-bf10-4f17-b389-cb49c6c72fc6/resource/1704d67b-ca8d-4231-9540-389f7c8001ae/download/socioeconomicreview202223english27_02_23_10_14_25.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "As of March 2022 (Socio-Economic Review, Gujarat State 2022-23)."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Power capacity",
+        "hi": "बिजली क्षमता",
+        "mr": "वीज क्षमता",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source, latest (CEA)",
+            "hi": "स्रोतवार स्थापित क्षमता, नवीनतम (सीईए)",
+            "mr": "स्रोतनिहाय स्थापित क्षमता, नवीनतम (सीईए)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

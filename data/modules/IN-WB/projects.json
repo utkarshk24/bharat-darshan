@@ -1,0 +1,74 @@
+{
+  "region": "IN-WB",
+  "module": "projects",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Kolkata had India's first metro (1984) and its first under-river metro tunnel, below the Hooghly between Howrah and Esplanade, opened in 2024. New metro stretches to the airport and in the east of the city opened in August 2025, and the Kona Expressway elevated corridor linking Howrah and Kolkata is under way. Each card shows its source and the date it was checked.",
+        "hi": "कोलकाता में भारत की पहली मेट्रो (1984) थी, और हावड़ा व एस्प्लेनेड के बीच हुगली के नीचे उसकी पहली नदी-तल मेट्रो सुरंग 2024 में खुली। हवाई अड्डे तक और शहर के पूर्व में नए मेट्रो खंड अगस्त 2025 में खुले, और हावड़ा व कोलकाता को जोड़ने वाले कोना एक्सप्रेसवे एलिवेटेड कॉरिडोर का काम चल रहा है। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "कोलकात्यात भारतातील पहिली मेट्रो (1984) होती, आणि हावडा व एस्प्लनेडदरम्यान हुगळीखालचा पहिला नदीतळ मेट्रो बोगदा 2024 मध्ये सुरू झाला. विमानतळापर्यंत व शहराच्या पूर्व भागात नवे मेट्रो टप्पे ऑगस्ट 2025 मध्ये सुरू झाले, आणि हावडा व कोलकात्याला जोडणाऱ्या कोना द्रुतगती मार्गावरील उन्नत मार्गिकेचे काम सुरू आहे. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pib"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tajpur deep-sea port — status",
+            "hi": "ताजपुर गहरे समुद्र का बंदरगाह — स्थिति",
+            "mr": "ताजपूर खोल समुद्री बंदर — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Official status from the State or the Ministry of Ports."
+        },
+        {
+          "label": {
+            "en": "Purulia pumped-storage and new power projects",
+            "hi": "पुरुलिया पंप्ड-स्टोरेज और नई बिजली परियोजनाएँ",
+            "mr": "पुरुलिया पंप्ड-स्टोरेज व नवे वीज प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA / State power department."
+        },
+        {
+          "label": {
+            "en": "New State government's flagship programmes",
+            "hi": "नई राज्य सरकार के प्रमुख कार्यक्रम",
+            "mr": "नव्या राज्य सरकारचे प्रमुख कार्यक्रम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "List with official scheme pages once published."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "region": "IN-GJ",
+  "module": "projects",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gujarat hosts several of India's largest new projects: most of the Mumbai–Ahmedabad high-speed rail line, the country's first commercial semiconductor fab at Dholera, a very large renewable-energy park at Khavda in Kutch, GIFT City's international financial services centre near Gandhinagar, and metro systems in Ahmedabad–Gandhinagar and Surat. Each card shows its source and the date it was checked.",
+        "hi": "गुजरात में भारत की कई सबसे बड़ी नई परियोजनाएँ हैं: मुंबई–अहमदाबाद हाई-स्पीड रेल लाइन का अधिकांश हिस्सा, धोलेरा में देश का पहला वाणिज्यिक सेमीकंडक्टर फ़ैब, कच्छ के खावड़ा में बहुत बड़ा अक्षय ऊर्जा पार्क, गांधीनगर के पास गिफ़्ट सिटी का अंतरराष्ट्रीय वित्तीय सेवा केंद्र, और अहमदाबाद–गांधीनगर व सूरत में मेट्रो। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "गुजरातमध्ये भारतातील अनेक सर्वांत मोठे नवे प्रकल्प आहेत: मुंबई–अहमदाबाद अतिजलद रेल्वेमार्गाचा बहुतांश भाग, धोलेरा येथील देशातील पहिला व्यावसायिक सेमीकंडक्टर फॅब, कच्छमधील खावडा येथील प्रचंड अक्षय ऊर्जा उद्यान, गांधीनगरजवळील गिफ्ट सिटीचे आंतरराष्ट्रीय वित्तीय सेवा केंद्र, आणि अहमदाबाद–गांधीनगर व सुरत येथील मेट्रो. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pib",
+        "pmindia"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Khavda renewable energy park — capacity commissioned",
+            "hi": "खावड़ा अक्षय ऊर्जा पार्क — चालू क्षमता",
+            "mr": "खावडा अक्षय ऊर्जा उद्यान — कार्यान्वित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE / SECI status."
+        },
+        {
+          "label": {
+            "en": "Ahmedabad and Surat metro — official status",
+            "hi": "अहमदाबाद और सूरत मेट्रो — आधिकारिक स्थिति",
+            "mr": "अहमदाबाद व सुरत मेट्रो — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "GMRC project pages."
+        },
+        {
+          "label": {
+            "en": "Dholera semiconductor fab — production status",
+            "hi": "धोलेरा सेमीकंडक्टर फ़ैब — उत्पादन की स्थिति",
+            "mr": "धोलेरा सेमीकंडक्टर फॅब — उत्पादनाची स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "India Semiconductor Mission update."
+        }
+      ]
+    }
+  ]
+}

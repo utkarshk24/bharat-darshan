@@ -1,0 +1,196 @@
+{
+  "region": "IN-KA",
+  "module": "climate",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Karnataka's climate changes sharply from west to east. The coast and the Western Ghats get very heavy south-west monsoon rain from June to September — Agumbe and parts of Uttara Kannada and Kodagu are among the wettest places in peninsular India — while the plateau in the rain shadow is much drier, and the northern districts are hot and semi-arid. Bengaluru's elevation of about 900 m keeps it mild through most of the year. Summers (March–May) are hot in the north, with temperatures above 40 °C around Kalaburagi and Raichur. The south-east of the State also gets rain from the north-east monsoon in October–November.",
+        "hi": "कर्नाटक की जलवायु पश्चिम से पूर्व तेज़ी से बदलती है। तट और पश्चिमी घाट में जून से सितंबर तक दक्षिण-पश्चिम मानसून की बहुत भारी वर्षा होती है — आगुम्बे और उत्तर कन्नड़ व कोडगु के कुछ हिस्से प्रायद्वीपीय भारत के सबसे अधिक वर्षा वाले स्थानों में हैं — जबकि वृष्टि-छाया में स्थित पठार कहीं अधिक सूखा है, और उत्तरी ज़िले गर्म और अर्ध-शुष्क हैं। लगभग 900 मीटर की ऊँचाई के कारण बेंगलूरु साल के अधिकांश समय सुहावना रहता है। गर्मियाँ (मार्च–मई) उत्तर में तीखी होती हैं, और कलबुर्गी व रायचूर के आसपास तापमान 40 °C से ऊपर जाता है। राज्य के दक्षिण-पूर्व में अक्टूबर–नवंबर में उत्तर-पूर्व मानसून से भी वर्षा होती है।",
+        "mr": "कर्नाटकचे हवामान पश्चिमेकडून पूर्वेकडे झपाट्याने बदलते. किनारपट्टी व पश्चिम घाटात जून ते सप्टेंबर नैर्ऋत्य मोसमी पाऊस अतिशय जोरदार पडतो — आगुंबे आणि उत्तर कन्नड व कोडगूचे काही भाग द्वीपकल्पीय भारतातील सर्वाधिक पावसाच्या ठिकाणांपैकी आहेत — तर पर्जन्यछायेतील पठार बरेच कोरडे आहे, आणि उत्तरेकडील जिल्हे उष्ण व अर्धशुष्क आहेत. सुमारे 900 मीटर उंचीमुळे बंगळूरु वर्षाच्या बहुतांश काळ सुखद राहते. उन्हाळा (मार्च–मे) उत्तरेकडे कडक असतो, आणि कलबुर्गी व रायचूरभोवती तापमान 40 °C च्या पुढे जाते. राज्याच्या आग्नेय भागात ऑक्टोबर–नोव्हेंबरमध्ये ईशान्य मोसमी पाऊसही पडतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Bengaluru",
+            "hi": "बेंगलूरु",
+            "mr": "बंगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 12.9716,
+          "lon": 77.5946
+        },
+        {
+          "name": {
+            "en": "Mysuru",
+            "hi": "मैसूरु",
+            "mr": "म्हैसूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 12.2958,
+          "lon": 76.6394
+        },
+        {
+          "name": {
+            "en": "Mangaluru",
+            "hi": "मंगलूरु",
+            "mr": "मंगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 12.9141,
+          "lon": 74.856
+        },
+        {
+          "name": {
+            "en": "Kalaburagi",
+            "hi": "कलबुर्गी",
+            "mr": "कलबुर्गी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 17.3297,
+          "lon": 76.8343
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to February",
+            "hi": "अक्टूबर से फ़रवरी",
+            "mr": "ऑक्टोबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best for Hampi, Badami and the north; Mysuru Dasara in September–October.",
+            "hi": "हम्पी, बादामी और उत्तर के लिए सबसे अच्छा; सितंबर–अक्टूबर में मैसूरु दशहरा।",
+            "mr": "हंपी, बदामी व उत्तर भागासाठी उत्तम; सप्टेंबर–ऑक्टोबरमध्ये म्हैसूरु दसरा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "March to May",
+            "hi": "मार्च से मई",
+            "mr": "मार्च ते मे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hot in the north; a good time for the hills of Kodagu and Chikkamagaluru.",
+            "hi": "उत्तर में गर्मी; कोडगु और चिक्कमगलूरु की पहाड़ियों के लिए अच्छा समय।",
+            "mr": "उत्तरेकडे उष्ण; कोडगू व चिक्कमगळूरुच्या डोंगरांसाठी चांगला काळ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "June to September",
+            "hi": "जून से सितंबर",
+            "mr": "जून ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Heavy rain on the coast and Ghats; Jog Falls at its fullest; landslide risk on ghat roads.",
+            "hi": "तट और घाटों पर भारी वर्षा; जोग जलप्रपात पूरे वेग पर; घाट मार्गों पर भूस्खलन का ख़तरा।",
+            "mr": "किनारपट्टी व घाटांत मुसळधार पाऊस; जोग धबधबा पूर्ण भरात; घाटरस्त्यांवर दरडींचा धोका.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (State and sub-divisions)",
+            "hi": "सामान्य वार्षिक वर्षा (राज्य और उप-मंडल)",
+            "mr": "सरासरी वार्षिक पाऊस (राज्य व उपविभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics for Coastal, North Interior and South Interior Karnataka."
+        },
+        {
+          "label": {
+            "en": "Monthly temperature and rainfall normals",
+            "hi": "मासिक तापमान और वर्षा सामान्य",
+            "mr": "मासिक तापमान व पर्जन्य सरासरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD climatological normals for Bengaluru, Mangaluru, Kalaburagi."
+        }
+      ]
+    }
+  ]
+}

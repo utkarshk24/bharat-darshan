@@ -1,0 +1,438 @@
+{
+  "region": "IN-GJ",
+  "module": "education",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gujarat had 91 universities and 2,395 colleges in the 2021-22 AISHE survey, but its higher-education gross enrolment ratio (ages 18–23) was 24.0%, below the national 28.4%, with a lower figure for women (22.7%) than for men (25.2%). Literacy at the 2011 Census was 78.0%.\n\nThe State has several national institutions: IIM Ahmedabad, IIT Gandhinagar, the National Institute of Design and CEPT University in Ahmedabad, the Physical Research Laboratory and ISRO's Space Applications Centre, SVNIT Surat, and the Maharaja Sayajirao University of Baroda.",
+        "hi": "2021-22 के एआईएसएचई सर्वेक्षण में गुजरात में 91 विश्वविद्यालय और 2,395 कॉलेज थे, लेकिन उच्च शिक्षा का सकल नामांकन अनुपात (18–23 आयु) 24.0% था, जो राष्ट्रीय 28.4% से कम है, और महिलाओं (22.7%) का पुरुषों (25.2%) से कम। 2011 की जनगणना में साक्षरता 78.0% थी।\n\nराज्य में कई राष्ट्रीय संस्थान हैं: आईआईएम अहमदाबाद, आईआईटी गांधीनगर, अहमदाबाद में राष्ट्रीय डिज़ाइन संस्थान और सेप्ट विश्वविद्यालय, भौतिक अनुसंधान प्रयोगशाला और इसरो का अंतरिक्ष उपयोग केंद्र, एसवीएनआईटी सूरत, और महाराजा सयाजीराव विश्वविद्यालय बड़ौदा।",
+        "mr": "2021-22 च्या एआयएसएचई सर्वेक्षणात गुजरातमध्ये 91 विद्यापीठे व 2,395 महाविद्यालये होती, पण उच्चशिक्षणाचे एकूण नोंदणी गुणोत्तर (18–23 वय) 24.0% होते — राष्ट्रीय 28.4% पेक्षा कमी — आणि स्त्रियांचे (22.7%) पुरुषांपेक्षा (25.2%) कमी. 2011 च्या जनगणनेत साक्षरता 78.0% होती.\n\nराज्यात अनेक राष्ट्रीय संस्था आहेत: आयआयएम अहमदाबाद, आयआयटी गांधीनगर, अहमदाबादमधील राष्ट्रीय डिझाइन संस्था व सेप्ट विद्यापीठ, भौतिक संशोधन प्रयोगशाळा व इस्रोचे अवकाश उपयोजन केंद्र, एसव्हीएनआयटी सुरत, आणि महाराजा सयाजीराव विद्यापीठ, बडोदा.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 24.0,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 22.18,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 91,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 2395,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "gj",
+          "label": {
+            "en": "Gujarat",
+            "hi": "गुजरात",
+            "mr": "गुजरात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 19.68,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 19.95,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 20.79,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 22.18,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 24.0,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "iima",
+          "name": {
+            "en": "IIM Ahmedabad",
+            "hi": "आईआईएम अहमदाबाद",
+            "mr": "आयआयएम अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ahmedabad",
+            "hi": "अहमदाबाद",
+            "mr": "अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iitgn",
+          "name": {
+            "en": "IIT Gandhinagar",
+            "hi": "आईआईटी गांधीनगर",
+            "mr": "आयआयटी गांधीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Gandhinagar",
+            "hi": "गांधीनगर",
+            "mr": "गांधीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nid",
+          "name": {
+            "en": "National Institute of Design",
+            "hi": "राष्ट्रीय डिज़ाइन संस्थान",
+            "mr": "राष्ट्रीय डिझाइन संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ahmedabad",
+            "hi": "अहमदाबाद",
+            "mr": "अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "prl",
+          "name": {
+            "en": "Physical Research Laboratory",
+            "hi": "भौतिक अनुसंधान प्रयोगशाला",
+            "mr": "भौतिक संशोधन प्रयोगशाळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ahmedabad",
+            "hi": "अहमदाबाद",
+            "mr": "अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cept",
+          "name": {
+            "en": "CEPT University",
+            "hi": "सेप्ट विश्वविद्यालय",
+            "mr": "सेप्ट विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ahmedabad",
+            "hi": "अहमदाबाद",
+            "mr": "अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "svnit",
+          "name": {
+            "en": "SVNIT Surat",
+            "hi": "एसवीएनआईटी सूरत",
+            "mr": "एसव्हीएनआयटी सुरत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Surat",
+            "hi": "सूरत",
+            "mr": "सुरत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "msu",
+          "name": {
+            "en": "Maharaja Sayajirao University of Baroda",
+            "hi": "महाराजा सयाजीराव विश्वविद्यालय, बड़ौदा",
+            "mr": "महाराजा सयाजीराव विद्यापीठ, बडोदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Vadodara",
+            "hi": "वडोदरा",
+            "mr": "वडोदरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "National institutions (selected)",
+        "hi": "राष्ट्रीय संस्थान (चयनित)",
+        "mr": "राष्ट्रीय संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "Dropout rates by level",
+            "hi": "स्तरवार ड्रॉपआउट दर",
+            "mr": "स्तरनिहाय गळती दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+."
+        },
+        {
+          "label": {
+            "en": "NIRF-ranked institutions",
+            "hi": "एनआईआरएफ़ रैंक वाले संस्थान",
+            "mr": "एनआयआरएफ क्रमवारीतील संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nirf",
+          "note": "Latest NIRF list filtered to Gujarat."
+        }
+      ]
+    }
+  ]
+}

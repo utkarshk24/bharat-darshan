@@ -1,0 +1,596 @@
+{
+  "region": "IN-WB",
+  "module": "cities",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kolkata",
+          "name": {
+            "en": "Kolkata",
+            "hi": "कोलकाता",
+            "mr": "कोलकाता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "State capital; port, commerce, culture; India's first metro.",
+            "hi": "राज्य की राजधानी; बंदरगाह, वाणिज्य, संस्कृति; भारत की पहली मेट्रो।",
+            "mr": "राज्याची राजधानी; बंदर, व्यापार, संस्कृती; भारतातील पहिली मेट्रो.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "howrah",
+          "name": {
+            "en": "Howrah",
+            "hi": "हावड़ा",
+            "mr": "हावडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Twin city across the Hooghly; railway terminus and engineering works.",
+            "hi": "हुगली के पार जुड़वाँ शहर; रेलवे टर्मिनस और इंजीनियरिंग कारख़ाने।",
+            "mr": "हुगळीपलीकडील जुळे शहर; रेल्वे टर्मिनस व अभियांत्रिकी कारखाने.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "siliguri",
+          "name": {
+            "en": "Siliguri",
+            "hi": "सिलीगुड़ी",
+            "mr": "सिलिगुडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Gateway to the hills, Sikkim and the North-East; tea trade.",
+            "hi": "पहाड़ियों, सिक्किम और पूर्वोत्तर का प्रवेश द्वार; चाय व्यापार।",
+            "mr": "डोंगर, सिक्कीम व ईशान्येचे प्रवेशद्वार; चहा व्यापार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "North Bengal",
+            "hi": "उत्तर बंगाल",
+            "mr": "उत्तर बंगाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "durgapur",
+          "name": {
+            "en": "Durgapur and Asansol",
+            "hi": "दुर्गापुर और आसनसोल",
+            "mr": "दुर्गापूर व आसनसोल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Steel, power and the Raniganj coalfield.",
+            "hi": "इस्पात, बिजली और रानीगंज कोयला क्षेत्र।",
+            "mr": "पोलाद, वीज व राणीगंज कोळसा क्षेत्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "haldia",
+          "name": {
+            "en": "Haldia",
+            "hi": "हल्दिया",
+            "mr": "हल्दिया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Port and petrochemical hub on the Hooghly estuary.",
+            "hi": "हुगली मुहाने पर बंदरगाह और पेट्रोरसायन केंद्र।",
+            "mr": "हुगळीच्या मुखावरील बंदर व पेट्रोरसायन केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Port",
+            "hi": "बंदरगाह",
+            "mr": "बंदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "darjeeling",
+          "name": {
+            "en": "Darjeeling",
+            "hi": "दार्जिलिंग",
+            "mr": "दार्जिलिंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hill town of tea gardens and the toy train.",
+            "hi": "चाय बागानों और टॉय ट्रेन का पहाड़ी नगर।",
+            "mr": "चहामळे व टॉय ट्रेनचे डोंगरी शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hills",
+            "hi": "पहाड़",
+            "mr": "डोंगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bardhaman",
+          "name": {
+            "en": "Bardhaman",
+            "hi": "बर्धमान",
+            "mr": "बर्धमान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rice bowl of Bengal; mihidana and sitabhog.",
+            "hi": "बंगाल का धान का कटोरा; मिहिदाना और सीताभोग।",
+            "mr": "बंगालचे भाताचे कोठार; मिहिदाना व सीताभोग.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Agriculture",
+            "hi": "कृषि",
+            "mr": "शेती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "malda",
+          "name": {
+            "en": "Malda",
+            "hi": "मालदा",
+            "mr": "मालदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Mangoes, silk; ruins of Gaur and Pandua.",
+            "hi": "आम, रेशम; गौड़ और पांडुआ के खंडहर।",
+            "mr": "आंबे, रेशीम; गौड व पांडुआचे अवशेष.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "alipurduar",
+          "name": {
+            "en": "Alipurduar",
+            "hi": "अलीपुरद्वार",
+            "mr": "अलिपूरद्वार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bankura",
+          "name": {
+            "en": "Bankura",
+            "hi": "बाँकुड़ा",
+            "mr": "बांकुडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "birbhum",
+          "name": {
+            "en": "Birbhum",
+            "hi": "बीरभूम",
+            "mr": "बीरभूम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "coochbehar",
+          "name": {
+            "en": "Cooch Behar",
+            "hi": "कूचबिहार",
+            "mr": "कूचबिहार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dakshindinajpur",
+          "name": {
+            "en": "Dakshin Dinajpur",
+            "hi": "दक्षिण दिनाजपुर",
+            "mr": "दक्षिण दिनाजपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "darjeeling",
+          "name": {
+            "en": "Darjeeling",
+            "hi": "दार्जिलिंग",
+            "mr": "दार्जिलिंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hooghly",
+          "name": {
+            "en": "Hooghly",
+            "hi": "हुगली",
+            "mr": "हुगळी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "howrah",
+          "name": {
+            "en": "Howrah",
+            "hi": "हावड़ा",
+            "mr": "हावडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jalpaiguri",
+          "name": {
+            "en": "Jalpaiguri",
+            "hi": "जलपाईगुड़ी",
+            "mr": "जलपाईगुडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jhargram",
+          "name": {
+            "en": "Jhargram",
+            "hi": "झाड़ग्राम",
+            "mr": "झाडग्राम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kalimpong",
+          "name": {
+            "en": "Kalimpong",
+            "hi": "कालिम्पोंग",
+            "mr": "कालिम्पोंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kolkata",
+          "name": {
+            "en": "Kolkata",
+            "hi": "कोलकाता",
+            "mr": "कोलकाता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "malda",
+          "name": {
+            "en": "Malda",
+            "hi": "मालदा",
+            "mr": "मालदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "murshidabad",
+          "name": {
+            "en": "Murshidabad",
+            "hi": "मुर्शिदाबाद",
+            "mr": "मुर्शिदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nadia",
+          "name": {
+            "en": "Nadia",
+            "hi": "नदिया",
+            "mr": "नदिया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "north24parganas",
+          "name": {
+            "en": "North 24 Parganas",
+            "hi": "उत्तर 24 परगना",
+            "mr": "उत्तर 24 परगणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "paschimbardhaman",
+          "name": {
+            "en": "Paschim Bardhaman",
+            "hi": "पश्चिम बर्धमान",
+            "mr": "पश्चिम बर्धमान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "paschimmedinipur",
+          "name": {
+            "en": "Paschim Medinipur",
+            "hi": "पश्चिम मेदिनीपुर",
+            "mr": "पश्चिम मेदिनीपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "purbabardhaman",
+          "name": {
+            "en": "Purba Bardhaman",
+            "hi": "पूर्व बर्धमान",
+            "mr": "पूर्व बर्धमान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "purbamedinipur",
+          "name": {
+            "en": "Purba Medinipur",
+            "hi": "पूर्व मेदिनीपुर",
+            "mr": "पूर्व मेदिनीपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "purulia",
+          "name": {
+            "en": "Purulia",
+            "hi": "पुरुलिया",
+            "mr": "पुरुलिया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "south24parganas",
+          "name": {
+            "en": "South 24 Parganas",
+            "hi": "दक्षिण 24 परगना",
+            "mr": "दक्षिण 24 परगणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "uttardinajpur",
+          "name": {
+            "en": "Uttar Dinajpur",
+            "hi": "उत्तर दिनाजपुर",
+            "mr": "उत्तर दिनाजपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 23 districts (alphabetical)",
+        "hi": "23 ज़िले (वर्णानुक्रम)",
+        "mr": "23 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official district list (State notification)",
+            "hi": "आधिकारिक ज़िला सूची (राज्य अधिसूचना)",
+            "mr": "अधिकृत जिल्हा यादी (राज्य अधिसूचना)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Link the State's list of districts."
+        },
+        {
+          "label": {
+            "en": "District populations (Census 2011)",
+            "hi": "ज़िलावार जनसंख्या (जनगणना 2011)",
+            "mr": "जिल्हानिहाय लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "District Census Handbooks."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "region": "IN-WB",
+  "module": "civic",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of West Bengal portal",
+            "hi": "पश्चिम बंगाल सरकार पोर्टल",
+            "mr": "पश्चिम बंगाल शासन संकेतस्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://wb.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "rti",
+          "name": {
+            "en": "RTI Online (Government of India)",
+            "hi": "आरटीआई ऑनलाइन (भारत सरकार)",
+            "mr": "माहितीचा अधिकार ऑनलाइन (भारत सरकार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rtionline.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "tourism",
+          "name": {
+            "en": "West Bengal Tourism",
+            "hi": "पश्चिम बंगाल पर्यटन",
+            "mr": "पश्चिम बंगाल पर्यटन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://wbtourism.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "consumer",
+          "name": {
+            "en": "National Consumer Helpline",
+            "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन",
+            "mr": "राष्ट्रीय ग्राहक हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://consumerhelpline.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official websites",
+        "hi": "आधिकारिक वेबसाइटें",
+        "mr": "अधिकृत संकेतस्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "std",
+      "title": {
+        "en": "STD codes of major cities",
+        "hi": "प्रमुख शहरों के एसटीडी कोड",
+        "mr": "प्रमुख शहरांचे एसटीडी कोड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "City",
+            "hi": "शहर",
+            "mr": "शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Code",
+            "hi": "कोड",
+            "mr": "कोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Kolkata and Howrah",
+            "hi": "कोलकाता और हावड़ा",
+            "mr": "कोलकाता व हावडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "033"
+        ],
+        [
+          {
+            "en": "Siliguri",
+            "hi": "सिलीगुड़ी",
+            "mr": "सिलिगुडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0353"
+        ],
+        [
+          {
+            "en": "Darjeeling",
+            "hi": "दार्जिलिंग",
+            "mr": "दार्जिलिंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0354"
+        ],
+        [
+          {
+            "en": "Durgapur",
+            "hi": "दुर्गापुर",
+            "mr": "दुर्गापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0343"
+        ],
+        [
+          {
+            "en": "Asansol",
+            "hi": "आसनसोल",
+            "mr": "आसनसोल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0341"
+        ]
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "note": {
+        "en": "Editorial list; to be checked against the Department of Telecommunications numbering plan.",
+        "hi": "संपादकीय सूची; दूरसंचार विभाग की नंबरिंग योजना से जाँची जाएगी।",
+        "mr": "संपादकीय यादी; दूरसंचार विभागाच्या क्रमांक योजनेशी पडताळली जाईल.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "State e-services portal — verified link",
+            "hi": "राज्य ई-सेवा पोर्टल — सत्यापित लिंक",
+            "mr": "राज्य ई-सेवा संकेतस्थळ — पडताळलेला दुवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Certificates and services portal of the State."
+        },
+        {
+          "label": {
+            "en": "Verified local business directory",
+            "hi": "सत्यापित स्थानीय व्यवसाय निर्देशिका",
+            "mr": "पडताळलेली स्थानिक उद्योग सूची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Udyam Registration and co-operative registrars."
+        }
+      ]
+    }
+  ]
+}

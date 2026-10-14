@@ -1,0 +1,518 @@
+{
+  "region": "IN-GJ",
+  "module": "nature",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gujarat has relatively little forest — 7.7% of its area in ISFR 2023 — but very varied wildlife. Gir National Park and the surrounding forests of Saurashtra are the only wild home of the Asiatic lion, whose population has grown steadily under protection. The Little Rann of Kutch shelters the Indian wild ass; Velavadar near Bhavnagar protects blackbuck on open grassland; and Banni in Kutch is one of Asia's largest grasslands. The Marine National Park in the Gulf of Kutch has coral reefs and mangroves.\n\nGujarat's wetlands are major wintering grounds for migratory birds, especially flamingos, which breed in the Rann. The State has five Ramsar sites, including Nalsarovar near Ahmedabad and Chhari Dhand in Kutch.",
+        "hi": "गुजरात में वन अपेक्षाकृत कम हैं — आईएसएफ़आर 2023 में क्षेत्रफल का 7.7% — लेकिन वन्यजीव बहुत विविध हैं। गिर राष्ट्रीय उद्यान और सौराष्ट्र के आसपास के वन एशियाई सिंह का एकमात्र प्राकृतिक आवास हैं, जिसकी आबादी संरक्षण में लगातार बढ़ी है। कच्छ का छोटा रण भारतीय जंगली गधे (घुड़खर) का आश्रय है; भावनगर के पास वेलावदर खुले घासभूमि में काले हिरण की रक्षा करता है; और कच्छ का बन्नी एशिया की सबसे बड़ी घासभूमियों में से एक है। कच्छ की खाड़ी के समुद्री राष्ट्रीय उद्यान में प्रवाल भित्तियाँ और मैंग्रोव हैं।\n\nगुजरात की आर्द्रभूमियाँ प्रवासी पक्षियों, ख़ासकर फ़्लेमिंगो, के लिए सर्दियों के प्रमुख ठिकाने हैं, जो रण में प्रजनन करते हैं। राज्य में पाँच रामसर स्थल हैं, जिनमें अहमदाबाद के पास नलसरोवर और कच्छ का छारी ढंढ शामिल हैं।",
+        "mr": "गुजरातमध्ये वनक्षेत्र तुलनेने कमी आहे — आयएसएफआर 2023 नुसार क्षेत्रफळाच्या 7.7% — पण वन्यजीव अतिशय वैविध्यपूर्ण आहेत. गीर राष्ट्रीय उद्यान व सौराष्ट्रातील आसपासची जंगले हे आशियाई सिंहाचे एकमेव नैसर्गिक निवासस्थान आहे, आणि संरक्षणामुळे त्यांची संख्या सातत्याने वाढली आहे. कच्छचे छोटे रण भारतीय रानगाढवाचे (घुडखर) आश्रयस्थान आहे; भावनगरजवळील वेळावदर मोकळ्या गवताळ प्रदेशात काळविटांचे संरक्षण करते; आणि कच्छमधील बन्नी हे आशियातील सर्वांत मोठ्या गवताळ प्रदेशांपैकी एक आहे. कच्छच्या आखातातील सागरी राष्ट्रीय उद्यानात प्रवाळभित्ती व खारफुटी आहे.\n\nगुजरातमधील पाणथळ जागा स्थलांतरित पक्ष्यांची, विशेषतः रणात प्रजनन करणाऱ्या रोहित पक्ष्यांची (फ्लेमिंगो), प्रमुख हिवाळी ठिकाणे आहेत. राज्यात पाच रामसर स्थळे आहेत, त्यांत अहमदाबादजवळील नळसरोवर व कच्छमधील छारी ढंढ यांचा समावेश आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "indian-wetlands"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 15016.64,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 14836.57,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 7.65,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 15,016.64 km² ÷ geographical area 1,96,244 km²."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        },
+        {
+          "id": "ramsar",
+          "label": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळ स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 5,
+            "unit": "sites",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "indian-wetlands",
+            "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "MoEFCC list of Ramsar sites as on 21 April 2026 (India total 99)."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "ramsar",
+      "title": {
+        "en": "Ramsar wetlands",
+        "hi": "रामसर आर्द्रभूमियाँ",
+        "mr": "रामसर पाणथळ स्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Site",
+            "hi": "स्थल",
+            "mr": "स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Designated",
+            "hi": "घोषित",
+            "mr": "घोषणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Area (ha)",
+            "hi": "क्षेत्रफल (हेक्टेयर)",
+            "mr": "क्षेत्रफळ (हेक्टर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Nalsarovar Bird Sanctuary",
+            "hi": "नलसरोवर पक्षी अभयारण्य",
+            "mr": "नळसरोवर पक्षी अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "24 Sep 2012",
+          "12,000"
+        ],
+        [
+          {
+            "en": "Thol Lake Wildlife Sanctuary",
+            "hi": "थोल झील वन्यजीव अभयारण्य",
+            "mr": "थोळ तलाव वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "5 Apr 2021",
+          "699"
+        ],
+        [
+          {
+            "en": "Wadhvana Wetland",
+            "hi": "वढवाणा आर्द्रभूमि",
+            "mr": "वढवाणा पाणथळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "5 Apr 2021",
+          "630"
+        ],
+        [
+          {
+            "en": "Khijadia Wildlife Sanctuary",
+            "hi": "खिजड़िया वन्यजीव अभयारण्य",
+            "mr": "खिजडिया वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "13 Apr 2021",
+          "512"
+        ],
+        [
+          {
+            "en": "Chhari Dhand Conservation Reserve",
+            "hi": "छारी ढंढ संरक्षण रिज़र्व",
+            "mr": "छारी ढंढ संवर्धन राखीव क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "16 Jun 2025",
+          "22,700"
+        ]
+      ],
+      "sourceId": "indian-wetlands",
+      "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+      "accessDate": "2026-10-14",
+      "confidence": "Official",
+      "note": {
+        "en": "MoEFCC list as on 21 April 2026.",
+        "hi": "21 अप्रैल 2026 की पर्यावरण मंत्रालय सूची।",
+        "mr": "21 एप्रिल 2026 ची पर्यावरण मंत्रालयाची यादी.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "protected",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "gir",
+          "name": {
+            "en": "Gir National Park and Sanctuary",
+            "hi": "गिर राष्ट्रीय उद्यान और अभयारण्य",
+            "mr": "गीर राष्ट्रीय उद्यान व अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Asiatic lion",
+            "hi": "एशियाई सिंह",
+            "mr": "आशियाई सिंह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lrk",
+          "name": {
+            "en": "Indian Wild Ass Sanctuary, Little Rann of Kutch",
+            "hi": "भारतीय जंगली गधा अभयारण्य, कच्छ का छोटा रण",
+            "mr": "भारतीय रानगाढव अभयारण्य, कच्छचे छोटे रण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Wild ass",
+            "hi": "घुड़खर",
+            "mr": "घुडखर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "velavadar",
+          "name": {
+            "en": "Blackbuck National Park, Velavadar",
+            "hi": "काला हिरण राष्ट्रीय उद्यान, वेलावदर",
+            "mr": "काळवीट राष्ट्रीय उद्यान, वेळावदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Blackbuck",
+            "hi": "काला हिरण",
+            "mr": "काळवीट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "marine",
+          "name": {
+            "en": "Marine National Park, Gulf of Kutch",
+            "hi": "समुद्री राष्ट्रीय उद्यान, कच्छ की खाड़ी",
+            "mr": "सागरी राष्ट्रीय उद्यान, कच्छचे आखात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Coral reefs",
+            "hi": "प्रवाल भित्तियाँ",
+            "mr": "प्रवाळभित्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vansda",
+          "name": {
+            "en": "Vansda National Park",
+            "hi": "वांसदा राष्ट्रीय उद्यान",
+            "mr": "वांसदा राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Southern forests",
+            "hi": "दक्षिणी वन",
+            "mr": "दक्षिणेकडील जंगले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Protected areas (selected)",
+        "hi": "संरक्षित क्षेत्र (चयनित)",
+        "mr": "संरक्षित क्षेत्रे (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "species",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "lion",
+          "name": {
+            "en": "Asiatic lion (State animal)",
+            "hi": "एशियाई सिंह (राज्य पशु)",
+            "mr": "आशियाई सिंह (राज्यप्राणी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "wildass",
+          "name": {
+            "en": "Indian wild ass",
+            "hi": "भारतीय जंगली गधा",
+            "mr": "भारतीय रानगाढव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "flamingo",
+          "name": {
+            "en": "Greater flamingo (State bird)",
+            "hi": "बड़ा राजहंस (राज्य पक्षी)",
+            "mr": "मोठा रोहित (राज्यपक्षी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "blackbuck",
+          "name": {
+            "en": "Blackbuck",
+            "hi": "काला हिरण",
+            "mr": "काळवीट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bustard",
+          "name": {
+            "en": "Great Indian bustard",
+            "hi": "सोन चिरैया (गोडावण)",
+            "mr": "माळढोक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dugong",
+          "name": {
+            "en": "Dugong",
+            "hi": "डुगोंग",
+            "mr": "डुगाँग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key species",
+        "hi": "प्रमुख प्रजातियाँ",
+        "mr": "प्रमुख प्रजाती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Asiatic lion population (latest count)",
+            "hi": "एशियाई सिंह आबादी (नवीनतम गणना)",
+            "mr": "आशियाई सिंहांची संख्या (नवीनतम गणना)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "moefcc",
+          "note": "Gujarat Forest Department lion population estimation."
+        },
+        {
+          "label": {
+            "en": "National parks and sanctuaries (count, area)",
+            "hi": "राष्ट्रीय उद्यान और अभयारण्य (संख्या, क्षेत्रफल)",
+            "mr": "राष्ट्रीय उद्याने व अभयारण्ये (संख्या, क्षेत्र)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "moefcc",
+          "note": "ENVIS / WII database."
+        }
+      ]
+    }
+  ]
+}

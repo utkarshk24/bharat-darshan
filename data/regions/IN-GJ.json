@@ -33,86 +33,151 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://gujaratindia.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Asiatic lion",
+        "hi": "एशियाई सिंह",
+        "mr": "आशियाई सिंह",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Panthera leo persica",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Greater flamingo",
+        "hi": "बड़ा राजहंस (फ़्लेमिंगो)",
+        "mr": "मोठा रोहित (फ्लेमिंगो)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Phoenicopterus roseus",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Marigold",
+        "hi": "गेंदा",
+        "mr": "झेंडू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Tagetes",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Banyan",
+        "hi": "बरगद",
+        "mr": "वड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Ficus benghalensis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 60439692,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-14",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 3,14,91,260; females 2,89,48,432."
     },
     "area": {
-      "value": null,
+      "value": 196244,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-14",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026); NITI Aayog also gives 1,96,244 km²."
     },
     "density2011": {
-      "value": null,
+      "value": 308,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-14",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 6,04,39,692 ÷ area 1,96,244 km² = 308.0."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 919,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-14",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (920 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 890,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-14",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 883 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 78.0,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-14",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011). Was 69.1% in 2001."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,88 +190,963 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: the State's Socio-Economic Review gives only rounded totals (urban 2.57 crore of 6.04 crore). Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 2984449,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-14",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25: ₹27,03,518 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 357531,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-14",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2024-25: ₹3,27,195."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 7.65,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-14",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 15,016.64 km² ÷ geographical area 1,96,244 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Acharya Devvrat",
+        "hi": "आचार्य देवव्रत",
+        "mr": "आचार्य देवव्रत",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
+      "since": "2019-07-22",
+      "asOf": "2026-10-14",
+      "sourceId": "newsonair",
+      "url": "https://newsonair.gov.in/governor-acharya-devvrat-cm-bhupendra-patel-deputy-cm-harsh-sanghvi-extend-their-greetings-to-people-on-occasion-of-dhuleti/",
       "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Governor since July 2019; named as Governor in News On AIR's report of 4 March 2026. Confirm on the Raj Bhavan / Lok Bhavan, Gujarat website."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "name": {
+        "en": "Bhupendra Patel",
+        "hi": "भूपेंद्र पटेल",
+        "mr": "भूपेंद्र पटेल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "BJP",
+      "since": "2021-09-13",
+      "asOf": "2026-10-14",
+      "sourceId": "newsonair",
+      "url": "https://newsonair.gov.in/governor-acharya-devvrat-cm-bhupendra-patel-deputy-cm-harsh-sanghvi-extend-their-greetings-to-people-on-occasion-of-dhuleti/",
+      "verifyUrl": "https://gujaratindia.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "note": "Chief Minister since 13 September 2021; sworn in for a second term on 12 December 2022 after the Assembly election. Named as Chief Minister by News On AIR on 4 March 2026."
+    },
+    "others": [
+      {
+        "role": "deputy-chief-minister",
+        "name": {
+          "en": "Harsh Sanghavi",
+          "hi": "हर्ष संघवी",
+          "mr": "हर्ष संघवी",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2025-10-17",
+        "asOf": "2026-10-14",
+        "sourceId": "newsonair",
+        "url": "https://newsonair.gov.in/governor-acharya-devvrat-cm-bhupendra-patel-deputy-cm-harsh-sanghvi-extend-their-greetings-to-people-on-occasion-of-dhuleti/",
+        "verifyUrl": "https://gujaratindia.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Became Deputy Chief Minister in the October 2025 cabinet reshuffle; named as Deputy CM by News On AIR on 4 March 2026."
+      },
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Shankar Chaudhary",
+          "hi": "शंकर चौधरी",
+          "mr": "शंकर चौधरी",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2022-12-20",
+        "asOf": "2026-10-14",
+        "sourceId": "theprint",
+        "url": "https://theprint.in/india/shankar-chaudhary-elected-unopposed-as-speaker-of-gujarat-assembly/1272525/",
+        "verifyUrl": "https://gujaratassembly.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Elected unopposed on 20 December 2022 (ThePrint, PTI). Confirm on the Assembly website."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "mahsr-gujarat",
+      "name": {
+        "en": "Mumbai–Ahmedabad High-Speed Rail (Gujarat section)",
+        "hi": "मुंबई–अहमदाबाद हाई-स्पीड रेल (गुजरात खंड)",
+        "mr": "मुंबई–अहमदाबाद अतिजलद रेल्वे (गुजरात भाग)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A 508 km high-speed line, about 90% of it elevated. Eight of its 12 stations — Vapi, Bilimora, Surat, Bharuch, Vadodara, Anand, Ahmedabad and Sabarmati — and 21 of its 25 river bridges are in Gujarat. Track laying on the viaduct began in April 2026; the first service is expected in August 2027.",
+        "hi": "508 किमी लंबी हाई-स्पीड लाइन, जिसका लगभग 90% हिस्सा एलिवेटेड है। इसके 12 में से 8 स्टेशन — वापी, बिलिमोरा, सूरत, भरूच, वडोदरा, आणंद, अहमदाबाद और साबरमती — और 25 में से 21 नदी पुल गुजरात में हैं। वायाडक्ट पर पटरी बिछाने का काम अप्रैल 2026 में शुरू हुआ; पहली सेवा अगस्त 2027 में अपेक्षित है।",
+        "mr": "508 किमीचा अतिजलद रेल्वेमार्ग, ज्याचा सुमारे 90% भाग उन्नत आहे. त्याच्या 12 पैकी 8 स्थानके — वापी, बिलिमोरा, सुरत, भरूच, वडोदरा, आणंद, अहमदाबाद व साबरमती — आणि 25 पैकी 21 नदीपूल गुजरातमध्ये आहेत. व्हायाडक्टवर रूळ टाकण्याचे काम एप्रिल 2026 मध्ये सुरू झाले; पहिली सेवा ऑगस्ट 2027 मध्ये अपेक्षित आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "transport",
+      "agency": "NHSRCL",
+      "start": null,
+      "completion": "First service expected August 2027",
+      "status": "Under Construction",
+      "asOf": "2026-10-14",
+      "sourceId": "pib",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2272190&lang=1&reg=48",
+      "confidence": "Official"
+    },
+    {
+      "id": "dholera-fab",
+      "name": {
+        "en": "Semiconductor fab, Dholera",
+        "hi": "सेमीकंडक्टर फ़ैब, धोलेरा",
+        "mr": "सेमीकंडक्टर फॅब, धोलेरा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "India's first commercial semiconductor fabrication plant, being set up by Tata Electronics in the Dholera Special Investment Region under the Modified Scheme for Semiconductor Fabs. The Prime Minister laid the foundation stone on 13 March 2024, together with an assembly-and-test (OSAT) unit at Sanand.",
+        "hi": "भारत का पहला वाणिज्यिक सेमीकंडक्टर फ़ैब्रिकेशन संयंत्र, जिसे टाटा इलेक्ट्रॉनिक्स सेमीकंडक्टर फ़ैब की संशोधित योजना के तहत धोलेरा विशेष निवेश क्षेत्र में बना रही है। प्रधानमंत्री ने 13 मार्च 2024 को इसकी आधारशिला रखी, साथ में साणंद में एक असेंबली-एवं-परीक्षण (ओसैट) इकाई की भी।",
+        "mr": "भारतातील पहिला व्यावसायिक सेमीकंडक्टर फॅब्रिकेशन प्रकल्प, जो टाटा इलेक्ट्रॉनिक्स सेमीकंडक्टर फॅबच्या सुधारित योजनेअंतर्गत धोलेरा विशेष गुंतवणूक क्षेत्रात उभारत आहे. पंतप्रधानांनी 13 मार्च 2024 रोजी पायाभरणी केली, सोबत साणंद येथील जुळणी-व-चाचणी (ओसॅट) युनिटचीही.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "industry",
+      "agency": "Tata Electronics Private Limited",
+      "start": "March 2024",
+      "completion": null,
+      "status": "Under Construction",
+      "asOf": "2026-10-14",
+      "sourceId": "pmindia",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pm-to-participate-in-indias-techade-chips-for-viksit-bharat-and-lay-the-foundation-stone-of-three-semiconductor-facilities-worth-about-rs-1-25-lakh-crore-on-13th-march/",
+      "confidence": "Official",
+      "cost": {
+        "value": 91000,
+        "unit": "₹ crore",
+        "period": "2024",
+        "periodType": "calendar",
+        "sourceId": "pmindia",
+        "url": "https://www.pmindia.gov.in/en/news_updates/pm-to-participate-in-indias-techade-chips-for-viksit-bharat-and-lay-the-foundation-stone-of-three-semiconductor-facilities-worth-about-rs-1-25-lakh-crore-on-13th-march/",
+        "accessDate": "2026-10-14",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Over ₹91,000 crore (PMO)."
+      }
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "gir-kesar-mango",
+      "name": {
+        "en": "Gir Kesar Mango",
+        "hi": "गिर केसर आम",
+        "mr": "गीर केशर आंबा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "185",
+      "filingDate": "2009-08-17",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bhalia-wheat",
+      "name": {
+        "en": "Bhalia Wheat",
+        "hi": "भालिया गेहूँ",
+        "mr": "भालिया गहू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "192",
+      "filingDate": "2009-12-17",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kachchhi-kharek",
+      "name": {
+        "en": "Kachchhi Kharek",
+        "hi": "कच्छी खारेक (छुहारा)",
+        "mr": "कच्छी खारीक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "761",
+      "filingDate": "2021-06-15",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "amalsad-chikoo",
+      "name": {
+        "en": "Amalsad Chikoo",
+        "hi": "अमलसाड चीकू",
+        "mr": "अमलसाड चिकू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "776",
+      "filingDate": "2021-09-16",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sankheda-furniture",
+      "name": {
+        "en": "Sankheda Furniture",
+        "hi": "संखेडा फ़र्नीचर",
+        "mr": "संखेडा फर्निचर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "100",
+      "filingDate": "2007-07-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "agates-of-cambay",
+      "name": {
+        "en": "Agates of Cambay",
+        "hi": "खंभात के अकीक",
+        "mr": "खंबायतचे अकीक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "101",
+      "filingDate": "2007-07-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kutch-embroidery",
+      "name": {
+        "en": "Kutch Embroidery",
+        "hi": "कच्छ कढ़ाई",
+        "mr": "कच्छ भरतकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "103",
+      "filingDate": "2007-07-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "tangaliya-shawl",
+      "name": {
+        "en": "Tangaliya Shawl",
+        "hi": "तंगलिया शॉल",
+        "mr": "तंगलिया शाल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "127",
+      "filingDate": "2008-06-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "surat-zari-craft",
+      "name": {
+        "en": "Surat Zari Craft",
+        "hi": "सूरत ज़री शिल्प",
+        "mr": "सुरत जरीकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "171",
+      "filingDate": "2009-05-21",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kachchh-shawls",
+      "name": {
+        "en": "Kachchh Shawls",
+        "hi": "कच्छ शॉल",
+        "mr": "कच्छ शाली",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "174",
+      "filingDate": "2009-06-04",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "jamnagari-bandhani",
+      "name": {
+        "en": "Jamnagari Bandhani",
+        "hi": "जामनगरी बांधनी",
+        "mr": "जामनगरी बांधणी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "221",
+      "filingDate": "2010-09-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "patan-patola",
+      "name": {
+        "en": "Patan Patola",
+        "hi": "पाटन पटोला",
+        "mr": "पाटण पटोला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "232",
+      "filingDate": "2011-03-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "rajkot-patola",
+      "name": {
+        "en": "RajKot Patola",
+        "hi": "राजकोट पटोला",
+        "mr": "राजकोट पटोला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "380",
+      "filingDate": "2012-03-16",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sankheda-furniture-logo",
+      "name": {
+        "en": "Sankheda Furniture (Logo)",
+        "hi": "संखेडा फ़र्नीचर (लोगो)",
+        "mr": "संखेडा फर्निचर (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "507",
+      "filingDate": "2015-01-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "agates-of-cambay-logo",
+      "name": {
+        "en": "Agates of Cambay (Logo)",
+        "hi": "खंभात के अकीक (लोगो)",
+        "mr": "खंबायतचे अकीक (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "508",
+      "filingDate": "2015-01-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kutch-embroidery-logo",
+      "name": {
+        "en": "Kutch Embroidery (Logo)",
+        "hi": "कच्छ कढ़ाई (लोगो)",
+        "mr": "कच्छ भरतकाम (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "509",
+      "filingDate": "2015-01-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "pethapur-printing-blocks",
+      "name": {
+        "en": "Pethapur Printing Blocks",
+        "hi": "पेथापुर छपाई ठप्पे",
+        "mr": "पेथापूर छपाईचे ठसे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "585",
+      "filingDate": "2017-08-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "pithora",
+      "name": {
+        "en": "Pithora",
+        "hi": "पिथोरा चित्रकला",
+        "mr": "पिथोरा चित्रकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "644",
+      "filingDate": "2019-01-23",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "mata-ni-pachhedi",
+      "name": {
+        "en": "Mata ni Pachhedi",
+        "hi": "माता नी पछेडी",
+        "mr": "माता नी पछेडी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "694",
+      "filingDate": "2020-07-14",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kutch-rogan-craft",
+      "name": {
+        "en": "Kutch Rogan Craft",
+        "hi": "कच्छ रोगन कला",
+        "mr": "कच्छ रोगन कला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "718",
+      "filingDate": "2020-11-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kutch-bandhani",
+      "name": {
+        "en": "Kutch Bandhani",
+        "hi": "कच्छ बांधनी",
+        "mr": "कच्छ बांधणी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "756",
+      "filingDate": "2021-04-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "gharchola-craft-of-gujarat",
+      "name": {
+        "en": "Gharchola Craft of Gujarat",
+        "hi": "गुजरात का घरचोला शिल्प",
+        "mr": "गुजरातचे घरचोळा वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "838",
+      "filingDate": "2022-02-22",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "gujarat-suf-embroidery",
+      "name": {
+        "en": "Gujarat Suf Embroidery",
+        "hi": "गुजरात सूफ़ कढ़ाई",
+        "mr": "गुजरात सूफ भरतकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "997",
+      "filingDate": "2022-10-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ahmedabad-sodagari-block-print",
+      "name": {
+        "en": "Ahmedabad Sodagari Block Print",
+        "hi": "अहमदाबाद सोदागरी ठप्पा छपाई",
+        "mr": "अहमदाबाद सोदागरी ठसा छपाई",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1063",
+      "filingDate": "2023-03-21",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "surat-sadeli-craft",
+      "name": {
+        "en": "Surat Sadeli Craft",
+        "hi": "सूरत सादेली शिल्प",
+        "mr": "सुरत सादेली कला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "1064",
+      "filingDate": "2023-03-21",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bharuch-sujani-weaving",
+      "name": {
+        "en": "Bharuch Sujani Weaving",
+        "hi": "भरूच सुजनी बुनाई",
+        "mr": "भरूच सुजनी विणकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1090",
+      "filingDate": "2023-05-22",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kutch-ajrakh",
+      "name": {
+        "en": "Kutch Ajrakh",
+        "hi": "कच्छ अजरख",
+        "mr": "कच्छ अजरख",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1050",
+      "filingDate": "2023-01-31",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ambaji-white-marble",
+      "name": {
+        "en": "Ambaji White Marble",
+        "hi": "अंबाजी सफ़ेद संगमरमर",
+        "mr": "अंबाजी पांढरा संगमरवर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "natural"
+      ],
+      "applicationNo": "1114",
+      "filingDate": "2023-07-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "surat-cut-diamond",
+      "name": {
+        "en": "Surat Cut Diamond",
+        "hi": "सूरत तराशा हीरा",
+        "mr": "सुरत पैलू पाडलेला हिरा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "1388",
+      "filingDate": "2024-12-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-14",
+    "editorialStatus": "draft"
   },
   "localName": {
     "lang": "gu",

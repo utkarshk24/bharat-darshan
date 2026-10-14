@@ -1,0 +1,402 @@
+{
+  "region": "IN-GJ",
+  "module": "tourism",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gujarat's attractions range from heritage and pilgrimage to wildlife and desert. Ahmedabad's old city and Sabarmati Ashram, the stepwells of Patan and Adalaj, Champaner-Pavagadh and Dholavira are among its historic sites; Somnath, Dwarka, Ambaji and the Jain hill temples of Palitana draw large numbers of pilgrims. Gir's lions, the white Rann of Kutch during the Rann Utsav, the beaches of Diu nearby and Saurashtra, and the Statue of Unity — at 182 m the world's tallest statue — near the Sardar Sarovar dam are the other main draws.",
+        "hi": "गुजरात के आकर्षण धरोहर और तीर्थ से लेकर वन्यजीव और मरुस्थल तक हैं। अहमदाबाद का पुराना शहर और साबरमती आश्रम, पाटन और अडालज की बावड़ियाँ, चंपानेर-पावागढ़ और धोलावीरा इसके ऐतिहासिक स्थलों में हैं; सोमनाथ, द्वारका, अंबाजी और पालीताणा के जैन पर्वतीय मंदिर बड़ी संख्या में तीर्थयात्रियों को आकर्षित करते हैं। गिर के सिंह, रण उत्सव के दौरान कच्छ का सफ़ेद रण, पास के दीव और सौराष्ट्र के समुद्र तट, और सरदार सरोवर बाँध के पास 182 मीटर ऊँची — दुनिया की सबसे ऊँची — स्टैच्यू ऑफ़ यूनिटी अन्य मुख्य आकर्षण हैं।",
+        "mr": "गुजरातमधील आकर्षणे वारसा व तीर्थक्षेत्रांपासून वन्यजीव व वाळवंटापर्यंत आहेत. अहमदाबादचे जुने शहर व साबरमती आश्रम, पाटण व अडालजच्या बारवा, चंपानेर-पावागड व धोलावीरा ही ऐतिहासिक स्थळे आहेत; सोमनाथ, द्वारका, अंबाजी व पालीताणाची जैन डोंगरमंदिरे मोठ्या संख्येने भाविकांना आकर्षित करतात. गीरचे सिंह, रण उत्सवादरम्यान कच्छचे पांढरे रण, जवळच्या दीव व सौराष्ट्राचे समुद्रकिनारे, आणि सरदार सरोवर धरणाजवळील 182 मीटर उंच — जगातील सर्वांत उंच — स्टॅच्यू ऑफ युनिटी ही इतर प्रमुख आकर्षणे आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ahmedabad",
+          "name": {
+            "en": "Old Ahmedabad and Sabarmati Ashram",
+            "hi": "पुराना अहमदाबाद और साबरमती आश्रम",
+            "mr": "जुने अहमदाबाद व साबरमती आश्रम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO heritage city",
+            "hi": "यूनेस्को धरोहर नगर",
+            "mr": "युनेस्को वारसा शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gir",
+          "name": {
+            "en": "Gir National Park",
+            "hi": "गिर राष्ट्रीय उद्यान",
+            "mr": "गीर राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Lions (mid-Oct–mid-Jun)",
+            "hi": "सिंह (मध्य-अक्टूबर–मध्य-जून)",
+            "mr": "सिंह (ऑक्टो. मध्य–जून मध्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rann",
+          "name": {
+            "en": "White Rann, Kutch",
+            "hi": "सफ़ेद रण, कच्छ",
+            "mr": "पांढरे रण, कच्छ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Rann Utsav",
+            "hi": "रण उत्सव",
+            "mr": "रण उत्सव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "somnath",
+          "name": {
+            "en": "Somnath and Dwarka",
+            "hi": "सोमनाथ और द्वारका",
+            "mr": "सोमनाथ व द्वारका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage",
+            "hi": "तीर्थ",
+            "mr": "तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ranikivav",
+          "name": {
+            "en": "Rani ki Vav, Patan",
+            "hi": "रानी की वाव, पाटन",
+            "mr": "राणी की वाव, पाटण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO heritage",
+            "hi": "यूनेस्को धरोहर",
+            "mr": "युनेस्को वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "champaner",
+          "name": {
+            "en": "Champaner-Pavagadh",
+            "hi": "चंपानेर-पावागढ़",
+            "mr": "चंपानेर-पावागड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO heritage",
+            "hi": "यूनेस्को धरोहर",
+            "mr": "युनेस्को वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dholavira",
+          "name": {
+            "en": "Dholavira",
+            "hi": "धोलावीरा",
+            "mr": "धोलावीरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Harappan city",
+            "hi": "हड़प्पा नगर",
+            "mr": "हडप्पा नगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "palitana",
+          "name": {
+            "en": "Palitana (Shatrunjaya hill)",
+            "hi": "पालीताणा (शत्रुंजय पर्वत)",
+            "mr": "पालीताणा (शत्रुंजय डोंगर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jain pilgrimage",
+            "hi": "जैन तीर्थ",
+            "mr": "जैन तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "unity",
+          "name": {
+            "en": "Statue of Unity, Ekta Nagar",
+            "hi": "स्टैच्यू ऑफ़ यूनिटी, एकता नगर",
+            "mr": "स्टॅच्यू ऑफ युनिटी, एकता नगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "182 m statue",
+            "hi": "182 मीटर प्रतिमा",
+            "mr": "182 मीटर पुतळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Ahmedabad heritage walk, Sabarmati Ashram, Adalaj stepwell and Modhera.",
+            "hi": "अहमदाबाद धरोहर पदयात्रा, साबरमती आश्रम, अडालज बावड़ी और मोढेरा।",
+            "mr": "अहमदाबाद वारसा फेरी, साबरमती आश्रम, अडालज बारव व मोढेरा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Bhuj and the White Rann, with Kutch craft villages.",
+            "hi": "भुज और सफ़ेद रण, कच्छ के शिल्प गाँवों के साथ।",
+            "mr": "भुज व पांढरे रण, कच्छच्या हस्तकला गावांसह.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Saurashtra: Gir, Somnath, Diu and Junagadh's Girnar.",
+            "hi": "सौराष्ट्र: गिर, सोमनाथ, दीव और जूनागढ़ का गिरनार।",
+            "mr": "सौराष्ट्र: गीर, सोमनाथ, दीव व जुनागडचा गिरनार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Ahmedabad, Patan, Kutch and Dholavira, then Dwarka and Somnath.",
+            "hi": "अहमदाबाद, पाटन, कच्छ और धोलावीरा, फिर द्वारका और सोमनाथ।",
+            "mr": "अहमदाबाद, पाटण, कच्छ व धोलावीरा, नंतर द्वारका व सोमनाथ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "gt",
+          "name": {
+            "en": "Gujarat Tourism (official)",
+            "hi": "गुजरात पर्यटन (आधिकारिक)",
+            "mr": "गुजरात पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.gujarattourism.com",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        },
+        {
+          "label": {
+            "en": "Earnings from tourism",
+            "hi": "पर्यटन से आय",
+            "mr": "पर्यटनातून उत्पन्न",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "State tourism department."
+        }
+      ]
+    }
+  ]
+}

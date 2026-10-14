@@ -1,0 +1,55 @@
+{
+  "region": "IN-WB",
+  "module": "diaspora",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Bengalis from West Bengal have settled in large numbers in other Indian cities — Delhi, Mumbai, Bengaluru and Pune — and abroad in the United Kingdom, the United States and Canada, many as doctors, academics and engineers, keeping up Durga Puja and Tagore celebrations wherever they live. Workers from the State, especially from Murshidabad, Malda and the Sundarbans, migrate in large numbers to other States and to the Gulf. Ties of language, family and culture run deep with Bangladesh across the border, and Darjeeling's Nepali-speaking community has close links with Nepal and Sikkim.",
+        "hi": "पश्चिम बंगाल के बांग्लाभाषी बड़ी संख्या में भारत के अन्य शहरों — दिल्ली, मुंबई, बेंगलूरु और पुणे — और विदेश में ब्रिटेन, अमेरिका और कनाडा में बसे हैं, जिनमें बहुत से डॉक्टर, शिक्षाविद और इंजीनियर हैं, और वे जहाँ भी रहते हैं दुर्गा पूजा और टैगोर उत्सव मनाते हैं। राज्य के श्रमिक, ख़ासकर मुर्शिदाबाद, मालदा और सुंदरबन से, बड़ी संख्या में दूसरे राज्यों और खाड़ी देशों में जाते हैं। सीमा पार बांग्लादेश के साथ भाषा, परिवार और संस्कृति के गहरे संबंध हैं, और दार्जिलिंग के नेपाली-भाषी समुदाय के नेपाल और सिक्किम से निकट संबंध हैं।",
+        "mr": "पश्चिम बंगालमधील बांगलाभाषक मोठ्या संख्येने भारतातील इतर शहरांत — दिल्ली, मुंबई, बंगळूरु व पुणे — आणि परदेशात ब्रिटन, अमेरिका व कॅनडात स्थायिक झाले आहेत, त्यांतील अनेक डॉक्टर, प्राध्यापक व अभियंते आहेत, आणि ते जिथे राहतात तिथे दुर्गापूजा व टागोर उत्सव साजरे करतात. राज्यातील कामगार, विशेषतः मुर्शिदाबाद, मालदा व सुंदरबनमधून, मोठ्या संख्येने इतर राज्यांत व आखाती देशांत जातात. सीमेपलीकडील बांगलादेशशी भाषा, कुटुंब व संस्कृतीचे खोल नाते आहे, आणि दार्जिलिंगमधील नेपाळीभाषक समुदायाचे नेपाळ व सिक्कीमशी निकटचे संबंध आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants and internal migrants",
+            "hi": "प्रवासियों और आंतरिक प्रवासियों की संख्या",
+            "mr": "परदेशी व देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables; MEA."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

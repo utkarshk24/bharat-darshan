@@ -1,0 +1,728 @@
+{
+  "region": "IN-GJ",
+  "module": "cities",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "gandhinagar",
+          "name": {
+            "en": "Gandhinagar",
+            "hi": "गांधीनगर",
+            "mr": "गांधीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Planned State capital; GIFT City; Akshardham.",
+            "hi": "नियोजित राजधानी; गिफ़्ट सिटी; अक्षरधाम।",
+            "mr": "नियोजित राजधानी; गिफ्ट सिटी; अक्षरधाम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ahmedabad",
+          "name": {
+            "en": "Ahmedabad",
+            "hi": "अहमदाबाद",
+            "mr": "अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Largest city; UNESCO heritage city; textiles, pharmaceuticals, IIM.",
+            "hi": "सबसे बड़ा शहर; यूनेस्को धरोहर नगर; कपड़ा, दवाएँ, आईआईएम।",
+            "mr": "सर्वांत मोठे शहर; युनेस्को वारसा शहर; कापड, औषधे, आयआयएम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Commerce",
+            "hi": "वाणिज्य",
+            "mr": "वाणिज्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "surat",
+          "name": {
+            "en": "Surat",
+            "hi": "सूरत",
+            "mr": "सुरत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Diamond cutting and polishing; synthetic textiles; port at Hazira.",
+            "hi": "हीरा तराशी और पॉलिश; सिंथेटिक कपड़ा; हज़ीरा बंदरगाह।",
+            "mr": "हिरे पैलू व पॉलिश; कृत्रिम कापड; हजिरा बंदर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vadodara",
+          "name": {
+            "en": "Vadodara",
+            "hi": "वडोदरा",
+            "mr": "वडोदरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Former Gaekwad capital; Laxmi Vilas Palace; refinery and engineering; MS University.",
+            "hi": "पूर्व गायकवाड़ राजधानी; लक्ष्मी विलास महल; रिफ़ाइनरी और इंजीनियरिंग; एमएस विश्वविद्यालय।",
+            "mr": "पूर्वीची गायकवाड राजधानी; लक्ष्मी विलास राजवाडा; तेलशुद्धीकरण व अभियांत्रिकी; एमएस विद्यापीठ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Culture, industry",
+            "hi": "संस्कृति, उद्योग",
+            "mr": "संस्कृती, उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rajkot",
+          "name": {
+            "en": "Rajkot",
+            "hi": "राजकोट",
+            "mr": "राजकोट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Saurashtra's commercial hub; engineering, castings, jewellery.",
+            "hi": "सौराष्ट्र का वाणिज्यिक केंद्र; इंजीनियरिंग, ढलाई, आभूषण।",
+            "mr": "सौराष्ट्राचे व्यापारी केंद्र; अभियांत्रिकी, ओतकाम, दागिने.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Saurashtra",
+            "hi": "सौराष्ट्र",
+            "mr": "सौराष्ट्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jamnagar",
+          "name": {
+            "en": "Jamnagar",
+            "hi": "जामनगर",
+            "mr": "जामनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Refinery complex; brass parts; bandhani.",
+            "hi": "रिफ़ाइनरी परिसर; पीतल के पुर्ज़े; बांधनी।",
+            "mr": "तेलशुद्धीकरण संकुल; पितळी भाग; बांधणी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhavnagar",
+          "name": {
+            "en": "Bhavnagar",
+            "hi": "भावनगर",
+            "mr": "भावनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Port city; ship-breaking at nearby Alang; Velavadar.",
+            "hi": "बंदरगाह नगर; पास के अलंग में जहाज़ तोड़ने का उद्योग; वेलावदर।",
+            "mr": "बंदराचे शहर; जवळच्या अलंगमध्ये जहाजतोड उद्योग; वेळावदर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Coast",
+            "hi": "तट",
+            "mr": "किनारपट्टी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhuj",
+          "name": {
+            "en": "Bhuj",
+            "hi": "भुज",
+            "mr": "भुज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Kutch's main town; crafts; gateway to the Rann.",
+            "hi": "कच्छ का मुख्य नगर; शिल्प; रण का प्रवेश द्वार।",
+            "mr": "कच्छचे मुख्य शहर; हस्तकला; रणाचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kutch",
+            "hi": "कच्छ",
+            "mr": "कच्छ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ahmedabad",
+          "name": {
+            "en": "Ahmedabad",
+            "hi": "अहमदाबाद",
+            "mr": "अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "amreli",
+          "name": {
+            "en": "Amreli",
+            "hi": "अमरेली",
+            "mr": "अमरेली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "anand",
+          "name": {
+            "en": "Anand",
+            "hi": "आणंद",
+            "mr": "आणंद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "aravalli",
+          "name": {
+            "en": "Aravalli",
+            "hi": "अरवल्ली",
+            "mr": "अरवल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "banaskantha",
+          "name": {
+            "en": "Banaskantha",
+            "hi": "बनासकांठा",
+            "mr": "बनासकांठा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bharuch",
+          "name": {
+            "en": "Bharuch",
+            "hi": "भरूच",
+            "mr": "भरूच",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhavnagar",
+          "name": {
+            "en": "Bhavnagar",
+            "hi": "भावनगर",
+            "mr": "भावनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "botad",
+          "name": {
+            "en": "Botad",
+            "hi": "बोटाद",
+            "mr": "बोटाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chhotaudaipur",
+          "name": {
+            "en": "Chhota Udaipur",
+            "hi": "छोटा उदयपुर",
+            "mr": "छोटा उदयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dahod",
+          "name": {
+            "en": "Dahod",
+            "hi": "दाहोद",
+            "mr": "दाहोद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dang",
+          "name": {
+            "en": "Dang",
+            "hi": "डांग",
+            "mr": "डांग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "devbhoomidwarka",
+          "name": {
+            "en": "Devbhoomi Dwarka",
+            "hi": "देवभूमि द्वारका",
+            "mr": "देवभूमी द्वारका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gandhinagar",
+          "name": {
+            "en": "Gandhinagar",
+            "hi": "गांधीनगर",
+            "mr": "गांधीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "girsomnath",
+          "name": {
+            "en": "Gir Somnath",
+            "hi": "गिर सोमनाथ",
+            "mr": "गीर सोमनाथ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jamnagar",
+          "name": {
+            "en": "Jamnagar",
+            "hi": "जामनगर",
+            "mr": "जामनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "junagadh",
+          "name": {
+            "en": "Junagadh",
+            "hi": "जूनागढ़",
+            "mr": "जुनागड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kheda",
+          "name": {
+            "en": "Kheda",
+            "hi": "खेड़ा",
+            "mr": "खेडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kutch",
+          "name": {
+            "en": "Kutch",
+            "hi": "कच्छ",
+            "mr": "कच्छ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mahisagar",
+          "name": {
+            "en": "Mahisagar",
+            "hi": "महीसागर",
+            "mr": "महीसागर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mehsana",
+          "name": {
+            "en": "Mehsana",
+            "hi": "मेहसाणा",
+            "mr": "मेहसाणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "morbi",
+          "name": {
+            "en": "Morbi",
+            "hi": "मोरबी",
+            "mr": "मोरबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "narmada",
+          "name": {
+            "en": "Narmada",
+            "hi": "नर्मदा",
+            "mr": "नर्मदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "navsari",
+          "name": {
+            "en": "Navsari",
+            "hi": "नवसारी",
+            "mr": "नवसारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "panchmahal",
+          "name": {
+            "en": "Panchmahal",
+            "hi": "पंचमहाल",
+            "mr": "पंचमहाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "patan",
+          "name": {
+            "en": "Patan",
+            "hi": "पाटन",
+            "mr": "पाटण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "porbandar",
+          "name": {
+            "en": "Porbandar",
+            "hi": "पोरबंदर",
+            "mr": "पोरबंदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rajkot",
+          "name": {
+            "en": "Rajkot",
+            "hi": "राजकोट",
+            "mr": "राजकोट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sabarkantha",
+          "name": {
+            "en": "Sabarkantha",
+            "hi": "साबरकांठा",
+            "mr": "साबरकांठा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "surat",
+          "name": {
+            "en": "Surat",
+            "hi": "सूरत",
+            "mr": "सुरत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "surendranagar",
+          "name": {
+            "en": "Surendranagar",
+            "hi": "सुरेंद्रनगर",
+            "mr": "सुरेंद्रनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tapi",
+          "name": {
+            "en": "Tapi",
+            "hi": "तापी",
+            "mr": "तापी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vadodara",
+          "name": {
+            "en": "Vadodara",
+            "hi": "वडोदरा",
+            "mr": "वडोदरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "valsad",
+          "name": {
+            "en": "Valsad",
+            "hi": "वलसाड",
+            "mr": "वलसाड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vavtharad",
+          "name": {
+            "en": "Vav-Tharad",
+            "hi": "वाव-थराद",
+            "mr": "वाव-थराद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": "newsonair",
+      "url": "https://newsonair.gov.in/gujarat-govt-approves-creation-of-new-district-named-vav-tharad",
+      "accessDate": "2026-10-14",
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 34 districts (alphabetical)",
+        "hi": "34 ज़िले (वर्णानुक्रम)",
+        "mr": "34 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "District populations (Census 2011)",
+            "hi": "ज़िलावार जनसंख्या (जनगणना 2011)",
+            "mr": "जिल्हानिहाय लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "District Census Handbooks."
+        },
+        {
+          "label": {
+            "en": "Official district list (Revenue Department)",
+            "hi": "आधिकारिक ज़िला सूची (राजस्व विभाग)",
+            "mr": "अधिकृत जिल्हा यादी (महसूल विभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Replace the news citation with the State notification."
+        }
+      ]
+    }
+  ]
+}

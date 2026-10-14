@@ -1,0 +1,547 @@
+{
+  "region": "IN-GJ",
+  "module": "culture",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gujarati culture is shaped by trade, devotion and craft. The 15th-century poet-saint Narsinh Mehta is regarded as the first great poet of Gujarati, and his hymn 'Vaishnav Jan To' was a favourite of Gandhi. Jain, Vaishnava and Swaminarayan traditions are strong, as are Sufi shrines and the Parsi community that first landed at Sanjan. Garba and dandiya raas, danced in circles through the nine nights of Navratri, are the State's signature performing arts; bhavai is a traditional folk theatre.\n\nGujarat's textile crafts are among the richest in India: patola double-ikat silk from Patan, bandhani tie-dye from Jamnagar and Kutch, ajrakh block printing, Kutch and Suf embroidery, and the painted and printed Mata ni Pachhedi temple cloths. Rogan painting, Sankheda lacquered furniture and Pithora wall paintings by the Rathwa community are other well-known traditions.",
+        "hi": "गुजराती संस्कृति व्यापार, भक्ति और शिल्प से बनी है। 15वीं सदी के संत-कवि नरसिंह मेहता गुजराती के पहले बड़े कवि माने जाते हैं, और उनका भजन 'वैष्णव जन तो' गांधी का प्रिय था। जैन, वैष्णव और स्वामीनारायण परंपराएँ मज़बूत हैं, और सूफ़ी दरगाहें और पारसी समुदाय भी, जो सबसे पहले संजाण में उतरा था। नवरात्रि की नौ रातों में घेरे में नाचे जाने वाले गरबा और डांडिया रास राज्य की पहचान वाली प्रदर्शन कलाएँ हैं; भवाई पारंपरिक लोक रंगमंच है।\n\nगुजरात के वस्त्र शिल्प भारत में सबसे समृद्ध में हैं: पाटन का पटोला डबल-इकत रेशम, जामनगर और कच्छ की बांधनी, अजरख ठप्पा छपाई, कच्छ और सूफ़ कढ़ाई, और चित्रित व छपे हुए माता नी पछेडी मंदिर वस्त्र। रोगन चित्रकला, संखेडा का लाख वाला फ़र्नीचर और राठवा समुदाय की पिथोरा भित्ति चित्रकला अन्य प्रसिद्ध परंपराएँ हैं।",
+        "mr": "गुजराती संस्कृती व्यापार, भक्ती आणि हस्तकलेतून घडली आहे. पंधराव्या शतकातील संतकवी नरसिंह मेहता हे गुजरातीचे पहिले श्रेष्ठ कवी मानले जातात, आणि त्यांचे 'वैष्णव जन तो' हे भजन गांधींचे आवडते होते. जैन, वैष्णव व स्वामीनारायण परंपरा भक्कम आहेत, तसेच सुफी दर्गे आणि संजाण येथे प्रथम उतरलेला पारशी समुदायही. नवरात्रीच्या नऊ रात्री वर्तुळात खेळले जाणारे गरबा व दांडिया रास हे राज्याचे ओळखचिन्ह असलेले सादरीकरण प्रकार आहेत; भवाई हे पारंपरिक लोकनाट्य आहे.\n\nगुजरातची वस्त्रकला भारतातील सर्वांत समृद्ध कलांपैकी आहे: पाटणचा पटोला दुहेरी-इकत रेशीम, जामनगर व कच्छची बांधणी, अजरख ठसा छपाई, कच्छ व सूफ भरतकाम, आणि रंगवलेली व छापलेली माता नी पछेडी मंदिरवस्त्रे. रोगन चित्रकला, संखेडाचे लाखकाम केलेले फर्निचर आणि राठवा समुदायाची पिथोरा भित्तिचित्रकला या इतर प्रसिद्ध परंपरा आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "festivals",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "navratri",
+          "name": {
+            "en": "Navratri",
+            "hi": "नवरात्रि",
+            "mr": "नवरात्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Nine nights of garba and dandiya across the State.",
+            "hi": "पूरे राज्य में नौ रातों का गरबा और डांडिया।",
+            "mr": "राज्यभर नऊ रात्री गरबा व दांडिया.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "September–October",
+            "hi": "सितंबर–अक्टूबर",
+            "mr": "सप्टेंबर–ऑक्टोबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "uttarayan",
+          "name": {
+            "en": "Uttarayan (kite festival)",
+            "hi": "उत्तरायण (पतंग उत्सव)",
+            "mr": "उत्तरायण (पतंग महोत्सव)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rooftop kite-flying; an international kite festival in Ahmedabad.",
+            "hi": "छतों पर पतंगबाज़ी; अहमदाबाद में अंतरराष्ट्रीय पतंग उत्सव।",
+            "mr": "गच्चीवरून पतंगबाजी; अहमदाबादमध्ये आंतरराष्ट्रीय पतंग महोत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "14–15 January",
+            "hi": "14–15 जनवरी",
+            "mr": "14–15 जानेवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rann",
+          "name": {
+            "en": "Rann Utsav",
+            "hi": "रण उत्सव",
+            "mr": "रण उत्सव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Tent city and culture on the white salt desert of Kutch.",
+            "hi": "कच्छ के सफ़ेद नमक मरुस्थल पर तंबू नगरी और सांस्कृतिक कार्यक्रम।",
+            "mr": "कच्छच्या पांढऱ्या मिठाच्या वाळवंटावर तंबूनगरी व सांस्कृतिक कार्यक्रम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "November–February",
+            "hi": "नवंबर–फ़रवरी",
+            "mr": "नोव्हेंबर–फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tarnetar",
+          "name": {
+            "en": "Tarnetar fair",
+            "hi": "तरणेतर मेला",
+            "mr": "तरणेतर जत्रा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Folk fair of Saurashtra with embroidered umbrellas and dances.",
+            "hi": "कढ़ाईदार छतरियों और नृत्यों वाला सौराष्ट्र का लोक मेला।",
+            "mr": "भरतकाम केलेल्या छत्र्या व नृत्यांसह सौराष्ट्राची लोकजत्रा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "August–September",
+            "hi": "अगस्त–सितंबर",
+            "mr": "ऑगस्ट–सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "janmashtami",
+          "name": {
+            "en": "Janmashtami at Dwarka",
+            "hi": "द्वारका में जन्माष्टमी",
+            "mr": "द्वारकेत जन्माष्टमी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Krishna's birth celebrated at the Dwarkadhish temple.",
+            "hi": "द्वारकाधीश मंदिर में कृष्ण जन्मोत्सव।",
+            "mr": "द्वारकाधीश मंदिरात कृष्णजन्मोत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "August–September",
+            "hi": "अगस्त–सितंबर",
+            "mr": "ऑगस्ट–सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "eid",
+          "name": {
+            "en": "Eid, Christmas and Navroz",
+            "hi": "ईद, क्रिसमस और नवरोज़",
+            "mr": "ईद, नाताळ व नवरोज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Celebrated by Muslim, Christian and Parsi communities.",
+            "hi": "मुस्लिम, ईसाई और पारसी समुदायों द्वारा मनाए जाते हैं।",
+            "mr": "मुस्लिम, ख्रिश्चन व पारशी समुदाय साजरे करतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Various",
+            "hi": "विभिन्न",
+            "mr": "विविध",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Festivals",
+        "hi": "त्योहार",
+        "mr": "सण-उत्सव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "arts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "garba",
+          "name": {
+            "en": "Garba",
+            "hi": "गरबा",
+            "mr": "गरबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dandiya",
+          "name": {
+            "en": "Dandiya raas",
+            "hi": "डांडिया रास",
+            "mr": "दांडिया रास",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhavai",
+          "name": {
+            "en": "Bhavai",
+            "hi": "भवाई",
+            "mr": "भवाई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "patola",
+          "name": {
+            "en": "Patola weaving",
+            "hi": "पटोला बुनाई",
+            "mr": "पटोला विणकाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bandhani",
+          "name": {
+            "en": "Bandhani",
+            "hi": "बांधनी",
+            "mr": "बांधणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ajrakh",
+          "name": {
+            "en": "Ajrakh printing",
+            "hi": "अजरख छपाई",
+            "mr": "अजरख छपाई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rogan",
+          "name": {
+            "en": "Rogan painting",
+            "hi": "रोगन चित्रकला",
+            "mr": "रोगन चित्रकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pithora",
+          "name": {
+            "en": "Pithora painting",
+            "hi": "पिथोरा चित्रकला",
+            "mr": "पिथोरा चित्रकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Arts and crafts",
+        "hi": "कलाएँ और शिल्प",
+        "mr": "कला व हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "food",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "thali",
+          "name": {
+            "en": "Gujarati thali",
+            "hi": "गुजराती थाली",
+            "mr": "गुजराती थाळी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Dal, kadhi, vegetables, rotli, rice, farsan and a sweet — often lightly sweet overall.",
+            "hi": "दाल, कढ़ी, सब्ज़ियाँ, रोटली, चावल, फरसाण और मिठाई — अक्सर हल्की मिठास के साथ।",
+            "mr": "डाळ, कढी, भाज्या, पोळी, भात, फरसाण व गोड पदार्थ — अनेकदा किंचित गोडसर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dhokla",
+          "name": {
+            "en": "Dhokla and khandvi",
+            "hi": "ढोकला और खांडवी",
+            "mr": "ढोकळा व खांडवी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Steamed gram-flour snacks.",
+            "hi": "बेसन से बने भाप में पके नाश्ते।",
+            "mr": "बेसनाचे वाफवलेले पदार्थ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "undhiyu",
+          "name": {
+            "en": "Undhiyu",
+            "hi": "उंधियू",
+            "mr": "उंधियो",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Winter dish of mixed vegetables slow-cooked with spices, especially in Surat.",
+            "hi": "मसालों के साथ धीमी आँच पर पकी मिली-जुली सब्ज़ियों का सर्दियों का व्यंजन, ख़ासकर सूरत में।",
+            "mr": "मसाल्यांसह मंद आचेवर शिजवलेल्या मिश्र भाज्यांचा हिवाळी पदार्थ, विशेषतः सुरतमध्ये.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thepla",
+          "name": {
+            "en": "Thepla and khakhra",
+            "hi": "थेपला और खाखरा",
+            "mr": "थेपला व खाकरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Spiced flatbreads that travel well.",
+            "hi": "मसालेदार रोटियाँ, जो सफ़र में ख़राब नहीं होतीं।",
+            "mr": "प्रवासात टिकणाऱ्या मसालेदार पोळ्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "fafda",
+          "name": {
+            "en": "Fafda–jalebi",
+            "hi": "फाफड़ा–जलेबी",
+            "mr": "फाफडा–जिलेबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Crisp gram-flour strips with jalebi, a Sunday and Dussehra favourite.",
+            "hi": "जलेबी के साथ कुरकुरे बेसन के फाफड़े, रविवार और दशहरे का पसंदीदा।",
+            "mr": "जिलेबीसोबत कुरकुरीत बेसनाचे फाफडे — रविवारी व दसऱ्याला आवडते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Food",
+        "hi": "खान-पान",
+        "mr": "खाद्यसंस्कृती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "dress",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "chaniya",
+          "name": {
+            "en": "Chaniya choli",
+            "hi": "चणिया चोली",
+            "mr": "चणिया चोळी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flared skirt and blouse, often mirror-worked, worn for garba.",
+            "hi": "घेरदार घाघरा और चोली, अक्सर शीशे के काम वाली, गरबा में पहनी जाती है।",
+            "mr": "घेरदार घागरा व चोळी, अनेकदा आरसेकाम असलेली, गरब्याला घातली जाते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kediyu",
+          "name": {
+            "en": "Kediyu and chorno",
+            "hi": "केडियू और चोरणो",
+            "mr": "केडियू व चोरणो",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pleated upper garment and trousers worn by men for dandiya.",
+            "hi": "डांडिया में पुरुषों द्वारा पहना जाने वाला चुन्नटदार ऊपरी वस्त्र और पायजामा।",
+            "mr": "दांडियाला पुरुष घालतात तो चुण्यांचा अंगरखा व विजार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "patola",
+          "name": {
+            "en": "Patola saree",
+            "hi": "पटोला साड़ी",
+            "mr": "पटोला साडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Double-ikat silk from Patan, worn at weddings.",
+            "hi": "पाटन का डबल-इकत रेशम, शादियों में पहना जाता है।",
+            "mr": "पाटणचे दुहेरी-इकत रेशीम, लग्नात परिधान केले जाते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Traditional dress",
+        "hi": "पारंपरिक वेशभूषा",
+        "mr": "पारंपरिक वेशभूषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

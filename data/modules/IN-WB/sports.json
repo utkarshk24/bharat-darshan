@@ -1,0 +1,98 @@
+{
+  "region": "IN-WB",
+  "module": "sports",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Football is a passion in West Bengal. The Kolkata derby between Mohun Bagan and East Bengal is one of the oldest club rivalries in Asia, and Mohun Bagan's barefoot win over the East Yorkshire Regiment in the 1911 IFA Shield is celebrated as a milestone of the national movement. The Salt Lake (Vivekananda Yuva Bharati Krirangan) stadium is one of India's largest. Cricket is followed just as keenly at Eden Gardens, one of the world's great Test venues, and Sourav Ganguly is the State's best-known cricketer. Chuni Goswami, P. K. Banerjee and Leander Paes are among other sporting figures from the State.",
+        "hi": "पश्चिम बंगाल में फ़ुटबॉल जुनून है। मोहन बागान और ईस्ट बंगाल के बीच कोलकाता डर्बी एशिया की सबसे पुरानी क्लब प्रतिद्वंद्विताओं में है, और 1911 के आईएफ़ए शील्ड में ईस्ट यॉर्कशायर रेजिमेंट पर मोहन बागान की नंगे पैर जीत को राष्ट्रीय आंदोलन के एक पड़ाव के रूप में याद किया जाता है। साल्ट लेक (विवेकानंद युवा भारती क्रीड़ांगन) स्टेडियम भारत के सबसे बड़े स्टेडियमों में है। क्रिकेट भी उतने ही उत्साह से ईडन गार्डन्स में देखा जाता है, जो दुनिया के महान टेस्ट मैदानों में है, और सौरव गांगुली राज्य के सबसे प्रसिद्ध क्रिकेटर हैं। चुन्नी गोस्वामी, पी. के. बनर्जी और लिएंडर पेस राज्य के अन्य खेल व्यक्तित्वों में हैं।",
+        "mr": "पश्चिम बंगालमध्ये फुटबॉल हे वेड आहे. मोहन बागान व ईस्ट बंगाल यांच्यातील कोलकाता डर्बी ही आशियातील सर्वांत जुन्या क्लब प्रतिस्पर्धांपैकी आहे, आणि 1911 च्या आयएफए शील्डमध्ये ईस्ट यॉर्कशायर रेजिमेंटवर मोहन बागानने अनवाणी मिळवलेला विजय राष्ट्रीय चळवळीतील एक टप्पा म्हणून साजरा केला जातो. सॉल्ट लेक (विवेकानंद युवा भारती क्रीडांगण) स्टेडियम भारतातील सर्वांत मोठ्या मैदानांपैकी आहे. क्रिकेटही तितक्याच उत्साहाने ईडन गार्डन्सवर पाहिले जाते — जगातील महान कसोटी मैदानांपैकी एक — आणि सौरव गांगुली हे राज्याचे सर्वांत प्रसिद्ध क्रिकेटपटू आहेत. चुनी गोस्वामी, पी. के. बॅनर्जी व लिअँडर पेस हे राज्यातील इतर क्रीडा व्यक्तिमत्त्व आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "eden",
+          "name": {
+            "en": "Eden Gardens, Kolkata",
+            "hi": "ईडन गार्डन्स, कोलकाता",
+            "mr": "ईडन गार्डन्स, कोलकाता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "saltlake",
+          "name": {
+            "en": "Vivekananda Yuva Bharati Krirangan (Salt Lake Stadium)",
+            "hi": "विवेकानंद युवा भारती क्रीड़ांगन (साल्ट लेक स्टेडियम)",
+            "mr": "विवेकानंद युवा भारती क्रीडांगण (सॉल्ट लेक स्टेडियम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mohunbagan",
+          "name": {
+            "en": "Mohun Bagan and East Bengal grounds, Maidan",
+            "hi": "मोहन बागान और ईस्ट बंगाल मैदान, मैदान क्षेत्र",
+            "mr": "मोहन बागान व ईस्ट बंगाल मैदाने, मैदान परिसर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Olympic and Asian Games medallists from West Bengal (official list)",
+            "hi": "पश्चिम बंगाल के ओलंपिक और एशियाई खेल पदक विजेता (आधिकारिक सूची)",
+            "mr": "पश्चिम बंगालचे ऑलिम्पिक व आशियाई स्पर्धा पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "State youth services and sports department."
+        }
+      ]
+    }
+  ]
+}

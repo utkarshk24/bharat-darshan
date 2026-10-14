@@ -1,0 +1,55 @@
+{
+  "region": "IN-KA",
+  "module": "diaspora",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Coastal Karnataka — Dakshina Kannada, Udupi and Uttara Kannada — has sent many workers and professionals to the Gulf countries since the 1970s, and Mangalorean Catholic, Konkani and Tuluva communities are found in Mumbai, the Gulf and beyond. Since the 1990s Bengaluru's technology industry has created large numbers of Kannadiga professionals in the United States, the United Kingdom and Australia. At the same time Bengaluru is itself a city of migrants, drawing people from every part of India.",
+        "hi": "तटीय कर्नाटक — दक्षिण कन्नड़, उडुपी और उत्तर कन्नड़ — से 1970 के दशक से बहुत से श्रमिक और पेशेवर खाड़ी देशों में गए हैं, और मंगलूरी कैथोलिक, कोंकणी और तुलुव समुदाय मुंबई, खाड़ी और उससे आगे बसे हैं। 1990 के दशक से बेंगलूरु के प्रौद्योगिकी उद्योग के कारण बड़ी संख्या में कन्नड़ पेशेवर संयुक्त राज्य अमेरिका, ब्रिटेन और ऑस्ट्रेलिया में हैं। साथ ही बेंगलूरु स्वयं प्रवासियों का शहर है, जो भारत के हर हिस्से से लोगों को आकर्षित करता है।",
+        "mr": "किनारी कर्नाटकातून — दक्षिण कन्नड, उडुपी व उत्तर कन्नड — 1970 च्या दशकापासून अनेक कामगार व व्यावसायिक आखाती देशांत गेले आहेत, आणि मंगळुरी कॅथलिक, कोकणी व तुळुव समुदाय मुंबई, आखाती देश व त्यापलीकडे वसले आहेत. 1990 च्या दशकापासून बंगळूरुच्या तंत्रज्ञान उद्योगामुळे मोठ्या संख्येने कन्नड व्यावसायिक अमेरिका, ब्रिटन व ऑस्ट्रेलियात आहेत. त्याच वेळी बंगळूरु स्वतः स्थलांतरितांचे शहर आहे, जे भारताच्या प्रत्येक भागातून लोकांना आकर्षित करते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants and internal migrants",
+            "hi": "प्रवासियों और आंतरिक प्रवासियों की संख्या",
+            "mr": "परदेशी व देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables; MEA."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "region": "IN-GJ",
+  "module": "government",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gujarat has a unicameral legislature: the 182-member Legislative Assembly meets in Gandhinagar. The State elects 26 members to the Lok Sabha and 11 to the Rajya Sabha.\n\nIn the December 2022 Assembly election the BJP won 156 seats, and Bhupendra Patel, Chief Minister since September 2021, was sworn in for a second term. Harsh Sanghavi became Deputy Chief Minister in the October 2025 reshuffle, and Shankar Chaudhary is Speaker. Acharya Devvrat has been Governor since July 2019. The next Assembly election is due in late 2027.",
+        "hi": "गुजरात में एकसदनीय विधानमंडल है: 182 सदस्यों वाली विधानसभा गांधीनगर में बैठती है। राज्य से लोकसभा के 26 और राज्यसभा के 11 सदस्य चुने जाते हैं।\n\nदिसंबर 2022 के विधानसभा चुनाव में भाजपा ने 156 सीटें जीतीं, और सितंबर 2021 से मुख्यमंत्री भूपेंद्र पटेल ने दूसरे कार्यकाल की शपथ ली। अक्टूबर 2025 के फेरबदल में हर्ष संघवी उपमुख्यमंत्री बने, और शंकर चौधरी अध्यक्ष हैं। आचार्य देवव्रत जुलाई 2019 से राज्यपाल हैं। अगला विधानसभा चुनाव 2027 के अंत में होना है।",
+        "mr": "गुजरातमध्ये एकसदनी विधिमंडळ आहे: 182 सदस्यांची विधानसभा गांधीनगर येथे भरते. राज्यातून लोकसभेवर 26 आणि राज्यसभेवर 11 सदस्य निवडले जातात.\n\nडिसेंबर 2022 च्या विधानसभा निवडणुकीत भाजपने 156 जागा जिंकल्या, आणि सप्टेंबर 2021 पासून मुख्यमंत्री असलेले भूपेंद्र पटेल यांनी दुसऱ्या कार्यकाळाची शपथ घेतली. ऑक्टोबर 2025 च्या फेरबदलात हर्ष संघवी उपमुख्यमंत्री झाले, आणि शंकर चौधरी अध्यक्ष आहेत. आचार्य देवव्रत जुलै 2019 पासून राज्यपाल आहेत. पुढील विधानसभा निवडणूक 2027 च्या अखेरीस होणार आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "eci",
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "table",
+      "id": "results",
+      "title": {
+        "en": "Legislative Assembly election, 2022 — seats won",
+        "hi": "विधानसभा चुनाव, 2022 — जीती गई सीटें",
+        "mr": "विधानसभा निवडणूक, 2022 — जिंकलेल्या जागा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Party",
+            "hi": "दल",
+            "mr": "पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Seats",
+            "hi": "सीटें",
+            "mr": "जागा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          "Bharatiya Janata Party (BJP)",
+          156
+        ],
+        [
+          "Indian National Congress (INC)",
+          17
+        ],
+        [
+          "Aam Aadmi Party (AAP)",
+          5
+        ],
+        [
+          "Samajwadi Party (SP)",
+          1
+        ],
+        [
+          {
+            "en": "Independents",
+            "hi": "निर्दलीय",
+            "mr": "अपक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          3
+        ],
+        [
+          {
+            "en": "Total",
+            "hi": "कुल",
+            "mr": "एकूण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          182
+        ]
+      ],
+      "sourceId": "eci",
+      "url": "https://results.eci.gov.in/ResultAcGenDec2022/partywiseresult-S06.htm",
+      "accessDate": "2026-10-14",
+      "confidence": "Official",
+      "period": "2022",
+      "note": {
+        "en": "Seats won as listed by the Election Commission (results declared 8 December 2022). Parties are shown by seats, without colours or commentary. By-elections and defections since 2022 have changed party strengths in the House.",
+        "hi": "चुनाव आयोग की सूची के अनुसार जीती गई सीटें (परिणाम 8 दिसंबर 2022 को घोषित)। दलों को सीटों के क्रम में, बिना रंग या टिप्पणी के दिखाया गया है। 2022 के बाद उपचुनावों और दलबदल से सदन में दलों की संख्या बदली है।",
+        "mr": "निवडणूक आयोगाच्या यादीनुसार जिंकलेल्या जागा (निकाल 8 डिसेंबर 2022 रोजी जाहीर). पक्ष जागांच्या क्रमाने, रंग किंवा भाष्याशिवाय दाखवले आहेत. 2022 नंतरच्या पोटनिवडणुका व पक्षांतरांमुळे सभागृहातील पक्षीय बळ बदलले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "assembly",
+          "name": {
+            "en": "Gujarat Legislative Assembly",
+            "hi": "गुजरात विधानसभा",
+            "mr": "गुजरात विधानसभा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://gujaratassembly.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Gujarat",
+            "hi": "गुजरात सरकार",
+            "mr": "गुजरात शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://gujaratindia.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Leader of Opposition — recognition status",
+            "hi": "नेता प्रतिपक्ष — मान्यता की स्थिति",
+            "mr": "विरोधी पक्षनेते — मान्यतेची स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Assembly secretariat; no party reached the 10% of seats usually required in 2022."
+        },
+        {
+          "label": {
+            "en": "Local bodies by type",
+            "hi": "प्रकार के अनुसार स्थानीय निकाय",
+            "mr": "प्रकारानुसार स्थानिक स्वराज्य संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "gj-des",
+          "note": "Panchayat and urban development departments."
+        },
+        {
+          "label": {
+            "en": "Current party strength in the Assembly",
+            "hi": "विधानसभा में वर्तमान दलीय स्थिति",
+            "mr": "विधानसभेतील सध्याचे पक्षीय बळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Assembly secretariat member list."
+        }
+      ]
+    }
+  ]
+}

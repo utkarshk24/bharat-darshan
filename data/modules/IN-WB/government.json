@@ -1,0 +1,137 @@
+{
+  "region": "IN-WB",
+  "module": "government",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "West Bengal has a unicameral legislature: the 294-member Legislative Assembly meets in Kolkata. The State elects 42 members to the Lok Sabha and 16 to the Rajya Sabha.\n\nIn the Assembly election held in April 2026, the BJP won a majority — 207 of 294 seats as reported by News On AIR on 9 May, with the Trinamool Congress at 80. Suvendu Adhikari was sworn in as Chief Minister on 9 May 2026 by Governor R. N. Ravi, who had moved to the State from Tamil Nadu in March 2026. Rathindra Bose of the BJP was elected Speaker. The Trinamool legislature party later split, and the recognition of the Leader of Opposition should be checked against the Assembly's records.",
+        "hi": "पश्चिम बंगाल में एकसदनीय विधानमंडल है: 294 सदस्यों वाली विधानसभा कोलकाता में बैठती है। राज्य से लोकसभा के 42 और राज्यसभा के 16 सदस्य चुने जाते हैं।\n\nअप्रैल 2026 में हुए विधानसभा चुनाव में भाजपा को बहुमत मिला — न्यूज़ ऑन एआईआर की 9 मई की रिपोर्ट के अनुसार 294 में से 207 सीटें, और तृणमूल कांग्रेस को 80। राज्यपाल आर. एन. रवि ने, जो मार्च 2026 में तमिलनाडु से इस राज्य में आए थे, 9 मई 2026 को शुभेंदु अधिकारी को मुख्यमंत्री पद की शपथ दिलाई। भाजपा के रथींद्र बोस अध्यक्ष चुने गए। बाद में तृणमूल विधायक दल में विभाजन हुआ, और नेता प्रतिपक्ष की मान्यता विधानसभा के अभिलेखों से जाँची जानी चाहिए।",
+        "mr": "पश्चिम बंगालमध्ये एकसदनी विधिमंडळ आहे: 294 सदस्यांची विधानसभा कोलकात्यात भरते. राज्यातून लोकसभेवर 42 आणि राज्यसभेवर 16 सदस्य निवडले जातात.\n\nएप्रिल 2026 मध्ये झालेल्या विधानसभा निवडणुकीत भाजपला बहुमत मिळाले — न्यूज ऑन एआयआरच्या 9 मेच्या वृत्तानुसार 294 पैकी 207 जागा, तर तृणमूल काँग्रेसला 80. मार्च 2026 मध्ये तमिळनाडूहून या राज्यात आलेले राज्यपाल आर. एन. रवी यांनी 9 मे 2026 रोजी शुभेंदू अधिकारी यांना मुख्यमंत्रिपदाची शपथ दिली. भाजपचे रथींद्र बोस अध्यक्षपदी निवडले गेले. नंतर तृणमूल विधिमंडळ पक्षात फूट पडली, आणि विरोधी पक्षनेत्यांची मान्यता विधानसभेच्या नोंदींवरून तपासली पाहिजे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "newsonair",
+        "pioneer"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "assembly",
+          "name": {
+            "en": "West Bengal Legislative Assembly",
+            "hi": "पश्चिम बंगाल विधानसभा",
+            "mr": "पश्चिम बंगाल विधानसभा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://wbassembly.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of West Bengal",
+            "hi": "पश्चिम बंगाल सरकार",
+            "mr": "पश्चिम बंगाल शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://wb.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "2026 Assembly election — full party-wise result",
+            "hi": "2026 विधानसभा चुनाव — दलवार पूरा परिणाम",
+            "mr": "2026 विधानसभा निवडणूक — पक्षनिहाय संपूर्ण निकाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "ECI statistical report or Form-20; the results website builds its table in the browser and could not be read here."
+        },
+        {
+          "label": {
+            "en": "Leader of Opposition — official recognition",
+            "hi": "नेता प्रतिपक्ष — आधिकारिक मान्यता",
+            "mr": "विरोधी पक्षनेते — अधिकृत मान्यता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Assembly secretariat notice (the Trinamool legislature party split in 2026)."
+        },
+        {
+          "label": {
+            "en": "Local bodies by type",
+            "hi": "प्रकार के अनुसार स्थानीय निकाय",
+            "mr": "प्रकारानुसार स्थानिक स्वराज्य संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Panchayats and Municipal Affairs departments."
+        }
+      ]
+    }
+  ]
+}

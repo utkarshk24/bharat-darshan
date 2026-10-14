@@ -1,0 +1,196 @@
+{
+  "region": "IN-WB",
+  "module": "climate",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Most of West Bengal has a hot, humid tropical climate. Summers (March–May) are hot and sticky, broken by violent pre-monsoon thunderstorms called kalbaishakhi (nor'westers). The south-west monsoon, from June to September, brings heavy rain — heaviest in the Dooars and the sub-Himalayan north. Winters (December–February) are mild and pleasant in Kolkata and the plains, and cold in Darjeeling, where snow occasionally falls. Cyclones from the Bay of Bengal strike the coast and the Sundarbans before and after the monsoon.",
+        "hi": "पश्चिम बंगाल के अधिकांश भाग में गर्म, आर्द्र उष्णकटिबंधीय जलवायु है। गर्मियाँ (मार्च–मई) गर्म और उमस भरी होती हैं, जिन्हें कालबैसाखी (नॉरवेस्टर) नामक तेज़ मानसून-पूर्व आँधी-तूफ़ान तोड़ते हैं। जून से सितंबर तक दक्षिण-पश्चिम मानसून भारी वर्षा लाता है — सबसे अधिक डुआर्स और उप-हिमालयी उत्तर में। सर्दियाँ (दिसंबर–फ़रवरी) कोलकाता और मैदानों में सुहावनी होती हैं, और दार्जिलिंग में ठंडी, जहाँ कभी-कभी बर्फ़ भी गिरती है। बंगाल की खाड़ी के चक्रवात मानसून से पहले और बाद में तट और सुंदरबन से टकराते हैं।",
+        "mr": "पश्चिम बंगालच्या बहुतांश भागात उष्ण, दमट उष्णकटिबंधीय हवामान आहे. उन्हाळा (मार्च–मे) उष्ण व चिकट असतो, आणि त्यात कालबैसाखी (नॉरवेस्टर) नावाची जोरदार मान्सूनपूर्व वादळे येतात. जून ते सप्टेंबर नैर्ऋत्य मान्सून मुसळधार पाऊस आणतो — सर्वाधिक डुआर्स व उप-हिमालयीन उत्तरेत. हिवाळा (डिसेंबर–फेब्रुवारी) कोलकाता व मैदानी भागात सुखद, तर दार्जिलिंगमध्ये थंड असतो, जिथे कधीकधी बर्फही पडतो. बंगालच्या उपसागरातील चक्रीवादळे मान्सूनपूर्वी व नंतर किनारपट्टी व सुंदरबनला धडकतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Kolkata",
+            "hi": "कोलकाता",
+            "mr": "कोलकाता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 22.5726,
+          "lon": 88.3639
+        },
+        {
+          "name": {
+            "en": "Darjeeling",
+            "hi": "दार्जिलिंग",
+            "mr": "दार्जिलिंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 27.041,
+          "lon": 88.2663
+        },
+        {
+          "name": {
+            "en": "Siliguri",
+            "hi": "सिलीगुड़ी",
+            "mr": "सिलिगुडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 26.7271,
+          "lon": 88.3953
+        },
+        {
+          "name": {
+            "en": "Digha",
+            "hi": "दीघा",
+            "mr": "दिघा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 21.6266,
+          "lon": 87.5074
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to February",
+            "hi": "अक्टूबर से फ़रवरी",
+            "mr": "ऑक्टोबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best for Kolkata and the Sundarbans; Durga Puja in October; clear Himalayan views from Darjeeling.",
+            "hi": "कोलकाता और सुंदरबन के लिए सबसे अच्छा; अक्टूबर में दुर्गा पूजा; दार्जिलिंग से हिमालय के साफ़ दृश्य।",
+            "mr": "कोलकाता व सुंदरबनसाठी उत्तम; ऑक्टोबरमध्ये दुर्गापूजा; दार्जिलिंगहून हिमालयाचे स्वच्छ दर्शन.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spring",
+          "name": {
+            "en": "March to May",
+            "hi": "मार्च से मई",
+            "mr": "मार्च ते मे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hot in the plains; a good time for the Darjeeling hills.",
+            "hi": "मैदानों में गर्मी; दार्जिलिंग की पहाड़ियों के लिए अच्छा समय।",
+            "mr": "मैदानी भागात उष्ण; दार्जिलिंगच्या डोंगरांसाठी चांगला काळ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "June to September",
+            "hi": "जून से सितंबर",
+            "mr": "जून ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Heavy rain; landslides on hill roads; forests of the Dooars close mid-June to mid-September.",
+            "hi": "भारी वर्षा; पहाड़ी सड़कों पर भूस्खलन; डुआर्स के वन मध्य-जून से मध्य-सितंबर तक बंद।",
+            "mr": "मुसळधार पाऊस; डोंगरी रस्त्यांवर दरडी; डुआर्सची जंगले जूनच्या मध्यापासून सप्टेंबरच्या मध्यापर्यंत बंद.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (State and sub-divisions)",
+            "hi": "सामान्य वार्षिक वर्षा (राज्य और उप-मंडल)",
+            "mr": "सरासरी वार्षिक पाऊस (राज्य व उपविभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics for Gangetic West Bengal and Sub-Himalayan West Bengal & Sikkim."
+        },
+        {
+          "label": {
+            "en": "Cyclone landfalls by year",
+            "hi": "वर्षवार चक्रवात का तट पर पहुँचना",
+            "mr": "वर्षनिहाय चक्रीवादळांचे किनाऱ्यावर येणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD cyclone e-Atlas."
+        }
+      ]
+    }
+  ]
+}

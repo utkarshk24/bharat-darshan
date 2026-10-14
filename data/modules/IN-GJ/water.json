@@ -1,0 +1,68 @@
+{
+  "region": "IN-GJ",
+  "module": "water",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Water scarcity has shaped Gujarat's development. North Gujarat, Kutch and much of Saurashtra receive little rain, groundwater has fallen sharply in the north, and sea-water intrusion has made wells salty along parts of the Saurashtra coast. The Sardar Sarovar dam on the Narmada, completed in 2017, feeds a canal network that carries water to central and north Gujarat and, through pipelines and the SAUNI scheme, to reservoirs in Saurashtra and Kutch. Check dams, farm ponds and drip irrigation are widely used. The south, with heavy monsoon rain and the Tapi and Narmada, has more water.",
+        "hi": "पानी की कमी ने गुजरात के विकास को आकार दिया है। उत्तर गुजरात, कच्छ और सौराष्ट्र के बड़े हिस्से में कम वर्षा होती है, उत्तर में भूजल तेज़ी से गिरा है, और सौराष्ट्र तट के कुछ हिस्सों में समुद्री पानी घुसने से कुएँ खारे हो गए हैं। 2017 में पूरा हुआ नर्मदा का सरदार सरोवर बाँध नहर नेटवर्क को पानी देता है, जो मध्य और उत्तर गुजरात तक, और पाइपलाइनों व सौनी योजना के माध्यम से सौराष्ट्र और कच्छ के जलाशयों तक पानी पहुँचाता है। चेक डैम, खेत तालाब और ड्रिप सिंचाई का व्यापक उपयोग होता है। भारी मानसूनी वर्षा और तापी व नर्मदा के कारण दक्षिण में अधिक पानी है।",
+        "mr": "पाणीटंचाईने गुजरातच्या विकासाला आकार दिला आहे. उत्तर गुजरात, कच्छ व सौराष्ट्राच्या बहुतांश भागात पाऊस कमी पडतो, उत्तरेकडे भूजल झपाट्याने खालावले आहे, आणि सौराष्ट्र किनाऱ्याच्या काही भागांत समुद्राचे पाणी शिरल्याने विहिरी खाऱ्या झाल्या आहेत. 2017 मध्ये पूर्ण झालेले नर्मदेवरील सरदार सरोवर धरण कालव्यांच्या जाळ्याला पाणी पुरवते, जे मध्य व उत्तर गुजरातपर्यंत, तसेच जलवाहिन्या व सौनी योजनेद्वारे सौराष्ट्र व कच्छमधील जलाशयांपर्यंत पाणी नेते. बंधारे, शेततळी व ठिबक सिंचनाचा मोठ्या प्रमाणावर वापर होतो. मुसळधार मोसमी पाऊस आणि तापी व नर्मदेमुळे दक्षिण भागात अधिक पाणी आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Narmada canal command area irrigated",
+            "hi": "नर्मदा नहर कमान क्षेत्र में सिंचाई",
+            "mr": "नर्मदा कालवा लाभक्षेत्रातील सिंचन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Sardar Sarovar Narmada Nigam Ltd."
+        },
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        }
+      ]
+    }
+  ]
+}

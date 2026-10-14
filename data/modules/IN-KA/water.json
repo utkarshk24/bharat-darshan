@@ -1,0 +1,68 @@
+{
+  "region": "IN-KA",
+  "module": "water",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Water is one of Karnataka's biggest issues. Large parts of the north and the interior plateau are dry, and the State has a long history of tank irrigation — thousands of village keres built over centuries. Big dams on the Krishna (Almatti, Narayanpur), Tungabhadra and Kaveri (Krishna Raja Sagara, Kabini, Harangi) irrigate the plains and supply cities. Sharing the Kaveri with Tamil Nadu, Keralam and Puducherry, and the Krishna with Maharashtra, Telangana and Andhra Pradesh, has been the subject of long inter-State disputes settled by tribunals and the Supreme Court. Bengaluru draws most of its drinking water from the Kaveri, about 100 km away, and relies heavily on groundwater; its lakes have shrunk and many have been polluted.",
+        "hi": "पानी कर्नाटक के सबसे बड़े मुद्दों में से है। उत्तर और भीतरी पठार के बड़े हिस्से सूखे हैं, और राज्य में तालाब सिंचाई का लंबा इतिहास है — सदियों में बने हज़ारों गाँव के केरे। कृष्णा (अलमट्टी, नारायणपुर), तुंगभद्रा और कावेरी (कृष्णराज सागर, काबिनी, हारंगी) पर बड़े बाँध मैदानों को सींचते और शहरों को पानी देते हैं। कावेरी का तमिलनाडु, केरलम और पुदुच्चेरी के साथ, और कृष्णा का महाराष्ट्र, तेलंगाना और आंध्र प्रदेश के साथ बँटवारा लंबे अंतरराज्यीय विवादों का विषय रहा है, जिन्हें न्यायाधिकरणों और सर्वोच्च न्यायालय ने सुलझाया। बेंगलूरु अपना अधिकांश पेयजल लगभग 100 किमी दूर कावेरी से लेता है और भूजल पर बहुत निर्भर है; इसकी झीलें सिकुड़ी हैं और कई प्रदूषित हुई हैं।",
+        "mr": "पाणी हा कर्नाटकातील सर्वांत मोठ्या प्रश्नांपैकी एक आहे. उत्तर भाग व अंतर्गत पठाराचा मोठा भाग कोरडा आहे, आणि राज्याला तलाव-सिंचनाचा दीर्घ इतिहास आहे — शतकानुशतके बांधलेले हजारो गावतलाव (केरे). कृष्णा (आलमट्टी, नारायणपूर), तुंगभद्रा व कावेरी (कृष्णराजसागर, काबिनी, हारंगी) वरील मोठी धरणे मैदाने सिंचतात आणि शहरांना पाणी पुरवतात. कावेरीचे तमिळनाडू, केरळम व पुदुच्चेरीसोबत, आणि कृष्णेचे महाराष्ट्र, तेलंगणा व आंध्र प्रदेशसोबत वाटप हा दीर्घ आंतरराज्यीय वादांचा विषय राहिला असून न्यायाधिकरणे व सर्वोच्च न्यायालयाने ते निकाली काढले. बंगळूरु आपले बहुतांश पिण्याचे पाणी सुमारे 100 किमी दूरच्या कावेरीतून घेते आणि भूजलावर मोठ्या प्रमाणात अवलंबून आहे; त्याचे तलाव आकसले असून अनेक प्रदूषित झाले आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Net irrigated area and sources",
+            "hi": "शुद्ध सिंचित क्षेत्र और स्रोत",
+            "mr": "निव्वळ सिंचित क्षेत्र व स्रोत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ka-des",
+          "note": "Land use statistics."
+        },
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        }
+      ]
+    }
+  ]
+}

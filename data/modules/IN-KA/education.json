@@ -1,0 +1,438 @@
+{
+  "region": "IN-KA",
+  "module": "education",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Karnataka's higher-education gross enrolment ratio (ages 18–23) was 36.2% in 2021-22 in AISHE, well above the national 28.4%, and almost equal for women (36.3%) and men (36.1%). The State had 75 universities and 4,430 colleges. Literacy at the 2011 Census was 75.4%.\n\nBengaluru is home to several of India's leading institutions — the Indian Institute of Science (1909), IIM Bangalore, the National Law School of India University, NIMHANS and the Raman Research Institute — and the State also has IIT Dharwad, NIT Karnataka at Surathkal and the University of Mysore (1916). Engineering and medical colleges are spread across the State, many of them private.",
+        "hi": "एआईएसएचई के अनुसार 2021-22 में कर्नाटक का उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 36.2% था, जो राष्ट्रीय 28.4% से काफ़ी अधिक है, और महिलाओं (36.3%) व पुरुषों (36.1%) के लिए लगभग बराबर था। राज्य में 75 विश्वविद्यालय और 4,430 कॉलेज थे। 2011 की जनगणना में साक्षरता 75.4% थी।\n\nबेंगलूरु में भारत के कई प्रमुख संस्थान हैं — भारतीय विज्ञान संस्थान (1909), आईआईएम बैंगलोर, नेशनल लॉ स्कूल ऑफ़ इंडिया यूनिवर्सिटी, निमहांस और रमन शोध संस्थान — और राज्य में आईआईटी धारवाड़, सुरत्कल में एनआईटी कर्नाटक और मैसूर विश्वविद्यालय (1916) भी हैं। इंजीनियरिंग और मेडिकल कॉलेज पूरे राज्य में फैले हैं, जिनमें से कई निजी हैं।",
+        "mr": "एआयएसएचईनुसार 2021-22 मध्ये कर्नाटकचे उच्चशिक्षणातील एकूण नोंदणी गुणोत्तर (18–23 वय) 36.2% होते — राष्ट्रीय 28.4% पेक्षा बरेच जास्त — आणि स्त्रिया (36.3%) व पुरुष (36.1%) यांच्यासाठी जवळपास समान होते. राज्यात 75 विद्यापीठे व 4,430 महाविद्यालये होती. 2011 च्या जनगणनेत साक्षरता 75.4% होती.\n\nबंगळूरुमध्ये भारतातील अनेक आघाडीच्या संस्था आहेत — भारतीय विज्ञान संस्था (1909), आयआयएम बंगळूर, नॅशनल लॉ स्कूल ऑफ इंडिया युनिव्हर्सिटी, निमहान्स व रामन संशोधन संस्था — आणि राज्यात आयआयटी धारवाड, सुरत्कल येथील एनआयटी कर्नाटक व म्हैसूर विद्यापीठ (1916) देखील आहेत. अभियांत्रिकी व वैद्यकीय महाविद्यालये राज्यभर पसरली असून त्यांपैकी अनेक खासगी आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 36.2,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 35.96,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 75,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 4430,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-14",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "ka",
+          "label": {
+            "en": "Karnataka",
+            "hi": "कर्नाटक",
+            "mr": "कर्नाटक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 27.93,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 28.81,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 31.96,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 35.96,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 36.2,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-14",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "iisc",
+          "name": {
+            "en": "Indian Institute of Science",
+            "hi": "भारतीय विज्ञान संस्थान",
+            "mr": "भारतीय विज्ञान संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bengaluru, 1909",
+            "hi": "बेंगलूरु, 1909",
+            "mr": "बंगळूरु, 1909",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iimb",
+          "name": {
+            "en": "IIM Bangalore",
+            "hi": "आईआईएम बैंगलोर",
+            "mr": "आयआयएम बंगळूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bengaluru",
+            "hi": "बेंगलूरु",
+            "mr": "बंगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nls",
+          "name": {
+            "en": "National Law School of India University",
+            "hi": "नेशनल लॉ स्कूल ऑफ़ इंडिया यूनिवर्सिटी",
+            "mr": "नॅशनल लॉ स्कूल ऑफ इंडिया युनिव्हर्सिटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bengaluru",
+            "hi": "बेंगलूरु",
+            "mr": "बंगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nimhans",
+          "name": {
+            "en": "NIMHANS",
+            "hi": "निमहांस",
+            "mr": "निमहान्स",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bengaluru",
+            "hi": "बेंगलूरु",
+            "mr": "बंगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iitdh",
+          "name": {
+            "en": "IIT Dharwad",
+            "hi": "आईआईटी धारवाड़",
+            "mr": "आयआयटी धारवाड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Dharwad",
+            "hi": "धारवाड़",
+            "mr": "धारवाड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nitk",
+          "name": {
+            "en": "NIT Karnataka",
+            "hi": "एनआईटी कर्नाटक",
+            "mr": "एनआयटी कर्नाटक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Surathkal",
+            "hi": "सुरत्कल",
+            "mr": "सुरत्कल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "uom",
+          "name": {
+            "en": "University of Mysore",
+            "hi": "मैसूर विश्वविद्यालय",
+            "mr": "म्हैसूर विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mysuru, 1916",
+            "hi": "मैसूरु, 1916",
+            "mr": "म्हैसूरु, 1916",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "National institutions (selected)",
+        "hi": "राष्ट्रीय संस्थान (चयनित)",
+        "mr": "राष्ट्रीय संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "Dropout rates by level",
+            "hi": "स्तरवार ड्रॉपआउट दर",
+            "mr": "स्तरनिहाय गळती दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+."
+        },
+        {
+          "label": {
+            "en": "NIRF-ranked institutions",
+            "hi": "एनआईआरएफ़ रैंक वाले संस्थान",
+            "mr": "एनआयआरएफ क्रमवारीतील संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nirf",
+          "note": "Latest NIRF list filtered to Karnataka."
+        }
+      ]
+    }
+  ]
+}

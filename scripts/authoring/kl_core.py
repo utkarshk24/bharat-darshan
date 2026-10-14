@@ -51,7 +51,7 @@ GOV = "https://test.uniindia.com/kerala-govt-objects-to-governor-s-meeting-with-
 r["government"] = {
     "headOfState": office("governor", L("Rajendra Vishwanath Arlekar", "राजेंद्र विश्वनाथ आर्लेकर", "राजेंद्र विश्वनाथ आर्लेकर"), None, None,
                           "uni", GOV, "https://igod.gov.in", conf="Third-party verified",
-                          note="Took office in January 2025 (oath scheduled for 2 January 2025, per Kerala Kaumudi). Named as Governor in reports of June and August 2026. Kerala's Raj Bhavan was renamed Lok Bhavan on 1 December 2025. Confirm against the Lok Bhavan website."),
+                          note="Took office in January 2025 (oath scheduled for 2 January 2025, per Kerala Kaumudi). Named as Governor in reports of June and August 2026. Kerala's Raj Bhavan was renamed Lok Bhavan on 1 December 2025. On 12 October 2026 the President appointed Om Prakash Mathur, Governor of Sikkim, as Governor of Keralam and moved Arlekar to Tamil Nadu, with effect from the dates they assume charge (Rashtrapati Bhavan communiqué, reported by UNI and ANI). Update this card when Mathur is sworn in."),
     "headOfGovernment": office("chief-minister", L("V. D. Satheesan", "वी. डी. सतीशन", "व्ही. डी. सतीशन"), "INC", "2026-05-18",
                                "newsonair", NOA, "https://kerala.gov.in",
                                note="Sworn in on 18 May 2026 with 20 Cabinet ministers, after the UDF won the April 2026 Assembly election (News On AIR)."),

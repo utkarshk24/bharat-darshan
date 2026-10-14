@@ -1,0 +1,68 @@
+{
+  "region": "IN-GJ",
+  "module": "digital",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "GIFT City (Gujarat International Finance Tec-City) near Gandhinagar is a planned business district and India's international financial services centre (IFSC), with stock exchanges, banks and fund managers operating under a single regulator. Ahmedabad and Gandhinagar have growing IT and start-up clusters, and the State is promoting electronics and semiconductor manufacturing at Dholera and Sanand, where an assembly-and-test plant is being built alongside the fab.",
+        "hi": "गांधीनगर के पास गिफ़्ट सिटी (गुजरात इंटरनेशनल फ़ाइनेंस टेक-सिटी) एक नियोजित व्यावसायिक क्षेत्र और भारत का अंतरराष्ट्रीय वित्तीय सेवा केंद्र (आईएफ़एससी) है, जहाँ शेयर बाज़ार, बैंक और फ़ंड प्रबंधक एक ही नियामक के अधीन काम करते हैं। अहमदाबाद और गांधीनगर में बढ़ते आईटी और स्टार्टअप केंद्र हैं, और राज्य धोलेरा और साणंद में इलेक्ट्रॉनिक्स और सेमीकंडक्टर विनिर्माण को बढ़ावा दे रहा है, जहाँ फ़ैब के साथ एक असेंबली-एवं-परीक्षण संयंत्र बन रहा है।",
+        "mr": "गांधीनगरजवळील गिफ्ट सिटी (गुजरात इंटरनॅशनल फायनान्स टेक-सिटी) हे नियोजित व्यावसायिक क्षेत्र आणि भारताचे आंतरराष्ट्रीय वित्तीय सेवा केंद्र (आयएफएससी) आहे, जिथे शेअर बाजार, बँका व फंड व्यवस्थापक एकाच नियामकाखाली काम करतात. अहमदाबाद व गांधीनगरमध्ये वाढती आयटी व स्टार्टअप केंद्रे आहेत, आणि राज्य धोलेरा व साणंद येथे इलेक्ट्रॉनिक्स व सेमीकंडक्टर उत्पादनाला चालना देत आहे, जिथे फॅबसोबत जुळणी-व-चाचणी प्रकल्प उभारला जात आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Gujarat circle)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        },
+        {
+          "label": {
+            "en": "GIFT City IFSC — entities and transactions",
+            "hi": "गिफ़्ट सिटी आईएफ़एससी — संस्थाएँ और लेनदेन",
+            "mr": "गिफ्ट सिटी आयएफएससी — संस्था व व्यवहार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "IFSCA annual report."
+        }
+      ]
+    }
+  ]
+}

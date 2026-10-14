@@ -1,0 +1,692 @@
+{
+  "region": "IN-KA",
+  "module": "cities",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "bengaluru",
+          "name": {
+            "en": "Bengaluru",
+            "hi": "बेंगलूरु",
+            "mr": "बंगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "State capital; India's technology and start-up hub; gardens, research institutes, metro.",
+            "hi": "राज्य की राजधानी; भारत का प्रौद्योगिकी और स्टार्टअप केंद्र; उद्यान, शोध संस्थान, मेट्रो।",
+            "mr": "राज्याची राजधानी; भारताचे तंत्रज्ञान व स्टार्टअप केंद्र; उद्याने, संशोधन संस्था, मेट्रो.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mysuru",
+          "name": {
+            "en": "Mysuru",
+            "hi": "मैसूरु",
+            "mr": "म्हैसूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Former royal capital; palace, Dasara, silk and sandalwood.",
+            "hi": "पूर्व राजधानी; महल, दशहरा, रेशम और चंदन।",
+            "mr": "पूर्वीची राजधानी; राजवाडा, दसरा, रेशीम व चंदन.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hubballi",
+          "name": {
+            "en": "Hubballi–Dharwad",
+            "hi": "हुब्बल्ली–धारवाड़",
+            "mr": "हुबळी–धारवाड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Twin cities; railway zone headquarters, trade, universities and music.",
+            "hi": "जुड़वाँ शहर; रेलवे ज़ोन मुख्यालय, व्यापार, विश्वविद्यालय और संगीत।",
+            "mr": "जुळी शहरे; रेल्वे विभागीय मुख्यालय, व्यापार, विद्यापीठे व संगीत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "North Karnataka",
+            "hi": "उत्तर कर्नाटक",
+            "mr": "उत्तर कर्नाटक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mangaluru",
+          "name": {
+            "en": "Mangaluru",
+            "hi": "मंगलूरु",
+            "mr": "मंगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Port city; refinery, banking, education and coastal cuisine.",
+            "hi": "बंदरगाह नगर; रिफ़ाइनरी, बैंकिंग, शिक्षा और तटीय व्यंजन।",
+            "mr": "बंदराचे शहर; तेलशुद्धीकरण, बँकिंग, शिक्षण व किनारी खाद्यपदार्थ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Coast",
+            "hi": "तट",
+            "mr": "किनारपट्टी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "belagavi",
+          "name": {
+            "en": "Belagavi",
+            "hi": "बेलगावी",
+            "mr": "बेळगावी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Foundries, aerospace parts; Suvarna Vidhana Soudha.",
+            "hi": "ढलाईघर, एयरोस्पेस पुर्ज़े; सुवर्ण विधान सौध।",
+            "mr": "ओतकाम कारखाने, एरोस्पेस भाग; सुवर्ण विधानसौध.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kalaburagi",
+          "name": {
+            "en": "Kalaburagi",
+            "hi": "कलबुर्गी",
+            "mr": "कलबुर्गी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Bahmani-era monuments; tur dal; High Court bench.",
+            "hi": "बहमनी काल के स्मारक; अरहर दाल; उच्च न्यायालय खंडपीठ।",
+            "mr": "बहमनीकालीन स्मारके; तूरडाळ; उच्च न्यायालय खंडपीठ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kalyana Karnataka",
+            "hi": "कल्याण कर्नाटक",
+            "mr": "कल्याण कर्नाटक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vijayapura",
+          "name": {
+            "en": "Vijayapura",
+            "hi": "विजयपुरा",
+            "mr": "विजयपुरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Adil Shahi capital; Gol Gumbaz.",
+            "hi": "आदिलशाही राजधानी; गोल गुंबज़।",
+            "mr": "आदिलशाही राजधानी; गोलघुमट.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shivamogga",
+          "name": {
+            "en": "Shivamogga",
+            "hi": "शिवमोग्गा",
+            "mr": "शिवमोग्गा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Gateway to the Malnad and Jog Falls.",
+            "hi": "मलनाड और जोग जलप्रपात का प्रवेश द्वार।",
+            "mr": "मलनाड व जोग धबधब्याचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Malnad",
+            "hi": "मलनाड",
+            "mr": "मलनाड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "bagalkot",
+          "name": {
+            "en": "Bagalkot",
+            "hi": "बागलकोट",
+            "mr": "बागलकोट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ballari",
+          "name": {
+            "en": "Ballari",
+            "hi": "बल्लारी",
+            "mr": "बळ्ळारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "belagavi",
+          "name": {
+            "en": "Belagavi",
+            "hi": "बेलगावी",
+            "mr": "बेळगावी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bengalururural",
+          "name": {
+            "en": "Bengaluru Rural",
+            "hi": "बेंगलूरु ग्रामीण",
+            "mr": "बंगळूरु ग्रामीण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bengaluruurban",
+          "name": {
+            "en": "Bengaluru Urban",
+            "hi": "बेंगलूरु शहरी",
+            "mr": "बंगळूरु शहरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bidar",
+          "name": {
+            "en": "Bidar",
+            "hi": "बीदर",
+            "mr": "बीदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chamarajanagar",
+          "name": {
+            "en": "Chamarajanagar",
+            "hi": "चामराजनगर",
+            "mr": "चामराजनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chikkaballapura",
+          "name": {
+            "en": "Chikkaballapura",
+            "hi": "चिक्कबल्लापुर",
+            "mr": "चिक्कबळ्ळापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chikkamagaluru",
+          "name": {
+            "en": "Chikkamagaluru",
+            "hi": "चिक्कमगलूरु",
+            "mr": "चिक्कमगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chitradurga",
+          "name": {
+            "en": "Chitradurga",
+            "hi": "चित्रदुर्ग",
+            "mr": "चित्रदुर्ग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dakshinakannada",
+          "name": {
+            "en": "Dakshina Kannada",
+            "hi": "दक्षिण कन्नड़",
+            "mr": "दक्षिण कन्नड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "davanagere",
+          "name": {
+            "en": "Davanagere",
+            "hi": "दावणगेरे",
+            "mr": "दावणगेरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dharwad",
+          "name": {
+            "en": "Dharwad",
+            "hi": "धारवाड़",
+            "mr": "धारवाड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gadag",
+          "name": {
+            "en": "Gadag",
+            "hi": "गदग",
+            "mr": "गदग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hassan",
+          "name": {
+            "en": "Hassan",
+            "hi": "हासन",
+            "mr": "हासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "haveri",
+          "name": {
+            "en": "Haveri",
+            "hi": "हावेरी",
+            "mr": "हावेरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kalaburagi",
+          "name": {
+            "en": "Kalaburagi",
+            "hi": "कलबुर्गी",
+            "mr": "कलबुर्गी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kodagu",
+          "name": {
+            "en": "Kodagu",
+            "hi": "कोडगु",
+            "mr": "कोडगू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kolar",
+          "name": {
+            "en": "Kolar",
+            "hi": "कोलार",
+            "mr": "कोलार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "koppal",
+          "name": {
+            "en": "Koppal",
+            "hi": "कोप्पल",
+            "mr": "कोप्पळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mandya",
+          "name": {
+            "en": "Mandya",
+            "hi": "मंड्या",
+            "mr": "मंड्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mysuru",
+          "name": {
+            "en": "Mysuru",
+            "hi": "मैसूरु",
+            "mr": "म्हैसूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "raichur",
+          "name": {
+            "en": "Raichur",
+            "hi": "रायचूर",
+            "mr": "रायचूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ramanagara",
+          "name": {
+            "en": "Ramanagara",
+            "hi": "रामनगर",
+            "mr": "रामनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shivamogga",
+          "name": {
+            "en": "Shivamogga",
+            "hi": "शिवमोग्गा",
+            "mr": "शिवमोग्गा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tumakuru",
+          "name": {
+            "en": "Tumakuru",
+            "hi": "तुमकूरु",
+            "mr": "तुमकूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "udupi",
+          "name": {
+            "en": "Udupi",
+            "hi": "उडुपी",
+            "mr": "उडुपी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "uttarakannada",
+          "name": {
+            "en": "Uttara Kannada",
+            "hi": "उत्तर कन्नड़",
+            "mr": "उत्तर कन्नड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vijayanagara",
+          "name": {
+            "en": "Vijayanagara",
+            "hi": "विजयनगर",
+            "mr": "विजयनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vijayapura",
+          "name": {
+            "en": "Vijayapura",
+            "hi": "विजयपुरा",
+            "mr": "विजयपुरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "yadgir",
+          "name": {
+            "en": "Yadgir",
+            "hi": "यादगीर",
+            "mr": "यादगीर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": "ka-gis",
+      "url": "https://kgis.ksrsac.in/kag/",
+      "accessDate": "2026-10-14",
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 31 districts (alphabetical)",
+        "hi": "31 ज़िले (वर्णानुक्रम)",
+        "mr": "31 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "District populations (Census 2011)",
+            "hi": "ज़िलावार जनसंख्या (जनगणना 2011)",
+            "mr": "जिल्हानिहाय लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "District Census Handbooks."
+        },
+        {
+          "label": {
+            "en": "District names — official list after recent renamings",
+            "hi": "ज़िलों के नाम — हाल के नाम-परिवर्तनों के बाद आधिकारिक सूची",
+            "mr": "जिल्ह्यांची नावे — अलीकडील नामांतरांनंतरची अधिकृत यादी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Revenue Department notification; check Ramanagara's renaming."
+        }
+      ]
+    }
+  ]
+}

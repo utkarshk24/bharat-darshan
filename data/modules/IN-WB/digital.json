@@ -1,0 +1,68 @@
+{
+  "region": "IN-WB",
+  "module": "digital",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Kolkata's IT industry is concentrated in Salt Lake Sector V and New Town (Rajarhat), where major Indian and global IT services firms have large campuses. The city also has a growing start-up and fintech community, research institutions such as the Indian Statistical Institute, and an undersea-cable landing and data-centre cluster serving eastern India.",
+        "hi": "कोलकाता का आईटी उद्योग साल्ट लेक सेक्टर V और न्यू टाउन (राजारहाट) में केंद्रित है, जहाँ बड़ी भारतीय और वैश्विक आईटी सेवा कंपनियों के बड़े परिसर हैं। शहर में बढ़ता स्टार्टअप और फ़िनटेक समुदाय, भारतीय सांख्यिकी संस्थान जैसे शोध संस्थान, और पूर्वी भारत को सेवा देने वाला समुद्री केबल लैंडिंग और डेटा सेंटर क्लस्टर भी है।",
+        "mr": "कोलकात्याचा आयटी उद्योग सॉल्ट लेक सेक्टर V व न्यू टाउन (राजारहाट) येथे एकवटला आहे, जिथे मोठ्या भारतीय व जागतिक आयटी सेवा कंपन्यांची मोठी संकुले आहेत. शहरात वाढता स्टार्टअप व फिनटेक समुदाय, भारतीय सांख्यिकी संस्थेसारख्या संशोधन संस्था, आणि पूर्व भारताला सेवा देणारे समुद्री केबल लँडिंग व डेटा सेंटर समूहही आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Kolkata and West Bengal circles)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        },
+        {
+          "label": {
+            "en": "IT/ITeS exports",
+            "hi": "आईटी/आईटीईएस निर्यात",
+            "mr": "आयटी/आयटीईएस निर्यात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "STPI Kolkata."
+        }
+      ]
+    }
+  ]
+}

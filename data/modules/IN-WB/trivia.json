@@ -1,0 +1,116 @@
+{
+  "region": "IN-WB",
+  "module": "trivia",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "tea",
+          "name": {
+            "en": "Darjeeling Tea was India's first registered Geographical Indication — application numbers 1 and 2.",
+            "hi": "दार्जिलिंग चाय भारत का पहला पंजीकृत भौगोलिक संकेतक थी — आवेदन संख्या 1 और 2।",
+            "mr": "दार्जिलिंग चहा हे भारताचे पहिले नोंदणीकृत भौगोलिक मानांकन होते — अर्ज क्रमांक 1 व 2.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "sourceId": "gi-registry"
+        },
+        {
+          "id": "sundarban",
+          "name": {
+            "en": "The Sundarban Wetland, at 4,23,000 ha, is the largest Ramsar site in India.",
+            "hi": "4,23,000 हेक्टेयर वाली सुंदरबन आर्द्रभूमि भारत का सबसे बड़ा रामसर स्थल है।",
+            "mr": "4,23,000 हेक्टरचे सुंदरबन पाणथळ हे भारतातील सर्वांत मोठे रामसर स्थळ आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+          "sourceId": "indian-wetlands"
+        },
+        {
+          "id": "metro",
+          "name": {
+            "en": "Kolkata opened India's first metro line in 1984 and its first under-river metro tunnel in 2024.",
+            "hi": "कोलकाता ने 1984 में भारत की पहली मेट्रो लाइन और 2024 में पहली नदी-तल मेट्रो सुरंग खोली।",
+            "mr": "कोलकात्याने 1984 मध्ये भारतातील पहिली मेट्रो मार्गिका आणि 2024 मध्ये पहिला नदीतळ मेट्रो बोगदा सुरू केला.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "durgapuja",
+          "name": {
+            "en": "Durga Puja in Kolkata was added to UNESCO's Intangible Cultural Heritage list in 2021.",
+            "hi": "कोलकाता की दुर्गा पूजा 2021 में यूनेस्को की अमूर्त सांस्कृतिक धरोहर सूची में शामिल हुई।",
+            "mr": "कोलकात्याची दुर्गापूजा 2021 मध्ये युनेस्कोच्या अमूर्त सांस्कृतिक वारसा यादीत समाविष्ट झाली.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "anthems",
+          "name": {
+            "en": "Rabindranath Tagore wrote the national anthems of both India and Bangladesh.",
+            "hi": "रवींद्रनाथ टैगोर ने भारत और बांग्लादेश दोनों के राष्ट्रगान लिखे।",
+            "mr": "रवींद्रनाथ टागोरांनी भारत व बांगलादेश दोघांची राष्ट्रगीते लिहिली.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hc",
+          "name": {
+            "en": "The Calcutta High Court, established in 1862, is the oldest High Court in India.",
+            "hi": "1862 में स्थापित कलकत्ता उच्च न्यायालय भारत का सबसे पुराना उच्च न्यायालय है।",
+            "mr": "1862 मध्ये स्थापन झालेले कलकत्ता उच्च न्यायालय हे भारतातील सर्वांत जुने उच्च न्यायालय आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ls",
+          "name": {
+            "en": "The State elects 42 members to the Lok Sabha.",
+            "hi": "राज्य से लोकसभा के 42 सदस्य चुने जाते हैं।",
+            "mr": "राज्यातून लोकसभेवर 42 सदस्य निवडले जातात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

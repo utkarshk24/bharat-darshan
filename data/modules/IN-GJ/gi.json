@@ -1,0 +1,48 @@
+{
+  "region": "IN-GJ",
+  "module": "gi",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gujarat has 29 registered Geographical Indications in the GI Registry's list as on 31 December 2025, and shares Warli painting with Maharashtra and Dadra & Nagar Haveli and Daman & Diu. Most are textiles and crafts: Patan patola, Jamnagari and Kutch bandhani, Kutch embroidery and shawls, Kutch ajrakh and rogan craft, Tangaliya shawls, Surat zari, Ahmedabad's Sodagari block prints, Mata ni Pachhedi and Pithora paintings, Sankheda furniture and the agates of Cambay (Khambhat). Food and farm GIs include Gir kesar mangoes, Bhalia wheat, Kachchhi kharek (dates) and Amalsad chikoo, and the most recent additions are Ambaji white marble and Surat cut diamonds.",
+        "hi": "जीआई रजिस्ट्री की 31 दिसंबर 2025 की सूची में गुजरात के 29 पंजीकृत भौगोलिक संकेतक हैं, और वार्ली चित्रकला महाराष्ट्र तथा दादरा और नगर हवेली व दमन और दीव के साथ साझा है। अधिकांश वस्त्र और शिल्प हैं: पाटन पटोला, जामनगरी और कच्छ बांधनी, कच्छ कढ़ाई और शॉल, कच्छ अजरख और रोगन कला, तंगलिया शॉल, सूरत ज़री, अहमदाबाद की सोदागरी छपाई, माता नी पछेडी और पिथोरा चित्रकला, संखेडा फ़र्नीचर और खंभात के अकीक। खाद्य और कृषि जीआई में गिर केसर आम, भालिया गेहूँ, कच्छी खारेक और अमलसाड चीकू हैं, और सबसे नए जुड़े हैं अंबाजी सफ़ेद संगमरमर और सूरत तराशा हीरा।",
+        "mr": "जीआय रजिस्ट्रीच्या 31 डिसेंबर 2025 च्या यादीत गुजरातची 29 नोंदणीकृत भौगोलिक मानांकने आहेत, आणि वारली चित्रकला महाराष्ट्र तसेच दादरा व नगर हवेली आणि दमण व दीवसोबत सामायिक आहे. बहुतेक वस्त्रे व हस्तकला आहेत: पाटण पटोला, जामनगरी व कच्छ बांधणी, कच्छ भरतकाम व शाली, कच्छ अजरख व रोगन कला, तंगलिया शाल, सुरत जरी, अहमदाबादची सोदागरी छपाई, माता नी पछेडी व पिथोरा चित्रकला, संखेडा फर्निचर आणि खंबायतचे अकीक. खाद्य व कृषी मानांकनांत गीर केशर आंबा, भालिया गहू, कच्छी खारीक व अमलसाड चिकू आहेत, आणि सर्वांत अलीकडची भर म्हणजे अंबाजी पांढरा संगमरवर व सुरतचा पैलू पाडलेला हिरा.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "gi-registry"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "gi",
+      "id": "gi"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Registration year and producing region for each GI",
+            "hi": "हर जीआई का पंजीकरण वर्ष और उत्पादन क्षेत्र",
+            "mr": "प्रत्येक जीआयचे नोंदणी वर्ष व उत्पादन क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "gi-registry",
+          "note": "GI public search, certificate details."
+        }
+      ]
+    }
+  ]
+}

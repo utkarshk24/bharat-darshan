@@ -1,0 +1,254 @@
+{
+  "region": "IN-GJ",
+  "module": "transport",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gujarat's ports are its gateways: Deendayal Port at Kandla is a major port under the Union government, and Mundra, Pipavav, Hazira, Dahej and others are run privately or by the Gujarat Maritime Board. Ahmedabad's Sardar Vallabhbhai Patel International Airport is the busiest in the State, and Surat also has international flights; Vadodara, Rajkot, Bhuj, Jamnagar, Bhavnagar and Porbandar have domestic services. The Western Railway runs dense networks across the State, and the Western Dedicated Freight Corridor ends at the ports. Ahmedabad–Gandhinagar and Surat have metro lines, and Ahmedabad's BRTS was one of India's first bus-rapid-transit systems.",
+        "hi": "गुजरात के बंदरगाह उसके प्रवेश द्वार हैं: कांडला का दीनदयाल पोर्ट केंद्र सरकार के अधीन प्रमुख बंदरगाह है, और मुंद्रा, पीपावाव, हज़ीरा, दहेज और अन्य निजी रूप से या गुजरात मैरीटाइम बोर्ड द्वारा चलाए जाते हैं। अहमदाबाद का सरदार वल्लभभाई पटेल अंतरराष्ट्रीय हवाई अड्डा राज्य का सबसे व्यस्त हवाई अड्डा है, और सूरत से भी अंतरराष्ट्रीय उड़ानें हैं; वडोदरा, राजकोट, भुज, जामनगर, भावनगर और पोरबंदर में घरेलू सेवाएँ हैं। पश्चिम रेलवे का घना नेटवर्क पूरे राज्य में है, और पश्चिमी समर्पित माल गलियारा बंदरगाहों तक जाता है। अहमदाबाद–गांधीनगर और सूरत में मेट्रो लाइनें हैं, और अहमदाबाद की बीआरटीएस भारत की पहली बस रैपिड ट्रांज़िट प्रणालियों में थी।",
+        "mr": "गुजरातची बंदरे ही त्याची प्रवेशद्वारे आहेत: कांडलाचे दीनदयाळ बंदर हे केंद्र सरकारअंतर्गत प्रमुख बंदर आहे, तर मुंद्रा, पिपावाव, हजिरा, दहेज व इतर खासगी किंवा गुजरात मेरिटाइम बोर्डाकडून चालवली जातात. अहमदाबादचे सरदार वल्लभभाई पटेल आंतरराष्ट्रीय विमानतळ हे राज्यातील सर्वांत व्यस्त असून सुरतहूनही आंतरराष्ट्रीय उड्डाणे आहेत; वडोदरा, राजकोट, भुज, जामनगर, भावनगर व पोरबंदर येथे देशांतर्गत सेवा आहे. पश्चिम रेल्वेचे दाट जाळे राज्यभर आहे, आणि पश्चिम समर्पित मालवाहतूक मार्गिका बंदरांपर्यंत जाते. अहमदाबाद–गांधीनगर व सुरत येथे मेट्रो मार्गिका आहेत, आणि अहमदाबादची बीआरटीएस ही भारतातील पहिल्या बस रॅपिड ट्रान्झिट प्रणालींपैकी होती.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "amd",
+          "name": {
+            "en": "Sardar Vallabhbhai Patel International Airport, Ahmedabad",
+            "hi": "सरदार वल्लभभाई पटेल अंतरराष्ट्रीय हवाई अड्डा, अहमदाबाद",
+            "mr": "सरदार वल्लभभाई पटेल आंतरराष्ट्रीय विमानतळ, अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "AMD",
+            "hi": "AMD",
+            "mr": "AMD",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "stv",
+          "name": {
+            "en": "Surat International Airport",
+            "hi": "सूरत अंतरराष्ट्रीय हवाई अड्डा",
+            "mr": "सुरत आंतरराष्ट्रीय विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "STV",
+            "hi": "STV",
+            "mr": "STV",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bdq",
+          "name": {
+            "en": "Vadodara airport",
+            "hi": "वडोदरा हवाई अड्डा",
+            "mr": "वडोदरा विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "raj",
+          "name": {
+            "en": "Rajkot (Hirasar) airport",
+            "hi": "राजकोट (हीरासर) हवाई अड्डा",
+            "mr": "राजकोट (हिरासर) विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhj",
+          "name": {
+            "en": "Bhuj airport",
+            "hi": "भुज हवाई अड्डा",
+            "mr": "भुज विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jga",
+          "name": {
+            "en": "Jamnagar airport",
+            "hi": "जामनगर हवाई अड्डा",
+            "mr": "जामनगर विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports (selected)",
+        "hi": "हवाई अड्डे (चयनित)",
+        "mr": "विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "ports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "kandla",
+          "name": {
+            "en": "Deendayal Port (Kandla)",
+            "hi": "दीनदयाल पोर्ट (कांडला)",
+            "mr": "दीनदयाळ बंदर (कांडला)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Major port",
+            "hi": "प्रमुख बंदरगाह",
+            "mr": "प्रमुख बंदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mundra",
+          "name": {
+            "en": "Mundra",
+            "hi": "मुंद्रा",
+            "mr": "मुंद्रा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pipavav",
+          "name": {
+            "en": "Pipavav",
+            "hi": "पीपावाव",
+            "mr": "पिपावाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hazira",
+          "name": {
+            "en": "Hazira",
+            "hi": "हज़ीरा",
+            "mr": "हजिरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dahej",
+          "name": {
+            "en": "Dahej",
+            "hi": "दहेज",
+            "mr": "दहेज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Ports (selected)",
+        "hi": "बंदरगाह (चयनित)",
+        "mr": "बंदरे (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Port and airport traffic",
+            "hi": "बंदरगाह और हवाई अड्डा यातायात",
+            "mr": "बंदर व विमानतळ वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI statistics; Gujarat Maritime Board."
+        }
+      ]
+    }
+  ]
+}

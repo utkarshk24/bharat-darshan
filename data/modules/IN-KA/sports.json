@@ -1,0 +1,98 @@
+{
+  "region": "IN-KA",
+  "module": "sports",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Cricket is the most followed sport, and the M. Chinnaswamy Stadium in Bengaluru is one of India's best-known Test and IPL venues. Karnataka has produced many India captains and stars, including Rahul Dravid, Anil Kumble and G. R. Viswanath. The State is also a centre for badminton — Prakash Padukone, India's first All England champion, built his academy in Bengaluru — and for hockey in Kodagu, where the annual Kodava family hockey festival is among the largest field-hockey tournaments in the world. Bengaluru hosts national training centres of the Sports Authority of India and professional football and kabaddi teams.",
+        "hi": "क्रिकेट सबसे अधिक देखा जाने वाला खेल है, और बेंगलूरु का एम. चिन्नास्वामी स्टेडियम भारत के सबसे प्रसिद्ध टेस्ट और आईपीएल मैदानों में है। कर्नाटक ने राहुल द्रविड़, अनिल कुंबले और जी. आर. विश्वनाथ सहित कई भारतीय कप्तान और सितारे दिए हैं। राज्य बैडमिंटन का भी केंद्र है — भारत के पहले ऑल इंग्लैंड चैंपियन प्रकाश पादुकोण ने बेंगलूरु में अपनी अकादमी बनाई — और कोडगु में हॉकी का, जहाँ वार्षिक कोडव पारिवारिक हॉकी उत्सव दुनिया के सबसे बड़े फ़ील्ड हॉकी टूर्नामेंटों में है। बेंगलूरु में भारतीय खेल प्राधिकरण के राष्ट्रीय प्रशिक्षण केंद्र और पेशेवर फ़ुटबॉल व कबड्डी टीमें हैं।",
+        "mr": "क्रिकेट हा सर्वाधिक पाहिला जाणारा खेळ आहे, आणि बंगळूरुचे एम. चिन्नास्वामी स्टेडियम भारतातील सर्वांत प्रसिद्ध कसोटी व आयपीएल मैदानांपैकी आहे. कर्नाटकने राहुल द्रविड, अनिल कुंबळे व जी. आर. विश्वनाथ यांच्यासह अनेक भारतीय कर्णधार व तारे दिले आहेत. राज्य बॅडमिंटनचेही केंद्र आहे — भारताचे पहिले ऑल इंग्लंड विजेते प्रकाश पडुकोण यांनी बंगळूरुत आपली अकादमी उभारली — आणि कोडगूमध्ये हॉकीचे, जिथे वार्षिक कोडव कौटुंबिक हॉकी महोत्सव जगातील सर्वांत मोठ्या मैदानी हॉकी स्पर्धांपैकी आहे. बंगळूरुमध्ये भारतीय क्रीडा प्राधिकरणाची राष्ट्रीय प्रशिक्षण केंद्रे आणि व्यावसायिक फुटबॉल व कबड्डी संघ आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "chinnaswamy",
+          "name": {
+            "en": "M. Chinnaswamy Stadium, Bengaluru",
+            "hi": "एम. चिन्नास्वामी स्टेडियम, बेंगलूरु",
+            "mr": "एम. चिन्नास्वामी स्टेडियम, बंगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kanteerava",
+          "name": {
+            "en": "Sree Kanteerava Stadium, Bengaluru",
+            "hi": "श्री कंठीरव स्टेडियम, बेंगलूरु",
+            "mr": "श्री कंठीरव स्टेडियम, बंगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sai",
+          "name": {
+            "en": "SAI Southern Centre, Bengaluru",
+            "hi": "साई दक्षिणी केंद्र, बेंगलूरु",
+            "mr": "साई दक्षिण केंद्र, बंगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Olympic and Asian Games medallists from Karnataka (official list)",
+            "hi": "कर्नाटक के ओलंपिक और एशियाई खेल पदक विजेता (आधिकारिक सूची)",
+            "mr": "कर्नाटकचे ऑलिम्पिक व आशियाई स्पर्धा पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Sports Authority of India / State sports department."
+        }
+      ]
+    }
+  ]
+}

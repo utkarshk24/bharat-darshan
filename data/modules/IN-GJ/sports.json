@@ -1,0 +1,98 @@
+{
+  "region": "IN-GJ",
+  "module": "sports",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Cricket dominates. The Narendra Modi Stadium in Ahmedabad (formerly Motera), rebuilt in 2020, is the largest cricket stadium in the world by seating capacity, and Saurashtra and Baroda are among the strongest domestic teams; Cheteshwar Pujara, Ravindra Jadeja, Jasprit Bumrah and Irfan and Yusuf Pathan are among India players from the State. Gujarat also has a strong tradition in chess and table tennis, and the State is preparing infrastructure in Ahmedabad for large multi-sport events.",
+        "hi": "क्रिकेट सबसे लोकप्रिय है। अहमदाबाद का नरेंद्र मोदी स्टेडियम (पहले मोटेरा), जो 2020 में फिर से बना, बैठने की क्षमता के हिसाब से दुनिया का सबसे बड़ा क्रिकेट स्टेडियम है, और सौराष्ट्र व बड़ौदा सबसे मज़बूत घरेलू टीमों में हैं; चेतेश्वर पुजारा, रवींद्र जडेजा, जसप्रीत बुमराह और इरफ़ान व यूसुफ़ पठान राज्य से भारत के लिए खेलने वाले खिलाड़ियों में हैं। गुजरात में शतरंज और टेबल टेनिस की भी मज़बूत परंपरा है, और राज्य अहमदाबाद में बड़े बहु-खेल आयोजनों के लिए बुनियादी ढाँचा तैयार कर रहा है।",
+        "mr": "क्रिकेटचे वर्चस्व आहे. अहमदाबादचे नरेंद्र मोदी स्टेडियम (पूर्वीचे मोटेरा), 2020 मध्ये पुन्हा उभारलेले, आसनक्षमतेनुसार जगातील सर्वांत मोठे क्रिकेट मैदान आहे, आणि सौराष्ट्र व बडोदा हे सर्वांत बलाढ्य देशांतर्गत संघांपैकी आहेत; चेतेश्वर पुजारा, रवींद्र जडेजा, जसप्रीत बुमराह आणि इरफान व युसूफ पठाण हे राज्यातून भारतासाठी खेळलेल्या खेळाडूंपैकी आहेत. गुजरातमध्ये बुद्धिबळ व टेबल टेनिसचीही भक्कम परंपरा आहे, आणि राज्य अहमदाबादमध्ये मोठ्या बहुक्रीडा स्पर्धांसाठी पायाभूत सुविधा उभारत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "motera",
+          "name": {
+            "en": "Narendra Modi Stadium, Ahmedabad",
+            "hi": "नरेंद्र मोदी स्टेडियम, अहमदाबाद",
+            "mr": "नरेंद्र मोदी स्टेडियम, अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sardarpatel",
+          "name": {
+            "en": "Sardar Vallabhbhai Patel Sports Enclave, Ahmedabad",
+            "hi": "सरदार वल्लभभाई पटेल स्पोर्ट्स एन्क्लेव, अहमदाबाद",
+            "mr": "सरदार वल्लभभाई पटेल स्पोर्ट्स एन्क्लेव्ह, अहमदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rajkot",
+          "name": {
+            "en": "Saurashtra Cricket Association Stadium, Rajkot",
+            "hi": "सौराष्ट्र क्रिकेट एसोसिएशन स्टेडियम, राजकोट",
+            "mr": "सौराष्ट्र क्रिकेट असोसिएशन स्टेडियम, राजकोट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Olympic and Asian Games medallists from Gujarat (official list)",
+            "hi": "गुजरात के ओलंपिक और एशियाई खेल पदक विजेता (आधिकारिक सूची)",
+            "mr": "गुजरातचे ऑलिम्पिक व आशियाई स्पर्धा पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Sports Authority of Gujarat."
+        }
+      ]
+    }
+  ]
+}

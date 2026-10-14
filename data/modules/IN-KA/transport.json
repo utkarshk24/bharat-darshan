@@ -1,0 +1,190 @@
+{
+  "region": "IN-KA",
+  "module": "transport",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Kempegowda International Airport at Devanahalli, north of Bengaluru, is one of India's busiest airports; Mangaluru also has international flights, and Hubballi, Belagavi, Kalaburagi, Mysuru, Shivamogga and Bidar have domestic air services. The South Western Railway is headquartered in Hubballi, and Bengaluru, Mysuru and Hubballi–Dharwad are major rail hubs. New Mangalore Port is the State's major port, with Karwar and smaller ports on the coast. In Bengaluru, the Namma Metro had more than 96 km in operation after August 2025, and the BMTC runs one of India's largest city bus fleets.",
+        "hi": "बेंगलूरु के उत्तर में देवनहल्ली स्थित केम्पेगौडा अंतरराष्ट्रीय हवाई अड्डा भारत के सबसे व्यस्त हवाई अड्डों में है; मंगलूरु से भी अंतरराष्ट्रीय उड़ानें हैं, और हुब्बल्ली, बेलगावी, कलबुर्गी, मैसूरु, शिवमोग्गा और बीदर में घरेलू हवाई सेवाएँ हैं। दक्षिण पश्चिम रेलवे का मुख्यालय हुब्बल्ली में है, और बेंगलूरु, मैसूरु व हुब्बल्ली–धारवाड़ बड़े रेल केंद्र हैं। न्यू मंगलौर पोर्ट राज्य का प्रमुख बंदरगाह है, और तट पर कारवार व छोटे बंदरगाह हैं। बेंगलूरु में अगस्त 2025 के बाद नम्मा मेट्रो के 96 किमी से अधिक हिस्से चालू थे, और बीएमटीसी भारत के सबसे बड़े शहरी बस बेड़ों में से एक चलाता है।",
+        "mr": "बंगळूरुच्या उत्तरेला देवनहळ्ळी येथील केम्पेगौडा आंतरराष्ट्रीय विमानतळ भारतातील सर्वांत व्यस्त विमानतळांपैकी आहे; मंगळूरुहूनही आंतरराष्ट्रीय उड्डाणे आहेत, आणि हुबळी, बेळगावी, कलबुर्गी, म्हैसूरु, शिवमोग्गा व बीदर येथे देशांतर्गत विमानसेवा आहे. दक्षिण पश्चिम रेल्वेचे मुख्यालय हुबळीत आहे, आणि बंगळूरु, म्हैसूरु व हुबळी–धारवाड ही मोठी रेल्वे केंद्रे आहेत. न्यू मंगलोर बंदर हे राज्याचे प्रमुख बंदर असून किनारपट्टीवर कारवार व लहान बंदरे आहेत. बंगळूरुमध्ये ऑगस्ट 2025 नंतर नम्मा मेट्रोचे 96 किमीहून अधिक जाळे कार्यरत होते, आणि बीएमटीसी भारतातील सर्वांत मोठ्या शहरी बस ताफ्यांपैकी एक चालवते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "blr",
+          "name": {
+            "en": "Kempegowda International Airport, Bengaluru",
+            "hi": "केम्पेगौडा अंतरराष्ट्रीय हवाई अड्डा, बेंगलूरु",
+            "mr": "केम्पेगौडा आंतरराष्ट्रीय विमानतळ, बंगळूरु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "BLR",
+            "hi": "BLR",
+            "mr": "BLR",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ixe",
+          "name": {
+            "en": "Mangaluru International Airport",
+            "hi": "मंगलूरु अंतरराष्ट्रीय हवाई अड्डा",
+            "mr": "मंगळूरु आंतरराष्ट्रीय विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "IXE",
+            "hi": "IXE",
+            "mr": "IXE",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hbx",
+          "name": {
+            "en": "Hubballi airport",
+            "hi": "हुब्बल्ली हवाई अड्डा",
+            "mr": "हुबळी विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ixg",
+          "name": {
+            "en": "Belagavi airport",
+            "hi": "बेलगावी हवाई अड्डा",
+            "mr": "बेळगावी विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "glb",
+          "name": {
+            "en": "Kalaburagi airport",
+            "hi": "कलबुर्गी हवाई अड्डा",
+            "mr": "कलबुर्गी विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "myq",
+          "name": {
+            "en": "Mysuru airport",
+            "hi": "मैसूरु हवाई अड्डा",
+            "mr": "म्हैसूरु विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rqy",
+          "name": {
+            "en": "Shivamogga airport",
+            "hi": "शिवमोग्गा हवाई अड्डा",
+            "mr": "शिवमोग्गा विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports (selected)",
+        "hi": "हवाई अड्डे (चयनित)",
+        "mr": "विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Railway route length",
+            "hi": "रेलवे मार्ग की लंबाई",
+            "mr": "रेल्वे मार्गाची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Indian Railways Year Book."
+        },
+        {
+          "label": {
+            "en": "Airport and port traffic",
+            "hi": "हवाई अड्डा और बंदरगाह यातायात",
+            "mr": "विमानतळ व बंदर वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics; Indian Ports Association."
+        }
+      ]
+    }
+  ]
+}

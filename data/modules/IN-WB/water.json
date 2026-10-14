@@ -1,0 +1,68 @@
+{
+  "region": "IN-WB",
+  "module": "water",
+  "asOf": "2026-10-14",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "West Bengal has plenty of water overall but serious problems of quality and timing. Arsenic in groundwater affects large parts of the delta districts — Malda, Murshidabad, Nadia, North 24 Parganas and others — and fluoride occurs in some western districts, which has led to piped surface-water supply schemes. The Farakka Barrage diverts Ganga water into the Hooghly to keep Kolkata's port navigable. Floods are frequent in the lower Damodar, Ajay and Rupnarayan basins and in the north, while the western plateau districts are drier. In the Sundarbans, rising salinity and embankment breaches after cyclones damage farmland and drinking water.",
+        "hi": "पश्चिम बंगाल में कुल मिलाकर पानी प्रचुर है, लेकिन गुणवत्ता और समय की गंभीर समस्याएँ हैं। डेल्टा के ज़िलों — मालदा, मुर्शिदाबाद, नदिया, उत्तर 24 परगना और अन्य — के बड़े हिस्सों में भूजल में आर्सेनिक है, और कुछ पश्चिमी ज़िलों में फ़्लोराइड, जिससे पाइप से सतही जल आपूर्ति योजनाएँ बनी हैं। फ़रक्का बराज गंगा का पानी हुगली में मोड़ता है ताकि कोलकाता का बंदरगाह नौवहन योग्य रहे। निचले दामोदर, अजय और रूपनारायण बेसिन में और उत्तर में बाढ़ अक्सर आती है, जबकि पश्चिमी पठारी ज़िले अधिक सूखे हैं। सुंदरबन में बढ़ती लवणता और चक्रवातों के बाद तटबंधों के टूटने से खेती और पेयजल को नुक़सान होता है।",
+        "mr": "पश्चिम बंगालमध्ये एकूण पाणी भरपूर आहे, पण गुणवत्ता व वेळेच्या गंभीर समस्या आहेत. त्रिभुज प्रदेशातील जिल्ह्यांच्या — मालदा, मुर्शिदाबाद, नदिया, उत्तर 24 परगणा व इतर — मोठ्या भागांत भूजलात आर्सेनिक आहे, आणि काही पश्चिमी जिल्ह्यांत फ्लोराइड, त्यामुळे नळाद्वारे भूपृष्ठजल पुरवठा योजना उभारल्या गेल्या आहेत. कोलकाता बंदर जलवाहतुकीयोग्य राहावे म्हणून फरक्का बंधारा गंगेचे पाणी हुगळीत वळवतो. खालच्या दामोदर, अजय व रूपनारायण खोऱ्यांत आणि उत्तरेत वारंवार पूर येतात, तर पश्चिमेकडील पठारी जिल्हे अधिक कोरडे आहेत. सुंदरबनमध्ये वाढती क्षारता आणि चक्रीवादळांनंतर बांध फुटल्याने शेती व पिण्याच्या पाण्याचे नुकसान होते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Arsenic-affected habitations",
+            "hi": "आर्सेनिक प्रभावित बस्तियाँ",
+            "mr": "आर्सेनिकबाधित वस्त्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission water-quality data."
+        },
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        }
+      ]
+    }
+  ]
+}

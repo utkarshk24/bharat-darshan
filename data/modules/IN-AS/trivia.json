@@ -1,0 +1,106 @@
+{
+  "region": "IN-AS",
+  "module": "trivia",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "unesco",
+          "name": {
+            "en": "Assam has three UNESCO World Heritage Sites: Kaziranga, Manas and the Moidams of Charaideo.",
+            "hi": "असम में तीन यूनेस्को विश्व धरोहर स्थल हैं: काज़ीरंगा, मानस और चराइदेउ के मोइदाम।",
+            "mr": "आसाममध्ये तीन युनेस्को जागतिक वारसा स्थळे आहेत: काझीरंगा, मानस व चराइदेवचे मोइदाम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://whc.unesco.org/en/statesparties/in",
+          "sourceId": "unesco-whc"
+        },
+        {
+          "id": "bogibeel",
+          "name": {
+            "en": "Bogibeel, at 4.94 km, is India's longest rail-cum-road bridge.",
+            "hi": "4.94 किमी लंबा बोगीबील भारत का सबसे लंबा रेल-सह-सड़क पुल है।",
+            "mr": "4.94 किमी लांबीचा बोगीबील हा भारतातील सर्वांत लांब रेल्वे-सह-रस्ता पूल आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://newindiasamachar.pib.gov.in/WriteReadData/flipbook/2026/Mar/1st/English/files/basic-html/page22.html",
+          "sourceId": "new-india-samachar"
+        },
+        {
+          "id": "digboi",
+          "name": {
+            "en": "Oil was struck at Digboi in 1889, and its refinery is among the oldest still operating.",
+            "hi": "1889 में डिगबोई में तेल मिला, और इसकी रिफ़ाइनरी अब भी चल रही सबसे पुरानी रिफ़ाइनरियों में है।",
+            "mr": "1889 मध्ये डिगबोई येथे तेल सापडले, आणि तिथली रिफायनरी अजूनही चालू असलेल्या सर्वांत जुन्या रिफायनरींपैकी आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gi42",
+          "name": {
+            "en": "Assam has 42 entries in the GI Registry's list, including a large group of Bodo products registered in 2022.",
+            "hi": "जीआई रजिस्ट्री की सूची में असम की 42 प्रविष्टियाँ हैं, जिनमें 2022 में पंजीकृत बोडो उत्पादों का बड़ा समूह शामिल है।",
+            "mr": "जीआय रजिस्ट्रीच्या यादीत आसामच्या 42 नोंदी आहेत, ज्यांत 2022 मध्ये नोंदलेल्या बोडो उत्पादनांचा मोठा गट आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "sourceId": "gi-registry"
+        },
+        {
+          "id": "saraighat",
+          "name": {
+            "en": "Lachit Borphukan, victor of Saraighat in 1671, is remembered on Lachit Divas, his birth anniversary on 24 November.",
+            "hi": "1671 में सराईघाट के विजेता लाचित बरफुकन को 24 नवंबर को उनकी जयंती, लाचित दिवस, पर याद किया जाता है।",
+            "mr": "1671 मधील सराईघाटचे विजेते लाचित बरफुकन यांचे स्मरण 24 नोव्हेंबरला, त्यांच्या जयंतीदिनी, लाचित दिवस म्हणून केले जाते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ls",
+          "name": {
+            "en": "The State elects 14 members to the Lok Sabha.",
+            "hi": "राज्य से लोकसभा के 14 सदस्य चुने जाते हैं।",
+            "mr": "राज्यातून लोकसभेवर 14 सदस्य निवडले जातात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -33,86 +33,151 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://assam.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Indian one-horned rhinoceros",
+        "hi": "एक सींग वाला गैंडा",
+        "mr": "एकशिंगी गेंडा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Rhinoceros unicornis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "White-winged wood duck",
+        "hi": "सफ़ेद पंखों वाली वन बत्तख़",
+        "mr": "पांढऱ्या पंखांचे वनबदक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Asarcornis scutulata",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Foxtail orchid (kopou phool)",
+        "hi": "कोपोउ फूल (फॉक्सटेल ऑर्किड)",
+        "mr": "कोपोउ फूल (फॉक्सटेल ऑर्किड)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Rhynchostylis retusa",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Hollong",
+        "hi": "होलोंग",
+        "mr": "होलोंग",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Dipterocarpus retusus",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 31205576,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 1,59,39,443; females 1,52,66,133."
     },
     "area": {
-      "value": null,
+      "value": 78438,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 398,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 3,12,05,576 ÷ area 78,438 km² = 397.8."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 958,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (935 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 962,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 965 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 72.2,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,88 +190,1280 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 643667,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
-      "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "cag",
+      "url": "https://www.digitalreports.cag.gov.in/assam/chapter/1",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "CAG, State Finances Audit Report of Assam 2024-25, chapter 1 (Table 1.2): GSDP at current prices ₹6,43,667 crore, growth 13.07% over the previous year; ₹3,39,803 crore in 2020-21. MoSPI's state-wise API had no Assam series at access time, so the CAG figure is used; the estimate type (advance, quick, revised) is not stated in the excerpt read."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 159185,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
-      "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "cag",
+      "url": "https://www.digitalreports.cag.gov.in/assam/chapter/1",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "CAG, State Finances Audit Report of Assam 2024-25: per capita income ₹1,59,185 (₹86,947 in 2020-21). Assumed to be per capita NSDP at current prices; confirm against the Assam Economic Survey."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 36.1,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 28,313.55 km² ÷ geographical area 78,438 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Lakshman Prasad Acharya",
+        "hi": "लक्ष्मण प्रसाद आचार्य",
+        "mr": "लक्ष्मण प्रसाद आचार्य",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2024-07-30",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/lakshman-prasad-acharya-takes-oath-as-new-governor-of-assam",
+      "verifyUrl": "https://rajbhavan.assam.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Sworn in on 30 July 2024; the oath was administered by Gauhati High Court Chief Justice Vijay Bishnoi (News On AIR). Administered the oath to the new Chief Minister on 12 May 2026."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "name": {
+        "en": "Himanta Biswa Sarma",
+        "hi": "हिमंत बिस्व सरमा",
+        "mr": "हिमंत बिस्व सरमा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "BJP",
+      "since": "2026-05-12",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://newsonair.gov.in/senior-bjp-leader-himanta-biswa-sarma-to-be-sworn-in-as-cm-of-assam-in-guwahati-today/",
+      "verifyUrl": "https://cm.assam.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "note": "Sworn in for a second consecutive term on 12 May 2026 at the Veterinary College ground, Khanapara, Guwahati, after the NDA won 102 of the 126 seats — BJP 82, AGP 10, BPF 10 (News On AIR). First sworn in on 10 May 2021."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Ranjeet Kumar Dass",
+          "hi": "रंजीत कुमार दास",
+          "mr": "रंजीत कुमार दास",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": null,
+        "since": "2026-05-21",
+        "asOf": "2026-10-16",
+        "sourceId": "newsonair",
+        "url": "https://newsonair.gov.in/ls-speaker-om-birla-congratulates-ranjeet-kumar-dass-on-election-as-assam-speaker/",
+        "verifyUrl": "https://assamassembly.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Elected Speaker of the 16th Assam Legislative Assembly; the Lok Sabha Speaker's congratulations were reported on 21 May 2026 (News On AIR). Party and exact election date to be confirmed from the Assembly bulletin."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "bogibeel",
+      "name": {
+        "en": "Bogibeel rail-cum-road bridge",
+        "hi": "बोगीबील रेल-सह-सड़क पुल",
+        "mr": "बोगीबील रेल्वे-सह-रस्ता पूल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A 4.94 km double-deck bridge over the Brahmaputra between Dibrugarh and Dhemaji districts, with the road above and railway below — India's longest rail-cum-road bridge and its first fully steel bridge. Sanctioned in 1997 and opened on 25 December 2018, it cut the Dhemaji–Dibrugarh journey from about 500 km to 100 km.",
+        "hi": "डिब्रूगढ़ और धेमाजी ज़िलों के बीच ब्रह्मपुत्र पर 4.94 किमी लंबा दो-मंज़िला पुल, ऊपर सड़क और नीचे रेल — भारत का सबसे लंबा रेल-सह-सड़क पुल और पहला पूर्णतः इस्पात का पुल। 1997 में स्वीकृत और 25 दिसंबर 2018 को खुले इस पुल ने धेमाजी–डिब्रूगढ़ की दूरी लगभग 500 किमी से घटाकर 100 किमी कर दी।",
+        "mr": "डिब्रुगड व धेमाजी जिल्ह्यांदरम्यान ब्रह्मपुत्रेवरील 4.94 किमी लांबीचा दुमजली पूल, वर रस्ता व खाली रेल्वे — भारतातील सर्वांत लांब रेल्वे-सह-रस्ता पूल व पहिला संपूर्ण पोलादी पूल. 1997 मध्ये मंजूर व 25 डिसेंबर 2018 रोजी खुल्या झालेल्या या पुलाने धेमाजी–डिब्रुगड अंतर सुमारे 500 किमीवरून 100 किमीवर आणले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "rail",
+      "agency": "Northeast Frontier Railway",
+      "start": "March 1997 (sanctioned)",
+      "completion": "25 December 2018",
+      "status": "Completed",
+      "asOf": "2026-10-16",
+      "sourceId": "new-india-samachar",
+      "url": "https://newindiasamachar.pib.gov.in/WriteReadData/flipbook/2026/Mar/1st/English/files/basic-html/page22.html",
+      "confidence": "Official",
+      "cost": {
+        "value": 5920,
+        "unit": "₹ crore",
+        "period": "2018",
+        "periodType": "calendar",
+        "sourceId": "new-india-samachar",
+        "url": "https://newindiasamachar.pib.gov.in/WriteReadData/flipbook/2026/Mar/1st/English/files/basic-html/page22.html",
+        "accessDate": "2026-10-16",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "₹5,920 crore (New India Samachar, March 2026)."
+      }
+    },
+    {
+      "id": "tsat-morigaon",
+      "name": {
+        "en": "Tata semiconductor assembly and test unit, Jagiroad (Morigaon)",
+        "hi": "टाटा सेमीकंडक्टर असेंबली और टेस्ट इकाई, जागीरोड (मोरीगाँव)",
+        "mr": "टाटा सेमीकंडक्टर असेंब्ली व चाचणी प्रकल्प, जागीरोड (मोरीगाव)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A ₹27,000 crore chip assembly and testing plant of Tata Semiconductor Assembly and Test Pvt Ltd, designed to handle up to 48 million chips a day. The PIB backgrounder of November 2024 projected completion by mid-2025; third-party reports in 2026 describe pilot production, but full commercial operation had not been confirmed by an official source when this card was checked.",
+        "hi": "टाटा सेमीकंडक्टर असेंबली एंड टेस्ट प्रा. लि. का ₹27,000 करोड़ का चिप असेंबली और परीक्षण संयंत्र, जिसकी क्षमता प्रतिदिन 4.8 करोड़ चिप तक है। नवंबर 2024 के पीआईबी विवरण में मध्य-2025 तक पूरा होने का अनुमान था; 2026 की तीसरे पक्ष की रिपोर्टों में पायलट उत्पादन का उल्लेख है, लेकिन इस कार्ड की जाँच के समय पूर्ण व्यावसायिक संचालन की आधिकारिक पुष्टि नहीं हुई थी।",
+        "mr": "टाटा सेमीकंडक्टर असेंब्ली अँड टेस्ट प्रा. लि.चा ₹27,000 कोटींचा चिप जोडणी व चाचणी प्रकल्प, ज्याची क्षमता दररोज 4.8 कोटी चिप्सपर्यंत आहे. नोव्हेंबर 2024 च्या पीआयबी माहितीपत्रात मध्य-2025 पर्यंत पूर्ण होण्याचा अंदाज होता; 2026 मधील त्रयस्थ वृत्तांत प्रायोगिक उत्पादनाचा उल्लेख आहे, पण हे कार्ड तपासले तेव्हा पूर्ण व्यावसायिक कामकाजाला अधिकृत दुजोरा मिळालेला नव्हता.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "industry",
+      "agency": "Tata Semiconductor Assembly and Test Pvt Ltd (India Semiconductor Mission)",
+      "start": null,
+      "completion": "Mid-2025 (projected in 2024)",
+      "status": "Under Construction",
+      "asOf": "2026-10-16",
+      "sourceId": "pib",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/nov/doc20241117435901.pdf",
+      "confidence": "Official",
+      "cost": {
+        "value": 27000,
+        "unit": "₹ crore",
+        "period": "2024",
+        "periodType": "calendar",
+        "sourceId": "pib",
+        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/nov/doc20241117435901.pdf",
+        "accessDate": "2026-10-16",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "₹27,000 crore (PIB, Nov 2024)."
+      }
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "assam-orthodox",
+      "name": {
+        "en": "Assam (Orthodox)",
+        "hi": "असम (ऑर्थोडॉक्स) चाय",
+        "mr": "आसाम (ऑर्थोडॉक्स) चहा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "115 & 118",
+      "filingDate": "2007-11-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date. The registry lists two application numbers (filed 19 and 22 Nov 2007); the date shown is the earlier filing."
+    },
+    {
+      "id": "assam-karbi-anglong-ginger",
+      "name": {
+        "en": "Assam Karbi Anglong Ginger",
+        "hi": "असम कार्बी आंगलोंग अदरक",
+        "mr": "आसाम कार्बी आंगलोंग आले",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "435",
+      "filingDate": "2013-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "tezpur-litchi",
+      "name": {
+        "en": "Tezpur Litchi",
+        "hi": "तेजपुर लीची",
+        "mr": "तेजपूर लिची",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "438",
+      "filingDate": "2013-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "joha-rice-of-assam",
+      "name": {
+        "en": "Joha Rice of Assam",
+        "hi": "असम का जोहा चावल",
+        "mr": "आसामचा जोहा तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "439",
+      "filingDate": "2013-09-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "boka-chaul",
+      "name": {
+        "en": "Boka Chaul",
+        "hi": "बोका चाउल",
+        "mr": "बोका चाउल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "558",
+      "filingDate": "2016-07-25",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chokuwa-rice-of-assam",
+      "name": {
+        "en": "Chokuwa Rice of Assam",
+        "hi": "असम का चोकुवा चावल",
+        "mr": "आसामचा चोकुवा तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "572",
+      "filingDate": "2016-12-14",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kaji-nemu",
+      "name": {
+        "en": "Kaji Nemu",
+        "hi": "काजी नेमू",
+        "mr": "काजी नेमू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "609",
+      "filingDate": "2018-01-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-keradapini",
+      "name": {
+        "en": "Bodo Keradapini",
+        "hi": "बोडो केराडापिनी",
+        "mr": "बोडो केराडापिनी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "963",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-gongar-dunjia",
+      "name": {
+        "en": "Bodo Gongar Dunjia",
+        "hi": "बोडो गोंगर दुंजिया",
+        "mr": "बोडो गोंगर दुंजिया",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "971",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-khardwi",
+      "name": {
+        "en": "Bodo Khardwi",
+        "hi": "बोडो खारद्वि",
+        "mr": "बोडो खारद्वी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "975",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-narzi",
+      "name": {
+        "en": "Bodo Narzi",
+        "hi": "बोडो नारजी",
+        "mr": "बोडो नारजी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "976",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-napham-fermented-fish",
+      "name": {
+        "en": "Bodo Napham – Fermented Fish",
+        "hi": "बोडो नाफाम – ख़मीरी मछली",
+        "mr": "बोडो नाफाम – आंबवलेला मासा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "964",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-ondla",
+      "name": {
+        "en": "Bodo Ondla",
+        "hi": "बोडो ओंदला",
+        "mr": "बोडो ओंदला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "966",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-gwkha-gwkhwi",
+      "name": {
+        "en": "Bodo Gwkha – Gwkhwi",
+        "hi": "बोडो ग्वखा – ग्वख्वि",
+        "mr": "बोडो ग्वखा – ग्वख्वी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "967",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "muga-silk-of-assam",
+      "name": {
+        "en": "Muga Silk of Assam",
+        "hi": "असम का मूगा रेशम",
+        "mr": "आसामचे मुगा रेशीम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "55",
+      "filingDate": "2006-07-20",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "muga-silk-of-assam-logo",
+      "name": {
+        "en": "Muga Silk of Assam (Logo)",
+        "hi": "असम का मूगा रेशम (लोगो)",
+        "mr": "आसामचे मुगा रेशीम (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "384",
+      "filingDate": "2012-06-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "gamosa-of-assam",
+      "name": {
+        "en": "Gamosa of Assam",
+        "hi": "असम का गमोसा",
+        "mr": "आसामचा गमोसा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "594",
+      "filingDate": "2017-10-16",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "majuli-mask-of-assam",
+      "name": {
+        "en": "Majuli Mask of Assam",
+        "hi": "असम का माजुली मुखौटा",
+        "mr": "आसामचा माजुली मुखवटा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "939",
+      "filingDate": "2022-08-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "assam-majuli-manuscript-painting",
+      "name": {
+        "en": "Assam Majuli Manuscript Painting",
+        "hi": "असम माजुली पांडुलिपि चित्रकला",
+        "mr": "आसाम माजुली हस्तलिखित चित्रकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "940",
+      "filingDate": "2022-08-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-aronai",
+      "name": {
+        "en": "Bodo Aronai",
+        "hi": "बोडो अरोनाई",
+        "mr": "बोडो अरोनाई",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "958",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-dokhona",
+      "name": {
+        "en": "Bodo Dokhona",
+        "hi": "बोडो दोखोना",
+        "mr": "बोडो दोखोना",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "959",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-eri-silk",
+      "name": {
+        "en": "Bodo Eri Silk",
+        "hi": "बोडो एरी रेशम",
+        "mr": "बोडो एरी रेशीम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "960",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-jwmgra",
+      "name": {
+        "en": "Bodo Jwmgra",
+        "hi": "बोडो ज्वमग्रा",
+        "mr": "बोडो ज्वमग्रा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "961",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-gamsa",
+      "name": {
+        "en": "Bodo Gamsa",
+        "hi": "बोडो गामसा",
+        "mr": "बोडो गामसा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "962",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-thorkha",
+      "name": {
+        "en": "Bodo Thorkha",
+        "hi": "बोडो थोरखा",
+        "mr": "बोडो थोरखा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "965",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-kham",
+      "name": {
+        "en": "Bodo Kham",
+        "hi": "बोडो खाम (ढोल)",
+        "mr": "बोडो खाम (ढोल)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "972",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-serja",
+      "name": {
+        "en": "Bodo Serja",
+        "hi": "बोडो सेरजा",
+        "mr": "बोडो सेरजा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "973",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-sifung",
+      "name": {
+        "en": "Bodo Sifung",
+        "hi": "बोडो सिफुंग (बाँसुरी)",
+        "mr": "बोडो सिफुंग (बासरी)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "974",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-gongona",
+      "name": {
+        "en": "Bodo Gongona",
+        "hi": "बोडो गोंगोना",
+        "mr": "बोडो गोंगोना",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "977",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-jotha",
+      "name": {
+        "en": "Bodo Jotha",
+        "hi": "बोडो जोथा",
+        "mr": "बोडो जोथा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "978",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "assam-jaapi",
+      "name": {
+        "en": "Assam Jaapi",
+        "hi": "असम जापी",
+        "mr": "आसाम जापी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "979",
+      "filingDate": "2022-09-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "assam-asharikandi-terracotta-craft",
+      "name": {
+        "en": "Assam Asharikandi Terracotta Craft",
+        "hi": "असम आशारीकांदी टेराकोटा शिल्प",
+        "mr": "आसाम आशारीकांदी टेराकोटा हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "980",
+      "filingDate": "2022-09-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "assam-bihu-dhol",
+      "name": {
+        "en": "Assam Bihu Dhol",
+        "hi": "असम बिहू ढोल",
+        "mr": "आसाम बिहू ढोल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "1002",
+      "filingDate": "2022-10-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "assam-pani-meteka-craft",
+      "name": {
+        "en": "Assam Pani Meteka Craft",
+        "hi": "असम पानी मेटेका शिल्प",
+        "mr": "आसाम पानी मेटेका हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "1003",
+      "filingDate": "2022-10-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sarthebari-metal-craft",
+      "name": {
+        "en": "Sarthebari Metal Craft",
+        "hi": "सार्थेबाड़ी धातु शिल्प",
+        "mr": "सार्थेबारी धातू हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "1013",
+      "filingDate": "2022-11-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "axomiya-gohona-assamese-jewellery",
+      "name": {
+        "en": "Axomiya Gohona (Assamese Jewellery)",
+        "hi": "अखोमिया गहना (असमिया आभूषण)",
+        "mr": "अखोमिया गहना (आसामी दागिने)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "858",
+      "filingDate": "2022-03-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "judima",
+      "name": {
+        "en": "Judima",
+        "hi": "जुडिमा",
+        "mr": "जुडिमा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "643",
+      "filingDate": "2019-01-16",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-jou-gwran",
+      "name": {
+        "en": "Bodo Jou Gwran",
+        "hi": "बोडो जौ ग्वरान",
+        "mr": "बोडो जौ ग्वरान",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "968",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-jou-gishi",
+      "name": {
+        "en": "Bodo Jou Gishi",
+        "hi": "बोडो जौ गिशी",
+        "mr": "बोडो जौ गिशी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "969",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bodo-maibra-jou-bidwi",
+      "name": {
+        "en": "Bodo Maibra Jou Bidwi",
+        "hi": "बोडो माइब्रा जौ बिद्वि",
+        "mr": "बोडो माइब्रा जौ बिद्वी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "970",
+      "filingDate": "2022-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-singpho-phalap-singpho-tea",
+      "name": {
+        "en": "Arunachal Pradesh Singpho Phalap (Singpho Tea)",
+        "hi": "अरुणाचल प्रदेश सिंगफो फलाप (सिंगफो चाय)",
+        "mr": "अरुणाचल प्रदेश सिंगफो फलाप (सिंगफो चहा)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "935",
+      "filingDate": "2022-08-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Arunachal Pradesh"
+      ]
+    },
+    {
+      "id": "assam-mishing-handloom-products",
+      "name": {
+        "en": "Assam Mishing Handloom Products",
+        "hi": "असम मिसिंग हथकरघा उत्पाद",
+        "mr": "आसाम मिसिंग हातमाग उत्पादने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1001",
+      "filingDate": "2022-10-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Arunachal Pradesh"
+      ]
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-16",
+    "editorialStatus": "draft"
   },
   "localName": {
     "lang": "as",

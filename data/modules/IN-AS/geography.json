@@ -1,0 +1,367 @@
+{
+  "region": "IN-AS",
+  "module": "geography",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Brahmaputra enters Assam from Arunachal Pradesh near Sadiya and flows west for about the length of the State, braided into many channels and dotted with sandbars (chars) and islands, including Majuli. Its valley, built of rich alluvium and fed by tributaries such as the Subansiri, Jia Bharali, Manas, Dhansiri and Kopili, holds most of Assam's people, farms and tea gardens. To the south, the Karbi plateau and the North Cachar hills of Dima Hasao separate it from the Barak valley around Silchar, which drains through Bangladesh. Wetlands called beels, such as Deepor Beel near Guwahati, are common on the floodplains.",
+        "hi": "ब्रह्मपुत्र सदिया के पास अरुणाचल प्रदेश से असम में प्रवेश करती है और लगभग पूरे राज्य की लंबाई में पश्चिम की ओर बहती है, कई धाराओं में बँटी हुई और रेतीले टापुओं (चर) व माजुली सहित द्वीपों से भरी। इसकी घाटी, जो समृद्ध जलोढ़ से बनी है और सुबनसिरी, जिया भराली, मानस, धनसिरी और कोपिली जैसी सहायक नदियों से सिंचित है, असम के अधिकांश लोगों, खेतों और चाय बाग़ानों का घर है। दक्षिण में कार्बी पठार और दिमा हसाओ की उत्तरी कछार पहाड़ियाँ इसे सिलचर के आसपास की बराक घाटी से अलग करती हैं, जो बांग्लादेश से होकर बहती है। बाढ़ मैदानों में बील कहलाने वाली आर्द्रभूमियाँ, जैसे गुवाहाटी के पास दीपोर बील, आम हैं।",
+        "mr": "ब्रह्मपुत्रा सदियाजवळ अरुणाचल प्रदेशातून आसाममध्ये प्रवेश करते आणि जवळपास राज्याच्या पूर्ण लांबीत पश्चिमेकडे वाहते, अनेक प्रवाहांत विभागलेली व वाळूच्या बेटांनी (चर) आणि माजुलीसह बेटांनी भरलेली. समृद्ध गाळाचे व सुबनसिरी, जिया भराली, मानस, धनसिरी व कोपिली यांसारख्या उपनद्यांनी भरणारे तिचे खोरे आसामचे बहुतेक लोक, शेती व चहामळे सामावते. दक्षिणेला कार्बी पठार व दिमा हसाओचे उत्तर कछार डोंगर त्याला सिलचरभोवतीच्या बराक खोऱ्यापासून वेगळे करतात, जे बांगलादेशातून वाहते. पूरमैदानांत बील नावाची पाणथळे, जसे गुवाहाटीजवळील दीपोर बील, सामान्य आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 78438,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "bt",
+          "name": {
+            "en": "Bhutan (north)",
+            "hi": "भूटान (उत्तर)",
+            "mr": "भूतान (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ar",
+          "name": {
+            "en": "Arunachal Pradesh (north and east)",
+            "hi": "अरुणाचल प्रदेश (उत्तर और पूर्व)",
+            "mr": "अरुणाचल प्रदेश (उत्तर व पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nl",
+          "name": {
+            "en": "Nagaland (east)",
+            "hi": "नागालैंड (पूर्व)",
+            "mr": "नागालँड (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mn",
+          "name": {
+            "en": "Manipur (east)",
+            "hi": "मणिपुर (पूर्व)",
+            "mr": "मणिपूर (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mz",
+          "name": {
+            "en": "Mizoram (south)",
+            "hi": "मिज़ोरम (दक्षिण)",
+            "mr": "मिझोराम (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ml",
+          "name": {
+            "en": "Meghalaya (south)",
+            "hi": "मेघालय (दक्षिण)",
+            "mr": "मेघालय (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tr",
+          "name": {
+            "en": "Tripura (south)",
+            "hi": "त्रिपुरा (दक्षिण)",
+            "mr": "त्रिपुरा (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bd",
+          "name": {
+            "en": "Bangladesh (south-west)",
+            "hi": "बांग्लादेश (दक्षिण-पश्चिम)",
+            "mr": "बांगलादेश (नैर्ऋत्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "wb",
+          "name": {
+            "en": "West Bengal (west)",
+            "hi": "पश्चिम बंगाल (पश्चिम)",
+            "mr": "पश्चिम बंगाल (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "brahmaputra",
+          "name": {
+            "en": "Brahmaputra",
+            "hi": "ब्रह्मपुत्र",
+            "mr": "ब्रह्मपुत्रा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Braided giant river; National Waterway 2.",
+            "hi": "गुँथी धाराओं वाली विशाल नदी; राष्ट्रीय जलमार्ग 2।",
+            "mr": "अनेक प्रवाहांची विशाल नदी; राष्ट्रीय जलमार्ग 2.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "barak",
+          "name": {
+            "en": "Barak",
+            "hi": "बराक",
+            "mr": "बराक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Southern river through Silchar; National Waterway 16.",
+            "hi": "सिलचर से होकर बहने वाली दक्षिणी नदी; राष्ट्रीय जलमार्ग 16।",
+            "mr": "सिलचरमधून वाहणारी दक्षिणेकडील नदी; राष्ट्रीय जलमार्ग 16.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "subansiri",
+          "name": {
+            "en": "Subansiri",
+            "hi": "सुबनसिरी",
+            "mr": "सुबनसिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Largest tributary of the Brahmaputra, from Arunachal.",
+            "hi": "अरुणाचल से आने वाली ब्रह्मपुत्र की सबसे बड़ी सहायक नदी।",
+            "mr": "अरुणाचलमधून येणारी ब्रह्मपुत्रेची सर्वांत मोठी उपनदी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "manas",
+          "name": {
+            "en": "Manas",
+            "hi": "मानस",
+            "mr": "मानस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "From Bhutan; flows through Manas National Park.",
+            "hi": "भूटान से; मानस राष्ट्रीय उद्यान से होकर बहती है।",
+            "mr": "भूतानमधून; मानस राष्ट्रीय उद्यानातून वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dhansiri",
+          "name": {
+            "en": "Dhansiri",
+            "hi": "धनसिरी",
+            "mr": "धनसिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "From Nagaland; flows past Golaghat.",
+            "hi": "नागालैंड से; गोलाघाट से होकर।",
+            "mr": "नागालँडमधून; गोलाघाटमार्गे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Highest point — official elevation",
+            "hi": "सर्वोच्च बिंदु — आधिकारिक ऊँचाई",
+            "mr": "सर्वोच्च शिखर — अधिकृत उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India."
+        },
+        {
+          "label": {
+            "en": "Area of Majuli island (latest survey)",
+            "hi": "माजुली द्वीप का क्षेत्रफल (नवीनतम सर्वेक्षण)",
+            "mr": "माजुली बेटाचे क्षेत्रफळ (नवीनतम सर्वेक्षण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India / Brahmaputra Board."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        }
+      ]
+    }
+  ]
+}

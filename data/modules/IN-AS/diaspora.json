@@ -1,0 +1,42 @@
+{
+  "region": "IN-AS",
+  "module": "diaspora",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Assamese communities live across India — in Delhi, Bengaluru, Mumbai and Kolkata — and abroad, especially in the United States and the United Kingdom, where they celebrate Bihu each spring. Many young people from Assam now work in other States' service industries. Assam itself has long received migrants: the tea-garden communities descend from workers brought from central and eastern India in the 19th century.",
+        "hi": "असमिया समुदाय पूरे भारत में — दिल्ली, बेंगलुरु, मुंबई और कोलकाता में — और विदेश में, विशेषकर संयुक्त राज्य अमेरिका और ब्रिटेन में रहते हैं, जहाँ वे हर वसंत में बिहू मनाते हैं। असम के बहुत से युवा अब दूसरे राज्यों के सेवा उद्योगों में काम करते हैं। असम स्वयं लंबे समय से प्रवासियों का गंतव्य रहा है: चाय बाग़ान समुदाय 19वीं सदी में मध्य और पूर्वी भारत से लाए गए श्रमिकों के वंशज हैं।",
+        "mr": "आसामी समुदाय संपूर्ण भारतात — दिल्ली, बंगळुरू, मुंबई व कोलकात्यात — आणि परदेशात, विशेषतः अमेरिका व ब्रिटनमध्ये राहतात, जिथे ते दर वसंतात बिहू साजरा करतात. आसाममधील अनेक तरुण आता इतर राज्यांतील सेवा उद्योगांत काम करतात. आसाम स्वतः दीर्घकाळ स्थलांतरितांचे गंतव्य राहिले आहे: चहामळा समुदाय एकोणिसाव्या शतकात मध्य व पूर्व भारतातून आणलेल्या कामगारांचे वंशज आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants and internal migrants",
+            "hi": "प्रवासियों और आंतरिक प्रवासियों की संख्या",
+            "mr": "परदेशी व देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables; MEA."
+        }
+      ]
+    }
+  ]
+}

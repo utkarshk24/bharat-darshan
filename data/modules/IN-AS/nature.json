@@ -1,0 +1,474 @@
+{
+  "region": "IN-AS",
+  "module": "nature",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Assam lies in one of the world's biodiversity hotspots, and about 36% of the State is forest (ISFR 2023). Kaziranga National Park, a mosaic of tall grassland, beels and forest on the Brahmaputra floodplain, shelters most of the world's greater one-horned rhinoceroses as well as tigers, wild water buffalo, swamp deer and elephants. Manas, on the Bhutan border, is a tiger and elephant reserve and a home of the golden langur and the pygmy hog. Pobitora has one of the densest rhino populations anywhere, Orang and Nameri are other tiger reserves, Dibru-Saikhowa protects feral horses and riverine forests, and the Hoollongapar Gibbon Sanctuary is named for India's only ape. The Gangetic dolphin lives in the Brahmaputra.\n\nDeepor Beel, a large wetland on the edge of Guwahati, is the State's only Ramsar site, designated in 2002.",
+        "hi": "असम विश्व के जैव विविधता हॉटस्पॉट में से एक में स्थित है, और राज्य का लगभग 36% भाग वन है (आईएसएफ़आर 2023)। ब्रह्मपुत्र के बाढ़ मैदान पर ऊँची घास, बील और वनों का मिश्रण काज़ीरंगा राष्ट्रीय उद्यान विश्व के अधिकांश एक सींग वाले गैंडों के साथ बाघों, जंगली भैंसों, बारहसिंगा और हाथियों को आश्रय देता है। भूटान सीमा पर मानस बाघ और हाथी अभयारण्य है और सुनहरे लंगूर व पिग्मी हॉग का घर है। पबितरा में दुनिया में सबसे घनी गैंडा आबादियों में से एक है, ओरंग और नामेरी अन्य बाघ अभयारण्य हैं, डिब्रू-सैखोवा जंगली घोड़ों और नदी-तटीय वनों की रक्षा करता है, और होलोंगापार गिब्बन अभयारण्य भारत के एकमात्र कपि के नाम पर है। ब्रह्मपुत्र में गंगा डॉल्फ़िन रहती है।\n\nगुवाहाटी के किनारे की बड़ी आर्द्रभूमि दीपोर बील राज्य का एकमात्र रामसर स्थल है, जो 2002 में घोषित हुआ।",
+        "mr": "आसाम जगातील जैवविविधता हॉटस्पॉटपैकी एकात आहे, आणि राज्याचा सुमारे 36% भाग वनाच्छादित आहे (आयएसएफआर 2023). ब्रह्मपुत्रेच्या पूरमैदानावरील उंच गवताळ प्रदेश, बील व जंगलांचे मिश्रण असलेले काझीरंगा राष्ट्रीय उद्यान जगातील बहुतेक एकशिंगी गेंड्यांसह वाघ, रानरेडे, बाराशिंगे व हत्तींना आश्रय देते. भूतान सीमेवरील मानस हा व्याघ्र व हत्ती प्रकल्प असून सोनेरी वानर व पिग्मी हॉगचे घर आहे. पोबितोरामध्ये जगातील सर्वाधिक घनतेच्या गेंडा लोकसंख्येपैकी एक आहे, ओरांग व नामेरी हे इतर व्याघ्र प्रकल्प आहेत, डिब्रू-सैखोवा रानटी घोडे व नदीकाठच्या जंगलांचे रक्षण करते, आणि होलोंगापार गिबन अभयारण्य भारतातील एकमेव कपीच्या नावाने आहे. ब्रह्मपुत्रेत गंगा डॉल्फिन राहते.\n\nगुवाहाटीच्या कडेला असलेले मोठे पाणथळ दीपोर बील हे राज्यातील एकमेव रामसर स्थळ आहे, जे 2002 मध्ये घोषित झाले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "indian-wetlands"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 28313.55,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 28325.31,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 36.1,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 28,313.55 km² ÷ geographical area 78,438 km²."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        },
+        {
+          "id": "ramsar",
+          "label": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळ स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1,
+            "unit": "sites",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "indian-wetlands",
+            "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "MoEFCC list of Ramsar sites as on 21 April 2026: Deepor Beel, 4,000 ha, designated 19 August 2002."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "protected",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kaziranga",
+          "name": {
+            "en": "Kaziranga National Park and Tiger Reserve",
+            "hi": "काज़ीरंगा राष्ट्रीय उद्यान और बाघ अभयारण्य",
+            "mr": "काझीरंगा राष्ट्रीय उद्यान व व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO; one-horned rhino",
+            "hi": "यूनेस्को; एक सींग वाला गैंडा",
+            "mr": "युनेस्को; एकशिंगी गेंडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "manas",
+          "name": {
+            "en": "Manas National Park and Tiger Reserve",
+            "hi": "मानस राष्ट्रीय उद्यान और बाघ अभयारण्य",
+            "mr": "मानस राष्ट्रीय उद्यान व व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO; golden langur",
+            "hi": "यूनेस्को; सुनहरा लंगूर",
+            "mr": "युनेस्को; सोनेरी वानर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "orang",
+          "name": {
+            "en": "Orang National Park",
+            "hi": "ओरंग राष्ट्रीय उद्यान",
+            "mr": "ओरांग राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Tiger reserve",
+            "hi": "बाघ अभयारण्य",
+            "mr": "व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nameri",
+          "name": {
+            "en": "Nameri National Park",
+            "hi": "नामेरी राष्ट्रीय उद्यान",
+            "mr": "नामेरी राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Tiger reserve",
+            "hi": "बाघ अभयारण्य",
+            "mr": "व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pobitora",
+          "name": {
+            "en": "Pobitora Wildlife Sanctuary",
+            "hi": "पबितरा वन्यजीव अभयारण्य",
+            "mr": "पोबितोरा वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Rhinos near Guwahati",
+            "hi": "गुवाहाटी के पास गैंडे",
+            "mr": "गुवाहाटीजवळ गेंडे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dibru",
+          "name": {
+            "en": "Dibru-Saikhowa National Park",
+            "hi": "डिब्रू-सैखोवा राष्ट्रीय उद्यान",
+            "mr": "डिब्रू-सैखोवा राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Feral horses; riverine forest",
+            "hi": "जंगली घोड़े; नदी-तटीय वन",
+            "mr": "रानटी घोडे; नदीकाठची जंगले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hoollongapar",
+          "name": {
+            "en": "Hoollongapar Gibbon Sanctuary",
+            "hi": "होलोंगापार गिब्बन अभयारण्य",
+            "mr": "होलोंगापार गिबन अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hoolock gibbon",
+            "hi": "हूलॉक गिब्बन",
+            "mr": "हुलॉक गिबन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "deepor",
+          "name": {
+            "en": "Deepor Beel",
+            "hi": "दीपोर बील",
+            "mr": "दीपोर बील",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ramsar site",
+            "hi": "रामसर स्थल",
+            "mr": "रामसर स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Protected areas (selected)",
+        "hi": "संरक्षित क्षेत्र (चयनित)",
+        "mr": "संरक्षित क्षेत्रे (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "species",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "rhino",
+          "name": {
+            "en": "Greater one-horned rhinoceros (State animal)",
+            "hi": "एक सींग वाला गैंडा (राज्य पशु)",
+            "mr": "एकशिंगी गेंडा (राज्यप्राणी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiger",
+          "name": {
+            "en": "Tiger",
+            "hi": "बाघ",
+            "mr": "वाघ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "langur",
+          "name": {
+            "en": "Golden langur",
+            "hi": "सुनहरा लंगूर",
+            "mr": "सोनेरी वानर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pygmyhog",
+          "name": {
+            "en": "Pygmy hog",
+            "hi": "पिग्मी हॉग",
+            "mr": "पिग्मी हॉग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gibbon",
+          "name": {
+            "en": "Hoolock gibbon",
+            "hi": "हूलॉक गिब्बन",
+            "mr": "हुलॉक गिबन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "woodduck",
+          "name": {
+            "en": "White-winged wood duck (State bird)",
+            "hi": "सफ़ेद पंखों वाली वन बत्तख़ (राज्य पक्षी)",
+            "mr": "पांढऱ्या पंखांचे वनबदक (राज्यपक्षी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dolphin",
+          "name": {
+            "en": "Gangetic dolphin",
+            "hi": "गंगा डॉल्फ़िन",
+            "mr": "गंगा डॉल्फिन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "adjutant",
+          "name": {
+            "en": "Greater adjutant stork",
+            "hi": "गरुड़ (बड़ा गरुड़ बगुला)",
+            "mr": "मोठा करकोचा (हाडगिला)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key species",
+        "hi": "प्रमुख प्रजातियाँ",
+        "mr": "प्रमुख प्रजाती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Rhino census (Kaziranga and State)",
+            "hi": "गैंडा गणना (काज़ीरंगा और राज्य)",
+            "mr": "गेंडा गणना (काझीरंगा व राज्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Assam Forest Department rhino estimation."
+        },
+        {
+          "label": {
+            "en": "Tiger estimate",
+            "hi": "बाघों का अनुमान",
+            "mr": "वाघांचा अंदाज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ntca",
+          "note": "NTCA All India Tiger Estimation."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "region": "IN-AS",
+  "module": "energy",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Assam is one of India's oldest oil and gas producers: Oil India Limited is headquartered at Duliajan, and ONGC works fields around Sivasagar. Natural gas fuels power stations at Namrup and elsewhere, and NTPC's coal plant at Bongaigaon adds to supply. The Lower Subansiri hydro-electric project on the Assam–Arunachal border is one of India's largest, and the State is adding solar capacity.",
+        "hi": "असम भारत के सबसे पुराने तेल और गैस उत्पादकों में से है: ऑयल इंडिया लिमिटेड का मुख्यालय दुलियाजान में है, और ओएनजीसी शिवसागर के आसपास के क्षेत्रों में काम करता है। प्राकृतिक गैस नामरूप और अन्य स्थानों के बिजलीघरों को ईंधन देती है, और बोंगाईगाँव में एनटीपीसी का कोयला संयंत्र आपूर्ति बढ़ाता है। असम–अरुणाचल सीमा पर निचली सुबनसिरी जलविद्युत परियोजना भारत की सबसे बड़ी परियोजनाओं में से है, और राज्य सौर क्षमता जोड़ रहा है।",
+        "mr": "आसाम हा भारतातील सर्वांत जुन्या तेल व वायू उत्पादकांपैकी एक आहे: ऑइल इंडिया लिमिटेडचे मुख्यालय दुलियाजान येथे आहे, आणि ओएनजीसी शिवसागरभोवतीच्या क्षेत्रांत काम करते. नैसर्गिक वायू नामरूप व इतर ठिकाणच्या वीजकेंद्रांना इंधन पुरवतो, आणि बोंगाईगाव येथील एनटीपीसीचा कोळसा प्रकल्प पुरवठ्यात भर घालतो. आसाम–अरुणाचल सीमेवरील लोअर सुबनसिरी जलविद्युत प्रकल्प हा भारतातील सर्वांत मोठ्या प्रकल्पांपैकी एक आहे, आणि राज्य सौरक्षमता वाढवत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Crude oil and gas production",
+            "hi": "कच्चा तेल और गैस उत्पादन",
+            "mr": "कच्चे तेल व वायू उत्पादन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Petroleum and Natural Gas statistics."
+        }
+      ]
+    }
+  ]
+}

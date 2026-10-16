@@ -1,0 +1,68 @@
+{
+  "region": "IN-AS",
+  "module": "water",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Water defines Assam. The Brahmaputra carries one of the heaviest sediment loads of any large river, and its channels shift constantly; together with its tributaries from the Himalaya, it floods large parts of the valley almost every year, while bank erosion has destroyed villages and steadily shrunk Majuli island. The Barak valley also suffers severe floods. Embankments line much of the river, and the Brahmaputra Board plans flood control and drainage. Beels and wetlands store floodwater and support fisheries. Groundwater is plentiful but affected in places by arsenic, fluoride and iron, and piped drinking water under the Jal Jeevan Mission has been expanding.",
+        "hi": "पानी असम की पहचान है। ब्रह्मपुत्र किसी भी बड़ी नदी में सबसे भारी गाद ले जाने वाली नदियों में से है, और इसकी धाराएँ लगातार बदलती हैं; हिमालय से आने वाली सहायक नदियों के साथ यह लगभग हर वर्ष घाटी के बड़े भागों में बाढ़ लाती है, जबकि तट कटाव ने गाँवों को नष्ट किया है और माजुली द्वीप को लगातार सिकोड़ा है। बराक घाटी भी भीषण बाढ़ झेलती है। नदी के बड़े भाग पर तटबंध हैं, और ब्रह्मपुत्र बोर्ड बाढ़ नियंत्रण और जल-निकासी की योजना बनाता है। बील और आर्द्रभूमियाँ बाढ़ का पानी रोकती हैं और मत्स्य पालन का आधार हैं। भूजल प्रचुर है लेकिन कुछ स्थानों पर आर्सेनिक, फ़्लोराइड और लौह से प्रभावित है, और जल जीवन मिशन के तहत नल से पेयजल का विस्तार हो रहा है।",
+        "mr": "पाणी ही आसामची ओळख आहे. ब्रह्मपुत्रा ही कोणत्याही मोठ्या नदीपैकी सर्वाधिक गाळ वाहून नेणाऱ्या नद्यांपैकी एक असून तिचे प्रवाह सतत बदलतात; हिमालयातून येणाऱ्या उपनद्यांसह ती जवळपास दरवर्षी खोऱ्याच्या मोठ्या भागात पूर आणते, तर किनारा-धूपीने गावे उद्ध्वस्त केली आहेत व माजुली बेट सतत आकुंचित केले आहे. बराक खोरेही तीव्र पूर सोसते. नदीच्या बऱ्याच भागावर बांध आहेत, आणि ब्रह्मपुत्रा मंडळ पूरनियंत्रण व निचऱ्याचे नियोजन करते. बील व पाणथळे पुराचे पाणी साठवतात व मत्स्यव्यवसायाला आधार देतात. भूजल मुबलक आहे पण काही ठिकाणी आर्सेनिक, फ्लोराइड व लोहाने बाधित आहे, आणि जलजीवन मिशनअंतर्गत नळाद्वारे पिण्याच्या पाण्याचा विस्तार होत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Flood-affected population and area by year",
+            "hi": "वर्षवार बाढ़ प्रभावित जनसंख्या और क्षेत्र",
+            "mr": "वर्षनिहाय पूरग्रस्त लोकसंख्या व क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "ASDMA flood reports."
+        },
+        {
+          "label": {
+            "en": "Land lost to erosion",
+            "hi": "कटाव से नष्ट भूमि",
+            "mr": "धूपीने गेलेली जमीन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Assam Water Resources Department / Brahmaputra Board."
+        },
+        {
+          "label": {
+            "en": "Arsenic- and fluoride-affected habitations",
+            "hi": "आर्सेनिक और फ़्लोराइड प्रभावित बस्तियाँ",
+            "mr": "आर्सेनिक व फ्लोराइडबाधित वस्त्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission water-quality data."
+        }
+      ]
+    }
+  ]
+}

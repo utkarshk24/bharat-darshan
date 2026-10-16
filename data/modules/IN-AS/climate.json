@@ -1,0 +1,183 @@
+{
+  "region": "IN-AS",
+  "module": "climate",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Assam has a humid subtropical climate with a long, heavy monsoon. Pre-monsoon thunderstorms (bordoicila, 'nor'westers') arrive in March–April, and the south-west monsoon (June–September) brings very heavy rain, especially along the foothills, so floods are common from May to September. Summers are warm and humid rather than extremely hot, and winters (November–February) are cool and dry, with fog in the valley.",
+        "hi": "असम की जलवायु आर्द्र उपोष्ण है, जिसमें लंबा और भारी मानसून होता है। मार्च–अप्रैल में मानसून-पूर्व आँधियाँ (बरदैसिला, 'नॉर्वेस्टर') आती हैं, और दक्षिण-पश्चिम मानसून (जून–सितंबर) बहुत भारी वर्षा लाता है, विशेषकर तराई के साथ-साथ, इसलिए मई से सितंबर तक बाढ़ आम है। गर्मियाँ बहुत तेज़ गर्म के बजाय उमस भरी होती हैं, और सर्दियाँ (नवंबर–फ़रवरी) ठंडी और सूखी होती हैं, घाटी में कोहरे के साथ।",
+        "mr": "आसामचे हवामान दमट उपोष्ण असून मान्सून दीर्घ व मुसळधार असतो. मार्च–एप्रिलमध्ये मान्सूनपूर्व वादळे (बरदैसिला, 'नॉर्वेस्टर') येतात, आणि नैर्ऋत्य मान्सून (जून–सप्टेंबर) अतिशय मुसळधार पाऊस आणतो, विशेषतः पायथ्यालगत, त्यामुळे मे ते सप्टेंबरदरम्यान पूर सामान्य आहेत. उन्हाळा अतिउष्ण नसून दमट असतो, आणि हिवाळा (नोव्हेंबर–फेब्रुवारी) थंड व कोरडा असतो, खोऱ्यात धुक्यासह.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Guwahati",
+            "hi": "गुवाहाटी",
+            "mr": "गुवाहाटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 26.1445,
+          "lon": 91.7362
+        },
+        {
+          "name": {
+            "en": "Dibrugarh",
+            "hi": "डिब्रूगढ़",
+            "mr": "डिब्रुगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 27.4728,
+          "lon": 94.912
+        },
+        {
+          "name": {
+            "en": "Silchar",
+            "hi": "सिलचर",
+            "mr": "सिलचर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 24.8333,
+          "lon": 92.7789
+        },
+        {
+          "name": {
+            "en": "Tezpur",
+            "hi": "तेजपुर",
+            "mr": "तेजपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 26.6528,
+          "lon": 92.7926
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "November to April",
+            "hi": "नवंबर से अप्रैल",
+            "mr": "नोव्हेंबर ते एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Kaziranga and Manas are open (usually from November); Magh Bihu in January; Rongali Bihu in mid-April.",
+            "hi": "काज़ीरंगा और मानस खुले रहते हैं (प्रायः नवंबर से); जनवरी में माघ बिहू; मध्य अप्रैल में रोंगाली बिहू।",
+            "mr": "काझीरंगा व मानस खुले असतात (सहसा नोव्हेंबरपासून); जानेवारीत माघ बिहू; एप्रिलच्या मध्यात रोंगाली बिहू.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "May to September",
+            "hi": "मई से सितंबर",
+            "mr": "मे ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Floods; national parks closed; Ambubachi Mela at Kamakhya in June.",
+            "hi": "बाढ़; राष्ट्रीय उद्यान बंद; जून में कामाख्या में अंबुबाची मेला।",
+            "mr": "पूर; राष्ट्रीय उद्याने बंद; जूनमध्ये कामाख्या येथे अंबुबाची मेळा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "autumn",
+          "name": {
+            "en": "October",
+            "hi": "अक्टूबर",
+            "mr": "ऑक्टोबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Durga Puja and Kati Bihu; tea plucking season continues.",
+            "hi": "दुर्गा पूजा और काती बिहू; चाय तोड़ाई का मौसम जारी।",
+            "mr": "दुर्गापूजा व काती बिहू; चहा खुडणीचा हंगाम सुरू.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (Assam & Meghalaya sub-division)",
+            "hi": "सामान्य वार्षिक वर्षा (असम व मेघालय उप-मंडल)",
+            "mr": "सरासरी वार्षिक पाऊस (आसाम व मेघालय उपविभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics."
+        }
+      ]
+    }
+  ]
+}

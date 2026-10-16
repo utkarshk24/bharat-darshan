@@ -1,0 +1,559 @@
+{
+  "region": "IN-AS",
+  "module": "economy",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Assam's GSDP at current prices was ₹6,43,667 crore in FY2024-25 and per capita income ₹1,59,185, according to the Comptroller and Auditor General's State Finances Audit Report, which notes that per capita income remained below the national average. The same report puts the tertiary sector at about 38% of GSDP, the primary sector at 33% and the secondary sector at 20% in FY2024-25. Tea is the signature industry — Assam grows a large share of India's tea on hundreds of estates and many small gardens — and the State has oil and gas fields in Upper Assam, with refineries at Digboi, Guwahati, Bongaigaon and Numaligarh and a petrochemical complex at Lepetkata. Rice, fish, silk, bamboo and tourism support many livelihoods, and a semiconductor assembly plant at Jagiroad marks a new industry.\n\nThe PLFS unemployment rate rose from 1.6% in 2022 to 4.4% in 2024 before easing to 3.7% in 2025; 42.8% of women aged 15 and above were in the labour force.",
+        "hi": "नियंत्रक एवं महालेखापरीक्षक की राज्य वित्त लेखापरीक्षा रिपोर्ट के अनुसार वित्त वर्ष 2024-25 में असम का प्रचलित मूल्यों पर जीएसडीपी ₹6,43,667 करोड़ और प्रति व्यक्ति आय ₹1,59,185 थी; रिपोर्ट के अनुसार प्रति व्यक्ति आय राष्ट्रीय औसत से कम रही। इसी रिपोर्ट के अनुसार वित्त वर्ष 2024-25 में तृतीयक क्षेत्र जीएसडीपी का लगभग 38%, प्राथमिक क्षेत्र 33% और द्वितीयक क्षेत्र 20% था। चाय पहचान वाला उद्योग है — असम सैकड़ों बाग़ानों और कई छोटे बाग़ों में भारत की चाय का बड़ा हिस्सा उगाता है — और ऊपरी असम में तेल व गैस क्षेत्र हैं, डिगबोई, गुवाहाटी, बोंगाईगाँव और नुमालीगढ़ में रिफ़ाइनरियाँ और लेपेटकाटा में पेट्रोरसायन परिसर। धान, मछली, रेशम, बाँस और पर्यटन बहुत से लोगों की आजीविका हैं, और जागीरोड में सेमीकंडक्टर असेंबली संयंत्र एक नया उद्योग है।\n\nपीएलएफ़एस बेरोज़गारी दर 2022 के 1.6% से बढ़कर 2024 में 4.4% हुई और 2025 में घटकर 3.7% रही; 15 वर्ष से अधिक आयु की 42.8% महिलाएँ श्रम बल में थीं।",
+        "mr": "नियंत्रक व महालेखापरीक्षकांच्या राज्य वित्त लेखापरीक्षा अहवालानुसार आ.व. 2024-25 मध्ये आसामचे चालू किमतींनुसार जीएसडीपी ₹6,43,667 कोटी व दरडोई उत्पन्न ₹1,59,185 होते; अहवालानुसार दरडोई उत्पन्न राष्ट्रीय सरासरीपेक्षा कमी राहिले. याच अहवालानुसार आ.व. 2024-25 मध्ये तृतीयक क्षेत्राचा जीएसडीपीत सुमारे 38%, प्राथमिक क्षेत्राचा 33% व द्वितीयक क्षेत्राचा 20% वाटा होता. चहा हा ओळख असलेला उद्योग आहे — आसाम शेकडो मळ्यांत व अनेक लहान बागांत भारतातील चहाचा मोठा वाटा पिकवतो — आणि वरच्या आसाममध्ये तेल व वायूक्षेत्रे आहेत, डिगबोई, गुवाहाटी, बोंगाईगाव व नुमालीगड येथे शुद्धीकरण कारखाने व लेपेटकाटा येथे पेट्रोरसायन संकुल. भात, मासे, रेशीम, बांबू व पर्यटन अनेकांच्या उपजीविकेचा आधार आहेत, आणि जागीरोड येथील सेमीकंडक्टर जोडणी प्रकल्प हा नवा उद्योग आहे.\n\nपीएलएफएस बेरोजगारी दर 2022 मधील 1.6% वरून 2024 मध्ये 4.4% पर्यंत वाढला व 2025 मध्ये 3.7% वर आला; 15 वर्षांवरील 42.8% स्त्रिया श्रमशक्तीत होत्या.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "cag",
+        "plfs"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "gsdp",
+          "label": {
+            "en": "GSDP, current prices",
+            "hi": "जीएसडीपी, प्रचलित मूल्य",
+            "mr": "जीएसडीपी, चालू किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 643667,
+            "unit": "₹ crore",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "cag",
+            "url": "https://www.digitalreports.cag.gov.in/assam/chapter/1",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            },
+            "note": "CAG, State Finances Audit Report of Assam 2024-25, chapter 1 (Table 1.2): GSDP at current prices ₹6,43,667 crore, growth 13.07% over the previous year; ₹3,39,803 crore in 2020-21. MoSPI's state-wise API had no Assam series at access time, so the CAG figure is used; the estimate type (advance, quick, revised) is not stated in the excerpt read."
+          },
+          "kind": "rupeeCrore",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 339803,
+            "unit": "₹ crore",
+            "period": "FY2020-21",
+            "periodType": "fy",
+            "sourceId": "cag",
+            "url": "https://www.digitalreports.cag.gov.in/assam/chapter/1",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "revised",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            },
+            "note": "CAG SFAR 2024-25, Table 1.2."
+          }
+        },
+        {
+          "id": "pc",
+          "label": {
+            "en": "Per capita income, current prices",
+            "hi": "प्रति व्यक्ति आय, प्रचलित मूल्य",
+            "mr": "दरडोई उत्पन्न, चालू किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 159185,
+            "unit": "₹",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "cag",
+            "url": "https://www.digitalreports.cag.gov.in/assam/chapter/1",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            },
+            "note": "CAG, State Finances Audit Report of Assam 2024-25: per capita income ₹1,59,185 (₹86,947 in 2020-21). Assumed to be per capita NSDP at current prices; confirm against the Assam Economic Survey."
+          },
+          "kind": "rupee",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 86947,
+            "unit": "₹",
+            "period": "FY2020-21",
+            "periodType": "fy",
+            "sourceId": "cag",
+            "url": "https://www.digitalreports.cag.gov.in/assam/chapter/1",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "revised",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            },
+            "note": "CAG SFAR 2024-25."
+          }
+        },
+        {
+          "id": "ur",
+          "label": {
+            "en": "Unemployment rate, 15+ (PS+SS)",
+            "hi": "बेरोज़गारी दर, 15+ (पीएस+एसएस)",
+            "mr": "बेरोजगारी दर, 15+ (पीएस+एसएस)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 3.7,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PLFS annual, calendar year, usual status (PS+SS), persons 15 years and above."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 4.4,
+            "unit": "%",
+            "period": "2024",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 3.1,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lfpr",
+          "label": {
+            "en": "Labour force participation, women 15+",
+            "hi": "श्रम बल भागीदारी, महिलाएँ 15+",
+            "mr": "श्रमशक्ती सहभाग, महिला 15+",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 42.8,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PLFS annual 2025, PS+SS. All persons: 61.9% (India 59.3%)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 40.0,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Key indicators",
+        "hi": "मुख्य संकेतक",
+        "mr": "प्रमुख निर्देशक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "series",
+      "id": "ur-series",
+      "title": {
+        "en": "Unemployment rate, persons 15+ (PLFS)",
+        "hi": "बेरोज़गारी दर, 15+ आयु (पीएलएफ़एस)",
+        "mr": "बेरोजगारी दर, 15+ वय (पीएलएफएस)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "lower-is-better",
+      "series": [
+        {
+          "id": "as",
+          "label": {
+            "en": "Assam",
+            "hi": "असम",
+            "mr": "आसाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 1.6,
+              "unit": "%",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 3.1,
+              "unit": "%",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 4.4,
+              "unit": "%",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 3.7,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            }
+          ]
+        },
+        {
+          "id": "in",
+          "label": {
+            "en": "India",
+            "hi": "भारत",
+            "mr": "भारत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 3.6,
+              "unit": "%",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.1,
+              "unit": "%",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.2,
+              "unit": "%",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.1,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "sectors-key",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "tea",
+          "name": {
+            "en": "Tea",
+            "hi": "चाय",
+            "mr": "चहा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Estates and small growers across the Brahmaputra valley; Assam Orthodox GI.",
+            "hi": "ब्रह्मपुत्र घाटी भर में बाग़ान और छोटे उत्पादक; असम ऑर्थोडॉक्स जीआई।",
+            "mr": "ब्रह्मपुत्रा खोऱ्यात मळे व लहान उत्पादक; आसाम ऑर्थोडॉक्स जीआय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "oil",
+          "name": {
+            "en": "Oil, gas and refining",
+            "hi": "तेल, गैस और शोधन",
+            "mr": "तेल, वायू व शुद्धीकरण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Digboi, Duliajan and Sivasagar fields; four refineries.",
+            "hi": "डिगबोई, दुलियाजान और शिवसागर क्षेत्र; चार रिफ़ाइनरियाँ।",
+            "mr": "डिगबोई, दुलियाजान व शिवसागर क्षेत्रे; चार शुद्धीकरण कारखाने.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rice",
+          "name": {
+            "en": "Rice and fisheries",
+            "hi": "धान और मत्स्य पालन",
+            "mr": "भात व मत्स्यव्यवसाय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Sali, ahu and boro rice; beel and river fisheries.",
+            "hi": "शाली, आहू और बोरो धान; बील और नदी मत्स्य पालन।",
+            "mr": "शाली, आहू व बोरो भात; बील व नदी मत्स्यव्यवसाय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "silk",
+          "name": {
+            "en": "Silk and handloom",
+            "hi": "रेशम और हथकरघा",
+            "mr": "रेशीम व हातमाग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Muga, eri and pat silk; Sualkuchi weaving town.",
+            "hi": "मूगा, एरी और पाट रेशम; सुआलकुची बुनकर नगर।",
+            "mr": "मुगा, एरी व पाट रेशीम; सुआलकुची विणकर नगर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "semi",
+          "name": {
+            "en": "Electronics",
+            "hi": "इलेक्ट्रॉनिक्स",
+            "mr": "इलेक्ट्रॉनिक्स",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Semiconductor assembly and test plant at Jagiroad.",
+            "hi": "जागीरोड में सेमीकंडक्टर असेंबली और परीक्षण संयंत्र।",
+            "mr": "जागीरोड येथे सेमीकंडक्टर जोडणी व चाचणी प्रकल्प.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tourism",
+          "name": {
+            "en": "Tourism",
+            "hi": "पर्यटन",
+            "mr": "पर्यटन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Kaziranga, Manas, Majuli and Kamakhya.",
+            "hi": "काज़ीरंगा, मानस, माजुली और कामाख्या।",
+            "mr": "काझीरंगा, मानस, माजुली व कामाख्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key sectors",
+        "hi": "प्रमुख क्षेत्र",
+        "mr": "प्रमुख क्षेत्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "GSDP series and sectoral GSVA (MoSPI)",
+            "hi": "जीएसडीपी शृंखला और क्षेत्रवार जीएसवीए (मोस्पी)",
+            "mr": "जीएसडीपी मालिका व क्षेत्रनिहाय जीएसव्हीए (मोस्पी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mospi",
+          "note": "MoSPI's state-wise API returned no Assam series at access time; use the Assam Economic Survey or DES Assam."
+        },
+        {
+          "label": {
+            "en": "Tea production and share of India",
+            "hi": "चाय उत्पादन और भारत में हिस्सा",
+            "mr": "चहा उत्पादन व भारतातील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Tea Board of India statistics."
+        },
+        {
+          "label": {
+            "en": "Debt-to-GSDP ratio",
+            "hi": "ऋण-जीएसडीपी अनुपात",
+            "mr": "कर्ज-जीएसडीपी गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cag",
+          "note": "CAG SFAR / RBI State Finances."
+        }
+      ]
+    }
+  ]
+}

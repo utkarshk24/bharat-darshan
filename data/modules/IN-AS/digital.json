@@ -1,0 +1,55 @@
+{
+  "region": "IN-AS",
+  "module": "digital",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Guwahati is the north-east's main technology and start-up centre, with incubators at IIT Guwahati and an IT park at Amingaon. The Jagiroad semiconductor plant is expected to bring electronics manufacturing to the region. The State runs many services online, and mobile connectivity has expanded across the valleys, though hill and char areas remain less connected.",
+        "hi": "गुवाहाटी पूर्वोत्तर का मुख्य प्रौद्योगिकी और स्टार्टअप केंद्र है, जहाँ आईआईटी गुवाहाटी में इनक्यूबेटर और अमीनगाँव में आईटी पार्क है। जागीरोड सेमीकंडक्टर संयंत्र से क्षेत्र में इलेक्ट्रॉनिक्स विनिर्माण आने की उम्मीद है। राज्य कई सेवाएँ ऑनलाइन देता है, और घाटियों में मोबाइल कनेक्टिविटी बढ़ी है, हालाँकि पहाड़ी और चर क्षेत्र कम जुड़े हैं।",
+        "mr": "गुवाहाटी हे ईशान्येचे मुख्य तंत्रज्ञान व स्टार्टअप केंद्र आहे, जिथे आयआयटी गुवाहाटीत इन्क्युबेटर व अमीनगाव येथे आयटी पार्क आहे. जागीरोड सेमीकंडक्टर प्रकल्पामुळे प्रदेशात इलेक्ट्रॉनिक्स उत्पादन येण्याची अपेक्षा आहे. राज्य अनेक सेवा ऑनलाइन देते, आणि खोऱ्यांत मोबाइल जोडणी वाढली आहे, तरी डोंगरी व चर भाग कमी जोडलेले आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Assam circle)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

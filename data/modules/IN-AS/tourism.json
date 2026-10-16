@@ -1,0 +1,326 @@
+{
+  "region": "IN-AS",
+  "module": "tourism",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Kaziranga, with jeep and elephant safaris among rhinos, is Assam's best-known destination, and Manas, Pobitora, Nameri and Dibru-Saikhowa offer quieter wildlife experiences. Guwahati has the Kamakhya temple on Nilachal hill, Umananda island in the Brahmaputra and river cruises. Majuli's satras, mask-makers and Mising villages, Sivasagar's Ahom monuments and the Charaideo Moidams tell Assam's history, and tea-estate bungalows around Jorhat and Dibrugarh offer stays among the gardens. Hajo is a meeting point of Hindu, Buddhist and Muslim pilgrimage, and Haflong in Dima Hasao is the State's only hill station.",
+        "hi": "गैंडों के बीच जीप और हाथी सफ़ारी वाला काज़ीरंगा असम का सबसे प्रसिद्ध गंतव्य है, और मानस, पबितरा, नामेरी और डिब्रू-सैखोवा शांत वन्यजीव अनुभव देते हैं। गुवाहाटी में नीलाचल पहाड़ी पर कामाख्या मंदिर, ब्रह्मपुत्र में उमानंद द्वीप और नदी क्रूज़ हैं। माजुली के सत्र, मुखौटा बनाने वाले और मिसिंग गाँव, शिवसागर के अहोम स्मारक और चराइदेउ मोइदाम असम का इतिहास बताते हैं, और जोरहाट व डिब्रूगढ़ के आसपास चाय बाग़ानों के बंगले बाग़ों के बीच रहने का अवसर देते हैं। हाजो हिंदू, बौद्ध और मुस्लिम तीर्थों का संगम है, और दिमा हसाओ का हाफ़लोंग राज्य का एकमात्र पहाड़ी स्थल है।",
+        "mr": "गेंड्यांमध्ये जीप व हत्ती सफारी असलेले काझीरंगा हे आसामचे सर्वांत प्रसिद्ध ठिकाण आहे, आणि मानस, पोबितोरा, नामेरी व डिब्रू-सैखोवा शांत वन्यजीव अनुभव देतात. गुवाहाटीत नीलाचल टेकडीवर कामाख्या मंदिर, ब्रह्मपुत्रेत उमानंद बेट व नदीसफरी आहेत. माजुलीचे सत्र, मुखवटे घडवणारे कारागीर व मिसिंग गावे, शिवसागरची अहोम स्मारके व चराइदेव मोइदाम आसामचा इतिहास सांगतात, आणि जोरहाट व डिब्रुगडभोवतीचे चहामळ्यांतील बंगले बागांमध्ये राहण्याची संधी देतात. हाजो हे हिंदू, बौद्ध व मुस्लिम तीर्थांचा संगम आहे, आणि दिमा हसाओतील हाफलोंग हे राज्यातील एकमेव थंड हवेचे ठिकाण आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kaziranga",
+          "name": {
+            "en": "Kaziranga",
+            "hi": "काज़ीरंगा",
+            "mr": "काझीरंगा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO; rhinos",
+            "hi": "यूनेस्को; गैंडे",
+            "mr": "युनेस्को; गेंडे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kamakhya",
+          "name": {
+            "en": "Guwahati and Kamakhya",
+            "hi": "गुवाहाटी और कामाख्या",
+            "mr": "गुवाहाटी व कामाख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Temple; river cruises",
+            "hi": "मंदिर; नदी क्रूज़",
+            "mr": "मंदिर; नदीसफर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "majuli",
+          "name": {
+            "en": "Majuli",
+            "hi": "माजुली",
+            "mr": "माजुली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "River island; satras",
+            "hi": "नदी द्वीप; सत्र",
+            "mr": "नदी-बेट; सत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sivasagar",
+          "name": {
+            "en": "Sivasagar and Charaideo",
+            "hi": "शिवसागर और चराइदेउ",
+            "mr": "शिवसागर व चराइदेव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ahom heritage",
+            "hi": "अहोम धरोहर",
+            "mr": "अहोम वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "manas",
+          "name": {
+            "en": "Manas",
+            "hi": "मानस",
+            "mr": "मानस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO; wildlife",
+            "hi": "यूनेस्को; वन्यजीव",
+            "mr": "युनेस्को; वन्यजीव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tea",
+          "name": {
+            "en": "Jorhat and Dibrugarh tea estates",
+            "hi": "जोरहाट और डिब्रूगढ़ के चाय बाग़ान",
+            "mr": "जोरहाट व डिब्रुगडचे चहामळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Tea tourism",
+            "hi": "चाय पर्यटन",
+            "mr": "चहा पर्यटन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "haflong",
+          "name": {
+            "en": "Haflong",
+            "hi": "हाफ़लोंग",
+            "mr": "हाफलोंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hill station",
+            "hi": "पहाड़ी स्थल",
+            "mr": "थंड हवेचे ठिकाण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Guwahati: Kamakhya, Umananda, a Brahmaputra cruise and Pobitora.",
+            "hi": "गुवाहाटी: कामाख्या, उमानंद, ब्रह्मपुत्र क्रूज़ और पबितरा।",
+            "mr": "गुवाहाटी: कामाख्या, उमानंद, ब्रह्मपुत्रा सफर व पोबितोरा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d4",
+          "name": {
+            "en": "4 days",
+            "hi": "4 दिन",
+            "mr": "4 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Guwahati and two days in Kaziranga.",
+            "hi": "गुवाहाटी और काज़ीरंगा में दो दिन।",
+            "mr": "गुवाहाटी व काझीरंग्यात दोन दिवस.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Guwahati, Kaziranga, Majuli, Sivasagar and a tea-estate stay near Jorhat.",
+            "hi": "गुवाहाटी, काज़ीरंगा, माजुली, शिवसागर और जोरहाट के पास चाय बाग़ान में ठहराव।",
+            "mr": "गुवाहाटी, काझीरंगा, माजुली, शिवसागर व जोरहाटजवळ चहामळ्यात मुक्काम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "at",
+          "name": {
+            "en": "Assam Tourism (official)",
+            "hi": "असम पर्यटन (आधिकारिक)",
+            "mr": "आसाम पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://tourism.assam.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        }
+      ]
+    }
+  ]
+}

@@ -16,7 +16,7 @@ const load = (): RawFiles => ({
 });
 const errors = (raw: RawFiles) => validateDataset(raw, new Date("2026-10-13")).filter((f) => f.severity === "error");
 const mh = (raw: RawFiles) => raw.regions.find((r) => r.file.endsWith("IN-MH.json"))!.json as any;
-const seed = (raw: RawFiles) => raw.regions.find((r) => r.file.endsWith("IN-OR.json"))!.json as any;
+const seed = (raw: RawFiles) => raw.regions.find((r) => r.file.endsWith("IN-HR.json"))!.json as any;
 
 describe("dataset", () => {
   it("passes validation with no errors", () => expect(errors(load())).toEqual([]));

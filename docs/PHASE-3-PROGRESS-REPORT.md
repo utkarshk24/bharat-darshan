@@ -176,7 +176,7 @@ Official sources are News On AIR, PMO and PIB unless marked *third-party*.
 
 ### Please check (batch 2)
 
-1. **Karnataka Governor.** Update to Sudha Yadav once she is sworn in.
+1. **Karnataka Governor.** Done: Sudha Yadav was sworn in on 16 October 2026 and the card now shows her (ANI, *third-party* until the Lok Bhavan page is linked).
 2. **Third-party officeholders.** These need official pages:
    - Karnataka and West Bengal Speakers;
    - Karnataka Leader of Opposition;
@@ -185,6 +185,107 @@ Official sources are News On AIR, PMO and PIB unless marked *third-party*.
 4. **District lists.** Check Karnataka's 31 (including whether Ramanagara has been renamed) and West Bengal's 23 against State notifications.
 5. **Translations.** Hindi and Marathi GI names and the text of the four new profiles need a native-speaker read.
 
+## 4. Phase 3, batch 3: Andhra Pradesh, Telangana, Rajasthan, Madhya Pradesh, Bihar
+
+All 26 sections of each profile are written in English, Hindi and Marathi, in the same structure as the earlier batches.
+
+**Officeholders** (as of 16 October 2026):
+
+| State | Governor | Chief Minister | Deputy CM(s) | Speaker |
+|---|---|---|---|---|
+| Andhra Pradesh | S. Abdul Nazeer (ANI, *third-party*) | N. Chandrababu Naidu (TDP), since 12 June 2024 | Pawan Kalyan (JSP) (*third-party*) | C. Ayyanna Patrudu (*third-party*) |
+| Telangana | Shiv Pratap Shukla, sworn in 11 March 2026 (IANS, *third-party*) | A. Revanth Reddy (INC), since 7 Dec 2023 (*third-party*) | Mallu Bhatti Vikramarka (*third-party*) | Gaddam Prasad Kumar (*third-party*) |
+| Rajasthan | Haribhau Kisanrao Bagde, since 31 July 2024 | Bhajan Lal Sharma (BJP), since 15 Dec 2023 (*third-party*) | Diya Kumari, Prem Chand Bairwa (*third-party*) | Vasudev Devnani (*third-party*) |
+| Madhya Pradesh | Mangubhai C. Patel, since 8 July 2021 (*third-party*) | Mohan Yadav (BJP), since 13 Dec 2023 (*third-party*) | Jagdish Devda, Rajendra Shukla (*third-party*) | Narendra Singh Tomar (*third-party*) |
+| Bihar | Syed Ata Hasnain, sworn in 14 March 2026 | **Samrat Choudhary (BJP), since 15 April 2026** | Vijay Kumar Chaudhary, Bijendra Prasad Yadav (JD(U)) | Prem Kumar |
+
+Official sources are News On AIR, PMO and the Rashtrapati Bhavan communiqué unless marked *third-party*. Two changes since the original plan were found and used:
+- **Telangana:** Jishnu Dev Varma moved to Maharashtra in March 2026 and Shiv Pratap Shukla replaced him.
+- **Bihar:** Nitish Kumar resigned in April 2026 after his election to the Rajya Sabha. Samrat Choudhary became the first BJP Chief Minister of Bihar.
+
+Leaders of Opposition are listed as gaps for all five. Andhra Pradesh has no recognised opposition party.
+
+**Census figures for the two divided States.** Tables that still show undivided Andhra Pradesh were not used for State figures. Instead:
+- Andhra Pradesh uses the State School Education department's recast of Census 2011 for the 13 residual districts: population 4.96 crore, sex ratio 997, literacy 67.35%, urban 29.47%.
+- Telangana uses the MSME-DI Hyderabad State Profile: population 3.50 crore, sex ratio 988, child sex ratio 932, literacy 66.54%, urban 38.88%.
+- Andhra Pradesh's child sex ratio is a gap.
+
+**Election results** (from ECI's own pages):
+- Andhra Pradesh 2024: TDP 135, JSP 21, YSRCP 11, BJP 8.
+- Telangana 2023: INC 64, BRS 39, BJP 8, AIMIM 7, CPI 1.
+- Rajasthan 2023: 199 seats declared — BJP 115, INC 69, others 15.
+- Madhya Pradesh 2023: BJP 163, INC 66, BAP 1.
+- Bihar 2025: only "BJP 89, single largest party" (News On AIR). ECI's results page could not be read as a final table, so the full table is a gap.
+
+**Data added for all five States:**
+- MoSPI GSDP and per-capita NSDP series to FY2025-26, and sector shares for FY2024-25.
+- PLFS 2025 and AISHE GER 2017-18 to 2021-22.
+- NFHS-5 nutrition and births, and SRS figures:
+  - Economic Survey 2023-24 table for 2020 IMR and birth rate;
+  - life expectancy 2014-18;
+  - maternal mortality and under-five mortality for Andhra Pradesh and Telangana only, as these are the only two in the PIB list.
+- ISFR 2023 forest cover, and every Ramsar site (AP 1, TG 0, RJ 5, MP 5, BR 6).
+- All GIs from the Registry list, including shared ones marked "shared with": AP 22, TG 19, RJ 22, MP 30, BR 16. The GI directory now has **469 products**.
+- District lists: AP 28 (Markapuram and Polavaram added from 31 Dec 2025), TG 33, RJ 41 (after nine were cancelled in Dec 2024), MP 55 and BR 38.
+
+**Projects:**
+
+| Project | Status | Source |
+|---|---|---|
+| Bhogapuram (Alluri Sitarama Raju) airport | Completed (inaugurated 1 Aug 2026) | PMO |
+| Amaravati capital works | Under construction | News On AIR |
+| Polavaram Phase 1 | Under construction (target March 2026, as of Aug 2024) | Lok Sabha |
+| PM MITRA park, Warangal | Completed (inaugurated 10 May 2026) | PMO |
+| Zaheerabad industrial area; NH-167 four-laning | Under construction | PMO |
+| Rajasthan Refinery, Pachpadra | Completed (dedicated 4 July 2026) | PMO |
+| Jaipur Metro Phase 2 | Under construction | PMO |
+| Ramjal Setu (PKC–ERCP) link | Announced | News On AIR |
+| Ken–Betwa link | Under construction | News On AIR |
+| Bhopal Metro priority corridor | Completed (20 Dec 2025) | News On AIR |
+| Patna Metro priority corridor | Completed (6 Oct 2025) | News On AIR |
+| AIIMS Darbhanga | Under construction | News On AIR |
+
+**Deliberately left blank** (all listed in the gap report):
+- The 2011 urban share for Rajasthan, Madhya Pradesh and Bihar.
+- Maternal and under-five mortality for Rajasthan, Madhya Pradesh and Bihar.
+- Tourism visit figures for all five States.
+- The full Bihar 2025 seat table.
+
+**Also fixed:**
+- **Maharashtra GI numbers.** Its three shared GIs carried the Registry list's serial numbers instead of application numbers:
+  - Kolhapuri Chappal is now 169 (was 164);
+  - Nagpur Orange is now 385 (was 167);
+  - Warli Painting is now 239 (was 168).
+- **`/compare`** now covers 14 regions: the Phase 2 six plus Karnataka, Gujarat, West Bengal and the five new States.
+- A data test used Bihar as its example of an empty profile. It now uses Odisha.
+
+**Sources added:**
+- AP Educational Statistics 2017-18;
+- AP Socio Economic Survey 2024-25;
+- MSME-DI Telangana State Profile;
+- Telangana Socio Economic Outlook 2024 (OpenCity copy);
+- Lok Bhavan Bihar;
+- third-party: Scroll, The South First, Free Press Journal, IANS and ETV Bharat.
+
+### Checks run (batch 3)
+
+| Check | Result |
+|---|---|
+| validate-data | 0 errors, 0 warnings, 1,054 gaps (887 after batch 2) |
+| Tests | 66/66 |
+| Type check | clean |
+| Static build | 4,372 pages |
+| Internal links | 3,78,654, all resolve |
+| Screenshots | Bihar government (en), Telangana overview (hi), Andhra Pradesh projects (mr), Rajasthan nature (mobile), Madhya Pradesh economy (hi), Compare. No console errors. |
+
+### Please check (batch 3)
+
+1. **Third-party officeholders.** Most of the AP, TG, RJ and MP cards cite news reports. Link the Lok Bhavan and Assembly pages in review.
+2. **Bhogapuram airport.** It is marked Completed on the strength of the PMO's inauguration release. Confirm that commercial flights have started.
+3. **Polavaram.** Find the official status after the March 2026 target.
+4. **Bihar GI entries 536–538.** The Registry list prints these without "(Logo)". They are labelled as logo registrations here because they were filed with other logo marks on 28 Dec 2015.
+5. **Translations.** Hindi and Marathi text of the five profiles and their GI names need a native-speaker read.
+
 ## Next batch
 
-Andhra Pradesh, Telangana, Rajasthan, Madhya Pradesh and Bihar. The comparison page (`/compare`) still covers six regions; adding the five new Phase 3 States to it is a small follow-up.
+Odisha, Jharkhand, Chhattisgarh, Assam and Punjab.

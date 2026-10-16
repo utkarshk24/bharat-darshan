@@ -1,0 +1,74 @@
+{
+  "region": "IN-TG",
+  "module": "projects",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "On 10 May 2026 the Prime Minister inaugurated or laid foundation stones for projects worth about ₹9,400 crore in Telangana, including the PM MITRA textile park at Warangal, the Zaheerabad industrial area and a four-lane section of NH-167. Each card shows its source and the date it was checked.",
+        "hi": "10 मई 2026 को प्रधानमंत्री ने तेलंगाना में लगभग ₹9,400 करोड़ की परियोजनाओं का उद्घाटन या शिलान्यास किया, जिनमें वारंगल का पीएम मित्र वस्त्र पार्क, ज़हीराबाद औद्योगिक क्षेत्र और एनएच-167 का चार-लेन खंड शामिल हैं। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "10 मे 2026 रोजी पंतप्रधानांनी तेलंगणातील सुमारे ₹9,400 कोटींच्या प्रकल्पांचे उद्घाटन किंवा पायाभरणी केली, ज्यात वरंगळचे पीएम मित्र वस्त्र उद्यान, झहीराबाद औद्योगिक क्षेत्र व एनएच-167 चा चौपदरी टप्पा यांचा समावेश आहे. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pmindia"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Kaleshwaram Lift Irrigation Project — official status",
+            "hi": "कालेश्वरम लिफ़्ट सिंचाई परियोजना — आधिकारिक स्थिति",
+            "mr": "कालेश्वरम उपसा सिंचन प्रकल्प — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "National Dam Safety Authority report and State irrigation department."
+        },
+        {
+          "label": {
+            "en": "Hyderabad Metro Phase II — approval status",
+            "hi": "हैदराबाद मेट्रो चरण II — स्वीकृति स्थिति",
+            "mr": "हैदराबाद मेट्रो टप्पा II — मंजुरी स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Housing and Urban Affairs."
+        },
+        {
+          "label": {
+            "en": "Regional Ring Road — status",
+            "hi": "क्षेत्रीय रिंग रोड — स्थिति",
+            "mr": "प्रादेशिक रिंग रोड — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nhai",
+          "note": "NHAI / MoRTH."
+        }
+      ]
+    }
+  ]
+}

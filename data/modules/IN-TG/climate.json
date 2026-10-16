@@ -1,0 +1,196 @@
+{
+  "region": "IN-TG",
+  "module": "climate",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Telangana has a semi-arid tropical climate. Summers from March to early June are very hot — the northern districts such as Adilabad, Ramagundam and Bhadrachalam often pass 45 °C — while Hyderabad, on higher ground, is a little milder. The south-west monsoon brings most of the year's rain between June and September, heavier in the north and east and lighter in the south-west. Winters from November to February are dry and pleasant, with cool nights.",
+        "hi": "तेलंगाना में अर्ध-शुष्क उष्णकटिबंधीय जलवायु है। मार्च से जून की शुरुआत तक गर्मियाँ बहुत गर्म होती हैं — आदिलाबाद, रामागुंडम और भद्राचलम जैसे उत्तरी ज़िलों में तापमान अक्सर 45 °C पार कर जाता है — जबकि ऊँचाई पर बसा हैदराबाद थोड़ा कम गर्म है। दक्षिण-पश्चिम मानसून जून से सितंबर के बीच साल की अधिकांश वर्षा लाता है, जो उत्तर और पूर्व में अधिक और दक्षिण-पश्चिम में कम होती है। नवंबर से फ़रवरी तक सर्दियाँ सूखी और सुहावनी होती हैं, और रातें ठंडी।",
+        "mr": "तेलंगणात अर्ध-शुष्क उष्णकटिबंधीय हवामान आहे. मार्च ते जूनच्या सुरुवातीपर्यंत उन्हाळा अतिशय उष्ण असतो — आदिलाबाद, रामगुंडम व भद्राचलमसारख्या उत्तरेकडील जिल्ह्यांत तापमान अनेकदा 45 °C ओलांडते — तर उंचावरील हैदराबाद थोडे सौम्य असते. नैर्ऋत्य मान्सून जून ते सप्टेंबरदरम्यान वर्षाचा बहुतांश पाऊस आणतो — उत्तर व पूर्वेत जास्त, नैर्ऋत्येत कमी. नोव्हेंबर ते फेब्रुवारी हिवाळा कोरडा व सुखद असतो, आणि रात्री थंड.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Hyderabad",
+            "hi": "हैदराबाद",
+            "mr": "हैदराबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 17.385,
+          "lon": 78.4867
+        },
+        {
+          "name": {
+            "en": "Warangal",
+            "hi": "वारंगल",
+            "mr": "वरंगळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 17.9689,
+          "lon": 79.5941
+        },
+        {
+          "name": {
+            "en": "Adilabad",
+            "hi": "आदिलाबाद",
+            "mr": "आदिलाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 19.6641,
+          "lon": 78.532
+        },
+        {
+          "name": {
+            "en": "Bhadrachalam",
+            "hi": "भद्राचलम",
+            "mr": "भद्राचलम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 17.6688,
+          "lon": 80.8936
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to February",
+            "hi": "अक्टूबर से फ़रवरी",
+            "mr": "ऑक्टोबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best for Hyderabad's monuments and Warangal; Bathukamma and Dasara in autumn.",
+            "hi": "हैदराबाद के स्मारकों और वारंगल के लिए सबसे अच्छा; शरद में बतुकम्मा और दशहरा।",
+            "mr": "हैदराबादची स्मारके व वरंगळसाठी उत्तम; शरद ऋतूत बतुकम्मा व दसरा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "March to May",
+            "hi": "मार्च से मई",
+            "mr": "मार्च ते मे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Very hot; Hyderabad's mango season.",
+            "hi": "बहुत गर्म; हैदराबाद में आम का मौसम।",
+            "mr": "अतिशय उष्ण; हैदराबादमध्ये आंब्यांचा हंगाम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "June to September",
+            "hi": "जून से सितंबर",
+            "mr": "जून ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Waterfalls in Adilabad (Kuntala, Pochera); Bonalu in July–August.",
+            "hi": "आदिलाबाद में झरने (कुंटाला, पोचेरा); जुलाई–अगस्त में बोनालु।",
+            "mr": "आदिलाबादमध्ये धबधबे (कुंटाला, पोचेरा); जुलै–ऑगस्टमध्ये बोनालू.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (Telangana sub-division)",
+            "hi": "सामान्य वार्षिक वर्षा (तेलंगाना उप-मंडल)",
+            "mr": "सरासरी वार्षिक पाऊस (तेलंगणा उपविभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics."
+        },
+        {
+          "label": {
+            "en": "Heatwave days by year",
+            "hi": "वर्षवार लू के दिन",
+            "mr": "वर्षनिहाय उष्णतेच्या लाटेचे दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD heatwave records."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "region": "IN-TG",
+  "module": "people",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Counted for its present area, Telangana had 3.50 crore people at the 2011 Census, with a density of about 312 per km². The sex ratio was 988 women per 1,000 men and the child sex ratio 932. Literacy was 66.5% (men 75.0%, women 58.0%), below the national 73.0%. About 38.9% of people lived in towns and cities — a high share, owing to Hyderabad. Scheduled Castes made up about 15.5% of the population and Scheduled Tribes about 9.1%, among them Lambadas, Koyas and Gonds.\n\nTelugu is the language of most people, and Urdu — especially the Dakhni of Hyderabad — is spoken by many. Lambadi, Gondi and Koya are spoken in tribal areas, and Marathi and Kannada along the western borders.",
+        "hi": "वर्तमान क्षेत्र के अनुसार गिनने पर, 2011 की जनगणना में तेलंगाना की जनसंख्या 3.50 करोड़ थी, और घनत्व लगभग 312 प्रति वर्ग किमी। लिंगानुपात प्रति 1,000 पुरुषों पर 988 महिलाएँ और शिशु लिंगानुपात 932 था। साक्षरता 66.5% (पुरुष 75.0%, महिलाएँ 58.0%) थी, जो राष्ट्रीय 73.0% से कम है। लगभग 38.9% लोग कस्बों और शहरों में रहते थे — हैदराबाद के कारण ऊँचा हिस्सा। अनुसूचित जातियाँ जनसंख्या का लगभग 15.5% और अनुसूचित जनजातियाँ लगभग 9.1% थीं, जिनमें लंबाडा, कोया और गोंड शामिल हैं।\n\nअधिकांश लोग तेलुगु बोलते हैं, और बहुत से लोग उर्दू — विशेषकर हैदराबाद की दक्खिनी — बोलते हैं। आदिवासी क्षेत्रों में लंबाडी, गोंडी और कोया, और पश्चिमी सीमाओं पर मराठी और कन्नड़ बोली जाती हैं।",
+        "mr": "सध्याच्या क्षेत्रानुसार मोजल्यास, 2011 च्या जनगणनेत तेलंगणाची लोकसंख्या 3.50 कोटी होती, आणि घनता सुमारे 312 प्रति चौ.किमी. दर 1,000 पुरुषांमागे 988 स्त्रिया व बाल लिंग गुणोत्तर 932 होते. साक्षरता 66.5% (पुरुष 75.0%, स्त्रिया 58.0%) होती, राष्ट्रीय 73.0% पेक्षा कमी. सुमारे 38.9% लोक शहरांत राहत होते — हैदराबादमुळे मोठा वाटा. अनुसूचित जाती लोकसंख्येच्या सुमारे 15.5% व अनुसूचित जमाती सुमारे 9.1% होत्या, ज्यांत लंबाडा, कोया व गोंड यांचा समावेश आहे.\n\nबहुसंख्य लोक तेलुगु बोलतात, आणि अनेक जण उर्दू — विशेषतः हैदराबादची दख्खनी — बोलतात. आदिवासी भागांत लंबाडी, गोंडी व कोया, आणि पश्चिम सीमेवर मराठी व कन्नड बोलल्या जातात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "msme-di",
+        "census"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 35003674,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "msme-di",
+            "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 recast for the present State of Telangana, from the MSME-DI Hyderabad 'State Profile of Telangana 2015-16'. Males 1,76,11,633; females 1,73,92,041."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 988,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "msme-di",
+            "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 recast for the present State of Telangana, from the MSME-DI Hyderabad 'State Profile of Telangana 2015-16'."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 932,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "msme-di",
+            "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 recast for the present State of Telangana, from the MSME-DI Hyderabad 'State Profile of Telangana 2015-16'."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 66.54,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "msme-di",
+            "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 recast for the present State of Telangana, from the MSME-DI Hyderabad 'State Profile of Telangana 2015-16'. Males 75.04%, females 57.99%."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "urb",
+          "label": {
+            "en": "Urban population share",
+            "hi": "शहरी जनसंख्या का हिस्सा",
+            "mr": "नागरी लोकसंख्येचा वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 38.88,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "msme-di",
+            "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 recast for the present State of Telangana, from the MSME-DI Hyderabad 'State Profile of Telangana 2015-16'. Urban population 1,36,08,665."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 312,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "msme-di",
+            "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: Census 2011 population 3,50,03,674 ÷ area 1,12,077 km² = 312.3; the State Profile also gives 312."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "sc",
+          "label": {
+            "en": "Scheduled Castes, share of population",
+            "hi": "अनुसूचित जातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 15.45,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "msme-di",
+            "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: 54,08,800 SC persons ÷ 3,50,03,674 (Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        },
+        {
+          "id": "st",
+          "label": {
+            "en": "Scheduled Tribes, share of population",
+            "hi": "अनुसूचित जनजातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जमाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 9.08,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "msme-di",
+            "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: 31,77,940 ST persons ÷ 3,50,03,674 (Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        },
+        {
+          "id": "growth",
+          "label": {
+            "en": "Decadal growth, 2001–2011",
+            "hi": "दशकीय वृद्धि, 2001–2011",
+            "mr": "दशकातील वाढ, 2001–2011",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 13.58,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "msme-di",
+            "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Growth between the 2001 and 2011 Censuses, as given in the MSME-DI State Profile."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance (present area)",
+        "hi": "जनगणना 2011 एक नज़र में (वर्तमान क्षेत्र)",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात (सध्याचे क्षेत्र)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "langs",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "te",
+          "name": {
+            "en": "Telugu",
+            "hi": "तेलुगु",
+            "mr": "तेलुगु",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official language",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ur",
+          "name": {
+            "en": "Urdu (Dakhni)",
+            "hi": "उर्दू (दक्खिनी)",
+            "mr": "उर्दू (दख्खनी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Second official language",
+            "hi": "दूसरी राजभाषा",
+            "mr": "दुसरी राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lmn",
+          "name": {
+            "en": "Lambadi",
+            "hi": "लंबाडी",
+            "mr": "लंबाडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gon",
+          "name": {
+            "en": "Gondi",
+            "hi": "गोंडी",
+            "mr": "गोंडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "koya",
+          "name": {
+            "en": "Koya",
+            "hi": "कोया",
+            "mr": "कोया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mr",
+          "name": {
+            "en": "Marathi",
+            "hi": "मराठी",
+            "mr": "मराठी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kn",
+          "name": {
+            "en": "Kannada",
+            "hi": "कन्नड़",
+            "mr": "कन्नड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Languages",
+        "hi": "भाषाएँ",
+        "mr": "भाषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Religion shares (Census 2011, C-01)",
+            "hi": "धर्मवार हिस्सा (जनगणना 2011, C-01)",
+            "mr": "धर्मनिहाय वाटा (जनगणना 2011, C-01)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-01 table recast for Telangana; show without commentary."
+        },
+        {
+          "label": {
+            "en": "Current population (projected)",
+            "hi": "वर्तमान जनसंख्या (अनुमानित)",
+            "mr": "सध्याची लोकसंख्या (प्रक्षेपित)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw-projections",
+          "note": "MoHFW Technical Group projections; label as Projected."
+        }
+      ]
+    }
+  ]
+}

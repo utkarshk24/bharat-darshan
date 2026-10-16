@@ -1,0 +1,55 @@
+{
+  "region": "IN-TG",
+  "module": "diaspora",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Telangana has a long history of migration to the Gulf: workers from Karimnagar, Nizamabad, Jagtial and nearby districts have gone to the UAE, Saudi Arabia, Oman and other Gulf countries for decades. Hyderabad's professionals have settled in large numbers in the United States, and its old families have links with Pakistan, the Gulf and the United Kingdom. The State is also a destination for migrants from across India who work in Hyderabad's construction, services and technology industries.",
+        "hi": "तेलंगाना का खाड़ी देशों में प्रवास का लंबा इतिहास है: करीमनगर, निज़ामाबाद, जगतियाल और आसपास के ज़िलों के श्रमिक दशकों से यूएई, सऊदी अरब, ओमान और अन्य खाड़ी देशों में जाते रहे हैं। हैदराबाद के पेशेवर बड़ी संख्या में अमेरिका में बसे हैं, और इसके पुराने परिवारों के पाकिस्तान, खाड़ी और ब्रिटेन से संबंध हैं। राज्य पूरे भारत के उन प्रवासियों का गंतव्य भी है जो हैदराबाद के निर्माण, सेवा और प्रौद्योगिकी उद्योगों में काम करते हैं।",
+        "mr": "तेलंगणाला आखाती देशांत स्थलांतराचा दीर्घ इतिहास आहे: करीमनगर, निजामाबाद, जगतियाल व आसपासच्या जिल्ह्यांतील कामगार दशकांपासून यूएई, सौदी अरेबिया, ओमान व इतर आखाती देशांत जात आहेत. हैदराबादचे व्यावसायिक मोठ्या संख्येने अमेरिकेत स्थायिक झाले आहेत, आणि तिथल्या जुन्या कुटुंबांचे पाकिस्तान, आखाती देश व ब्रिटनशी संबंध आहेत. हैदराबादच्या बांधकाम, सेवा व तंत्रज्ञान उद्योगांत काम करणाऱ्या भारतभरातील स्थलांतरितांचेही हे राज्य गंतव्य आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants and internal migrants",
+            "hi": "प्रवासियों और आंतरिक प्रवासियों की संख्या",
+            "mr": "परदेशी व देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables; MEA."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

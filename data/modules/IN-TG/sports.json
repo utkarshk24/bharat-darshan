@@ -1,0 +1,98 @@
+{
+  "region": "IN-TG",
+  "module": "sports",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Hyderabad is one of India's great sporting cities, especially for badminton. P. V. Sindhu won Olympic silver in 2016 and bronze in 2020 and became world champion in 2019; Saina Nehwal, who trained in Hyderabad, won bronze at London 2012; both came through the Pullela Gopichand Badminton Academy at Gachibowli. Sania Mirza won six Grand Slam titles in doubles and mixed doubles, and Nizamabad's Nikhat Zareen became world boxing champion in 2022 and 2023. Hyderabad cricketers include Mohammed Azharuddin and V. V. S. Laxman, and the Rajiv Gandhi International Cricket Stadium at Uppal hosts international and IPL matches.",
+        "hi": "हैदराबाद भारत के महान खेल शहरों में है, विशेषकर बैडमिंटन के लिए। पी. वी. सिंधु ने 2016 में ओलंपिक रजत और 2020 में कांस्य जीता और 2019 में विश्व चैंपियन बनीं; हैदराबाद में प्रशिक्षित साइना नेहवाल ने लंदन 2012 में कांस्य जीता; दोनों गच्चीबौली की पुल्लेला गोपीचंद बैडमिंटन अकादमी से निकलीं। सानिया मिर्ज़ा ने युगल और मिश्रित युगल में छह ग्रैंड स्लैम ख़िताब जीते, और निज़ामाबाद की निकहत ज़रीन 2022 और 2023 में विश्व मुक्केबाज़ी चैंपियन बनीं। हैदराबाद के क्रिकेटरों में मोहम्मद अज़हरुद्दीन और वी. वी. एस. लक्ष्मण हैं, और उप्पल का राजीव गांधी अंतरराष्ट्रीय क्रिकेट स्टेडियम अंतरराष्ट्रीय और आईपीएल मैचों की मेज़बानी करता है।",
+        "mr": "हैदराबाद हे भारतातील महान क्रीडा शहरांपैकी आहे, विशेषतः बॅडमिंटनसाठी. पी. व्ही. सिंधू यांनी 2016 मध्ये ऑलिम्पिक रौप्य व 2020 मध्ये कांस्यपदक जिंकले आणि 2019 मध्ये त्या जगज्जेत्या झाल्या; हैदराबादमध्ये प्रशिक्षण घेतलेल्या सायना नेहवाल यांनी लंडन 2012 मध्ये कांस्य जिंकले; दोघीही गच्चीबावलीतील पुल्लेला गोपीचंद बॅडमिंटन अकादमीतून घडल्या. सानिया मिर्झा यांनी दुहेरी व मिश्र दुहेरीत सहा ग्रँड स्लॅम विजेतेपदे जिंकली, आणि निजामाबादच्या निखत झरीन 2022 व 2023 मध्ये जागतिक मुष्टियुद्ध विजेत्या झाल्या. हैदराबादच्या क्रिकेटपटूंत मोहम्मद अझरुद्दीन व व्ही. व्ही. एस. लक्ष्मण आहेत, आणि उप्पलचे राजीव गांधी आंतरराष्ट्रीय क्रिकेट स्टेडियम आंतरराष्ट्रीय व आयपीएल सामने आयोजित करते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "uppal",
+          "name": {
+            "en": "Rajiv Gandhi International Cricket Stadium, Uppal",
+            "hi": "राजीव गांधी अंतरराष्ट्रीय क्रिकेट स्टेडियम, उप्पल",
+            "mr": "राजीव गांधी आंतरराष्ट्रीय क्रिकेट स्टेडियम, उप्पल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gachibowli",
+          "name": {
+            "en": "G. M. C. Balayogi Athletic Stadium, Gachibowli",
+            "hi": "जी. एम. सी. बालयोगी एथलेटिक स्टेडियम, गच्चीबौली",
+            "mr": "जी. एम. सी. बालयोगी ऍथलेटिक स्टेडियम, गच्चीबावली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gopichand",
+          "name": {
+            "en": "Pullela Gopichand Badminton Academy",
+            "hi": "पुल्लेला गोपीचंद बैडमिंटन अकादमी",
+            "mr": "पुल्लेला गोपीचंद बॅडमिंटन अकादमी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Olympic and Asian Games medallists from Telangana (official list)",
+            "hi": "तेलंगाना के ओलंपिक और एशियाई खेल पदक विजेता (आधिकारिक सूची)",
+            "mr": "तेलंगणाचे ऑलिम्पिक व आशियाई स्पर्धा पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Sports Authority of Telangana."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "region": "IN-TG",
+  "module": "government",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Telangana has a bicameral legislature: a 119-member Legislative Assembly and a 40-member Legislative Council, both in Hyderabad. The State elects 17 members to the Lok Sabha and 7 to the Rajya Sabha.\n\nIn the Assembly election of November 2023 the Congress won 64 seats, the Bharat Rashtra Samithi (formerly the Telangana Rashtra Samithi, which governed from 2014) 39, the BJP 8, the AIMIM 7 and the CPI 1 (ECI). A. Revanth Reddy was sworn in as Chief Minister on 7 December 2023, with Mallu Bhatti Vikramarka as Deputy Chief Minister. Shiv Pratap Shukla became Governor in March 2026.",
+        "hi": "तेलंगाना में द्विसदनीय विधानमंडल है: 119 सदस्यों वाली विधानसभा और 40 सदस्यों वाली विधान परिषद, दोनों हैदराबाद में। राज्य से लोकसभा के 17 और राज्यसभा के 7 सदस्य चुने जाते हैं।\n\nनवंबर 2023 के विधानसभा चुनाव में कांग्रेस ने 64, भारत राष्ट्र समिति (पूर्व में तेलंगाना राष्ट्र समिति, जिसने 2014 से शासन किया) ने 39, भाजपा ने 8, एआईएमआईएम ने 7 और भाकपा ने 1 सीट जीती (भारत निर्वाचन आयोग)। ए. रेवंत रेड्डी ने 7 दिसंबर 2023 को मुख्यमंत्री पद की शपथ ली, और मल्लु भट्टि विक्रमार्क उपमुख्यमंत्री बने। मार्च 2026 में शिव प्रताप शुक्ल राज्यपाल बने।",
+        "mr": "तेलंगणात द्विसदनी विधिमंडळ आहे: 119 सदस्यांची विधानसभा व 40 सदस्यांची विधान परिषद, दोन्ही हैदराबादमध्ये. राज्यातून लोकसभेवर 17 आणि राज्यसभेवर 7 सदस्य निवडले जातात.\n\nनोव्हेंबर 2023 च्या विधानसभा निवडणुकीत काँग्रेसने 64, भारत राष्ट्र समितीने (पूर्वीची तेलंगणा राष्ट्र समिती, जिने 2014 पासून राज्य केले) 39, भाजपने 8, एआयएमआयएमने 7 व भाकपने 1 जागा जिंकली (भारत निवडणूक आयोग). ए. रेवंत रेड्डी यांनी 7 डिसेंबर 2023 रोजी मुख्यमंत्रिपदाची शपथ घेतली, आणि मल्लू भट्टी विक्रमार्क उपमुख्यमंत्री झाले. मार्च 2026 मध्ये शिव प्रताप शुक्ला राज्यपाल झाले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "eci",
+        "tribune",
+        "ians"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "table",
+      "id": "result2023",
+      "title": {
+        "en": "Assembly election 2023 — seats won",
+        "hi": "विधानसभा चुनाव 2023 — जीती गई सीटें",
+        "mr": "विधानसभा निवडणूक 2023 — जिंकलेल्या जागा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Party",
+            "hi": "दल",
+            "mr": "पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Seats",
+            "hi": "सीटें",
+            "mr": "जागा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Indian National Congress",
+            "hi": "भारतीय राष्ट्रीय कांग्रेस",
+            "mr": "भारतीय राष्ट्रीय काँग्रेस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "64"
+        ],
+        [
+          {
+            "en": "Bharat Rashtra Samithi",
+            "hi": "भारत राष्ट्र समिति",
+            "mr": "भारत राष्ट्र समिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "39"
+        ],
+        [
+          {
+            "en": "Bharatiya Janata Party",
+            "hi": "भारतीय जनता पार्टी",
+            "mr": "भारतीय जनता पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "8"
+        ],
+        [
+          {
+            "en": "All India Majlis-e-Ittehadul Muslimeen",
+            "hi": "ऑल इंडिया मजलिस-ए-इत्तेहादुल मुस्लिमीन",
+            "mr": "ऑल इंडिया मजलिस-ए-इत्तेहादुल मुस्लिमीन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "7"
+        ],
+        [
+          {
+            "en": "Communist Party of India",
+            "hi": "भारतीय कम्युनिस्ट पार्टी",
+            "mr": "भारतीय कम्युनिस्ट पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1"
+        ],
+        [
+          {
+            "en": "Total",
+            "hi": "कुल",
+            "mr": "एकूण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "119"
+        ]
+      ],
+      "sourceId": "eci",
+      "url": "https://results.eci.gov.in/AcResultGenDecNew2023/partywiseresult-S29.htm",
+      "accessDate": "2026-10-16",
+      "confidence": "Official",
+      "period": "2023",
+      "note": {
+        "en": "ECI results website, December 2023. Later by-elections and defections are not reflected.",
+        "hi": "भारत निर्वाचन आयोग की परिणाम वेबसाइट, दिसंबर 2023। बाद के उपचुनाव और दलबदल शामिल नहीं।",
+        "mr": "भारत निवडणूक आयोगाचे निकाल संकेतस्थळ, डिसेंबर 2023. नंतरच्या पोटनिवडणुका व पक्षांतरे समाविष्ट नाहीत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Telangana",
+            "hi": "तेलंगाना सरकार",
+            "mr": "तेलंगणा शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.telangana.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Leader of Opposition — official recognition",
+            "hi": "नेता प्रतिपक्ष — आधिकारिक मान्यता",
+            "mr": "विरोधी पक्षनेते — अधिकृत मान्यता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Legislature secretariat notice."
+        },
+        {
+          "label": {
+            "en": "Local bodies by type",
+            "hi": "प्रकार के अनुसार स्थानीय निकाय",
+            "mr": "प्रकारानुसार स्थानिक स्वराज्य संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Panchayat Raj and Municipal Administration departments."
+        }
+      ]
+    }
+  ]
+}

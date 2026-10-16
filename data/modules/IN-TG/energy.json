@@ -1,0 +1,68 @@
+{
+  "region": "IN-TG",
+  "module": "energy",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Telangana's power comes mainly from coal mined by the Singareni Collieries in the Godavari valley. NTPC's Ramagundam station and the State's plants at Kothagudem, Bhupalpally and the new Yadadri station at Damaracherla are the largest generators, and hydro stations at Nagarjuna Sagar, Srisailam (left bank) and on the Godavari add peaking power. Solar parks have been built in the south and west of the State, and the State supplies free power for farm pumps.",
+        "hi": "तेलंगाना की बिजली मुख्यतः गोदावरी घाटी में सिंगरेणी कोलियरीज़ द्वारा निकाले गए कोयले से आती है। एनटीपीसी का रामागुंडम संयंत्र और कोठागुडेम, भूपालपल्ली व दामरचर्ला के नए यादाद्रि संयंत्र जैसे राज्य के संयंत्र सबसे बड़े उत्पादक हैं, और नागार्जुन सागर, श्रीशैलम (बायाँ किनारा) और गोदावरी के जलविद्युत केंद्र पीक बिजली जोड़ते हैं। राज्य के दक्षिण और पश्चिम में सौर पार्क बने हैं, और राज्य खेतों के पंपों के लिए मुफ़्त बिजली देता है।",
+        "mr": "तेलंगणाची वीज मुख्यतः गोदावरी खोऱ्यात सिंगरेणी कोलियरीजने खणलेल्या कोळशापासून येते. एनटीपीसीचे रामगुंडम केंद्र आणि कोठागुडेम, भूपालपल्ली व दामरचर्ला येथील नवे यादाद्री केंद्र ही राज्याची केंद्रे सर्वांत मोठी उत्पादक आहेत, आणि नागार्जुन सागर, श्रीशैलम (डावा किनारा) व गोदावरीवरील जलविद्युत केंद्रे कमाल मागणीसाठी वीज देतात. राज्याच्या दक्षिण व पश्चिम भागात सौर उद्याने उभारली आहेत, आणि राज्य शेतीपंपांसाठी मोफत वीज देते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        },
+        {
+          "label": {
+            "en": "Coal production (Singareni)",
+            "hi": "कोयला उत्पादन (सिंगरेणी)",
+            "mr": "कोळसा उत्पादन (सिंगरेणी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Coal statistics."
+        }
+      ]
+    }
+  ]
+}

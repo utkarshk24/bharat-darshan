@@ -1,0 +1,68 @@
+{
+  "region": "IN-TG",
+  "module": "water",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Telangana lies higher than the river beds of the Godavari and the Krishna, so much of its irrigation depends on lifting water and on its thousands of tanks, many dating from the Kakatiya period. Mission Kakatiya restored tanks across the State, and Mission Bhagiratha supplies treated drinking water to towns and villages by pipeline. The Kaleshwaram lift scheme on the Godavari was built to pump river water uphill to reservoirs across the north and centre; damage to its Medigadda barrage in 2023 led to an inquiry by the National Dam Safety Authority. Nagarjuna Sagar and Srisailam on the Krishna are shared with Andhra Pradesh. Hyderabad draws water from the Krishna, the Godavari, the Manjira and its old reservoirs, Osman Sagar and Himayat Sagar.",
+        "hi": "तेलंगाना गोदावरी और कृष्णा की नदी तलहटी से ऊँचाई पर है, इसलिए इसकी सिंचाई का बड़ा भाग पानी उठाने और हज़ारों तालाबों पर निर्भर है, जिनमें से कई काकतीय काल के हैं। मिशन काकतीय ने पूरे राज्य में तालाबों का जीर्णोद्धार किया, और मिशन भगीरथ पाइपलाइन से कस्बों और गाँवों को शोधित पेयजल देता है। गोदावरी पर कालेश्वरम लिफ़्ट योजना नदी का पानी ऊपर उठाकर उत्तर और मध्य के जलाशयों तक पहुँचाने के लिए बनी; 2023 में इसके मेडिगड्डा बराज को हुए नुक़सान के बाद राष्ट्रीय बाँध सुरक्षा प्राधिकरण ने जाँच की। कृष्णा पर नागार्जुन सागर और श्रीशैलम आंध्र प्रदेश के साथ साझा हैं। हैदराबाद कृष्णा, गोदावरी, मंजीरा और अपने पुराने जलाशयों उस्मान सागर और हिमायत सागर से पानी लेता है।",
+        "mr": "तेलंगणा गोदावरी व कृष्णेच्या पात्रांपेक्षा उंचावर आहे, त्यामुळे त्याचे बहुतांश सिंचन पाणी उपसण्यावर व हजारो तलावांवर अवलंबून आहे, ज्यांपैकी अनेक काकतीय काळातील आहेत. मिशन काकतीयने राज्यभर तलावांचे पुनरुज्जीवन केले, आणि मिशन भगीरथ जलवाहिन्यांद्वारे शहरे व गावांना प्रक्रिया केलेले पिण्याचे पाणी पुरवते. गोदावरीवरील कालेश्वरम उपसा योजना नदीचे पाणी उंचावर उचलून उत्तर व मध्य भागातील जलाशयांपर्यंत नेण्यासाठी बांधली गेली; 2023 मध्ये तिच्या मेडिगड्डा बंधाऱ्याचे नुकसान झाल्यावर राष्ट्रीय धरण सुरक्षा प्राधिकरणाने चौकशी केली. कृष्णेवरील नागार्जुन सागर व श्रीशैलम आंध्र प्रदेशसोबत सामायिक आहेत. हैदराबाद कृष्णा, गोदावरी, मांजरा व उस्मान सागर आणि हिमायत सागर या जुन्या जलाशयांतून पाणी घेते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        },
+        {
+          "label": {
+            "en": "Kaleshwaram — NDSA findings and repair status",
+            "hi": "कालेश्वरम — एनडीएसए निष्कर्ष और मरम्मत स्थिति",
+            "mr": "कालेश्वरम — एनडीएसए निष्कर्ष व दुरुस्ती स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "National Dam Safety Authority report."
+        }
+      ]
+    }
+  ]
+}

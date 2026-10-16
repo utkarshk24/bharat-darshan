@@ -1,0 +1,707 @@
+{
+  "region": "IN-TG",
+  "module": "cities",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "hyderabad",
+          "name": {
+            "en": "Hyderabad",
+            "hi": "हैदराबाद",
+            "mr": "हैदराबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "State capital; IT, pharma, research; historic old city.",
+            "hi": "राज्य की राजधानी; आईटी, दवा, शोध; ऐतिहासिक पुराना शहर।",
+            "mr": "राज्याची राजधानी; आयटी, औषधनिर्मिती, संशोधन; ऐतिहासिक जुने शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "secunderabad",
+          "name": {
+            "en": "Secunderabad",
+            "hi": "सिकंदराबाद",
+            "mr": "सिकंदराबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Twin city; cantonment and railway headquarters.",
+            "hi": "जुड़वाँ शहर; छावनी और रेलवे मुख्यालय।",
+            "mr": "जुळे शहर; छावणी व रेल्वे मुख्यालय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Twin city",
+            "hi": "जुड़वाँ शहर",
+            "mr": "जुळे शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "warangal",
+          "name": {
+            "en": "Warangal",
+            "hi": "वारंगल",
+            "mr": "वरंगळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Kakatiya capital; NIT; textile park.",
+            "hi": "काकतीय राजधानी; एनआईटी; वस्त्र पार्क।",
+            "mr": "काकतीय राजधानी; एनआयटी; वस्त्र उद्यान.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "karimnagar",
+          "name": {
+            "en": "Karimnagar",
+            "hi": "करीमनगर",
+            "mr": "करीमनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Silver filigree; granite.",
+            "hi": "चाँदी की तारकशी; ग्रेनाइट।",
+            "mr": "चांदीचे तारकाम; ग्रॅनाइट.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Crafts",
+            "hi": "शिल्प",
+            "mr": "हस्तकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nizamabad",
+          "name": {
+            "en": "Nizamabad",
+            "hi": "निज़ामाबाद",
+            "mr": "निजामाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Turmeric and agricultural trade.",
+            "hi": "हल्दी और कृषि व्यापार।",
+            "mr": "हळद व कृषी व्यापार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Agri-trade",
+            "hi": "कृषि व्यापार",
+            "mr": "कृषी व्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khammam",
+          "name": {
+            "en": "Khammam",
+            "hi": "खम्मम",
+            "mr": "खम्मम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Granite, chillies; gateway to Bhadrachalam.",
+            "hi": "ग्रेनाइट, मिर्च; भद्राचलम का प्रवेश द्वार।",
+            "mr": "ग्रॅनाइट, मिरची; भद्राचलमचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "East",
+            "hi": "पूर्व",
+            "mr": "पूर्व",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ramagundam",
+          "name": {
+            "en": "Ramagundam",
+            "hi": "रामागुंडम",
+            "mr": "रामगुंडम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Power, coal and fertiliser.",
+            "hi": "बिजली, कोयला और उर्वरक।",
+            "mr": "वीज, कोळसा व खते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "adilabad",
+          "name": {
+            "en": "Adilabad",
+            "hi": "आदिलाबाद",
+            "mr": "आदिलाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhadradrikothagudem",
+          "name": {
+            "en": "Bhadradri Kothagudem",
+            "hi": "भद्राद्रि कोठागुडेम",
+            "mr": "भद्राद्री कोठागुडेम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hanumakonda",
+          "name": {
+            "en": "Hanumakonda",
+            "hi": "हनुमकोंडा",
+            "mr": "हनुमकोंडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hyderabad",
+          "name": {
+            "en": "Hyderabad",
+            "hi": "हैदराबाद",
+            "mr": "हैदराबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jagtial",
+          "name": {
+            "en": "Jagtial",
+            "hi": "जगतियाल",
+            "mr": "जगतियाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jangaon",
+          "name": {
+            "en": "Jangaon",
+            "hi": "जनगांव",
+            "mr": "जनगाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jayashankarbhupalpally",
+          "name": {
+            "en": "Jayashankar Bhupalpally",
+            "hi": "जयशंकर भूपालपल्ली",
+            "mr": "जयशंकर भूपालपल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jogulambagadwal",
+          "name": {
+            "en": "Jogulamba Gadwal",
+            "hi": "जोगुलांबा गदवाल",
+            "mr": "जोगुलांबा गदवाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kamareddy",
+          "name": {
+            "en": "Kamareddy",
+            "hi": "कामारेड्डी",
+            "mr": "कामारेड्डी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "karimnagar",
+          "name": {
+            "en": "Karimnagar",
+            "hi": "करीमनगर",
+            "mr": "करीमनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khammam",
+          "name": {
+            "en": "Khammam",
+            "hi": "खम्मम",
+            "mr": "खम्मम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kumurambheemasifabad",
+          "name": {
+            "en": "Kumuram Bheem Asifabad",
+            "hi": "कुमुरम भीम आसिफ़ाबाद",
+            "mr": "कुमुरम भीम आसिफाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mahabubabad",
+          "name": {
+            "en": "Mahabubabad",
+            "hi": "महबूबाबाद",
+            "mr": "महबूबाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mahabubnagar",
+          "name": {
+            "en": "Mahabubnagar",
+            "hi": "महबूबनगर",
+            "mr": "महबूबनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mancherial",
+          "name": {
+            "en": "Mancherial",
+            "hi": "मंचेरियल",
+            "mr": "मंचेरियल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "medak",
+          "name": {
+            "en": "Medak",
+            "hi": "मेदक",
+            "mr": "मेदक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "medchalmalkajgiri",
+          "name": {
+            "en": "Medchal–Malkajgiri",
+            "hi": "मेडचल–मलकाजगिरि",
+            "mr": "मेडचल–मलकाजगिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mulugu",
+          "name": {
+            "en": "Mulugu",
+            "hi": "मुलुगु",
+            "mr": "मुलुगू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nagarkurnool",
+          "name": {
+            "en": "Nagarkurnool",
+            "hi": "नागरकर्नूल",
+            "mr": "नागरकर्नूल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nalgonda",
+          "name": {
+            "en": "Nalgonda",
+            "hi": "नलगोंडा",
+            "mr": "नलगोंडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "narayanpet",
+          "name": {
+            "en": "Narayanpet",
+            "hi": "नारायणपेट",
+            "mr": "नारायणपेठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nirmal",
+          "name": {
+            "en": "Nirmal",
+            "hi": "निर्मल",
+            "mr": "निर्मल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nizamabad",
+          "name": {
+            "en": "Nizamabad",
+            "hi": "निज़ामाबाद",
+            "mr": "निजामाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "peddapalli",
+          "name": {
+            "en": "Peddapalli",
+            "hi": "पेद्दापल्ली",
+            "mr": "पेद्दापल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rajannasircilla",
+          "name": {
+            "en": "Rajanna Sircilla",
+            "hi": "राजन्ना सिरसिल्ला",
+            "mr": "राजन्ना सिरसिल्ला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rangareddy",
+          "name": {
+            "en": "Ranga Reddy",
+            "hi": "रंगारेड्डी",
+            "mr": "रंगारेड्डी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sangareddy",
+          "name": {
+            "en": "Sangareddy",
+            "hi": "संगारेड्डी",
+            "mr": "संगारेड्डी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "siddipet",
+          "name": {
+            "en": "Siddipet",
+            "hi": "सिद्दिपेट",
+            "mr": "सिद्दिपेट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "suryapet",
+          "name": {
+            "en": "Suryapet",
+            "hi": "सूर्यापेट",
+            "mr": "सूर्यापेट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vikarabad",
+          "name": {
+            "en": "Vikarabad",
+            "hi": "विकाराबाद",
+            "mr": "विकाराबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "wanaparthy",
+          "name": {
+            "en": "Wanaparthy",
+            "hi": "वनपर्ती",
+            "mr": "वनपर्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "warangal",
+          "name": {
+            "en": "Warangal",
+            "hi": "वारंगल",
+            "mr": "वरंगळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "yadadribhuvanagiri",
+          "name": {
+            "en": "Yadadri Bhuvanagiri",
+            "hi": "यादाद्रि भुवनगिरि",
+            "mr": "यादाद्री भुवनगिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 33 districts (alphabetical)",
+        "hi": "33 ज़िले (वर्णानुक्रम)",
+        "mr": "33 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "dsrc",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "seo",
+          "name": {
+            "en": "Telangana Socio Economic Outlook 2024 (33 districts, 620 mandals)",
+            "hi": "तेलंगाना सामाजिक-आर्थिक परिदृश्य 2024 (33 ज़िले, 620 मंडल)",
+            "mr": "तेलंगणा सामाजिक-आर्थिक आढावा 2024 (33 जिल्हे, 620 मंडळे)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://data.opencity.in/dataset/349ae865-f062-43bb-8495-07e47dbe797e/resource/38798379-3ef3-4d14-a359-24618bc06fdf/download/telangana-socio-economic-outlook-2024.pdf",
+          "sourceId": "tg-plan"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Source for the district count",
+        "hi": "ज़िलों की संख्या का स्रोत",
+        "mr": "जिल्हा संख्येचा स्रोत",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "City populations (Census 2011)",
+            "hi": "शहरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban agglomeration tables."
+        }
+      ]
+    }
+  ]
+}

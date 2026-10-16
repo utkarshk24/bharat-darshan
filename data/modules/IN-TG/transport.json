@@ -1,0 +1,121 @@
+{
+  "region": "IN-TG",
+  "module": "transport",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Rajiv Gandhi International Airport at Shamshabad is Hyderabad's airport and one of India's busiest. Secunderabad is the headquarters of the South Central Railway, and Kacheguda, Secunderabad and the new Charlapalli terminal handle long-distance trains. Hyderabad's Outer Ring Road circles the city, and its elevated metro, built in public–private partnership, links the old and new cities. National highways radiate to Bengaluru, Nagpur, Mumbai, Vijayawada and Visakhapatnam. As a land-locked State, Telangana's trade uses the ports of Andhra Pradesh and Maharashtra.",
+        "hi": "शमशाबाद का राजीव गांधी अंतरराष्ट्रीय हवाई अड्डा हैदराबाद का हवाई अड्डा है और भारत के सबसे व्यस्त हवाई अड्डों में है। सिकंदराबाद दक्षिण मध्य रेलवे का मुख्यालय है, और काचीगुडा, सिकंदराबाद और नया चर्लापल्ली टर्मिनल लंबी दूरी की रेलें संभालते हैं। हैदराबाद की आउटर रिंग रोड शहर को घेरती है, और सार्वजनिक–निजी भागीदारी से बनी इसकी एलिवेटेड मेट्रो पुराने और नए शहर को जोड़ती है। राष्ट्रीय राजमार्ग बेंगलूरु, नागपुर, मुंबई, विजयवाड़ा और विशाखापत्तनम की ओर जाते हैं। भू-आबद्ध राज्य होने से तेलंगाना का व्यापार आंध्र प्रदेश और महाराष्ट्र के बंदरगाहों से होता है।",
+        "mr": "शमशाबाद येथील राजीव गांधी आंतरराष्ट्रीय विमानतळ हे हैदराबादचे विमानतळ असून भारतातील सर्वांत व्यस्त विमानतळांपैकी एक आहे. सिकंदराबाद हे दक्षिण मध्य रेल्वेचे मुख्यालय आहे, आणि काचीगुडा, सिकंदराबाद व नवे चर्लापल्ली टर्मिनल लांब पल्ल्याच्या गाड्या हाताळतात. हैदराबादचा आउटर रिंग रोड शहराला वेढतो, आणि सार्वजनिक–खासगी भागीदारीतून बांधलेली उन्नत मेट्रो जुने व नवे शहर जोडते. राष्ट्रीय महामार्ग बंगळूरु, नागपूर, मुंबई, विजयवाडा व विशाखापट्टणमकडे जातात. भूवेष्टित राज्य असल्याने तेलंगणाचा व्यापार आंध्र प्रदेश व महाराष्ट्राच्या बंदरांमार्फत होतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "hyd",
+          "name": {
+            "en": "Rajiv Gandhi International Airport, Hyderabad",
+            "hi": "राजीव गांधी अंतरराष्ट्रीय हवाई अड्डा, हैदराबाद",
+            "mr": "राजीव गांधी आंतरराष्ट्रीय विमानतळ, हैदराबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "HYD",
+            "hi": "HYD",
+            "mr": "HYD",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bpm",
+          "name": {
+            "en": "Begumpet (business aviation)",
+            "hi": "बेगमपेट (व्यावसायिक विमानन)",
+            "mr": "बेगमपेट (व्यावसायिक विमानसेवा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Hyderabad Metro operational length and ridership",
+            "hi": "हैदराबाद मेट्रो की चालू लंबाई और यात्री संख्या",
+            "mr": "हैदराबाद मेट्रोची कार्यरत लांबी व प्रवासी संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Hyderabad Metro Rail Ltd."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

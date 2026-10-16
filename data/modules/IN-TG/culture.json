@@ -1,0 +1,505 @@
+{
+  "region": "IN-TG",
+  "module": "culture",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Telangana's culture blends the Telugu traditions of the Deccan villages with the Persian- and Urdu-influenced court culture of Golconda and the Nizams. Bathukamma, the floral festival celebrated by women, and Bonalu, offerings to the goddess Mahankali in Hyderabad and Secunderabad, are State festivals. Perini Sivatandavam, a vigorous warrior dance revived from Kakatiya temple sculpture, and Oggu Katha and Burra Katha storytelling are folk forms. Hyderabad has a strong tradition of Urdu poetry, qawwali and Deccani painting, and a large Telugu film industry.\n\nCrafts include Pochampally ikat, Gadwal and Narayanpet saris and the Telia rumal, Cheriyal scroll paintings, Nirmal paintings and toys, Pembarthi brassware, Adilabad dokra and the silver filigree of Karimnagar.",
+        "hi": "तेलंगाना की संस्कृति दक्कन के गाँवों की तेलुगु परंपराओं को गोलकुंडा और निज़ामों की फ़ारसी और उर्दू प्रभावित दरबारी संस्कृति के साथ मिलाती है। महिलाओं द्वारा मनाया जाने वाला फूलों का पर्व बतुकम्मा, और हैदराबाद व सिकंदराबाद में देवी महांकाली को भोग अर्पित करने का पर्व बोनालु राज्य उत्सव हैं। काकतीय मंदिर मूर्तियों से पुनर्जीवित ओजस्वी योद्धा नृत्य पेरिणी शिवतांडवम, और ओग्गु कथा व बुर्रा कथा लोक रूप हैं। हैदराबाद में उर्दू शायरी, क़व्वाली और दक्कनी चित्रकला की समृद्ध परंपरा है, और एक बड़ा तेलुगु फ़िल्म उद्योग भी।\n\nशिल्पों में पोचमपल्ली इकत, गदवाल और नारायणपेट साड़ियाँ और तेलिया रुमाल, चेरियाल पट-चित्र, निर्मल चित्र और खिलौने, पेम्बर्थी पीतल शिल्प, आदिलाबाद डोकरा और करीमनगर की चाँदी की तारकशी शामिल हैं।",
+        "mr": "तेलंगणाची संस्कृती दख्खनी गावांच्या तेलुगु परंपरांना गोवळकोंडा व निजामांच्या फारसी व उर्दू प्रभावित दरबारी संस्कृतीशी जोडते. स्त्रिया साजरा करतात तो फुलांचा सण बतुकम्मा, आणि हैदराबाद व सिकंदराबादमध्ये देवी महांकालीला नैवेद्य अर्पण करण्याचा सण बोनालू हे राज्याचे सण आहेत. काकतीय मंदिरशिल्पांवरून पुनरुज्जीवित झालेले जोशपूर्ण योद्धा नृत्य पेरिणी शिवतांडवम, आणि ओग्गू कथा व बुर्रा कथा हे लोककलाप्रकार आहेत. हैदराबादमध्ये उर्दू शायरी, कव्वाली व दख्खनी चित्रकलेची समृद्ध परंपरा आहे, आणि मोठा तेलुगु चित्रपट उद्योगही.\n\nहस्तकलेत पोचमपल्ली इकत, गदवाल व नारायणपेठ साड्या व तेलिया रुमाल, चेरियाल पटचित्रे, निर्मल चित्रे व खेळणी, पेम्बर्थी पितळकाम, आदिलाबाद डोकरा आणि करीमनगरचे चांदीचे तारकाम यांचा समावेश आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "festivals",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "bathukamma",
+          "name": {
+            "en": "Bathukamma",
+            "hi": "बतुकम्मा",
+            "mr": "बतुकम्मा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Nine days of flower stacks, songs and circle dances by women, ending before Dasara.",
+            "hi": "महिलाओं द्वारा नौ दिन फूलों के ढेर, गीत और वृत्त नृत्य, दशहरे से पहले समाप्त।",
+            "mr": "स्त्रियांचे नऊ दिवस फुलांचे मनोरे, गाणी व फेर, दसऱ्यापूर्वी समाप्त.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "September–October",
+            "hi": "सितंबर–अक्टूबर",
+            "mr": "सप्टेंबर–ऑक्टोबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bonalu",
+          "name": {
+            "en": "Bonalu",
+            "hi": "बोनालु",
+            "mr": "बोनालू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Offerings of cooked rice to Mahankali in Hyderabad's temples.",
+            "hi": "हैदराबाद के मंदिरों में महांकाली को पके चावल का भोग।",
+            "mr": "हैदराबादच्या मंदिरांत महांकालीला शिजवलेल्या भाताचा नैवेद्य.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "July–August",
+            "hi": "जुलाई–अगस्त",
+            "mr": "जुलै–ऑगस्ट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "medaram",
+          "name": {
+            "en": "Sammakka–Saralamma Jatara, Medaram",
+            "hi": "सम्मक्का–सारलम्मा जातरा, मेडारम",
+            "mr": "सम्मक्का–सारलम्मा जत्रा, मेडारम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Tribal festival in Mulugu district drawing very large crowds.",
+            "hi": "मुलुगु ज़िले का आदिवासी उत्सव, जिसमें बहुत बड़ी भीड़ आती है।",
+            "mr": "मुलुगू जिल्ह्यातील आदिवासी उत्सव, प्रचंड गर्दी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "February, every two years",
+            "hi": "फ़रवरी, हर दो साल",
+            "mr": "फेब्रुवारी, दर दोन वर्षांनी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ramzan",
+          "name": {
+            "en": "Ramzan and Eid",
+            "hi": "रमज़ान और ईद",
+            "mr": "रमजान व ईद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Night markets around the Charminar; haleem everywhere.",
+            "hi": "चारमीनार के आसपास रात के बाज़ार; हर जगह हलीम।",
+            "mr": "चारमिनारभोवती रात्रीचे बाजार; सर्वत्र हलीम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Varies",
+            "hi": "बदलता है",
+            "mr": "बदलते",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sankranti",
+          "name": {
+            "en": "Sankranti",
+            "hi": "संक्रांति",
+            "mr": "संक्रांत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Harvest festival with kites over Hyderabad.",
+            "hi": "फ़सल उत्सव, हैदराबाद के आसमान में पतंगें।",
+            "mr": "कापणीचा सण, हैदराबादच्या आकाशात पतंग.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "January",
+            "hi": "जनवरी",
+            "mr": "जानेवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Festivals",
+        "hi": "त्योहार",
+        "mr": "सण-उत्सव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "arts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "perini",
+          "name": {
+            "en": "Perini Sivatandavam",
+            "hi": "पेरिणी शिवतांडवम",
+            "mr": "पेरिणी शिवतांडवम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "oggu",
+          "name": {
+            "en": "Oggu Katha",
+            "hi": "ओग्गु कथा",
+            "mr": "ओग्गू कथा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cheriyal",
+          "name": {
+            "en": "Cheriyal scroll painting",
+            "hi": "चेरियाल पट-चित्र",
+            "mr": "चेरियाल पटचित्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ikat",
+          "name": {
+            "en": "Pochampally ikat",
+            "hi": "पोचमपल्ली इकत",
+            "mr": "पोचमपल्ली इकत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nirmal",
+          "name": {
+            "en": "Nirmal painting",
+            "hi": "निर्मल चित्रकला",
+            "mr": "निर्मल चित्रकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "qawwali",
+          "name": {
+            "en": "Qawwali and Urdu poetry",
+            "hi": "क़व्वाली और उर्दू शायरी",
+            "mr": "कव्वाली व उर्दू शायरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "filigree",
+          "name": {
+            "en": "Silver filigree",
+            "hi": "चाँदी की तारकशी",
+            "mr": "चांदीचे तारकाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Arts and crafts",
+        "hi": "कलाएँ और शिल्प",
+        "mr": "कला व हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "food",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "biryani",
+          "name": {
+            "en": "Hyderabadi biryani",
+            "hi": "हैदराबादी बिरयानी",
+            "mr": "हैदराबादी बिर्याणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rice and meat cooked together in the dum style.",
+            "hi": "दम शैली में साथ पकाए गए चावल और मांस।",
+            "mr": "दम पद्धतीने एकत्र शिजवलेला भात व मांस.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "haleem",
+          "name": {
+            "en": "Haleem",
+            "hi": "हलीम",
+            "mr": "हलीम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Slow-cooked wheat and meat, a Ramzan speciality; Hyderabad Haleem is a registered GI.",
+            "hi": "धीमी आँच पर पका गेहूँ और मांस, रमज़ान की ख़ासियत; हैदराबाद हलीम पंजीकृत जीआई है।",
+            "mr": "मंद आचेवर शिजवलेले गहू व मांस, रमजानची खासियत; हैदराबाद हलीम नोंदणीकृत जीआय आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sarva",
+          "name": {
+            "en": "Sarva pindi and sakinalu",
+            "hi": "सर्व पिंडी और सकिनालु",
+            "mr": "सर्व पिंडी व सकिनालू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rice-flour pancake and crisp sesame rings of Telangana villages.",
+            "hi": "तेलंगाना के गाँवों का चावल-आटे का पैनकेक और कुरकुरे तिल के छल्ले।",
+            "mr": "तेलंगणाच्या गावांतील तांदळाच्या पिठाचे धिरडे व कुरकुरीत तिळाची वलये.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "irani",
+          "name": {
+            "en": "Irani chai and Osmania biscuits",
+            "hi": "ईरानी चाय और उस्मानिया बिस्कुट",
+            "mr": "इराणी चहा व उस्मानिया बिस्किटे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Café staples of old Hyderabad.",
+            "hi": "पुराने हैदराबाद के कैफ़े की पहचान।",
+            "mr": "जुन्या हैदराबादच्या कॅफेंची ओळख.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "qubani",
+          "name": {
+            "en": "Double ka meetha and qubani ka meetha",
+            "hi": "डबल का मीठा और क़ुबानी का मीठा",
+            "mr": "डबल का मीठा व कुबानी का मीठा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Bread pudding and apricot dessert at weddings.",
+            "hi": "शादियों में ब्रेड पुडिंग और ख़ुबानी की मिठाई।",
+            "mr": "लग्नसमारंभात ब्रेड पुडिंग व जर्दाळूचे पक्वान्न.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Food",
+        "hi": "खान-पान",
+        "mr": "खाद्यसंस्कृती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "dress",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "saree",
+          "name": {
+            "en": "Pochampally, Gadwal and Narayanpet saris",
+            "hi": "पोचमपल्ली, गदवाल और नारायणपेट साड़ियाँ",
+            "mr": "पोचमपल्ली, गदवाल व नारायणपेठ साड्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Handloom saris for daily and festive wear.",
+            "hi": "रोज़ और उत्सव के लिए हथकरघा साड़ियाँ।",
+            "mr": "रोजच्या व सणासुदीच्या हातमाग साड्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sherwani",
+          "name": {
+            "en": "Sherwani and khada dupatta",
+            "hi": "शेरवानी और खड़ा दुपट्टा",
+            "mr": "शेरवानी व खडा दुपट्टा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hyderabadi wedding dress.",
+            "hi": "हैदराबादी विवाह पोशाक।",
+            "mr": "हैदराबादी लग्नपोशाख.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lambadi",
+          "name": {
+            "en": "Lambadi mirror-work dress",
+            "hi": "लंबाडी शीशा-कढ़ाई पोशाक",
+            "mr": "लंबाडी आरसेकाम पोशाख",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Colourful embroidered skirts and headwear of Lambada women.",
+            "hi": "लंबाडा महिलाओं के रंगीन कढ़ाई वाले घाघरे और सिर-पोशाक।",
+            "mr": "लंबाडा स्त्रियांचे रंगीबेरंगी भरतकामाचे घागरे व शिरोभूषणे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Traditional dress",
+        "hi": "पारंपरिक वेशभूषा",
+        "mr": "पारंपरिक वेशभूषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

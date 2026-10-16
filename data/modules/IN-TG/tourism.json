@@ -1,0 +1,326 @@
+{
+  "region": "IN-TG",
+  "module": "tourism",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Hyderabad is the main attraction: the Charminar and its bazaars, the Golconda fort and its sound-and-light show, the Qutb Shahi tombs, the Chowmahalla and Falaknuma palaces, the Salar Jung Museum and the lakeside Hussain Sagar with its Buddha statue. Warangal has the Kakatiya fort and Thousand Pillar temple, and the UNESCO-listed Ramappa temple and Laknavaram lake lie nearby in Mulugu district. Pilgrims visit Yadagirigutta, Bhadrachalam, Vemulawada and the Saraswati temple at Basar, and nature lovers the Kuntala and Pochera waterfalls, Nagarjuna Sagar and the forests of Amrabad.",
+        "hi": "हैदराबाद मुख्य आकर्षण है: चारमीनार और उसके बाज़ार, गोलकुंडा क़िला और उसका ध्वनि-प्रकाश कार्यक्रम, क़ुतुबशाही मक़बरे, चौमहल्ला और फ़लकनुमा महल, सालारजंग संग्रहालय और बुद्ध प्रतिमा वाला हुसैन सागर। वारंगल में काकतीय क़िला और हज़ार स्तंभ मंदिर हैं, और पास के मुलुगु ज़िले में यूनेस्को सूचीबद्ध रामप्पा मंदिर और लकनावरम झील हैं। तीर्थयात्री यादगिरिगुट्टा, भद्राचलम, वेमुलवाड़ा और बासर के सरस्वती मंदिर जाते हैं, और प्रकृति प्रेमी कुंटाला व पोचेरा झरने, नागार्जुन सागर और अमराबाद के वन।",
+        "mr": "हैदराबाद हे मुख्य आकर्षण आहे: चारमिनार व त्याचे बाजार, गोवळकोंडा किल्ला व तिथला ध्वनि-प्रकाश कार्यक्रम, कुतुबशाही कबरी, चौमहल्ला व फलकनुमा राजवाडे, सालारजंग संग्रहालय आणि बुद्धमूर्ती असलेला हुसेन सागर. वरंगळमध्ये काकतीय किल्ला व हजार खांबी मंदिर आहे, आणि जवळच्या मुलुगू जिल्ह्यात युनेस्को यादीतील रामप्पा मंदिर व लकनावरम तलाव आहे. यात्रेकरू यादगिरीगुट्टा, भद्राचलम, वेमुलवाडा व बासरचे सरस्वती मंदिर येथे जातात, आणि निसर्गप्रेमी कुंटाला व पोचेरा धबधबे, नागार्जुन सागर व अमराबादची जंगले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "charminar",
+          "name": {
+            "en": "Charminar and the old city",
+            "hi": "चारमीनार और पुराना शहर",
+            "mr": "चारमिनार व जुने शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage, food",
+            "hi": "धरोहर, भोजन",
+            "mr": "वारसा, खाद्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "golconda",
+          "name": {
+            "en": "Golconda Fort and Qutb Shahi tombs",
+            "hi": "गोलकुंडा क़िला और क़ुतुबशाही मक़बरे",
+            "mr": "गोवळकोंडा किल्ला व कुतुबशाही कबरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "salarjung",
+          "name": {
+            "en": "Salar Jung Museum",
+            "hi": "सालारजंग संग्रहालय",
+            "mr": "सालारजंग संग्रहालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Museum",
+            "hi": "संग्रहालय",
+            "mr": "संग्रहालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ramappa",
+          "name": {
+            "en": "Ramappa Temple and Laknavaram",
+            "hi": "रामप्पा मंदिर और लकनावरम",
+            "mr": "रामप्पा मंदिर व लकनावरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO site",
+            "hi": "यूनेस्को स्थल",
+            "mr": "युनेस्को स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "warangal",
+          "name": {
+            "en": "Warangal Fort and Thousand Pillar Temple",
+            "hi": "वारंगल क़िला और हज़ार स्तंभ मंदिर",
+            "mr": "वरंगळ किल्ला व हजार खांबी मंदिर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kakatiya heritage",
+            "hi": "काकतीय धरोहर",
+            "mr": "काकतीय वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhadrachalam",
+          "name": {
+            "en": "Bhadrachalam",
+            "hi": "भद्राचलम",
+            "mr": "भद्राचलम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage",
+            "hi": "तीर्थ",
+            "mr": "तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kuntala",
+          "name": {
+            "en": "Kuntala waterfall",
+            "hi": "कुंटाला झरना",
+            "mr": "कुंटाला धबधबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Nature (monsoon)",
+            "hi": "प्रकृति (मानसून)",
+            "mr": "निसर्ग (पावसाळा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hyderabad: Charminar, Chowmahalla, Salar Jung Museum; Golconda and the Qutb Shahi tombs.",
+            "hi": "हैदराबाद: चारमीनार, चौमहल्ला, सालारजंग संग्रहालय; गोलकुंडा और क़ुतुबशाही मक़बरे।",
+            "mr": "हैदराबाद: चारमिनार, चौमहल्ला, सालारजंग संग्रहालय; गोवळकोंडा व कुतुबशाही कबरी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Add Warangal, Ramappa and Laknavaram.",
+            "hi": "वारंगल, रामप्पा और लकनावरम जोड़ें।",
+            "mr": "वरंगळ, रामप्पा व लकनावरम जोडा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hyderabad, Pochampally weavers' village, Yadagirigutta and Nagarjuna Sagar.",
+            "hi": "हैदराबाद, पोचमपल्ली बुनकर गाँव, यादगिरिगुट्टा और नागार्जुन सागर।",
+            "mr": "हैदराबाद, पोचमपल्ली विणकर गाव, यादगिरीगुट्टा व नागार्जुन सागर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "tgt",
+          "name": {
+            "en": "Telangana Tourism (official)",
+            "hi": "तेलंगाना पर्यटन (आधिकारिक)",
+            "mr": "तेलंगणा पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://tourism.telangana.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        }
+      ]
+    }
+  ]
+}

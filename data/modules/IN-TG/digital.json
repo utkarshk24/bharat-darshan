@@ -1,0 +1,55 @@
+{
+  "region": "IN-TG",
+  "module": "digital",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Hyderabad is one of India's leading technology cities. HITEC City, opened in 1998, grew into the Cyberabad district of Madhapur, Gachibowli and the Financial District, home to large campuses of global technology firms and a growing number of global capability centres. T-Hub, the State-backed start-up incubator, and T-Works, a prototyping centre, support new companies, and research institutions such as IIIT Hyderabad, IIT Hyderabad and the University of Hyderabad feed the industry.",
+        "hi": "हैदराबाद भारत के अग्रणी प्रौद्योगिकी शहरों में है। 1998 में खुली हाईटेक सिटी माधापुर, गच्चीबौली और फ़ाइनेंशियल डिस्ट्रिक्ट के साइबराबाद क्षेत्र में बढ़ी, जहाँ वैश्विक प्रौद्योगिकी कंपनियों के बड़े परिसर और बढ़ती संख्या में वैश्विक क्षमता केंद्र हैं। राज्य समर्थित स्टार्टअप इनक्यूबेटर टी-हब और प्रोटोटाइपिंग केंद्र टी-वर्क्स नई कंपनियों की मदद करते हैं, और आईआईआईटी हैदराबाद, आईआईटी हैदराबाद और हैदराबाद विश्वविद्यालय जैसे शोध संस्थान उद्योग को प्रतिभा देते हैं।",
+        "mr": "हैदराबाद हे भारतातील आघाडीच्या तंत्रज्ञान शहरांपैकी आहे. 1998 मध्ये सुरू झालेली हायटेक सिटी माधापूर, गच्चीबावली व फायनान्शियल डिस्ट्रिक्टच्या सायबराबाद भागात विस्तारली, जिथे जागतिक तंत्रज्ञान कंपन्यांची मोठी संकुले व वाढत्या संख्येने जागतिक क्षमता केंद्रे आहेत. राज्य-पुरस्कृत स्टार्टअप इन्क्युबेटर टी-हब व प्रोटोटायपिंग केंद्र टी-वर्क्स नव्या कंपन्यांना मदत करतात, आणि आयआयआयटी हैदराबाद, आयआयटी हैदराबाद व हैदराबाद विद्यापीठ यांसारख्या संशोधन संस्था उद्योगाला मनुष्यबळ पुरवतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Andhra Pradesh circle, which includes Telangana)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

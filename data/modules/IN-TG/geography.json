@@ -1,0 +1,273 @@
+{
+  "region": "IN-TG",
+  "module": "geography",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Telangana is a land-locked State on the Deccan plateau, mostly between 300 and 700 m above sea level, with rolling granite country, thousands of man-made tanks and scattered hills. The Godavari enters from Maharashtra in the north and flows south-east past Bhadrachalam; the Krishna forms much of the southern boundary with Andhra Pradesh. Their tributaries — the Manjira, Pranhita, Musi and others — drain the plateau. Dense forests cover the north and east, in Adilabad, Kumuram Bheem Asifabad, Mulugu and Bhadradri Kothagudem, and the Nallamala hills in the south. Hyderabad stands on the Musi, around the lakes of Hussain Sagar, Osman Sagar and Himayat Sagar.",
+        "hi": "तेलंगाना दक्कन के पठार पर एक भू-आबद्ध राज्य है, जो अधिकतर समुद्र तल से 300 से 700 मीटर ऊँचा है, जहाँ लहरदार ग्रेनाइट भूमि, हज़ारों मानव-निर्मित तालाब और बिखरी पहाड़ियाँ हैं। गोदावरी उत्तर में महाराष्ट्र से आती है और भद्राचलम से होकर दक्षिण-पूर्व बहती है; कृष्णा आंध्र प्रदेश के साथ दक्षिणी सीमा का बड़ा भाग बनाती है। इनकी सहायक नदियाँ — मंजीरा, प्राणहिता, मूसी और अन्य — पठार का जल बहाती हैं। उत्तर और पूर्व में आदिलाबाद, कुमुरम भीम आसिफ़ाबाद, मुलुगु और भद्राद्रि कोठागुडेम में, और दक्षिण में नल्लमला पहाड़ियों में घने वन हैं। हैदराबाद मूसी के किनारे हुसैन सागर, उस्मान सागर और हिमायत सागर झीलों के आसपास बसा है।",
+        "mr": "तेलंगणा हे दख्खनच्या पठारावरील भूवेष्टित राज्य असून बहुतांश समुद्रसपाटीपासून 300 ते 700 मीटर उंचीवर आहे — लहरी ग्रॅनाइटचा प्रदेश, हजारो मानवनिर्मित तलाव व विखुरलेले डोंगर. गोदावरी उत्तरेला महाराष्ट्रातून येते आणि भद्राचलमवरून आग्नेयेकडे वाहते; कृष्णा आंध्र प्रदेशसोबतच्या दक्षिण सीमेचा मोठा भाग बनवते. त्यांच्या उपनद्या — मांजरा, प्राणहिता, मुसी व इतर — पठाराचे पाणी वाहून नेतात. उत्तर व पूर्वेला आदिलाबाद, कुमुरम भीम आसिफाबाद, मुलुगू व भद्राद्री कोठागुडेममध्ये, आणि दक्षिणेला नल्लमला डोंगरांत घनदाट जंगले आहेत. हैदराबाद मुसीकाठी हुसेन सागर, उस्मान सागर व हिमायत सागर तलावांभोवती वसले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 112077,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "mh",
+          "name": {
+            "en": "Maharashtra (north and north-west)",
+            "hi": "महाराष्ट्र (उत्तर और उत्तर-पश्चिम)",
+            "mr": "महाराष्ट्र (उत्तर व वायव्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ct",
+          "name": {
+            "en": "Chhattisgarh (north-east)",
+            "hi": "छत्तीसगढ़ (उत्तर-पूर्व)",
+            "mr": "छत्तीसगड (ईशान्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ap",
+          "name": {
+            "en": "Andhra Pradesh (east and south)",
+            "hi": "आंध्र प्रदेश (पूर्व और दक्षिण)",
+            "mr": "आंध्र प्रदेश (पूर्व व दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ka",
+          "name": {
+            "en": "Karnataka (west)",
+            "hi": "कर्नाटक (पश्चिम)",
+            "mr": "कर्नाटक (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "godavari",
+          "name": {
+            "en": "Godavari",
+            "hi": "गोदावरी",
+            "mr": "गोदावरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows across the north past Basar, Kaleshwaram and Bhadrachalam.",
+            "hi": "उत्तर में बासर, कालेश्वरम और भद्राचलम से होकर बहती है।",
+            "mr": "उत्तरेत बासर, कालेश्वरम व भद्राचलमवरून वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "krishna",
+          "name": {
+            "en": "Krishna",
+            "hi": "कृष्णा",
+            "mr": "कृष्णा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Southern border river; Nagarjuna Sagar and Srisailam dams.",
+            "hi": "दक्षिणी सीमा की नदी; नागार्जुन सागर और श्रीशैलम बाँध।",
+            "mr": "दक्षिण सीमेवरील नदी; नागार्जुन सागर व श्रीशैलम धरणे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "manjira",
+          "name": {
+            "en": "Manjira",
+            "hi": "मंजीरा",
+            "mr": "मांजरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Godavari tributary supplying water to Hyderabad.",
+            "hi": "गोदावरी की सहायक नदी, जो हैदराबाद को पानी देती है।",
+            "mr": "गोदावरीची उपनदी, हैदराबादला पाणी देते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "musi",
+          "name": {
+            "en": "Musi",
+            "hi": "मूसी",
+            "mr": "मुसी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Krishna tributary flowing through Hyderabad.",
+            "hi": "कृष्णा की सहायक नदी, जो हैदराबाद से होकर बहती है।",
+            "mr": "कृष्णेची उपनदी, हैदराबादमधून वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Highest point — official elevation",
+            "hi": "सर्वोच्च बिंदु — आधिकारिक ऊँचाई",
+            "mr": "सर्वोच्च शिखर — अधिकृत उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India or the State gazetteer."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        }
+      ]
+    }
+  ]
+}

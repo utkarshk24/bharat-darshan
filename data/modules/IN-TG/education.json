@@ -1,0 +1,404 @@
+{
+  "region": "IN-TG",
+  "module": "education",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Telangana's higher-education gross enrolment ratio (ages 18–23) was 40.0% in 2021-22 in AISHE, among the highest of the larger States and well above the national 28.4%; women's GER (41.6%) was higher than men's (38.5%). The State had 31 universities and 2,083 colleges. Literacy at the 2011 Census was 66.5%.\n\nOsmania University (1918), the first university to teach in Urdu, is the oldest. Hyderabad also has the University of Hyderabad, the English and Foreign Languages University, Maulana Azad National Urdu University, IIT Hyderabad, IIIT Hyderabad, the Indian School of Business, NALSAR University of Law and national laboratories such as CCMB, IICT and NGRI; NIT Warangal (1959) is one of the oldest NITs.",
+        "hi": "एआईएसएचई के अनुसार 2021-22 में तेलंगाना का उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 40.0% था, जो बड़े राज्यों में सबसे ऊँचे में से है और राष्ट्रीय 28.4% से काफ़ी अधिक; महिलाओं का जीईआर (41.6%) पुरुषों (38.5%) से अधिक था। राज्य में 31 विश्वविद्यालय और 2,083 कॉलेज थे। 2011 की जनगणना में साक्षरता 66.5% थी।\n\nउर्दू में पढ़ाने वाला पहला विश्वविद्यालय उस्मानिया विश्वविद्यालय (1918) सबसे पुराना है। हैदराबाद में हैदराबाद विश्वविद्यालय, अंग्रेज़ी एवं विदेशी भाषा विश्वविद्यालय, मौलाना आज़ाद राष्ट्रीय उर्दू विश्वविद्यालय, आईआईटी हैदराबाद, आईआईआईटी हैदराबाद, इंडियन स्कूल ऑफ़ बिज़नेस, नालसार विधि विश्वविद्यालय और सीसीएमबी, आईआईसीटी व एनजीआरआई जैसी राष्ट्रीय प्रयोगशालाएँ भी हैं; एनआईटी वारंगल (1959) सबसे पुराने एनआईटी में से है।",
+        "mr": "एआयएसएचईनुसार 2021-22 मध्ये तेलंगणाचे उच्चशिक्षणातील एकूण नोंदणी गुणोत्तर (18–23 वय) 40.0% होते — मोठ्या राज्यांतील सर्वाधिकांपैकी व राष्ट्रीय 28.4% पेक्षा बरेच जास्त; स्त्रियांचे जीईआर (41.6%) पुरुषांपेक्षा (38.5%) जास्त होते. राज्यात 31 विद्यापीठे व 2,083 महाविद्यालये होती. 2011 च्या जनगणनेत साक्षरता 66.5% होती.\n\nउर्दूतून शिकवणारे पहिले विद्यापीठ, उस्मानिया विद्यापीठ (1918), सर्वांत जुने आहे. हैदराबादमध्ये हैदराबाद विद्यापीठ, इंग्रजी व परदेशी भाषा विद्यापीठ, मौलाना आझाद राष्ट्रीय उर्दू विद्यापीठ, आयआयटी हैदराबाद, आयआयआयटी हैदराबाद, इंडियन स्कूल ऑफ बिझनेस, नालसार विधी विद्यापीठ आणि सीसीएमबी, आयआयसीटी व एनजीआरआय यांसारख्या राष्ट्रीय प्रयोगशाळा आहेत; एनआयटी वरंगळ (1959) हे सर्वांत जुन्या एनआयटींपैकी आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "msme-di"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 40.0,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 39.12,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 31,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 2083,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "tg",
+          "label": {
+            "en": "Telangana",
+            "hi": "तेलंगाना",
+            "mr": "तेलंगणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 34.44,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 34.89,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 34.26,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 39.12,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 40.0,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ou",
+          "name": {
+            "en": "Osmania University",
+            "hi": "उस्मानिया विश्वविद्यालय",
+            "mr": "उस्मानिया विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hyderabad, 1918",
+            "hi": "हैदराबाद, 1918",
+            "mr": "हैदराबाद, 1918",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "uoh",
+          "name": {
+            "en": "University of Hyderabad",
+            "hi": "हैदराबाद विश्वविद्यालय",
+            "mr": "हैदराबाद विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Gachibowli",
+            "hi": "गच्चीबौली",
+            "mr": "गच्चीबावली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iith",
+          "name": {
+            "en": "IIT Hyderabad",
+            "hi": "आईआईटी हैदराबाद",
+            "mr": "आयआयटी हैदराबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kandi, Sangareddy",
+            "hi": "कंदी, संगारेड्डी",
+            "mr": "कंदी, संगारेड्डी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iiith",
+          "name": {
+            "en": "IIIT Hyderabad",
+            "hi": "आईआईआईटी हैदराबाद",
+            "mr": "आयआयआयटी हैदराबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Gachibowli",
+            "hi": "गच्चीबौली",
+            "mr": "गच्चीबावली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nitw",
+          "name": {
+            "en": "NIT Warangal",
+            "hi": "एनआईटी वारंगल",
+            "mr": "एनआयटी वरंगळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Warangal, 1959",
+            "hi": "वारंगल, 1959",
+            "mr": "वरंगळ, 1959",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nalsar",
+          "name": {
+            "en": "NALSAR University of Law",
+            "hi": "नालसार विधि विश्वविद्यालय",
+            "mr": "नालसार विधी विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hyderabad",
+            "hi": "हैदराबाद",
+            "mr": "हैदराबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "NIRF-ranked institutions",
+            "hi": "एनआईआरएफ़ रैंक वाले संस्थान",
+            "mr": "एनआयआरएफ क्रमवारीतील संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nirf",
+          "note": "Latest NIRF list filtered to Telangana."
+        }
+      ]
+    }
+  ]
+}

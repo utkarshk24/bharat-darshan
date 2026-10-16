@@ -33,180 +33,930 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://www.telangana.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Spotted deer (chital)",
+        "hi": "चीतल",
+        "mr": "चितळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Axis axis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Indian roller (palapitta)",
+        "hi": "नीलकंठ (पालपिट्टा)",
+        "mr": "नीलकंठ (पालपिट्टा)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Coracias benghalensis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Tangedu",
+        "hi": "तंगेडु (अवारम)",
+        "mr": "तरवड (तंगेडू)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Senna auriculata",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Jammi",
+        "hi": "शमी (जम्मी)",
+        "mr": "शमी (जम्मी)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Prosopis cineraria",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 35003674,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "msme-di",
+      "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 recast for the present State of Telangana, from the MSME-DI Hyderabad 'State Profile of Telangana 2015-16'. Males 1,76,11,633; females 1,73,92,041."
     },
     "area": {
-      "value": null,
+      "value": 112077,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 312,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "msme-di",
+      "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 3,50,03,674 ÷ area 1,12,077 km² = 312.3; the State Profile also gives 312."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 988,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "msme-di",
+      "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Census 2011 recast for the present State of Telangana, from the MSME-DI Hyderabad 'State Profile of Telangana 2015-16'."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 932,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "msme-di",
+      "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Census 2011 recast for the present State of Telangana, from the MSME-DI Hyderabad 'State Profile of Telangana 2015-16'."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 66.54,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "msme-di",
+      "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Census 2011 recast for the present State of Telangana, from the MSME-DI Hyderabad 'State Profile of Telangana 2015-16'. Males 75.04%, females 57.99%."
     },
     "urbanisation2011": {
-      "value": null,
+      "value": 38.88,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "msme-di",
+      "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/TS-Profile.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Census 2011 recast for the present State of Telangana, from the MSME-DI Hyderabad 'State Profile of Telangana 2015-16'. Urban population 1,36,08,665."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 1782198,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25: ₹16,09,902 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 418931,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2024-25: ₹3,80,031."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 18.9,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 21,179.04 km² ÷ geographical area 1,12,077 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Shiv Pratap Shukla",
+        "hi": "शिव प्रताप शुक्ल",
+        "mr": "शिव प्रताप शुक्ला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
+      "since": "2026-03-11",
+      "asOf": "2026-10-16",
+      "sourceId": "ians",
+      "url": "https://ianslive.in/shiv-pratap-shukla-sworn-in-as-new-governor-of-telangana--20260311113839",
       "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Moved from Himachal Pradesh (President's communiqué of 5 March 2026). Sworn in as the fourth Governor of Telangana on 11 March 2026 by Chief Justice Aparesh Kumar, succeeding Jishnu Dev Varma (IANS). Confirm on the Lok Bhavan, Telangana website."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "name": {
+        "en": "A. Revanth Reddy",
+        "hi": "ए. रेवंत रेड्डी",
+        "mr": "ए. रेवंत रेड्डी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "INC",
+      "since": "2023-12-07",
+      "asOf": "2026-10-16",
+      "sourceId": "tribune",
+      "url": "https://www.tribuneindia.com/news/india/reddy-takes-oath-as-telangana-cm-vikramarka-his-deputy-569773",
+      "verifyUrl": "https://www.telangana.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in on 7 December 2023 (The Tribune). Attended the Governor's swearing-in as Chief Minister on 11 March 2026 (IANS)."
+    },
+    "others": [
+      {
+        "role": "deputy-chief-minister",
+        "name": {
+          "en": "Mallu Bhatti Vikramarka",
+          "hi": "मल्लु भट्टि विक्रमार्क",
+          "mr": "मल्लू भट्टी विक्रमार्क",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "INC",
+        "since": "2023-12-07",
+        "asOf": "2026-10-16",
+        "sourceId": "tribune",
+        "url": "https://www.tribuneindia.com/news/india/reddy-takes-oath-as-telangana-cm-vikramarka-his-deputy-569773",
+        "verifyUrl": "https://www.telangana.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Sworn in with the Chief Minister on 7 December 2023 (The Tribune)."
+      },
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Gaddam Prasad Kumar",
+          "hi": "गड्डम प्रसाद कुमार",
+          "mr": "गड्डम प्रसाद कुमार",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "INC",
+        "since": "2023-12-14",
+        "asOf": "2026-10-16",
+        "sourceId": "thesouthfirst",
+        "url": "https://thesouthfirst.com/telangana/telangana-gets-its-first-dalit-speaker-as-gaddam-prasad-kumar-is-elected-unopposed/",
+        "verifyUrl": "https://www.telangana.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Elected unopposed on 14 December 2023, the State's first Dalit Speaker (The South First). Confirm on the Legislature website."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "pm-mitra-warangal",
+      "name": {
+        "en": "PM MITRA Park — Kakatiya Mega Textile Park, Warangal",
+        "hi": "पीएम मित्र पार्क — काकतीय मेगा टेक्सटाइल पार्क, वारंगल",
+        "mr": "पीएम मित्र पार्क — काकतीय मेगा टेक्सटाइल पार्क, वरंगळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "An integrated textile park from fibre to garment under the PM MITRA scheme. The Prime Minister's Office listed it for inauguration by the Prime Minister on 10 May 2026.",
+        "hi": "पीएम मित्र योजना के अंतर्गत रेशे से परिधान तक का एकीकृत वस्त्र पार्क। प्रधानमंत्री कार्यालय ने 10 मई 2026 को प्रधानमंत्री द्वारा इसके उद्घाटन की सूचना दी।",
+        "mr": "पीएम मित्र योजनेअंतर्गत धाग्यापासून कपड्यापर्यंतचे एकात्मिक वस्त्र उद्यान. पंतप्रधान कार्यालयाने 10 मे 2026 रोजी पंतप्रधानांच्या हस्ते त्याच्या उद्घाटनाची माहिती दिली.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "industry",
+      "agency": "Ministry of Textiles / Government of Telangana",
+      "start": null,
+      "completion": "10 May 2026",
+      "status": "Completed",
+      "asOf": "2026-10-16",
+      "sourceId": "pmindia",
+      "url": "https://www.pmindia.gov.in/?p=16839420",
+      "confidence": "Official",
+      "cost": {
+        "value": 1700,
+        "unit": "₹ crore",
+        "period": "2026",
+        "periodType": "calendar",
+        "sourceId": "pmindia",
+        "url": "https://www.pmindia.gov.in/?p=16839420",
+        "accessDate": "2026-10-16",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "About ₹1,700 crore (PMO)."
+      },
+      "challenges": {
+        "en": "Track the number of units in operation.",
+        "hi": "चालू इकाइयों की संख्या पर नज़र रखें।",
+        "mr": "कार्यरत कारखान्यांची संख्या तपासा.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "id": "zaheerabad",
+      "name": {
+        "en": "Zaheerabad Industrial Area (Hyderabad–Nagpur Industrial Corridor)",
+        "hi": "ज़हीराबाद औद्योगिक क्षेत्र (हैदराबाद–नागपुर औद्योगिक गलियारा)",
+        "mr": "झहीराबाद औद्योगिक क्षेत्र (हैदराबाद–नागपूर औद्योगिक मार्गिका)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "An industrial area of 3,245 acres in Sangareddy district under the National Industrial Corridor Development Programme; the Prime Minister laid the foundation stone on 10 May 2026.",
+        "hi": "राष्ट्रीय औद्योगिक गलियारा विकास कार्यक्रम के अंतर्गत संगारेड्डी ज़िले में 3,245 एकड़ का औद्योगिक क्षेत्र; प्रधानमंत्री ने 10 मई 2026 को इसकी आधारशिला रखी।",
+        "mr": "राष्ट्रीय औद्योगिक मार्गिका विकास कार्यक्रमांतर्गत संगारेड्डी जिल्ह्यातील 3,245 एकरांचे औद्योगिक क्षेत्र; पंतप्रधानांनी 10 मे 2026 रोजी पायाभरणी केली.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "industry",
+      "agency": "NICDC / Government of Telangana",
+      "start": "May 2026",
+      "completion": null,
+      "status": "Under Construction",
+      "asOf": "2026-10-16",
+      "sourceId": "pmindia",
+      "url": "https://www.pmindia.gov.in/?p=16839420",
+      "confidence": "Official",
+      "cost": {
+        "value": 2350,
+        "unit": "₹ crore",
+        "period": "2026",
+        "periodType": "calendar",
+        "sourceId": "pmindia",
+        "url": "https://www.pmindia.gov.in/?p=16839420",
+        "accessDate": "2026-10-16",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Over ₹2,350 crore (PMO)."
+      }
+    },
+    {
+      "id": "nh167",
+      "name": {
+        "en": "NH-167 four-laning, Gudebellur–Mahabubnagar",
+        "hi": "एनएच-167 चार-लेन, गुडेबेल्लूर–महबूबनगर",
+        "mr": "एनएच-167 चौपदरीकरण, गुडेबेल्लूर–महबूबनगर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "Widening of a section of the Hyderabad–Panaji Economic Corridor linking Telangana and Karnataka; foundation stone laid on 10 May 2026.",
+        "hi": "तेलंगाना और कर्नाटक को जोड़ने वाले हैदराबाद–पणजी आर्थिक गलियारे के एक खंड का चौड़ीकरण; 10 मई 2026 को आधारशिला रखी गई।",
+        "mr": "तेलंगणा व कर्नाटकला जोडणाऱ्या हैदराबाद–पणजी आर्थिक मार्गिकेच्या एका टप्प्याचे रुंदीकरण; 10 मे 2026 रोजी पायाभरणी.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "transport",
+      "agency": "NHAI / MoRTH",
+      "start": "May 2026",
+      "completion": null,
+      "status": "Under Construction",
+      "asOf": "2026-10-16",
+      "sourceId": "pmindia",
+      "url": "https://www.pmindia.gov.in/?p=16839420",
+      "confidence": "Official",
+      "cost": {
+        "value": 3175,
+        "unit": "₹ crore",
+        "period": "2026",
+        "periodType": "calendar",
+        "sourceId": "pmindia",
+        "url": "https://www.pmindia.gov.in/?p=16839420",
+        "accessDate": "2026-10-16",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Over ₹3,175 crore (PMO)."
+      }
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "tandur-redgram",
+      "name": {
+        "en": "Tandur Redgram",
+        "hi": "तांडूर अरहर",
+        "mr": "तांडूर तूर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "706",
+      "filingDate": "2020-09-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "warangal-chapata-chilli",
+      "name": {
+        "en": "Warangal Chapata Chilli",
+        "hi": "वारंगल चपाटा मिर्च",
+        "mr": "वरंगळ चपाटा मिरची",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "984",
+      "filingDate": "2022-09-06",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "hyderabad-haleem",
+      "name": {
+        "en": "Hyderabad Haleem",
+        "hi": "हैदराबाद हलीम",
+        "mr": "हैदराबाद हलीम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "193",
+      "filingDate": "2009-12-18",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "pochampally-ikat",
+      "name": {
+        "en": "Pochampally Ikat",
+        "hi": "पोचमपल्ली इकत",
+        "mr": "पोचमपल्ली इकत",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "4",
+      "filingDate": "2003-12-15",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "silver-filigree-of-karimnagar",
+      "name": {
+        "en": "Silver Filigree of Karimnagar",
+        "hi": "करीमनगर की चाँदी की तारकशी",
+        "mr": "करीमनगरचे चांदीचे तारकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "53",
+      "filingDate": "2006-04-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "nirmal-toys-and-craft",
+      "name": {
+        "en": "Nirmal Toys and Craft",
+        "hi": "निर्मल खिलौने और शिल्प",
+        "mr": "निर्मल खेळणी व हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "91",
+      "filingDate": "2007-04-16",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "nirmal-furniture",
+      "name": {
+        "en": "Nirmal Furniture",
+        "hi": "निर्मल फ़र्नीचर",
+        "mr": "निर्मल फर्निचर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "105",
+      "filingDate": "2007-08-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "nirmal-paintings",
+      "name": {
+        "en": "Nirmal Paintings",
+        "hi": "निर्मल चित्रकला",
+        "mr": "निर्मल चित्रकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "106",
+      "filingDate": "2007-08-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "gadwal-sarees",
+      "name": {
+        "en": "Gadwal Sarees",
+        "hi": "गदवाल साड़ियाँ",
+        "mr": "गदवाल साड्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "137",
+      "filingDate": "2008-09-22",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "siddipet-gollabama",
+      "name": {
+        "en": "Siddipet Gollabama",
+        "hi": "सिद्दिपेट गोल्लभामा",
+        "mr": "सिद्दिपेट गोल्लभामा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "188",
+      "filingDate": "2009-11-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "cheriyal-paintings",
+      "name": {
+        "en": "Cheriyal Paintings",
+        "hi": "चेरियाल चित्रकला",
+        "mr": "चेरियाल चित्रकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "190",
+      "filingDate": "2009-11-20",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "pembarthi-metal-craft",
+      "name": {
+        "en": "Pembarthi Metal Craft",
+        "hi": "पेम्बर्थी धातु शिल्प",
+        "mr": "पेम्बर्थी धातुकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "194",
+      "filingDate": "2009-12-22",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "narayanpet-handloom-sarees",
+      "name": {
+        "en": "Narayanpet Handloom Sarees",
+        "hi": "नारायणपेट हथकरघा साड़ियाँ",
+        "mr": "नारायणपेठ हातमाग साड्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "214",
+      "filingDate": "2010-08-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "adilabad-dokra",
+      "name": {
+        "en": "Adilabad Dokra",
+        "hi": "आदिलाबाद डोकरा",
+        "mr": "आदिलाबाद डोकरा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "521",
+      "filingDate": "2015-03-06",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "warangal-durries",
+      "name": {
+        "en": "Warangal Durries",
+        "hi": "वारंगल दरियाँ",
+        "mr": "वरंगळ सतरंज्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "523",
+      "filingDate": "2015-03-06",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "pochampally-ikat-logo",
+      "name": {
+        "en": "Pochampally Ikat (Logo)",
+        "hi": "पोचमपल्ली इकत (लोगो)",
+        "mr": "पोचमपल्ली इकत (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "562",
+      "filingDate": "2016-08-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "telia-rumal",
+      "name": {
+        "en": "Telia Rumal",
+        "hi": "तेलिया रुमाल",
+        "mr": "तेलिया रुमाल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "599",
+      "filingDate": "2017-12-15",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "hyderabad-lac-bangles",
+      "name": {
+        "en": "Hyderabad Lac Bangles",
+        "hi": "हैदराबाद लाख की चूड़ियाँ",
+        "mr": "हैदराबाद लाखेच्या बांगड्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "917",
+      "filingDate": "2022-06-23",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "banaganapalle-mangoes",
+      "name": {
+        "en": "Banaganapalle Mangoes",
+        "hi": "बंगनपल्ले आम",
+        "mr": "बंगनपल्ले आंबे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "241",
+      "filingDate": "2011-09-07",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Andhra Pradesh"
+      ]
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-16",
+    "editorialStatus": "draft"
   },
   "localName": {
     "lang": "te",

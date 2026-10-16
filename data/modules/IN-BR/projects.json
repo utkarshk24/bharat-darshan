@@ -1,0 +1,61 @@
+{
+  "region": "IN-BR",
+  "module": "projects",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Patna's first metro stretch opened in October 2025, and work on AIIMS Darbhanga, the State's second AIIMS, began in November 2024. Bihar's other large works include new bridges over the Ganga and Kosi, expressways and flood-control embankments. Each card shows its source and the date it was checked.",
+        "hi": "पटना का पहला मेट्रो खंड अक्टूबर 2025 में खुला, और राज्य के दूसरे एम्स, एम्स दरभंगा, का काम नवंबर 2024 में शुरू हुआ। बिहार के अन्य बड़े कार्यों में गंगा और कोसी पर नए पुल, एक्सप्रेसवे और बाढ़ नियंत्रण तटबंध शामिल हैं। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "पाटण्याचा पहिला मेट्रो टप्पा ऑक्टोबर 2025 मध्ये सुरू झाला, आणि राज्याच्या दुसऱ्या एम्सचे, एम्स दरभंगाचे काम नोव्हेंबर 2024 मध्ये सुरू झाले. बिहारच्या इतर मोठ्या कामांत गंगा व कोसीवरील नवे पूल, द्रुतगती मार्ग व पूरनियंत्रण बांध यांचा समावेश आहे. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "New Ganga bridges (Aguwani Ghat–Sultanganj and others) — status",
+            "hi": "गंगा के नए पुल (अगुवानी घाट–सुल्तानगंज आदि) — स्थिति",
+            "mr": "गंगेवरील नवे पूल (अगुवानी घाट–सुलतानगंज इ.) — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Bihar Rajya Pul Nirman Nigam / NHAI."
+        },
+        {
+          "label": {
+            "en": "Bihta airport — status",
+            "hi": "बिहटा हवाई अड्डा — स्थिति",
+            "mr": "बिहटा विमानतळ — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "Airports Authority of India."
+        }
+      ]
+    }
+  ]
+}

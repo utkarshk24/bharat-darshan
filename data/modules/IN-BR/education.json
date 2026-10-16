@@ -1,0 +1,404 @@
+{
+  "region": "IN-BR",
+  "module": "education",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Higher education in Bihar has grown from a low base: the gross enrolment ratio (ages 18–23) rose from 11.4% in 2017-18 to 17.1% in 2021-22 in AISHE, but remained among the lowest in India and well below the national 28.4%; men's GER was 17.8% and women's 16.3%. With 37 universities and 1,092 colleges for a very large young population, colleges are crowded and many students study in other States. Literacy at the 2011 Census was 61.8%, the lowest of any State.\n\nPatna University (1917) and the NIT at Patna, which traces its origins to 1886, are among the oldest institutions. Newer national institutions include IIT Patna, AIIMS Patna, IIM Bodh Gaya, Chanakya National Law University, the Central University of South Bihar and the revived Nalanda University at Rajgir.",
+        "hi": "बिहार में उच्च शिक्षा कम आधार से बढ़ी है: एआईएसएचई के अनुसार सकल नामांकन अनुपात (18–23 आयु) 2017-18 के 11.4% से बढ़कर 2021-22 में 17.1% हुआ, लेकिन भारत में सबसे कम में रहा और राष्ट्रीय 28.4% से काफ़ी नीचे; पुरुषों का जीईआर 17.8% और महिलाओं का 16.3% था। बहुत बड़ी युवा आबादी के लिए 37 विश्वविद्यालयों और 1,092 कॉलेजों के कारण कॉलेजों में भीड़ है और बहुत से छात्र दूसरे राज्यों में पढ़ते हैं। 2011 की जनगणना में साक्षरता 61.8% थी, जो किसी भी राज्य में सबसे कम है।\n\nपटना विश्वविद्यालय (1917) और 1886 से अपनी शुरुआत मानने वाला पटना का एनआईटी सबसे पुराने संस्थानों में हैं। नए राष्ट्रीय संस्थानों में आईआईटी पटना, एम्स पटना, आईआईएम बोधगया, चाणक्य राष्ट्रीय विधि विश्वविद्यालय, दक्षिण बिहार केंद्रीय विश्वविद्यालय और राजगीर में पुनर्जीवित नालंदा विश्वविद्यालय शामिल हैं।",
+        "mr": "बिहारमध्ये उच्चशिक्षण कमी पायापासून वाढले आहे: एआयएसएचईनुसार एकूण नोंदणी गुणोत्तर (18–23 वय) 2017-18 मधील 11.4% वरून 2021-22 मध्ये 17.1% झाले, पण ते भारतातील सर्वांत कमींपैकी आणि राष्ट्रीय 28.4% पेक्षा बरेच खाली राहिले; पुरुषांचे जीईआर 17.8% व स्त्रियांचे 16.3% होते. खूप मोठ्या तरुण लोकसंख्येसाठी 37 विद्यापीठे व 1,092 महाविद्यालये असल्याने महाविद्यालयांत गर्दी असते आणि अनेक विद्यार्थी इतर राज्यांत शिकतात. 2011 च्या जनगणनेत साक्षरता 61.8% होती — कोणत्याही राज्यातील सर्वांत कमी.\n\nपाटणा विद्यापीठ (1917) व 1886 पासून आपली सुरुवात मानणारे पाटण्याचे एनआयटी या सर्वांत जुन्या संस्थांपैकी आहेत. नव्या राष्ट्रीय संस्थांत आयआयटी पाटणा, एम्स पाटणा, आयआयएम बोधगया, चाणक्य राष्ट्रीय विधी विद्यापीठ, दक्षिण बिहार केंद्रीय विद्यापीठ व राजगीर येथील पुनरुज्जीवित नालंदा विद्यापीठ यांचा समावेश आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 17.1,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 15.88,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 37,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1092,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "br",
+          "label": {
+            "en": "Bihar",
+            "hi": "बिहार",
+            "mr": "बिहार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 11.36,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 11.6,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 12.11,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 15.88,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 17.1,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "pu",
+          "name": {
+            "en": "Patna University",
+            "hi": "पटना विश्वविद्यालय",
+            "mr": "पाटणा विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Patna, 1917",
+            "hi": "पटना, 1917",
+            "mr": "पाटणा, 1917",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iitp",
+          "name": {
+            "en": "IIT Patna",
+            "hi": "आईआईटी पटना",
+            "mr": "आयआयटी पाटणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bihta",
+            "hi": "बिहटा",
+            "mr": "बिहटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "aiimsp",
+          "name": {
+            "en": "AIIMS Patna",
+            "hi": "एम्स पटना",
+            "mr": "एम्स पाटणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Phulwari Sharif",
+            "hi": "फुलवारी शरीफ़",
+            "mr": "फुलवारी शरीफ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iimbg",
+          "name": {
+            "en": "IIM Bodh Gaya",
+            "hi": "आईआईएम बोधगया",
+            "mr": "आयआयएम बोधगया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bodh Gaya",
+            "hi": "बोधगया",
+            "mr": "बोधगया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nalanda",
+          "name": {
+            "en": "Nalanda University",
+            "hi": "नालंदा विश्वविद्यालय",
+            "mr": "नालंदा विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Rajgir",
+            "hi": "राजगीर",
+            "mr": "राजगीर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cnlu",
+          "name": {
+            "en": "Chanakya National Law University",
+            "hi": "चाणक्य राष्ट्रीय विधि विश्वविद्यालय",
+            "mr": "चाणक्य राष्ट्रीय विधी विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Patna",
+            "hi": "पटना",
+            "mr": "पाटणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "Literacy by sex (Census 2011)",
+            "hi": "लिंग के अनुसार साक्षरता (जनगणना 2011)",
+            "mr": "लिंगनिहाय साक्षरता (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Primary Census Abstract."
+        }
+      ]
+    }
+  ]
+}

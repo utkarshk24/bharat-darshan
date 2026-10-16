@@ -1,0 +1,104 @@
+{
+  "region": "IN-BR",
+  "module": "trivia",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "density",
+          "name": {
+            "en": "Bihar is the most densely populated State, with about 1,106 people per km² in 2011.",
+            "hi": "2011 में लगभग 1,106 लोग प्रति वर्ग किमी के साथ बिहार सबसे घनी आबादी वाला राज्य है।",
+            "mr": "2011 मध्ये सुमारे 1,106 लोक प्रति चौ.किमीसह बिहार हे सर्वाधिक दाट लोकवस्तीचे राज्य आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "unesco",
+          "name": {
+            "en": "Two UNESCO World Heritage Sites — the Mahabodhi temple and Nalanda Mahavihara — are in Bihar.",
+            "hi": "दो यूनेस्को विश्व धरोहर स्थल — महाबोधि मंदिर और नालंदा महाविहार — बिहार में हैं।",
+            "mr": "दोन युनेस्को जागतिक वारसा स्थळे — महाबोधी मंदिर व नालंदा महाविहार — बिहारमध्ये आहेत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://whc.unesco.org/en/statesparties/in",
+          "sourceId": "unesco-whc"
+        },
+        {
+          "id": "champaran",
+          "name": {
+            "en": "Gandhi's first satyagraha in India was in Champaran, in 1917.",
+            "hi": "भारत में गांधी का पहला सत्याग्रह 1917 में चंपारण में हुआ।",
+            "mr": "भारतातील गांधीजींचा पहिला सत्याग्रह 1917 मध्ये चंपारणमध्ये झाला.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dolphin",
+          "name": {
+            "en": "The Vikramshila sanctuary near Bhagalpur protects the Ganges river dolphin, India's national aquatic animal.",
+            "hi": "भागलपुर के पास विक्रमशिला अभयारण्य भारत के राष्ट्रीय जलीय जीव गंगा डॉल्फ़िन की रक्षा करता है।",
+            "mr": "भागलपूरजवळील विक्रमशिला अभयारण्य भारताचा राष्ट्रीय जलचर गंगा डॉल्फिनचे रक्षण करते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "makhana",
+          "name": {
+            "en": "Mithila Makhana is a registered Geographical Indication (filed 2020).",
+            "hi": "मिथिला मखाना पंजीकृत भौगोलिक संकेतक है (2020 में दायर)।",
+            "mr": "मिथिला मखाणा हे नोंदणीकृत भौगोलिक मानांकन आहे (2020 मध्ये दाखल).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "sourceId": "gi-registry"
+        },
+        {
+          "id": "ls",
+          "name": {
+            "en": "The State elects 40 members to the Lok Sabha.",
+            "hi": "राज्य से लोकसभा के 40 सदस्य चुने जाते हैं।",
+            "mr": "राज्यातून लोकसभेवर 40 सदस्य निवडले जातात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

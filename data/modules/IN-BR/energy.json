@@ -1,0 +1,55 @@
+{
+  "region": "IN-BR",
+  "module": "energy",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Bihar has no coal mines of its own after the separation of Jharkhand, and depends largely on central-sector coal stations — NTPC's Barh, Kahalgaon, Nabinagar and Kanti plants and Barauni — and on power bought from other States. Electricity supply has expanded greatly in the last decade, reaching nearly every village. The State is adding solar capacity, including canal-top and floating plants, and the Barauni refinery is being expanded.",
+        "hi": "झारखंड के अलग होने के बाद बिहार के पास अपनी कोयला खदानें नहीं हैं, और यह मुख्यतः केंद्रीय क्षेत्र के कोयला संयंत्रों — एनटीपीसी के बाढ़, कहलगाँव, नबीनगर और कांटी संयंत्र और बरौनी — और दूसरे राज्यों से ख़रीदी गई बिजली पर निर्भर है। पिछले दशक में बिजली आपूर्ति बहुत बढ़ी है और लगभग हर गाँव तक पहुँची है। राज्य नहरों पर और तैरते संयंत्रों सहित सौर क्षमता जोड़ रहा है, और बरौनी रिफ़ाइनरी का विस्तार हो रहा है।",
+        "mr": "झारखंड वेगळे झाल्यानंतर बिहारकडे स्वतःच्या कोळसा खाणी नाहीत, आणि ते मुख्यतः केंद्रीय क्षेत्रातील कोळसा केंद्रांवर — एनटीपीसीची बाढ, कहलगाव, नबीनगर व कांटी केंद्रे आणि बरौनी — आणि इतर राज्यांकडून विकत घेतलेल्या विजेवर अवलंबून आहे. गेल्या दशकात वीजपुरवठा मोठ्या प्रमाणावर वाढला असून जवळपास प्रत्येक गावात पोहोचला आहे. राज्य कालव्यांवरील व तरंगत्या प्रकल्पांसह सौरक्षमता वाढवत आहे, आणि बरौनी रिफायनरीचा विस्तार होत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

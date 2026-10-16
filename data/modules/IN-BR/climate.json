@@ -1,0 +1,183 @@
+{
+  "region": "IN-BR",
+  "module": "climate",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Bihar has a humid subtropical climate. Summers (April–June) are hot, with the dry west wind called loo in the south and west; the south-west monsoon (mid-June to September) brings heavy rain, especially in the north-east near Kishanganj and the foothills, and often floods. Winters (December–February) are cool, with dense fog and occasional cold waves across the plains.",
+        "hi": "बिहार में आर्द्र उपोष्ण जलवायु है। गर्मियाँ (अप्रैल–जून) गर्म होती हैं, और दक्षिण व पश्चिम में लू चलती है; दक्षिण-पश्चिम मानसून (मध्य जून से सितंबर) भारी वर्षा लाता है, विशेषकर उत्तर-पूर्व में किशनगंज और तराई के पास, और अक्सर बाढ़ भी। सर्दियाँ (दिसंबर–फ़रवरी) ठंडी होती हैं, मैदानों में घना कोहरा और कभी-कभी शीतलहर रहती है।",
+        "mr": "बिहारमध्ये दमट उपोष्ण हवामान आहे. उन्हाळा (एप्रिल–जून) उष्ण असतो, आणि दक्षिण व पश्चिमेत लू नावाचा कोरडा पश्चिमी वारा वाहतो; नैर्ऋत्य मान्सून (जूनच्या मध्यापासून सप्टेंबरपर्यंत) मुसळधार पाऊस आणतो, विशेषतः ईशान्येला किशनगंज व पायथ्याच्या प्रदेशात, आणि अनेकदा पूरही. हिवाळा (डिसेंबर–फेब्रुवारी) थंड असतो, मैदानांत दाट धुके व कधीकधी थंडीची लाट असते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Patna",
+            "hi": "पटना",
+            "mr": "पाटणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 25.5941,
+          "lon": 85.1376
+        },
+        {
+          "name": {
+            "en": "Gaya",
+            "hi": "गया",
+            "mr": "गया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 24.7955,
+          "lon": 85.0002
+        },
+        {
+          "name": {
+            "en": "Bhagalpur",
+            "hi": "भागलपुर",
+            "mr": "भागलपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 25.2425,
+          "lon": 86.9842
+        },
+        {
+          "name": {
+            "en": "Darbhanga",
+            "hi": "दरभंगा",
+            "mr": "दरभंगा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 26.1542,
+          "lon": 85.8918
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to March",
+            "hi": "अक्टूबर से मार्च",
+            "mr": "ऑक्टोबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best for Bodh Gaya, Nalanda and Rajgir; Chhath in Oct–Nov; Sonepur fair in November.",
+            "hi": "बोधगया, नालंदा और राजगीर के लिए सबसे अच्छा; अक्टूबर–नवंबर में छठ; नवंबर में सोनपुर मेला।",
+            "mr": "बोधगया, नालंदा व राजगीरसाठी उत्तम; ऑक्टो.–नोव्हें.मध्ये छठ; नोव्हेंबरमध्ये सोनपूर जत्रा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "April to June",
+            "hi": "अप्रैल से जून",
+            "mr": "एप्रिल ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hot; litchi season in Muzaffarpur in May–June.",
+            "hi": "गर्मी; मई–जून में मुज़फ़्फ़रपुर में लीची का मौसम।",
+            "mr": "उष्ण; मे–जूनमध्ये मुझफ्फरपूरमध्ये लिचीचा हंगाम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "July to September",
+            "hi": "जुलाई से सितंबर",
+            "mr": "जुलै ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Floods in the north; Shravani Mela pilgrimage from Sultanganj.",
+            "hi": "उत्तर में बाढ़; सुल्तानगंज से श्रावणी मेला यात्रा।",
+            "mr": "उत्तरेत पूर; सुलतानगंजहून श्रावणी मेळा यात्रा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (Bihar sub-division)",
+            "hi": "सामान्य वार्षिक वर्षा (बिहार उप-मंडल)",
+            "mr": "सरासरी वार्षिक पाऊस (बिहार उपविभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics."
+        }
+      ]
+    }
+  ]
+}

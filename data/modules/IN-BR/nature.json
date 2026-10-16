@@ -1,0 +1,531 @@
+{
+  "region": "IN-BR",
+  "module": "nature",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Only about 8% of Bihar is forest (ISFR 2023), mostly in the Valmiki Tiger Reserve in the far north-west — the State's only tiger reserve, adjoining Nepal's Chitwan National Park — and in the Kaimur hills and the Rajgir–Gaya hills of the south. The rivers are Bihar's richest wildlife habitat: the Vikramshila Gangetic Dolphin Sanctuary near Bhagalpur protects the endangered Ganges river dolphin, India's national aquatic animal, and the oxbow lakes, chaurs and ponds of the north are winter homes for migratory birds.\n\nBihar has six Ramsar sites: Kanwar Lake (Kabartal) in Begusarai, the Nagi and Nakti bird sanctuaries in Jamui, and, from 2025, Gokul Jalashay, Udaipur Jheel and Gogabil.",
+        "hi": "बिहार का केवल लगभग 8% भाग वन है (आईएसएफ़आर 2023), जो अधिकतर सुदूर उत्तर-पश्चिम के वाल्मीकि बाघ अभयारण्य में — राज्य का एकमात्र बाघ अभयारण्य, जो नेपाल के चितवन राष्ट्रीय उद्यान से सटा है — और दक्षिण की कैमूर और राजगीर–गया पहाड़ियों में है। नदियाँ बिहार के सबसे समृद्ध वन्यजीव आवास हैं: भागलपुर के पास विक्रमशिला गंगा डॉल्फ़िन अभयारण्य भारत के राष्ट्रीय जलीय जीव, संकटग्रस्त गंगा डॉल्फ़िन की रक्षा करता है, और उत्तर की गोखुर झीलें, चौर और तालाब प्रवासी पक्षियों के शीतकालीन घर हैं।\n\nबिहार में छह रामसर स्थल हैं: बेगूसराय की कांवर झील (काबरताल), जमुई के नागी और नकटी पक्षी अभयारण्य, और 2025 से गोकुल जलाशय, उदयपुर झील और गोगाबील।",
+        "mr": "बिहारचा केवळ सुमारे 8% भाग वनाच्छादित आहे (आयएसएफआर 2023), बहुतांश अगदी वायव्येकडील वाल्मीकी व्याघ्र प्रकल्पात — राज्यातील एकमेव व्याघ्र प्रकल्प, नेपाळच्या चितवन राष्ट्रीय उद्यानाला लागून — आणि दक्षिणेकडील कैमूर व राजगीर–गया डोंगरांत. नद्या हा बिहारचा सर्वांत समृद्ध वन्यजीव अधिवास आहे: भागलपूरजवळील विक्रमशिला गांगेय डॉल्फिन अभयारण्य भारताचा राष्ट्रीय जलचर, संकटग्रस्त गंगा डॉल्फिनचे रक्षण करते, आणि उत्तरेकडील गोखुर सरोवरे, चौर व तलाव स्थलांतरित पक्ष्यांची हिवाळी घरे आहेत.\n\nबिहारमध्ये सहा रामसर स्थळे आहेत: बेगुसरायचे कांवर सरोवर (काबरताल), जमुईची नागी व नकटी पक्षी अभयारण्ये, आणि 2025 पासून गोकुळ जलाशय, उदयपूर सरोवर व गोगाबील.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "indian-wetlands"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 7532.45,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 7403.26,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 8.0,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,532.45 km² ÷ geographical area 94,163 km²."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        },
+        {
+          "id": "ramsar",
+          "label": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळ स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 6,
+            "unit": "sites",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "indian-wetlands",
+            "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "MoEFCC list of Ramsar sites as on 21 April 2026."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "ramsar",
+      "title": {
+        "en": "Ramsar wetlands",
+        "hi": "रामसर आर्द्रभूमियाँ",
+        "mr": "रामसर पाणथळ स्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Site",
+            "hi": "स्थल",
+            "mr": "स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Designated",
+            "hi": "घोषित",
+            "mr": "घोषणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Area (ha)",
+            "hi": "क्षेत्रफल (हेक्टेयर)",
+            "mr": "क्षेत्रफळ (हेक्टर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Kanwar Lake (Kabartal)",
+            "hi": "कांवर झील (काबरताल)",
+            "mr": "कांवर सरोवर (काबरताल)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2020",
+          "2,620"
+        ],
+        [
+          {
+            "en": "Nagi Bird Sanctuary",
+            "hi": "नागी पक्षी अभयारण्य",
+            "mr": "नागी पक्षी अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2023",
+          "205.82"
+        ],
+        [
+          {
+            "en": "Nakti Bird Sanctuary",
+            "hi": "नकटी पक्षी अभयारण्य",
+            "mr": "नकटी पक्षी अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2023",
+          "332.61"
+        ],
+        [
+          {
+            "en": "Gokul Jalashay",
+            "hi": "गोकुल जलाशय",
+            "mr": "गोकुळ जलाशय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2025",
+          "448"
+        ],
+        [
+          {
+            "en": "Udaipur Jheel",
+            "hi": "उदयपुर झील",
+            "mr": "उदयपूर सरोवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2025",
+          "319"
+        ],
+        [
+          {
+            "en": "Gogabil",
+            "hi": "गोगाबील",
+            "mr": "गोगाबील",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2025",
+          "86.63"
+        ]
+      ],
+      "sourceId": "indian-wetlands",
+      "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+      "accessDate": "2026-10-16",
+      "confidence": "Official",
+      "note": {
+        "en": "MoEFCC list as on 21 April 2026 (year of designation).",
+        "hi": "21 अप्रैल 2026 की पर्यावरण मंत्रालय सूची (घोषणा वर्ष)।",
+        "mr": "21 एप्रिल 2026 ची पर्यावरण मंत्रालयाची यादी (घोषणा वर्ष).",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "protected",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "valmiki",
+          "name": {
+            "en": "Valmiki Tiger Reserve",
+            "hi": "वाल्मीकि बाघ अभयारण्य",
+            "mr": "वाल्मीकी व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "West Champaran",
+            "hi": "पश्चिमी चंपारण",
+            "mr": "पश्चिम चंपारण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vikramshila",
+          "name": {
+            "en": "Vikramshila Gangetic Dolphin Sanctuary",
+            "hi": "विक्रमशिला गंगा डॉल्फ़िन अभयारण्य",
+            "mr": "विक्रमशिला गांगेय डॉल्फिन अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bhagalpur",
+            "hi": "भागलपुर",
+            "mr": "भागलपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kaimur",
+          "name": {
+            "en": "Kaimur Wildlife Sanctuary",
+            "hi": "कैमूर वन्यजीव अभयारण्य",
+            "mr": "कैमूर वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kaimur plateau",
+            "hi": "कैमूर पठार",
+            "mr": "कैमूर पठार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhimbandh",
+          "name": {
+            "en": "Bhimbandh Wildlife Sanctuary",
+            "hi": "भीमबांध वन्यजीव अभयारण्य",
+            "mr": "भीमबांध वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hot springs",
+            "hi": "गर्म जलकुंड",
+            "mr": "गरम पाण्याचे झरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kabartal",
+          "name": {
+            "en": "Kanwar Lake (Kabartal)",
+            "hi": "कांवर झील (काबरताल)",
+            "mr": "कांवर सरोवर (काबरताल)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ramsar site",
+            "hi": "रामसर स्थल",
+            "mr": "रामसर स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Protected areas (selected)",
+        "hi": "संरक्षित क्षेत्र (चयनित)",
+        "mr": "संरक्षित क्षेत्रे (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "species",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "dolphin",
+          "name": {
+            "en": "Ganges river dolphin",
+            "hi": "गंगा डॉल्फ़िन",
+            "mr": "गंगा डॉल्फिन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiger",
+          "name": {
+            "en": "Tiger",
+            "hi": "बाघ",
+            "mr": "वाघ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gaur",
+          "name": {
+            "en": "Gaur (State animal)",
+            "hi": "गौर (राज्य पशु)",
+            "mr": "गवा (राज्यप्राणी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sparrow",
+          "name": {
+            "en": "House sparrow (State bird)",
+            "hi": "गौरैया (राज्य पक्षी)",
+            "mr": "चिमणी (राज्यपक्षी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gharial",
+          "name": {
+            "en": "Gharial (Gandak)",
+            "hi": "घड़ियाल (गंडक)",
+            "mr": "घडियाल (गंडक)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "adjutant",
+          "name": {
+            "en": "Greater adjutant stork",
+            "hi": "गरुड़ (बड़ा गरुड़ बगुला)",
+            "mr": "मोठा करकोचा (गरुड)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key species",
+        "hi": "प्रमुख प्रजातियाँ",
+        "mr": "प्रमुख प्रजाती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tiger estimate (Valmiki)",
+            "hi": "बाघों का अनुमान (वाल्मीकि)",
+            "mr": "वाघांचा अंदाज (वाल्मीकी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ntca",
+          "note": "NTCA All India Tiger Estimation."
+        },
+        {
+          "label": {
+            "en": "Gangetic dolphin count in Bihar",
+            "hi": "बिहार में गंगा डॉल्फ़िन की संख्या",
+            "mr": "बिहारमधील गंगा डॉल्फिनची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "moefcc",
+          "note": "Project Dolphin population estimate."
+        }
+      ]
+    }
+  ]
+}

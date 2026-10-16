@@ -1,0 +1,98 @@
+{
+  "region": "IN-BR",
+  "module": "sports",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Bihar has invested in sport in recent years. The Rajgir Sports Complex and the Bihar Sports University at Rajgir hosted the Women's Asian Champions Trophy in hockey in 2024 and the men's Hockey Asia Cup in 2025. Shooter Shreyasi Singh of Jamui won Commonwealth Games gold in 2018. Cricket is widely followed, with the Moin-ul-Haq Stadium in Patna, and the Bihar team returned to the Ranji Trophy in 2018. Traditional rural sports include kabaddi and wrestling in village akharas.",
+        "hi": "बिहार ने हाल के वर्षों में खेलों में निवेश किया है। राजगीर खेल परिसर और राजगीर के बिहार खेल विश्वविद्यालय ने 2024 में महिला एशियाई चैंपियंस ट्रॉफ़ी हॉकी और 2025 में पुरुष हॉकी एशिया कप की मेज़बानी की। जमुई की निशानेबाज़ श्रेयसी सिंह ने 2018 में राष्ट्रमंडल खेलों में स्वर्ण जीता। क्रिकेट व्यापक रूप से देखा जाता है, पटना में मोइनुल हक़ स्टेडियम है, और बिहार की टीम 2018 में रणजी ट्रॉफ़ी में लौटी। पारंपरिक ग्रामीण खेलों में कबड्डी और गाँव के अखाड़ों में कुश्ती शामिल हैं।",
+        "mr": "बिहारने अलीकडच्या वर्षांत क्रीडांत गुंतवणूक केली आहे. राजगीर क्रीडा संकुल व राजगीर येथील बिहार क्रीडा विद्यापीठाने 2024 मध्ये महिला आशियाई चॅम्पियन्स करंडक हॉकी व 2025 मध्ये पुरुष हॉकी आशिया चषक आयोजित केला. जमुईच्या नेमबाज श्रेयसी सिंह यांनी 2018 मध्ये राष्ट्रकुल स्पर्धेत सुवर्ण जिंकले. क्रिकेट मोठ्या प्रमाणावर पाहिले जाते, पाटण्यात मोईनुल हक स्टेडियम आहे, आणि बिहारचा संघ 2018 मध्ये रणजी करंडकात परतला. पारंपरिक ग्रामीण खेळांत कबड्डी व गावच्या आखाड्यांतील कुस्ती यांचा समावेश आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "rajgir",
+          "name": {
+            "en": "Rajgir Sports Complex",
+            "hi": "राजगीर खेल परिसर",
+            "mr": "राजगीर क्रीडा संकुल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "moinulhaq",
+          "name": {
+            "en": "Moin-ul-Haq Stadium, Patna",
+            "hi": "मोइनुल हक़ स्टेडियम, पटना",
+            "mr": "मोईनुल हक स्टेडियम, पाटणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "patliputra",
+          "name": {
+            "en": "Patliputra Sports Complex, Patna",
+            "hi": "पाटलिपुत्र खेल परिसर, पटना",
+            "mr": "पाटलिपुत्र क्रीडा संकुल, पाटणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Olympic and Asian Games medallists from Bihar (official list)",
+            "hi": "बिहार के ओलंपिक और एशियाई खेल पदक विजेता (आधिकारिक सूची)",
+            "mr": "बिहारचे ऑलिम्पिक व आशियाई स्पर्धा पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Bihar State Sports Authority."
+        }
+      ]
+    }
+  ]
+}

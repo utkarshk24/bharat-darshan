@@ -1,0 +1,68 @@
+{
+  "region": "IN-BR",
+  "module": "water",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "North Bihar has too much water and south Bihar too little. The Kosi, Gandak, Bagmati and other rivers from Nepal carry heavy silt and flood large parts of the north almost every monsoon; thousands of kilometres of embankments have been built, but breaches — like the Kosi breach at Kusaha in Nepal in August 2008, which displaced millions — remain a threat. Many north Bihar districts also face waterlogging. South Bihar, drained by the Son, Punpun and Phalgu, depends on canals from the Son barrage at Indrapuri and on groundwater, and suffers droughts. Arsenic in groundwater affects districts along the Ganga, and fluoride some southern areas; the State's 'Har Ghar Nal Ka Jal' scheme aims to give every household piped water.",
+        "hi": "उत्तर बिहार में पानी बहुत अधिक है और दक्षिण बिहार में बहुत कम। नेपाल से आने वाली कोसी, गंडक, बागमती और अन्य नदियाँ भारी गाद लाती हैं और लगभग हर मानसून में उत्तर के बड़े हिस्सों में बाढ़ लाती हैं; हज़ारों किलोमीटर तटबंध बनाए गए हैं, लेकिन टूटन — जैसे अगस्त 2008 में नेपाल के कुसहा में कोसी तटबंध का टूटना, जिससे लाखों लोग विस्थापित हुए — अब भी ख़तरा है। उत्तर बिहार के कई ज़िलों में जलजमाव भी है। सोन, पुनपुन और फल्गु द्वारा जल-निकासी वाला दक्षिण बिहार इंद्रपुरी के सोन बराज की नहरों और भूजल पर निर्भर है, और सूखे से पीड़ित होता है। गंगा किनारे के ज़िलों में भूजल में आर्सेनिक और कुछ दक्षिणी क्षेत्रों में फ़्लोराइड है; राज्य की 'हर घर नल का जल' योजना का लक्ष्य हर घर को नल से पानी देना है।",
+        "mr": "उत्तर बिहारमध्ये पाणी फार जास्त आहे आणि दक्षिण बिहारमध्ये फार कमी. नेपाळमधून येणाऱ्या कोसी, गंडक, बागमती व इतर नद्या प्रचंड गाळ आणतात आणि जवळपास दर पावसाळ्यात उत्तरेच्या मोठ्या भागात पूर आणतात; हजारो किलोमीटर बांध बांधले गेले आहेत, पण भगदाडे — जसे ऑगस्ट 2008 मध्ये नेपाळमधील कुसहा येथे कोसीचा बांध फुटला, ज्यामुळे लाखो लोक विस्थापित झाले — अजूनही धोका आहेत. उत्तर बिहारच्या अनेक जिल्ह्यांत पाणी साचण्याची समस्याही आहे. सोन, पुनपुन व फल्गूने वाहून नेलेला दक्षिण बिहार इंद्रपुरी येथील सोन बंधाऱ्याच्या कालव्यांवर व भूजलावर अवलंबून आहे, आणि दुष्काळ सोसतो. गंगेकाठच्या जिल्ह्यांत भूजलात आर्सेनिक व काही दक्षिणेकडील भागांत फ्लोराइड आहे; राज्याची 'हर घर नल का जल' योजना प्रत्येक घराला नळाने पाणी देण्याचे उद्दिष्ट ठेवते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Flood-affected population and area by year",
+            "hi": "वर्षवार बाढ़ प्रभावित जनसंख्या और क्षेत्र",
+            "mr": "वर्षनिहाय पूरग्रस्त लोकसंख्या व क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Bihar Disaster Management Department annual flood reports."
+        },
+        {
+          "label": {
+            "en": "Arsenic-affected habitations",
+            "hi": "आर्सेनिक प्रभावित बस्तियाँ",
+            "mr": "आर्सेनिकबाधित वस्त्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission water-quality data."
+        },
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        }
+      ]
+    }
+  ]
+}

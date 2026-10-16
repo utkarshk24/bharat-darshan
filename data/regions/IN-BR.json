@@ -33,86 +33,151 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://state.bihar.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Gaur (Indian bison)",
+        "hi": "गौर (भारतीय बाइसन)",
+        "mr": "गवा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Bos gaurus",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "House sparrow",
+        "hi": "गौरैया",
+        "mr": "चिमणी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Passer domesticus",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Marigold",
+        "hi": "गेंदा",
+        "mr": "झेंडू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Tagetes erecta",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Peepal",
+        "hi": "पीपल",
+        "mr": "पिंपळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Ficus religiosa",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 104099452,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 5,42,78,157; females 4,98,21,295."
     },
     "area": {
-      "value": null,
+      "value": 94163,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 1106,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 10,40,99,452 ÷ area 94,163 km² = 1,105.5 — the highest of any State."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 918,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (919 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 935,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 942 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 61.8,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,87 +190,648 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 1107072,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25: ₹9,90,492 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 76300,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2024-25: ₹69,211."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 8.0,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 7,532.45 km² ÷ geographical area 94,163 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Syed Ata Hasnain",
+        "hi": "सैयद अता हसनैन",
+        "mr": "सय्यद अता हसनैन",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2026-03-14",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/bihar-lieutenant-general-retired-syed-ata-hasnain-takes-oath-as-43rd-governor-of-state",
+      "verifyUrl": "https://governor.bih.nic.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Lt Gen (Retd). Appointed by the President's communiqué of 5 March 2026; sworn in as the 43rd Governor of Bihar at Lok Bhavan, Patna, on 14 March 2026 by Patna High Court Chief Justice Sangam Kumar Sahu (News On AIR)."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "name": {
+        "en": "Samrat Choudhary",
+        "hi": "सम्राट चौधरी",
+        "mr": "सम्राट चौधरी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "BJP",
+      "since": "2026-04-15",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://newsonair.gov.in/pm-modi-congratulates-samrat-choudhary-on-taking-oath-as-cm-of-bihar/",
+      "verifyUrl": "https://state.bihar.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "note": "Elected leader of the NDA legislature party on 14 April 2026 after Nitish Kumar resigned on election to the Rajya Sabha; sworn in on 15 April 2026 at Lok Bhavan, Patna (News On AIR)."
+    },
+    "others": [
+      {
+        "role": "deputy-chief-minister",
+        "name": {
+          "en": "Vijay Kumar Chaudhary",
+          "hi": "विजय कुमार चौधरी",
+          "mr": "विजय कुमार चौधरी",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "JD(U)",
+        "since": "2026-04-15",
+        "asOf": "2026-10-16",
+        "sourceId": "newsonair",
+        "url": "https://newsonair.gov.in/pm-modi-congratulates-samrat-choudhary-on-taking-oath-as-cm-of-bihar/",
+        "verifyUrl": "https://state.bihar.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Named as Deputy Chief Minister in the Prime Minister's congratulations of 15 April 2026 (News On AIR)."
+      },
+      {
+        "role": "deputy-chief-minister",
+        "name": {
+          "en": "Bijendra Prasad Yadav",
+          "hi": "बिजेंद्र प्रसाद यादव",
+          "mr": "बिजेंद्र प्रसाद यादव",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "JD(U)",
+        "since": "2026-04-15",
+        "asOf": "2026-10-16",
+        "sourceId": "newsonair",
+        "url": "https://newsonair.gov.in/pm-modi-congratulates-samrat-choudhary-on-taking-oath-as-cm-of-bihar/",
+        "verifyUrl": "https://state.bihar.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Named as Deputy Chief Minister in the Prime Minister's congratulations of 15 April 2026 (News On AIR)."
+      },
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Prem Kumar",
+          "hi": "प्रेम कुमार",
+          "mr": "प्रेम कुमार",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2025-12-02",
+        "asOf": "2026-10-16",
+        "sourceId": "newsonair",
+        "url": "https://www.newsonair.gov.in/senior-bjp-leader-dr-prem-kumar-elected-new-speaker-of-18th-bihar-legislative-assembly/",
+        "verifyUrl": "https://vidhansabha.bih.nic.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Elected Speaker of the 18th Bihar Legislative Assembly on 2 December 2025 (News On AIR). Nine-time MLA from Gaya Town."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "patna-metro",
+      "name": {
+        "en": "Patna Metro — priority corridor",
+        "hi": "पटना मेट्रो — प्राथमिकता गलियारा",
+        "mr": "पाटणा मेट्रो — प्राधान्य मार्गिका",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "The first elevated stretch of about 3.6 km between the Inter-State Bus Terminal and Bhootnath, inaugurated on 6 October 2025, with passenger services from the next day — Bihar's first metro.",
+        "hi": "अंतरराज्यीय बस टर्मिनल और भूतनाथ के बीच लगभग 3.6 किमी का पहला एलिवेटेड खंड, 6 अक्टूबर 2025 को उद्घाटित, और अगले दिन से यात्री सेवा — बिहार की पहली मेट्रो।",
+        "mr": "आंतरराज्य बस टर्मिनल व भूतनाथदरम्यानचा सुमारे 3.6 किमीचा पहिला उन्नत टप्पा, 6 ऑक्टोबर 2025 रोजी उद्घाटित, आणि दुसऱ्या दिवसापासून प्रवासी सेवा — बिहारची पहिली मेट्रो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "urban",
+      "agency": "Patna Metro Rail Corporation",
+      "start": null,
+      "completion": "6 October 2025",
+      "status": "Completed",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/bihar-chief-minister-nitish-kumar-to-inaugurate-first-phase-of-patna-metro-rail-service-today",
+      "confidence": "Official"
+    },
+    {
+      "id": "aiims-darbhanga",
+      "name": {
+        "en": "AIIMS Darbhanga",
+        "hi": "एम्स दरभंगा",
+        "mr": "एम्स दरभंगा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "Bihar's second AIIMS, with a super-speciality hospital, AYUSH block, medical and nursing colleges and housing. The Prime Minister laid the foundation stone on 13 November 2024; it was expected to take about three years.",
+        "hi": "बिहार का दूसरा एम्स, जिसमें सुपर-स्पेशियलिटी अस्पताल, आयुष ब्लॉक, मेडिकल और नर्सिंग कॉलेज और आवास होंगे। प्रधानमंत्री ने 13 नवंबर 2024 को इसकी आधारशिला रखी; इसमें लगभग तीन वर्ष लगने की अपेक्षा थी।",
+        "mr": "बिहारचे दुसरे एम्स, ज्यात सुपर-स्पेशालिटी रुग्णालय, आयुष विभाग, वैद्यकीय व परिचारिका महाविद्यालये आणि निवासस्थाने असतील. पंतप्रधानांनी 13 नोव्हेंबर 2024 रोजी पायाभरणी केली; सुमारे तीन वर्षे लागणे अपेक्षित होते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "health",
+      "agency": "Ministry of Health and Family Welfare",
+      "start": "November 2024",
+      "completion": "c. 2027 (expected)",
+      "status": "Under Construction",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/pm-modi-to-visit-darbhanga-bihar-to-inaugurate-and-launch-development-projects-worth-over-%e2%82%b912000-crore",
+      "confidence": "Official",
+      "cost": {
+        "value": 1260,
+        "unit": "₹ crore",
+        "period": "2024",
+        "periodType": "calendar",
+        "sourceId": "newsonair",
+        "url": "https://www.newsonair.gov.in/pm-modi-to-visit-darbhanga-bihar-to-inaugurate-and-launch-development-projects-worth-over-%e2%82%b912000-crore",
+        "accessDate": "2026-10-16",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Over ₹1,260 crore (News On AIR)."
+      }
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "bhagalpuri-zardalu",
+      "name": {
+        "en": "Bhagalpuri Zardalu",
+        "hi": "भागलपुरी ज़र्दालू (आम)",
+        "mr": "भागलपुरी जर्दाळू (आंबा)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "551",
+      "filingDate": "2016-06-20",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "shahi-litchi-of-bihar",
+      "name": {
+        "en": "Shahi Litchi of Bihar",
+        "hi": "बिहार की शाही लीची",
+        "mr": "बिहारची शाही लिची",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "552",
+      "filingDate": "2016-06-20",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "katarni-rice",
+      "name": {
+        "en": "Katarni Rice",
+        "hi": "कतरनी चावल",
+        "mr": "कतरनी तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "553",
+      "filingDate": "2016-06-20",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "magahi-paan",
+      "name": {
+        "en": "Magahi Paan",
+        "hi": "मगही पान",
+        "mr": "मगही पान",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "554",
+      "filingDate": "2016-06-20",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "mithila-makhana",
+      "name": {
+        "en": "Mithila Makhana",
+        "hi": "मिथिला मखाना",
+        "mr": "मिथिला मखाणा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "696",
+      "filingDate": "2020-08-14",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "marcha-rice",
+      "name": {
+        "en": "Marcha Rice",
+        "hi": "मर्चा चावल",
+        "mr": "मर्चा तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "801",
+      "filingDate": "2021-11-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "silao-khaja",
+      "name": {
+        "en": "Silao Khaja",
+        "hi": "सिलाव खाजा",
+        "mr": "सिलाव खाजा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "584",
+      "filingDate": "2017-08-16",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "madhubani-painting",
+      "name": {
+        "en": "Madhubani Painting",
+        "hi": "मधुबनी चित्रकला",
+        "mr": "मधुबनी चित्रकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "37",
+      "filingDate": "2005-08-22",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "applique-khatwa-work-of-bihar",
+      "name": {
+        "en": "Applique (Khatwa) Work of Bihar",
+        "hi": "बिहार का एप्लिक (खटवा) काम",
+        "mr": "बिहारचे ऍप्लिक (खटवा) काम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "73",
+      "filingDate": "2006-09-21",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sujini-embroidery-work-of-bihar",
+      "name": {
+        "en": "Sujini Embroidery Work of Bihar",
+        "hi": "बिहार की सुजनी कढ़ाई",
+        "mr": "बिहारचे सुजनी भरतकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "74",
+      "filingDate": "2006-09-21",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sikki-grass-products-of-bihar",
+      "name": {
+        "en": "Sikki Grass Products of Bihar",
+        "hi": "बिहार के सिक्की घास उत्पाद",
+        "mr": "बिहारची सिक्की गवत उत्पादने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "75",
+      "filingDate": "2006-09-21",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bhagalpur-silk",
+      "name": {
+        "en": "Bhagalpur Silk",
+        "hi": "भागलपुरी रेशम",
+        "mr": "भागलपुरी रेशीम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "180",
+      "filingDate": "2009-07-15",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sikki-grass-products-of-bihar-logo",
+      "name": {
+        "en": "Sikki Grass Products of Bihar (Logo)",
+        "hi": "बिहार के सिक्की घास उत्पाद (लोगो)",
+        "mr": "बिहारची सिक्की गवत उत्पादने (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "536",
+      "filingDate": "2015-12-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date. The GI Registry's list prints this second registration without the word 'Logo'; it was filed on 28 Dec 2015 together with other logo marks and is treated here as the logo registration."
+    },
+    {
+      "id": "applique-khatwa-work-of-bihar-logo",
+      "name": {
+        "en": "Applique (Khatwa) Work of Bihar (Logo)",
+        "hi": "बिहार का एप्लिक (खटवा) काम (लोगो)",
+        "mr": "बिहारचे ऍप्लिक (खटवा) काम (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "537",
+      "filingDate": "2015-12-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date. The GI Registry's list prints this second registration without the word 'Logo'; it was filed on 28 Dec 2015 together with other logo marks and is treated here as the logo registration."
+    },
+    {
+      "id": "sujini-embroidery-work-of-bihar-logo",
+      "name": {
+        "en": "Sujini Embroidery Work of Bihar (Logo)",
+        "hi": "बिहार की सुजनी कढ़ाई (लोगो)",
+        "mr": "बिहारचे सुजनी भरतकाम (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "538",
+      "filingDate": "2015-12-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date. The GI Registry's list prints this second registration without the word 'Logo'; it was filed on 28 Dec 2015 together with other logo marks and is treated here as the logo registration."
+    },
+    {
+      "id": "manjusha-art",
+      "name": {
+        "en": "Manjusha Art",
+        "hi": "मंजूषा कला",
+        "mr": "मंजूषा कला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "656",
+      "filingDate": "2019-08-07",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-16",
+    "editorialStatus": "draft"
   }
 }

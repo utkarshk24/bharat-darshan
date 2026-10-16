@@ -1,0 +1,55 @@
+{
+  "region": "IN-BR",
+  "module": "diaspora",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Bihar has one of the largest migrant populations in India. In the 19th century, indentured labourers from the Bhojpuri-speaking districts of Bihar and eastern Uttar Pradesh were taken to Mauritius, Fiji, Trinidad and Tobago, Guyana and Suriname; their descendants keep Bhojpuri songs and festivals alive there. Today millions of workers from Bihar live in Delhi, Punjab, Haryana, Maharashtra, Gujarat and the south, and many go to the Gulf. Students and professionals from Bihar are prominent in the civil services, medicine and engineering across India, and Chhath is now celebrated wherever Biharis live.",
+        "hi": "बिहार में भारत की सबसे बड़ी प्रवासी आबादियों में से एक है। 19वीं सदी में बिहार और पूर्वी उत्तर प्रदेश के भोजपुरी-भाषी ज़िलों के गिरमिटिया श्रमिकों को मॉरीशस, फ़िजी, त्रिनिदाद और टोबैगो, गयाना और सूरीनाम ले जाया गया; उनके वंशज वहाँ भोजपुरी गीतों और त्योहारों को जीवित रखते हैं। आज बिहार के लाखों श्रमिक दिल्ली, पंजाब, हरियाणा, महाराष्ट्र, गुजरात और दक्षिण में रहते हैं, और बहुत से खाड़ी देशों में जाते हैं। बिहार के छात्र और पेशेवर पूरे भारत में सिविल सेवाओं, चिकित्सा और इंजीनियरिंग में प्रमुख हैं, और छठ अब जहाँ भी बिहारी रहते हैं वहाँ मनाया जाता है।",
+        "mr": "बिहारमध्ये भारतातील सर्वांत मोठ्या स्थलांतरित लोकसंख्यांपैकी एक आहे. एकोणिसाव्या शतकात बिहार व पूर्व उत्तर प्रदेशच्या भोजपुरीभाषक जिल्ह्यांतील करारबद्ध (गिरमिटिया) कामगारांना मॉरिशस, फिजी, त्रिनिदाद व टोबॅगो, गयाना व सुरिनाम येथे नेले गेले; त्यांचे वंशज तिथे भोजपुरी गाणी व सण जिवंत ठेवतात. आज बिहारचे लाखो कामगार दिल्ली, पंजाब, हरियाणा, महाराष्ट्र, गुजरात व दक्षिणेत राहतात, आणि अनेक जण आखाती देशांत जातात. बिहारचे विद्यार्थी व व्यावसायिक भारतभर नागरी सेवा, वैद्यकशास्त्र व अभियांत्रिकीत आघाडीवर आहेत, आणि छठ आता जिथे जिथे बिहारी राहतात तिथे साजरी होते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants and internal migrants",
+            "hi": "प्रवासियों और आंतरिक प्रवासियों की संख्या",
+            "mr": "परदेशी व देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables; MEA."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

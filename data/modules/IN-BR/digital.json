@@ -1,0 +1,55 @@
+{
+  "region": "IN-BR",
+  "module": "digital",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Bihar's technology sector is small but growing, centred on Patna, where the State has set up an IT tower and start-up incubators, and on institutions such as IIT Patna. The State runs many services online, from land records to certificates, and mobile phones and digital payments have spread quickly in rural areas.",
+        "hi": "बिहार का प्रौद्योगिकी क्षेत्र छोटा लेकिन बढ़ता हुआ है, जो पटना पर केंद्रित है, जहाँ राज्य ने आईटी टावर और स्टार्टअप इनक्यूबेटर बनाए हैं, और आईआईटी पटना जैसे संस्थानों पर। राज्य भूमि अभिलेखों से लेकर प्रमाणपत्रों तक कई सेवाएँ ऑनलाइन चलाता है, और ग्रामीण क्षेत्रों में मोबाइल फ़ोन और डिजिटल भुगतान तेज़ी से फैले हैं।",
+        "mr": "बिहारचे तंत्रज्ञान क्षेत्र लहान पण वाढते आहे, पाटण्यावर केंद्रित, जिथे राज्याने आयटी टॉवर व स्टार्टअप इन्क्युबेटर्स उभारले आहेत, आणि आयआयटी पाटणासारख्या संस्थांवर. राज्य जमिनीच्या नोंदींपासून प्रमाणपत्रांपर्यंत अनेक सेवा ऑनलाइन चालवते, आणि ग्रामीण भागात मोबाइल फोन व डिजिटल पेमेंट झपाट्याने पसरले आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Bihar circle, which includes Jharkhand)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

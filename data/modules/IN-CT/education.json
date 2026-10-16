@@ -1,0 +1,425 @@
+{
+  "region": "IN-CT",
+  "module": "education",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chhattisgarh's higher-education gross enrolment ratio (ages 18–23) was 19.6% in 2021-22 in AISHE, up from 17.7% in 2017-18 but well below the national 28.4%. Notably, women's GER (21.6%) was clearly higher than men's (17.6%). The State had 34 universities and 917 colleges. Literacy at the 2011 Census was 70.3%.\n\nPt. Ravishankar Shukla University in Raipur (1964) is the oldest general university, and Guru Ghasidas Vishwavidyalaya in Bilaspur is a central university. National institutes include IIT Bhilai, IIM Raipur, NIT Raipur, AIIMS Raipur and Hidayatullah National Law University. Indira Gandhi Krishi Vishwavidyalaya is the State farm university, and Indira Kala Sangeet Vishwavidyalaya in Khairagarh (1956) teaches music, dance and fine arts.",
+        "hi": "एआईएसएचई के अनुसार 2021-22 में छत्तीसगढ़ का उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 19.6% था, जो 2017-18 के 17.7% से अधिक लेकिन राष्ट्रीय 28.4% से काफ़ी कम है। उल्लेखनीय है कि महिलाओं का जीईआर (21.6%) पुरुषों (17.6%) से स्पष्ट रूप से अधिक था। राज्य में 34 विश्वविद्यालय और 917 कॉलेज थे। 2011 की जनगणना में साक्षरता 70.3% थी।\n\nरायपुर का पं. रविशंकर शुक्ल विश्वविद्यालय (1964) सबसे पुराना सामान्य विश्वविद्यालय है, और बिलासपुर का गुरु घासीदास विश्वविद्यालय केंद्रीय विश्वविद्यालय है। राष्ट्रीय संस्थानों में आईआईटी भिलाई, आईआईएम रायपुर, एनआईटी रायपुर, एम्स रायपुर और हिदायतुल्लाह राष्ट्रीय विधि विश्वविद्यालय शामिल हैं। इंदिरा गांधी कृषि विश्वविद्यालय राज्य का कृषि विश्वविद्यालय है, और खैरागढ़ का इंदिरा कला संगीत विश्वविद्यालय (1956) संगीत, नृत्य और ललित कलाएँ सिखाता है।",
+        "mr": "एआयएसएचईनुसार 2021-22 मध्ये छत्तीसगडचे उच्चशिक्षण एकूण नोंदणी गुणोत्तर (18–23 वय) 19.6% होते, 2017-18 मधील 17.7% पेक्षा अधिक पण राष्ट्रीय 28.4% पेक्षा बरेच कमी. विशेष म्हणजे स्त्रियांचे जीईआर (21.6%) पुरुषांपेक्षा (17.6%) स्पष्टपणे अधिक होते. राज्यात 34 विद्यापीठे व 917 महाविद्यालये होती. 2011 च्या जनगणनेत साक्षरता 70.3% होती.\n\nरायपूरचे पं. रविशंकर शुक्ल विद्यापीठ (1964) हे सर्वांत जुने सर्वसाधारण विद्यापीठ आहे, आणि बिलासपूरचे गुरु घासीदास विश्वविद्यालय केंद्रीय विद्यापीठ आहे. राष्ट्रीय संस्थांत आयआयटी भिलाई, आयआयएम रायपूर, एनआयटी रायपूर, एम्स रायपूर व हिदायतुल्ला राष्ट्रीय विधी विद्यापीठ यांचा समावेश आहे. इंदिरा गांधी कृषी विश्वविद्यालय हे राज्याचे कृषी विद्यापीठ आहे, आणि खैरागडचे इंदिरा कला संगीत विश्वविद्यालय (1956) संगीत, नृत्य व ललित कला शिकवते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 19.6,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 19.63,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 34,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 917,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "ct",
+          "label": {
+            "en": "Chhattisgarh",
+            "hi": "छत्तीसगढ़",
+            "mr": "छत्तीसगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 17.65,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 17.89,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 17.75,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 19.63,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 19.6,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "prsu",
+          "name": {
+            "en": "Pt. Ravishankar Shukla University",
+            "hi": "पं. रविशंकर शुक्ल विश्वविद्यालय",
+            "mr": "पं. रविशंकर शुक्ल विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Raipur, 1964",
+            "hi": "रायपुर, 1964",
+            "mr": "रायपूर, 1964",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ggv",
+          "name": {
+            "en": "Guru Ghasidas Vishwavidyalaya",
+            "hi": "गुरु घासीदास विश्वविद्यालय",
+            "mr": "गुरु घासीदास विश्वविद्यालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bilaspur; central university",
+            "hi": "बिलासपुर; केंद्रीय विश्वविद्यालय",
+            "mr": "बिलासपूर; केंद्रीय विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iitbh",
+          "name": {
+            "en": "IIT Bhilai",
+            "hi": "आईआईटी भिलाई",
+            "mr": "आयआयटी भिलाई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Durg",
+            "hi": "दुर्ग",
+            "mr": "दुर्ग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iimr",
+          "name": {
+            "en": "IIM Raipur",
+            "hi": "आईआईएम रायपुर",
+            "mr": "आयआयएम रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Nava Raipur",
+            "hi": "नवा रायपुर",
+            "mr": "नवा रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nitr",
+          "name": {
+            "en": "NIT Raipur",
+            "hi": "एनआईटी रायपुर",
+            "mr": "एनआयटी रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Raipur",
+            "hi": "रायपुर",
+            "mr": "रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "aiims",
+          "name": {
+            "en": "AIIMS Raipur",
+            "hi": "एम्स रायपुर",
+            "mr": "एम्स रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Raipur",
+            "hi": "रायपुर",
+            "mr": "रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iksv",
+          "name": {
+            "en": "Indira Kala Sangeet Vishwavidyalaya",
+            "hi": "इंदिरा कला संगीत विश्वविद्यालय",
+            "mr": "इंदिरा कला संगीत विश्वविद्यालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Khairagarh, 1956",
+            "hi": "खैरागढ़, 1956",
+            "mr": "खैरागड, 1956",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "Literacy by sex (Census 2011)",
+            "hi": "लिंग के अनुसार साक्षरता (जनगणना 2011)",
+            "mr": "लिंगनिहाय साक्षरता (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Primary Census Abstract."
+        }
+      ]
+    }
+  ]
+}

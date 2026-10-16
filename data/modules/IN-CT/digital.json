@@ -1,0 +1,55 @@
+{
+  "region": "IN-CT",
+  "module": "digital",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chhattisgarh's technology sector is small and concentrated in Raipur and Nava Raipur, where the State has planned IT and electronics zones. Public services such as land records, ration cards and paddy procurement payments are handled online, and mobile and banking networks have been extended into the forested south, though connectivity in remote Bastar remains patchy.",
+        "hi": "छत्तीसगढ़ का प्रौद्योगिकी क्षेत्र छोटा है और रायपुर व नवा रायपुर में केंद्रित है, जहाँ राज्य ने आईटी और इलेक्ट्रॉनिक्स क्षेत्र नियोजित किए हैं। भूमि अभिलेख, राशन कार्ड और धान ख़रीद भुगतान जैसी सार्वजनिक सेवाएँ ऑनलाइन चलती हैं, और मोबाइल व बैंकिंग नेटवर्क वनाच्छादित दक्षिण तक पहुँचाए गए हैं, हालाँकि दूरस्थ बस्तर में कनेक्टिविटी अब भी अधूरी है।",
+        "mr": "छत्तीसगडचे तंत्रज्ञान क्षेत्र लहान असून रायपूर व नवा रायपूरमध्ये केंद्रित आहे, जिथे राज्याने आयटी व इलेक्ट्रॉनिक्स क्षेत्रे नियोजित केली आहेत. जमिनीच्या नोंदी, शिधापत्रिका व धानखरेदीचे पैसे यांसारख्या सार्वजनिक सेवा ऑनलाइन चालतात, आणि मोबाइल व बँकिंग जाळे वनाच्छादित दक्षिणेपर्यंत पोहोचवले आहे, तरी दुर्गम बस्तरमध्ये जोडणी अजूनही अपुरी आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Madhya Pradesh circle, which includes Chhattisgarh)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

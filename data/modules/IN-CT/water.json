@@ -1,0 +1,55 @@
+{
+  "region": "IN-CT",
+  "module": "water",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Most of Chhattisgarh lies in the upper Mahanadi basin, with the south draining to the Godavari through the Indravati and Sabari, and the north to the Ganga through the Son. The Gangrel (Ravishankar Sagar) dam on the Mahanadi near Dhamtari, the Hasdeo Bango (Minimata) dam near Korba and older tanks such as Tandula irrigate the plains, but much farmland still depends on the monsoon. The sharing of Mahanadi water with Odisha is disputed and before a tribunal. Industrial use, coal mining and fluoride in some areas affect water quality; ponds (talabs) in every village remain central to daily life.",
+        "hi": "छत्तीसगढ़ का अधिकांश भाग ऊपरी महानदी बेसिन में है, जबकि दक्षिण इंद्रावती और सबरी के माध्यम से गोदावरी में और उत्तर सोन के माध्यम से गंगा में बहता है। धमतरी के पास महानदी पर गंगरेल (रविशंकर सागर) बाँध, कोरबा के पास हसदेव बांगो (मिनीमाता) बाँध और तांदुला जैसे पुराने जलाशय मैदानों की सिंचाई करते हैं, लेकिन बहुत सी खेती अब भी मानसून पर निर्भर है। ओडिशा के साथ महानदी जल का बँटवारा विवादित है और एक न्यायाधिकरण के समक्ष है। औद्योगिक उपयोग, कोयला खनन और कुछ क्षेत्रों में फ़्लोराइड जल गुणवत्ता को प्रभावित करते हैं; हर गाँव के तालाब दैनिक जीवन के केंद्र में हैं।",
+        "mr": "छत्तीसगडचा बहुतांश भाग वरच्या महानदी खोऱ्यात आहे, तर दक्षिण भाग इंद्रावती व सबरीमार्गे गोदावरीत आणि उत्तर भाग सोनमार्गे गंगेत वाहतो. धमतरीजवळ महानदीवरील गंगरेल (रविशंकर सागर) धरण, कोरब्याजवळील हसदेव बांगो (मिनीमाता) धरण व तांदुलासारखे जुने जलाशय मैदानांना सिंचन देतात, पण बरीच शेती अजूनही मान्सूनवर अवलंबून आहे. ओडिशासोबत महानदीच्या पाणीवाटपाचा वाद लवादासमोर आहे. औद्योगिक वापर, कोळसा खाणकाम व काही भागांतील फ्लोराइड पाण्याच्या गुणवत्तेवर परिणाम करतात; प्रत्येक गावातील तलाव दैनंदिन जीवनाच्या केंद्रस्थानी आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Irrigated area",
+            "hi": "सिंचित क्षेत्र",
+            "mr": "सिंचित क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Chhattisgarh Economic Survey / Water Resources Department."
+        },
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        }
+      ]
+    }
+  ]
+}

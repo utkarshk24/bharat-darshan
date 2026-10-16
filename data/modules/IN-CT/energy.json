@@ -1,0 +1,55 @@
+{
+  "region": "IN-CT",
+  "module": "energy",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chhattisgarh is one of India's major power producers. Korba, the 'power capital', has NTPC's super thermal power station and State plants side by side with the coal mines that feed them, and NTPC's Sipat and Lara stations and many private plants around Raigarh and Janjgir–Champa add to the output. Much of the power is sent to other States. Hydro-electric power comes mainly from the Hasdeo Bango (Minimata) dam, and solar capacity is growing.",
+        "hi": "छत्तीसगढ़ भारत के प्रमुख बिजली उत्पादकों में से है। 'ऊर्जा राजधानी' कोरबा में एनटीपीसी का सुपर तापीय बिजलीघर और राज्य के संयंत्र उन्हें ईंधन देने वाली कोयला खदानों के साथ-साथ हैं, और एनटीपीसी के सीपत व लारा केंद्र तथा रायगढ़ और जांजगीर–चांपा के आसपास कई निजी संयंत्र उत्पादन बढ़ाते हैं। बिजली का बड़ा भाग दूसरे राज्यों को भेजा जाता है। जलविद्युत मुख्यतः हसदेव बांगो (मिनीमाता) बाँध से आती है, और सौर क्षमता बढ़ रही है।",
+        "mr": "छत्तीसगड हे भारतातील प्रमुख वीज उत्पादकांपैकी एक आहे. 'ऊर्जा राजधानी' कोरब्यात एनटीपीसीचे सुपर औष्णिक वीजकेंद्र व राज्याचे प्रकल्प त्यांना कोळसा पुरवणाऱ्या खाणींच्या शेजारीच आहेत, आणि एनटीपीसीची सीपत व लारा केंद्रे आणि रायगड व जांजगीर–चांपाभोवतीचे अनेक खासगी प्रकल्प उत्पादनात भर घालतात. विजेचा मोठा भाग इतर राज्यांना पाठवला जातो. जलविद्युत मुख्यतः हसदेव बांगो (मिनीमाता) धरणातून येते, आणि सौरक्षमता वाढत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

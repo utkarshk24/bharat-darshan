@@ -1,0 +1,98 @@
+{
+  "region": "IN-CT",
+  "module": "sports",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Rajnandgaon has a long hockey tradition and hosts an annual all-India tournament, and the State has invested in hockey turf and academies. The Shaheed Veer Narayan Singh International Cricket Stadium at Nava Raipur, one of India's largest, has hosted international matches. Traditional games such as gedi (stilt-walking) at Hareli, kabaddi and archery in tribal areas remain popular, and mallakhamb trainees from the Abujhmarh region have gained national attention.",
+        "hi": "राजनांदगाँव की हॉकी परंपरा पुरानी है और वहाँ हर वर्ष अखिल भारतीय टूर्नामेंट होता है, और राज्य ने हॉकी टर्फ़ और अकादमियों में निवेश किया है। नवा रायपुर का शहीद वीर नारायण सिंह अंतरराष्ट्रीय क्रिकेट स्टेडियम, भारत के सबसे बड़े स्टेडियमों में से एक, अंतरराष्ट्रीय मैचों की मेज़बानी कर चुका है। हरेली पर गेड़ी, कबड्डी और जनजातीय क्षेत्रों में तीरंदाज़ी जैसे पारंपरिक खेल लोकप्रिय हैं, और अबूझमाड़ क्षेत्र के मलखंब प्रशिक्षुओं ने राष्ट्रीय ध्यान खींचा है।",
+        "mr": "राजनांदगावची हॉकी परंपरा जुनी आहे व तिथे दरवर्षी अखिल भारतीय स्पर्धा होते, आणि राज्याने हॉकी टर्फ व अकादमींमध्ये गुंतवणूक केली आहे. नवा रायपूरचे शहीद वीर नारायण सिंह आंतरराष्ट्रीय क्रिकेट स्टेडियम, भारतातील सर्वांत मोठ्या स्टेडियमपैकी एक, आंतरराष्ट्रीय सामने आयोजित करून चुकले आहे. हरेलीला गेडी, कबड्डी व आदिवासी भागांत तिरंदाजी यांसारखे पारंपरिक खेळ लोकप्रिय आहेत, आणि अबुझमाड भागातील मल्लखांब प्रशिक्षणार्थींनी राष्ट्रीय लक्ष वेधले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "svns",
+          "name": {
+            "en": "Shaheed Veer Narayan Singh International Cricket Stadium, Nava Raipur",
+            "hi": "शहीद वीर नारायण सिंह अंतरराष्ट्रीय क्रिकेट स्टेडियम, नवा रायपुर",
+            "mr": "शहीद वीर नारायण सिंह आंतरराष्ट्रीय क्रिकेट स्टेडियम, नवा रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rjn",
+          "name": {
+            "en": "Hockey stadium, Rajnandgaon",
+            "hi": "हॉकी स्टेडियम, राजनांदगाँव",
+            "mr": "हॉकी स्टेडियम, राजनांदगाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "indoor",
+          "name": {
+            "en": "Swami Vivekananda indoor stadium, Raipur",
+            "hi": "स्वामी विवेकानंद इनडोर स्टेडियम, रायपुर",
+            "mr": "स्वामी विवेकानंद इनडोअर स्टेडियम, रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "National and international medallists from Chhattisgarh (official list)",
+            "hi": "छत्तीसगढ़ के राष्ट्रीय और अंतरराष्ट्रीय पदक विजेता (आधिकारिक सूची)",
+            "mr": "छत्तीसगडचे राष्ट्रीय व आंतरराष्ट्रीय पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Chhattisgarh Sports and Youth Welfare Department."
+        }
+      ]
+    }
+  ]
+}

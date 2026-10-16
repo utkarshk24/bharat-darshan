@@ -1,0 +1,196 @@
+{
+  "region": "IN-CT",
+  "module": "climate",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chhattisgarh has a tropical climate. Summers (March–June) are very hot on the plains — Raipur, Bilaspur and Durg are among the hottest cities of central India in May — while Mainpat and the Bastar hills are milder. The south-west monsoon (mid-June to September) brings most of the year's rain, heavier in Bastar and the northern hills than on the plains. Winters (November–February) are pleasant, with cold nights in Surguja and Mainpat.",
+        "hi": "छत्तीसगढ़ की जलवायु उष्णकटिबंधीय है। गर्मियाँ (मार्च–जून) मैदानों में बहुत गर्म होती हैं — मई में रायपुर, बिलासपुर और दुर्ग मध्य भारत के सबसे गर्म शहरों में होते हैं — जबकि मैनपाट और बस्तर की पहाड़ियाँ अपेक्षाकृत ठंडी रहती हैं। दक्षिण-पश्चिम मानसून (मध्य जून से सितंबर) वर्ष की अधिकांश वर्षा लाता है, जो मैदानों की तुलना में बस्तर और उत्तरी पहाड़ियों में अधिक होती है। सर्दियाँ (नवंबर–फ़रवरी) सुहावनी होती हैं, और सरगुजा व मैनपाट में रातें ठंडी।",
+        "mr": "छत्तीसगडचे हवामान उष्णकटिबंधीय आहे. उन्हाळा (मार्च–जून) मैदानांत अतिशय उष्ण असतो — मे महिन्यात रायपूर, बिलासपूर व दुर्ग ही मध्य भारतातील सर्वांत उष्ण शहरांपैकी असतात — तर मैनपाट व बस्तरचे डोंगर तुलनेने सौम्य असतात. नैर्ऋत्य मान्सून (जूनच्या मध्यापासून सप्टेंबरपर्यंत) वर्षाचा बहुतेक पाऊस आणतो, जो मैदानांपेक्षा बस्तर व उत्तरेकडील डोंगरांत अधिक असतो. हिवाळा (नोव्हेंबर–फेब्रुवारी) आल्हाददायक असतो, आणि सरगुजा व मैनपाटमध्ये रात्री थंड असतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Raipur",
+            "hi": "रायपुर",
+            "mr": "रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 21.2514,
+          "lon": 81.6296
+        },
+        {
+          "name": {
+            "en": "Bilaspur",
+            "hi": "बिलासपुर",
+            "mr": "बिलासपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 22.0797,
+          "lon": 82.1409
+        },
+        {
+          "name": {
+            "en": "Jagdalpur",
+            "hi": "जगदलपुर",
+            "mr": "जगदलपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 19.0748,
+          "lon": 82.008
+        },
+        {
+          "name": {
+            "en": "Ambikapur",
+            "hi": "अंबिकापुर",
+            "mr": "अंबिकापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 23.1186,
+          "lon": 83.195
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to February",
+            "hi": "अक्टूबर से फ़रवरी",
+            "mr": "ऑक्टोबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best for Bastar, Sirpur and wildlife; Bastar Dussehra in October.",
+            "hi": "बस्तर, सिरपुर और वन्यजीवों के लिए सबसे अच्छा; अक्टूबर में बस्तर दशहरा।",
+            "mr": "बस्तर, सिरपूर व वन्यजीवांसाठी उत्तम; ऑक्टोबरमध्ये बस्तर दसरा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "July to September",
+            "hi": "जुलाई से सितंबर",
+            "mr": "जुलै ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Chitrakote and Tirathgarh falls at their fullest; Hareli festival.",
+            "hi": "चित्रकोट और तीरथगढ़ जलप्रपात पूरे वेग पर; हरेली त्योहार।",
+            "mr": "चित्रकोट व तीरथगड धबधबे पूर्ण भरात; हरेली सण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spring",
+          "name": {
+            "en": "February–March",
+            "hi": "फ़रवरी–मार्च",
+            "mr": "फेब्रुवारी–मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rajim Punni Mela and Madai fairs in Bastar.",
+            "hi": "राजिम पुन्नी मेला और बस्तर में मड़ई मेले।",
+            "mr": "राजिम पुन्नी मेळा व बस्तरमधील मडई जत्रा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (Chhattisgarh sub-division)",
+            "hi": "सामान्य वार्षिक वर्षा (छत्तीसगढ़ उप-मंडल)",
+            "mr": "सरासरी वार्षिक पाऊस (छत्तीसगड उपविभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics."
+        },
+        {
+          "label": {
+            "en": "Record temperatures",
+            "hi": "रिकॉर्ड तापमान",
+            "mr": "विक्रमी तापमान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD station climatology for Raipur and Bilaspur."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "region": "IN-CT",
+  "module": "tourism",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Bastar is Chhattisgarh's great draw: Chitrakote falls on the Indravati, often called India's Niagara for its broad horseshoe shape, Tirathgarh falls and the Kotumsar caves in Kanger Valley, the Danteshwari temple at Dantewada, and the weekly tribal haats and Dussehra of Jagdalpur. Sirpur's brick temples and Buddhist monasteries, the Bhoramdeo temple in Kabirdham, Rajim's temples at the river confluence, Ratanpur and the hilltop Bamleshwari temple at Dongargarh are historic and pilgrimage sites. Mainpat, with its cool plateau and Tibetan settlement, is a hill retreat in the north, and Barnawapara and Achanakmar are wildlife destinations.",
+        "hi": "बस्तर छत्तीसगढ़ का सबसे बड़ा आकर्षण है: इंद्रावती पर चित्रकोट जलप्रपात, जिसे अपने चौड़े घोड़े की नाल जैसे आकार के कारण अक्सर भारत का नियाग्रा कहा जाता है, कांगेर घाटी में तीरथगढ़ जलप्रपात और कोटमसर गुफाएँ, दंतेवाड़ा का दंतेश्वरी मंदिर, और जगदलपुर के साप्ताहिक आदिवासी हाट व दशहरा। सिरपुर के ईंट मंदिर और बौद्ध विहार, कबीरधाम का भोरमदेव मंदिर, नदी संगम पर राजिम के मंदिर, रतनपुर और डोंगरगढ़ का पहाड़ी बम्लेश्वरी मंदिर ऐतिहासिक और तीर्थ स्थल हैं। ठंडे पठार और तिब्बती बस्ती वाला मैनपाट उत्तर का पहाड़ी विश्राम स्थल है, और बारनवापारा व अचानकमार वन्यजीव गंतव्य हैं।",
+        "mr": "बस्तर हे छत्तीसगडचे सर्वांत मोठे आकर्षण आहे: इंद्रावतीवरील चित्रकोट धबधबा, ज्याला त्याच्या रुंद नालाकृती आकारामुळे अनेकदा भारताचा नायगारा म्हटले जाते, कांगेर खोऱ्यातील तीरथगड धबधबा व कोटमसर गुहा, दंतेवाड्याचे दंतेश्वरी मंदिर, आणि जगदलपूरचे आठवडी आदिवासी बाजार व दसरा. सिरपूरची विटांची मंदिरे व बौद्ध विहार, कबीरधाममधील भोरमदेव मंदिर, नद्यांच्या संगमावरील राजिमची मंदिरे, रतनपूर आणि डोंगरगडचे डोंगरावरील बम्लेश्वरी मंदिर ही ऐतिहासिक व तीर्थस्थळे आहेत. थंड पठार व तिबेटी वस्ती असलेले मैनपाट हे उत्तरेकडील थंड हवेचे ठिकाण आहे, आणि बारनवापारा व अचानकमार ही वन्यजीव स्थळे आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "chitrakote",
+          "name": {
+            "en": "Chitrakote falls",
+            "hi": "चित्रकोट जलप्रपात",
+            "mr": "चित्रकोट धबधबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Indravati; Bastar",
+            "hi": "इंद्रावती; बस्तर",
+            "mr": "इंद्रावती; बस्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kanger",
+          "name": {
+            "en": "Kanger Valley",
+            "hi": "कांगेर घाटी",
+            "mr": "कांगेर खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kotumsar caves; Tirathgarh",
+            "hi": "कोटमसर गुफाएँ; तीरथगढ़",
+            "mr": "कोटमसर गुहा; तीरथगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sirpur",
+          "name": {
+            "en": "Sirpur",
+            "hi": "सिरपुर",
+            "mr": "सिरपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Temples and monasteries",
+            "hi": "मंदिर और विहार",
+            "mr": "मंदिरे व विहार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhoramdeo",
+          "name": {
+            "en": "Bhoramdeo",
+            "hi": "भोरमदेव",
+            "mr": "भोरमदेव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Temple; Kabirdham",
+            "hi": "मंदिर; कबीरधाम",
+            "mr": "मंदिर; कबीरधाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mainpat",
+          "name": {
+            "en": "Mainpat",
+            "hi": "मैनपाट",
+            "mr": "मैनपाट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hill plateau; Tibetan settlement",
+            "hi": "पहाड़ी पठार; तिब्बती बस्ती",
+            "mr": "डोंगरी पठार; तिबेटी वस्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dantewada",
+          "name": {
+            "en": "Dantewada",
+            "hi": "दंतेवाड़ा",
+            "mr": "दंतेवाडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Danteshwari temple",
+            "hi": "दंतेश्वरी मंदिर",
+            "mr": "दंतेश्वरी मंदिर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "barnawapara",
+          "name": {
+            "en": "Barnawapara",
+            "hi": "बारनवापारा",
+            "mr": "बारनवापारा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Wildlife",
+            "hi": "वन्यजीव",
+            "mr": "वन्यजीव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Raipur, Sirpur and Rajim.",
+            "hi": "रायपुर, सिरपुर और राजिम।",
+            "mr": "रायपूर, सिरपूर व राजिम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Jagdalpur, Chitrakote, Tirathgarh and Kanger Valley.",
+            "hi": "जगदलपुर, चित्रकोट, तीरथगढ़ और कांगेर घाटी।",
+            "mr": "जगदलपूर, चित्रकोट, तीरथगड व कांगेर खोरे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Raipur and Sirpur, then Bastar with Dantewada and a weekly haat.",
+            "hi": "रायपुर और सिरपुर, फिर दंतेवाड़ा और साप्ताहिक हाट के साथ बस्तर।",
+            "mr": "रायपूर व सिरपूर, नंतर दंतेवाडा व आठवडी बाजारासह बस्तर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "cgt",
+          "name": {
+            "en": "Chhattisgarh Tourism (official)",
+            "hi": "छत्तीसगढ़ पर्यटन (आधिकारिक)",
+            "mr": "छत्तीसगड पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://chhattisgarhtourism.co.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        }
+      ]
+    }
+  ]
+}

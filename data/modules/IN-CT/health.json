@@ -1,0 +1,447 @@
+{
+  "region": "IN-CT",
+  "module": "health",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chhattisgarh's infant mortality rate fell from 51 per 1,000 live births in 2010 to 38 in 2020, but remained among the higher rates in India and above the national 28. The birth rate was 22.0 per 1,000 in 2020 and the death rate 7.9. In NFHS-5, 34.6% of children under five were stunted, 18.9% wasted and 31.3% underweight — all lower than in NFHS-4 — and 85.7% of births took place in health facilities, below the national 88.6%. Malaria, sickle-cell disease and anaemia are particular concerns in tribal areas, and the State's network of mitanin community health workers became a model for India's ASHA programme.\n\nAIIMS Raipur and the Dr B. R. Ambedkar Memorial Hospital with Pt. J. N. M. Medical College in Raipur are the main referral centres.",
+        "hi": "छत्तीसगढ़ की शिशु मृत्यु दर 2010 में प्रति 1,000 जीवित जन्म पर 51 से घटकर 2020 में 38 हो गई, लेकिन भारत की ऊँची दरों में और राष्ट्रीय 28 से ऊपर रही। 2020 में जन्म दर प्रति 1,000 पर 22.0 और मृत्यु दर 7.9 थी। एनएफ़एचएस-5 में पाँच वर्ष से कम आयु के 34.6% बच्चे ठिगने, 18.9% दुबले और 31.3% कम वज़न के थे — सभी एनएफ़एचएस-4 से कम — और 85.7% प्रसव स्वास्थ्य संस्थानों में हुए, जो राष्ट्रीय 88.6% से कम है। जनजातीय क्षेत्रों में मलेरिया, सिकल-सेल रोग और एनीमिया विशेष चिंताएँ हैं, और राज्य का मितानिन सामुदायिक स्वास्थ्य कार्यकर्ता नेटवर्क भारत के आशा कार्यक्रम का आदर्श बना।\n\nएम्स रायपुर और रायपुर का डॉ. भीमराव आंबेडकर स्मृति चिकित्सालय व पं. जवाहरलाल नेहरू स्मृति चिकित्सा महाविद्यालय मुख्य रेफ़रल केंद्र हैं।",
+        "mr": "छत्तीसगडचा अर्भक मृत्युदर 2010 मध्ये दर 1,000 जिवंत जन्मांमागे 51 वरून 2020 मध्ये 38 वर आला, पण तो भारतातील अधिक दरांपैकी व राष्ट्रीय 28 पेक्षा अधिक राहिला. 2020 मध्ये जन्मदर दर 1,000 मागे 22.0 व मृत्युदर 7.9 होता. एनएफएचएस-5 मध्ये पाच वर्षांखालील 34.6% मुले खुजी, 18.9% कृश व 31.3% कमी वजनाची होती — सर्व एनएफएचएस-4 पेक्षा कमी — आणि 85.7% प्रसूती आरोग्य संस्थांत झाल्या, राष्ट्रीय 88.6% पेक्षा कमी. आदिवासी भागांत हिवताप, सिकलसेल आजार व रक्तक्षय या विशेष चिंता आहेत, आणि राज्याचे मितानिन सामुदायिक आरोग्य कार्यकर्त्यांचे जाळे भारताच्या आशा कार्यक्रमाचा आदर्श ठरले.\n\nएम्स रायपूर आणि रायपूरचे डॉ. भीमराव आंबेडकर स्मृती रुग्णालय व पं. जवाहरलाल नेहरू स्मृती वैद्यकीय महाविद्यालय ही मुख्य संदर्भ केंद्रे आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "srs",
+        "nfhs",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "srs",
+      "items": [
+        {
+          "id": "imr",
+          "label": {
+            "en": "Infant mortality rate",
+            "hi": "शिशु मृत्यु दर",
+            "mr": "अर्भक मृत्युदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 38,
+            "unit": "per 1,000 live births",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS 2020, Economic Survey 2023-24 Statistical Appendix Table 8.2."
+          },
+          "kind": "number",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 51,
+            "unit": "per 1,000 live births",
+            "period": "2010",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28,
+            "unit": "per 1,000 live births",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "br",
+          "label": {
+            "en": "Birth rate",
+            "hi": "जन्म दर",
+            "mr": "जन्मदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 22.0,
+            "unit": "per 1,000 population",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS 2020 (death rate 7.9); 25.3 in 2010."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "previous": {
+            "value": 25.3,
+            "unit": "per 1,000 population",
+            "period": "2010",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 19.5,
+            "unit": "per 1,000 population",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "dr",
+          "label": {
+            "en": "Death rate",
+            "hi": "मृत्यु दर",
+            "mr": "मृत्युदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 7.9,
+            "unit": "per 1,000 population",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS 2020."
+          },
+          "kind": "number",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 8.0,
+            "unit": "per 1,000 population",
+            "period": "2010",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 6.0,
+            "unit": "per 1,000 population",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Mortality and vital rates (Sample Registration System)",
+        "hi": "मृत्यु और जन्म दरें (नमूना पंजीकरण प्रणाली)",
+        "mr": "मृत्युदर व जन्मदर (नमुना नोंदणी पद्धत)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "facts",
+      "id": "nfhs",
+      "items": [
+        {
+          "id": "stunt",
+          "label": {
+            "en": "Stunted children under 5",
+            "hi": "5 वर्ष से कम आयु के ठिगने बच्चे",
+            "mr": "5 वर्षांखालील खुजी मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 34.6,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 37.6,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 35.47,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "waste",
+          "label": {
+            "en": "Wasted children under 5",
+            "hi": "5 वर्ष से कम आयु के दुबले (वेस्टेड) बच्चे",
+            "mr": "5 वर्षांखालील कृश मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 18.88,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 23.1,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 19.26,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "under",
+          "label": {
+            "en": "Underweight children under 5",
+            "hi": "5 वर्ष से कम आयु के कम वज़न वाले बच्चे",
+            "mr": "5 वर्षांखालील कमी वजनाची मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 31.33,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 37.7,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 32.11,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "inst",
+          "label": {
+            "en": "Institutional births",
+            "hi": "संस्थागत प्रसव",
+            "mr": "संस्थात्मक प्रसूती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 85.72,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, births in the five years before the survey."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 88.59,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Child nutrition and births (NFHS-5)",
+        "hi": "बाल पोषण और प्रसव (एनएफ़एचएस-5)",
+        "mr": "बालपोषण व प्रसूती (एनएफएचएस-5)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Life expectancy at birth",
+            "hi": "जन्म के समय जीवन प्रत्याशा",
+            "mr": "जन्मतः आयुर्मान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "srs",
+          "note": "SRS abridged life tables; Chhattisgarh is not listed separately in Economic Survey Table 8.1."
+        },
+        {
+          "label": {
+            "en": "Maternal mortality ratio (SRS 2019-21)",
+            "hi": "मातृ मृत्यु अनुपात (एसआरएस 2019-21)",
+            "mr": "मातामृत्यू प्रमाण (एसआरएस 2019-21)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "srs",
+          "note": "SRS special bulletin; Chhattisgarh is reported within a combined group."
+        },
+        {
+          "label": {
+            "en": "Hospitals and health centres",
+            "hi": "अस्पताल और स्वास्थ्य केंद्र",
+            "mr": "रुग्णालये व आरोग्य केंद्रे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw",
+          "note": "Health Dynamics of India (Infrastructure & Human Resources)."
+        }
+      ]
+    }
+  ]
+}

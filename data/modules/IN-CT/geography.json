@@ -1,0 +1,343 @@
+{
+  "region": "IN-CT",
+  "module": "geography",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chhattisgarh has three natural regions. The northern hills of Surguja, Koriya and Jashpur, including the Mainpat plateau, are part of the Chota Nagpur and Baghelkhand uplands and drain to the Son and Ganga. The central Chhattisgarh plain, drained by the Mahanadi and its tributaries the Shivnath, Hasdeo, Arpa and Jonk, is the State's agricultural and industrial core, with Raipur, Bilaspur and Durg. The southern Bastar plateau, densely forested and cut by the Indravati and Sabari, rises to the Abujhmarh hills and the Bailadila iron-ore range; the Indravati plunges over Chitrakote falls before flowing into the Godavari.",
+        "hi": "छत्तीसगढ़ के तीन प्राकृतिक क्षेत्र हैं। सरगुजा, कोरिया और जशपुर की उत्तरी पहाड़ियाँ, मैनपाट पठार सहित, छोटा नागपुर और बघेलखंड के ऊँचे क्षेत्रों का हिस्सा हैं और सोन व गंगा की ओर बहती हैं। महानदी और उसकी सहायक शिवनाथ, हसदेव, अरपा और जोंक से सिंचित मध्य छत्तीसगढ़ मैदान रायपुर, बिलासपुर और दुर्ग सहित राज्य का कृषि और औद्योगिक केंद्र है। घने वनों वाला और इंद्रावती व सबरी से कटा दक्षिणी बस्तर पठार अबूझमाड़ पहाड़ियों और बैलाडीला लौह अयस्क श्रेणी तक उठता है; इंद्रावती गोदावरी में मिलने से पहले चित्रकोट जलप्रपात से गिरती है।",
+        "mr": "छत्तीसगडचे तीन नैसर्गिक प्रदेश आहेत. सरगुजा, कोरिया व जशपूरचे उत्तरेकडील डोंगर, मैनपाट पठारासह, छोटा नागपूर व बघेलखंडच्या उंचवट्याचा भाग असून सोन व गंगेकडे वाहतात. महानदी व तिच्या शिवनाथ, हसदेव, अरपा व जोंक या उपनद्यांनी भिजलेले मध्य छत्तीसगड मैदान रायपूर, बिलासपूर व दुर्गसह राज्याचे कृषी व औद्योगिक केंद्र आहे. घनदाट वनांचे व इंद्रावती आणि सबरीने कापलेले दक्षिणेकडील बस्तर पठार अबुझमाड डोंगर व बैलाडिला लोहखनिज रांगेपर्यंत उंचावते; इंद्रावती गोदावरीला मिळण्यापूर्वी चित्रकोट धबधब्यातून कोसळते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 135192,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "mp",
+          "name": {
+            "en": "Madhya Pradesh (north-west)",
+            "hi": "मध्य प्रदेश (उत्तर-पश्चिम)",
+            "mr": "मध्य प्रदेश (वायव्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "up",
+          "name": {
+            "en": "Uttar Pradesh (north)",
+            "hi": "उत्तर प्रदेश (उत्तर)",
+            "mr": "उत्तर प्रदेश (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jh",
+          "name": {
+            "en": "Jharkhand (north-east)",
+            "hi": "झारखंड (उत्तर-पूर्व)",
+            "mr": "झारखंड (ईशान्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "or",
+          "name": {
+            "en": "Odisha (east)",
+            "hi": "ओडिशा (पूर्व)",
+            "mr": "ओडिशा (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ap",
+          "name": {
+            "en": "Andhra Pradesh (south)",
+            "hi": "आंध्र प्रदेश (दक्षिण)",
+            "mr": "आंध्र प्रदेश (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tg",
+          "name": {
+            "en": "Telangana (south)",
+            "hi": "तेलंगाना (दक्षिण)",
+            "mr": "तेलंगणा (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mh",
+          "name": {
+            "en": "Maharashtra (west)",
+            "hi": "महाराष्ट्र (पश्चिम)",
+            "mr": "महाराष्ट्र (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "mahanadi",
+          "name": {
+            "en": "Mahanadi",
+            "hi": "महानदी",
+            "mr": "महानदी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises near Sihawa in Dhamtari; dammed at Gangrel; flows east into Odisha.",
+            "hi": "धमतरी में सिहावा के पास से निकलती है; गंगरेल पर बाँधी गई; पूर्व में ओडिशा जाती है।",
+            "mr": "धमतरीत सिहावाजवळ उगम; गंगरेल येथे धरण; पूर्वेकडे ओडिशात जाते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shivnath",
+          "name": {
+            "en": "Shivnath",
+            "hi": "शिवनाथ",
+            "mr": "शिवनाथ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Main tributary of the Mahanadi, past Durg.",
+            "hi": "महानदी की मुख्य सहायक नदी, दुर्ग से होकर।",
+            "mr": "महानदीची मुख्य उपनदी, दुर्गमार्गे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hasdeo",
+          "name": {
+            "en": "Hasdeo",
+            "hi": "हसदेव",
+            "mr": "हसदेव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows through the Korba coalfield; Hasdeo Bango dam.",
+            "hi": "कोरबा कोयला क्षेत्र से होकर बहती है; हसदेव बांगो बाँध।",
+            "mr": "कोरबा कोळसा क्षेत्रातून वाहते; हसदेव बांगो धरण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "indravati",
+          "name": {
+            "en": "Indravati",
+            "hi": "इंद्रावती",
+            "mr": "इंद्रावती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Bastar's river; Chitrakote falls; joins the Godavari.",
+            "hi": "बस्तर की नदी; चित्रकोट जलप्रपात; गोदावरी से मिलती है।",
+            "mr": "बस्तरची नदी; चित्रकोट धबधबा; गोदावरीला मिळते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "arpa",
+          "name": {
+            "en": "Arpa",
+            "hi": "अरपा",
+            "mr": "अरपा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows through Bilaspur.",
+            "hi": "बिलासपुर से होकर बहती है।",
+            "mr": "बिलासपूरमधून वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Highest point — official elevation",
+            "hi": "सर्वोच्च बिंदु — आधिकारिक ऊँचाई",
+            "mr": "सर्वोच्च शिखर — अधिकृत उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India."
+        },
+        {
+          "label": {
+            "en": "Mineral reserves by mineral",
+            "hi": "खनिजवार भंडार",
+            "mr": "खनिजनिहाय साठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Indian Bureau of Mines, Indian Minerals Yearbook."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        }
+      ]
+    }
+  ]
+}

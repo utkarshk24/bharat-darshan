@@ -1,0 +1,61 @@
+{
+  "region": "IN-CT",
+  "module": "projects",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "On 3 October 2023 the Prime Minister dedicated NMDC's new steel plant at Nagarnar in Bastar and the Antagarh–Taroki section of the new rail line into north Bastar. The Raipur–Visakhapatnam economic corridor, new rail lines to Rowghat and Jagdalpur, and power and mining projects are other large works. Each card shows its source and the date it was checked.",
+        "hi": "3 अक्टूबर 2023 को प्रधानमंत्री ने बस्तर के नगरनार में एनएमडीसी का नया इस्पात संयंत्र और उत्तर बस्तर में नई रेल लाइन का अंतागढ़–तारोकी खंड राष्ट्र को समर्पित किया। रायपुर–विशाखापत्तनम आर्थिक गलियारा, रावघाट और जगदलपुर तक नई रेल लाइनें, और बिजली व खनन परियोजनाएँ अन्य बड़े कार्य हैं। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "3 ऑक्टोबर 2023 रोजी पंतप्रधानांनी बस्तरमधील नगरनार येथील एनएमडीसीचा नवा पोलाद कारखाना आणि उत्तर बस्तरमधील नव्या रेल्वेमार्गाचा अंतागड–तारोकी टप्पा राष्ट्राला समर्पित केला. रायपूर–विशाखापट्टणम आर्थिक मार्गिका, रावघाट व जगदलपूरपर्यंत नवे रेल्वेमार्ग आणि वीज व खाण प्रकल्प ही इतर मोठी कामे आहेत. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Raipur–Visakhapatnam economic corridor — status",
+            "hi": "रायपुर–विशाखापत्तनम आर्थिक गलियारा — स्थिति",
+            "mr": "रायपूर–विशाखापट्टणम आर्थिक मार्गिका — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nhai",
+          "note": "NHAI project status."
+        },
+        {
+          "label": {
+            "en": "Rowghat–Jagdalpur rail line — status",
+            "hi": "रावघाट–जगदलपुर रेल लाइन — स्थिति",
+            "mr": "रावघाट–जगदलपूर रेल्वेमार्ग — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Ministry of Railways."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "region": "IN-CT",
+  "module": "government",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chhattisgarh has a unicameral legislature, the 90-member Legislative Assembly at Raipur. The State elects 11 members to the Lok Sabha and 5 to the Rajya Sabha. Much of the north and south are Fifth Schedule areas with special protections for Scheduled Tribes.\n\nThe BJP won the Assembly election of November 2023, and Vishnu Deo Sai, a tribal leader from Jashpur district, was sworn in as Chief Minister on 13 December 2023, with Arun Sao and Vijay Sharma as Deputy Chief Ministers. Former Chief Minister Raman Singh is Speaker, and Ramen Deka has been Governor since July 2024.",
+        "hi": "छत्तीसगढ़ में एकसदनीय विधानमंडल है, रायपुर में 90 सदस्यों वाली विधानसभा। राज्य से लोकसभा के 11 और राज्यसभा के 5 सदस्य चुने जाते हैं। उत्तर और दक्षिण का अधिकांश भाग पाँचवीं अनुसूची का क्षेत्र है, जहाँ अनुसूचित जनजातियों को विशेष संरक्षण है।\n\nनवंबर 2023 का विधानसभा चुनाव भाजपा ने जीता, और जशपुर ज़िले के जनजातीय नेता विष्णु देव साय ने 13 दिसंबर 2023 को मुख्यमंत्री पद की शपथ ली, अरुण साव और विजय शर्मा उपमुख्यमंत्री बने। पूर्व मुख्यमंत्री रमन सिंह अध्यक्ष हैं, और रमेन डेका जुलाई 2024 से राज्यपाल हैं।",
+        "mr": "छत्तीसगडमध्ये एकसदनी विधिमंडळ आहे, रायपूरमधील 90 सदस्यांची विधानसभा. राज्यातून लोकसभेवर 11 व राज्यसभेवर 5 सदस्य निवडले जातात. उत्तर व दक्षिणेचा बहुतांश भाग पाचव्या अनुसूचीतील क्षेत्र आहे, जिथे अनुसूचित जमातींना विशेष संरक्षण आहे.\n\nनोव्हेंबर 2023 ची विधानसभा निवडणूक भाजपने जिंकली, आणि जशपूर जिल्ह्यातील आदिवासी नेते विष्णुदेव साय यांनी 13 डिसेंबर 2023 रोजी मुख्यमंत्रिपदाची शपथ घेतली, अरुण साव व विजय शर्मा उपमुख्यमंत्री झाले. माजी मुख्यमंत्री रमण सिंह अध्यक्ष आहेत, आणि रमेन डेका जुलै 2024 पासून राज्यपाल आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "deccan-herald",
+        "newsonair",
+        "thestatesman"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "noa",
+          "name": {
+            "en": "News On AIR: Chhattisgarh cabinet expanded (20 Aug 2025)",
+            "hi": "न्यूज़ ऑन एआईआर: छत्तीसगढ़ मंत्रिमंडल विस्तार (20 अगस्त 2025)",
+            "mr": "न्यूज ऑन एआयआर: छत्तीसगड मंत्रिमंडळ विस्तार (20 ऑगस्ट 2025)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.newsonair.gov.in/chhattisgarh-cabinet-expanded-gajendra-yadav-rajesh-agrawal-and-guru-khushwant-saheb-sworn-in-as-ministers",
+          "sourceId": "newsonair"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Chhattisgarh",
+            "hi": "छत्तीसगढ़ सरकार",
+            "mr": "छत्तीसगड शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://cgstate.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "2023 Assembly election — party-wise result",
+            "hi": "2023 विधानसभा चुनाव — दलवार परिणाम",
+            "mr": "2023 विधानसभा निवडणूक — पक्षनिहाय निकाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "ECI statistical report for Chhattisgarh 2023."
+        },
+        {
+          "label": {
+            "en": "Leader of Opposition — official notice",
+            "hi": "नेता प्रतिपक्ष — आधिकारिक सूचना",
+            "mr": "विरोधी पक्षनेते — अधिकृत सूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Assembly secretariat."
+        },
+        {
+          "label": {
+            "en": "Chief Minister's swearing-in — official source",
+            "hi": "मुख्यमंत्री का शपथ ग्रहण — आधिकारिक स्रोत",
+            "mr": "मुख्यमंत्र्यांचा शपथविधी — अधिकृत स्रोत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Replace the PTI copy with a Raj Bhavan or State release."
+        }
+      ]
+    }
+  ]
+}

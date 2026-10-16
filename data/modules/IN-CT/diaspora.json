@@ -1,0 +1,42 @@
+{
+  "region": "IN-CT",
+  "module": "diaspora",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Seasonal migration is a long tradition in Chhattisgarh: workers from the plains travel each year to brick kilns, construction sites and farms in Uttar Pradesh, Jammu and Kashmir, Punjab, Telangana and other States after the harvest. In the colonial period, many people from the region were recruited to the tea gardens of Assam. Chhattisgarhi communities in other States keep festivals such as Hareli and Teeja, and the State government runs schemes to register and support migrant workers.",
+        "hi": "मौसमी प्रवास छत्तीसगढ़ की पुरानी परंपरा है: फ़सल के बाद मैदानों के श्रमिक हर वर्ष उत्तर प्रदेश, जम्मू-कश्मीर, पंजाब, तेलंगाना और अन्य राज्यों के ईंट भट्ठों, निर्माण स्थलों और खेतों में जाते हैं। औपनिवेशिक काल में इस क्षेत्र के बहुत से लोगों को असम के चाय बाग़ानों में भर्ती किया गया। दूसरे राज्यों में छत्तीसगढ़ी समुदाय हरेली और तीजा जैसे त्योहार मनाते हैं, और राज्य सरकार प्रवासी श्रमिकों के पंजीकरण और सहायता के लिए योजनाएँ चलाती है।",
+        "mr": "हंगामी स्थलांतर ही छत्तीसगडची जुनी परंपरा आहे: सुगीनंतर मैदानांतील कामगार दरवर्षी उत्तर प्रदेश, जम्मू-काश्मीर, पंजाब, तेलंगणा व इतर राज्यांतील वीटभट्ट्या, बांधकामस्थळे व शेतांत जातात. वसाहतकाळात या प्रदेशातील अनेक लोकांना आसामच्या चहाच्या मळ्यांत भरती करण्यात आले. इतर राज्यांतील छत्तीसगढी समुदाय हरेली व तीजासारखे सण साजरे करतात, आणि राज्य सरकार स्थलांतरित कामगारांच्या नोंदणी व मदतीसाठी योजना राबवते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of seasonal and internal migrants",
+            "hi": "मौसमी और आंतरिक प्रवासियों की संख्या",
+            "mr": "हंगामी व देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables; State labour department."
+        }
+      ]
+    }
+  ]
+}

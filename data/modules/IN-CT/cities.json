@@ -1,0 +1,686 @@
+{
+  "region": "IN-CT",
+  "module": "cities",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "raipur",
+          "name": {
+            "en": "Raipur",
+            "hi": "रायपुर",
+            "mr": "रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "State capital and commercial centre; Nava Raipur Atal Nagar nearby.",
+            "hi": "राज्य की राजधानी और वाणिज्यिक केंद्र; पास में नवा रायपुर अटल नगर।",
+            "mr": "राज्याची राजधानी व व्यापारी केंद्र; जवळच नवा रायपूर अटल नगर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhilai",
+          "name": {
+            "en": "Bhilai–Durg",
+            "hi": "भिलाई–दुर्ग",
+            "mr": "भिलाई–दुर्ग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Steel city around the Bhilai Steel Plant; IIT Bhilai.",
+            "hi": "भिलाई इस्पात संयंत्र के इर्द-गिर्द इस्पात नगर; आईआईटी भिलाई।",
+            "mr": "भिलाई पोलाद कारखान्याभोवतीचे पोलादनगर; आयआयटी भिलाई.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bilaspur",
+          "name": {
+            "en": "Bilaspur",
+            "hi": "बिलासपुर",
+            "mr": "बिलासपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "High Court, railway zone and coal company headquarters.",
+            "hi": "उच्च न्यायालय, रेलवे ज़ोन और कोयला कंपनी का मुख्यालय।",
+            "mr": "उच्च न्यायालय, रेल्वे विभाग व कोळसा कंपनीचे मुख्यालय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Judicial",
+            "hi": "न्यायिक",
+            "mr": "न्यायिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "korba",
+          "name": {
+            "en": "Korba",
+            "hi": "कोरबा",
+            "mr": "कोरबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Power capital with coal mines and thermal stations.",
+            "hi": "कोयला खदानों और तापीय केंद्रों वाली ऊर्जा राजधानी।",
+            "mr": "कोळसा खाणी व औष्णिक केंद्रांची ऊर्जा राजधानी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Power",
+            "hi": "ऊर्जा",
+            "mr": "ऊर्जा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jagdalpur",
+          "name": {
+            "en": "Jagdalpur",
+            "hi": "जगदलपुर",
+            "mr": "जगदलपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Centre of Bastar; Dussehra and tribal crafts.",
+            "hi": "बस्तर का केंद्र; दशहरा और जनजातीय शिल्प।",
+            "mr": "बस्तरचे केंद्र; दसरा व आदिवासी हस्तकला.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bastar",
+            "hi": "बस्तर",
+            "mr": "बस्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "raigarh",
+          "name": {
+            "en": "Raigarh",
+            "hi": "रायगढ़",
+            "mr": "रायगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Industrial town of steel and power; Kathak tradition of the Raigarh court.",
+            "hi": "इस्पात और बिजली का औद्योगिक नगर; रायगढ़ दरबार की कथक परंपरा।",
+            "mr": "पोलाद व विजेचे औद्योगिक शहर; रायगड दरबारची कथक परंपरा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ambikapur",
+          "name": {
+            "en": "Ambikapur",
+            "hi": "अंबिकापुर",
+            "mr": "अंबिकापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Centre of Surguja; gateway to Mainpat.",
+            "hi": "सरगुजा का केंद्र; मैनपाट का प्रवेश द्वार।",
+            "mr": "सरगुजाचे केंद्र; मैनपाटचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "North",
+            "hi": "उत्तर",
+            "mr": "उत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "balod",
+          "name": {
+            "en": "Balod",
+            "hi": "बालोद",
+            "mr": "बालोद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "balodabazar",
+          "name": {
+            "en": "Baloda Bazar",
+            "hi": "बलौदाबाज़ार",
+            "mr": "बलौदाबाजार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "balrampur",
+          "name": {
+            "en": "Balrampur",
+            "hi": "बलरामपुर",
+            "mr": "बलरामपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bastar",
+          "name": {
+            "en": "Bastar",
+            "hi": "बस्तर",
+            "mr": "बस्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bemetara",
+          "name": {
+            "en": "Bemetara",
+            "hi": "बेमेतरा",
+            "mr": "बेमेतरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bijapur",
+          "name": {
+            "en": "Bijapur",
+            "hi": "बीजापुर",
+            "mr": "बिजापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bilaspur",
+          "name": {
+            "en": "Bilaspur",
+            "hi": "बिलासपुर",
+            "mr": "बिलासपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dantewada",
+          "name": {
+            "en": "Dantewada",
+            "hi": "दंतेवाड़ा",
+            "mr": "दंतेवाडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dhamtari",
+          "name": {
+            "en": "Dhamtari",
+            "hi": "धमतरी",
+            "mr": "धमतरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "durg",
+          "name": {
+            "en": "Durg",
+            "hi": "दुर्ग",
+            "mr": "दुर्ग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gariaband",
+          "name": {
+            "en": "Gariaband",
+            "hi": "गरियाबंद",
+            "mr": "गरियाबंद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gaurelapendramarwahi",
+          "name": {
+            "en": "Gaurela-Pendra-Marwahi",
+            "hi": "गौरेला-पेंड्रा-मरवाही",
+            "mr": "गौरेला-पेंड्रा-मरवाही",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "janjgirchampa",
+          "name": {
+            "en": "Janjgir-Champa",
+            "hi": "जांजगीर-चांपा",
+            "mr": "जांजगीर-चांपा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jashpur",
+          "name": {
+            "en": "Jashpur",
+            "hi": "जशपुर",
+            "mr": "जशपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kabirdham",
+          "name": {
+            "en": "Kabirdham",
+            "hi": "कबीरधाम",
+            "mr": "कबीरधाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kanker",
+          "name": {
+            "en": "Kanker",
+            "hi": "कांकेर",
+            "mr": "कांकेर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khairagarhchhuikhadangandai",
+          "name": {
+            "en": "Khairagarh-Chhuikhadan-Gandai",
+            "hi": "खैरागढ़-छुईखदान-गंडई",
+            "mr": "खैरागड-छुईखदान-गंडई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kondagaon",
+          "name": {
+            "en": "Kondagaon",
+            "hi": "कोंडागाँव",
+            "mr": "कोंडागाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "korba",
+          "name": {
+            "en": "Korba",
+            "hi": "कोरबा",
+            "mr": "कोरबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "koriya",
+          "name": {
+            "en": "Koriya",
+            "hi": "कोरिया",
+            "mr": "कोरिया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mahasamund",
+          "name": {
+            "en": "Mahasamund",
+            "hi": "महासमुंद",
+            "mr": "महासमुंद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "manendragarhchirmiribharatpur",
+          "name": {
+            "en": "Manendragarh-Chirmiri-Bharatpur",
+            "hi": "मनेंद्रगढ़-चिरमिरी-भरतपुर",
+            "mr": "मनेंद्रगड-चिरमिरी-भरतपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mohlamanpurambagarhchowki",
+          "name": {
+            "en": "Mohla-Manpur-Ambagarh Chowki",
+            "hi": "मोहला-मानपुर-अंबागढ़ चौकी",
+            "mr": "मोहला-मानपूर-अंबागड चौकी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mungeli",
+          "name": {
+            "en": "Mungeli",
+            "hi": "मुंगेली",
+            "mr": "मुंगेली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "narayanpur",
+          "name": {
+            "en": "Narayanpur",
+            "hi": "नारायणपुर",
+            "mr": "नारायणपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "raigarh",
+          "name": {
+            "en": "Raigarh",
+            "hi": "रायगढ़",
+            "mr": "रायगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "raipur",
+          "name": {
+            "en": "Raipur",
+            "hi": "रायपुर",
+            "mr": "रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rajnandgaon",
+          "name": {
+            "en": "Rajnandgaon",
+            "hi": "राजनांदगाँव",
+            "mr": "राजनांदगाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sakti",
+          "name": {
+            "en": "Sakti",
+            "hi": "सक्ती",
+            "mr": "सक्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sarangarhbilaigarh",
+          "name": {
+            "en": "Sarangarh-Bilaigarh",
+            "hi": "सारंगढ़-बिलाईगढ़",
+            "mr": "सारंगड-बिलाईगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sukma",
+          "name": {
+            "en": "Sukma",
+            "hi": "सुकमा",
+            "mr": "सुकमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "surajpur",
+          "name": {
+            "en": "Surajpur",
+            "hi": "सूरजपुर",
+            "mr": "सूरजपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "surguja",
+          "name": {
+            "en": "Surguja",
+            "hi": "सरगुजा",
+            "mr": "सरगुजा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 33 districts (alphabetical)",
+        "hi": "33 ज़िले (वर्णानुक्रम)",
+        "mr": "33 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official district list (State notification)",
+            "hi": "आधिकारिक ज़िला सूची (राज्य अधिसूचना)",
+            "mr": "अधिकृत जिल्हा यादी (राज्य अधिसूचना)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Link the State's list of districts; several were created in 2020–22."
+        },
+        {
+          "label": {
+            "en": "City populations (Census 2011)",
+            "hi": "शहरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban agglomeration tables."
+        }
+      ]
+    }
+  ]
+}

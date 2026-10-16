@@ -1,0 +1,48 @@
+{
+  "region": "IN-CT",
+  "module": "gi",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chhattisgarh has 7 registered Geographical Indications in the GI Registry's list as on 31 December 2025, with no shared entries. Three Bastar crafts were filed together in March 2007 — Bastar iron craft, Bastar Dhokra (with a separate logo registration in 2012) and Bastar wooden craft — and Champa silk sarees and fabrics followed in 2009. Two aromatic rice varieties from the plains, Jeeraphool and Nagri Dubraj, are the State's agricultural GIs.",
+        "hi": "जीआई रजिस्ट्री की 31 दिसंबर 2025 की सूची में छत्तीसगढ़ के 7 पंजीकृत भौगोलिक संकेतक हैं, और कोई साझा प्रविष्टि नहीं है। बस्तर के तीन शिल्प मार्च 2007 में एक साथ दायर हुए — बस्तर लौह शिल्प, बस्तर ढोकरा (2012 में अलग लोगो पंजीकरण सहित) और बस्तर काष्ठ शिल्प — और 2009 में चांपा रेशम साड़ियाँ और वस्त्र आए। मैदानों की दो सुगंधित धान किस्में, जीराफूल और नगरी दुबराज, राज्य के कृषि जीआई हैं।",
+        "mr": "जीआय रजिस्ट्रीच्या 31 डिसेंबर 2025 च्या यादीत छत्तीसगडची 7 नोंदणीकृत भौगोलिक मानांकने आहेत, आणि एकही सामायिक नोंद नाही. बस्तरच्या तीन हस्तकला मार्च 2007 मध्ये एकत्र दाखल झाल्या — बस्तर लोखंडी हस्तकला, बस्तर ढोकरा (2012 मध्ये स्वतंत्र बोधचिन्ह नोंदणीसह) व बस्तर लाकडी हस्तकला — आणि 2009 मध्ये चांपा रेशीम साड्या व वस्त्रे आली. मैदानांतील दोन सुगंधी भात वाण, जीराफूल व नगरी दुबराज, ही राज्याची कृषी जीआय आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "gi-registry"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "gi",
+      "id": "gi"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Registration year and producing region for each GI",
+            "hi": "हर जीआई का पंजीकरण वर्ष और उत्पादन क्षेत्र",
+            "mr": "प्रत्येक जीआयचे नोंदणी वर्ष व उत्पादन क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "gi-registry",
+          "note": "GI public search, certificate details."
+        }
+      ]
+    }
+  ]
+}

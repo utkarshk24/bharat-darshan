@@ -1,0 +1,138 @@
+{
+  "region": "IN-CT",
+  "module": "transport",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Swami Vivekananda Airport at Raipur is the State's main airport; Bilaspur, Jagdalpur and Ambikapur have smaller airports with regional flights. The South East Central Railway is headquartered at Bilaspur, and the Howrah–Mumbai main line crosses the State through Bilaspur, Raipur and Durg; mineral lines run to Korba, Raigarh, Dalli Rajhara and the Bailadila mines, from where iron ore is carried by rail to Visakhapatnam. National highways link Raipur with Nagpur, Sambalpur, Bilaspur and Jagdalpur.",
+        "hi": "रायपुर का स्वामी विवेकानंद हवाई अड्डा राज्य का मुख्य हवाई अड्डा है; बिलासपुर, जगदलपुर और अंबिकापुर में क्षेत्रीय उड़ानों वाले छोटे हवाई अड्डे हैं। दक्षिण पूर्व मध्य रेलवे का मुख्यालय बिलासपुर में है, और हावड़ा–मुंबई मुख्य लाइन बिलासपुर, रायपुर और दुर्ग से होकर राज्य को पार करती है; खनिज लाइनें कोरबा, रायगढ़, दल्ली राजहरा और बैलाडीला खदानों तक जाती हैं, जहाँ से लौह अयस्क रेल से विशाखापत्तनम जाता है। राष्ट्रीय राजमार्ग रायपुर को नागपुर, संबलपुर, बिलासपुर और जगदलपुर से जोड़ते हैं।",
+        "mr": "रायपूरचे स्वामी विवेकानंद विमानतळ हे राज्याचे मुख्य विमानतळ आहे; बिलासपूर, जगदलपूर व अंबिकापूर येथे प्रादेशिक उड्डाणांचे लहान विमानतळ आहेत. दक्षिण पूर्व मध्य रेल्वेचे मुख्यालय बिलासपूरमध्ये आहे, आणि हावडा–मुंबई मुख्य मार्ग बिलासपूर, रायपूर व दुर्गमार्गे राज्य ओलांडतो; खनिज मार्ग कोरबा, रायगड, दल्ली राजहरा व बैलाडिला खाणींपर्यंत जातात, जिथून लोहखनिज रेल्वेने विशाखापट्टणमला नेले जाते. राष्ट्रीय महामार्ग रायपूरला नागपूर, संबलपूर, बिलासपूर व जगदलपूरशी जोडतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "rpr",
+          "name": {
+            "en": "Swami Vivekananda Airport, Raipur",
+            "hi": "स्वामी विवेकानंद हवाई अड्डा, रायपुर",
+            "mr": "स्वामी विवेकानंद विमानतळ, रायपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "RPR",
+            "hi": "RPR",
+            "mr": "RPR",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pab",
+          "name": {
+            "en": "Bilasa Devi Kevat Airport, Bilaspur",
+            "hi": "बिलासा देवी केवट हवाई अड्डा, बिलासपुर",
+            "mr": "बिलासा देवी केवट विमानतळ, बिलासपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "PAB",
+            "hi": "PAB",
+            "mr": "PAB",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jgb",
+          "name": {
+            "en": "Jagdalpur",
+            "hi": "जगदलपुर",
+            "mr": "जगदलपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "JGB",
+            "hi": "JGB",
+            "mr": "JGB",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports (selected)",
+        "hi": "हवाई अड्डे (चयनित)",
+        "mr": "विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

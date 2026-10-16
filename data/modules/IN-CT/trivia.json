@@ -1,0 +1,104 @@
+{
+  "region": "IN-CT",
+  "module": "trivia",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "seven",
+          "name": {
+            "en": "Chhattisgarh shares borders with seven States.",
+            "hi": "छत्तीसगढ़ की सीमाएँ सात राज्यों से लगती हैं।",
+            "mr": "छत्तीसगडच्या सीमा सात राज्यांना लागतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dussehra",
+          "name": {
+            "en": "Bastar Dussehra lasts about 75 days and is devoted to the goddess Danteshwari.",
+            "hi": "बस्तर दशहरा लगभग 75 दिन चलता है और देवी दंतेश्वरी को समर्पित है।",
+            "mr": "बस्तर दसरा सुमारे 75 दिवस चालतो व देवी दंतेश्वरीला समर्पित आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sexratio",
+          "name": {
+            "en": "Chhattisgarh's sex ratio of 991 in 2011 was among the highest of any State.",
+            "hi": "2011 में छत्तीसगढ़ का 991 का लिंगानुपात राज्यों में सबसे ऊँचे में था।",
+            "mr": "2011 मधील छत्तीसगडचे 991 लिंग गुणोत्तर राज्यांतील सर्वाधिकांपैकी होते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://statistics.py.gov.in/state-wise-population",
+          "sourceId": "py-des"
+        },
+        {
+          "id": "gi2007",
+          "name": {
+            "en": "Three Bastar crafts — iron, Dhokra and wood — were filed for GI on the same day in 2007.",
+            "hi": "बस्तर के तीन शिल्प — लोहा, ढोकरा और लकड़ी — 2007 में एक ही दिन जीआई के लिए दायर हुए।",
+            "mr": "बस्तरच्या तीन हस्तकला — लोखंड, ढोकरा व लाकूड — 2007 मध्ये एकाच दिवशी जीआयसाठी दाखल झाल्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "sourceId": "gi-registry"
+        },
+        {
+          "id": "mitanin",
+          "name": {
+            "en": "The State's mitanin community health workers inspired India's national ASHA programme.",
+            "hi": "राज्य की मितानिन सामुदायिक स्वास्थ्य कार्यकर्ताओं ने भारत के राष्ट्रीय आशा कार्यक्रम को प्रेरित किया।",
+            "mr": "राज्याच्या मितानिन सामुदायिक आरोग्य कार्यकर्त्यांनी भारताच्या राष्ट्रीय आशा कार्यक्रमाला प्रेरणा दिली.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ls",
+          "name": {
+            "en": "The State elects 11 members to the Lok Sabha.",
+            "hi": "राज्य से लोकसभा के 11 सदस्य चुने जाते हैं।",
+            "mr": "राज्यातून लोकसभेवर 11 सदस्य निवडले जातात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

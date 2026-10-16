@@ -1,0 +1,68 @@
+{
+  "region": "IN-PB",
+  "module": "water",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Punjab's farms are watered by an extensive canal network fed by the Sutlej, Beas and Ravi — including canals from the Ropar and Harike headworks and the Bhakra main line — and, above all, by groundwater pumped by well over a million tubewells. The intensive wheat–paddy rotation has drawn the water table down sharply across most of the State, and most of its groundwater blocks are classed as over-exploited; the State has promoted direct-seeded rice and crop diversification in response. Sharing of river waters with neighbouring States, including the long-pending Sutlej–Yamuna Link canal, remains a political and legal issue. Floods from the rivers and the Ghaggar caused heavy damage in 2023 and 2025.",
+        "hi": "पंजाब के खेत सतलुज, ब्यास और रावी से निकली व्यापक नहर प्रणाली से सींचे जाते हैं — जिसमें रोपड़ और हरिके हेडवर्क्स की नहरें और भाखड़ा मुख्य नहर शामिल हैं — और सबसे बढ़कर दस लाख से कहीं अधिक ट्यूबवेलों से खींचे गए भूजल से। सघन गेहूँ–धान चक्र ने राज्य के अधिकांश भाग में जल स्तर तेज़ी से नीचे गिराया है, और इसके अधिकांश भूजल ब्लॉक अति-दोहित श्रेणी में हैं; जवाब में राज्य ने धान की सीधी बुवाई और फ़सल विविधीकरण को बढ़ावा दिया है। पड़ोसी राज्यों के साथ नदी जल बँटवारा, जिसमें लंबे समय से लंबित सतलुज–यमुना लिंक नहर भी है, एक राजनीतिक और क़ानूनी मुद्दा बना हुआ है। नदियों और घग्गर की बाढ़ ने 2023 और 2025 में भारी नुकसान किया।",
+        "mr": "पंजाबची शेती सतलज, बियास व रावीतून निघणाऱ्या विस्तृत कालवा जाळ्याने — ज्यात रोपड व हरिके हेडवर्क्सचे कालवे व भाक्रा मुख्य कालवा आहेत — आणि सर्वांत मुख्य म्हणजे दहा लाखांहून बऱ्याच अधिक कूपनलिकांनी उपसलेल्या भूजलाने भिजते. सघन गहू–भात चक्राने राज्याच्या बहुतांश भागात भूजल पातळी वेगाने खाली नेली आहे, आणि त्याचे बहुतेक भूजल गट अतिउपसा श्रेणीत आहेत; प्रत्युत्तरादाखल राज्याने भाताची थेट पेरणी व पीक वैविध्याला प्रोत्साहन दिले आहे. शेजारी राज्यांसोबतचे नदी पाणीवाटप, ज्यात दीर्घकाळ प्रलंबित सतलज–यमुना जोड कालवाही आहे, हा राजकीय व कायदेशीर मुद्दा राहिला आहे. नद्या व घग्गरच्या पुरांनी 2023 व 2025 मध्ये मोठे नुकसान केले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Groundwater stage of extraction and over-exploited blocks",
+            "hi": "भूजल दोहन का स्तर और अति-दोहित ब्लॉक",
+            "mr": "भूजल उपशाचा टप्पा व अतिउपसा गट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Number of agricultural tubewells",
+            "hi": "कृषि ट्यूबवेलों की संख्या",
+            "mr": "शेती कूपनलिकांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Minor Irrigation Census / PSPCL."
+        },
+        {
+          "label": {
+            "en": "Flood damage, 2023 and 2025",
+            "hi": "बाढ़ से नुकसान, 2023 और 2025",
+            "mr": "पुरामुळे नुकसान, 2023 व 2025",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Punjab Revenue and Disaster Management Department."
+        }
+      ]
+    }
+  ]
+}

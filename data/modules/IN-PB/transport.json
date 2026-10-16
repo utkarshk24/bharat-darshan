@@ -1,0 +1,138 @@
+{
+  "region": "IN-PB",
+  "module": "transport",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Sri Guru Ram Dass Jee International Airport at Amritsar and the Shaheed Bhagat Singh International Airport at Mohali (serving Chandigarh) are the main airports, with smaller airports at Bathinda, Adampur (Jalandhar) and Ludhiana. The Grand Trunk Road (National Highway 44) runs through Ludhiana, Jalandhar and Amritsar to the Attari border, and the Northern Railway's Ambala and Ferozepur divisions serve the State. The Eastern Dedicated Freight Corridor begins at Sahnewal near Ludhiana.",
+        "hi": "अमृतसर का श्री गुरु रामदास जी अंतरराष्ट्रीय हवाई अड्डा और मोहाली का शहीद भगत सिंह अंतरराष्ट्रीय हवाई अड्डा (चंडीगढ़ को सेवा देने वाला) मुख्य हवाई अड्डे हैं, और बठिंडा, आदमपुर (जालंधर) और लुधियाना में छोटे हवाई अड्डे हैं। ग्रैंड ट्रंक रोड (राष्ट्रीय राजमार्ग 44) लुधियाना, जालंधर और अमृतसर से होकर अटारी सीमा तक जाती है, और उत्तर रेलवे के अंबाला और फ़िरोज़पुर मंडल राज्य को सेवा देते हैं। पूर्वी समर्पित माल गलियारा लुधियाना के पास साहनेवाल से शुरू होता है।",
+        "mr": "अमृतसरचे श्री गुरु रामदास जी आंतरराष्ट्रीय विमानतळ व मोहालीचे शहीद भगतसिंह आंतरराष्ट्रीय विमानतळ (चंदीगडला सेवा देणारे) हे मुख्य विमानतळ आहेत, आणि भटिंडा, आदमपूर (जालंधर) व लुधियाना येथे लहान विमानतळ आहेत. ग्रँड ट्रंक रोड (राष्ट्रीय महामार्ग 44) लुधियाना, जालंधर व अमृतसरमार्गे अटारी सीमेपर्यंत जातो, आणि उत्तर रेल्वेचे अंबाला व फिरोजपूर विभाग राज्याला सेवा देतात. पूर्व समर्पित मालवाहतूक मार्गिका लुधियान्याजवळ साहनेवाल येथून सुरू होते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "atq",
+          "name": {
+            "en": "Sri Guru Ram Dass Jee International Airport, Amritsar",
+            "hi": "श्री गुरु रामदास जी अंतरराष्ट्रीय हवाई अड्डा, अमृतसर",
+            "mr": "श्री गुरु रामदास जी आंतरराष्ट्रीय विमानतळ, अमृतसर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "ATQ",
+            "hi": "ATQ",
+            "mr": "ATQ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ixc",
+          "name": {
+            "en": "Shaheed Bhagat Singh International Airport, Mohali",
+            "hi": "शहीद भगत सिंह अंतरराष्ट्रीय हवाई अड्डा, मोहाली",
+            "mr": "शहीद भगतसिंह आंतरराष्ट्रीय विमानतळ, मोहाली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "IXC",
+            "hi": "IXC",
+            "mr": "IXC",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bup",
+          "name": {
+            "en": "Bathinda",
+            "hi": "बठिंडा",
+            "mr": "भटिंडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "BUP",
+            "hi": "BUP",
+            "mr": "BUP",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports (selected)",
+        "hi": "हवाई अड्डे (चयनित)",
+        "mr": "विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

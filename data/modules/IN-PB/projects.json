@@ -1,0 +1,48 @@
+{
+  "region": "IN-PB",
+  "module": "projects",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "AIIMS Bathinda was dedicated to the nation in February 2024, and a power-semiconductor expansion at Mohali was approved under the India Semiconductor Mission in August 2025. Other large works include the Punjab stretch of the Delhi–Amritsar–Katra expressway, new airport terminals and canal lining. Each card shows its source and the date it was checked.",
+        "hi": "एम्स बठिंडा फ़रवरी 2024 में राष्ट्र को समर्पित हुआ, और अगस्त 2025 में भारत सेमीकंडक्टर मिशन के तहत मोहाली में पावर सेमीकंडक्टर विस्तार को मंज़ूरी मिली। अन्य बड़े कार्यों में दिल्ली–अमृतसर–कटरा एक्सप्रेसवे का पंजाब खंड, नए हवाई अड्डा टर्मिनल और नहरों की लाइनिंग शामिल है। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "एम्स भटिंडा फेब्रुवारी 2024 मध्ये राष्ट्राला समर्पित झाले, आणि ऑगस्ट 2025 मध्ये भारत सेमीकंडक्टर मिशनअंतर्गत मोहाली येथील पॉवर सेमीकंडक्टर विस्ताराला मंजुरी मिळाली. इतर मोठ्या कामांत दिल्ली–अमृतसर–कटरा द्रुतगती मार्गाचा पंजाब टप्पा, नवी विमानतळ टर्मिनल व कालव्यांचे अस्तरीकरण यांचा समावेश आहे. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pmindia"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Delhi–Amritsar–Katra expressway (Punjab section) — status",
+            "hi": "दिल्ली–अमृतसर–कटरा एक्सप्रेसवे (पंजाब खंड) — स्थिति",
+            "mr": "दिल्ली–अमृतसर–कटरा द्रुतगती मार्ग (पंजाब टप्पा) — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nhai",
+          "note": "NHAI project status; land acquisition has been reported as a constraint."
+        }
+      ]
+    }
+  ]
+}

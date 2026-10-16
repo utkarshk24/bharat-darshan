@@ -1,0 +1,55 @@
+{
+  "region": "IN-PB",
+  "module": "diaspora",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Punjab has one of India's largest and most visible diasporas. Sikh soldiers and labourers reached Canada, the United States and East Africa at the start of the 20th century; after the Second World War, large numbers settled in Britain, and from the 1970s in Canada, the United States, Australia, New Zealand and Italy. Today Punjabi is among the most widely spoken languages in Canada, and towns such as Brampton, Surrey and Southall have large Punjabi communities. Money sent home has built houses and gurdwaras across the Doaba, and many young people still seek to study and work abroad.",
+        "hi": "पंजाब में भारत के सबसे बड़े और सबसे दृश्यमान प्रवासी समुदायों में से एक है। सिख सैनिक और श्रमिक 20वीं सदी की शुरुआत में कनाडा, अमेरिका और पूर्वी अफ़्रीका पहुँचे; द्वितीय विश्व युद्ध के बाद बड़ी संख्या में लोग ब्रिटेन में बसे, और 1970 के दशक से कनाडा, अमेरिका, ऑस्ट्रेलिया, न्यूज़ीलैंड और इटली में। आज पंजाबी कनाडा की सबसे अधिक बोली जाने वाली भाषाओं में से है, और ब्रैम्पटन, सरे और साउथहॉल जैसे नगरों में बड़े पंजाबी समुदाय हैं। घर भेजे गए धन से दोआबा भर में घर और गुरुद्वारे बने हैं, और बहुत से युवा आज भी विदेश में पढ़ने और काम करने का प्रयास करते हैं।",
+        "mr": "पंजाबमध्ये भारतातील सर्वांत मोठ्या व ठळक प्रवासी समुदायांपैकी एक आहे. शीख सैनिक व कामगार विसाव्या शतकाच्या सुरुवातीला कॅनडा, अमेरिका व पूर्व आफ्रिकेत पोहोचले; दुसऱ्या महायुद्धानंतर मोठ्या संख्येने लोक ब्रिटनमध्ये स्थायिक झाले, आणि 1970 च्या दशकापासून कॅनडा, अमेरिका, ऑस्ट्रेलिया, न्यूझीलंड व इटलीत. आज पंजाबी ही कॅनडातील सर्वाधिक बोलल्या जाणाऱ्या भाषांपैकी एक आहे, आणि ब्रॅम्प्टन, सरे व साउथहॉलसारख्या शहरांत मोठे पंजाबी समुदाय आहेत. घरी पाठवलेल्या पैशांतून दोआबाभर घरे व गुरुद्वारे उभे राहिले आहेत, आणि अनेक तरुण आजही परदेशात शिकण्याचा व काम करण्याचा प्रयत्न करतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Size of the Punjabi diaspora by country",
+            "hi": "देशवार पंजाबी प्रवासी समुदाय का आकार",
+            "mr": "देशनिहाय पंजाबी प्रवासी समुदायाचा आकार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "MEA estimates; national censuses of host countries."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

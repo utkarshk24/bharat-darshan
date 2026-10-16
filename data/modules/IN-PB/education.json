@@ -1,0 +1,425 @@
+{
+  "region": "IN-PB",
+  "module": "education",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Punjab's higher-education gross enrolment ratio (ages 18–23) was 27.4% in 2021-22 in AISHE, close to the national 28.4% but lower than 29.2% in 2017-18; women's GER (30.1%) was clearly higher than men's (25.2%), and many young people go abroad to study. The State had 40 universities and 1,044 colleges. Literacy at the 2011 Census was 75.8%.\n\nPunjabi University, Patiala (1962), Guru Nanak Dev University, Amritsar (1969) and Punjab Agricultural University, Ludhiana (1962) — a centre of the Green Revolution — are major State universities, and Panjab University in Chandigarh serves many colleges in the State. National institutions include IIT Ropar, AIIMS Bathinda, IISER Mohali, IIM Amritsar, NIT Jalandhar, the Central University of Punjab at Bathinda, and the National Institute of Sports at Patiala; Thapar Institute in Patiala is a well-known private engineering institute.",
+        "hi": "एआईएसएचई के अनुसार 2021-22 में पंजाब का उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 27.4% था, जो राष्ट्रीय 28.4% के क़रीब लेकिन 2017-18 के 29.2% से कम है; महिलाओं का जीईआर (30.1%) पुरुषों (25.2%) से स्पष्ट रूप से अधिक था, और बहुत से युवा पढ़ने विदेश जाते हैं। राज्य में 40 विश्वविद्यालय और 1,044 कॉलेज थे। 2011 की जनगणना में साक्षरता 75.8% थी।\n\nपंजाबी विश्वविद्यालय, पटियाला (1962), गुरु नानक देव विश्वविद्यालय, अमृतसर (1969) और हरित क्रांति का केंद्र रहा पंजाब कृषि विश्वविद्यालय, लुधियाना (1962) प्रमुख राज्य विश्वविद्यालय हैं, और चंडीगढ़ का पंजाब विश्वविद्यालय राज्य के कई कॉलेजों को सेवा देता है। राष्ट्रीय संस्थानों में आईआईटी रोपड़, एम्स बठिंडा, आईआईएसईआर मोहाली, आईआईएम अमृतसर, एनआईटी जालंधर, बठिंडा का पंजाब केंद्रीय विश्वविद्यालय और पटियाला का राष्ट्रीय खेल संस्थान शामिल हैं; पटियाला का थापर संस्थान प्रसिद्ध निजी इंजीनियरिंग संस्थान है।",
+        "mr": "एआयएसएचईनुसार 2021-22 मध्ये पंजाबचे उच्चशिक्षण एकूण नोंदणी गुणोत्तर (18–23 वय) 27.4% होते, राष्ट्रीय 28.4% च्या जवळ पण 2017-18 मधील 29.2% पेक्षा कमी; स्त्रियांचे जीईआर (30.1%) पुरुषांपेक्षा (25.2%) स्पष्टपणे अधिक होते, आणि अनेक तरुण शिक्षणासाठी परदेशी जातात. राज्यात 40 विद्यापीठे व 1,044 महाविद्यालये होती. 2011 च्या जनगणनेत साक्षरता 75.8% होती.\n\nपंजाबी विद्यापीठ, पटियाळा (1962), गुरु नानक देव विद्यापीठ, अमृतसर (1969) व हरितक्रांतीचे केंद्र राहिलेले पंजाब कृषी विद्यापीठ, लुधियाना (1962) ही प्रमुख राज्य विद्यापीठे आहेत, आणि चंदीगडचे पंजाब विद्यापीठ राज्यातील अनेक महाविद्यालयांना सेवा देते. राष्ट्रीय संस्थांत आयआयटी रोपड, एम्स भटिंडा, आयसर मोहाली, आयआयएम अमृतसर, एनआयटी जालंधर, भटिंडाचे पंजाब केंद्रीय विद्यापीठ व पटियाळाची राष्ट्रीय क्रीडा संस्था यांचा समावेश आहे; पटियाळाची थापर संस्था ही प्रसिद्ध खासगी अभियांत्रिकी संस्था आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 27.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 26.26,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 40,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1044,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "pb",
+          "label": {
+            "en": "Punjab",
+            "hi": "पंजाब",
+            "mr": "पंजाब",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 29.21,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 28.31,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 27.08,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 26.26,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 27.4,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "pup",
+          "name": {
+            "en": "Punjabi University",
+            "hi": "पंजाबी विश्वविद्यालय",
+            "mr": "पंजाबी विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Patiala, 1962",
+            "hi": "पटियाला, 1962",
+            "mr": "पटियाळा, 1962",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gndu",
+          "name": {
+            "en": "Guru Nanak Dev University",
+            "hi": "गुरु नानक देव विश्वविद्यालय",
+            "mr": "गुरु नानक देव विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Amritsar, 1969",
+            "hi": "अमृतसर, 1969",
+            "mr": "अमृतसर, 1969",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pau",
+          "name": {
+            "en": "Punjab Agricultural University",
+            "hi": "पंजाब कृषि विश्वविद्यालय",
+            "mr": "पंजाब कृषी विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ludhiana, 1962",
+            "hi": "लुधियाना, 1962",
+            "mr": "लुधियाना, 1962",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iitr",
+          "name": {
+            "en": "IIT Ropar",
+            "hi": "आईआईटी रोपड़",
+            "mr": "आयआयटी रोपड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Rupnagar",
+            "hi": "रूपनगर",
+            "mr": "रूपनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "aiimsb",
+          "name": {
+            "en": "AIIMS Bathinda",
+            "hi": "एम्स बठिंडा",
+            "mr": "एम्स भटिंडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bathinda",
+            "hi": "बठिंडा",
+            "mr": "भटिंडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iiser",
+          "name": {
+            "en": "IISER Mohali",
+            "hi": "आईआईएसईआर मोहाली",
+            "mr": "आयसर मोहाली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mohali",
+            "hi": "मोहाली",
+            "mr": "मोहाली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nis",
+          "name": {
+            "en": "Netaji Subhas National Institute of Sports",
+            "hi": "नेताजी सुभाष राष्ट्रीय खेल संस्थान",
+            "mr": "नेताजी सुभाष राष्ट्रीय क्रीडा संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Patiala",
+            "hi": "पटियाला",
+            "mr": "पटियाळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "Students going abroad",
+            "hi": "विदेश जाने वाले छात्र",
+            "mr": "परदेशी जाणारे विद्यार्थी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "MEA / Bureau of Immigration data, if published by State."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "region": "IN-PB",
+  "module": "culture",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Punjabi culture combines Sikh traditions with a rich shared heritage of Sufi poetry, folk song and dance. The Guru Granth Sahib gathers the hymns of the Sikh Gurus alongside those of saints such as Kabir, Ravidas and Sheikh Farid, and gurbani kirtan is sung in gurdwaras every day. The Sufi poets Bulleh Shah and Waris Shah, whose Heer is the best-loved Punjabi romance, belong to the undivided Punjab. Modern Punjabi literature includes Amrita Pritam, Shiv Kumar Batalvi and Gurdial Singh, and Punjabi pop and film music have a worldwide audience.\n\nBhangra, danced by men at harvest, and giddha, performed by women, are the signature dances. Phulkari embroidery — a registered GI shared with Haryana and Rajasthan — juttis, parandis and the woodwork of Hoshiarpur are traditional crafts.",
+        "hi": "पंजाबी संस्कृति सिख परंपराओं को सूफ़ी कविता, लोकगीत और नृत्य की समृद्ध साझा विरासत से जोड़ती है। गुरु ग्रंथ साहिब में सिख गुरुओं की वाणी के साथ कबीर, रविदास और शेख़ फ़रीद जैसे संतों की वाणी है, और गुरुद्वारों में प्रतिदिन गुरबाणी कीर्तन होता है। सूफ़ी कवि बुल्ले शाह और वारिस शाह, जिनकी 'हीर' सबसे प्रिय पंजाबी प्रेमकथा है, अविभाजित पंजाब के हैं। आधुनिक पंजाबी साहित्य में अमृता प्रीतम, शिव कुमार बटालवी और गुरदयाल सिंह शामिल हैं, और पंजाबी पॉप व फ़िल्म संगीत के श्रोता विश्व भर में हैं।\n\nफ़सल पर पुरुषों द्वारा किया जाने वाला भांगड़ा और महिलाओं का गिद्धा पहचान वाले नृत्य हैं। फुलकारी कढ़ाई — हरियाणा और राजस्थान के साथ साझा पंजीकृत जीआई — जूतियाँ, परांदे और होशियारपुर की लकड़ी का काम पारंपरिक शिल्प हैं।",
+        "mr": "पंजाबी संस्कृती शीख परंपरांना सूफी काव्य, लोकगीत व नृत्याच्या समृद्ध सामायिक वारशाशी जोडते. गुरु ग्रंथ साहिबमध्ये शीख गुरूंच्या वाणीसोबत कबीर, रविदास व शेख फरीद यांसारख्या संतांची वाणी आहे, आणि गुरुद्वाऱ्यांत दररोज गुरबाणी कीर्तन होते. सूफी कवी बुल्ले शाह व वारिस शाह, ज्यांची 'हीर' ही सर्वांत लाडकी पंजाबी प्रेमकथा आहे, अविभाजित पंजाबचे आहेत. आधुनिक पंजाबी साहित्यात अमृता प्रीतम, शिवकुमार बटालवी व गुरदयाल सिंह यांचा समावेश आहे, आणि पंजाबी पॉप व चित्रपट संगीताचा श्रोतावर्ग जगभर आहे.\n\nसुगीला पुरुषांचे भांगडा व स्त्रियांचे गिद्धा ही ओळख असलेली नृत्ये आहेत. फुलकारी भरतकाम — हरियाणा व राजस्थानसोबत सामायिक नोंदणीकृत जीआय — जुत्ती, परांदे व होशियारपूरचे लाकडी काम या पारंपरिक हस्तकला आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "festivals",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "baisakhi",
+          "name": {
+            "en": "Baisakhi (Vaisakhi)",
+            "hi": "बैसाखी (वैसाखी)",
+            "mr": "बैसाखी (वैसाखी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Harvest festival and the founding day of the Khalsa; fairs, bhangra and processions.",
+            "hi": "फ़सल उत्सव और खालसा का स्थापना दिवस; मेले, भांगड़ा और जुलूस।",
+            "mr": "सुगीचा सण व खालशाचा स्थापना दिन; जत्रा, भांगडा व मिरवणुका.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "13–14 April",
+            "hi": "13–14 अप्रैल",
+            "mr": "13–14 एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lohri",
+          "name": {
+            "en": "Lohri",
+            "hi": "लोहड़ी",
+            "mr": "लोहडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Bonfire festival marking the end of winter; rewri, peanuts and folk songs.",
+            "hi": "सर्दियों के अंत का अलाव उत्सव; रेवड़ी, मूँगफली और लोकगीत।",
+            "mr": "हिवाळ्याच्या शेवटाचा शेकोटी सण; रेवडी, शेंगदाणे व लोकगीते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "13 January",
+            "hi": "13 जनवरी",
+            "mr": "13 जानेवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gurpurab",
+          "name": {
+            "en": "Gurpurab",
+            "hi": "गुरपुरब",
+            "mr": "गुरपुरब",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Birth anniversaries of the Gurus, especially Guru Nanak; nagar kirtan processions.",
+            "hi": "गुरुओं, विशेषकर गुरु नानक, की जयंती; नगर कीर्तन शोभायात्राएँ।",
+            "mr": "गुरूंच्या, विशेषतः गुरु नानकांच्या जयंत्या; नगर कीर्तन मिरवणुका.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "October–November and other dates",
+            "hi": "अक्टूबर–नवंबर और अन्य तिथियाँ",
+            "mr": "ऑक्टोबर–नोव्हेंबर व इतर तारखा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hola",
+          "name": {
+            "en": "Hola Mohalla",
+            "hi": "होला मोहल्ला",
+            "mr": "होला मोहल्ला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Martial displays by Nihang Sikhs at Anandpur Sahib.",
+            "hi": "आनंदपुर साहिब में निहंग सिखों के युद्ध-कौशल प्रदर्शन।",
+            "mr": "आनंदपूर साहिब येथे निहंग शिखांचे युद्धकौशल्य प्रदर्शन.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "March (day after Holi)",
+            "hi": "मार्च (होली के अगले दिन)",
+            "mr": "मार्च (होळीच्या दुसऱ्या दिवशी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "teeyan",
+          "name": {
+            "en": "Teeyan",
+            "hi": "तीयाँ",
+            "mr": "तीयां",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Monsoon festival of women, with swings and giddha.",
+            "hi": "महिलाओं का मानसून उत्सव, झूलों और गिद्धे के साथ।",
+            "mr": "स्त्रियांचा पावसाळी सण, झोके व गिद्ध्यासह.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "July–August (Sawan)",
+            "hi": "जुलाई–अगस्त (सावन)",
+            "mr": "जुलै–ऑगस्ट (श्रावण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Festivals",
+        "hi": "त्योहार",
+        "mr": "सण-उत्सव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "arts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "bhangra",
+          "name": {
+            "en": "Bhangra",
+            "hi": "भांगड़ा",
+            "mr": "भांगडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "giddha",
+          "name": {
+            "en": "Giddha",
+            "hi": "गिद्धा",
+            "mr": "गिद्धा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kirtan",
+          "name": {
+            "en": "Gurbani kirtan",
+            "hi": "गुरबाणी कीर्तन",
+            "mr": "गुरबाणी कीर्तन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "phulkari",
+          "name": {
+            "en": "Phulkari",
+            "hi": "फुलकारी",
+            "mr": "फुलकारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jutti",
+          "name": {
+            "en": "Punjabi jutti",
+            "hi": "पंजाबी जूती",
+            "mr": "पंजाबी जुत्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gatka",
+          "name": {
+            "en": "Gatka (martial art)",
+            "hi": "गतका (युद्धकला)",
+            "mr": "गतका (युद्धकला)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Arts and crafts",
+        "hi": "कलाएँ और शिल्प",
+        "mr": "कला व हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "food",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "saag",
+          "name": {
+            "en": "Sarson da saag and makki di roti",
+            "hi": "सरसों का साग और मक्की की रोटी",
+            "mr": "सरसों दा साग व मक्की दी रोटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Mustard greens with maize bread and white butter — a winter classic.",
+            "hi": "सफ़ेद मक्खन के साथ सरसों का साग और मक्की की रोटी — सर्दियों का ख़ास भोजन।",
+            "mr": "पांढऱ्या लोण्यासह मोहरीची भाजी व मक्याची भाकरी — हिवाळ्याचा खास बेत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kulcha",
+          "name": {
+            "en": "Amritsari kulcha",
+            "hi": "अमृतसरी कुलचा",
+            "mr": "अमृतसरी कुलचा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Stuffed, tandoor-baked bread with chole.",
+            "hi": "छोले के साथ तंदूर में सेंका भरवाँ कुलचा।",
+            "mr": "छोल्यांसह तंदूरमध्ये भाजलेला भरलेला कुलचा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lassi",
+          "name": {
+            "en": "Lassi",
+            "hi": "लस्सी",
+            "mr": "लस्सी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Thick, churned yoghurt drink, sweet or salted.",
+            "hi": "गाढ़ी मथी दही का पेय, मीठी या नमकीन।",
+            "mr": "घट्ट घुसळलेल्या दह्याचे पेय, गोड किंवा खारट.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "langar",
+          "name": {
+            "en": "Langar",
+            "hi": "लंगर",
+            "mr": "लंगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Free community meal of dal, roti and kheer at every gurdwara.",
+            "hi": "हर गुरुद्वारे में दाल, रोटी और खीर का मुफ़्त सामुदायिक भोजन।",
+            "mr": "प्रत्येक गुरुद्वाऱ्यात डाळ, रोटी व खिरीचे मोफत सामूहिक भोजन.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pinni",
+          "name": {
+            "en": "Pinni",
+            "hi": "पिन्नी",
+            "mr": "पिन्नी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Winter sweet of wheat flour, ghee and dry fruit.",
+            "hi": "गेहूँ के आटे, घी और मेवों की सर्दियों की मिठाई।",
+            "mr": "गव्हाचे पीठ, तूप व सुकामेव्याची हिवाळी मिठाई.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Food",
+        "hi": "खान-पान",
+        "mr": "खाद्यसंस्कृती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "dress",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "salwar",
+          "name": {
+            "en": "Salwar kameez with phulkari dupatta",
+            "hi": "फुलकारी दुपट्टे के साथ सलवार क़मीज़",
+            "mr": "फुलकारी ओढणीसह सलवार कमीज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Women's dress; parandi tassels in braided hair.",
+            "hi": "महिलाओं की पोशाक; चोटी में परांदा।",
+            "mr": "स्त्रियांचा पोशाख; वेणीत परांदा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kurta",
+          "name": {
+            "en": "Kurta, tehmat and pagg",
+            "hi": "कुर्ता, तहमत और पग",
+            "mr": "कुर्ता, तहमत व पग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Men's traditional dress; the turban (pagg) is central to Sikh identity.",
+            "hi": "पुरुषों की पारंपरिक पोशाक; पगड़ी (पग) सिख पहचान का केंद्र है।",
+            "mr": "पुरुषांचा पारंपरिक पोशाख; पगडी (पग) शीख ओळखीचे केंद्र आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jutti",
+          "name": {
+            "en": "Jutti",
+            "hi": "जूती",
+            "mr": "जुत्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Embroidered leather shoes from Patiala and Amritsar.",
+            "hi": "पटियाला और अमृतसर की कढ़ाईदार चमड़े की जूतियाँ।",
+            "mr": "पटियाळा व अमृतसरच्या भरतकाम केलेल्या चामड्याच्या जुत्त्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Traditional dress",
+        "hi": "पारंपरिक वेशभूषा",
+        "mr": "पारंपरिक वेशभूषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

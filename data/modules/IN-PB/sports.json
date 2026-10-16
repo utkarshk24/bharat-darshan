@@ -1,0 +1,110 @@
+{
+  "region": "IN-PB",
+  "module": "sports",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Punjab is one of India's great sporting States. Hockey runs deep — the village of Sansarpur near Jalandhar produced many Olympians, Balbir Singh Senior won three Olympic gold medals, and Harmanpreet Singh of Amritsar has captained the men's team. Milkha Singh, the 'Flying Sikh', made athletics popular, and Harmanpreet Kaur of Moga has captained India's women's cricket team. Wrestling, weightlifting and circle-style kabaddi are hugely popular in villages, and Jalandhar's sports-goods industry supplies equipment worldwide. The Netaji Subhas National Institute of Sports in Patiala is India's premier training centre, and Mohali's cricket stadiums host international matches.",
+        "hi": "पंजाब भारत के महान खेल राज्यों में से है। हॉकी की जड़ें गहरी हैं — जालंधर के पास संसारपुर गाँव ने कई ओलंपियन दिए, बलबीर सिंह सीनियर ने तीन ओलंपिक स्वर्ण पदक जीते, और अमृतसर के हरमनप्रीत सिंह पुरुष टीम के कप्तान रहे हैं। 'फ़्लाइंग सिख' मिल्खा सिंह ने एथलेटिक्स को लोकप्रिय बनाया, और मोगा की हरमनप्रीत कौर भारतीय महिला क्रिकेट टीम की कप्तान रही हैं। गाँवों में कुश्ती, भारोत्तोलन और सर्कल कबड्डी बहुत लोकप्रिय हैं, और जालंधर का खेल सामान उद्योग दुनिया भर में उपकरण भेजता है। पटियाला का नेताजी सुभाष राष्ट्रीय खेल संस्थान भारत का प्रमुख प्रशिक्षण केंद्र है, और मोहाली के क्रिकेट स्टेडियम अंतरराष्ट्रीय मैचों की मेज़बानी करते हैं।",
+        "mr": "पंजाब हे भारतातील महान क्रीडा राज्यांपैकी एक आहे. हॉकीची मुळे खोलवर आहेत — जालंधरजवळील संसारपूर गावाने अनेक ऑलिम्पियन दिले, बलबीरसिंह सीनियर यांनी तीन ऑलिम्पिक सुवर्णपदके जिंकली, आणि अमृतसरचे हरमनप्रीत सिंह पुरुष संघाचे कर्णधार राहिले आहेत. 'फ्लाइंग सिख' मिल्खासिंहांनी ॲथलेटिक्स लोकप्रिय केले, आणि मोग्याची हरमनप्रीत कौर भारतीय महिला क्रिकेट संघाची कर्णधार राहिली आहे. गावांत कुस्ती, भारोत्तोलन व सर्कल कबड्डी अतिशय लोकप्रिय आहेत, आणि जालंधरचा क्रीडा साहित्य उद्योग जगभर साहित्य पुरवतो. पटियाळाची नेताजी सुभाष राष्ट्रीय क्रीडा संस्था हे भारताचे प्रमुख प्रशिक्षण केंद्र आहे, आणि मोहालीची क्रिकेट स्टेडियम आंतरराष्ट्रीय सामने आयोजित करतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "nis",
+          "name": {
+            "en": "NIS Patiala",
+            "hi": "एनआईएस पटियाला",
+            "mr": "एनआयएस पटियाळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "surjit",
+          "name": {
+            "en": "Surjit Hockey Stadium, Jalandhar",
+            "hi": "सुरजीत हॉकी स्टेडियम, जालंधर",
+            "mr": "सुरजित हॉकी स्टेडियम, जालंधर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pca",
+          "name": {
+            "en": "Punjab Cricket Association stadiums, Mohali and Mullanpur",
+            "hi": "पंजाब क्रिकेट एसोसिएशन स्टेडियम, मोहाली और मुल्लांपुर",
+            "mr": "पंजाब क्रिकेट असोसिएशन स्टेडियम, मोहाली व मुल्लांपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "guru",
+          "name": {
+            "en": "Guru Nanak Stadium, Ludhiana",
+            "hi": "गुरु नानक स्टेडियम, लुधियाना",
+            "mr": "गुरु नानक स्टेडियम, लुधियाना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Olympic and Asian Games medallists from Punjab (official list)",
+            "hi": "पंजाब के ओलंपिक और एशियाई खेल पदक विजेता (आधिकारिक सूची)",
+            "mr": "पंजाबचे ऑलिम्पिक व आशियाई स्पर्धा पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Punjab Sports Department."
+        }
+      ]
+    }
+  ]
+}

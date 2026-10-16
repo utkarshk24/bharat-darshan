@@ -1,0 +1,138 @@
+{
+  "region": "IN-PB",
+  "module": "government",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Punjab has a unicameral legislature, the 117-member Vidhan Sabha in Chandigarh. The State elects 13 members to the Lok Sabha and 7 to the Rajya Sabha.\n\nThe Aam Aadmi Party won the Assembly election of 2022, and Bhagwant Mann was sworn in as Chief Minister on 16 March 2022 at Khatkar Kalan, the ancestral village of Bhagat Singh. Kultar Singh Sandhwan (AAP) is Speaker. Gulab Chand Kataria has been Governor since July 2024 and is also Administrator of Chandigarh. The next Assembly election is due by early 2027.",
+        "hi": "पंजाब में एकसदनीय विधानमंडल है, चंडीगढ़ में 117 सदस्यों वाली विधानसभा। राज्य से लोकसभा के 13 और राज्यसभा के 7 सदस्य चुने जाते हैं।\n\n2022 का विधानसभा चुनाव आम आदमी पार्टी ने जीता, और भगवंत मान ने 16 मार्च 2022 को भगत सिंह के पैतृक गाँव खटकड़ कलाँ में मुख्यमंत्री पद की शपथ ली। कुलतार सिंह संधवां (आप) अध्यक्ष हैं। गुलाब चंद कटारिया जुलाई 2024 से राज्यपाल हैं और चंडीगढ़ के प्रशासक भी। अगला विधानसभा चुनाव 2027 की शुरुआत तक होना है।",
+        "mr": "पंजाबमध्ये एकसदनी विधिमंडळ आहे, चंदीगडमधील 117 सदस्यांची विधानसभा. राज्यातून लोकसभेवर 13 व राज्यसभेवर 7 सदस्य निवडले जातात.\n\n2022 ची विधानसभा निवडणूक आम आदमी पक्षाने जिंकली, आणि भगवंत मान यांनी 16 मार्च 2022 रोजी भगतसिंहांच्या मूळ गावी खटकड कलां येथे मुख्यमंत्रिपदाची शपथ घेतली. कुलतार सिंह संधवां (आप) अध्यक्ष आहेत. गुलाबचंद कटारिया जुलै 2024 पासून राज्यपाल आहेत व चंदीगडचे प्रशासकही. पुढील विधानसभा निवडणूक 2027 च्या सुरुवातीपर्यंत होणे अपेक्षित आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "deccan-herald",
+        "newsonair",
+        "etv-bharat"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "rajbhavan",
+          "name": {
+            "en": "Punjab Raj Bhavan",
+            "hi": "पंजाब राजभवन",
+            "mr": "पंजाब राजभवन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://punjabrajbhavan.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Punjab",
+            "hi": "पंजाब सरकार",
+            "mr": "पंजाब शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://punjab.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "2022 Assembly election — party-wise result",
+            "hi": "2022 विधानसभा चुनाव — दलवार परिणाम",
+            "mr": "2022 विधानसभा निवडणूक — पक्षनिहाय निकाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "ECI statistical report for Punjab 2022."
+        },
+        {
+          "label": {
+            "en": "Chief Minister's swearing-in — official source",
+            "hi": "मुख्यमंत्री का शपथ ग्रहण — आधिकारिक स्रोत",
+            "mr": "मुख्यमंत्र्यांचा शपथविधी — अधिकृत स्रोत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Replace the PTI copy with a Raj Bhavan or State release."
+        },
+        {
+          "label": {
+            "en": "Leader of Opposition — official notice",
+            "hi": "नेता प्रतिपक्ष — आधिकारिक सूचना",
+            "mr": "विरोधी पक्षनेते — अधिकृत सूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Vidhan Sabha secretariat."
+        }
+      ]
+    }
+  ]
+}

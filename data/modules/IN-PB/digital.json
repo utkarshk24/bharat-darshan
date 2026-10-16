@@ -1,0 +1,55 @@
+{
+  "region": "IN-PB",
+  "module": "digital",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mohali, part of the Chandigarh tricity, is Punjab's technology hub, with IT parks, data centres, a growing start-up scene and research institutions such as IISER Mohali, NIPER and the Indian School of Business campus. The State delivers many citizen services online through its Sewa Kendras, and internet use is high across urban and rural Punjab.",
+        "hi": "चंडीगढ़ ट्राइसिटी का हिस्सा मोहाली पंजाब का प्रौद्योगिकी केंद्र है, जहाँ आईटी पार्क, डेटा सेंटर, बढ़ता स्टार्टअप परिदृश्य और आईआईएसईआर मोहाली, नाइपर और इंडियन स्कूल ऑफ़ बिज़नेस परिसर जैसे शोध संस्थान हैं। राज्य अपने सेवा केंद्रों के माध्यम से कई नागरिक सेवाएँ ऑनलाइन देता है, और शहरी व ग्रामीण पंजाब में इंटरनेट का उपयोग ऊँचा है।",
+        "mr": "चंदीगड त्रिनगरीचा भाग असलेले मोहाली हे पंजाबचे तंत्रज्ञान केंद्र आहे, जिथे आयटी पार्क, डेटा सेंटर, वाढते स्टार्टअप विश्व आणि आयसर मोहाली, नायपर व इंडियन स्कूल ऑफ बिझनेस संकुल यांसारख्या संशोधन संस्था आहेत. राज्य आपल्या सेवा केंद्रांमार्फत अनेक नागरी सेवा ऑनलाइन देते, आणि शहरी व ग्रामीण पंजाबमध्ये इंटरनेटचा वापर जास्त आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Punjab circle)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

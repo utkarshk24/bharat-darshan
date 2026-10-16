@@ -1,0 +1,183 @@
+{
+  "region": "IN-PB",
+  "module": "climate",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Punjab has a continental climate with sharp contrasts. Summers (April–June) are very hot and dry, with dust storms and loo winds, especially in the south-west. The monsoon (July–September) brings most of the rain, heavier near the Shivaliks; floods occur when heavy rain in the hills swells the rivers. Winters (December–February) are cold, with frost and dense fog across the plains, and western disturbances bring winter rain that helps the wheat crop.",
+        "hi": "पंजाब की जलवायु महाद्वीपीय है, जिसमें तीखे अंतर हैं। गर्मियाँ (अप्रैल–जून) बहुत गर्म और सूखी होती हैं, आँधियों और लू के साथ, विशेषकर दक्षिण-पश्चिम में। मानसून (जुलाई–सितंबर) अधिकांश वर्षा लाता है, जो शिवालिक के पास अधिक होती है; पहाड़ों में भारी वर्षा से नदियाँ उफनने पर बाढ़ आती है। सर्दियाँ (दिसंबर–फ़रवरी) ठंडी होती हैं, मैदानों में पाला और घना कोहरा रहता है, और पश्चिमी विक्षोभ सर्दियों की बारिश लाते हैं जो गेहूँ की फ़सल के लिए सहायक है।",
+        "mr": "पंजाबचे हवामान खंडीय असून त्यात तीव्र विरोधाभास आहेत. उन्हाळा (एप्रिल–जून) अतिशय उष्ण व कोरडा असतो, धुळीची वादळे व लू वाऱ्यांसह, विशेषतः नैर्ऋत्येत. मान्सून (जुलै–सप्टेंबर) बहुतेक पाऊस आणतो, शिवालिकजवळ अधिक; डोंगरांत मुसळधार पावसाने नद्या फुगल्यावर पूर येतात. हिवाळा (डिसेंबर–फेब्रुवारी) थंड असतो, मैदानांत दव गोठते व दाट धुके असते, आणि पश्चिमी विक्षोभ हिवाळी पाऊस आणतात जो गव्हाच्या पिकाला उपयुक्त ठरतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Amritsar",
+            "hi": "अमृतसर",
+            "mr": "अमृतसर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 31.634,
+          "lon": 74.8723
+        },
+        {
+          "name": {
+            "en": "Ludhiana",
+            "hi": "लुधियाना",
+            "mr": "लुधियाना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 30.901,
+          "lon": 75.8573
+        },
+        {
+          "name": {
+            "en": "Patiala",
+            "hi": "पटियाला",
+            "mr": "पटियाळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 30.3398,
+          "lon": 76.3869
+        },
+        {
+          "name": {
+            "en": "Bathinda",
+            "hi": "बठिंडा",
+            "mr": "भटिंडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 30.211,
+          "lon": 74.9455
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to March",
+            "hi": "अक्टूबर से मार्च",
+            "mr": "ऑक्टोबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pleasant days; Lohri in January, Hola Mohalla at Anandpur Sahib in March; fog can delay travel.",
+            "hi": "सुहावने दिन; जनवरी में लोहड़ी, मार्च में आनंदपुर साहिब में होला मोहल्ला; कोहरे से यात्रा में देरी हो सकती है।",
+            "mr": "आल्हाददायक दिवस; जानेवारीत लोहडी, मार्चमध्ये आनंदपूर साहिब येथे होला मोहल्ला; धुक्यामुळे प्रवासाला उशीर होऊ शकतो.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spring",
+          "name": {
+            "en": "April",
+            "hi": "अप्रैल",
+            "mr": "एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Baisakhi harvest festival; golden wheat fields.",
+            "hi": "बैसाखी फ़सल उत्सव; सुनहरे गेहूँ के खेत।",
+            "mr": "बैसाखी सुगीचा सण; सोनेरी गव्हाची शेते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "May to June",
+            "hi": "मई से जून",
+            "mr": "मे ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Very hot; visit Amritsar early morning or late evening.",
+            "hi": "बहुत गर्म; अमृतसर सुबह जल्दी या देर शाम जाएँ।",
+            "mr": "अतिशय उष्ण; अमृतसरला पहाटे किंवा उशिरा संध्याकाळी भेट द्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (Punjab sub-division)",
+            "hi": "सामान्य वार्षिक वर्षा (पंजाब उप-मंडल)",
+            "mr": "सरासरी वार्षिक पाऊस (पंजाब उपविभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics."
+        }
+      ]
+    }
+  ]
+}

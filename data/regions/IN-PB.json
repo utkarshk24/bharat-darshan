@@ -33,86 +33,135 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://punjab.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Blackbuck",
+        "hi": "काला हिरण",
+        "mr": "काळवीट",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Antilope cervicapra",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Northern goshawk (baaz)",
+        "hi": "बाज़",
+        "mr": "ससाणा (बाज)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Accipiter gentilis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Shisham",
+        "hi": "शीशम",
+        "mr": "शिसम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Dalbergia sissoo",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 27743338,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 1,46,39,465; females 1,31,03,873."
     },
     "area": {
-      "value": null,
+      "value": 50362,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 551,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 2,77,43,338 ÷ area 50,362 km² = 550.9."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 895,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (876 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 846,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 798 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 75.8,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,88 +174,252 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 825932,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25 is the latest year published for Punjab. FY2023-24: ₹7,57,627 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 216592,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2023-24: ₹2,01,062."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 3.67,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 1,846.09 km² ÷ geographical area 50,362 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Gulab Chand Kataria",
+        "hi": "गुलाब चंद कटारिया",
+        "mr": "गुलाबचंद कटारिया",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2024-07-31",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/gulab-chand-kataria-takes-oath-as-governor-of-punjab/",
+      "verifyUrl": "https://punjabrajbhavan.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Also Administrator of the Union Territory of Chandigarh. Sworn in at Punjab Raj Bhavan on 31 July 2024 by Chief Justice Sheel Nagu of the Punjab and Haryana High Court (News On AIR)."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "name": {
+        "en": "Bhagwant Mann",
+        "hi": "भगवंत मान",
+        "mr": "भगवंत मान",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "AAP",
+      "since": "2022-03-16",
+      "asOf": "2026-10-16",
+      "sourceId": "deccan-herald",
+      "url": "https://www.deccanherald.com/amp/story/india%2Fpunjab-cm-bhagwant-mann-assumes-office-1091892.html",
+      "verifyUrl": "https://punjab.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in on 16 March 2022 at Khatkar Kalan, the ancestral village of Bhagat Singh, by Governor Banwarilal Purohit (Deccan Herald / PTI)."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Kultar Singh Sandhwan",
+          "hi": "कुलतार सिंह संधवां",
+          "mr": "कुलतार सिंह संधवां",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "AAP",
+        "since": "2022-03-21",
+        "asOf": "2026-10-16",
+        "sourceId": "etv-bharat",
+        "url": "https://www.etvbharat.com/english/state/punjab/aap-mla-kultar-sandhwan-elected-punjab-assembly-speaker/na20220321205119608",
+        "verifyUrl": "https://punjabassembly.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Elected unanimously as Speaker of the 16th Punjab Vidhan Sabha on 21 March 2022; MLA from Kotkapura (ETV Bharat). The Assembly's notification of 22 March 2022 could not be read here."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "aiims-bathinda",
+      "name": {
+        "en": "AIIMS Bathinda",
+        "hi": "एम्स बठिंडा",
+        "mr": "एम्स भटिंडा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "Punjab's All India Institute of Medical Sciences at Bathinda, dedicated to the nation by the Prime Minister on 25 February 2024 together with AIIMS Rajkot, Raebareli, Mangalagiri and Kalyani. The same day a 300-bed PGIMER satellite centre at Sangrur was dedicated and the foundation stone of a 100-bed centre at Ferozepur laid.",
+        "hi": "बठिंडा में पंजाब का अखिल भारतीय आयुर्विज्ञान संस्थान, जिसे प्रधानमंत्री ने 25 फ़रवरी 2024 को एम्स राजकोट, रायबरेली, मंगलगिरि और कल्याणी के साथ राष्ट्र को समर्पित किया। उसी दिन संगरूर में पीजीआईएमईआर का 300 बिस्तरों वाला उपग्रह केंद्र समर्पित किया गया और फ़िरोज़पुर में 100 बिस्तरों वाले केंद्र की आधारशिला रखी गई।",
+        "mr": "भटिंडा येथील पंजाबचे अखिल भारतीय आयुर्विज्ञान संस्थान, जे पंतप्रधानांनी 25 फेब्रुवारी 2024 रोजी एम्स राजकोट, रायबरेली, मंगलगिरी व कल्याणीसोबत राष्ट्राला समर्पित केले. त्याच दिवशी संगरूर येथील पीजीआयएमईआरचे 300 खाटांचे उपकेंद्र समर्पित करण्यात आले व फिरोजपूर येथील 100 खाटांच्या केंद्राची पायाभरणी झाली.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "health",
+      "agency": "Ministry of Health and Family Welfare",
+      "start": null,
+      "completion": "25 February 2024",
+      "status": "Completed",
+      "asOf": "2026-10-16",
+      "sourceId": "pmindia",
+      "url": "https://pmindia.gov.in/?p=16392426",
+      "confidence": "Official"
+    },
+    {
+      "id": "cdil-mohali",
+      "name": {
+        "en": "CDIL power-semiconductor expansion, Mohali",
+        "hi": "सीडीआईएल पावर सेमीकंडक्टर विस्तार, मोहाली",
+        "mr": "सीडीआयएल पॉवर सेमीकंडक्टर विस्तार, मोहाली",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A brownfield expansion by Continental Device India Ltd at Mohali to make high-power discrete semiconductors — MOSFETs, IGBTs, Schottky bypass diodes and transistors — in silicon and silicon carbide, with an annual capacity of 158.38 million units. Approved by the Union Cabinet on 12 August 2025 among four units with a combined investment of about ₹4,600 crore.",
+        "hi": "मोहाली में कॉन्टिनेंटल डिवाइस इंडिया लि. द्वारा सिलिकॉन और सिलिकॉन कार्बाइड में उच्च-शक्ति डिस्क्रीट सेमीकंडक्टर — मॉसफ़ेट, आईजीबीटी, शॉटकी बाईपास डायोड और ट्रांज़िस्टर — बनाने के लिए विस्तार, जिसकी वार्षिक क्षमता 15.838 करोड़ इकाइयाँ है। केंद्रीय मंत्रिमंडल ने 12 अगस्त 2025 को लगभग ₹4,600 करोड़ के संयुक्त निवेश वाली चार इकाइयों में इसे मंज़ूरी दी।",
+        "mr": "मोहाली येथे कॉन्टिनेंटल डिव्हाइस इंडिया लि.कडून सिलिकॉन व सिलिकॉन कार्बाइडमध्ये उच्च-शक्ती डिस्क्रीट सेमीकंडक्टर — मॉसफेट, आयजीबीटी, शॉटकी बायपास डायोड व ट्रान्झिस्टर — बनवण्यासाठीचा विस्तार, ज्याची वार्षिक क्षमता 15.838 कोटी युनिट्स आहे. केंद्रीय मंत्रिमंडळाने 12 ऑगस्ट 2025 रोजी सुमारे ₹4,600 कोटींच्या एकत्रित गुंतवणुकीच्या चार प्रकल्पांत याला मंजुरी दिली.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "industry",
+      "agency": "Continental Device India Pvt Ltd (India Semiconductor Mission)",
+      "start": "Approved 12 August 2025",
+      "completion": null,
+      "status": "Announced",
+      "asOf": "2026-10-16",
+      "sourceId": "pmindia",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-semiconductor-manufacturing-units-in-odisha-punjab-and-andhra-pradesh-with-an-outlay-of-rs-4600-crore",
+      "confidence": "Official"
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "basmati",
+      "name": {
+        "en": "Basmati",
+        "hi": "बासमती",
+        "mr": "बासमती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "145",
+      "filingDate": "2008-11-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Haryana",
+        "Himachal Pradesh",
+        "Delhi",
+        "Uttarakhand",
+        "Uttar Pradesh",
+        "Jammu & Kashmir"
+      ]
+    },
+    {
+      "id": "phulkari",
+      "name": {
+        "en": "Phulkari",
+        "hi": "फुलकारी",
+        "mr": "फुलकारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "27",
+      "filingDate": "2005-03-14",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Haryana",
+        "Rajasthan"
+      ]
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-16",
+    "editorialStatus": "draft"
   },
   "localName": {
     "lang": "pa",

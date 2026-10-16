@@ -1,0 +1,55 @@
+{
+  "region": "IN-PB",
+  "module": "energy",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Punjab draws power from its own coal stations — Ropar, Lehra Mohabbat and the Goindwal Sahib plant — and from private plants at Rajpura and Talwandi Sabo, which burn coal brought from eastern India. It also receives a share of hydro-electric power from the Bhakra–Beas system managed by the Bhakra Beas Management Board, and from its own Ranjit Sagar dam on the Ravi. Demand peaks during the paddy season, when millions of farm tubewells run, and the State supplies free power for agriculture. Rooftop and canal-top solar capacity is growing.",
+        "hi": "पंजाब अपने कोयला संयंत्रों — रोपड़, लहरा मोहब्बत और गोइंदवाल साहिब संयंत्र — और राजपुरा व तलवंडी साबो के निजी संयंत्रों से बिजली लेता है, जो पूर्वी भारत से लाया गया कोयला जलाते हैं। इसे भाखड़ा ब्यास प्रबंध बोर्ड द्वारा संचालित भाखड़ा–ब्यास प्रणाली और रावी पर अपने रणजीत सागर बाँध से भी जलविद्युत का हिस्सा मिलता है। धान के मौसम में, जब लाखों कृषि ट्यूबवेल चलते हैं, माँग चरम पर होती है, और राज्य कृषि के लिए मुफ़्त बिजली देता है। छतों और नहरों पर सौर क्षमता बढ़ रही है।",
+        "mr": "पंजाब आपल्या कोळसा केंद्रांतून — रोपड, लहरा मोहब्बत व गोइंदवाल साहिब प्रकल्प — आणि राजपुरा व तलवंडी साबो येथील खासगी प्रकल्पांतून वीज घेतो, जे पूर्व भारतातून आणलेला कोळसा वापरतात. त्याला भाक्रा बियास व्यवस्थापन मंडळाद्वारे चालवल्या जाणाऱ्या भाक्रा–बियास प्रणालीतून व रावीवरील स्वतःच्या रणजित सागर धरणातूनही जलविद्युतचा वाटा मिळतो. भाताच्या हंगामात, जेव्हा लाखो शेती कूपनलिका चालतात, मागणी शिखरावर असते, आणि राज्य शेतीसाठी मोफत वीज देते. छतांवरील व कालव्यांवरील सौरक्षमता वाढत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Agricultural power subsidy",
+            "hi": "कृषि बिजली सब्सिडी",
+            "mr": "शेती वीज अनुदान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Punjab budget documents / PSERC tariff orders."
+        }
+      ]
+    }
+  ]
+}

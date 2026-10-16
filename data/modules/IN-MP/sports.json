@@ -1,0 +1,98 @@
+{
+  "region": "IN-MP",
+  "module": "sports",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Bhopal has long been called a nursery of Indian hockey, producing Olympians and the 1975 World Cup winner Aslam Sher Khan, and the State runs residential academies for hockey, shooting, rowing and other sports. Cricket is popular: Indore's Holkar Stadium and Gwalior's Captain Roop Singh Stadium have hosted international matches, and Madhya Pradesh won its first Ranji Trophy in 2022. Water sports and sailing are practised on Bhopal's Upper Lake.",
+        "hi": "भोपाल को लंबे समय से भारतीय हॉकी की नर्सरी कहा जाता है, जिसने ओलंपियन और 1975 विश्व कप विजेता असलम शेर ख़ान दिए, और राज्य हॉकी, निशानेबाज़ी, नौकायन और अन्य खेलों के आवासीय अकादमियाँ चलाता है। क्रिकेट लोकप्रिय है: इंदौर के होलकर स्टेडियम और ग्वालियर के कैप्टन रूप सिंह स्टेडियम ने अंतरराष्ट्रीय मैचों की मेज़बानी की है, और मध्य प्रदेश ने 2022 में अपनी पहली रणजी ट्रॉफी जीती। भोपाल की ऊपरी झील पर जल क्रीड़ा और नौकायन होता है।",
+        "mr": "भोपाळला दीर्घकाळापासून भारतीय हॉकीची रोपवाटिका म्हटले जाते, ज्याने ऑलिम्पियन व 1975 विश्वचषक विजेते असलम शेर खान दिले, आणि राज्य हॉकी, नेमबाजी, नौकानयन व इतर खेळांसाठी निवासी अकादमी चालवते. क्रिकेट लोकप्रिय आहे: इंदूरचे होळकर स्टेडियम व ग्वाल्हेरचे कॅप्टन रूपसिंह स्टेडियम येथे आंतरराष्ट्रीय सामने झाले आहेत, आणि मध्य प्रदेशने 2022 मध्ये पहिली रणजी करंडक जिंकली. भोपाळच्या वरच्या सरोवरावर जलक्रीडा व नौकानयन होते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "holkar",
+          "name": {
+            "en": "Holkar Stadium, Indore",
+            "hi": "होलकर स्टेडियम, इंदौर",
+            "mr": "होळकर स्टेडियम, इंदूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "roopsingh",
+          "name": {
+            "en": "Captain Roop Singh Stadium, Gwalior",
+            "hi": "कैप्टन रूप सिंह स्टेडियम, ग्वालियर",
+            "mr": "कॅप्टन रूपसिंह स्टेडियम, ग्वाल्हेर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tatya",
+          "name": {
+            "en": "TT Nagar Stadium, Bhopal",
+            "hi": "टीटी नगर स्टेडियम, भोपाल",
+            "mr": "टीटी नगर स्टेडियम, भोपाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Olympic and Asian Games medallists from Madhya Pradesh (official list)",
+            "hi": "मध्य प्रदेश के ओलंपिक और एशियाई खेल पदक विजेता (आधिकारिक सूची)",
+            "mr": "मध्य प्रदेशचे ऑलिम्पिक व आशियाई स्पर्धा पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "MP Sports and Youth Welfare Department."
+        }
+      ]
+    }
+  ]
+}

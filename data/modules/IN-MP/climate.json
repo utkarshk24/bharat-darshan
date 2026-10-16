@@ -1,0 +1,183 @@
+{
+  "region": "IN-MP",
+  "module": "climate",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Madhya Pradesh has a subtropical climate with three clear seasons. Summers (March–June) are hot and dry, hottest in the north around Gwalior and in Bundelkhand. The south-west monsoon (mid-June to September) brings most of the year's rain, heaviest in the south-east around Mandla and Balaghat and lighter in the north-west. Winters (November–February) are cool and dry, with cold nights in Gwalior and the north and pleasant days elsewhere; Pachmarhi, in the Satpuras, is the State's hill station.",
+        "hi": "मध्य प्रदेश में तीन स्पष्ट ऋतुओं वाली उपोष्ण जलवायु है। गर्मियाँ (मार्च–जून) गर्म और सूखी होती हैं, सबसे गर्म उत्तर में ग्वालियर के आसपास और बुंदेलखंड में। दक्षिण-पश्चिम मानसून (मध्य जून से सितंबर) साल की अधिकांश वर्षा लाता है — सबसे अधिक दक्षिण-पूर्व में मंडला और बालाघाट के आसपास और उत्तर-पश्चिम में कम। सर्दियाँ (नवंबर–फ़रवरी) ठंडी और सूखी होती हैं — ग्वालियर और उत्तर में ठंडी रातें और अन्यत्र सुहावने दिन; सतपुड़ा में पचमढ़ी राज्य का पर्वतीय स्थल है।",
+        "mr": "मध्य प्रदेशात तीन स्पष्ट ऋतूंचे उपोष्ण हवामान आहे. उन्हाळा (मार्च–जून) उष्ण व कोरडा असतो — सर्वाधिक उष्ण उत्तरेत ग्वाल्हेरभोवती व बुंदेलखंडात. नैर्ऋत्य मान्सून (जूनच्या मध्यापासून सप्टेंबरपर्यंत) वर्षाचा बहुतांश पाऊस आणतो — सर्वाधिक आग्नेयेत मंडला व बालाघाटभोवती आणि वायव्येत कमी. हिवाळा (नोव्हेंबर–फेब्रुवारी) थंड व कोरडा असतो — ग्वाल्हेर व उत्तरेत थंड रात्री आणि इतरत्र सुखद दिवस; सातपुड्यातील पचमढी हे राज्याचे थंड हवेचे ठिकाण आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Bhopal",
+            "hi": "भोपाल",
+            "mr": "भोपाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 23.2599,
+          "lon": 77.4126
+        },
+        {
+          "name": {
+            "en": "Indore",
+            "hi": "इंदौर",
+            "mr": "इंदूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 22.7196,
+          "lon": 75.8577
+        },
+        {
+          "name": {
+            "en": "Gwalior",
+            "hi": "ग्वालियर",
+            "mr": "ग्वाल्हेर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 26.2183,
+          "lon": 78.1828
+        },
+        {
+          "name": {
+            "en": "Pachmarhi",
+            "hi": "पचमढ़ी",
+            "mr": "पचमढी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 22.4674,
+          "lon": 78.4346
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to March",
+            "hi": "अक्टूबर से मार्च",
+            "mr": "ऑक्टोबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best for monuments and wildlife; Khajuraho Dance Festival in February.",
+            "hi": "स्मारकों और वन्यजीवों के लिए सबसे अच्छा; फ़रवरी में खजुराहो नृत्य महोत्सव।",
+            "mr": "स्मारके व वन्यजीवांसाठी उत्तम; फेब्रुवारीत खजुराहो नृत्य महोत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "April to June",
+            "hi": "अप्रैल से जून",
+            "mr": "एप्रिल ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hot, but the best tiger sightings as animals visit water holes; parks close in the monsoon.",
+            "hi": "गर्मी, लेकिन बाघ देखने का सबसे अच्छा समय क्योंकि जानवर जलाशयों पर आते हैं; मानसून में उद्यान बंद।",
+            "mr": "उष्ण, पण वाघ दिसण्याचा उत्तम काळ कारण प्राणी पाणवठ्यांवर येतात; पावसाळ्यात उद्याने बंद.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "July to September",
+            "hi": "जुलाई से सितंबर",
+            "mr": "जुलै ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Waterfalls and green hills at Pachmarhi, Mandu and Bhedaghat.",
+            "hi": "पचमढ़ी, मांडू और भेड़ाघाट में झरने और हरी पहाड़ियाँ।",
+            "mr": "पचमढी, मांडू व भेडाघाट येथे धबधबे व हिरवे डोंगर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (East and West Madhya Pradesh)",
+            "hi": "सामान्य वार्षिक वर्षा (पूर्वी और पश्चिमी मध्य प्रदेश)",
+            "mr": "सरासरी वार्षिक पाऊस (पूर्व व पश्चिम मध्य प्रदेश)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics by sub-division."
+        }
+      ]
+    }
+  ]
+}

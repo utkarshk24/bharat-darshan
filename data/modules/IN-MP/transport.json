@@ -1,0 +1,180 @@
+{
+  "region": "IN-MP",
+  "module": "transport",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "At the centre of India, Madhya Pradesh is crossed by the main north–south and east–west rail lines; Itarsi, Bina and Katni are major junctions, and Jabalpur is the headquarters of the West Central Railway. National Highway 44, India's longest, runs north–south through Gwalior and Sagar. Indore's Devi Ahilyabai Holkar Airport is the busiest, followed by Bhopal's Raja Bhoj Airport; Jabalpur, Gwalior, Khajuraho and Rewa also have airports. Bhopal and Indore have new metro lines.",
+        "hi": "भारत के केंद्र में स्थित मध्य प्रदेश को मुख्य उत्तर–दक्षिण और पूर्व–पश्चिम रेल लाइनें पार करती हैं; इटारसी, बीना और कटनी बड़े जंक्शन हैं, और जबलपुर पश्चिम मध्य रेलवे का मुख्यालय है। भारत का सबसे लंबा राष्ट्रीय राजमार्ग 44 ग्वालियर और सागर से होकर उत्तर–दक्षिण जाता है। इंदौर का देवी अहिल्याबाई होलकर हवाई अड्डा सबसे व्यस्त है, उसके बाद भोपाल का राजा भोज हवाई अड्डा; जबलपुर, ग्वालियर, खजुराहो और रीवा में भी हवाई अड्डे हैं। भोपाल और इंदौर में नई मेट्रो लाइनें हैं।",
+        "mr": "भारताच्या केंद्रस्थानी असलेल्या मध्य प्रदेशातून मुख्य उत्तर–दक्षिण व पूर्व–पश्चिम रेल्वेमार्ग जातात; इटारसी, बीना व कटनी ही मोठी जंक्शन आहेत, आणि जबलपूर हे पश्चिम मध्य रेल्वेचे मुख्यालय आहे. भारतातील सर्वांत लांब राष्ट्रीय महामार्ग 44 ग्वाल्हेर व सागरमार्गे उत्तर–दक्षिण जातो. इंदूरचे देवी अहिल्याबाई होळकर विमानतळ सर्वांत व्यस्त आहे, त्यानंतर भोपाळचे राजा भोज विमानतळ; जबलपूर, ग्वाल्हेर, खजुराहो व रीवा येथेही विमानतळ आहेत. भोपाळ व इंदूरमध्ये नव्या मेट्रो मार्गिका आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "idr",
+          "name": {
+            "en": "Devi Ahilyabai Holkar Airport, Indore",
+            "hi": "देवी अहिल्याबाई होलकर हवाई अड्डा, इंदौर",
+            "mr": "देवी अहिल्याबाई होळकर विमानतळ, इंदूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "IDR",
+            "hi": "IDR",
+            "mr": "IDR",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bho",
+          "name": {
+            "en": "Raja Bhoj Airport, Bhopal",
+            "hi": "राजा भोज हवाई अड्डा, भोपाल",
+            "mr": "राजा भोज विमानतळ, भोपाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "BHO",
+            "hi": "BHO",
+            "mr": "BHO",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jlr",
+          "name": {
+            "en": "Jabalpur (Dumna)",
+            "hi": "जबलपुर (डुमना)",
+            "mr": "जबलपूर (डुमना)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "JLR",
+            "hi": "JLR",
+            "mr": "JLR",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gwl",
+          "name": {
+            "en": "Gwalior (Rajmata Vijaya Raje Scindia)",
+            "hi": "ग्वालियर (राजमाता विजयाराजे सिंधिया)",
+            "mr": "ग्वाल्हेर (राजमाता विजयाराजे शिंदे)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "GWL",
+            "hi": "GWL",
+            "mr": "GWL",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hjr",
+          "name": {
+            "en": "Khajuraho",
+            "hi": "खजुराहो",
+            "mr": "खजुराहो",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "HJR",
+            "hi": "HJR",
+            "mr": "HJR",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports (selected)",
+        "hi": "हवाई अड्डे (चयनित)",
+        "mr": "विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

@@ -33,86 +33,151 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://www.mp.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Barasingha (hard-ground swamp deer)",
+        "hi": "बारहसिंगा",
+        "mr": "बाराशिंगा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Rucervus duvaucelii branderi",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Indian paradise flycatcher (dudhraj)",
+        "hi": "दूधराज (शाह बुलबुल)",
+        "mr": "स्वर्गीय नर्तक (दूधराज)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Terpsiphone paradisi",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Madonna lily",
+        "hi": "सफ़ेद लिली",
+        "mr": "पांढरी लिली",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Lilium candidum",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Banyan",
+        "hi": "बरगद",
+        "mr": "वड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Ficus benghalensis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 72626809,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 3,76,12,306; females 3,50,14,503."
     },
     "area": {
-      "value": null,
+      "value": 308252,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 236,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 7,26,26,809 ÷ area 3,08,252 km² = 235.6."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 931,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (919 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 918,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 932 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 69.3,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,87 +190,1018 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 1669750,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25: ₹15,02,428 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 169050,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2024-25: ₹1,54,124."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 25.0,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 77,073.44 km² ÷ geographical area 3,08,252 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Mangubhai C. Patel",
+        "hi": "मंगुभाई छ. पटेल",
+        "mr": "मंगूभाई छ. पटेल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
+      "since": "2021-07-08",
+      "asOf": "2026-10-16",
+      "sourceId": "fpj",
+      "url": "https://www.freepressjournal.in/bhopal/mangubhai-to-be-5th-governor-to-remain-in-office-even-after-5-years",
       "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Appointed on 6 July 2021 and sworn in on 8 July 2021. Free Press Journal reported on 6 July 2026 that he completed five years and continues until a successor is appointed. Confirm on the Lok Bhavan, Madhya Pradesh website."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "name": {
+        "en": "Mohan Yadav",
+        "hi": "मोहन यादव",
+        "mr": "मोहन यादव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "BJP",
+      "since": "2023-12-13",
+      "asOf": "2026-10-16",
+      "sourceId": "scroll",
+      "url": "https://scroll.in/latest/1060516/mohan-yadav-vishnu-deo-sai-take-oath-as-chief-ministers-of-madhya-pradesh-chhattisgarh",
+      "verifyUrl": "https://www.mp.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in on 13 December 2023 (Scroll). Inaugurated Bhopal Metro services as Chief Minister on 20 December 2025 (News On AIR)."
+    },
+    "others": [
+      {
+        "role": "deputy-chief-minister",
+        "name": {
+          "en": "Jagdish Devda",
+          "hi": "जगदीश देवड़ा",
+          "mr": "जगदीश देवडा",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2023-12-13",
+        "asOf": "2026-10-16",
+        "sourceId": "scroll",
+        "url": "https://scroll.in/latest/1060516/mohan-yadav-vishnu-deo-sai-take-oath-as-chief-ministers-of-madhya-pradesh-chhattisgarh",
+        "verifyUrl": "https://www.mp.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Sworn in with the Chief Minister (Scroll)."
+      },
+      {
+        "role": "deputy-chief-minister",
+        "name": {
+          "en": "Rajendra Shukla",
+          "hi": "राजेंद्र शुक्ल",
+          "mr": "राजेंद्र शुक्ला",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2023-12-13",
+        "asOf": "2026-10-16",
+        "sourceId": "scroll",
+        "url": "https://scroll.in/latest/1060516/mohan-yadav-vishnu-deo-sai-take-oath-as-chief-ministers-of-madhya-pradesh-chhattisgarh",
+        "verifyUrl": "https://www.mp.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Sworn in with the Chief Minister (Scroll)."
+      },
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Narendra Singh Tomar",
+          "hi": "नरेंद्र सिंह तोमर",
+          "mr": "नरेंद्रसिंह तोमर",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2023-12-20",
+        "asOf": "2026-10-16",
+        "sourceId": "fpj",
+        "url": "https://www.freepressjournal.in/amp/bhopal/ex-union-minister-narendra-singh-tomar-elected-speaker-of-mp-assembly",
+        "verifyUrl": "https://mpvidhansabha.nic.in",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Former Union minister, elected unopposed in December 2023 (Free Press Journal). Confirm the date on the Assembly website."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "ken-betwa",
+      "name": {
+        "en": "Ken–Betwa river link project",
+        "hi": "केन–बेतवा नदी जोड़ परियोजना",
+        "mr": "केन–बेतवा नदीजोड प्रकल्प",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "The first project under the national river-linking plan, transferring water from the Ken to the Betwa basin through the Daudhan dam and a link canal. It is meant to irrigate more than 8 lakh hectares in 10 districts of Madhya Pradesh and over 2.5 lakh hectares in Uttar Pradesh, supply drinking water to about 65 lakh people, and add 103 MW of hydro and 27 MW of solar power. The Prime Minister laid the foundation stone at Khajuraho on 25 December 2024.",
+        "hi": "राष्ट्रीय नदी-जोड़ योजना की पहली परियोजना, जो दौधन बाँध और लिंक नहर से केन का पानी बेतवा बेसिन में ले जाएगी। इसका उद्देश्य मध्य प्रदेश के 10 ज़िलों में 8 लाख हेक्टेयर से अधिक और उत्तर प्रदेश में 2.5 लाख हेक्टेयर से अधिक की सिंचाई, लगभग 65 लाख लोगों को पेयजल, और 103 मेगावाट जलविद्युत व 27 मेगावाट सौर बिजली है। प्रधानमंत्री ने 25 दिसंबर 2024 को खजुराहो में इसकी आधारशिला रखी।",
+        "mr": "राष्ट्रीय नदीजोड योजनेतील पहिला प्रकल्प, जो दौधन धरण व जोड कालव्यातून केनचे पाणी बेतवा खोऱ्यात नेईल. मध्य प्रदेशच्या 10 जिल्ह्यांत 8 लाख हेक्टरहून अधिक व उत्तर प्रदेशात 2.5 लाख हेक्टरहून अधिक सिंचन, सुमारे 65 लाख लोकांना पिण्याचे पाणी, आणि 103 मेगावॅट जलविद्युत व 27 मेगावॅट सौरऊर्जा हा उद्देश आहे. पंतप्रधानांनी 25 डिसेंबर 2024 रोजी खजुराहो येथे पायाभरणी केली.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "water",
+      "agency": "Ken-Betwa Link Project Authority / Ministry of Jal Shakti",
+      "start": "December 2024",
+      "completion": null,
+      "status": "Under Construction",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/pm-modi-to-lay-foundation-stone-of-countrys-first-ken-betwa-river-linking-project-in-madhya-pradesh",
+      "confidence": "Official",
+      "cost": {
+        "value": 44605,
+        "unit": "₹ crore",
+        "period": "2024",
+        "periodType": "calendar",
+        "sourceId": "newsonair",
+        "url": "https://www.newsonair.gov.in/pm-modi-to-lay-foundation-stone-of-countrys-first-ken-betwa-river-linking-project-in-madhya-pradesh",
+        "accessDate": "2026-10-16",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "₹44,605 crore; the Centre bears 90% (News On AIR)."
+      },
+      "challenges": {
+        "en": "Part of Panna Tiger Reserve will be submerged; the approved wildlife and resettlement plans need official tracking.",
+        "hi": "पन्ना बाघ अभयारण्य का कुछ भाग डूबेगा; स्वीकृत वन्यजीव और पुनर्वास योजनाओं पर आधिकारिक निगरानी ज़रूरी है।",
+        "mr": "पन्ना व्याघ्र प्रकल्पाचा काही भाग बुडणार आहे; मंजूर वन्यजीव व पुनर्वसन आराखड्यांचा अधिकृत पाठपुरावा आवश्यक आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "id": "bhopal-metro",
+      "name": {
+        "en": "Bhopal Metro — priority corridor",
+        "hi": "भोपाल मेट्रो — प्राथमिकता गलियारा",
+        "mr": "भोपाळ मेट्रो — प्राधान्य मार्गिका",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "The first 7 km stretch of the Orange Line, with eight elevated stations from Subhash Nagar, opened to passengers in December 2025; it was inaugurated by the Union Housing and Urban Affairs Minister and the Chief Minister on 20 December 2025.",
+        "hi": "ऑरेंज लाइन का पहला 7 किमी खंड, सुभाष नगर से आठ एलिवेटेड स्टेशनों के साथ, दिसंबर 2025 में यात्रियों के लिए खुला; केंद्रीय आवास और शहरी कार्य मंत्री और मुख्यमंत्री ने 20 दिसंबर 2025 को इसका उद्घाटन किया।",
+        "mr": "ऑरेंज मार्गिकेचा पहिला 7 किमीचा टप्पा, सुभाष नगरपासून आठ उन्नत स्थानकांसह, डिसेंबर 2025 मध्ये प्रवाशांसाठी खुला झाला; केंद्रीय गृहनिर्माण व नागरी व्यवहार मंत्री व मुख्यमंत्र्यांनी 20 डिसेंबर 2025 रोजी उद्घाटन केले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "urban",
+      "agency": "Madhya Pradesh Metro Rail Corporation",
+      "start": null,
+      "completion": "20 December 2025",
+      "status": "Completed",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/metro-train-services-officially-commenced-in-bhopal-madhya-pradesh",
+      "confidence": "Official"
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "balaghat-chinnor",
+      "name": {
+        "en": "Balaghat Chinnor",
+        "hi": "बालाघाट चिन्नौर",
+        "mr": "बालाघाट चिन्नोर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "663",
+      "filingDate": "2019-10-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sharbati-gehu",
+      "name": {
+        "en": "Sharbati Gehu",
+        "hi": "शरबती गेहूँ",
+        "mr": "शरबती गहू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "699",
+      "filingDate": "2020-09-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "rewa-sunderja-mango",
+      "name": {
+        "en": "Rewa Sunderja Mango",
+        "hi": "रीवा सुंदरजा आम",
+        "mr": "रीवा सुंदरजा आंबा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "707",
+      "filingDate": "2020-09-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ratlam-riyawan-lahsun-garlic",
+      "name": {
+        "en": "Ratlam Riyawan Lahsun (Garlic)",
+        "hi": "रतलाम रियावन लहसुन",
+        "mr": "रतलाम रियावन लसूण",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "813",
+      "filingDate": "2022-01-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ratlami-sev",
+      "name": {
+        "en": "Ratlami Sev",
+        "hi": "रतलामी सेव",
+        "mr": "रतलामी शेव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "434",
+      "filingDate": "2013-08-16",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "morena-gajak",
+      "name": {
+        "en": "Morena Gajak",
+        "hi": "मुरैना गजक",
+        "mr": "मुरैना गजक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "681",
+      "filingDate": "2019-12-30",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "jhabua-kadaknath-black-chicken-meat",
+      "name": {
+        "en": "Jhabua Kadaknath Black Chicken Meat",
+        "hi": "झाबुआ कड़कनाथ काले मुर्गे का मांस",
+        "mr": "झाबुआ कडकनाथ काळ्या कोंबडीचे मांस",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "378",
+      "filingDate": "2012-02-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chanderi-sarees",
+      "name": {
+        "en": "Chanderi Sarees",
+        "hi": "चंदेरी साड़ियाँ",
+        "mr": "चंदेरी साड्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "7",
+      "filingDate": "2004-04-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "leather-toys-of-indore",
+      "name": {
+        "en": "Leather Toys of Indore",
+        "hi": "इंदौर के चमड़े के खिलौने",
+        "mr": "इंदूरची चामडी खेळणी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "97",
+      "filingDate": "2007-06-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bagh-prints-of-madhya-pradesh",
+      "name": {
+        "en": "Bagh Prints of Madhya Pradesh",
+        "hi": "मध्य प्रदेश की बाग़ छपाई",
+        "mr": "मध्य प्रदेशची बाग छपाई",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "98",
+      "filingDate": "2007-06-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bell-metal-ware-of-datia-and-tikamgarh",
+      "name": {
+        "en": "Bell Metal Ware of Datia and Tikamgarh",
+        "hi": "दतिया और टीकमगढ़ के घंटा-धातु बर्तन",
+        "mr": "दतिया व टीकमगडची घंटाधातू भांडी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "102",
+      "filingDate": "2007-07-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "maheshwar-sarees-fabrics",
+      "name": {
+        "en": "Maheshwar Sarees & Fabrics",
+        "hi": "महेश्वर साड़ियाँ और वस्त्र",
+        "mr": "महेश्वरी साड्या व वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "197",
+      "filingDate": "2010-02-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bell-metal-ware-of-datia-and-tikamgarh-logo",
+      "name": {
+        "en": "Bell Metal Ware of Datia And Tikamgarh (Logo)",
+        "hi": "दतिया और टीकमगढ़ के घंटा-धातु बर्तन (लोगो)",
+        "mr": "दतिया व टीकमगडची घंटाधातू भांडी (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "388",
+      "filingDate": "2012-12-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "leather-toys-of-indore-logo",
+      "name": {
+        "en": "Leather Toys of Indore (LOGO)",
+        "hi": "इंदौर के चमड़े के खिलौने (लोगो)",
+        "mr": "इंदूरची चामडी खेळणी (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "399",
+      "filingDate": "2013-01-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bagh-prints-of-madhya-pradesh-logo",
+      "name": {
+        "en": "Bagh Prints of Madhya Pradesh (Logo)",
+        "hi": "मध्य प्रदेश की बाग़ छपाई (लोगो)",
+        "mr": "मध्य प्रदेशची बाग छपाई (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "505",
+      "filingDate": "2015-01-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "gond-painting-of-madhya-pradesh",
+      "name": {
+        "en": "Gond Painting of Madhya Pradesh",
+        "hi": "मध्य प्रदेश की गोंड चित्रकला",
+        "mr": "मध्य प्रदेशची गोंड चित्रकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "701",
+      "filingDate": "2020-09-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "wrought-iron-crafts-of-dindori",
+      "name": {
+        "en": "Wrought Iron Crafts of Dindori",
+        "hi": "डिंडोरी का लौह शिल्प",
+        "mr": "डिंडोरीची लोखंडी हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "697",
+      "filingDate": "2020-08-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ujjain-batik-print",
+      "name": {
+        "en": "Ujjain Batik Print",
+        "hi": "उज्जैन बाटिक छपाई",
+        "mr": "उज्जैन बाटिक छपाई",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "700",
+      "filingDate": "2020-09-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "gwalior-handmade-carpet",
+      "name": {
+        "en": "Gwalior Handmade Carpet",
+        "hi": "ग्वालियर हस्तनिर्मित कालीन",
+        "mr": "ग्वाल्हेर हस्तनिर्मित गालिचा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "708",
+      "filingDate": "2020-09-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "waraseoni-handloom-saree-fabrics",
+      "name": {
+        "en": "Waraseoni Handloom Saree & Fabrics",
+        "hi": "वारासिवनी हथकरघा साड़ी और वस्त्र",
+        "mr": "वारासिवनी हातमाग साडी व वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "709",
+      "filingDate": "2020-09-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "jabalpur-stone-craft",
+      "name": {
+        "en": "Jabalpur Stone Craft",
+        "hi": "जबलपुर पत्थर शिल्प",
+        "mr": "जबलपूर दगडी हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "710",
+      "filingDate": "2020-09-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chhatarpur-furniture",
+      "name": {
+        "en": "Chhatarpur Furniture",
+        "hi": "छतरपुर फ़र्नीचर",
+        "mr": "छतरपूर फर्निचर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "1427",
+      "filingDate": "2025-01-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "khajuraho-stone-craft-of-madhya-pradesh",
+      "name": {
+        "en": "Khajuraho Stone Craft Of Madhya Pradesh",
+        "hi": "मध्य प्रदेश का खजुराहो पत्थर शिल्प",
+        "mr": "मध्य प्रदेशची खजुराहो दगडी हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "1361",
+      "filingDate": "2024-09-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "betul-bharewa-metal-craft",
+      "name": {
+        "en": "Betul Bharewa Metal Craft",
+        "hi": "बैतूल भरेवा धातु शिल्प",
+        "mr": "बैतूल भरेवा धातुकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "1362",
+      "filingDate": "2024-09-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "gwalior-papier-mache-craft",
+      "name": {
+        "en": "Gwalior Papier Mache Craft",
+        "hi": "ग्वालियर पेपर माशे शिल्प",
+        "mr": "ग्वाल्हेर पेपर माशे कला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "1365",
+      "filingDate": "2024-09-25",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "gwalior-stone-craft",
+      "name": {
+        "en": "Gwalior Stone Craft",
+        "hi": "ग्वालियर पत्थर शिल्प",
+        "mr": "ग्वाल्हेर दगडी हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "1367",
+      "filingDate": "2024-09-25",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "panna-diamond",
+      "name": {
+        "en": "Panna Diamond",
+        "hi": "पन्ना हीरा",
+        "mr": "पन्ना हिरा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "1097",
+      "filingDate": "2023-06-07",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "nagpur-orange",
+      "name": {
+        "en": "Nagpur Orange",
+        "hi": "नागपुर संतरा",
+        "mr": "नागपुरी संत्री",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "385",
+      "filingDate": "2012-08-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Maharashtra"
+      ]
+    },
+    {
+      "id": "bundelkhand-kathiya-gehu-wheat",
+      "name": {
+        "en": "Bundelkhand Kathiya Gehu (Wheat)",
+        "hi": "बुंदेलखंड कठिया गेहूँ",
+        "mr": "बुंदेलखंड कठिया गहू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "819",
+      "filingDate": "2022-01-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "id": "mahoba-desawari-pan",
+      "name": {
+        "en": "Mahoba Desawari Pan",
+        "hi": "महोबा देशावरी पान",
+        "mr": "महोबा देशावरी पान",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "401",
+      "filingDate": "2013-02-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Uttar Pradesh"
+      ]
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-16",
+    "editorialStatus": "draft"
   }
 }

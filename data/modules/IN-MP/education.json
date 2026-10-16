@@ -1,0 +1,404 @@
+{
+  "region": "IN-MP",
+  "module": "education",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Madhya Pradesh's higher-education gross enrolment ratio (ages 18–23) was 28.9% in 2021-22 in AISHE, slightly above the national 28.4% and up from 20.2% in 2017-18; men's GER (29.7%) was a little above women's (28.0%). The State had 77 universities and 2,742 colleges. Literacy at the 2011 Census was 69.3%.\n\nNational institutions include IIT Indore, IIM Indore, AIIMS Bhopal, IISER Bhopal, MANIT Bhopal, the National Law Institute University in Bhopal, IIITDM Jabalpur and ABV-IIITM Gwalior. Dr Harisingh Gour University at Sagar (1946) and Rani Durgavati University at Jabalpur are among the older universities.",
+        "hi": "एआईएसएचई के अनुसार 2021-22 में मध्य प्रदेश का उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 28.9% था, जो राष्ट्रीय 28.4% से थोड़ा अधिक और 2017-18 के 20.2% से ऊपर है; पुरुषों का जीईआर (29.7%) महिलाओं (28.0%) से थोड़ा अधिक था। राज्य में 77 विश्वविद्यालय और 2,742 कॉलेज थे। 2011 की जनगणना में साक्षरता 69.3% थी।\n\nराष्ट्रीय संस्थानों में आईआईटी इंदौर, आईआईएम इंदौर, एम्स भोपाल, आईआईएसईआर भोपाल, मैनिट भोपाल, भोपाल का राष्ट्रीय विधि संस्थान विश्वविद्यालय, आईआईआईटीडीएम जबलपुर और एबीवी-आईआईआईटीएम ग्वालियर शामिल हैं। सागर का डॉ. हरिसिंह गौर विश्वविद्यालय (1946) और जबलपुर का रानी दुर्गावती विश्वविद्यालय पुराने विश्वविद्यालयों में हैं।",
+        "mr": "एआयएसएचईनुसार 2021-22 मध्ये मध्य प्रदेशचे उच्चशिक्षणातील एकूण नोंदणी गुणोत्तर (18–23 वय) 28.9% होते — राष्ट्रीय 28.4% पेक्षा किंचित जास्त व 2017-18 च्या 20.2% पेक्षा अधिक; पुरुषांचे जीईआर (29.7%) स्त्रियांपेक्षा (28.0%) किंचित जास्त होते. राज्यात 77 विद्यापीठे व 2,742 महाविद्यालये होती. 2011 च्या जनगणनेत साक्षरता 69.3% होती.\n\nराष्ट्रीय संस्थांत आयआयटी इंदूर, आयआयएम इंदूर, एम्स भोपाळ, आयसर भोपाळ, मॅनिट भोपाळ, भोपाळचे राष्ट्रीय विधी संस्था विद्यापीठ, आयआयआयटीडीएम जबलपूर व एबीव्ही-आयआयआयटीएम ग्वाल्हेर यांचा समावेश आहे. सागरचे डॉ. हरिसिंह गौर विद्यापीठ (1946) व जबलपूरचे राणी दुर्गावती विद्यापीठ ही जुन्या विद्यापीठांपैकी आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 28.9,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 27.07,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 77,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 2742,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "mp",
+          "label": {
+            "en": "Madhya Pradesh",
+            "hi": "मध्य प्रदेश",
+            "mr": "मध्य प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 20.23,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 20.49,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 22.95,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 27.07,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 28.9,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "iiti",
+          "name": {
+            "en": "IIT Indore",
+            "hi": "आईआईटी इंदौर",
+            "mr": "आयआयटी इंदूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Indore",
+            "hi": "इंदौर",
+            "mr": "इंदूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iimi",
+          "name": {
+            "en": "IIM Indore",
+            "hi": "आईआईएम इंदौर",
+            "mr": "आयआयएम इंदूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Indore",
+            "hi": "इंदौर",
+            "mr": "इंदूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "aiimsb",
+          "name": {
+            "en": "AIIMS Bhopal",
+            "hi": "एम्स भोपाल",
+            "mr": "एम्स भोपाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bhopal",
+            "hi": "भोपाल",
+            "mr": "भोपाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iiserb",
+          "name": {
+            "en": "IISER Bhopal",
+            "hi": "आईआईएसईआर भोपाल",
+            "mr": "आयसर भोपाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bhopal",
+            "hi": "भोपाल",
+            "mr": "भोपाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nliu",
+          "name": {
+            "en": "National Law Institute University",
+            "hi": "राष्ट्रीय विधि संस्थान विश्वविद्यालय",
+            "mr": "राष्ट्रीय विधी संस्था विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bhopal",
+            "hi": "भोपाल",
+            "mr": "भोपाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hgu",
+          "name": {
+            "en": "Dr Harisingh Gour University",
+            "hi": "डॉ. हरिसिंह गौर विश्वविद्यालय",
+            "mr": "डॉ. हरिसिंह गौर विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Sagar, 1946",
+            "hi": "सागर, 1946",
+            "mr": "सागर, 1946",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "NIRF-ranked institutions",
+            "hi": "एनआईआरएफ़ रैंक वाले संस्थान",
+            "mr": "एनआयआरएफ क्रमवारीतील संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nirf",
+          "note": "Latest NIRF list filtered to Madhya Pradesh."
+        }
+      ]
+    }
+  ]
+}

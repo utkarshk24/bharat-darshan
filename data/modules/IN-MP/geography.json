@@ -1,0 +1,306 @@
+{
+  "region": "IN-MP",
+  "module": "geography",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Madhya Pradesh is a land-locked State of plateaus and low ranges. In the west the black-soil Malwa plateau surrounds Indore and Ujjain; to the north lie the Gwalior–Chambal ravines and the rocky Bundelkhand upland; in the east Baghelkhand rises towards the Kaimur hills. The Vindhya range runs across the middle of the State, and south of it the Narmada flows west through a long rift valley; beyond the river the Satpura range holds Pachmarhi and Dhupgarh, the State's highest point. The Narmada and the Son both rise at Amarkantak, flowing in opposite directions. The Tapti rises at Multai in Betul district.",
+        "hi": "मध्य प्रदेश पठारों और नीची पर्वतमालाओं वाला एक भू-आबद्ध राज्य है। पश्चिम में काली मिट्टी वाला मालवा पठार इंदौर और उज्जैन को घेरता है; उत्तर में ग्वालियर–चंबल के बीहड़ और पथरीला बुंदेलखंड क्षेत्र है; पूर्व में बघेलखंड कैमूर पहाड़ियों की ओर उठता है। विंध्य पर्वतमाला राज्य के बीच से गुज़रती है, और उसके दक्षिण में नर्मदा एक लंबी भ्रंश घाटी में पश्चिम की ओर बहती है; नदी के पार सतपुड़ा पर्वतमाला में पचमढ़ी और राज्य का सबसे ऊँचा स्थान धूपगढ़ है। नर्मदा और सोन दोनों अमरकंटक से निकलती हैं और विपरीत दिशाओं में बहती हैं। ताप्ती बैतूल ज़िले के मुलताई से निकलती है।",
+        "mr": "मध्य प्रदेश हे पठारे व कमी उंचीच्या पर्वतरांगांचे भूवेष्टित राज्य आहे. पश्चिमेला काळ्या मातीचे माळवा पठार इंदूर व उज्जैनला वेढते; उत्तरेला ग्वाल्हेर–चंबळची घळी व खडकाळ बुंदेलखंड आहे; पूर्वेला बघेलखंड कैमूर डोंगरांकडे उंचावतो. विंध्य पर्वतरांग राज्याच्या मधोमध जाते, आणि तिच्या दक्षिणेला नर्मदा एका लांब खचदरीतून पश्चिमेकडे वाहते; नदीपलीकडील सातपुडा रांगेत पचमढी व राज्याचे सर्वोच्च ठिकाण धूपगड आहे. नर्मदा व सोन दोन्ही अमरकंटक येथे उगम पावून विरुद्ध दिशांना वाहतात. तापी बैतूल जिल्ह्यातील मुलताई येथे उगम पावते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 308252,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "rj",
+          "name": {
+            "en": "Rajasthan (north-west)",
+            "hi": "राजस्थान (उत्तर-पश्चिम)",
+            "mr": "राजस्थान (वायव्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "up",
+          "name": {
+            "en": "Uttar Pradesh (north)",
+            "hi": "उत्तर प्रदेश (उत्तर)",
+            "mr": "उत्तर प्रदेश (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ct",
+          "name": {
+            "en": "Chhattisgarh (east)",
+            "hi": "छत्तीसगढ़ (पूर्व)",
+            "mr": "छत्तीसगड (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mh",
+          "name": {
+            "en": "Maharashtra (south)",
+            "hi": "महाराष्ट्र (दक्षिण)",
+            "mr": "महाराष्ट्र (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gj",
+          "name": {
+            "en": "Gujarat (west)",
+            "hi": "गुजरात (पश्चिम)",
+            "mr": "गुजरात (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "narmada",
+          "name": {
+            "en": "Narmada",
+            "hi": "नर्मदा",
+            "mr": "नर्मदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises at Amarkantak and flows west to Gujarat; dams at Bargi, Indira Sagar and Omkareshwar.",
+            "hi": "अमरकंटक से निकलकर पश्चिम में गुजरात तक बहती है; बरगी, इंदिरा सागर और ओंकारेश्वर पर बाँध।",
+            "mr": "अमरकंटक येथे उगम पावून पश्चिमेकडे गुजरातपर्यंत वाहते; बरगी, इंदिरा सागर व ओंकारेश्वर येथे धरणे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chambal",
+          "name": {
+            "en": "Chambal",
+            "hi": "चंबल",
+            "mr": "चंबळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises near Mhow and flows north; Gandhi Sagar dam; gharial sanctuary.",
+            "hi": "महू के पास से निकलकर उत्तर बहती है; गांधी सागर बाँध; घड़ियाल अभयारण्य।",
+            "mr": "महूजवळ उगम पावून उत्तरेकडे वाहते; गांधी सागर धरण; घडियाल अभयारण्य.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "betwa",
+          "name": {
+            "en": "Betwa",
+            "hi": "बेतवा",
+            "mr": "बेतवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows past Vidisha and Orchha into Uttar Pradesh.",
+            "hi": "विदिशा और ओरछा से होकर उत्तर प्रदेश जाती है।",
+            "mr": "विदिशा व ओरछावरून उत्तर प्रदेशात जाते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "son",
+          "name": {
+            "en": "Son",
+            "hi": "सोन",
+            "mr": "सोन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows east from Amarkantak to join the Ganga in Bihar; Bansagar dam.",
+            "hi": "अमरकंटक से पूर्व बहकर बिहार में गंगा से मिलती है; बाणसागर बाँध।",
+            "mr": "अमरकंटकहून पूर्वेकडे वाहत बिहारमध्ये गंगेला मिळते; बाणसागर धरण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tapti",
+          "name": {
+            "en": "Tapti",
+            "hi": "ताप्ती",
+            "mr": "तापी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises at Multai and flows west through Burhanpur.",
+            "hi": "मुलताई से निकलकर बुरहानपुर से होकर पश्चिम बहती है।",
+            "mr": "मुलताई येथे उगम पावून बुरहानपूरमार्गे पश्चिमेकडे वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Dhupgarh — official elevation",
+            "hi": "धूपगढ़ — आधिकारिक ऊँचाई",
+            "mr": "धूपगड — अधिकृत उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        }
+      ]
+    }
+  ]
+}

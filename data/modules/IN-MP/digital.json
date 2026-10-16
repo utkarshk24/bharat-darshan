@@ -1,0 +1,55 @@
+{
+  "region": "IN-MP",
+  "module": "digital",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Indore is the State's IT centre, with special economic zones and campuses of large Indian IT companies along the Super Corridor and at Crystal IT Park. Bhopal and Jabalpur have smaller clusters and growing start-up activity, supported by the State's start-up policy and incubators at IIT Indore, IIM Indore and IISER Bhopal.",
+        "hi": "इंदौर राज्य का आईटी केंद्र है, जहाँ सुपर कॉरिडोर और क्रिस्टल आईटी पार्क में विशेष आर्थिक क्षेत्र और बड़ी भारतीय आईटी कंपनियों के परिसर हैं। भोपाल और जबलपुर में छोटे क्लस्टर और बढ़ती स्टार्टअप गतिविधि है, जिसे राज्य की स्टार्टअप नीति और आईआईटी इंदौर, आईआईएम इंदौर व आईआईएसईआर भोपाल के इनक्यूबेटर सहारा देते हैं।",
+        "mr": "इंदूर हे राज्याचे आयटी केंद्र आहे, जिथे सुपर कॉरिडॉर व क्रिस्टल आयटी पार्क येथे विशेष आर्थिक क्षेत्रे व मोठ्या भारतीय आयटी कंपन्यांची संकुले आहेत. भोपाळ व जबलपूरमध्ये लहान समूह व वाढती स्टार्टअप हालचाल आहे, जिला राज्याचे स्टार्टअप धोरण व आयआयटी इंदूर, आयआयएम इंदूर व आयसर भोपाळ येथील इन्क्युबेटर्सचा आधार आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Madhya Pradesh circle, which includes Chhattisgarh)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

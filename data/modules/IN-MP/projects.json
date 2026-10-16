@@ -1,0 +1,61 @@
+{
+  "region": "IN-MP",
+  "module": "projects",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Ken–Betwa link, the first project of India's national river-linking plan, is being built to carry water to drought-prone Bundelkhand. Bhopal's metro opened its first stretch in December 2025, joining Indore, whose first metro section opened in May 2025. The Ramjal Setu link with Rajasthan is listed on the Rajasthan page. Each card shows its source and the date it was checked.",
+        "hi": "भारत की राष्ट्रीय नदी-जोड़ योजना की पहली परियोजना, केन–बेतवा लिंक, सूखाग्रस्त बुंदेलखंड तक पानी पहुँचाने के लिए बन रही है। भोपाल मेट्रो का पहला खंड दिसंबर 2025 में खुला, और इंदौर में पहला मेट्रो खंड मई 2025 में खुला था। राजस्थान के साथ रामजल सेतु लिंक राजस्थान पृष्ठ पर है। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "भारताच्या राष्ट्रीय नदीजोड योजनेतील पहिला प्रकल्प, केन–बेतवा जोड, दुष्काळग्रस्त बुंदेलखंडपर्यंत पाणी पोहोचवण्यासाठी उभारला जात आहे. भोपाळ मेट्रोचा पहिला टप्पा डिसेंबर 2025 मध्ये सुरू झाला, आणि इंदूरमध्ये पहिला मेट्रो टप्पा मे 2025 मध्ये सुरू झाला होता. राजस्थानसोबतचा रामजल सेतू जोड प्रकल्प राजस्थानच्या पानावर आहे. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Indore Metro — official status",
+            "hi": "इंदौर मेट्रो — आधिकारिक स्थिति",
+            "mr": "इंदूर मेट्रो — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Madhya Pradesh Metro Rail Corporation / MoHUA."
+        },
+        {
+          "label": {
+            "en": "Ken–Betwa — physical progress",
+            "hi": "केन–बेतवा — भौतिक प्रगति",
+            "mr": "केन–बेतवा — भौतिक प्रगती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Jal Shakti."
+        }
+      ]
+    }
+  ]
+}

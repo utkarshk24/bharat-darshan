@@ -1,0 +1,68 @@
+{
+  "region": "IN-MP",
+  "module": "water",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Narmada is the lifeline of central Madhya Pradesh. The Narmada Valley Development Authority has built dams at Bargi, Indira Sagar, Omkareshwar and elsewhere, and the Narmada–Kshipra and Narmada–Gambhir links lift Narmada water to the Malwa plateau around Ujjain and Indore. The Chambal's Gandhi Sagar dam is shared with Rajasthan, and the Betwa, Ken and Son are dammed for irrigation. Groundwater-fed wheat farming has grown fast, and parts of Malwa and Bundelkhand face falling water tables; Bundelkhand in particular suffers repeated drought, which the Ken–Betwa link is meant to ease. Bhopal draws its water from the Upper Lake, built under Raja Bhoj in the 11th century.",
+        "hi": "नर्मदा मध्य मध्य प्रदेश की जीवनरेखा है। नर्मदा घाटी विकास प्राधिकरण ने बरगी, इंदिरा सागर, ओंकारेश्वर और अन्य स्थानों पर बाँध बनाए हैं, और नर्मदा–क्षिप्रा और नर्मदा–गंभीर लिंक नर्मदा का पानी उठाकर उज्जैन और इंदौर के आसपास मालवा पठार तक पहुँचाते हैं। चंबल का गांधी सागर बाँध राजस्थान के साथ साझा है, और बेतवा, केन और सोन पर सिंचाई के लिए बाँध हैं। भूजल पर आधारित गेहूँ की खेती तेज़ी से बढ़ी है, और मालवा व बुंदेलखंड के कुछ भागों में जल स्तर गिर रहा है; विशेषकर बुंदेलखंड बार-बार सूखे से पीड़ित है, जिसे केन–बेतवा लिंक से राहत मिलने की उम्मीद है। भोपाल अपना पानी ऊपरी झील से लेता है, जो 11वीं सदी में राजा भोज के समय बनी।",
+        "mr": "नर्मदा ही मध्य प्रदेशाच्या मध्य भागाची जीवनरेखा आहे. नर्मदा खोरे विकास प्राधिकरणाने बरगी, इंदिरा सागर, ओंकारेश्वर व इतरत्र धरणे बांधली आहेत, आणि नर्मदा–क्षिप्रा व नर्मदा–गंभीर जोड प्रकल्प नर्मदेचे पाणी उचलून उज्जैन व इंदूरभोवतीच्या माळवा पठारापर्यंत नेतात. चंबळवरील गांधी सागर धरण राजस्थानसोबत सामायिक आहे, आणि बेतवा, केन व सोनवर सिंचनासाठी धरणे आहेत. भूजलावर आधारित गहू शेती झपाट्याने वाढली आहे, आणि माळवा व बुंदेलखंडच्या काही भागांत भूजलपातळी घसरत आहे; विशेषतः बुंदेलखंड वारंवार दुष्काळ सोसतो, जो केन–बेतवा जोडामुळे कमी होईल अशी अपेक्षा आहे. भोपाळ आपले पाणी वरच्या सरोवरातून घेते, जे अकराव्या शतकात राजा भोजाच्या काळात बांधले गेले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        },
+        {
+          "label": {
+            "en": "Net irrigated area",
+            "hi": "शुद्ध सिंचित क्षेत्र",
+            "mr": "निव्वळ सिंचित क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Land-use statistics, Ministry of Agriculture."
+        }
+      ]
+    }
+  ]
+}

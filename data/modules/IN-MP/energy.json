@@ -1,0 +1,68 @@
+{
+  "region": "IN-MP",
+  "module": "energy",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Singrauli, on the border with Uttar Pradesh, is one of India's great power hubs, with NTPC's Vindhyachal station and the Sasan ultra mega power project burning local coal. State plants at Satpura (Sarni), Amarkantak, Birsinghpur and Shree Singaji add more. The Narmada dams at Indira Sagar, Omkareshwar and Bargi generate hydro power, and Omkareshwar also has one of India's largest floating solar plants. The Rewa ultra mega solar park supplies power to the Delhi Metro, and new solar parks are coming up in Agar, Shajapur, Neemuch and Morena.",
+        "hi": "उत्तर प्रदेश की सीमा पर सिंगरौली भारत के बड़े बिजली केंद्रों में है, जहाँ एनटीपीसी का विंध्याचल संयंत्र और सासन अल्ट्रा मेगा पावर परियोजना स्थानीय कोयले से चलते हैं। सतपुड़ा (सारणी), अमरकंटक, बिरसिंहपुर और श्री सिंगाजी के राज्य संयंत्र और जोड़ते हैं। इंदिरा सागर, ओंकारेश्वर और बरगी पर नर्मदा के बाँध जलविद्युत बनाते हैं, और ओंकारेश्वर में भारत के सबसे बड़े तैरते सौर संयंत्रों में से एक भी है। रीवा अल्ट्रा मेगा सौर पार्क दिल्ली मेट्रो को बिजली देता है, और आगर, शाजापुर, नीमच और मुरैना में नए सौर पार्क बन रहे हैं।",
+        "mr": "उत्तर प्रदेशच्या सीमेवरील सिंगरौली हे भारतातील मोठ्या वीज केंद्रांपैकी आहे, जिथे एनटीपीसीचे विंध्याचल केंद्र व सासन अल्ट्रा मेगा वीज प्रकल्प स्थानिक कोळशावर चालतात. सातपुडा (सारणी), अमरकंटक, बिरसिंहपूर व श्री सिंगाजी येथील राज्याची केंद्रे भर घालतात. इंदिरा सागर, ओंकारेश्वर व बरगी येथील नर्मदेवरील धरणे जलविद्युत निर्माण करतात, आणि ओंकारेश्वर येथे भारतातील सर्वांत मोठ्या तरंगत्या सौर प्रकल्पांपैकी एकही आहे. रीवा अल्ट्रा मेगा सौर उद्यान दिल्ली मेट्रोला वीज पुरवते, आणि आगर, शाजापूर, नीमच व मुरैना येथे नवी सौर उद्याने उभी राहत आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Renewable capacity",
+            "hi": "अक्षय ऊर्जा क्षमता",
+            "mr": "अक्षय ऊर्जा क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE state-wise RE capacity."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

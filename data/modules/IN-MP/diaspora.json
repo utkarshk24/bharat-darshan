@@ -1,0 +1,55 @@
+{
+  "region": "IN-MP",
+  "module": "diaspora",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Migration from Madhya Pradesh is mostly within India: workers from Bundelkhand, the tribal districts of the west and the Vindhya region go to Delhi, Gujarat, Maharashtra and Punjab for construction and farm work, often seasonally. Professionals from Indore, Bhopal and Jabalpur have moved to India's metros and abroad, especially to the United States. The Sindhi community of Bhopal and Indore, which arrived after Partition, and the Marathi-speaking families of Indore and Gwalior from the Maratha era, are among the State's own migrant communities.",
+        "hi": "मध्य प्रदेश से प्रवास अधिकतर भारत के भीतर होता है: बुंदेलखंड, पश्चिम के आदिवासी ज़िलों और विंध्य क्षेत्र के श्रमिक निर्माण और खेती के काम के लिए, अक्सर मौसमी रूप से, दिल्ली, गुजरात, महाराष्ट्र और पंजाब जाते हैं। इंदौर, भोपाल और जबलपुर के पेशेवर भारत के महानगरों और विदेश, विशेषकर अमेरिका, गए हैं। विभाजन के बाद आया भोपाल और इंदौर का सिंधी समुदाय, और मराठा काल से इंदौर और ग्वालियर के मराठी-भाषी परिवार राज्य के अपने प्रवासी समुदायों में हैं।",
+        "mr": "मध्य प्रदेशातून होणारे स्थलांतर बहुतांश देशांतर्गत आहे: बुंदेलखंड, पश्चिमेकडील आदिवासी जिल्हे व विंध्य प्रदेशातील कामगार बांधकाम व शेतीकामासाठी, अनेकदा हंगामी, दिल्ली, गुजरात, महाराष्ट्र व पंजाबमध्ये जातात. इंदूर, भोपाळ व जबलपूरचे व्यावसायिक भारतातील महानगरांत व परदेशात, विशेषतः अमेरिकेत गेले आहेत. फाळणीनंतर आलेला भोपाळ व इंदूरचा सिंधी समुदाय, आणि मराठा काळापासूनची इंदूर व ग्वाल्हेरची मराठीभाषक कुटुंबे हे राज्यातील स्वतःचे स्थलांतरित समुदाय आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants and internal migrants",
+            "hi": "प्रवासियों और आंतरिक प्रवासियों की संख्या",
+            "mr": "परदेशी व देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables; MEA."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

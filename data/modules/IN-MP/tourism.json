@@ -1,0 +1,368 @@
+{
+  "region": "IN-MP",
+  "module": "tourism",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Madhya Pradesh combines temples, forts and forests. The temples of Khajuraho, the stupas of Sanchi and the painted rock shelters of Bhimbetka are World Heritage Sites. Ujjain's Mahakaleshwar temple and its new Mahakal Lok corridor, Omkareshwar on its island in the Narmada and Maheshwar's ghats draw pilgrims. Gwalior fort, the Afghan-era palaces of Mandu, the Bundela town of Orchha and the weaving town of Chanderi are heritage highlights. Wildlife lovers head to Kanha, Bandhavgarh, Pench and Panna, and Pachmarhi and the marble rocks of Bhedaghat near Jabalpur offer scenery.",
+        "hi": "मध्य प्रदेश मंदिरों, क़िलों और वनों का संगम है। खजुराहो के मंदिर, साँची के स्तूप और भीमबेटका के चित्रित शैलाश्रय विश्व धरोहर स्थल हैं। उज्जैन का महाकालेश्वर मंदिर और उसका नया महाकाल लोक गलियारा, नर्मदा के द्वीप पर ओंकारेश्वर और महेश्वर के घाट तीर्थयात्रियों को खींचते हैं। ग्वालियर क़िला, मांडू के अफ़ग़ान काल के महल, बुंदेला नगर ओरछा और बुनकरों का नगर चंदेरी धरोहर के मुख्य आकर्षण हैं। वन्यजीव प्रेमी कान्हा, बांधवगढ़, पेंच और पन्ना जाते हैं, और पचमढ़ी व जबलपुर के पास भेड़ाघाट की संगमरमरी चट्टानें प्राकृतिक दृश्य देती हैं।",
+        "mr": "मध्य प्रदेश हे मंदिरे, किल्ले व जंगलांचा संगम आहे. खजुराहोची मंदिरे, सांचीचे स्तूप व भीमबेटकाची रंगवलेली शैलाश्रये ही जागतिक वारसा स्थळे आहेत. उज्जैनचे महाकालेश्वर मंदिर व नवा महाकाल लोक मार्ग, नर्मदेतील बेटावरील ओंकारेश्वर आणि महेश्वरचे घाट यात्रेकरूंना खेचतात. ग्वाल्हेरचा किल्ला, मांडूचे अफगाणकालीन महाल, बुंदेला नगर ओरछा व विणकरांचे गाव चंदेरी ही वारशाची मुख्य आकर्षणे आहेत. वन्यजीवप्रेमी कान्हा, बांधवगड, पेंच व पन्नाला जातात, आणि पचमढी व जबलपूरजवळील भेडाघाटचे संगमरवरी कडे निसर्गदृश्ये देतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "khajuraho",
+          "name": {
+            "en": "Khajuraho",
+            "hi": "खजुराहो",
+            "mr": "खजुराहो",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO temples",
+            "hi": "यूनेस्को मंदिर",
+            "mr": "युनेस्को मंदिरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sanchi",
+          "name": {
+            "en": "Sanchi and Bhimbetka",
+            "hi": "साँची और भीमबेटका",
+            "mr": "सांची व भीमबेटका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO sites",
+            "hi": "यूनेस्को स्थल",
+            "mr": "युनेस्को स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ujjain",
+          "name": {
+            "en": "Ujjain and Omkareshwar",
+            "hi": "उज्जैन और ओंकारेश्वर",
+            "mr": "उज्जैन व ओंकारेश्वर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jyotirlingas",
+            "hi": "ज्योतिर्लिंग",
+            "mr": "ज्योतिर्लिंगे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kanha",
+          "name": {
+            "en": "Kanha and Bandhavgarh",
+            "hi": "कान्हा और बांधवगढ़",
+            "mr": "कान्हा व बांधवगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Tiger safaris",
+            "hi": "बाघ सफ़ारी",
+            "mr": "वाघ सफारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gwalior",
+          "name": {
+            "en": "Gwalior and Orchha",
+            "hi": "ग्वालियर और ओरछा",
+            "mr": "ग्वाल्हेर व ओरछा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Forts, palaces",
+            "hi": "क़िले, महल",
+            "mr": "किल्ले, राजवाडे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mandu",
+          "name": {
+            "en": "Mandu and Maheshwar",
+            "hi": "मांडू और महेश्वर",
+            "mr": "मांडू व महेश्वर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage, weaving",
+            "hi": "धरोहर, बुनाई",
+            "mr": "वारसा, विणकाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pachmarhi",
+          "name": {
+            "en": "Pachmarhi",
+            "hi": "पचमढ़ी",
+            "mr": "पचमढी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hill station",
+            "hi": "पर्वतीय स्थल",
+            "mr": "थंड हवेचे ठिकाण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhedaghat",
+          "name": {
+            "en": "Bhedaghat marble rocks",
+            "hi": "भेड़ाघाट संगमरमरी चट्टानें",
+            "mr": "भेडाघाट संगमरवरी कडे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Narmada gorge",
+            "hi": "नर्मदा घाटी",
+            "mr": "नर्मदा घळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Bhopal, Sanchi and Bhimbetka.",
+            "hi": "भोपाल, साँची और भीमबेटका।",
+            "mr": "भोपाळ, सांची व भीमबेटका.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Indore, Ujjain, Omkareshwar and Maheshwar.",
+            "hi": "इंदौर, उज्जैन, ओंकारेश्वर और महेश्वर।",
+            "mr": "इंदूर, उज्जैन, ओंकारेश्वर व महेश्वर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Khajuraho, Panna and Orchha.",
+            "hi": "खजुराहो, पन्ना और ओरछा।",
+            "mr": "खजुराहो, पन्ना व ओरछा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Jabalpur and Bhedaghat, then Kanha and Bandhavgarh.",
+            "hi": "जबलपुर और भेड़ाघाट, फिर कान्हा और बांधवगढ़।",
+            "mr": "जबलपूर व भेडाघाट, नंतर कान्हा व बांधवगड.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "mpt",
+          "name": {
+            "en": "Madhya Pradesh Tourism (official)",
+            "hi": "मध्य प्रदेश पर्यटन (आधिकारिक)",
+            "mr": "मध्य प्रदेश पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.mptourism.com",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        }
+      ]
+    }
+  ]
+}

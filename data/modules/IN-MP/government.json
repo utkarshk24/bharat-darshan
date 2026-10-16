@@ -1,0 +1,228 @@
+{
+  "region": "IN-MP",
+  "module": "government",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Madhya Pradesh has a unicameral legislature: the 230-member Legislative Assembly meets in Bhopal. The State elects 29 members to the Lok Sabha and 11 to the Rajya Sabha.\n\nIn the Assembly election of November 2023 the BJP won 163 seats, the Congress 66 and the Bharat Adivasi Party 1 (ECI). Mohan Yadav was sworn in as Chief Minister on 13 December 2023, with Jagdish Devda and Rajendra Shukla as Deputy Chief Ministers, and former Union minister Narendra Singh Tomar was elected Speaker. Mangubhai C. Patel has been Governor since July 2021.",
+        "hi": "मध्य प्रदेश में एकसदनीय विधानमंडल है: 230 सदस्यों वाली विधानसभा भोपाल में बैठती है। राज्य से लोकसभा के 29 और राज्यसभा के 11 सदस्य चुने जाते हैं।\n\nनवंबर 2023 के विधानसभा चुनाव में भाजपा ने 163, कांग्रेस ने 66 और भारत आदिवासी पार्टी ने 1 सीट जीती (भारत निर्वाचन आयोग)। मोहन यादव ने 13 दिसंबर 2023 को मुख्यमंत्री पद की शपथ ली, जगदीश देवड़ा और राजेंद्र शुक्ल उपमुख्यमंत्री बने, और पूर्व केंद्रीय मंत्री नरेंद्र सिंह तोमर अध्यक्ष चुने गए। मंगुभाई छ. पटेल जुलाई 2021 से राज्यपाल हैं।",
+        "mr": "मध्य प्रदेशात एकसदनी विधिमंडळ आहे: 230 सदस्यांची विधानसभा भोपाळमध्ये भरते. राज्यातून लोकसभेवर 29 आणि राज्यसभेवर 11 सदस्य निवडले जातात.\n\nनोव्हेंबर 2023 च्या विधानसभा निवडणुकीत भाजपने 163, काँग्रेसने 66 व भारत आदिवासी पक्षाने 1 जागा जिंकली (भारत निवडणूक आयोग). मोहन यादव यांनी 13 डिसेंबर 2023 रोजी मुख्यमंत्रिपदाची शपथ घेतली, जगदीश देवडा व राजेंद्र शुक्ला उपमुख्यमंत्री झाले, आणि माजी केंद्रीय मंत्री नरेंद्रसिंह तोमर अध्यक्षपदी निवडले गेले. मंगूभाई छ. पटेल जुलै 2021 पासून राज्यपाल आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "eci",
+        "scroll",
+        "fpj"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "table",
+      "id": "result2023",
+      "title": {
+        "en": "Assembly election 2023 — seats won",
+        "hi": "विधानसभा चुनाव 2023 — जीती गई सीटें",
+        "mr": "विधानसभा निवडणूक 2023 — जिंकलेल्या जागा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Party",
+            "hi": "दल",
+            "mr": "पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Seats",
+            "hi": "सीटें",
+            "mr": "जागा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Bharatiya Janata Party",
+            "hi": "भारतीय जनता पार्टी",
+            "mr": "भारतीय जनता पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "163"
+        ],
+        [
+          {
+            "en": "Indian National Congress",
+            "hi": "भारतीय राष्ट्रीय कांग्रेस",
+            "mr": "भारतीय राष्ट्रीय काँग्रेस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "66"
+        ],
+        [
+          {
+            "en": "Bharat Adivasi Party",
+            "hi": "भारत आदिवासी पार्टी",
+            "mr": "भारत आदिवासी पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1"
+        ],
+        [
+          {
+            "en": "Total",
+            "hi": "कुल",
+            "mr": "एकूण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "230"
+        ]
+      ],
+      "sourceId": "eci",
+      "url": "https://results.eci.gov.in/AcResultGenDecNew2023/partywiseresult-S12.htm",
+      "accessDate": "2026-10-16",
+      "confidence": "Official",
+      "period": "2023",
+      "note": {
+        "en": "ECI results website, December 2023. Later by-elections and defections are not reflected.",
+        "hi": "भारत निर्वाचन आयोग की परिणाम वेबसाइट, दिसंबर 2023। बाद के उपचुनाव और दलबदल शामिल नहीं।",
+        "mr": "भारत निवडणूक आयोगाचे निकाल संकेतस्थळ, डिसेंबर 2023. नंतरच्या पोटनिवडणुका व पक्षांतरे समाविष्ट नाहीत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "assembly",
+          "name": {
+            "en": "Madhya Pradesh Vidhan Sabha",
+            "hi": "मध्य प्रदेश विधानसभा",
+            "mr": "मध्य प्रदेश विधानसभा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://mpvidhansabha.nic.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Madhya Pradesh",
+            "hi": "मध्य प्रदेश सरकार",
+            "mr": "मध्य प्रदेश शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.mp.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Leader of Opposition — official notice",
+            "hi": "नेता प्रतिपक्ष — आधिकारिक सूचना",
+            "mr": "विरोधी पक्षनेते — अधिकृत सूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Assembly secretariat."
+        },
+        {
+          "label": {
+            "en": "Local bodies by type",
+            "hi": "प्रकार के अनुसार स्थानीय निकाय",
+            "mr": "प्रकारानुसार स्थानिक स्वराज्य संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Panchayat and Rural Development and Urban Development departments."
+        }
+      ]
+    }
+  ]
+}

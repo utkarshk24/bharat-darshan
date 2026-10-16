@@ -1,0 +1,950 @@
+{
+  "region": "IN-MP",
+  "module": "cities",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "bhopal",
+          "name": {
+            "en": "Bhopal",
+            "hi": "भोपाल",
+            "mr": "भोपाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "State capital; city of lakes; BHEL and research institutes.",
+            "hi": "राज्य की राजधानी; झीलों का शहर; भेल और शोध संस्थान।",
+            "mr": "राज्याची राजधानी; सरोवरांचे शहर; भेल व संशोधन संस्था.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "indore",
+          "name": {
+            "en": "Indore",
+            "hi": "इंदौर",
+            "mr": "इंदूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Largest city and commercial capital; repeatedly ranked India's cleanest city.",
+            "hi": "सबसे बड़ा शहर और वाणिज्यिक राजधानी; बार-बार भारत का सबसे स्वच्छ शहर।",
+            "mr": "सर्वांत मोठे शहर व व्यापारी राजधानी; वारंवार भारतातील सर्वांत स्वच्छ शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Commerce",
+            "hi": "वाणिज्य",
+            "mr": "व्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jabalpur",
+          "name": {
+            "en": "Jabalpur",
+            "hi": "जबलपुर",
+            "mr": "जबलपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "High Court seat; defence factories; Bhedaghat.",
+            "hi": "उच्च न्यायालय का स्थान; रक्षा कारख़ाने; भेड़ाघाट।",
+            "mr": "उच्च न्यायालयाचे ठिकाण; संरक्षण कारखाने; भेडाघाट.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mahakoshal",
+            "hi": "महाकोशल",
+            "mr": "महाकोशल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gwalior",
+          "name": {
+            "en": "Gwalior",
+            "hi": "ग्वालियर",
+            "mr": "ग्वाल्हेर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hilltop fort, Scindia palaces and music.",
+            "hi": "पहाड़ी क़िला, सिंधिया महल और संगीत।",
+            "mr": "डोंगरी किल्ला, शिंदे राजवाडे व संगीत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ujjain",
+          "name": {
+            "en": "Ujjain",
+            "hi": "उज्जैन",
+            "mr": "उज्जैन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Ancient city of Mahakal on the Kshipra; Simhastha.",
+            "hi": "क्षिप्रा पर महाकाल का प्राचीन नगर; सिंहस्थ।",
+            "mr": "क्षिप्रेवरील महाकालाचे प्राचीन नगर; सिंहस्थ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage",
+            "hi": "तीर्थ",
+            "mr": "तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sagar",
+          "name": {
+            "en": "Sagar",
+            "hi": "सागर",
+            "mr": "सागर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "University town of Bundelkhand.",
+            "hi": "बुंदेलखंड का विश्वविद्यालय नगर।",
+            "mr": "बुंदेलखंडचे विद्यापीठ नगर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Education",
+            "hi": "शिक्षा",
+            "mr": "शिक्षण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "singrauli",
+          "name": {
+            "en": "Singrauli",
+            "hi": "सिंगरौली",
+            "mr": "सिंगरौली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Coal mines and power stations.",
+            "hi": "कोयला खदानें और बिजलीघर।",
+            "mr": "कोळसा खाणी व वीज केंद्रे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Energy",
+            "hi": "ऊर्जा",
+            "mr": "ऊर्जा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "agarmalwa",
+          "name": {
+            "en": "Agar Malwa",
+            "hi": "आगर मालवा",
+            "mr": "आगर माळवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "alirajpur",
+          "name": {
+            "en": "Alirajpur",
+            "hi": "अलीराजपुर",
+            "mr": "अलीराजपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "anuppur",
+          "name": {
+            "en": "Anuppur",
+            "hi": "अनूपपुर",
+            "mr": "अनूपपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ashoknagar",
+          "name": {
+            "en": "Ashoknagar",
+            "hi": "अशोकनगर",
+            "mr": "अशोकनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "balaghat",
+          "name": {
+            "en": "Balaghat",
+            "hi": "बालाघाट",
+            "mr": "बालाघाट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "barwani",
+          "name": {
+            "en": "Barwani",
+            "hi": "बड़वानी",
+            "mr": "बडवानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "betul",
+          "name": {
+            "en": "Betul",
+            "hi": "बैतूल",
+            "mr": "बैतूल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhind",
+          "name": {
+            "en": "Bhind",
+            "hi": "भिंड",
+            "mr": "भिंड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhopal",
+          "name": {
+            "en": "Bhopal",
+            "hi": "भोपाल",
+            "mr": "भोपाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "burhanpur",
+          "name": {
+            "en": "Burhanpur",
+            "hi": "बुरहानपुर",
+            "mr": "बुरहानपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chhatarpur",
+          "name": {
+            "en": "Chhatarpur",
+            "hi": "छतरपुर",
+            "mr": "छतरपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chhindwara",
+          "name": {
+            "en": "Chhindwara",
+            "hi": "छिंदवाड़ा",
+            "mr": "छिंदवाडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "damoh",
+          "name": {
+            "en": "Damoh",
+            "hi": "दमोह",
+            "mr": "दमोह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "datia",
+          "name": {
+            "en": "Datia",
+            "hi": "दतिया",
+            "mr": "दतिया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dewas",
+          "name": {
+            "en": "Dewas",
+            "hi": "देवास",
+            "mr": "देवास",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dhar",
+          "name": {
+            "en": "Dhar",
+            "hi": "धार",
+            "mr": "धार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dindori",
+          "name": {
+            "en": "Dindori",
+            "hi": "डिंडोरी",
+            "mr": "डिंडोरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "guna",
+          "name": {
+            "en": "Guna",
+            "hi": "गुना",
+            "mr": "गुना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gwalior",
+          "name": {
+            "en": "Gwalior",
+            "hi": "ग्वालियर",
+            "mr": "ग्वाल्हेर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "harda",
+          "name": {
+            "en": "Harda",
+            "hi": "हरदा",
+            "mr": "हरदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "indore",
+          "name": {
+            "en": "Indore",
+            "hi": "इंदौर",
+            "mr": "इंदूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jabalpur",
+          "name": {
+            "en": "Jabalpur",
+            "hi": "जबलपुर",
+            "mr": "जबलपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jhabua",
+          "name": {
+            "en": "Jhabua",
+            "hi": "झाबुआ",
+            "mr": "झाबुआ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "katni",
+          "name": {
+            "en": "Katni",
+            "hi": "कटनी",
+            "mr": "कटनी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khandwa",
+          "name": {
+            "en": "Khandwa",
+            "hi": "खंडवा",
+            "mr": "खंडवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khargone",
+          "name": {
+            "en": "Khargone",
+            "hi": "खरगोन",
+            "mr": "खरगोन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "maihar",
+          "name": {
+            "en": "Maihar",
+            "hi": "मैहर",
+            "mr": "मैहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mandla",
+          "name": {
+            "en": "Mandla",
+            "hi": "मंडला",
+            "mr": "मंडला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mandsaur",
+          "name": {
+            "en": "Mandsaur",
+            "hi": "मंदसौर",
+            "mr": "मंदसौर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mauganj",
+          "name": {
+            "en": "Mauganj",
+            "hi": "मऊगंज",
+            "mr": "मऊगंज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "morena",
+          "name": {
+            "en": "Morena",
+            "hi": "मुरैना",
+            "mr": "मुरैना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "narmadapuram",
+          "name": {
+            "en": "Narmadapuram",
+            "hi": "नर्मदापुरम",
+            "mr": "नर्मदापुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "narsinghpur",
+          "name": {
+            "en": "Narsinghpur",
+            "hi": "नरसिंहपुर",
+            "mr": "नरसिंहपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "neemuch",
+          "name": {
+            "en": "Neemuch",
+            "hi": "नीमच",
+            "mr": "नीमच",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "niwari",
+          "name": {
+            "en": "Niwari",
+            "hi": "निवाड़ी",
+            "mr": "निवाडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pandhurna",
+          "name": {
+            "en": "Pandhurna",
+            "hi": "पांढुर्णा",
+            "mr": "पांढुर्णा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "panna",
+          "name": {
+            "en": "Panna",
+            "hi": "पन्ना",
+            "mr": "पन्ना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "raisen",
+          "name": {
+            "en": "Raisen",
+            "hi": "रायसेन",
+            "mr": "रायसेन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rajgarh",
+          "name": {
+            "en": "Rajgarh",
+            "hi": "राजगढ़",
+            "mr": "राजगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ratlam",
+          "name": {
+            "en": "Ratlam",
+            "hi": "रतलाम",
+            "mr": "रतलाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rewa",
+          "name": {
+            "en": "Rewa",
+            "hi": "रीवा",
+            "mr": "रीवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sagar",
+          "name": {
+            "en": "Sagar",
+            "hi": "सागर",
+            "mr": "सागर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "satna",
+          "name": {
+            "en": "Satna",
+            "hi": "सतना",
+            "mr": "सतना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sehore",
+          "name": {
+            "en": "Sehore",
+            "hi": "सीहोर",
+            "mr": "सिहोर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "seoni",
+          "name": {
+            "en": "Seoni",
+            "hi": "सिवनी",
+            "mr": "सिवनी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shahdol",
+          "name": {
+            "en": "Shahdol",
+            "hi": "शहडोल",
+            "mr": "शहडोल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shajapur",
+          "name": {
+            "en": "Shajapur",
+            "hi": "शाजापुर",
+            "mr": "शाजापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sheopur",
+          "name": {
+            "en": "Sheopur",
+            "hi": "श्योपुर",
+            "mr": "श्योपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shivpuri",
+          "name": {
+            "en": "Shivpuri",
+            "hi": "शिवपुरी",
+            "mr": "शिवपुरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sidhi",
+          "name": {
+            "en": "Sidhi",
+            "hi": "सीधी",
+            "mr": "सीधी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "singrauli",
+          "name": {
+            "en": "Singrauli",
+            "hi": "सिंगरौली",
+            "mr": "सिंगरौली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tikamgarh",
+          "name": {
+            "en": "Tikamgarh",
+            "hi": "टीकमगढ़",
+            "mr": "टीकमगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ujjain",
+          "name": {
+            "en": "Ujjain",
+            "hi": "उज्जैन",
+            "mr": "उज्जैन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "umaria",
+          "name": {
+            "en": "Umaria",
+            "hi": "उमरिया",
+            "mr": "उमरिया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vidisha",
+          "name": {
+            "en": "Vidisha",
+            "hi": "विदिशा",
+            "mr": "विदिशा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 55 districts (alphabetical)",
+        "hi": "55 ज़िले (वर्णानुक्रम)",
+        "mr": "55 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official district list (State notification)",
+            "hi": "आधिकारिक ज़िला सूची (राज्य अधिसूचना)",
+            "mr": "अधिकृत जिल्हा यादी (राज्य अधिसूचना)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Link the State's list of districts."
+        },
+        {
+          "label": {
+            "en": "City populations (Census 2011)",
+            "hi": "शहरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban agglomeration tables."
+        }
+      ]
+    }
+  ]
+}

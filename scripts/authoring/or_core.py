@@ -103,11 +103,12 @@ GI_NAMES = {
  "Painting of Lanjia Saura (IDITAL), Odisha": ("ओडिशा की लांजिया सौरा चित्रकला (इडिताल)", "ओडिशाची लांजिया सौरा चित्रकला (इडिताल)"),
  "Cuttack Rupa Tarakasi (Silver Filigree)": ("कटक रूपा तारकशी (चाँदी की फ़िलिग्री)", "कटक रूपा तारकशी (चांदीचे जाळीकाम)"),
  "Ganjam Kewda Rooh": ("गंजाम केवड़ा रूह", "गंजाम केवडा रूह"),
+ "Araku Valley Arabica Coffee": ("अराकू घाटी अरेबिका कॉफ़ी", "अराकू खोरे अरेबिका कॉफी"),
 }
 TEXTILE = {"Kotpad Handloom Fabric", "Orissa Ikat", "Pipli Applique Work", "Khandua Saree And Fabrics", "Gopalpur Tussar Fabrics",
            "Dhalapathar Parda & Fabrics", "Sambalpuri Bandha Saree & Fabrics", "Bomkai Saree & Fabrics", "Habaspuri Saree & Fabrics",
            "Berhampur Patta (Phoda Kumbha) Saree & Joda", "Kapadaganda: Dungaria Kondh Embroidery Shawl"}
-r["giProducts"] = gi_list("gi_or.tsv", GI_NAMES, {}, TEXTILE)
+r["giProducts"] = gi_list("gi_or.tsv", GI_NAMES, {"AP,OR": ["Andhra Pradesh"]}, TEXTILE)
 for g in r["giProducts"]:
     if "&" in g["applicationNo"]:
         g["note"] += " The registry lists two application numbers for this GI; the date shown is the earlier filing."

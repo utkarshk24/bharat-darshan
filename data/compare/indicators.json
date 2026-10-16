@@ -13,6 +13,11 @@
     "IN-RJ",
     "IN-MP",
     "IN-BR",
+    "IN-OR",
+    "IN-JH",
+    "IN-CT",
+    "IN-AS",
+    "IN-PB",
     "IN-DL",
     "IN-LA"
   ],
@@ -205,6 +210,71 @@
               "revisionStatus": "final",
               "confidence": "Official",
               "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 5,42,78,157; females 4,98,21,295."
+            },
+            "IN-OR": {
+              "value": 41974218,
+              "unit": "persons",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 2,12,12,136; females 2,07,62,082."
+            },
+            "IN-JH": {
+              "value": 32988134,
+              "unit": "persons",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 1,69,30,315; females 1,60,57,819."
+            },
+            "IN-CT": {
+              "value": 25545198,
+              "unit": "persons",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 1,28,32,895; females 1,27,12,303."
+            },
+            "IN-AS": {
+              "value": 31205576,
+              "unit": "persons",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 1,59,39,443; females 1,52,66,133."
+            },
+            "IN-PB": {
+              "value": 27743338,
+              "unit": "persons",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 1,46,39,465; females 1,31,03,873."
             },
             "IN-DL": {
               "value": 16787941,
@@ -418,6 +488,71 @@
               "confidence": "Official",
               "note": "Calculated: Census 2011 population 10,40,99,452 ÷ area 94,163 km² = 1,105.5 — the highest of any State."
             },
+            "IN-OR": {
+              "value": 270,
+              "unit": "persons per km²",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Calculated: Census 2011 population 4,19,74,218 ÷ area 1,55,707 km² = 269.6."
+            },
+            "IN-JH": {
+              "value": 414,
+              "unit": "persons per km²",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Calculated: Census 2011 population 3,29,88,134 ÷ area 79,716 km² = 413.8."
+            },
+            "IN-CT": {
+              "value": 189,
+              "unit": "persons per km²",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Calculated: Census 2011 population 2,55,45,198 ÷ area 1,35,192 km² = 189.0."
+            },
+            "IN-AS": {
+              "value": 398,
+              "unit": "persons per km²",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Calculated: Census 2011 population 3,12,05,576 ÷ area 78,438 km² = 397.8."
+            },
+            "IN-PB": {
+              "value": 551,
+              "unit": "persons per km²",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Calculated: Census 2011 population 2,77,43,338 ÷ area 50,362 km² = 550.9."
+            },
             "IN-DL": {
               "value": 11320,
               "unit": "persons per km²",
@@ -630,6 +765,71 @@
               "confidence": "Official",
               "note": "Puducherry DES state-wise table citing ORGI (919 in 2001)."
             },
+            "IN-OR": {
+              "value": 979,
+              "unit": "females per 1000 males",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Puducherry DES state-wise table citing ORGI (972 in 2001)."
+            },
+            "IN-JH": {
+              "value": 948,
+              "unit": "females per 1000 males",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Puducherry DES state-wise table citing ORGI (941 in 2001)."
+            },
+            "IN-CT": {
+              "value": 991,
+              "unit": "females per 1000 males",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Puducherry DES state-wise table citing ORGI (989 in 2001)."
+            },
+            "IN-AS": {
+              "value": 958,
+              "unit": "females per 1000 males",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Puducherry DES state-wise table citing ORGI (935 in 2001)."
+            },
+            "IN-PB": {
+              "value": 895,
+              "unit": "females per 1000 males",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://statistics.py.gov.in/state-wise-population",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Puducherry DES state-wise table citing ORGI (876 in 2001)."
+            },
             "IN-DL": {
               "value": 868,
               "unit": "females per 1000 males",
@@ -840,6 +1040,71 @@
               "revisionStatus": "final",
               "confidence": "Official",
               "note": "PIB release of 11 Feb 2014 (RGI data). Was 942 in 2001."
+            },
+            "IN-OR": {
+              "value": 941,
+              "unit": "girls per 1000 boys (0–6 yrs)",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PIB release of 11 Feb 2014 (RGI data). Was 953 in 2001."
+            },
+            "IN-JH": {
+              "value": 948,
+              "unit": "girls per 1000 boys (0–6 yrs)",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PIB release of 11 Feb 2014 (RGI data). Was 965 in 2001."
+            },
+            "IN-CT": {
+              "value": 969,
+              "unit": "girls per 1000 boys (0–6 yrs)",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PIB release of 11 Feb 2014 (RGI data). Was 975 in 2001."
+            },
+            "IN-AS": {
+              "value": 962,
+              "unit": "girls per 1000 boys (0–6 yrs)",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PIB release of 11 Feb 2014 (RGI data). Was 965 in 2001."
+            },
+            "IN-PB": {
+              "value": 846,
+              "unit": "girls per 1000 boys (0–6 yrs)",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PIB release of 11 Feb 2014 (RGI data). Was 798 in 2001."
             },
             "IN-DL": {
               "value": 871,
@@ -1052,6 +1317,71 @@
               "confidence": "Official",
               "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
             },
+            "IN-OR": {
+              "value": 72.9,
+              "unit": "%",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "es-india",
+              "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
+            },
+            "IN-JH": {
+              "value": 66.4,
+              "unit": "%",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "es-india",
+              "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
+            },
+            "IN-CT": {
+              "value": 70.3,
+              "unit": "%",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "es-india",
+              "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
+            },
+            "IN-AS": {
+              "value": 72.2,
+              "unit": "%",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "es-india",
+              "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
+            },
+            "IN-PB": {
+              "value": 75.8,
+              "unit": "%",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "es-india",
+              "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
+            },
             "IN-DL": {
               "value": 86.2,
               "unit": "%",
@@ -1252,6 +1582,71 @@
               "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
             },
             "IN-BR": {
+              "value": null,
+              "unit": "%",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
+            },
+            "IN-OR": {
+              "value": null,
+              "unit": "%",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
+            },
+            "IN-JH": {
+              "value": null,
+              "unit": "%",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
+            },
+            "IN-CT": {
+              "value": null,
+              "unit": "%",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
+            },
+            "IN-AS": {
+              "value": null,
+              "unit": "%",
+              "period": "2011",
+              "periodType": "census",
+              "sourceId": "census",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
+            },
+            "IN-PB": {
               "value": null,
               "unit": "%",
               "period": "2011",
@@ -1511,6 +1906,86 @@
             },
             "IN-BR": {
               "value": 990492,
+              "unit": "₹ crore",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series)."
+            },
+            "IN-OR": {
+              "value": 903057,
+              "unit": "₹ crore",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series)."
+            },
+            "IN-JH": {
+              "value": 516255,
+              "unit": "₹ crore",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series)."
+            },
+            "IN-CT": {
+              "value": 565845,
+              "unit": "₹ crore",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series)."
+            },
+            "IN-AS": {
+              "value": null,
+              "unit": "₹ crore",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "Not published by MoSPI for this region/year at access time."
+            },
+            "IN-PB": {
+              "value": 825932,
               "unit": "₹ crore",
               "period": "FY2024-25",
               "periodType": "fy",
@@ -1791,6 +2266,86 @@
               },
               "note": "Computed: GSDP ÷ India's GDP for FY2024-25 (Provisional Estimates, ₹3,30,68,145 crore), both MoSPI base 2011-12, current prices."
             },
+            "IN-OR": {
+              "value": 2.73,
+              "unit": "% of India's GDP",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "Computed: GSDP ÷ India's GDP for FY2024-25 (Provisional Estimates, ₹3,30,68,145 crore), both MoSPI base 2011-12, current prices."
+            },
+            "IN-JH": {
+              "value": 1.56,
+              "unit": "% of India's GDP",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "Computed: GSDP ÷ India's GDP for FY2024-25 (Provisional Estimates, ₹3,30,68,145 crore), both MoSPI base 2011-12, current prices."
+            },
+            "IN-CT": {
+              "value": 1.71,
+              "unit": "% of India's GDP",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "Computed: GSDP ÷ India's GDP for FY2024-25 (Provisional Estimates, ₹3,30,68,145 crore), both MoSPI base 2011-12, current prices."
+            },
+            "IN-AS": {
+              "value": null,
+              "unit": "% of India's GDP",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "No FY2024-25 GSDP in the MoSPI series."
+            },
+            "IN-PB": {
+              "value": 2.5,
+              "unit": "% of India's GDP",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "Computed: GSDP ÷ India's GDP for FY2024-25 (Provisional Estimates, ₹3,30,68,145 crore), both MoSPI base 2011-12, current prices."
+            },
             "IN-DL": {
               "value": 3.67,
               "unit": "% of India's GDP",
@@ -2030,6 +2585,91 @@
             },
             "IN-BR": {
               "value": 8.4,
+              "unit": "%",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              },
+              "note": "Computed from GSDP at constant 2011-12 prices, FY2024-25 over FY2023-24 (MoSPI)."
+            },
+            "IN-OR": {
+              "value": 7.2,
+              "unit": "%",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              },
+              "note": "Computed from GSDP at constant 2011-12 prices, FY2024-25 over FY2023-24 (MoSPI)."
+            },
+            "IN-JH": {
+              "value": 7.0,
+              "unit": "%",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              },
+              "note": "Computed from GSDP at constant 2011-12 prices, FY2024-25 over FY2023-24 (MoSPI)."
+            },
+            "IN-CT": {
+              "value": 6.4,
+              "unit": "%",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              },
+              "note": "Computed from GSDP at constant 2011-12 prices, FY2024-25 over FY2023-24 (MoSPI)."
+            },
+            "IN-AS": {
+              "value": null,
+              "unit": "%",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              },
+              "note": "No FY2024-25 GSDP in the MoSPI series."
+            },
+            "IN-PB": {
+              "value": 6.3,
               "unit": "%",
               "period": "FY2024-25",
               "periodType": "fy",
@@ -2305,6 +2945,86 @@
               },
               "note": "MoSPI state-wise estimates, base 2011-12 (current series)."
             },
+            "IN-OR": {
+              "value": 171025,
+              "unit": "₹",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series)."
+            },
+            "IN-JH": {
+              "value": 116663,
+              "unit": "₹",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series)."
+            },
+            "IN-CT": {
+              "value": 162848,
+              "unit": "₹",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series)."
+            },
+            "IN-AS": {
+              "value": null,
+              "unit": "₹",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "Not published by MoSPI for this region/year at access time."
+            },
+            "IN-PB": {
+              "value": 216592,
+              "unit": "₹",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series)."
+            },
             "IN-DL": {
               "value": 492592,
               "unit": "₹",
@@ -2500,6 +3220,71 @@
             },
             "IN-BR": {
               "value": 3.8,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PLFS annual, calendar year, PS+SS, persons 15+."
+            },
+            "IN-OR": {
+              "value": 2.9,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PLFS annual, calendar year, PS+SS, persons 15+."
+            },
+            "IN-JH": {
+              "value": 2.7,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PLFS annual, calendar year, PS+SS, persons 15+."
+            },
+            "IN-CT": {
+              "value": 2.3,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PLFS annual, calendar year, PS+SS, persons 15+."
+            },
+            "IN-AS": {
+              "value": 3.7,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PLFS annual, calendar year, PS+SS, persons 15+."
+            },
+            "IN-PB": {
+              "value": 5.3,
               "unit": "%",
               "period": "2025",
               "periodType": "calendar",
@@ -2711,6 +3496,71 @@
             },
             "IN-BR": {
               "value": 24.7,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PLFS annual 2025, PS+SS, women 15+."
+            },
+            "IN-OR": {
+              "value": 47.3,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PLFS annual 2025, PS+SS, women 15+."
+            },
+            "IN-JH": {
+              "value": 43.7,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PLFS annual 2025, PS+SS, women 15+."
+            },
+            "IN-CT": {
+              "value": 59.8,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PLFS annual 2025, PS+SS, women 15+."
+            },
+            "IN-AS": {
+              "value": 42.8,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PLFS annual 2025, PS+SS, women 15+."
+            },
+            "IN-PB": {
+              "value": 30.2,
               "unit": "%",
               "period": "2025",
               "periodType": "calendar",
@@ -2947,6 +3797,71 @@
               "confidence": "Official",
               "note": "AISHE 2021-22, all categories, both sexes."
             },
+            "IN-OR": {
+              "value": 22.1,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "AISHE 2021-22, all categories, both sexes."
+            },
+            "IN-JH": {
+              "value": 18.6,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "AISHE 2021-22, all categories, both sexes."
+            },
+            "IN-CT": {
+              "value": 19.6,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "AISHE 2021-22, all categories, both sexes."
+            },
+            "IN-AS": {
+              "value": 16.9,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "AISHE 2021-22, all categories, both sexes."
+            },
+            "IN-PB": {
+              "value": 27.4,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "AISHE 2021-22, all categories, both sexes."
+            },
             "IN-DL": {
               "value": 49.0,
               "unit": "%",
@@ -3147,6 +4062,71 @@
             },
             "IN-BR": {
               "value": 42.94,
+              "unit": "%",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "nfhs",
+              "url": "https://rchiips.org/nfhs",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "NFHS-5, rural + urban (via MoSPI API)."
+            },
+            "IN-OR": {
+              "value": 31.01,
+              "unit": "%",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "nfhs",
+              "url": "https://rchiips.org/nfhs",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "NFHS-5, rural + urban (via MoSPI API)."
+            },
+            "IN-JH": {
+              "value": 39.58,
+              "unit": "%",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "nfhs",
+              "url": "https://rchiips.org/nfhs",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "NFHS-5, rural + urban (via MoSPI API)."
+            },
+            "IN-CT": {
+              "value": 34.6,
+              "unit": "%",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "nfhs",
+              "url": "https://rchiips.org/nfhs",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "NFHS-5, rural + urban (via MoSPI API)."
+            },
+            "IN-AS": {
+              "value": 35.29,
+              "unit": "%",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "nfhs",
+              "url": "https://rchiips.org/nfhs",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "NFHS-5, rural + urban (via MoSPI API)."
+            },
+            "IN-PB": {
+              "value": 24.49,
               "unit": "%",
               "period": "2019-21",
               "periodType": "survey",
@@ -3369,6 +4349,71 @@
               "confidence": "Official",
               "note": "NFHS-5, rural + urban (via MoSPI API)."
             },
+            "IN-OR": {
+              "value": 92.2,
+              "unit": "%",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "nfhs",
+              "url": "https://rchiips.org/nfhs",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "NFHS-5, rural + urban (via MoSPI API)."
+            },
+            "IN-JH": {
+              "value": 75.76,
+              "unit": "%",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "nfhs",
+              "url": "https://rchiips.org/nfhs",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "NFHS-5, rural + urban (via MoSPI API)."
+            },
+            "IN-CT": {
+              "value": 85.72,
+              "unit": "%",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "nfhs",
+              "url": "https://rchiips.org/nfhs",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "NFHS-5, rural + urban (via MoSPI API)."
+            },
+            "IN-AS": {
+              "value": 84.09,
+              "unit": "%",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "nfhs",
+              "url": "https://rchiips.org/nfhs",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "NFHS-5, rural + urban (via MoSPI API)."
+            },
+            "IN-PB": {
+              "value": 94.3,
+              "unit": "%",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "nfhs",
+              "url": "https://rchiips.org/nfhs",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "NFHS-5, rural + urban (via MoSPI API)."
+            },
             "IN-DL": {
               "value": 91.77,
               "unit": "%",
@@ -3580,6 +4625,71 @@
               "confidence": "Official",
               "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
             },
+            "IN-OR": {
+              "value": null,
+              "unit": "per 1,000 live births",
+              "period": "2021",
+              "periodType": "calendar",
+              "sourceId": "srs",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
+            },
+            "IN-JH": {
+              "value": null,
+              "unit": "per 1,000 live births",
+              "period": "2021",
+              "periodType": "calendar",
+              "sourceId": "srs",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
+            },
+            "IN-CT": {
+              "value": null,
+              "unit": "per 1,000 live births",
+              "period": "2021",
+              "periodType": "calendar",
+              "sourceId": "srs",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
+            },
+            "IN-AS": {
+              "value": null,
+              "unit": "per 1,000 live births",
+              "period": "2021",
+              "periodType": "calendar",
+              "sourceId": "srs",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
+            },
+            "IN-PB": {
+              "value": null,
+              "unit": "per 1,000 live births",
+              "period": "2021",
+              "periodType": "calendar",
+              "sourceId": "srs",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
+            },
             "IN-DL": {
               "value": 14,
               "unit": "per 1,000 live births",
@@ -3779,6 +4889,71 @@
               "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
             },
             "IN-BR": {
+              "value": null,
+              "unit": "per 1,00,000 live births",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "srs",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
+            },
+            "IN-OR": {
+              "value": null,
+              "unit": "per 1,00,000 live births",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "srs",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
+            },
+            "IN-JH": {
+              "value": null,
+              "unit": "per 1,00,000 live births",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "srs",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
+            },
+            "IN-CT": {
+              "value": null,
+              "unit": "per 1,00,000 live births",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "srs",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
+            },
+            "IN-AS": {
+              "value": null,
+              "unit": "per 1,00,000 live births",
+              "period": "2019-21",
+              "periodType": "survey",
+              "sourceId": "srs",
+              "url": null,
+              "accessDate": null,
+              "dataLevel": "state",
+              "revisionStatus": "TODO",
+              "confidence": "Official",
+              "note": "Not reported for this region in the SRS release used (PIB, 10 May 2025)."
+            },
+            "IN-PB": {
               "value": null,
               "unit": "per 1,00,000 live births",
               "period": "2019-21",
@@ -4015,6 +5190,71 @@
               "revisionStatus": "final",
               "confidence": "Official",
               "note": "Computed from ISFR 2023 forest cover 7,532.45 km² ÷ geographical area 94,163 km²."
+            },
+            "IN-OR": {
+              "value": 33.67,
+              "unit": "% of geographical area",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "fsi",
+              "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Computed from ISFR 2023 forest cover 52,433.56 km² ÷ geographical area 1,55,707 km²."
+            },
+            "IN-JH": {
+              "value": 29.81,
+              "unit": "% of geographical area",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "fsi",
+              "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Computed from ISFR 2023 forest cover 23,765.78 km² ÷ geographical area 79,716 km²."
+            },
+            "IN-CT": {
+              "value": 41.28,
+              "unit": "% of geographical area",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "fsi",
+              "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Computed from ISFR 2023 forest cover 55,811.75 km² ÷ geographical area 1,35,192 km²."
+            },
+            "IN-AS": {
+              "value": 36.1,
+              "unit": "% of geographical area",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "fsi",
+              "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Computed from ISFR 2023 forest cover 28,313.55 km² ÷ geographical area 78,438 km²."
+            },
+            "IN-PB": {
+              "value": 3.67,
+              "unit": "% of geographical area",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "fsi",
+              "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "Computed from ISFR 2023 forest cover 1,846.09 km² ÷ geographical area 50,362 km²."
             },
             "IN-DL": {
               "value": 13.17,
@@ -6757,6 +7997,902 @@
           },
           {
             "value": 990492,
+            "unit": "₹ crore",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          }
+        ]
+      },
+      {
+        "id": "IN-OR",
+        "label": {
+          "en": "Odisha",
+          "hi": "ओडिशा",
+          "mr": "ओडिशा",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "points": [
+          {
+            "value": 230987,
+            "unit": "₹ crore",
+            "period": "FY2011-12",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 261700,
+            "unit": "₹ crore",
+            "period": "FY2012-13",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 296475,
+            "unit": "₹ crore",
+            "period": "FY2013-14",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 314250,
+            "unit": "₹ crore",
+            "period": "FY2014-15",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 328550,
+            "unit": "₹ crore",
+            "period": "FY2015-16",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 392804,
+            "unit": "₹ crore",
+            "period": "FY2016-17",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 440395,
+            "unit": "₹ crore",
+            "period": "FY2017-18",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 498611,
+            "unit": "₹ crore",
+            "period": "FY2018-19",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 537502,
+            "unit": "₹ crore",
+            "period": "FY2019-20",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 540185,
+            "unit": "₹ crore",
+            "period": "FY2020-21",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 695530,
+            "unit": "₹ crore",
+            "period": "FY2021-22",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 717399,
+            "unit": "₹ crore",
+            "period": "FY2022-23",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 820852,
+            "unit": "₹ crore",
+            "period": "FY2023-24",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 903057,
+            "unit": "₹ crore",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          }
+        ]
+      },
+      {
+        "id": "IN-JH",
+        "label": {
+          "en": "Jharkhand",
+          "hi": "झारखंड",
+          "mr": "झारखंड",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "points": [
+          {
+            "value": 150918,
+            "unit": "₹ crore",
+            "period": "FY2011-12",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 174724,
+            "unit": "₹ crore",
+            "period": "FY2012-13",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 188567,
+            "unit": "₹ crore",
+            "period": "FY2013-14",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 218525,
+            "unit": "₹ crore",
+            "period": "FY2014-15",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 206613,
+            "unit": "₹ crore",
+            "period": "FY2015-16",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 236250,
+            "unit": "₹ crore",
+            "period": "FY2016-17",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 269816,
+            "unit": "₹ crore",
+            "period": "FY2017-18",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 305695,
+            "unit": "₹ crore",
+            "period": "FY2018-19",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 310305,
+            "unit": "₹ crore",
+            "period": "FY2019-20",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 296664,
+            "unit": "₹ crore",
+            "period": "FY2020-21",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 376127,
+            "unit": "₹ crore",
+            "period": "FY2021-22",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 414308,
+            "unit": "₹ crore",
+            "period": "FY2022-23",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 465638,
+            "unit": "₹ crore",
+            "period": "FY2023-24",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 516255,
+            "unit": "₹ crore",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          }
+        ]
+      },
+      {
+        "id": "IN-CT",
+        "label": {
+          "en": "Chhattisgarh",
+          "hi": "छत्तीसगढ़",
+          "mr": "छत्तीसगड",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "points": [
+          {
+            "value": 158074,
+            "unit": "₹ crore",
+            "period": "FY2011-12",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 177511,
+            "unit": "₹ crore",
+            "period": "FY2012-13",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 206833,
+            "unit": "₹ crore",
+            "period": "FY2013-14",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 221118,
+            "unit": "₹ crore",
+            "period": "FY2014-15",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 225163,
+            "unit": "₹ crore",
+            "period": "FY2015-16",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 262802,
+            "unit": "₹ crore",
+            "period": "FY2016-17",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 282737,
+            "unit": "₹ crore",
+            "period": "FY2017-18",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 327107,
+            "unit": "₹ crore",
+            "period": "FY2018-19",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 344672,
+            "unit": "₹ crore",
+            "period": "FY2019-20",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 352328,
+            "unit": "₹ crore",
+            "period": "FY2020-21",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 411613,
+            "unit": "₹ crore",
+            "period": "FY2021-22",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 453483,
+            "unit": "₹ crore",
+            "period": "FY2022-23",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 512073,
+            "unit": "₹ crore",
+            "period": "FY2023-24",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 565845,
+            "unit": "₹ crore",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          }
+        ]
+      },
+      {
+        "id": "IN-PB",
+        "label": {
+          "en": "Punjab",
+          "hi": "पंजाब",
+          "mr": "पंजाब",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "points": [
+          {
+            "value": 266628,
+            "unit": "₹ crore",
+            "period": "FY2011-12",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 297734,
+            "unit": "₹ crore",
+            "period": "FY2012-13",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 332147,
+            "unit": "₹ crore",
+            "period": "FY2013-14",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 355102,
+            "unit": "₹ crore",
+            "period": "FY2014-15",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 390087,
+            "unit": "₹ crore",
+            "period": "FY2015-16",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 426988,
+            "unit": "₹ crore",
+            "period": "FY2016-17",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 471014,
+            "unit": "₹ crore",
+            "period": "FY2017-18",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 512510,
+            "unit": "₹ crore",
+            "period": "FY2018-19",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 537031,
+            "unit": "₹ crore",
+            "period": "FY2019-20",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 540853,
+            "unit": "₹ crore",
+            "period": "FY2020-21",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 627717,
+            "unit": "₹ crore",
+            "period": "FY2021-22",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 680333,
+            "unit": "₹ crore",
+            "period": "FY2022-23",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 757627,
+            "unit": "₹ crore",
+            "period": "FY2023-24",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          },
+          {
+            "value": 825932,
             "unit": "₹ crore",
             "period": "FY2024-25",
             "periodType": "fy",

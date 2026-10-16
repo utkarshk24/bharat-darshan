@@ -1,8 +1,8 @@
 # Phase 3 progress report
 
-Last updated: 14 October 2026. Status: **draft, awaiting your review.**
+Last updated: 16 October 2026. Status: **draft, awaiting your review.**
 
-Five of the remaining 32 regions are now complete: Tamil Nadu (batch 1), and Uttar Pradesh, Karnataka, Gujarat and West Bengal (batch 2, section 3).
+Fifteen of the remaining 32 regions are now complete: Tamil Nadu (batch 1); Uttar Pradesh, Karnataka, Gujarat and West Bengal (batch 2, section 3); Andhra Pradesh, Telangana, Rajasthan, Madhya Pradesh and Bihar (batch 3, section 4); and Odisha, Jharkhand, Chhattisgarh, Assam and Punjab (batch 4, section 5).
 
 ## 1. Quality checks (the MVP release criteria)
 
@@ -286,6 +286,101 @@ Leaders of Opposition are listed as gaps for all five. Andhra Pradesh has no rec
 4. **Bihar GI entries 536–538.** The Registry list prints these without "(Logo)". They are labelled as logo registrations here because they were filed with other logo marks on 28 Dec 2015.
 5. **Translations.** Hindi and Marathi text of the five profiles and their GI names need a native-speaker read.
 
+## 5. Phase 3, batch 4: Odisha, Jharkhand, Chhattisgarh, Assam, Punjab
+
+All 26 sections of each profile are written in English, Hindi and Marathi, in the same structure as the earlier batches.
+
+**Officeholders** (as of 16 October 2026):
+
+| State | Governor | Chief Minister | Deputy CM(s) | Speaker |
+|---|---|---|---|---|
+| Odisha | Hari Babu Kambhampati, since 3 Jan 2025 | Mohan Charan Majhi (BJP), since 12 June 2024 | K. V. Singh Deo, Pravati Parida | Surama Padhy (*third-party*) |
+| Jharkhand | Santosh Kumar Gangwar, since 31 July 2024 | Hemant Soren (JMM), since 28 Nov 2024 | — | Rabindra Nath Mahato |
+| Chhattisgarh | Ramen Deka, since 31 July 2024 (*third-party*) | Vishnu Deo Sai (BJP), since 13 Dec 2023 (*third-party*) | Arun Sao, Vijay Sharma | Raman Singh (*third-party*) |
+| Assam | Lakshman Prasad Acharya, since 30 July 2024 | **Himanta Biswa Sarma (BJP), second term from 12 May 2026** | — | Ranjeet Kumar Dass (from May 2026) |
+| Punjab | Gulab Chand Kataria, since 31 July 2024 | Bhagwant Mann (AAP), since 16 Mar 2022 (*third-party*) | — | Kultar Singh Sandhwan (*third-party*) |
+
+Official sources are News On AIR unless marked *third-party*. Points to note:
+- **Assam 2026 election:** the NDA won 102 of 126 seats — BJP 82, AGP 10, BPF 10 (News On AIR). The new Speaker was elected in May 2026; his party is not stated in the source used.
+- **Odisha Governor:** a communiqué reported on 13 October 2026 appoints **Braj Mohan Ram** as Governor of Odisha. Reports say he will be sworn in on 18 October. The card still shows Dr Kambhampati, with a note. Update it once the oath is taken.
+- **Jharkhand 2024 election:** INDIA bloc 56, NDA 24, JLKM 1 (News On AIR).
+- Party-wise results for Odisha 2024, Chhattisgarh 2023 and Punjab 2022 are listed as gaps (to be taken from ECI).
+
+**Assam's economy figures come from the CAG.** MoSPI's state-wise API has no Assam series. The GSDP (₹6,43,667 crore, FY2024-25) and per capita income (₹1,59,185) come from the CAG's State Finances Audit Report of Assam 2024-25. So do the sector shares quoted in the text: tertiary 38%, primary 33%, secondary 20%. Assam has no GSDP chart or sector table, and it shows "Not available" for GSDP on `/compare`, which uses MoSPI only.
+
+**Latest year differs by State.** MoSPI publishes FY2025-26 for Odisha and Chhattisgarh but only up to FY2024-25 for Jharkhand and Punjab. Each profile uses its own latest year and says so.
+
+**Data added for all five States:**
+- **Census 2011 basics:** population, sex ratio and density (Puducherry DES table), child sex ratio (PIB), literacy (Economic Survey table 8.5), and SC/ST shares (Delhi Planning table 17.2). Punjab has the highest SC share of any State (31.9%) and no Scheduled Tribes.
+- **PLFS:** unemployment 2022–2025 and labour-force participation 2025. Chhattisgarh's women's participation (59.8%) is far above the national 40.0%; Punjab's (30.2%) is well below it.
+- **AISHE:** GER 2017-18 to 2021-22 by sex, plus university and college counts.
+- **NFHS-5:** child nutrition and institutional births. Assam's wasting and underweight rose between NFHS-4 and NFHS-5.
+- **SRS:**
+  - 2020 infant mortality, birth and death rates (Economic Survey 2023-24 table 8.2);
+  - life expectancy 2014-18 for Odisha, Assam and Punjab;
+  - Jharkhand and Chhattisgarh are not in table 8.1, so their life expectancy is a gap.
+- **ISFR 2023 forest cover and every Ramsar site:** Odisha 6, Jharkhand 1 (Udhwa), Chhattisgarh 1 (Kopra Jalashay, 2025), Assam 1 (Deepor Beel), Punjab 6.
+- **GIs from the Registry list:**
+  - Odisha 27, including Araku coffee shared with Andhra Pradesh;
+  - Jharkhand 1;
+  - Chhattisgarh 7;
+  - Assam 42, including two shared with Arunachal Pradesh;
+  - Punjab 2, both shared (Basmati and Phulkari).
+  - The GI directory now has **545 products**.
+- **District lists:** Odisha 30, Jharkhand 24, Chhattisgarh 33 and Punjab 23. Assam's districts were merged and re-formed in 2022–24, so its list is a gap until the current notification is linked.
+
+**Projects:**
+
+| Project | Status | Source |
+|---|---|---|
+| SiCSem silicon-carbide fab, Bhubaneswar | Announced (Cabinet approval 12 Aug 2025) | PMO |
+| 3D Glass Solutions packaging unit, Bhubaneswar | Announced (same approval) | PMO |
+| Deoghar airport | Completed (12 July 2022) | New India Samachar (PIB) |
+| NMDC steel plant, Nagarnar | Completed (dedicated 3 Oct 2023), about ₹24,000 crore | News On AIR |
+| Antagarh–Taroki rail line | Completed (3 Oct 2023) | News On AIR |
+| Bogibeel rail-cum-road bridge | Completed (25 Dec 2018), ₹5,920 crore | New India Samachar (PIB) |
+| Tata semiconductor unit, Jagiroad | Under construction, ₹27,000 crore | PIB (Nov 2024) |
+| AIIMS Bathinda | Completed (25 Feb 2024) | PMO |
+| CDIL power-semiconductor expansion, Mohali | Announced (12 Aug 2025) | PMO |
+
+The Jagiroad plant is kept as "Under construction". Reports in 2026 describe pilot production, but no official source yet confirms full operation.
+
+**Deliberately left blank** (all listed in the gap report):
+- The 2011 urban share for all five States.
+- Maternal and under-five mortality for all five.
+- Life expectancy for Jharkhand and Chhattisgarh.
+- Assam's GSDP series and sector table.
+- Assam's district list.
+- Tourism visit figures for all five.
+- Unsourced numbers were removed from the text rather than estimated, for example the death toll of Odisha's 1999 super cyclone and the evacuation totals for Phailin and Fani.
+
+**Also changed:**
+- `/compare` now covers 19 regions.
+- The axe scan covers 18 pages, adding Assam GI (en), Odisha health (hi) and Punjab economy (mr).
+- The data test's example of an empty profile is now Haryana.
+- **Sources added:** New India Samachar (PIB). Third-party: Deccan Herald, The Statesman, The Hitavada and OdishaBytes.
+
+### Checks run (batch 4)
+
+| Check | Result |
+|---|---|
+| validate-data | 0 errors, 0 warnings, 1,295 gaps (1,054 after batch 3) |
+| Tests | 66/66 |
+| Type check | clean |
+| Static build | 4,600 pages |
+| Internal links | 3,96,786, all resolve |
+| Accessibility (axe, WCAG 2.1 AA) | 18/18 pages clean |
+| Screenshots | Odisha overview (en), Jharkhand government (en), Chhattisgarh economy (hi), Assam GI (mobile), Punjab people (mr), Compare. No console errors. |
+
+### Please check (batch 4)
+
+1. **Odisha Governor.** Switch the card to Braj Mohan Ram once he is sworn in. Reports give 18 October.
+2. **Assam GSDP.** Confirm the CAG figures against the Assam Economic Survey. Check that "per capita income" in the CAG report means per capita NSDP at current prices.
+3. **Third-party officeholders.** Chhattisgarh (Governor, CM, Speaker), Punjab (CM, Speaker) and the Odisha Speaker cite news reports. Link the Raj Bhavan and Assembly pages in review.
+4. **Udhwa Lake's Ramsar date.** The MoEFCC list prints it as 08-01-2024. Check this against the Ramsar Sites Information Service; it is shown as printed.
+5. **ISO code.** The hero shows "IN-OR" for Odisha, which is the site's internal code. Check whether the published ISO 3166-2 code is now IN-OD before relying on it.
+6. **Translations.** Hindi and Marathi text of the five profiles, especially the 42 Assam GI names (many Bodo terms), need a native-speaker read.
+
 ## Next batch
 
-Odisha, Jharkhand, Chhattisgarh, Assam and Punjab.
+Haryana, Himachal Pradesh, Uttarakhand, Jammu and Kashmir, and Goa (proposed).

@@ -15,6 +15,8 @@ NEW = [
     dict(id="gj-des", short="Socio-Economic Review, Gujarat", name="Socio-Economic Review, Gujarat State (Directorate of Economics and Statistics)",
          publisher="Government of Gujarat", url="https://gujecostat.gujarat.gov.in", category="economy", priority=8,
          notes="The PDF is linked from the OpenCity data portal copy of the Government of Gujarat publication; replace with the gujecostat link in review."),
+    dict(id="ani", short="ANI", name="Asian News International (ANI)", publisher="ANI (news agency, third party)",
+         url="https://www.aninews.in", category="governance", priority=27, notes="Third-party. Replace with the Lok Bhavan / Raj Bhavan page once available."),
 ]
 added = 0
 for s in NEW:

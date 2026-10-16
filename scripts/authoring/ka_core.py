@@ -10,6 +10,7 @@ KAES24 = "https://data.opencity.in/dataset/90aaf1df-999b-4d84-a0d0-443aee3d0bfc/
 NOA_CAB = "https://newsonair.gov.in/cabinet-expansion-in-karnataka-19-new-ministers-inducted/"
 UNI_SPK = "https://test.uniindia.com/speaker-s-chair-must-remain-above-party-politics-ashoka-tells-gs-patil/south/news/3943280.html"
 UNI_GOV = "https://www.uniindia.com/south-india/karnataka-governor-appointed/211799"
+ANI_GOV = "https://www.aninews.in/news/national/general-news/sudha-yadav-takes-oath-as-karnataka-governor-at-raj-bhavan-in-bengaluru20261016112255/"
 METRO = "https://www.pmindia.gov.in/en/news_updates/pm-inaugurates-lays-foundation-stone-of-metro-projects-worth-around-rs-22800-crore-in-bengaluru-karnataka/"
 
 ka = research("mospi_ka.json")
@@ -46,9 +47,9 @@ r["symbols"] = {
 }
 
 r["government"] = {
-    "headOfState": office("governor", L("Thaawarchand Gehlot", "थावरचंद गहलोत", "थावरचंद गेहलोत"), None, "2021-07-11",
-                          "newsonair", NOA_CAB, "https://igod.gov.in",
-                          note="Governor since July 2021; he administered the oath to 19 ministers at Lok Bhavan, Bengaluru, on 3 August 2026 (News On AIR). On 12 October 2026 the President appointed Sudha Yadav as Governor of Karnataka, with effect from the date she assumes charge (Rashtrapati Bhavan communiqué, reported by UNI). Update this card when she is sworn in."),
+    "headOfState": office("governor", L("Sudha Yadav", "सुधा यादव", "सुधा यादव"), None, "2026-10-16",
+                          "ani", ANI_GOV, "https://igod.gov.in", conf="Third-party verified",
+                          note="Appointed by the President on 12 October 2026 (Rashtrapati Bhavan communiqué) and sworn in at Raj Bhavan, Bengaluru, on 16 October 2026 by Chief Justice Vibhu Bakhru of the Karnataka High Court (ANI). Former Lok Sabha member from Mahendragarh, Haryana. Succeeded Thaawarchand Gehlot (Governor from July 2021). Confirm on the Raj Bhavan / Lok Bhavan, Karnataka website."),
     "headOfGovernment": office("chief-minister", L("D. K. Shivakumar", "डी. के. शिवकुमार", "डी. के. शिवकुमार"), "INC", "2026-06-03",
                                "newsonair", NOA_CAB, "https://www.karnataka.gov.in",
                                note="Assumed office as Chief Minister on 3 June 2026 with 13 ministers, succeeding Siddaramaiah (News On AIR, 3 August 2026)."),
@@ -125,6 +126,7 @@ GI_NAMES = {
 TEXTILE = {"Mysore Silk", "Kasuti Embroidery", "Navalgund Durries", "Ilkal Sarees", "Molakalmuru Sarees", "Sandur Lambani Embroidery",
            "Guledgudd Khana", "Udupi Sarees", "Navalgund Durries (Logo)", "Mysore Silk (Logo)", "Patteda Anchu Saree & Fabrics"}
 r["giProducts"] = gi_list("gi_ka.tsv", GI_NAMES, {}, TEXTILE)
+r["government"]["headOfState"]["asOf"] = "2026-10-16"
 r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
 write("regions/IN-KA.json", r)
 print("ka core ok", len(r["giProducts"]), "GIs")

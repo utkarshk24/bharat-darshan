@@ -54,7 +54,7 @@ export default async function Page({ params }: { params: Promise<{ locale: Local
       {groups.map((g) => (
         <section key={g.id} className="mb-10">
           <h2 className="mb-3 text-xl font-semibold">{t("themes.indicators")}: {pick(g.label, locale)}</h2>
-          <div className="relative overflow-x-auto rounded-xl border border-border bg-surface">
+          <div role="region" tabIndex={0} aria-label={`${t("themes.indicators")}: ${pick(g.label, locale)}`} className="relative overflow-x-auto rounded-xl border border-border bg-surface focus-visible:outline-2 focus-visible:outline-offset-2">
             <table className="w-full min-w-[720px] text-sm">
               <thead className="bg-surface-2">
                 <tr>

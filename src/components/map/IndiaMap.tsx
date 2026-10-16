@@ -200,7 +200,7 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
           )}
         </div>
       ) : (
-        <div className="overflow-x-auto rounded-2xl border border-border bg-surface">
+        <div role="region" tabIndex={0} aria-label={t("home.mapTitle")} className="overflow-x-auto rounded-2xl border border-border bg-surface focus-visible:outline-2 focus-visible:outline-offset-2">
           <table className="w-full text-left text-sm">
             <caption className="sr-only">{t("home.mapTitle")}</caption>
             <thead className="bg-surface-2">

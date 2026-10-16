@@ -12,6 +12,7 @@ const PATHS = [
   "/en/states/maharashtra/", "/hi/uts/ladakh/economy/",
   "/en/compare/", "/en/gi/", "/mr/projects/", "/en/themes/economy/",
   "/en/states/karnataka/", "/hi/states/west-bengal/government/", "/mr/states/gujarat/gi/",
+  "/en/states/bihar/government/", "/hi/states/telangana/economy/", "/mr/states/rajasthan/nature/",
 ];
 const TAGS = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"];
 

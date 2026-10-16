@@ -155,7 +155,7 @@ export function CompareView({ data, regions, sourceLabels }: { data: CompareFile
       </section>
 
       {/* Table */}
-      <div className="relative w-full max-w-full overflow-x-auto rounded-2xl border border-border bg-surface">
+      <div role="region" tabIndex={0} aria-label={t("compare.title")} className="relative w-full max-w-full overflow-x-auto rounded-2xl border border-border bg-surface focus-visible:outline-2 focus-visible:outline-offset-2">
         <table className="w-full min-w-[640px] text-sm">
           <caption className="sr-only">{t("compare.title")}</caption>
           <thead className="bg-surface-2">

@@ -155,7 +155,7 @@ export async function ModuleBlocks({ blocks, region, locale, headingLevel = 3 }:
             return (
               <section key={b.id}>
                 <BlockTitle level={headingLevel}>{L(b.title)}</BlockTitle>
-                <div className="overflow-x-auto rounded-xl border border-border bg-surface">
+                <div role="region" tabIndex={0} aria-label={L(b.title)} className="overflow-x-auto rounded-xl border border-border bg-surface focus-visible:outline-2 focus-visible:outline-offset-2">
                   <table className="w-full text-sm">
                     <thead className="bg-surface-2">
                       <tr>

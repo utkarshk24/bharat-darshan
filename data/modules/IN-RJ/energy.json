@@ -1,0 +1,68 @@
+{
+  "region": "IN-RJ",
+  "module": "energy",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Sunny, open and lightly populated, western Rajasthan has become one of India's main centres of renewable energy: the Bhadla solar park in Jodhpur district is among the largest in the world, and wind farms stand in Jaisalmer and Barmer. Coal and lignite stations at Suratgarh, Kota, Chhabra, Kalisindh, Barsingsar and Giral, and the Rajasthan Atomic Power Station at Rawatbhata, supply firm power. Transmission corridors (Green Energy Corridors) carry renewable power to other States.",
+        "hi": "धूप वाला, खुला और कम आबादी वाला पश्चिमी राजस्थान भारत में अक्षय ऊर्जा के मुख्य केंद्रों में बन गया है: जोधपुर ज़िले का भड़ला सौर पार्क दुनिया के सबसे बड़े सौर पार्कों में है, और जैसलमेर और बाड़मेर में पवन फ़ार्म हैं। सूरतगढ़, कोटा, छबड़ा, कालीसिंध, बरसिंगसर और गिरल के कोयला व लिग्नाइट संयंत्र, और रावतभाटा का राजस्थान परमाणु बिजलीघर स्थिर बिजली देते हैं। पारेषण गलियारे (ग्रीन एनर्जी कॉरिडोर) अक्षय बिजली को दूसरे राज्यों तक ले जाते हैं।",
+        "mr": "भरपूर ऊन, मोकळा व विरळ लोकवस्तीचा पश्चिम राजस्थान भारतातील अक्षय ऊर्जेच्या मुख्य केंद्रांपैकी एक बनला आहे: जोधपूर जिल्ह्यातील भडला सौर उद्यान जगातील सर्वांत मोठ्या सौर उद्यानांपैकी आहे, आणि जैसलमेर व बाडमेरमध्ये पवन प्रकल्प आहेत. सुरतगड, कोटा, छबडा, कालीसिंध, बरसिंगसर व गिरल येथील कोळसा व लिग्नाइट केंद्रे, आणि रावतभाटा येथील राजस्थान अणुऊर्जा केंद्र स्थिर वीज देतात. पारेषण मार्गिका (ग्रीन एनर्जी कॉरिडॉर) अक्षय वीज इतर राज्यांपर्यंत नेतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Solar and wind capacity",
+            "hi": "सौर और पवन क्षमता",
+            "mr": "सौर व पवन क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE state-wise RE capacity."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

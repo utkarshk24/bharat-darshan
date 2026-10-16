@@ -1,0 +1,55 @@
+{
+  "region": "IN-RJ",
+  "module": "digital",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Jaipur is the State's main centre for IT and start-ups, with a technology park at Sitapura and a growing number of software and BPO firms; the Bhiwadi–Neemrana belt near Delhi hosts electronics and manufacturing companies. The State has used digital platforms for public services, and Kota — known across India for coaching students for entrance examinations — has a large online-education industry.",
+        "hi": "जयपुर राज्य में आईटी और स्टार्टअप का मुख्य केंद्र है, जहाँ सीतापुरा में प्रौद्योगिकी पार्क और बढ़ती संख्या में सॉफ़्टवेयर व बीपीओ कंपनियाँ हैं; दिल्ली के पास भिवाड़ी–नीमराना पट्टी में इलेक्ट्रॉनिक्स और विनिर्माण कंपनियाँ हैं। राज्य ने सार्वजनिक सेवाओं के लिए डिजिटल मंचों का उपयोग किया है, और प्रवेश परीक्षाओं की कोचिंग के लिए देश भर में प्रसिद्ध कोटा में बड़ा ऑनलाइन-शिक्षा उद्योग है।",
+        "mr": "जयपूर हे राज्यातील आयटी व स्टार्टअपचे मुख्य केंद्र आहे — सीतापुरा येथे तंत्रज्ञान पार्क आणि वाढत्या संख्येने सॉफ्टवेअर व बीपीओ कंपन्या; दिल्लीजवळील भिवाडी–नीमराणा पट्ट्यात इलेक्ट्रॉनिक्स व उत्पादन कंपन्या आहेत. राज्याने सार्वजनिक सेवांसाठी डिजिटल व्यासपीठांचा वापर केला आहे, आणि प्रवेश परीक्षांच्या शिकवणीसाठी देशभर प्रसिद्ध असलेल्या कोट्यात मोठा ऑनलाइन-शिक्षण उद्योग आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Rajasthan circle)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

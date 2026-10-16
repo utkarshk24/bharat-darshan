@@ -1,0 +1,347 @@
+{
+  "region": "IN-RJ",
+  "module": "tourism",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Rajasthan is one of India's most visited States. Jaipur — with Amber Fort, the City Palace, Hawa Mahal and Jantar Mantar — forms the 'Golden Triangle' with Delhi and Agra. Udaipur's lakes and palaces, Jodhpur's Mehrangarh fort and blue city, and Jaisalmer's living fort and dunes draw visitors west. Pushkar and the Ajmer Sharif dargah are major pilgrimage centres; Ranthambore and Sariska offer tiger safaris; Chittorgarh and Kumbhalgarh are great hill forts; Mount Abu has the Dilwara temples; and Shekhawati's painted havelis and Bundi's stepwells reward slower travel.",
+        "hi": "राजस्थान भारत के सबसे अधिक देखे जाने वाले राज्यों में है। जयपुर — आमेर क़िला, सिटी पैलेस, हवा महल और जंतर मंतर के साथ — दिल्ली और आगरा के साथ 'स्वर्णिम त्रिभुज' बनाता है। उदयपुर की झीलें और महल, जोधपुर का मेहरानगढ़ क़िला और नीला शहर, और जैसलमेर का बसा हुआ क़िला और टीले पर्यटकों को पश्चिम खींचते हैं। पुष्कर और अजमेर शरीफ़ दरगाह बड़े तीर्थ केंद्र हैं; रणथंभौर और सरिस्का में बाघ सफ़ारी है; चित्तौड़गढ़ और कुंभलगढ़ महान पहाड़ी क़िले हैं; माउंट आबू में दिलवाड़ा मंदिर हैं; और शेखावाटी की चित्रित हवेलियाँ और बूँदी की बावड़ियाँ धीमी यात्रा का आनंद देती हैं।",
+        "mr": "राजस्थान हे भारतातील सर्वाधिक भेट दिल्या जाणाऱ्या राज्यांपैकी आहे. जयपूर — आमेर किल्ला, सिटी पॅलेस, हवा महल व जंतर मंतरसह — दिल्ली व आग्र्यासोबत 'सुवर्ण त्रिकोण' बनवते. उदयपूरची सरोवरे व राजवाडे, जोधपूरचा मेहरानगड किल्ला व निळे शहर, आणि जैसलमेरचा वस्ती असलेला किल्ला व वाळूच्या टेकड्या पर्यटकांना पश्चिमेकडे खेचतात. पुष्कर व अजमेर शरीफ दर्गा ही मोठी तीर्थक्षेत्रे आहेत; रणथंभोर व सरिस्का येथे वाघ सफारी आहे; चित्तोडगड व कुंभलगड हे महान डोंगरी किल्ले आहेत; माउंट अबूवर दिलवाडा मंदिरे आहेत; आणि शेखावटीच्या रंगवलेल्या हवेल्या व बुंदीच्या पायविहिरी निवांत प्रवासाचा आनंद देतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "jaipur",
+          "name": {
+            "en": "Jaipur: Amber, City Palace, Hawa Mahal",
+            "hi": "जयपुर: आमेर, सिटी पैलेस, हवा महल",
+            "mr": "जयपूर: आमेर, सिटी पॅलेस, हवा महल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO city",
+            "hi": "यूनेस्को शहर",
+            "mr": "युनेस्को शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "udaipur",
+          "name": {
+            "en": "Udaipur",
+            "hi": "उदयपुर",
+            "mr": "उदयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Lakes, palaces",
+            "hi": "झीलें, महल",
+            "mr": "सरोवरे, राजवाडे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jodhpur",
+          "name": {
+            "en": "Jodhpur and Mehrangarh",
+            "hi": "जोधपुर और मेहरानगढ़",
+            "mr": "जोधपूर व मेहरानगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Fort, blue city",
+            "hi": "क़िला, नीला शहर",
+            "mr": "किल्ला, निळे शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jaisalmer",
+          "name": {
+            "en": "Jaisalmer and the Sam dunes",
+            "hi": "जैसलमेर और सम के टीले",
+            "mr": "जैसलमेर व सम वाळूच्या टेकड्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Desert",
+            "hi": "मरुस्थल",
+            "mr": "वाळवंट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ranthambore",
+          "name": {
+            "en": "Ranthambore",
+            "hi": "रणथंभौर",
+            "mr": "रणथंभोर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Tiger safari",
+            "hi": "बाघ सफ़ारी",
+            "mr": "वाघ सफारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pushkar",
+          "name": {
+            "en": "Pushkar and Ajmer",
+            "hi": "पुष्कर और अजमेर",
+            "mr": "पुष्कर व अजमेर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage",
+            "hi": "तीर्थ",
+            "mr": "तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chittor",
+          "name": {
+            "en": "Chittorgarh and Kumbhalgarh",
+            "hi": "चित्तौड़गढ़ और कुंभलगढ़",
+            "mr": "चित्तोडगड व कुंभलगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hill forts",
+            "hi": "पहाड़ी क़िले",
+            "mr": "डोंगरी किल्ले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shekhawati",
+          "name": {
+            "en": "Shekhawati havelis",
+            "hi": "शेखावाटी हवेलियाँ",
+            "mr": "शेखावटी हवेल्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Painted mansions",
+            "hi": "चित्रित हवेलियाँ",
+            "mr": "रंगवलेल्या हवेल्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Jaipur and Amber, with a day trip to Ranthambore or Pushkar.",
+            "hi": "जयपुर और आमेर, साथ में रणथंभौर या पुष्कर की एक दिन की यात्रा।",
+            "mr": "जयपूर व आमेर, सोबत रणथंभोर किंवा पुष्करची एक दिवसाची सहल.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Udaipur, Kumbhalgarh, Ranakpur and Chittorgarh.",
+            "hi": "उदयपुर, कुंभलगढ़, रणकपुर और चित्तौड़गढ़।",
+            "mr": "उदयपूर, कुंभलगड, रणकपूर व चित्तोडगड.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Jodhpur, Jaisalmer and a desert camp, then Bikaner.",
+            "hi": "जोधपुर, जैसलमेर और मरु शिविर, फिर बीकानेर।",
+            "mr": "जोधपूर, जैसलमेर व वाळवंटी शिबिर, नंतर बिकानेर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "rjt",
+          "name": {
+            "en": "Rajasthan Tourism (official)",
+            "hi": "राजस्थान पर्यटन (आधिकारिक)",
+            "mr": "राजस्थान पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.tourism.rajasthan.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        }
+      ]
+    }
+  ]
+}

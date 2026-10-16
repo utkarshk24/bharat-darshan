@@ -1,0 +1,404 @@
+{
+  "region": "IN-RJ",
+  "module": "education",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Rajasthan's higher-education gross enrolment ratio (ages 18–23) was 28.6% in 2021-22 in AISHE, close to the national 28.4%; men's GER (29.0%) was a little above women's (28.1%). With 90 universities and 3,934 colleges, the State has one of the largest higher-education systems in India. Literacy at the 2011 Census was 66.1%, with a wide gap between men and women.\n\nKota is India's best-known centre for coaching students for engineering and medical entrance examinations. National institutions include IIT Jodhpur, MNIT Jaipur, IIM Udaipur, BITS Pilani, AIIMS Jodhpur, the Central University of Rajasthan at Kishangarh and NLU Jodhpur; the University of Rajasthan in Jaipur dates from 1947.",
+        "hi": "एआईएसएचई के अनुसार 2021-22 में राजस्थान का उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 28.6% था, जो राष्ट्रीय 28.4% के क़रीब है; पुरुषों का जीईआर (29.0%) महिलाओं (28.1%) से थोड़ा अधिक था। 90 विश्वविद्यालयों और 3,934 कॉलेजों के साथ राज्य की उच्च शिक्षा प्रणाली भारत की सबसे बड़ी प्रणालियों में है। 2011 की जनगणना में साक्षरता 66.1% थी, और पुरुषों व महिलाओं के बीच बड़ा अंतर था।\n\nकोटा इंजीनियरिंग और मेडिकल प्रवेश परीक्षाओं की कोचिंग का भारत का सबसे प्रसिद्ध केंद्र है। राष्ट्रीय संस्थानों में आईआईटी जोधपुर, एमएनआईटी जयपुर, आईआईएम उदयपुर, बिट्स पिलानी, एम्स जोधपुर, किशनगढ़ में राजस्थान केंद्रीय विश्वविद्यालय और एनएलयू जोधपुर हैं; जयपुर का राजस्थान विश्वविद्यालय 1947 का है।",
+        "mr": "एआयएसएचईनुसार 2021-22 मध्ये राजस्थानचे उच्चशिक्षणातील एकूण नोंदणी गुणोत्तर (18–23 वय) 28.6% होते — राष्ट्रीय 28.4% च्या जवळ; पुरुषांचे जीईआर (29.0%) स्त्रियांपेक्षा (28.1%) किंचित जास्त होते. 90 विद्यापीठे व 3,934 महाविद्यालयांसह राज्याची उच्चशिक्षण व्यवस्था भारतातील सर्वांत मोठ्यांपैकी आहे. 2011 च्या जनगणनेत साक्षरता 66.1% होती, आणि पुरुष व स्त्रियांमध्ये मोठी तफावत होती.\n\nकोटा हे अभियांत्रिकी व वैद्यकीय प्रवेश परीक्षांच्या शिकवणीचे भारतातील सर्वांत प्रसिद्ध केंद्र आहे. राष्ट्रीय संस्थांत आयआयटी जोधपूर, एमएनआयटी जयपूर, आयआयएम उदयपूर, बिट्स पिलानी, एम्स जोधपूर, किशनगड येथील राजस्थान केंद्रीय विद्यापीठ व एनएलयू जोधपूर यांचा समावेश आहे; जयपूरचे राजस्थान विद्यापीठ 1947 चे आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 28.6,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 26.06,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 90,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 3934,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "rj",
+          "label": {
+            "en": "Rajasthan",
+            "hi": "राजस्थान",
+            "mr": "राजस्थान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 21.3,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 22.72,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 23.84,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 26.06,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 28.6,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "iitj",
+          "name": {
+            "en": "IIT Jodhpur",
+            "hi": "आईआईटी जोधपुर",
+            "mr": "आयआयटी जोधपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jodhpur",
+            "hi": "जोधपुर",
+            "mr": "जोधपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bits",
+          "name": {
+            "en": "BITS Pilani",
+            "hi": "बिट्स पिलानी",
+            "mr": "बिट्स पिलानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilani, Jhunjhunu",
+            "hi": "पिलानी, झुंझुनूँ",
+            "mr": "पिलानी, झुंझुनू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mnit",
+          "name": {
+            "en": "MNIT Jaipur",
+            "hi": "एमएनआईटी जयपुर",
+            "mr": "एमएनआयटी जयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jaipur",
+            "hi": "जयपुर",
+            "mr": "जयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iimu",
+          "name": {
+            "en": "IIM Udaipur",
+            "hi": "आईआईएम उदयपुर",
+            "mr": "आयआयएम उदयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Udaipur",
+            "hi": "उदयपुर",
+            "mr": "उदयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "aiimsj",
+          "name": {
+            "en": "AIIMS Jodhpur",
+            "hi": "एम्स जोधपुर",
+            "mr": "एम्स जोधपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jodhpur",
+            "hi": "जोधपुर",
+            "mr": "जोधपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "uor",
+          "name": {
+            "en": "University of Rajasthan",
+            "hi": "राजस्थान विश्वविद्यालय",
+            "mr": "राजस्थान विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jaipur, 1947",
+            "hi": "जयपुर, 1947",
+            "mr": "जयपूर, 1947",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "Literacy by sex (Census 2011)",
+            "hi": "लिंग के अनुसार साक्षरता (जनगणना 2011)",
+            "mr": "लिंगनिहाय साक्षरता (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Primary Census Abstract."
+        }
+      ]
+    }
+  ]
+}

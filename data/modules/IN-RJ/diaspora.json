@@ -1,0 +1,55 @@
+{
+  "region": "IN-RJ",
+  "module": "diaspora",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Marwari merchants from Shekhawati and Marwar spread across India from the 18th and 19th centuries, founding trading and industrial houses in Kolkata, Mumbai, Assam, Hyderabad and the south; many of India's best-known business families trace their roots to small Rajasthan towns, where their painted havelis still stand. Today large numbers of workers from Shekhawati, Nagaur and other districts go to the Gulf countries, and Rajasthani communities are active in the United States, the United Kingdom and East Africa.",
+        "hi": "शेखावाटी और मारवाड़ के मारवाड़ी व्यापारी 18वीं और 19वीं सदी से पूरे भारत में फैले और कोलकाता, मुंबई, असम, हैदराबाद और दक्षिण में व्यापारिक और औद्योगिक घराने बनाए; भारत के कई सबसे प्रसिद्ध व्यावसायिक परिवार राजस्थान के छोटे कस्बों से जुड़े हैं, जहाँ उनकी चित्रित हवेलियाँ आज भी खड़ी हैं। आज शेखावाटी, नागौर और अन्य ज़िलों से बड़ी संख्या में श्रमिक खाड़ी देशों में जाते हैं, और राजस्थानी समुदाय अमेरिका, ब्रिटेन और पूर्वी अफ़्रीका में सक्रिय हैं।",
+        "mr": "शेखावटी व मारवाडमधील मारवाडी व्यापारी अठराव्या-एकोणिसाव्या शतकापासून भारतभर पसरले आणि त्यांनी कोलकाता, मुंबई, आसाम, हैदराबाद व दक्षिणेत व्यापारी व औद्योगिक घराणी उभारली; भारतातील अनेक प्रसिद्ध व्यावसायिक कुटुंबांची मुळे राजस्थानच्या लहान गावांत आहेत, जिथे त्यांच्या रंगवलेल्या हवेल्या आजही उभ्या आहेत. आज शेखावटी, नागौर व इतर जिल्ह्यांतून मोठ्या संख्येने कामगार आखाती देशांत जातात, आणि राजस्थानी समुदाय अमेरिका, ब्रिटन व पूर्व आफ्रिकेत सक्रिय आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants and internal migrants",
+            "hi": "प्रवासियों और आंतरिक प्रवासियों की संख्या",
+            "mr": "परदेशी व देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables; MEA."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

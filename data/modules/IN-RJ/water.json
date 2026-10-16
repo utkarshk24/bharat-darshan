@@ -1,0 +1,68 @@
+{
+  "region": "IN-RJ",
+  "module": "water",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Water is Rajasthan's oldest challenge. The State has about a tenth of India's land but very little of its surface water, and much of its groundwater is over-used. Traditional structures — stepwells (baoris), tanks, johads and village ponds — stored rain for centuries, and community groups have revived many of them. The Indira Gandhi Canal, fed from the Harike barrage in Punjab, carries Sutlej and Beas water deep into the northern desert and has turned parts of Sri Ganganagar, Hanumangarh and Bikaner into farmland. The Chambal dams supply the Kota region, and the Ramjal Setu link project aims to move water to the eastern districts. Fluoride and salinity in groundwater are common in the west.",
+        "hi": "पानी राजस्थान की सबसे पुरानी चुनौती है। राज्य के पास भारत की लगभग दसवीं भूमि है, लेकिन सतही जल बहुत कम है, और भूजल का बड़ा हिस्सा अति-दोहित है। पारंपरिक संरचनाएँ — बावड़ियाँ, तालाब, जोहड़ और गाँव के कुंड — सदियों से वर्षा का पानी संजोती रहीं, और सामुदायिक समूहों ने उनमें से कई को फिर जीवित किया है। पंजाब के हरिके बराज से निकलने वाली इंदिरा गांधी नहर सतलुज और ब्यास का पानी उत्तरी मरुस्थल में दूर तक ले जाती है और श्रीगंगानगर, हनुमानगढ़ और बीकानेर के कुछ हिस्सों को खेती योग्य बना चुकी है। चंबल के बाँध कोटा क्षेत्र को पानी देते हैं, और रामजल सेतु लिंक परियोजना का उद्देश्य पूर्वी ज़िलों तक पानी पहुँचाना है। पश्चिम में भूजल में फ़्लोराइड और खारापन आम है।",
+        "mr": "पाणी हे राजस्थानचे सर्वांत जुने आव्हान आहे. राज्याकडे भारताची सुमारे दहावी जमीन आहे, पण भूपृष्ठजल फारच कमी, आणि भूजलाचा मोठा भाग अतिउपसा झालेला आहे. पारंपरिक रचना — पायविहिरी (बावडी), तलाव, जोहड व गावतळी — शतकानुशतके पावसाचे पाणी साठवत आल्या, आणि सामुदायिक गटांनी त्यांपैकी अनेकांचे पुनरुज्जीवन केले आहे. पंजाबमधील हरिके बंधाऱ्यातून निघणारा इंदिरा गांधी कालवा सतलज व बियासचे पाणी उत्तरेकडील वाळवंटात खोलवर नेतो आणि त्याने श्रीगंगानगर, हनुमानगड व बिकानेरचे काही भाग शेतीयोग्य केले आहेत. चंबळवरील धरणे कोटा प्रदेशाला पाणी देतात, आणि रामजल सेतू जोड प्रकल्पाचा उद्देश पूर्वेकडील जिल्ह्यांपर्यंत पाणी पोहोचवणे हा आहे. पश्चिमेत भूजलात फ्लोराइड व क्षारता सामान्य आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        },
+        {
+          "label": {
+            "en": "Fluoride-affected habitations",
+            "hi": "फ़्लोराइड प्रभावित बस्तियाँ",
+            "mr": "फ्लोराइडबाधित वस्त्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission water-quality data."
+        }
+      ]
+    }
+  ]
+}

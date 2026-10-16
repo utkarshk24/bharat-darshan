@@ -1,0 +1,535 @@
+{
+  "region": "IN-RJ",
+  "module": "culture",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Rajasthan's culture grew from its courts and its desert villages. Rajput painting flourished in schools such as Mewar, Marwar, Bundi, Kota and Kishangarh, and Nathdwara is known for its pichhwai cloth paintings; phad scrolls tell the epics of folk heroes like Pabuji and Devnarayan. The hereditary Manganiyar and Langa musicians of the Thar sing to the kamaicha and sarangi, the Kalbelia dance — inscribed by UNESCO in 2010 — and Ghoomar are performed across the world, and puppeteers stage kathputli shows. The devotional songs of Meera Bai remain popular.\n\nCrafts include blue pottery of Jaipur, block printing at Sanganer and Bagru, bandhej tie-dye, Kota doria weaving, lac bangles, Thewa gold-on-glass work of Pratapgarh, Molela terracotta, and the marble of Makrana, used in the Taj Mahal.",
+        "hi": "राजस्थान की संस्कृति उसके दरबारों और मरु गाँवों से पनपी। मेवाड़, मारवाड़, बूँदी, कोटा और किशनगढ़ जैसी शैलियों में राजपूत चित्रकला फली-फूली, और नाथद्वारा अपनी पिछवाई कपड़ा चित्रकला के लिए जाना जाता है; फड़ पट पाबूजी और देवनारायण जैसे लोकनायकों की गाथाएँ कहते हैं। थार के वंशानुगत मांगणियार और लंगा संगीतकार कमायचा और सारंगी पर गाते हैं, कालबेलिया नृत्य — जिसे यूनेस्को ने 2010 में सूचीबद्ध किया — और घूमर दुनिया भर में प्रस्तुत होते हैं, और कठपुतली कलाकार कठपुतली के खेल दिखाते हैं। मीराबाई के भक्ति पद आज भी लोकप्रिय हैं।\n\nशिल्पों में जयपुर की ब्लू पॉटरी, सांगानेर और बगरू की ठप्पा छपाई, बंधेज, कोटा डोरिया बुनाई, लाख की चूड़ियाँ, प्रतापगढ़ का कांच पर सोने का थेवा काम, मोलेला की मृण्मूर्तियाँ, और ताजमहल में प्रयुक्त मकराना का संगमरमर शामिल हैं।",
+        "mr": "राजस्थानची संस्कृती त्याच्या दरबारांतून व वाळवंटी गावांतून वाढली. मेवाड, मारवाड, बुंदी, कोटा व किशनगड यांसारख्या शैलींत राजपूत चित्रकला बहरली, आणि नाथद्वारा पिछवाई कापडी चित्रांसाठी ओळखले जाते; फड पट पाबूजी व देवनारायण यांसारख्या लोकनायकांच्या गाथा सांगतात. थरमधील वंशपरंपरागत मांगणियार व लंगा संगीतकार कमायचा व सारंगीवर गातात, कालबेलिया नृत्य — युनेस्कोने 2010 मध्ये नोंदवलेले — आणि घूमर जगभर सादर होतात, आणि कठपुतळी कलाकार कठपुतळीचे खेळ करतात. मीराबाईंची भक्तिपदे आजही लोकप्रिय आहेत.\n\nहस्तकलेत जयपूरची निळी मृद्भांडी, सांगानेर व बगरूची ठसे छपाई, बांधणी, कोटा डोरिया विणकाम, लाखेच्या बांगड्या, प्रतापगडचे काचेवरील सोन्याचे थेवा काम, मोलेलाची मृण्मूर्ती आणि ताजमहालात वापरलेला मकरानाचा संगमरवर यांचा समावेश आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "festivals",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "gangaur",
+          "name": {
+            "en": "Gangaur",
+            "hi": "गणगौर",
+            "mr": "गणगौर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Women worship Gauri for marital happiness; processions in Jaipur and Udaipur.",
+            "hi": "महिलाएँ सौभाग्य के लिए गौरी की पूजा करती हैं; जयपुर और उदयपुर में शोभायात्राएँ।",
+            "mr": "स्त्रिया सौभाग्यासाठी गौरीची पूजा करतात; जयपूर व उदयपूरमध्ये मिरवणुका.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "March–April",
+            "hi": "मार्च–अप्रैल",
+            "mr": "मार्च–एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "teej",
+          "name": {
+            "en": "Teej",
+            "hi": "तीज",
+            "mr": "तीज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Monsoon festival of swings, songs and green clothes.",
+            "hi": "झूलों, गीतों और हरे वस्त्रों का मानसूनी उत्सव।",
+            "mr": "झोके, गाणी व हिरव्या वस्त्रांचा पावसाळी सण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "July–August",
+            "hi": "जुलाई–अगस्त",
+            "mr": "जुलै–ऑगस्ट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pushkar",
+          "name": {
+            "en": "Pushkar Fair",
+            "hi": "पुष्कर मेला",
+            "mr": "पुष्कर जत्रा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Camel and livestock fair and holy dip at Pushkar lake.",
+            "hi": "ऊँट और पशु मेला तथा पुष्कर सरोवर में पवित्र स्नान।",
+            "mr": "उंट व पशुंची जत्रा आणि पुष्कर सरोवरात पवित्र स्नान.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "October–November (Kartik)",
+            "hi": "अक्टूबर–नवंबर (कार्तिक)",
+            "mr": "ऑक्टोबर–नोव्हेंबर (कार्तिक)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "desert",
+          "name": {
+            "en": "Desert Festival, Jaisalmer",
+            "hi": "मरु महोत्सव, जैसलमेर",
+            "mr": "वाळवंट महोत्सव, जैसलमेर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Folk music, camel races and dune events.",
+            "hi": "लोक संगीत, ऊँट दौड़ और टीलों पर कार्यक्रम।",
+            "mr": "लोकसंगीत, उंटांच्या शर्यती व वाळूच्या टेकड्यांवरील कार्यक्रम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "February",
+            "hi": "फ़रवरी",
+            "mr": "फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "urs",
+          "name": {
+            "en": "Urs of Khwaja Moinuddin Chishti, Ajmer",
+            "hi": "ख़्वाजा मोइनुद्दीन चिश्ती का उर्स, अजमेर",
+            "mr": "ख्वाजा मोईनुद्दीन चिश्ती यांचा उरूस, अजमेर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Six-day gathering at the Ajmer Sharif dargah.",
+            "hi": "अजमेर शरीफ़ दरगाह पर छह दिन का समागम।",
+            "mr": "अजमेर शरीफ दर्ग्यावर सहा दिवसांचा मेळा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Rajab (Islamic calendar)",
+            "hi": "रजब (हिजरी पंचांग)",
+            "mr": "रजब (हिजरी पंचांग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "diwali",
+          "name": {
+            "en": "Diwali and Holi",
+            "hi": "दीवाली और होली",
+            "mr": "दिवाळी व होळी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Celebrated across the State; lit-up bazaars of Jaipur at Diwali.",
+            "hi": "पूरे राज्य में मनाए जाते हैं; दीवाली पर जयपुर के रोशन बाज़ार।",
+            "mr": "राज्यभर साजरे; दिवाळीत जयपूरचे उजळलेले बाजार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Oct–Nov; March",
+            "hi": "अक्टूबर–नवंबर; मार्च",
+            "mr": "ऑक्टो.–नोव्हें.; मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Festivals",
+        "hi": "त्योहार",
+        "mr": "सण-उत्सव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "arts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ghoomar",
+          "name": {
+            "en": "Ghoomar",
+            "hi": "घूमर",
+            "mr": "घूमर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kalbelia",
+          "name": {
+            "en": "Kalbelia",
+            "hi": "कालबेलिया",
+            "mr": "कालबेलिया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "manganiyar",
+          "name": {
+            "en": "Manganiyar and Langa music",
+            "hi": "मांगणियार और लंगा संगीत",
+            "mr": "मांगणियार व लंगा संगीत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "phad",
+          "name": {
+            "en": "Phad painting",
+            "hi": "फड़ चित्रकला",
+            "mr": "फड चित्रकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "miniature",
+          "name": {
+            "en": "Rajput miniature painting",
+            "hi": "राजपूत लघु चित्रकला",
+            "mr": "राजपूत लघुचित्रकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kathputli",
+          "name": {
+            "en": "Kathputli puppetry",
+            "hi": "कठपुतली",
+            "mr": "कठपुतळी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bandhej",
+          "name": {
+            "en": "Bandhej tie-dye",
+            "hi": "बंधेज",
+            "mr": "बांधणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Arts and crafts",
+        "hi": "कलाएँ और शिल्प",
+        "mr": "कला व हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "food",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "dalbaati",
+          "name": {
+            "en": "Dal baati churma",
+            "hi": "दाल बाटी चूरमा",
+            "mr": "दाल बाटी चुरमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Baked wheat balls with lentils and sweet crushed wheat.",
+            "hi": "दाल और मीठे चूरमे के साथ सेंकी गई गेहूँ की बाटियाँ।",
+            "mr": "डाळ व गोड चुरम्यासोबत भाजलेल्या गव्हाच्या बाट्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kersangri",
+          "name": {
+            "en": "Ker sangri",
+            "hi": "केर सांगरी",
+            "mr": "केर सांगरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Desert berries and khejri beans, cooked dry with spices.",
+            "hi": "मरुस्थलीय बेर और खेजड़ी की फलियाँ, मसालों के साथ सूखी पकाई गईं।",
+            "mr": "वाळवंटी बेरे व खेजडीच्या शेंगा, मसाल्यांसह सुक्या शिजवलेल्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gatte",
+          "name": {
+            "en": "Gatte ki sabzi",
+            "hi": "गट्टे की सब्ज़ी",
+            "mr": "गट्ट्याची भाजी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Gram-flour dumplings in yoghurt curry.",
+            "hi": "दही की करी में बेसन के गट्टे।",
+            "mr": "दह्याच्या आमटीत बेसनाचे गट्टे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "laalmaas",
+          "name": {
+            "en": "Laal maas",
+            "hi": "लाल मांस",
+            "mr": "लाल मांस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Fiery mutton curry with Mathania chillies.",
+            "hi": "मथानिया मिर्च के साथ तीखी मटन करी।",
+            "mr": "मथानिया मिरचीसह तिखट मटण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ghevar",
+          "name": {
+            "en": "Ghevar and pyaaz kachori",
+            "hi": "घेवर और प्याज़ कचौरी",
+            "mr": "घेवर व कांदा कचोरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Teej sweet and Jodhpur's favourite snack.",
+            "hi": "तीज की मिठाई और जोधपुर का प्रिय नाश्ता।",
+            "mr": "तीजची मिठाई व जोधपूरचा आवडता नाश्ता.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhujia",
+          "name": {
+            "en": "Bikaneri bhujia",
+            "hi": "बीकानेरी भुजिया",
+            "mr": "बिकानेरी भुजिया",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Spiced gram-flour snack; a registered GI.",
+            "hi": "मसालेदार बेसन का नमकीन; पंजीकृत जीआई।",
+            "mr": "मसालेदार बेसनाचा फराळ; नोंदणीकृत जीआय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Food",
+        "hi": "खान-पान",
+        "mr": "खाद्यसंस्कृती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "dress",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "poshak",
+          "name": {
+            "en": "Ghagra, kurti and odhni",
+            "hi": "घाघरा, कुर्ती और ओढ़नी",
+            "mr": "घागरा, कुर्ती व ओढणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Women's dress, often in leheriya or bandhej.",
+            "hi": "महिलाओं की पोशाक, अक्सर लहरिया या बंधेज में।",
+            "mr": "स्त्रियांचा पोशाख, अनेकदा लहरिया किंवा बांधणीत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "safa",
+          "name": {
+            "en": "Safa (turban), angrakha and dhoti",
+            "hi": "साफ़ा, अंगरखा और धोती",
+            "mr": "साफा (फेटा), अंगरखा व धोतर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Turban styles and colours vary by region and occasion.",
+            "hi": "साफ़े की शैली और रंग क्षेत्र और अवसर के अनुसार बदलते हैं।",
+            "mr": "फेट्याची पद्धत व रंग प्रदेश व प्रसंगानुसार बदलतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Traditional dress",
+        "hi": "पारंपरिक वेशभूषा",
+        "mr": "पारंपरिक वेशभूषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

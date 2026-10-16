@@ -1,0 +1,86 @@
+{
+  "region": "IN-RJ",
+  "module": "sports",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Rajasthan has a strong record in shooting and para sport. Rajyavardhan Singh Rathore, born in Jaisalmer, won India's first individual Olympic silver medal in double trap shooting at Athens in 2004. Javelin thrower Devendra Jhajharia of Churu won Paralympic gold in 2004 and 2016, and shooter Avani Lekhara of Jaipur won Paralympic gold at Tokyo 2020 and Paris 2024. Polo has a long royal tradition in Jaipur and Jodhpur, and the Sawai Mansingh Stadium in Jaipur hosts international and IPL cricket. Traditional rural sports include camel races at desert fairs.",
+        "hi": "राजस्थान का निशानेबाज़ी और पैरा खेलों में मज़बूत रिकॉर्ड है। जैसलमेर में जन्मे राज्यवर्धन सिंह राठौड़ ने 2004 में एथेंस में डबल ट्रैप निशानेबाज़ी में भारत का पहला व्यक्तिगत ओलंपिक रजत पदक जीता। चूरू के भाला फेंक खिलाड़ी देवेंद्र झाझरिया ने 2004 और 2016 में पैरालंपिक स्वर्ण जीते, और जयपुर की निशानेबाज़ अवनि लेखरा ने टोक्यो 2020 और पेरिस 2024 में पैरालंपिक स्वर्ण जीते। जयपुर और जोधपुर में पोलो की लंबी शाही परंपरा है, और जयपुर का सवाई मानसिंह स्टेडियम अंतरराष्ट्रीय और आईपीएल क्रिकेट की मेज़बानी करता है। पारंपरिक ग्रामीण खेलों में मरु मेलों की ऊँट दौड़ शामिल है।",
+        "mr": "राजस्थानचा नेमबाजी व पॅरा क्रीडांत भक्कम विक्रम आहे. जैसलमेरमध्ये जन्मलेल्या राज्यवर्धन सिंह राठोड यांनी 2004 मध्ये अथेन्स येथे डबल ट्रॅप नेमबाजीत भारताचे पहिले वैयक्तिक ऑलिम्पिक रौप्यपदक जिंकले. चुरूचे भालाफेकपटू देवेंद्र झाझरिया यांनी 2004 व 2016 मध्ये पॅरालिंपिक सुवर्ण जिंकले, आणि जयपूरच्या नेमबाज अवनी लेखरा यांनी टोकियो 2020 व पॅरिस 2024 मध्ये पॅरालिंपिक सुवर्ण जिंकले. जयपूर व जोधपूरमध्ये पोलोची दीर्घ राजेशाही परंपरा आहे, आणि जयपूरचे सवाई मानसिंह स्टेडियम आंतरराष्ट्रीय व आयपीएल क्रिकेट आयोजित करते. पारंपरिक ग्रामीण खेळांत वाळवंटी जत्रांमधील उंटांच्या शर्यती आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "sms",
+          "name": {
+            "en": "Sawai Mansingh Stadium, Jaipur",
+            "hi": "सवाई मानसिंह स्टेडियम, जयपुर",
+            "mr": "सवाई मानसिंह स्टेडियम, जयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "polo",
+          "name": {
+            "en": "Rambagh Polo Ground, Jaipur",
+            "hi": "रामबाग पोलो ग्राउंड, जयपुर",
+            "mr": "रामबाग पोलो मैदान, जयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Olympic, Paralympic and Asian Games medallists from Rajasthan (official list)",
+            "hi": "राजस्थान के ओलंपिक, पैरालंपिक और एशियाई खेल पदक विजेता (आधिकारिक सूची)",
+            "mr": "राजस्थानचे ऑलिम्पिक, पॅरालिंपिक व आशियाई स्पर्धा पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Rajasthan State Sports Council."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "region": "IN-RJ",
+  "module": "climate",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Rajasthan has some of India's harshest weather. Western Rajasthan is arid: summers are fierce, with temperatures near or above 50 °C in places such as Phalodi, Churu and Barmer, dust storms in May and June, and very little rain. Winters are cold at night, with frost in the north and near-freezing nights at Mount Abu and in the Shekhawati towns. The south-west monsoon arrives in late June or July and brings most of the year's rain, heaviest in the south and south-east — Banswara, Jhalawar and Mount Abu — and lightest in Jaisalmer.",
+        "hi": "राजस्थान में भारत का कुछ सबसे कठोर मौसम है। पश्चिमी राजस्थान शुष्क है: गर्मियाँ भीषण होती हैं, फलोदी, चूरू और बाड़मेर जैसे स्थानों में तापमान 50 °C के आसपास या उससे ऊपर जाता है, मई-जून में आँधियाँ चलती हैं, और वर्षा बहुत कम होती है। सर्दियों में रातें ठंडी होती हैं — उत्तर में पाला पड़ता है, और माउंट आबू व शेखावाटी के कस्बों में रातें शून्य के आसपास पहुँचती हैं। दक्षिण-पश्चिम मानसून जून के अंत या जुलाई में आता है और साल की अधिकांश वर्षा लाता है — सबसे अधिक दक्षिण और दक्षिण-पूर्व में (बाँसवाड़ा, झालावाड़ और माउंट आबू) और सबसे कम जैसलमेर में।",
+        "mr": "राजस्थानात भारतातील काही सर्वांत कठोर हवामान आहे. पश्चिम राजस्थान शुष्क आहे: उन्हाळा भीषण असतो, फलोदी, चुरू व बाडमेरसारख्या ठिकाणी तापमान 50 °C च्या जवळ किंवा पुढे जाते, मे-जूनमध्ये धुळीची वादळे येतात, आणि पाऊस फारच कमी पडतो. हिवाळ्यात रात्री थंड असतात — उत्तरेत दव गोठते, आणि माउंट अबू व शेखावटीच्या गावांत रात्री शून्याजवळ पोहोचतात. नैर्ऋत्य मान्सून जूनच्या अखेरीस किंवा जुलैमध्ये येतो आणि वर्षाचा बहुतांश पाऊस आणतो — सर्वाधिक दक्षिण व आग्नेयेत (बांसवाडा, झालावाड व माउंट अबू) आणि सर्वांत कमी जैसलमेरमध्ये.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Jaipur",
+            "hi": "जयपुर",
+            "mr": "जयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 26.9124,
+          "lon": 75.7873
+        },
+        {
+          "name": {
+            "en": "Jaisalmer",
+            "hi": "जैसलमेर",
+            "mr": "जैसलमेर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 26.9157,
+          "lon": 70.9083
+        },
+        {
+          "name": {
+            "en": "Udaipur",
+            "hi": "उदयपुर",
+            "mr": "उदयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 24.5854,
+          "lon": 73.7125
+        },
+        {
+          "name": {
+            "en": "Mount Abu",
+            "hi": "माउंट आबू",
+            "mr": "माउंट अबू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 24.5926,
+          "lon": 72.7156
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to March",
+            "hi": "अक्टूबर से मार्च",
+            "mr": "ऑक्टोबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best season: desert camps, forts, the Pushkar fair (Oct–Nov) and the Jaisalmer desert festival (Feb).",
+            "hi": "सबसे अच्छा मौसम: मरु शिविर, क़िले, पुष्कर मेला (अक्टूबर–नवंबर) और जैसलमेर मरु महोत्सव (फ़रवरी)।",
+            "mr": "सर्वोत्तम काळ: वाळवंटी शिबिरे, किल्ले, पुष्कर जत्रा (ऑक्टो.–नोव्हें.) व जैसलमेर वाळवंट महोत्सव (फेब्रु.).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "April to June",
+            "hi": "अप्रैल से जून",
+            "mr": "एप्रिल ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Extreme heat; Mount Abu is the only cool retreat.",
+            "hi": "भीषण गर्मी; केवल माउंट आबू ठंडा ठिकाना है।",
+            "mr": "प्रचंड उष्णता; फक्त माउंट अबू थंड ठिकाण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "July to September",
+            "hi": "जुलाई से सितंबर",
+            "mr": "जुलै ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Udaipur's lakes fill; Teej festival; green Aravallis.",
+            "hi": "उदयपुर की झीलें भरती हैं; तीज उत्सव; हरी अरावली।",
+            "mr": "उदयपूरची सरोवरे भरतात; तीज सण; हिरवी अरवली.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (East and West Rajasthan)",
+            "hi": "सामान्य वार्षिक वर्षा (पूर्वी और पश्चिमी राजस्थान)",
+            "mr": "सरासरी वार्षिक पाऊस (पूर्व व पश्चिम राजस्थान)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics by sub-division."
+        },
+        {
+          "label": {
+            "en": "Highest recorded temperature (official)",
+            "hi": "दर्ज सबसे ऊँचा तापमान (आधिकारिक)",
+            "mr": "नोंदलेले सर्वोच्च तापमान (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD station records."
+        }
+      ]
+    }
+  ]
+}

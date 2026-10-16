@@ -1,0 +1,201 @@
+{
+  "region": "IN-RJ",
+  "module": "transport",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Jaipur International Airport is the main air gateway, with airports also at Udaipur, Jodhpur, Jaisalmer, Bikaner and Kishangarh. Jaipur is the headquarters of the North Western Railway, and the Western Dedicated Freight Corridor crosses the State on its way from Delhi to the Gujarat ports. The Delhi–Mumbai Expressway runs through eastern Rajasthan, and national highways link Jaipur with Delhi, Agra, Ahmedabad and the west. Jaipur has a metro line, with a second phase begun in 2026. Tourist trains such as the Palace on Wheels have long been a Rajasthan speciality.",
+        "hi": "जयपुर अंतरराष्ट्रीय हवाई अड्डा मुख्य हवाई द्वार है, और उदयपुर, जोधपुर, जैसलमेर, बीकानेर और किशनगढ़ में भी हवाई अड्डे हैं। जयपुर उत्तर पश्चिम रेलवे का मुख्यालय है, और पश्चिमी समर्पित माल गलियारा दिल्ली से गुजरात के बंदरगाहों तक जाते हुए राज्य को पार करता है। दिल्ली–मुंबई एक्सप्रेसवे पूर्वी राजस्थान से होकर जाता है, और राष्ट्रीय राजमार्ग जयपुर को दिल्ली, आगरा, अहमदाबाद और पश्चिम से जोड़ते हैं। जयपुर में एक मेट्रो लाइन है, और 2026 में दूसरा चरण शुरू हुआ। पैलेस ऑन व्हील्स जैसी पर्यटक रेलें लंबे समय से राजस्थान की विशेषता हैं।",
+        "mr": "जयपूर आंतरराष्ट्रीय विमानतळ हे मुख्य हवाई प्रवेशद्वार आहे, आणि उदयपूर, जोधपूर, जैसलमेर, बिकानेर व किशनगड येथेही विमानतळ आहेत. जयपूर हे उत्तर पश्चिम रेल्वेचे मुख्यालय आहे, आणि पश्चिम समर्पित मालवाहतूक मार्गिका दिल्लीहून गुजरातच्या बंदरांकडे जाताना राज्य ओलांडते. दिल्ली–मुंबई द्रुतगती मार्ग पूर्व राजस्थानातून जातो, आणि राष्ट्रीय महामार्ग जयपूरला दिल्ली, आग्रा, अहमदाबाद व पश्चिमेशी जोडतात. जयपूरमध्ये एक मेट्रो मार्गिका आहे, आणि 2026 मध्ये दुसरा टप्पा सुरू झाला. पॅलेस ऑन व्हील्ससारख्या पर्यटक गाड्या दीर्घकाळापासून राजस्थानची खासियत आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "jai",
+          "name": {
+            "en": "Jaipur International Airport",
+            "hi": "जयपुर अंतरराष्ट्रीय हवाई अड्डा",
+            "mr": "जयपूर आंतरराष्ट्रीय विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "JAI",
+            "hi": "JAI",
+            "mr": "JAI",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "udr",
+          "name": {
+            "en": "Udaipur (Maharana Pratap Airport)",
+            "hi": "उदयपुर (महाराणा प्रताप हवाई अड्डा)",
+            "mr": "उदयपूर (महाराणा प्रताप विमानतळ)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UDR",
+            "hi": "UDR",
+            "mr": "UDR",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jdh",
+          "name": {
+            "en": "Jodhpur",
+            "hi": "जोधपुर",
+            "mr": "जोधपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "JDH",
+            "hi": "JDH",
+            "mr": "JDH",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jsa",
+          "name": {
+            "en": "Jaisalmer",
+            "hi": "जैसलमेर",
+            "mr": "जैसलमेर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "JSA",
+            "hi": "JSA",
+            "mr": "JSA",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bkb",
+          "name": {
+            "en": "Bikaner (Nal)",
+            "hi": "बीकानेर (नाल)",
+            "mr": "बिकानेर (नाल)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "BKB",
+            "hi": "BKB",
+            "mr": "BKB",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kqh",
+          "name": {
+            "en": "Kishangarh (Ajmer)",
+            "hi": "किशनगढ़ (अजमेर)",
+            "mr": "किशनगड (अजमेर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "KQH",
+            "hi": "KQH",
+            "mr": "KQH",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports (selected)",
+        "hi": "हवाई अड्डे (चयनित)",
+        "mr": "विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

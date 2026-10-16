@@ -1,0 +1,560 @@
+{
+  "region": "IN-RJ",
+  "module": "nature",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Only about 4.8% of Rajasthan is forest (ISFR 2023), mostly in the Aravallis and the south-east, yet the State is rich in wildlife adapted to dry country. Ranthambore, Sariska, Mukundra Hills, Ramgarh Vishdhari and Dholpur–Karauli are tiger reserves. The Desert National Park near Jaisalmer protects the great Indian bustard, the critically endangered State bird, along with chinkara, desert foxes and many raptors. Keoladeo at Bharatpur, a UNESCO World Heritage Site, is a famous winter home of water birds, and Tal Chhapar protects blackbuck. Bishnoi villages are known for protecting blackbuck, chinkara and khejri trees.\n\nThe State has five Ramsar sites: Keoladeo, Sambhar — India's largest inland saline lake — and, from 2025, Menar, Khichan, where thousands of demoiselle cranes winter, and Siliserh near Alwar.",
+        "hi": "राजस्थान का केवल लगभग 4.8% भाग वन है (आईएसएफ़आर 2023), जो अधिकतर अरावली और दक्षिण-पूर्व में है, फिर भी राज्य शुष्क भूमि के अनुकूल वन्यजीवों से समृद्ध है। रणथंभौर, सरिस्का, मुकुंदरा हिल्स, रामगढ़ विषधारी और धौलपुर–करौली बाघ अभयारण्य हैं। जैसलमेर के पास मरु राष्ट्रीय उद्यान गंभीर रूप से संकटग्रस्त राज्य पक्षी गोडावण के साथ चिंकारा, मरु लोमड़ी और कई शिकारी पक्षियों की रक्षा करता है। भरतपुर का केवलादेव, जो यूनेस्को विश्व धरोहर स्थल है, जल पक्षियों का प्रसिद्ध शीतकालीन घर है, और ताल छापर काले हिरणों की रक्षा करता है। बिश्नोई गाँव काले हिरण, चिंकारा और खेजड़ी के पेड़ों की रक्षा के लिए जाने जाते हैं।\n\nराज्य में पाँच रामसर स्थल हैं: केवलादेव, सांभर — भारत की सबसे बड़ी अंतर्देशीय खारी झील — और 2025 से मेनार, खीचन, जहाँ हज़ारों कुरजाँ सर्दियाँ बिताती हैं, और अलवर के पास सिलीसेढ़।",
+        "mr": "राजस्थानचा केवळ सुमारे 4.8% भाग वनाच्छादित आहे (आयएसएफआर 2023), बहुतांश अरवली व आग्नेय भागात, तरीही राज्य कोरड्या प्रदेशाशी जुळवून घेतलेल्या वन्यजीवांनी समृद्ध आहे. रणथंभोर, सरिस्का, मुकुंदरा हिल्स, रामगड विषधारी व धौलपूर–करौली हे व्याघ्र प्रकल्प आहेत. जैसलमेरजवळील वाळवंट राष्ट्रीय उद्यान अतिसंकटग्रस्त राज्यपक्षी माळढोकसह चिंकारा, वाळवंटी कोल्हे व अनेक शिकारी पक्ष्यांचे रक्षण करते. भरतपूरचे केवलादेव — युनेस्को जागतिक वारसा स्थळ — पाणपक्ष्यांचे प्रसिद्ध हिवाळी घर आहे, आणि ताल छापर काळविटांचे रक्षण करते. बिश्नोई गावे काळवीट, चिंकारा व खेजडीच्या झाडांच्या रक्षणासाठी ओळखली जातात.\n\nराज्यात पाच रामसर स्थळे आहेत: केवलादेव, सांभर — भारतातील सर्वांत मोठे अंतर्गत खारे सरोवर — आणि 2025 पासून मेनार, खीचन, जिथे हजारो कुरकरू क्रौंच हिवाळा घालवतात, आणि अलवरजवळील सिलीसेढ.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "indian-wetlands"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 16548.21,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 16632.01,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 4.84,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 16,548.21 km² ÷ geographical area 3,42,239 km²."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        },
+        {
+          "id": "ramsar",
+          "label": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळ स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 5,
+            "unit": "sites",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "indian-wetlands",
+            "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "MoEFCC list of Ramsar sites as on 21 April 2026."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "ramsar",
+      "title": {
+        "en": "Ramsar wetlands",
+        "hi": "रामसर आर्द्रभूमियाँ",
+        "mr": "रामसर पाणथळ स्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Site",
+            "hi": "स्थल",
+            "mr": "स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Designated",
+            "hi": "घोषित",
+            "mr": "घोषणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Area (ha)",
+            "hi": "क्षेत्रफल (हेक्टेयर)",
+            "mr": "क्षेत्रफळ (हेक्टर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Keoladeo National Park",
+            "hi": "केवलादेव राष्ट्रीय उद्यान",
+            "mr": "केवलादेव राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1981",
+          "2,873"
+        ],
+        [
+          {
+            "en": "Sambhar Lake",
+            "hi": "सांभर झील",
+            "mr": "सांभर सरोवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1990",
+          "24,000"
+        ],
+        [
+          {
+            "en": "Menar wetland complex",
+            "hi": "मेनार आर्द्रभूमि परिसर",
+            "mr": "मेनार पाणथळ संकुल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2025",
+          "463.41"
+        ],
+        [
+          {
+            "en": "Khichan wetland",
+            "hi": "खीचन आर्द्रभूमि",
+            "mr": "खीचन पाणथळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2025",
+          "54.19"
+        ],
+        [
+          {
+            "en": "Siliserh Lake",
+            "hi": "सिलीसेढ़ झील",
+            "mr": "सिलीसेढ सरोवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2025",
+          "315.97"
+        ]
+      ],
+      "sourceId": "indian-wetlands",
+      "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+      "accessDate": "2026-10-16",
+      "confidence": "Official",
+      "note": {
+        "en": "MoEFCC list as on 21 April 2026 (year of designation).",
+        "hi": "21 अप्रैल 2026 की पर्यावरण मंत्रालय सूची (घोषणा वर्ष)।",
+        "mr": "21 एप्रिल 2026 ची पर्यावरण मंत्रालयाची यादी (घोषणा वर्ष).",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "protected",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ranthambore",
+          "name": {
+            "en": "Ranthambore Tiger Reserve",
+            "hi": "रणथंभौर बाघ अभयारण्य",
+            "mr": "रणथंभोर व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Sawai Madhopur",
+            "hi": "सवाई माधोपुर",
+            "mr": "सवाई माधोपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sariska",
+          "name": {
+            "en": "Sariska Tiger Reserve",
+            "hi": "सरिस्का बाघ अभयारण्य",
+            "mr": "सरिस्का व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Alwar",
+            "hi": "अलवर",
+            "mr": "अलवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mukundra",
+          "name": {
+            "en": "Mukundra Hills Tiger Reserve",
+            "hi": "मुकुंदरा हिल्स बाघ अभयारण्य",
+            "mr": "मुकुंदरा हिल्स व्याघ्र प्रकल्प",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kota",
+            "hi": "कोटा",
+            "mr": "कोटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dnp",
+          "name": {
+            "en": "Desert National Park",
+            "hi": "मरु राष्ट्रीय उद्यान",
+            "mr": "वाळवंट राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Great Indian bustard",
+            "hi": "गोडावण",
+            "mr": "माळढोक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "keoladeo",
+          "name": {
+            "en": "Keoladeo National Park",
+            "hi": "केवलादेव राष्ट्रीय उद्यान",
+            "mr": "केवलादेव राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO; birds",
+            "hi": "यूनेस्को; पक्षी",
+            "mr": "युनेस्को; पक्षी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "talchhapar",
+          "name": {
+            "en": "Tal Chhapar Sanctuary",
+            "hi": "ताल छापर अभयारण्य",
+            "mr": "ताल छापर अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Blackbuck",
+            "hi": "काला हिरण",
+            "mr": "काळवीट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kumbhalgarh",
+          "name": {
+            "en": "Kumbhalgarh Wildlife Sanctuary",
+            "hi": "कुंभलगढ़ वन्यजीव अभयारण्य",
+            "mr": "कुंभलगड वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Aravallis",
+            "hi": "अरावली",
+            "mr": "अरवली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Protected areas (selected)",
+        "hi": "संरक्षित क्षेत्र (चयनित)",
+        "mr": "संरक्षित क्षेत्रे (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "species",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "gib",
+          "name": {
+            "en": "Great Indian bustard (State bird)",
+            "hi": "गोडावण (राज्य पक्षी)",
+            "mr": "माळढोक (राज्यपक्षी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chinkara",
+          "name": {
+            "en": "Chinkara (State animal)",
+            "hi": "चिंकारा (राज्य पशु)",
+            "mr": "चिंकारा (राज्यप्राणी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiger",
+          "name": {
+            "en": "Tiger",
+            "hi": "बाघ",
+            "mr": "वाघ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "blackbuck",
+          "name": {
+            "en": "Blackbuck",
+            "hi": "काला हिरण",
+            "mr": "काळवीट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "crane",
+          "name": {
+            "en": "Demoiselle crane",
+            "hi": "कुरजाँ",
+            "mr": "कुरकरू क्रौंच",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "camel",
+          "name": {
+            "en": "Dromedary camel",
+            "hi": "ऊँट",
+            "mr": "उंट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key species",
+        "hi": "प्रमुख प्रजातियाँ",
+        "mr": "प्रमुख प्रजाती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tiger estimates by reserve",
+            "hi": "अभयारण्यवार बाघों का अनुमान",
+            "mr": "प्रकल्पनिहाय वाघांचा अंदाज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ntca",
+          "note": "NTCA All India Tiger Estimation."
+        },
+        {
+          "label": {
+            "en": "Great Indian bustard population",
+            "hi": "गोडावण की संख्या",
+            "mr": "माळढोकांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "moefcc",
+          "note": "MoEFCC / Wildlife Institute of India estimates."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "region": "IN-RJ",
+  "module": "projects",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "On 4 July 2026 the Prime Minister dedicated the Rajasthan Refinery at Pachpadra, inaugurated a new terminal at Jodhpur airport and laid the foundation stone of Jaipur Metro Phase 2, part of projects worth about ₹1.06 lakh crore. The Ramjal Setu river-link project, agreed with Madhya Pradesh in December 2024, is meant to bring water to the eastern districts. Each card shows its source and the date it was checked.",
+        "hi": "4 जुलाई 2026 को प्रधानमंत्री ने पचपदरा की राजस्थान रिफ़ाइनरी राष्ट्र को समर्पित की, जोधपुर हवाई अड्डे के नए टर्मिनल का उद्घाटन किया और जयपुर मेट्रो चरण 2 की आधारशिला रखी — लगभग ₹1.06 लाख करोड़ की परियोजनाओं का हिस्सा। दिसंबर 2024 में मध्य प्रदेश के साथ सहमत रामजल सेतु नदी-जोड़ परियोजना का उद्देश्य पूर्वी ज़िलों तक पानी लाना है। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "4 जुलै 2026 रोजी पंतप्रधानांनी पचपदरा येथील राजस्थान रिफायनरी राष्ट्राला समर्पित केली, जोधपूर विमानतळाच्या नव्या टर्मिनलचे उद्घाटन केले आणि जयपूर मेट्रो टप्पा 2 ची पायाभरणी केली — सुमारे ₹1.06 लाख कोटींच्या प्रकल्पांचा भाग. डिसेंबर 2024 मध्ये मध्य प्रदेशसोबत मान्य झालेल्या रामजल सेतू नदीजोड प्रकल्पाचा उद्देश पूर्वेकडील जिल्ह्यांपर्यंत पाणी पोहोचवणे हा आहे. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pmindia",
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Delhi–Mumbai Expressway — Rajasthan sections status",
+            "hi": "दिल्ली–मुंबई एक्सप्रेसवे — राजस्थान खंडों की स्थिति",
+            "mr": "दिल्ली–मुंबई द्रुतगती मार्ग — राजस्थानातील टप्प्यांची स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nhai",
+          "note": "NHAI project status."
+        },
+        {
+          "label": {
+            "en": "Shekhawati water pipeline (Hathnikund) — approvals",
+            "hi": "शेखावाटी जल पाइपलाइन (हथिनीकुंड) — स्वीकृतियाँ",
+            "mr": "शेखावटी जलवाहिनी (हथनीकुंड) — मंजुऱ्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "State Water Resources Department."
+        }
+      ]
+    }
+  ]
+}

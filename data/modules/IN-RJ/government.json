@@ -1,0 +1,276 @@
+{
+  "region": "IN-RJ",
+  "module": "government",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Rajasthan has a unicameral legislature: the 200-member Legislative Assembly meets in Jaipur. The State elects 25 members to the Lok Sabha and 10 to the Rajya Sabha.\n\nIn the Assembly election of November 2023, results for 199 seats were declared on 3 December: the BJP won 115, the Congress 69, the Bharat Adivasi Party 3, the BSP 2, the RLD and RLP one each, and independents 8 (ECI); polling in the remaining seat was held later. Bhajan Lal Sharma, a first-time MLA, was sworn in as Chief Minister on 15 December 2023, with Diya Kumari and Prem Chand Bairwa as Deputy Chief Ministers. Haribhau Kisanrao Bagde has been Governor since July 2024.",
+        "hi": "राजस्थान में एकसदनीय विधानमंडल है: 200 सदस्यों वाली विधानसभा जयपुर में बैठती है। राज्य से लोकसभा के 25 और राज्यसभा के 10 सदस्य चुने जाते हैं।\n\nनवंबर 2023 के विधानसभा चुनाव में 3 दिसंबर को 199 सीटों के परिणाम घोषित हुए: भाजपा ने 115, कांग्रेस ने 69, भारत आदिवासी पार्टी ने 3, बसपा ने 2, रालोद और रालोपा ने एक-एक, और निर्दलीयों ने 8 सीटें जीतीं (भारत निर्वाचन आयोग); शेष एक सीट पर मतदान बाद में हुआ। पहली बार विधायक बने भजनलाल शर्मा ने 15 दिसंबर 2023 को मुख्यमंत्री पद की शपथ ली, और दीया कुमारी व प्रेमचंद बैरवा उपमुख्यमंत्री बने। हरिभाऊ किसनराव बागडे जुलाई 2024 से राज्यपाल हैं।",
+        "mr": "राजस्थानात एकसदनी विधिमंडळ आहे: 200 सदस्यांची विधानसभा जयपूरमध्ये भरते. राज्यातून लोकसभेवर 25 आणि राज्यसभेवर 10 सदस्य निवडले जातात.\n\nनोव्हेंबर 2023 च्या विधानसभा निवडणुकीत 3 डिसेंबर रोजी 199 जागांचे निकाल जाहीर झाले: भाजपने 115, काँग्रेसने 69, भारत आदिवासी पक्षाने 3, बसपने 2, रालोद व रालोपने प्रत्येकी एक, आणि अपक्षांनी 8 जागा जिंकल्या (भारत निवडणूक आयोग); उर्वरित एका जागेचे मतदान नंतर झाले. प्रथमच आमदार झालेले भजनलाल शर्मा यांनी 15 डिसेंबर 2023 रोजी मुख्यमंत्रिपदाची शपथ घेतली, आणि दिया कुमारी व प्रेमचंद बैरवा उपमुख्यमंत्री झाले. हरिभाऊ किसनराव बागडे जुलै 2024 पासून राज्यपाल आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "eci",
+        "tribune",
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "table",
+      "id": "result2023",
+      "title": {
+        "en": "Assembly election 2023 — seats won (199 seats declared)",
+        "hi": "विधानसभा चुनाव 2023 — जीती गई सीटें (199 सीटें घोषित)",
+        "mr": "विधानसभा निवडणूक 2023 — जिंकलेल्या जागा (199 जागा जाहीर)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Party",
+            "hi": "दल",
+            "mr": "पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Seats",
+            "hi": "सीटें",
+            "mr": "जागा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Bharatiya Janata Party",
+            "hi": "भारतीय जनता पार्टी",
+            "mr": "भारतीय जनता पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "115"
+        ],
+        [
+          {
+            "en": "Indian National Congress",
+            "hi": "भारतीय राष्ट्रीय कांग्रेस",
+            "mr": "भारतीय राष्ट्रीय काँग्रेस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "69"
+        ],
+        [
+          {
+            "en": "Bharat Adivasi Party",
+            "hi": "भारत आदिवासी पार्टी",
+            "mr": "भारत आदिवासी पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "3"
+        ],
+        [
+          {
+            "en": "Bahujan Samaj Party",
+            "hi": "बहुजन समाज पार्टी",
+            "mr": "बहुजन समाज पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2"
+        ],
+        [
+          {
+            "en": "Rashtriya Lok Dal",
+            "hi": "राष्ट्रीय लोक दल",
+            "mr": "राष्ट्रीय लोक दल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1"
+        ],
+        [
+          {
+            "en": "Rashtriya Loktantrik Party",
+            "hi": "राष्ट्रीय लोकतांत्रिक पार्टी",
+            "mr": "राष्ट्रीय लोकतांत्रिक पक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1"
+        ],
+        [
+          {
+            "en": "Independents",
+            "hi": "निर्दलीय",
+            "mr": "अपक्ष",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "8"
+        ],
+        [
+          {
+            "en": "Total",
+            "hi": "कुल",
+            "mr": "एकूण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "199"
+        ]
+      ],
+      "sourceId": "eci",
+      "url": "https://results.eci.gov.in/AcResultGenDecNew2023/partywiseresult-S20.htm",
+      "accessDate": "2026-10-16",
+      "confidence": "Official",
+      "period": "2023",
+      "note": {
+        "en": "ECI results website, December 2023. Polling in one constituency was held later; later by-elections are not reflected.",
+        "hi": "भारत निर्वाचन आयोग की परिणाम वेबसाइट, दिसंबर 2023। एक क्षेत्र में मतदान बाद में हुआ; बाद के उपचुनाव शामिल नहीं।",
+        "mr": "भारत निवडणूक आयोगाचे निकाल संकेतस्थळ, डिसेंबर 2023. एका मतदारसंघात मतदान नंतर झाले; नंतरच्या पोटनिवडणुका समाविष्ट नाहीत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "assembly",
+          "name": {
+            "en": "Rajasthan Legislative Assembly",
+            "hi": "राजस्थान विधानसभा",
+            "mr": "राजस्थान विधानसभा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://assembly.rajasthan.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Rajasthan",
+            "hi": "राजस्थान सरकार",
+            "mr": "राजस्थान शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rajasthan.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Leader of Opposition — official notice",
+            "hi": "नेता प्रतिपक्ष — आधिकारिक सूचना",
+            "mr": "विरोधी पक्षनेते — अधिकृत सूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Assembly secretariat."
+        },
+        {
+          "label": {
+            "en": "Local bodies by type",
+            "hi": "प्रकार के अनुसार स्थानीय निकाय",
+            "mr": "प्रकारानुसार स्थानिक स्वराज्य संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Panchayati Raj and Local Self Government departments."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "region": "IN-OR",
+  "module": "transport",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Biju Patnaik International Airport at Bhubaneswar is the main airport; Veer Surendra Sai Airport at Jharsuguda serves western Odisha, and smaller airports at Rourkela and Jeypore have regional flights. The East Coast Railway is headquartered at Bhubaneswar, and the Howrah–Chennai main line runs along the coast through Balasore, Cuttack, Bhubaneswar and Berhampur. National Highway 16, part of the Golden Quadrilateral, follows the same route. Paradip is a major port, and Dhamra and Gopalpur are other ports for coal, iron ore and containers.",
+        "hi": "भुवनेश्वर का बीजू पटनायक अंतरराष्ट्रीय हवाई अड्डा मुख्य हवाई अड्डा है; झारसुगुड़ा का वीर सुरेंद्र साय हवाई अड्डा पश्चिमी ओडिशा को सेवा देता है, और राउरकेला व जयपुर के छोटे हवाई अड्डों से क्षेत्रीय उड़ानें हैं। पूर्व तट रेलवे का मुख्यालय भुवनेश्वर में है, और हावड़ा–चेन्नई मुख्य लाइन तट के साथ बालेश्वर, कटक, भुवनेश्वर और बरहमपुर से होकर जाती है। स्वर्णिम चतुर्भुज का हिस्सा राष्ट्रीय राजमार्ग 16 इसी मार्ग पर है। पारादीप एक प्रमुख बंदरगाह है, और धामरा व गोपालपुर कोयला, लौह अयस्क और कंटेनरों के अन्य बंदरगाह हैं।",
+        "mr": "भुवनेश्वरचे बिजू पटनायक आंतरराष्ट्रीय विमानतळ हे मुख्य विमानतळ आहे; झारसुगुडाचे वीर सुरेंद्र साय विमानतळ पश्चिम ओडिशाला सेवा देते, आणि राउरकेला व जयपूरच्या लहान विमानतळांवरून प्रादेशिक उड्डाणे आहेत. पूर्व किनारा रेल्वेचे मुख्यालय भुवनेश्वरमध्ये आहे, आणि हावडा–चेन्नई मुख्य मार्ग किनाऱ्यालगत बालेश्वर, कटक, भुवनेश्वर व बेरहमपूरमार्गे जातो. सुवर्ण चतुष्कोनाचा भाग असलेला राष्ट्रीय महामार्ग 16 याच मार्गावर आहे. पारादीप हे प्रमुख बंदर आहे, आणि धामरा व गोपाळपूर ही कोळसा, लोहखनिज व कंटेनरसाठीची इतर बंदरे आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "bbi",
+          "name": {
+            "en": "Biju Patnaik International Airport, Bhubaneswar",
+            "hi": "बीजू पटनायक अंतरराष्ट्रीय हवाई अड्डा, भुवनेश्वर",
+            "mr": "बिजू पटनायक आंतरराष्ट्रीय विमानतळ, भुवनेश्वर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "BBI",
+            "hi": "BBI",
+            "mr": "BBI",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jrg",
+          "name": {
+            "en": "Veer Surendra Sai Airport, Jharsuguda",
+            "hi": "वीर सुरेंद्र साय हवाई अड्डा, झारसुगुड़ा",
+            "mr": "वीर सुरेंद्र साय विमानतळ, झारसुगुडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "JRG",
+            "hi": "JRG",
+            "mr": "JRG",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rrk",
+          "name": {
+            "en": "Rourkela",
+            "hi": "राउरकेला",
+            "mr": "राउरकेला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "RRK",
+            "hi": "RRK",
+            "mr": "RRK",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports (selected)",
+        "hi": "हवाई अड्डे (चयनित)",
+        "mr": "विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

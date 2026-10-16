@@ -1,0 +1,68 @@
+{
+  "region": "IN-OR",
+  "module": "energy",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Odisha holds some of India's largest coal reserves, in the Talcher and Ib valley coalfields worked by Mahanadi Coalfields Ltd, and much of its power comes from coal stations at Talcher, Angul and Jharsuguda, including captive plants of the aluminium and steel industries. Hydro-electric power comes from Hirakud, Balimela, Upper Kolab, Upper Indravati and Rengali. In the 1990s Odisha became the first State to restructure its electricity board and privatise distribution; the State is now adding solar and pumped-storage capacity.",
+        "hi": "ओडिशा में भारत के सबसे बड़े कोयला भंडारों में से कुछ हैं, तालचेर और ईब घाटी कोयला क्षेत्रों में, जिनका खनन महानदी कोलफ़ील्ड्स लिमिटेड करता है, और इसकी अधिकांश बिजली तालचेर, अंगुल और झारसुगुड़ा के कोयला संयंत्रों से आती है, जिनमें एल्युमिनियम और इस्पात उद्योगों के कैप्टिव संयंत्र भी हैं। जलविद्युत हीराकुद, बालीमेला, अपर कोलाब, अपर इंद्रावती और रेंगाली से आती है। 1990 के दशक में ओडिशा अपने बिजली बोर्ड का पुनर्गठन कर वितरण का निजीकरण करने वाला पहला राज्य बना; राज्य अब सौर और पंप्ड-स्टोरेज क्षमता जोड़ रहा है।",
+        "mr": "ओडिशात भारतातील सर्वांत मोठ्या कोळसा साठ्यांपैकी काही आहेत, तालचेर व ईब खोऱ्याच्या कोळसा क्षेत्रांत, जिथे महानदी कोलफिल्ड्स लिमिटेड खाणकाम करते, आणि त्याची बहुतांश वीज तालचेर, अंगुल व झारसुगुडाच्या कोळसा केंद्रांतून येते, ज्यात ॲल्युमिनियम व पोलाद उद्योगांचे स्वतःचे वीज प्रकल्पही आहेत. जलविद्युत हिराकुड, बालीमेला, अपर कोलाब, अपर इंद्रावती व रेंगाली येथून येते. 1990 च्या दशकात आपल्या वीज मंडळाची पुनर्रचना करून वितरणाचे खासगीकरण करणारे ओडिशा हे पहिले राज्य ठरले; राज्य आता सौर व पंप्ड-स्टोरेज क्षमता वाढवत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        },
+        {
+          "label": {
+            "en": "Coal production (MCL)",
+            "hi": "कोयला उत्पादन (एमसीएल)",
+            "mr": "कोळसा उत्पादन (एमसीएल)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Coal annual report."
+        }
+      ]
+    }
+  ]
+}

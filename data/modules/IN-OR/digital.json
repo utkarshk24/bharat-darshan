@@ -1,0 +1,55 @@
+{
+  "region": "IN-OR",
+  "module": "digital",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Bhubaneswar is Odisha's technology hub, with IT parks at Infocity and Info Valley, data centres and a growing start-up scene supported by incubators at IIT Bhubaneswar and KIIT. The 2025 approval of two semiconductor units at Info Valley may add electronics manufacturing. The State delivers many services online, and mobile connectivity has been extended to remote tribal districts.",
+        "hi": "भुवनेश्वर ओडिशा का प्रौद्योगिकी केंद्र है, जहाँ इन्फ़ोसिटी और इन्फ़ो वैली में आईटी पार्क, डेटा सेंटर और आईआईटी भुवनेश्वर व कीट के इनक्यूबेटरों से समर्थित बढ़ता स्टार्टअप परिदृश्य है। 2025 में इन्फ़ो वैली में दो सेमीकंडक्टर इकाइयों की मंज़ूरी से इलेक्ट्रॉनिक्स विनिर्माण जुड़ सकता है। राज्य कई सेवाएँ ऑनलाइन देता है, और मोबाइल कनेक्टिविटी दूरस्थ जनजातीय ज़िलों तक पहुँचाई गई है।",
+        "mr": "भुवनेश्वर हे ओडिशाचे तंत्रज्ञान केंद्र आहे, जिथे इन्फोसिटी व इन्फो व्हॅलीत आयटी पार्क, डेटा सेंटर आणि आयआयटी भुवनेश्वर व कीटच्या इन्क्युबेटर्सच्या आधाराने वाढते स्टार्टअप विश्व आहे. 2025 मध्ये इन्फो व्हॅलीतील दोन सेमीकंडक्टर प्रकल्पांच्या मंजुरीमुळे इलेक्ट्रॉनिक्स उत्पादनाची भर पडू शकते. राज्य अनेक सेवा ऑनलाइन देते, आणि मोबाइल जोडणी दुर्गम आदिवासी जिल्ह्यांपर्यंत पोहोचवली गेली आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Odisha circle)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

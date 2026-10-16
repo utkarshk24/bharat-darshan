@@ -1,0 +1,183 @@
+{
+  "region": "IN-OR",
+  "module": "climate",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Odisha has a tropical climate. Summers (March–June) are hot and humid on the coast, and the western districts around Titlagarh and Sambalpur are among the hottest places in India in April and May. The south-west monsoon (June–September) brings most of the rain, and depressions from the Bay of Bengal can cause floods in the deltas. Cyclones are most likely in October–November and, less often, in April–May. Winters (December–February) are mild on the coast and cool in the hills of Koraput and Kandhamal.",
+        "hi": "ओडिशा की जलवायु उष्णकटिबंधीय है। गर्मियाँ (मार्च–जून) तट पर गर्म और उमस भरी होती हैं, और अप्रैल–मई में टिटिलागढ़ और संबलपुर के आसपास के पश्चिमी ज़िले भारत के सबसे गर्म स्थानों में होते हैं। दक्षिण-पश्चिम मानसून (जून–सितंबर) अधिकांश वर्षा लाता है, और बंगाल की खाड़ी के अवदाब डेल्टाओं में बाढ़ ला सकते हैं। चक्रवात अक्टूबर–नवंबर में और कभी-कभी अप्रैल–मई में सबसे अधिक आते हैं। सर्दियाँ (दिसंबर–फ़रवरी) तट पर हल्की और कोरापुट व कंधमाल की पहाड़ियों में ठंडी होती हैं।",
+        "mr": "ओडिशाचे हवामान उष्णकटिबंधीय आहे. उन्हाळा (मार्च–जून) किनाऱ्यावर उष्ण व दमट असतो, आणि एप्रिल–मेमध्ये टिटिलागड व संबलपूरभोवतीचे पश्चिमेकडील जिल्हे भारतातील सर्वांत उष्ण ठिकाणांपैकी असतात. नैर्ऋत्य मान्सून (जून–सप्टेंबर) बहुतेक पाऊस आणतो, आणि बंगालच्या उपसागरातील कमी दाबाचे पट्टे त्रिभुज प्रदेशात पूर आणू शकतात. चक्रीवादळे ऑक्टोबर–नोव्हेंबरमध्ये व कधीकधी एप्रिल–मेमध्ये सर्वाधिक येतात. हिवाळा (डिसेंबर–फेब्रुवारी) किनाऱ्यावर सौम्य व कोरापुट आणि कंधमालच्या डोंगरांत थंड असतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Bhubaneswar",
+            "hi": "भुवनेश्वर",
+            "mr": "भुवनेश्वर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 20.2961,
+          "lon": 85.8245
+        },
+        {
+          "name": {
+            "en": "Puri",
+            "hi": "पुरी",
+            "mr": "पुरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 19.8135,
+          "lon": 85.8312
+        },
+        {
+          "name": {
+            "en": "Sambalpur",
+            "hi": "संबलपुर",
+            "mr": "संबलपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 21.4669,
+          "lon": 83.9812
+        },
+        {
+          "name": {
+            "en": "Koraput",
+            "hi": "कोरापुट",
+            "mr": "कोरापुट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 18.8135,
+          "lon": 82.7123
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to March",
+            "hi": "अक्टूबर से मार्च",
+            "mr": "ऑक्टोबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best for temples, beaches and Chilika's migratory birds; Konark Dance Festival in December.",
+            "hi": "मंदिरों, समुद्र तटों और चिलिका के प्रवासी पक्षियों के लिए सबसे अच्छा; दिसंबर में कोणार्क नृत्य महोत्सव।",
+            "mr": "मंदिरे, किनारे व चिलिकाच्या स्थलांतरित पक्ष्यांसाठी उत्तम; डिसेंबरमध्ये कोणार्क नृत्य महोत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "April to June",
+            "hi": "अप्रैल से जून",
+            "mr": "एप्रिल ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hot; Rath Yatra usually falls in June–July.",
+            "hi": "गर्मी; रथयात्रा प्रायः जून–जुलाई में।",
+            "mr": "उष्ण; रथयात्रा सहसा जून–जुलैमध्ये.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "July to September",
+            "hi": "जुलाई से सितंबर",
+            "mr": "जुलै ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Green hills and waterfalls in Koraput; floods possible in the deltas.",
+            "hi": "कोरापुट में हरी पहाड़ियाँ और झरने; डेल्टाओं में बाढ़ संभव।",
+            "mr": "कोरापुटमध्ये हिरवे डोंगर व धबधबे; त्रिभुज प्रदेशात पुराची शक्यता.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (Odisha sub-division)",
+            "hi": "सामान्य वार्षिक वर्षा (ओडिशा उप-मंडल)",
+            "mr": "सरासरी वार्षिक पाऊस (ओडिशा उपविभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "region": "IN-OR",
+  "module": "geography",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Odisha has four broad regions. The coastal plain, built by the deltas of the Mahanadi, Brahmani, Baitarani, Subarnarekha and Rushikulya, is flat, fertile and densely settled. Inland, the Eastern Ghats run north-east to south-west through Kandhamal, Koraput and Rayagada, with the State's highest peaks; the northern plateau of Mayurbhanj, Kendujhar and Sundargarh holds the Similipal hills and most of the mineral belt; and the western uplands around Sambalpur, Bolangir and Kalahandi are drained by the middle Mahanadi and its tributaries. Chilika, a lagoon joined to the sea near Puri, is India's largest coastal lagoon.",
+        "hi": "ओडिशा के चार व्यापक क्षेत्र हैं। महानदी, ब्राह्मणी, वैतरणी, सुवर्णरेखा और ऋषिकुल्या के डेल्टाओं से बना तटीय मैदान समतल, उपजाऊ और घनी आबादी वाला है। भीतर, पूर्वी घाट कंधमाल, कोरापुट और रायगड़ा से होकर उत्तर-पूर्व से दक्षिण-पश्चिम की ओर फैले हैं, जहाँ राज्य की सबसे ऊँची चोटियाँ हैं; मयूरभंज, केंदुझर और सुंदरगढ़ के उत्तरी पठार में सिमलीपाल की पहाड़ियाँ और अधिकांश खनिज पट्टी है; और संबलपुर, बलांगीर और कालाहांडी के आसपास के पश्चिमी उच्च क्षेत्र मध्य महानदी और उसकी सहायक नदियों से सिंचित हैं। पुरी के पास समुद्र से जुड़ा लैगून चिलिका भारत का सबसे बड़ा तटीय लैगून है।",
+        "mr": "ओडिशाचे चार मुख्य प्रदेश आहेत. महानदी, ब्राह्मणी, वैतरणी, सुवर्णरेखा व ऋषिकुल्याच्या त्रिभुज प्रदेशांनी बनलेले किनारी मैदान सपाट, सुपीक व दाट वस्तीचे आहे. आत, पूर्व घाट कंधमाल, कोरापुट व रायगडामधून ईशान्येकडून नैर्ऋत्येकडे पसरला आहे, जिथे राज्यातील सर्वांत उंच शिखरे आहेत; मयूरभंज, केंदुझर व सुंदरगडच्या उत्तरेकडील पठारात सिमलीपालचे डोंगर व बहुतांश खनिज पट्टा आहे; आणि संबलपूर, बलांगीर व कालाहांडीभोवतीचा पश्चिमेकडील उंचवटा मध्य महानदी व तिच्या उपनद्यांनी भिजतो. पुरीजवळ समुद्राला जोडलेले चिलिका हे भारतातील सर्वांत मोठे किनारी खारकच्छ आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 155707,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "wb",
+          "name": {
+            "en": "West Bengal (north-east)",
+            "hi": "पश्चिम बंगाल (उत्तर-पूर्व)",
+            "mr": "पश्चिम बंगाल (ईशान्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jh",
+          "name": {
+            "en": "Jharkhand (north)",
+            "hi": "झारखंड (उत्तर)",
+            "mr": "झारखंड (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ct",
+          "name": {
+            "en": "Chhattisgarh (west)",
+            "hi": "छत्तीसगढ़ (पश्चिम)",
+            "mr": "छत्तीसगड (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ap",
+          "name": {
+            "en": "Andhra Pradesh (south)",
+            "hi": "आंध्र प्रदेश (दक्षिण)",
+            "mr": "आंध्र प्रदेश (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bay",
+          "name": {
+            "en": "Bay of Bengal (east)",
+            "hi": "बंगाल की खाड़ी (पूर्व)",
+            "mr": "बंगालचा उपसागर (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "mahanadi",
+          "name": {
+            "en": "Mahanadi",
+            "hi": "महानदी",
+            "mr": "महानदी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises in Chhattisgarh; dammed at Hirakud and forms a large delta around Cuttack.",
+            "hi": "छत्तीसगढ़ से निकलती है; हीराकुद पर बाँधी गई है और कटक के आसपास बड़ा डेल्टा बनाती है।",
+            "mr": "छत्तीसगडमध्ये उगम; हिराकुड येथे धरण, आणि कटकभोवती मोठा त्रिभुज प्रदेश.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "brahmani",
+          "name": {
+            "en": "Brahmani",
+            "hi": "ब्राह्मणी",
+            "mr": "ब्राह्मणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Formed at Vedavyas near Rourkela; flows past Talcher to the sea.",
+            "hi": "राउरकेला के पास वेदव्यास में बनती है; तालचेर से होकर समुद्र तक बहती है।",
+            "mr": "राउरकेलाजवळ वेदव्यास येथे निर्माण होते; तालचेरमार्गे समुद्रापर्यंत वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "baitarani",
+          "name": {
+            "en": "Baitarani",
+            "hi": "वैतरणी",
+            "mr": "वैतरणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises in Kendujhar; joins the Brahmani delta near Bhitarkanika.",
+            "hi": "केंदुझर से निकलती है; भितरकनिका के पास ब्राह्मणी डेल्टा से मिलती है।",
+            "mr": "केंदुझरमध्ये उगम; भितरकनिकाजवळ ब्राह्मणीच्या त्रिभुज प्रदेशाला मिळते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "subarnarekha",
+          "name": {
+            "en": "Subarnarekha",
+            "hi": "सुवर्णरेखा",
+            "mr": "सुवर्णरेखा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Crosses the far north near Balasore.",
+            "hi": "बालेश्वर के पास सुदूर उत्तर से गुज़रती है।",
+            "mr": "बालेश्वरजवळ अगदी उत्तरेकडून वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rushikulya",
+          "name": {
+            "en": "Rushikulya",
+            "hi": "ऋषिकुल्या",
+            "mr": "ऋषिकुल्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Southern river of Ganjam; turtle nesting at its mouth.",
+            "hi": "गंजाम की दक्षिणी नदी; मुहाने पर कछुओं का प्रजनन।",
+            "mr": "गंजामची दक्षिणेकडील नदी; मुखाशी कासवांचे अंडी घालणे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Highest point — official elevation",
+            "hi": "सर्वोच्च बिंदु — आधिकारिक ऊँचाई",
+            "mr": "सर्वोच्च शिखर — अधिकृत उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India."
+        },
+        {
+          "label": {
+            "en": "Length of coastline",
+            "hi": "तटरेखा की लंबाई",
+            "mr": "किनारपट्टीची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India / MoEFCC coastal statistics."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        }
+      ]
+    }
+  ]
+}

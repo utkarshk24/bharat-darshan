@@ -1,0 +1,650 @@
+{
+  "region": "IN-OR",
+  "module": "cities",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "bbsr",
+          "name": {
+            "en": "Bhubaneswar",
+            "hi": "भुवनेश्वर",
+            "mr": "भुवनेश्वर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Planned capital and temple city; IT and education hub.",
+            "hi": "नियोजित राजधानी और मंदिर नगरी; आईटी और शिक्षा केंद्र।",
+            "mr": "नियोजित राजधानी व मंदिरनगरी; आयटी व शिक्षण केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cuttack",
+          "name": {
+            "en": "Cuttack",
+            "hi": "कटक",
+            "mr": "कटक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Thousand-year-old city between the Mahanadi and Kathajodi; silver filigree.",
+            "hi": "महानदी और काठजोड़ी के बीच हज़ार वर्ष पुराना नगर; चाँदी की तारकशी।",
+            "mr": "महानदी व काठजोडीदरम्यानचे हजार वर्षांचे शहर; चांदीचे जाळीकाम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Old capital",
+            "hi": "पुरानी राजधानी",
+            "mr": "जुनी राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rourkela",
+          "name": {
+            "en": "Rourkela",
+            "hi": "राउरकेला",
+            "mr": "राउरकेला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Steel city built around the public-sector steel plant.",
+            "hi": "सार्वजनिक क्षेत्र के इस्पात संयंत्र के चारों ओर बसा इस्पात नगर।",
+            "mr": "सार्वजनिक क्षेत्रातील पोलाद कारखान्याभोवती वसलेले पोलादनगर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "berhampur",
+          "name": {
+            "en": "Berhampur",
+            "hi": "बरहमपुर",
+            "mr": "बेरहमपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Silk city of southern Odisha.",
+            "hi": "दक्षिणी ओडिशा की रेशम नगरी।",
+            "mr": "दक्षिण ओडिशाची रेशीमनगरी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Commerce",
+            "hi": "वाणिज्य",
+            "mr": "व्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sambalpur",
+          "name": {
+            "en": "Sambalpur",
+            "hi": "संबलपुर",
+            "mr": "संबलपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Centre of western Odisha; Sambalpuri textiles and Hirakud dam.",
+            "hi": "पश्चिमी ओडिशा का केंद्र; संबलपुरी वस्त्र और हीराकुद बाँध।",
+            "mr": "पश्चिम ओडिशाचे केंद्र; संबलपुरी वस्त्रे व हिराकुड धरण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Textiles",
+            "hi": "वस्त्र",
+            "mr": "वस्त्रे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "puri",
+          "name": {
+            "en": "Puri",
+            "hi": "पुरी",
+            "mr": "पुरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pilgrimage town of Jagannath on the Bay of Bengal.",
+            "hi": "बंगाल की खाड़ी पर जगन्नाथ का तीर्थ नगर।",
+            "mr": "बंगालच्या उपसागरावरील जगन्नाथाचे तीर्थनगर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage",
+            "hi": "तीर्थ",
+            "mr": "तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "balasore",
+          "name": {
+            "en": "Balasore",
+            "hi": "बालेश्वर",
+            "mr": "बालेश्वर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Northern coastal town; missile test range at Chandipur.",
+            "hi": "उत्तरी तटीय नगर; चांदीपुर में मिसाइल परीक्षण रेंज।",
+            "mr": "उत्तरेकडील किनारी शहर; चांदीपूर येथे क्षेपणास्त्र चाचणी केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Coast",
+            "hi": "तट",
+            "mr": "किनारा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "angul",
+          "name": {
+            "en": "Angul",
+            "hi": "अंगुल",
+            "mr": "अंगुल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "balangir",
+          "name": {
+            "en": "Balangir",
+            "hi": "बलांगीर",
+            "mr": "बलांगीर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "balasore",
+          "name": {
+            "en": "Balasore",
+            "hi": "बालेश्वर",
+            "mr": "बालेश्वर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bargarh",
+          "name": {
+            "en": "Bargarh",
+            "hi": "बरगढ़",
+            "mr": "बरगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhadrak",
+          "name": {
+            "en": "Bhadrak",
+            "hi": "भद्रक",
+            "mr": "भद्रक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "boudh",
+          "name": {
+            "en": "Boudh",
+            "hi": "बौद्ध",
+            "mr": "बौद्ध",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cuttack",
+          "name": {
+            "en": "Cuttack",
+            "hi": "कटक",
+            "mr": "कटक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "deogarh",
+          "name": {
+            "en": "Deogarh",
+            "hi": "देवगढ़",
+            "mr": "देवगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dhenkanal",
+          "name": {
+            "en": "Dhenkanal",
+            "hi": "ढेंकानाल",
+            "mr": "ढेंकानाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gajapati",
+          "name": {
+            "en": "Gajapati",
+            "hi": "गजपति",
+            "mr": "गजपती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ganjam",
+          "name": {
+            "en": "Ganjam",
+            "hi": "गंजाम",
+            "mr": "गंजाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jagatsinghpur",
+          "name": {
+            "en": "Jagatsinghpur",
+            "hi": "जगतसिंहपुर",
+            "mr": "जगतसिंहपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jajpur",
+          "name": {
+            "en": "Jajpur",
+            "hi": "जाजपुर",
+            "mr": "जाजपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jharsuguda",
+          "name": {
+            "en": "Jharsuguda",
+            "hi": "झारसुगुड़ा",
+            "mr": "झारसुगुडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kalahandi",
+          "name": {
+            "en": "Kalahandi",
+            "hi": "कालाहांडी",
+            "mr": "कालाहांडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kandhamal",
+          "name": {
+            "en": "Kandhamal",
+            "hi": "कंधमाल",
+            "mr": "कंधमाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kendrapara",
+          "name": {
+            "en": "Kendrapara",
+            "hi": "केंद्रापाड़ा",
+            "mr": "केंद्रापाडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kendujhar",
+          "name": {
+            "en": "Kendujhar",
+            "hi": "केंदुझर",
+            "mr": "केंदुझर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khordha",
+          "name": {
+            "en": "Khordha",
+            "hi": "खोर्धा",
+            "mr": "खोर्धा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "koraput",
+          "name": {
+            "en": "Koraput",
+            "hi": "कोरापुट",
+            "mr": "कोरापुट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "malkangiri",
+          "name": {
+            "en": "Malkangiri",
+            "hi": "मलकानगिरि",
+            "mr": "मलकानगिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mayurbhanj",
+          "name": {
+            "en": "Mayurbhanj",
+            "hi": "मयूरभंज",
+            "mr": "मयूरभंज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nabarangpur",
+          "name": {
+            "en": "Nabarangpur",
+            "hi": "नबरंगपुर",
+            "mr": "नबरंगपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nayagarh",
+          "name": {
+            "en": "Nayagarh",
+            "hi": "नयागढ़",
+            "mr": "नयागड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nuapada",
+          "name": {
+            "en": "Nuapada",
+            "hi": "नुआपाड़ा",
+            "mr": "नुआपाडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "puri",
+          "name": {
+            "en": "Puri",
+            "hi": "पुरी",
+            "mr": "पुरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rayagada",
+          "name": {
+            "en": "Rayagada",
+            "hi": "रायगड़ा",
+            "mr": "रायगडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sambalpur",
+          "name": {
+            "en": "Sambalpur",
+            "hi": "संबलपुर",
+            "mr": "संबलपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "subarnapur",
+          "name": {
+            "en": "Subarnapur",
+            "hi": "सुवर्णपुर",
+            "mr": "सुवर्णपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sundargarh",
+          "name": {
+            "en": "Sundargarh",
+            "hi": "सुंदरगढ़",
+            "mr": "सुंदरगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 30 districts (alphabetical)",
+        "hi": "30 ज़िले (वर्णानुक्रम)",
+        "mr": "30 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official district list (State notification)",
+            "hi": "आधिकारिक ज़िला सूची (राज्य अधिसूचना)",
+            "mr": "अधिकृत जिल्हा यादी (राज्य अधिसूचना)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Link the State's list of districts."
+        },
+        {
+          "label": {
+            "en": "City populations (Census 2011)",
+            "hi": "शहरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban agglomeration tables."
+        }
+      ]
+    }
+  ]
+}

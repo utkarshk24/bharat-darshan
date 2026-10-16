@@ -33,86 +33,135 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://odisha.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Sambar",
+        "hi": "सांभर",
+        "mr": "सांबर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Rusa unicolor",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Indian roller",
+        "hi": "नीलकंठ",
+        "mr": "नीलकंठ (चास)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Coracias benghalensis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Peepal (Ashwattha)",
+        "hi": "पीपल (अश्वत्थ)",
+        "mr": "पिंपळ (अश्वत्थ)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Ficus religiosa",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 41974218,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 2,12,12,136; females 2,07,62,082."
     },
     "area": {
-      "value": null,
+      "value": 155707,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 270,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 4,19,74,218 ÷ area 1,55,707 km² = 269.6."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 979,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (972 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 941,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 953 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 72.9,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,88 +174,892 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 988421,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25: ₹9,03,057 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 186761,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2024-25: ₹1,71,025."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 33.67,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 52,433.56 km² ÷ geographical area 1,55,707 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Hari Babu Kambhampati",
+        "hi": "हरि बाबू कंभमपति",
+        "mr": "हरी बाबू कंभमपती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2025-01-03",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/dr-hari-babu-kambhampati-sworn-in-as-27th-governor-of-odisha",
+      "verifyUrl": "https://rajbhavanodisha.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Sworn in as the 27th Governor of Odisha at Raj Bhavan, Bhubaneswar, on 3 January 2025 by Orissa High Court Chief Justice Chakradhari Sharan Singh (News On AIR). The President has since appointed Braj Mohan Ram as Governor of Odisha (communiqué reported on 13 October 2026); he had not been sworn in when this card was checked."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "name": {
+        "en": "Mohan Charan Majhi",
+        "hi": "मोहन चरण माझी",
+        "mr": "मोहन चरण माझी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "BJP",
+      "since": "2024-06-12",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://newsonair.gov.in/odisha-bjp-to-form-government-as-mohan-charan-majhi-sworn-in-as-cm-ending-24-year-bjd-rule",
+      "verifyUrl": "https://cmo.odisha.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "note": "Sworn in on 12 June 2024 at Janata Maidan, Bhubaneswar, heading the State's first BJP government (News On AIR)."
+    },
+    "others": [
+      {
+        "role": "deputy-chief-minister",
+        "name": {
+          "en": "Kanak Vardhan Singh Deo",
+          "hi": "कनक वर्धन सिंह देव",
+          "mr": "कनक वर्धन सिंह देव",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2024-06-12",
+        "asOf": "2026-10-16",
+        "sourceId": "newsonair",
+        "url": "https://newsonair.gov.in/odisha-bjp-to-form-government-as-mohan-charan-majhi-sworn-in-as-cm-ending-24-year-bjd-rule",
+        "verifyUrl": "https://odisha.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Sworn in with the Chief Minister on 12 June 2024 (News On AIR)."
+      },
+      {
+        "role": "deputy-chief-minister",
+        "name": {
+          "en": "Pravati Parida",
+          "hi": "प्रभाती परिडा",
+          "mr": "प्रभाती परिडा",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2024-06-12",
+        "asOf": "2026-10-16",
+        "sourceId": "newsonair",
+        "url": "https://newsonair.gov.in/odisha-bjp-to-form-government-as-mohan-charan-majhi-sworn-in-as-cm-ending-24-year-bjd-rule",
+        "verifyUrl": "https://odisha.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Sworn in with the Chief Minister on 12 June 2024 (News On AIR)."
+      },
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Surama Padhy",
+          "hi": "सुरमा पाढ़ी",
+          "mr": "सुरमा पाढी",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2024-06-20",
+        "asOf": "2026-10-16",
+        "sourceId": "odishabytes",
+        "url": "https://odishabytes.com/odisha-assembly-gets-its-2nd-woman-speaker-as-surama-padhy-elected-unopposed/",
+        "verifyUrl": "https://odishaassembly.nic.in",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Elected unopposed on 20 June 2024; MLA from Ranpur and the second woman Speaker of the Assembly, after Pramila Mallik (OdishaBytes)."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "sicsem-fab",
+      "name": {
+        "en": "SiCSem silicon-carbide semiconductor unit, Bhubaneswar",
+        "hi": "सिकसेम सिलिकॉन कार्बाइड सेमीकंडक्टर इकाई, भुवनेश्वर",
+        "mr": "सिकसेम सिलिकॉन कार्बाइड सेमीकंडक्टर प्रकल्प, भुवनेश्वर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A compound-semiconductor fabrication unit at Info Valley, Bhubaneswar, with technology from Clas-SiC Wafer Fab of the UK — described by the Union Cabinet as the country's first commercial compound fab — with planned capacity of 60,000 wafers and 96 million packaged units a year.",
+        "hi": "भुवनेश्वर की इन्फ़ो वैली में ब्रिटेन की क्लास-एसआईसी वेफ़र फ़ैब की तकनीक से कंपाउंड सेमीकंडक्टर निर्माण इकाई — केंद्रीय मंत्रिमंडल के अनुसार देश की पहली व्यावसायिक कंपाउंड फ़ैब — जिसकी नियोजित क्षमता प्रति वर्ष 60,000 वेफ़र और 9.6 करोड़ पैकेज्ड इकाइयाँ है।",
+        "mr": "भुवनेश्वरच्या इन्फो व्हॅलीत ब्रिटनच्या क्लास-एसआयसी वेफर फॅबच्या तंत्रज्ञानाने उभारला जाणारा कंपाउंड सेमीकंडक्टर निर्मिती प्रकल्प — केंद्रीय मंत्रिमंडळानुसार देशातील पहिली व्यावसायिक कंपाउंड फॅब — ज्याची नियोजित क्षमता दरवर्षी 60,000 वेफर्स व 9.6 कोटी पॅकेज्ड युनिट्स आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "industry",
+      "agency": "SiCSem Private Limited (India Semiconductor Mission)",
+      "start": "Approved 12 August 2025",
+      "completion": null,
+      "status": "Announced",
+      "asOf": "2026-10-16",
+      "sourceId": "pmindia",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-semiconductor-manufacturing-units-in-odisha-punjab-and-andhra-pradesh-with-an-outlay-of-rs-4600-crore",
+      "confidence": "Official"
+    },
+    {
+      "id": "3dgs-packaging",
+      "name": {
+        "en": "3D Glass Solutions advanced packaging unit, Bhubaneswar",
+        "hi": "3डी ग्लास सॉल्यूशंस उन्नत पैकेजिंग इकाई, भुवनेश्वर",
+        "mr": "3डी ग्लास सोल्यूशन्स प्रगत पॅकेजिंग प्रकल्प, भुवनेश्वर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "An advanced semiconductor packaging and embedded glass-substrate unit at Info Valley, approved together with the SiCSem unit. The Cabinet gave a combined investment of about ₹4,600 crore for the four units approved that day in Odisha, Punjab and Andhra Pradesh, without a break-up by unit.",
+        "hi": "इन्फ़ो वैली में उन्नत सेमीकंडक्टर पैकेजिंग और एम्बेडेड ग्लास-सब्सट्रेट इकाई, जिसे सिकसेम इकाई के साथ मंज़ूरी मिली। मंत्रिमंडल ने उस दिन ओडिशा, पंजाब और आंध्र प्रदेश में मंज़ूर चार इकाइयों के लिए लगभग ₹4,600 करोड़ का संयुक्त निवेश बताया, इकाईवार विभाजन के बिना।",
+        "mr": "इन्फो व्हॅलीतील प्रगत सेमीकंडक्टर पॅकेजिंग व एम्बेडेड काच-सब्सट्रेट प्रकल्प, ज्याला सिकसेम प्रकल्पासोबत मंजुरी मिळाली. मंत्रिमंडळाने त्या दिवशी ओडिशा, पंजाब व आंध्र प्रदेशात मंजूर केलेल्या चार प्रकल्पांसाठी सुमारे ₹4,600 कोटींची एकत्रित गुंतवणूक सांगितली, प्रकल्पनिहाय विभागणीशिवाय.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "industry",
+      "agency": "3D Glass Solutions Inc. (India Semiconductor Mission)",
+      "start": "Approved 12 August 2025",
+      "completion": null,
+      "status": "Announced",
+      "asOf": "2026-10-16",
+      "sourceId": "pmindia",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-semiconductor-manufacturing-units-in-odisha-punjab-and-andhra-pradesh-with-an-outlay-of-rs-4600-crore",
+      "confidence": "Official"
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "ganjam-kewda-flower",
+      "name": {
+        "en": "Ganjam Kewda Flower",
+        "hi": "गंजाम केवड़ा फूल",
+        "mr": "गंजाम केवडा फूल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "229",
+      "filingDate": "2010-12-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kandhamal-haladi",
+      "name": {
+        "en": "Kandhamal Haladi",
+        "hi": "कंधमाल हल्दी",
+        "mr": "कंधमाल हळद",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "610",
+      "filingDate": "2018-01-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "nayagarh-kanteimundi-brinjal",
+      "name": {
+        "en": "Nayagarh Kanteimundi Brinjal",
+        "hi": "नयागढ़ कंटेइमुंडी बैंगन",
+        "mr": "नयागड कंटेइमुंडी वांगे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "739",
+      "filingDate": "2021-02-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "koraput-kalajeera-rice",
+      "name": {
+        "en": "Koraput Kalajeera Rice",
+        "hi": "कोरापुट कालाजीरा चावल",
+        "mr": "कोरापुट कालाजीरा तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "814",
+      "filingDate": "2022-01-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "odisha-rasagola",
+      "name": {
+        "en": "Odisha Rasagola",
+        "hi": "ओडिशा रसगोला",
+        "mr": "ओडिशा रसगोला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "612",
+      "filingDate": "2018-02-23",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kendrapara-rasabali",
+      "name": {
+        "en": "Kendrapara Rasabali",
+        "hi": "केंद्रापाड़ा रसाबली",
+        "mr": "केंद्रापाडा रसाबली",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "802",
+      "filingDate": "2021-12-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "odisha-khajuri-guda",
+      "name": {
+        "en": "Odisha Khajuri Guda",
+        "hi": "ओडिशा खजूरी गुड़",
+        "mr": "ओडिशा खजुरी गूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "690",
+      "filingDate": "2020-06-12",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "dhenkanal-magji",
+      "name": {
+        "en": "Dhenkanal Magji",
+        "hi": "ढेंकानाल मगजी",
+        "mr": "ढेंकानाल मगजी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "724",
+      "filingDate": "2020-12-07",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "similipal-kai-chutney-of-odisha",
+      "name": {
+        "en": "Similipal Kai Chutney of Odisha",
+        "hi": "ओडिशा की सिमलीपाल काई चटनी",
+        "mr": "ओडिशाची सिमलीपाल काई चटणी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "725",
+      "filingDate": "2020-12-07",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kotpad-handloom-fabric",
+      "name": {
+        "en": "Kotpad Handloom Fabric",
+        "hi": "कोटपाड हथकरघा वस्त्र",
+        "mr": "कोटपाड हातमाग वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "10",
+      "filingDate": "2004-06-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "orissa-ikat",
+      "name": {
+        "en": "Orissa Ikat",
+        "hi": "उड़ीसा इकत",
+        "mr": "ओरिसा इकत",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "22",
+      "filingDate": "2005-02-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "pipli-applique-work",
+      "name": {
+        "en": "Pipli Applique Work",
+        "hi": "पिपली एप्लिक काम",
+        "mr": "पिपली ऍप्लिक काम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "86 & 108",
+      "filingDate": "2007-04-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date. The registry lists two application numbers for this GI; the date shown is the earlier filing."
+    },
+    {
+      "id": "konark-stone-carving",
+      "name": {
+        "en": "Konark Stone Carving",
+        "hi": "कोणार्क पत्थर नक्काशी",
+        "mr": "कोणार्क दगडी कोरीवकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "87 & 544",
+      "filingDate": "2007-04-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date. The registry lists two application numbers for this GI; the date shown is the earlier filing."
+    },
+    {
+      "id": "orissa-pattachitra",
+      "name": {
+        "en": "Orissa Pattachitra",
+        "hi": "उड़ीसा पट्टचित्र",
+        "mr": "ओरिसा पट्टचित्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "88",
+      "filingDate": "2007-04-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "khandua-saree-and-fabrics",
+      "name": {
+        "en": "Khandua Saree And Fabrics",
+        "hi": "खंडुआ साड़ी और वस्त्र",
+        "mr": "खंडुआ साडी व वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "136",
+      "filingDate": "2008-09-12",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "gopalpur-tussar-fabrics",
+      "name": {
+        "en": "Gopalpur Tussar Fabrics",
+        "hi": "गोपालपुर तसर वस्त्र",
+        "mr": "गोपालपूर टसर वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "167",
+      "filingDate": "2009-04-15",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "dhalapathar-parda-fabrics",
+      "name": {
+        "en": "Dhalapathar Parda & Fabrics",
+        "hi": "ढलपाथर पर्दा और वस्त्र",
+        "mr": "ढलपाथर पडदा व वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "207",
+      "filingDate": "2010-07-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sambalpuri-bandha-saree-fabrics",
+      "name": {
+        "en": "Sambalpuri Bandha Saree & Fabrics",
+        "hi": "संबलपुरी बांधा साड़ी और वस्त्र",
+        "mr": "संबलपुरी बांधा साडी व वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "208",
+      "filingDate": "2010-07-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bomkai-saree-fabrics",
+      "name": {
+        "en": "Bomkai Saree & Fabrics",
+        "hi": "बोमकाई साड़ी और वस्त्र",
+        "mr": "बोमकाई साडी व वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "217",
+      "filingDate": "2010-09-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "habaspuri-saree-fabrics",
+      "name": {
+        "en": "Habaspuri Saree & Fabrics",
+        "hi": "हबासपुरी साड़ी और वस्त्र",
+        "mr": "हबासपुरी साडी व वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "219",
+      "filingDate": "2010-09-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "berhampur-patta-phoda-kumbha-saree-joda",
+      "name": {
+        "en": "Berhampur Patta (Phoda Kumbha) Saree & Joda",
+        "hi": "बरहमपुर पट्ट (फोड़ा कुंभ) साड़ी और जोड़ा",
+        "mr": "बेरहमपूर पट्ट (फोडा कुंभ) साडी व जोडा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "220",
+      "filingDate": "2010-09-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "orissa-pattachitra-logo",
+      "name": {
+        "en": "Orissa Pattachitra (Logo)",
+        "hi": "उड़ीसा पट्टचित्र (लोगो)",
+        "mr": "ओरिसा पट्टचित्र (बोधचिन्ह)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "386",
+      "filingDate": "2012-10-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kapadaganda-dungaria-kondh-embroidery-shawl",
+      "name": {
+        "en": "Kapadaganda: Dungaria Kondh Embroidery Shawl",
+        "hi": "कपड़गंडा: डोंगरिया कोंध कढ़ाई शॉल",
+        "mr": "कपडगंडा: डोंगरिया कोंध भरतकाम शाल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "773",
+      "filingDate": "2021-08-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "painting-of-lanjia-saura-idital-odisha",
+      "name": {
+        "en": "Painting of Lanjia Saura (IDITAL), Odisha",
+        "hi": "ओडिशा की लांजिया सौरा चित्रकला (इडिताल)",
+        "mr": "ओडिशाची लांजिया सौरा चित्रकला (इडिताल)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "871",
+      "filingDate": "2022-04-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "cuttack-rupa-tarakasi-silver-filigree",
+      "name": {
+        "en": "Cuttack Rupa Tarakasi (Silver Filigree)",
+        "hi": "कटक रूपा तारकशी (चाँदी की फ़िलिग्री)",
+        "mr": "कटक रूपा तारकशी (चांदीचे जाळीकाम)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "767",
+      "filingDate": "2021-07-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ganjam-kewda-rooh",
+      "name": {
+        "en": "Ganjam Kewda Rooh",
+        "hi": "गंजाम केवड़ा रूह",
+        "mr": "गंजाम केवडा रूह",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "228",
+      "filingDate": "2010-12-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-16",
+    "editorialStatus": "draft"
   },
   "localName": {
     "lang": "or",

@@ -1,0 +1,98 @@
+{
+  "region": "IN-OR",
+  "module": "sports",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Hockey is Odisha's signature sport. Sundargarh district, with its strong tribal hockey tradition, has produced many India players, including Dilip Tirkey and Amit Rohidas, and the State has sponsored India's national hockey teams since 2018. Bhubaneswar's Kalinga Stadium hosted the men's Hockey World Cup in 2018 and co-hosted the 2023 edition with the new Birsa Munda stadium in Rourkela. Sprinter Dutee Chand has won Asian Games medals, and the Barabati Stadium in Cuttack is a well-known cricket ground. The Kalinga Stadium also has a high-performance athletics centre.",
+        "hi": "हॉकी ओडिशा का पहचान वाला खेल है। मज़बूत जनजातीय हॉकी परंपरा वाले सुंदरगढ़ ज़िले ने दिलीप तिर्की और अमित रोहिदास सहित भारत के कई खिलाड़ी दिए हैं, और राज्य 2018 से भारत की राष्ट्रीय हॉकी टीमों का प्रायोजक है। भुवनेश्वर के कलिंग स्टेडियम ने 2018 में पुरुष हॉकी विश्व कप की मेज़बानी की और 2023 का संस्करण राउरकेला के नए बिरसा मुंडा स्टेडियम के साथ मिलकर आयोजित किया। धाविका दुती चंद ने एशियाई खेलों में पदक जीते हैं, और कटक का बाराबाटी स्टेडियम प्रसिद्ध क्रिकेट मैदान है। कलिंग स्टेडियम में एक उच्च-प्रदर्शन एथलेटिक्स केंद्र भी है।",
+        "mr": "हॉकी हा ओडिशाचा ओळख असलेला खेळ आहे. मजबूत आदिवासी हॉकी परंपरा असलेल्या सुंदरगड जिल्ह्याने दिलीप तिर्की व अमित रोहिदास यांच्यासह भारताचे अनेक खेळाडू दिले आहेत, आणि राज्य 2018 पासून भारताच्या राष्ट्रीय हॉकी संघांचे प्रायोजक आहे. भुवनेश्वरच्या कलिंग स्टेडियमने 2018 मध्ये पुरुष हॉकी विश्वचषक आयोजित केला आणि 2023 ची स्पर्धा राउरकेलाच्या नव्या बिरसा मुंडा स्टेडियमसोबत संयुक्तपणे आयोजित केली. धावपटू दुती चंद यांनी आशियाई स्पर्धांत पदके जिंकली आहेत, आणि कटकचे बाराबाटी स्टेडियम हे प्रसिद्ध क्रिकेट मैदान आहे. कलिंग स्टेडियममध्ये उच्च-कामगिरी ॲथलेटिक्स केंद्रही आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "kalinga",
+          "name": {
+            "en": "Kalinga Stadium, Bhubaneswar",
+            "hi": "कलिंग स्टेडियम, भुवनेश्वर",
+            "mr": "कलिंग स्टेडियम, भुवनेश्वर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "birsa",
+          "name": {
+            "en": "Birsa Munda Hockey Stadium, Rourkela",
+            "hi": "बिरसा मुंडा हॉकी स्टेडियम, राउरकेला",
+            "mr": "बिरसा मुंडा हॉकी स्टेडियम, राउरकेला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "barabati",
+          "name": {
+            "en": "Barabati Stadium, Cuttack",
+            "hi": "बाराबाटी स्टेडियम, कटक",
+            "mr": "बाराबाटी स्टेडियम, कटक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Olympic and Asian Games medallists from Odisha (official list)",
+            "hi": "ओडिशा के ओलंपिक और एशियाई खेल पदक विजेता (आधिकारिक सूची)",
+            "mr": "ओडिशाचे ऑलिम्पिक व आशियाई स्पर्धा पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Odisha Sports and Youth Services Department."
+        }
+      ]
+    }
+  ]
+}

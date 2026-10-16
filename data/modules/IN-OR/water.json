@@ -1,0 +1,68 @@
+{
+  "region": "IN-OR",
+  "module": "water",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Odisha's rivers bring both irrigation and floods. The Hirakud dam on the Mahanadi near Sambalpur, completed in the 1950s, is one of the world's longest earthen dams and irrigates much of western Odisha; Rengali on the Brahmani, Upper Indravati and Upper Kolab irrigate other regions. The deltas of the Mahanadi, Brahmani and Baitarani flood when heavy monsoon rain coincides with high tides, and storm surges during cyclones push sea water inland. Odisha and Chhattisgarh dispute the sharing of the Mahanadi's water, a matter before an inter-State tribunal. Western districts such as Bolangir and Kalahandi have faced recurring drought, and fluoride affects groundwater in some areas.",
+        "hi": "ओडिशा की नदियाँ सिंचाई और बाढ़ दोनों लाती हैं। संबलपुर के पास महानदी पर 1950 के दशक में पूरा हुआ हीराकुद बाँध दुनिया के सबसे लंबे मिट्टी के बाँधों में से है और पश्चिमी ओडिशा के बड़े भाग की सिंचाई करता है; ब्राह्मणी पर रेंगाली, अपर इंद्रावती और अपर कोलाब अन्य क्षेत्रों की सिंचाई करते हैं। महानदी, ब्राह्मणी और वैतरणी के डेल्टा तब डूबते हैं जब भारी मानसूनी वर्षा और ऊँचा ज्वार एक साथ आते हैं, और चक्रवातों में तूफ़ानी लहरें समुद्री पानी को भीतर धकेलती हैं। महानदी के पानी के बँटवारे पर ओडिशा और छत्तीसगढ़ में विवाद है, जो एक अंतरराज्यीय न्यायाधिकरण के समक्ष है। बलांगीर और कालाहांडी जैसे पश्चिमी ज़िलों ने बार-बार सूखा झेला है, और कुछ क्षेत्रों के भूजल में फ़्लोराइड है।",
+        "mr": "ओडिशाच्या नद्या सिंचन व पूर दोन्ही आणतात. संबलपूरजवळ महानदीवर 1950 च्या दशकात पूर्ण झालेले हिराकुड धरण हे जगातील सर्वांत लांब मातीच्या धरणांपैकी एक असून पश्चिम ओडिशाच्या मोठ्या भागाला सिंचन देते; ब्राह्मणीवरील रेंगाली, अपर इंद्रावती व अपर कोलाब इतर भागांना सिंचन देतात. महानदी, ब्राह्मणी व वैतरणीचे त्रिभुज प्रदेश मुसळधार मान्सूनी पाऊस व उंच भरती एकत्र आल्यावर पुराखाली जातात, आणि चक्रीवादळांत वादळी लाटा समुद्राचे पाणी आत ढकलतात. महानदीच्या पाणीवाटपावरून ओडिशा व छत्तीसगडमध्ये वाद आहे, जो आंतरराज्य लवादासमोर आहे. बलांगीर व कालाहांडीसारख्या पश्चिमेकडील जिल्ह्यांनी वारंवार दुष्काळ सोसला आहे, आणि काही भागांतील भूजलात फ्लोराइड आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Flood-affected area and population by year",
+            "hi": "वर्षवार बाढ़ प्रभावित क्षेत्र और जनसंख्या",
+            "mr": "वर्षनिहाय पूरग्रस्त क्षेत्र व लोकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Odisha Special Relief Commissioner reports."
+        },
+        {
+          "label": {
+            "en": "Irrigated area",
+            "hi": "सिंचित क्षेत्र",
+            "mr": "सिंचित क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Odisha Economic Survey / Water Resources Department."
+        },
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        }
+      ]
+    }
+  ]
+}

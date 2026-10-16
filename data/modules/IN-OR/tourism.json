@@ -1,0 +1,326 @@
+{
+  "region": "IN-OR",
+  "module": "tourism",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Odisha's 'golden triangle' links Bhubaneswar's temples, Puri's Jagannath temple and beach, and the Sun Temple at Konark. Nearby are the Jain caves of Udayagiri and Khandagiri, the Ashokan edicts at Dhauli, the crafts village of Raghurajpur and the appliqué shops of Pipli. Chilika offers boat trips to see dolphins and birds; Similipal and Bhitarkanika are wildlife destinations; the Buddhist sites of Ratnagiri, Lalitgiri and Udayagiri lie in Jajpur; and the hills of Koraput, with Duduma falls and tribal markets, attract travellers to the south. Gopalpur and Chandipur are quieter beaches.",
+        "hi": "ओडिशा का 'स्वर्ण त्रिकोण' भुवनेश्वर के मंदिरों, पुरी के जगन्नाथ मंदिर और समुद्र तट, और कोणार्क के सूर्य मंदिर को जोड़ता है। पास में उदयगिरि और खंडगिरि की जैन गुफाएँ, धौली के अशोक शिलालेख, शिल्प ग्राम रघुराजपुर और पिपली की एप्लिक दुकानें हैं। चिलिका में डॉल्फ़िन और पक्षी देखने के लिए नौका विहार होता है; सिमलीपाल और भितरकनिका वन्यजीव स्थल हैं; रत्नगिरि, ललितगिरि और उदयगिरि के बौद्ध स्थल जाजपुर में हैं; और दुदुमा जलप्रपात व जनजातीय हाटों वाली कोरापुट की पहाड़ियाँ दक्षिण में यात्रियों को खींचती हैं। गोपालपुर और चांदीपुर शांत समुद्र तट हैं।",
+        "mr": "ओडिशाचा 'सुवर्ण त्रिकोण' भुवनेश्वरची मंदिरे, पुरीचे जगन्नाथ मंदिर व किनारा आणि कोणार्कचे सूर्य मंदिर यांना जोडतो. जवळच उदयगिरी व खंडगिरीची जैन लेणी, धौलीचे अशोकाचे शिलालेख, रघुराजपूर हे हस्तकलेचे गाव व पिपलीची ऍप्लिकची दुकाने आहेत. चिलिकेत डॉल्फिन व पक्षी पाहण्यासाठी नौकाविहार होतो; सिमलीपाल व भितरकनिका ही वन्यजीव स्थळे आहेत; रत्नगिरी, ललितगिरी व उदयगिरीची बौद्ध स्थळे जाजपूरमध्ये आहेत; आणि दुदुमा धबधबा व आदिवासी बाजारांचे कोरापुटचे डोंगर दक्षिणेत प्रवाशांना आकर्षित करतात. गोपाळपूर व चांदीपूर हे शांत किनारे आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "puri",
+          "name": {
+            "en": "Puri",
+            "hi": "पुरी",
+            "mr": "पुरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jagannath temple; beach",
+            "hi": "जगन्नाथ मंदिर; समुद्र तट",
+            "mr": "जगन्नाथ मंदिर; किनारा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "konark",
+          "name": {
+            "en": "Konark",
+            "hi": "कोणार्क",
+            "mr": "कोणार्क",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO Sun Temple",
+            "hi": "यूनेस्को सूर्य मंदिर",
+            "mr": "युनेस्को सूर्य मंदिर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bbsr",
+          "name": {
+            "en": "Bhubaneswar",
+            "hi": "भुवनेश्वर",
+            "mr": "भुवनेश्वर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Temple city; Udayagiri caves",
+            "hi": "मंदिर नगरी; उदयगिरि गुफाएँ",
+            "mr": "मंदिरनगरी; उदयगिरी लेणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chilika",
+          "name": {
+            "en": "Chilika Lake",
+            "hi": "चिलिका झील",
+            "mr": "चिलिका सरोवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Dolphins and birds",
+            "hi": "डॉल्फ़िन और पक्षी",
+            "mr": "डॉल्फिन व पक्षी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "similipal",
+          "name": {
+            "en": "Similipal",
+            "hi": "सिमलीपाल",
+            "mr": "सिमलीपाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Tiger reserve; waterfalls",
+            "hi": "बाघ अभयारण्य; झरने",
+            "mr": "व्याघ्र प्रकल्प; धबधबे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhitarkanika",
+          "name": {
+            "en": "Bhitarkanika",
+            "hi": "भितरकनिका",
+            "mr": "भितरकनिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mangroves and crocodiles",
+            "hi": "मैंग्रोव और मगरमच्छ",
+            "mr": "खारफुटी व मगरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "koraput",
+          "name": {
+            "en": "Koraput",
+            "hi": "कोरापुट",
+            "mr": "कोरापुट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hills and tribal haats",
+            "hi": "पहाड़ियाँ और जनजातीय हाट",
+            "mr": "डोंगर व आदिवासी बाजार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Bhubaneswar's temples, Udayagiri–Khandagiri and Dhauli.",
+            "hi": "भुवनेश्वर के मंदिर, उदयगिरि–खंडगिरि और धौली।",
+            "mr": "भुवनेश्वरची मंदिरे, उदयगिरी–खंडगिरी व धौली.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "The golden triangle: Bhubaneswar, Puri and Konark, with Raghurajpur.",
+            "hi": "स्वर्ण त्रिकोण: भुवनेश्वर, पुरी और कोणार्क, साथ में रघुराजपुर।",
+            "mr": "सुवर्ण त्रिकोण: भुवनेश्वर, पुरी व कोणार्क, सोबत रघुराजपूर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Golden triangle plus Chilika (Satapada or Rambha) and Bhitarkanika.",
+            "hi": "स्वर्ण त्रिकोण के साथ चिलिका (सातपाड़ा या रंभा) और भितरकनिका।",
+            "mr": "सुवर्ण त्रिकोणासोबत चिलिका (सातपाडा किंवा रंभा) व भितरकनिका.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ot",
+          "name": {
+            "en": "Odisha Tourism (official)",
+            "hi": "ओडिशा पर्यटन (आधिकारिक)",
+            "mr": "ओडिशा पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://odishatourism.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        }
+      ]
+    }
+  ]
+}

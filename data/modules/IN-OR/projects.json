@@ -1,0 +1,61 @@
+{
+  "region": "IN-OR",
+  "module": "projects",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "In August 2025 the Union Cabinet approved two semiconductor units at Info Valley, Bhubaneswar, under the India Semiconductor Mission. Odisha's other large works include new railway lines in the interior, port and industrial-corridor projects along the coast, and steel and aluminium expansions. Each card shows its source and the date it was checked.",
+        "hi": "अगस्त 2025 में केंद्रीय मंत्रिमंडल ने भारत सेमीकंडक्टर मिशन के तहत भुवनेश्वर की इन्फ़ो वैली में दो सेमीकंडक्टर इकाइयों को मंज़ूरी दी। ओडिशा के अन्य बड़े कार्यों में भीतरी क्षेत्रों में नई रेल लाइनें, तट पर बंदरगाह और औद्योगिक गलियारा परियोजनाएँ, और इस्पात व एल्युमिनियम विस्तार शामिल हैं। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "ऑगस्ट 2025 मध्ये केंद्रीय मंत्रिमंडळाने भारत सेमीकंडक्टर मिशनअंतर्गत भुवनेश्वरच्या इन्फो व्हॅलीत दोन सेमीकंडक्टर प्रकल्पांना मंजुरी दिली. ओडिशाच्या इतर मोठ्या कामांत अंतर्गत भागांतील नवे रेल्वेमार्ग, किनाऱ्यावरील बंदर व औद्योगिक मार्गिका प्रकल्प आणि पोलाद व ॲल्युमिनियम विस्तार यांचा समावेश आहे. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pmindia"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Khurda Road–Bolangir rail line — status",
+            "hi": "खुर्दा रोड–बलांगीर रेल लाइन — स्थिति",
+            "mr": "खुर्दा रोड–बलांगीर रेल्वेमार्ग — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "East Coast Railway / Ministry of Railways."
+        },
+        {
+          "label": {
+            "en": "Puri international airport — status",
+            "hi": "पुरी अंतरराष्ट्रीय हवाई अड्डा — स्थिति",
+            "mr": "पुरी आंतरराष्ट्रीय विमानतळ — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "civil-aviation",
+          "note": "Ministry of Civil Aviation."
+        }
+      ]
+    }
+  ]
+}

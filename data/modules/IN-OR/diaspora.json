@@ -1,0 +1,55 @@
+{
+  "region": "IN-OR",
+  "module": "diaspora",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Odisha's links overseas are ancient: Kalinga's sailors traded with Sri Lanka, Bali, Java and other parts of South-East Asia, a memory celebrated each year at Cuttack's Bali Jatra. In modern times many workers from Ganjam and other districts have migrated to Surat's textile and diamond industries, to Kerala, Tamil Nadu and Andhra Pradesh, and to the Gulf. Odia communities in the United States and elsewhere hold Rath Yatras of their own, and the State government runs an annual conclave for the Odia diaspora.",
+        "hi": "ओडिशा के विदेशी संबंध प्राचीन हैं: कलिंग के नाविक श्रीलंका, बाली, जावा और दक्षिण-पूर्व एशिया के अन्य भागों से व्यापार करते थे, जिसकी स्मृति हर वर्ष कटक की बाली जात्रा में मनाई जाती है। आधुनिक समय में गंजाम और अन्य ज़िलों के बहुत से श्रमिक सूरत के वस्त्र और हीरा उद्योगों, केरल, तमिलनाडु और आंध्र प्रदेश, और खाड़ी देशों में गए हैं। संयुक्त राज्य अमेरिका और अन्य जगहों के ओड़िया समुदाय अपनी रथयात्राएँ निकालते हैं, और राज्य सरकार ओड़िया प्रवासियों के लिए वार्षिक सम्मेलन आयोजित करती है।",
+        "mr": "ओडिशाचे परदेशाशी संबंध प्राचीन आहेत: कलिंगचे नाविक श्रीलंका, बाली, जावा व आग्नेय आशियाच्या इतर भागांशी व्यापार करत, ज्याची आठवण दरवर्षी कटकच्या बाली जात्रेत साजरी होते. आधुनिक काळात गंजाम व इतर जिल्ह्यांतील अनेक कामगार सुरतच्या वस्त्र व हिरे उद्योगांत, केरळ, तमिळनाडू व आंध्र प्रदेशात आणि आखाती देशांत गेले आहेत. अमेरिका व इतरत्र ओडिया समुदाय स्वतःच्या रथयात्रा काढतात, आणि राज्य सरकार ओडिया प्रवासी समुदायासाठी वार्षिक संमेलन भरवते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants and internal migrants",
+            "hi": "प्रवासियों और आंतरिक प्रवासियों की संख्या",
+            "mr": "परदेशी व देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables; MEA."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "region": "IN-OR",
+  "module": "government",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Odisha has a unicameral legislature, the 147-member Legislative Assembly in Bhubaneswar. The State elects 21 members to the Lok Sabha and 10 to the Rajya Sabha.\n\nAssembly and Lok Sabha elections were held together in 2024. The BJP formed the government, ending 24 years of rule by the Biju Janata Dal under Naveen Patnaik, and Mohan Charan Majhi, a tribal leader from Kendujhar, was sworn in as Chief Minister on 12 June 2024, with Kanak Vardhan Singh Deo and Pravati Parida as Deputy Chief Ministers (News On AIR). Surama Padhy is Speaker. Dr Hari Babu Kambhampati became Governor in January 2025; the President appointed Braj Mohan Ram as his successor in October 2026.",
+        "hi": "ओडिशा में एकसदनीय विधानमंडल है, भुवनेश्वर में 147 सदस्यों वाली विधानसभा। राज्य से लोकसभा के 21 और राज्यसभा के 10 सदस्य चुने जाते हैं।\n\n2024 में विधानसभा और लोकसभा चुनाव एक साथ हुए। भाजपा ने सरकार बनाई, जिससे नवीन पटनायक के नेतृत्व में बीजू जनता दल का 24 वर्ष का शासन समाप्त हुआ, और केंदुझर के जनजातीय नेता मोहन चरण माझी ने 12 जून 2024 को मुख्यमंत्री पद की शपथ ली, कनक वर्धन सिंह देव और प्रभाती परिडा उपमुख्यमंत्री बने (न्यूज़ ऑन एआईआर)। सुरमा पाढ़ी अध्यक्ष हैं। डॉ. हरि बाबू कंभमपति जनवरी 2025 में राज्यपाल बने; राष्ट्रपति ने अक्टूबर 2026 में ब्रज मोहन राम को उनका उत्तराधिकारी नियुक्त किया।",
+        "mr": "ओडिशात एकसदनी विधिमंडळ आहे, भुवनेश्वरमधील 147 सदस्यांची विधानसभा. राज्यातून लोकसभेवर 21 व राज्यसभेवर 10 सदस्य निवडले जातात.\n\n2024 मध्ये विधानसभा व लोकसभा निवडणुका एकत्र झाल्या. भाजपने सरकार स्थापन केले, ज्यामुळे नवीन पटनायक यांच्या नेतृत्वाखालील बिजू जनता दलाची 24 वर्षांची सत्ता संपली, आणि केंदुझरचे आदिवासी नेते मोहन चरण माझी यांनी 12 जून 2024 रोजी मुख्यमंत्रिपदाची शपथ घेतली, कनक वर्धन सिंह देव व प्रभाती परिडा उपमुख्यमंत्री झाले (न्यूज ऑन एआयआर). सुरमा पाढी अध्यक्ष आहेत. डॉ. हरी बाबू कंभमपती जानेवारी 2025 मध्ये राज्यपाल झाले; राष्ट्रपतींनी ऑक्टोबर 2026 मध्ये ब्रज मोहन राम यांची त्यांचे उत्तराधिकारी म्हणून नियुक्ती केली.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "newsonair",
+        "odishabytes"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "noa",
+          "name": {
+            "en": "News On AIR: Mohan Charan Majhi sworn in (12 Jun 2024)",
+            "hi": "न्यूज़ ऑन एआईआर: मोहन चरण माझी ने शपथ ली (12 जून 2024)",
+            "mr": "न्यूज ऑन एआयआर: मोहन चरण माझी यांचा शपथविधी (12 जून 2024)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://newsonair.gov.in/odisha-bjp-to-form-government-as-mohan-charan-majhi-sworn-in-as-cm-ending-24-year-bjd-rule",
+          "sourceId": "newsonair"
+        },
+        {
+          "id": "rajbhavan",
+          "name": {
+            "en": "Raj Bhavan, Odisha",
+            "hi": "राजभवन, ओडिशा",
+            "mr": "राजभवन, ओडिशा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rajbhavanodisha.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Odisha",
+            "hi": "ओडिशा सरकार",
+            "mr": "ओडिशा शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://odisha.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "2024 Assembly election — party-wise result",
+            "hi": "2024 विधानसभा चुनाव — दलवार परिणाम",
+            "mr": "2024 विधानसभा निवडणूक — पक्षनिहाय निकाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "ECI statistical report for Odisha 2024."
+        },
+        {
+          "label": {
+            "en": "Leader of Opposition — official notice",
+            "hi": "नेता प्रतिपक्ष — आधिकारिक सूचना",
+            "mr": "विरोधी पक्षनेते — अधिकृत सूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Assembly secretariat."
+        },
+        {
+          "label": {
+            "en": "Local bodies by type",
+            "hi": "प्रकार के अनुसार स्थानीय निकाय",
+            "mr": "प्रकारानुसार स्थानिक स्वराज्य संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Panchayati Raj and Housing & Urban Development departments."
+        }
+      ]
+    }
+  ]
+}

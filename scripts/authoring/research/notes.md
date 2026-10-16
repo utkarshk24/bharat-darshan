@@ -118,3 +118,17 @@
 - Kolkata metro 13.61 km (3 stretches) opened 22 Aug 2025; Kona Expressway 7.2 km >₹1,200 cr foundation (PIB 2159869).
 - GI: 35 WB-only incl. Darjeeling Tea (App 1 & 2); Dalle Khursani shared with Sikkim.
 - ES India 2021-22 Stat App: tab 8.1 LE 2014-18 KA 69.4, GJ 69.9, WB 71.6, India 69.4; tab 8.2 IMR 2019 KA 21, GJ 25, WB 20; BR/DR 2019 KA 16.9/6.2, GJ 19.5/5.6, WB 14.9/5.3.
+
+# Phase 3 batch 3 (accessed 2026-10-16)
+- MoSPI NAS codes: AP 01, BR 04, MP 14, RJ 22, TG 25 (mospi_ap/br/mp/rj/tg.json). PLFS codes AP 1, BR 4, MP 15, RJ 23, TG 26. NFHS/AISHE codes AP 1, BR 4, MP 14, RJ 22, TG 25.
+- AISHE GER 2017-18..2021-22 saved for all regions; M/F 2021-22 for batch 2/3 States (aishe_ger_mf_2021_22).
+- PYD table: RJ 68,548,437 (M 35,550,997 F 32,997,440) SR 921→928; BR 104,099,452 (54,278,157/49,821,295) 919→918; MP 72,626,809 (37,612,306/35,014,503) 919→931. AP row is undivided (84,580,777).
+- PIB CSR 2001→2011: AP (undivided) 961→939; RJ 909→888; MP 932→918; BR 942→935.
+- ES 2021-22 tab 8.5 literacy 2011: AP (undivided) 67.0, RJ 66.1, MP 69.3, BR 61.8. Tab 8.1 LE 2014-18: AP 70.0 (M 68.7 F 71.4; incl. TG to 2014), BR 69.1 (69.4/68.7), MP 66.5 (64.8/68.5), RJ 68.7 (66.5/71.6). ES 2023-24 tab 8.2 (2010→2020): BR/DR/IMR AP 17.9/7.6/46→15.7/6.3/24; RJ 26.7/6.7/55→23.5/5.6/32; MP 27.3/8.3/62→24.1/6.5/43; BR 28.1/6.8/48→25.5/5.4/27; TG 2020 only 16.4/6.0/21; KA 2020 16.5/6.2/19; GJ 19.3/5.6/23; WB 14.6/5.5/19; India 19.5/6.0/28.
+- Residual AP (13 districts incl. Polavaram mandals) — AP School Education 'Educational Statistics 2017-18' (cse.ap.gov.in): pop 49,577,103 (M 24,830,513 F 24,746,590); urban 14,610,410; SC 8,469,278; ST 2,740,133; SR 997; literacy 67.35 (M 74.77 F 59.96); density 304; growth 9.21. AP SES 2024-25 (apfinance S3): 26 districts, coastline 974 km, foodgrains 2024-25 2nd AE 161.86 lakh t, paddy 127.15, fish 41.38 LMT, capacity 27,392 MW, six operational ports.
+- Telangana — MSME-DI Hyderabad 'State Profile 2015-16' (dcmsme.gov.in): pop 35,003,674 (M 17,611,633 F 17,392,041); urban 13,608,665 (38.88%); SC 5,408,800; ST 3,177,940; SR 988; CSR 932; literacy 66.54 (M 75.04 F 57.99); density 312; growth 13.58. TG SEO 2024: 33 districts, 620 mandals, 12,769 GPs.
+- Delhi Planning table 17.2 SC/ST (lakh, %): AP (undivided) 138.78 16.4 / 59.18 7.0; RJ 122.21 17.8 / 92.38 13.5; MP 113.42 15.6 / 153.17 21.1; BR 165.67 15.9 / 13.36 1.3.
+- Forest LS AU1550 (GA; 2021→2023 km²): AP 1,62,968; 30,223.62→30,084.96. TG 1,12,077; 21,279.46→21,179.04. RJ 3,42,239; 16,632.01→16,548.21. MP 3,08,252; 77,444.98→77,073.44. BR 94,163; 7,403.26→7,532.45.
+- Ramsar (21.04.2026): AP Kolleru 2002 90,100 ha; BR Kabartal 2020 2,620; Nagi 2023 205.817; Nakti 2023 332.608; Gokul Jalashay 2025 448; Udaipur Jheel 2025 319; Gogabil 2025 86.63; MP Bhoj 2002 3,201; Sirpur 2022 161; Sakhya Sagar 2022 248; Yashwant Sagar 2022 823; Tawa 2024 20,050; RJ Keoladeo 1981 2,873; Sambhar 1990 24,000; Menar 2025 463.413; Khichan 2025 54.187; Siliserh 2025 315.97. TG none.
+- SRS 2021 PIB: AP MMR 46, U5MR 24; TG MMR 45, U5MR 22; RJ/MP/BR not listed.
+- Karnataka: Governor Sudha Yadav sworn in 16 Oct 2026 by CJ Vibhu Bakhru (ANI).

@@ -1,0 +1,91 @@
+{
+  "region": "IN-AP",
+  "module": "energy",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Andhra Pradesh's installed power capacity was 27,392 MW according to the State's Socio Economic Survey 2024-25. Coal-fired stations — NTPC Simhadri near Visakhapatnam, and State plants at Vijayawada, Krishnapatnam and Muddanur — supply much of the power, and the Srisailam and other hydro stations add more. The State has built large solar parks in Kurnool and Ananthapuramu districts and wind farms in Rayalaseema, and new transmission lines are being laid to carry renewable power from renewable energy zones in Kurnool.",
+        "hi": "राज्य के सामाजिक-आर्थिक सर्वेक्षण 2024-25 के अनुसार आंध्र प्रदेश की स्थापित बिजली क्षमता 27,392 मेगावाट थी। कोयला आधारित संयंत्र — विशाखापत्तनम के पास एनटीपीसी सिंहाद्रि, और विजयवाड़ा, कृष्णापट्टनम व मुद्दनूर के राज्य संयंत्र — अधिकांश बिजली देते हैं, और श्रीशैलम व अन्य जलविद्युत केंद्र और जोड़ते हैं। राज्य ने कुरनूल और अनंतपुरमु ज़िलों में बड़े सौर पार्क और रायलसीमा में पवन फ़ार्म बनाए हैं, और कुरनूल के अक्षय ऊर्जा क्षेत्रों से बिजली ले जाने के लिए नई पारेषण लाइनें बिछाई जा रही हैं।",
+        "mr": "राज्याच्या सामाजिक-आर्थिक सर्वेक्षण 2024-25 नुसार आंध्र प्रदेशची स्थापित वीजक्षमता 27,392 मेगावॅट होती. कोळशावरील केंद्रे — विशाखापट्टणमजवळील एनटीपीसी सिंहाद्री, आणि विजयवाडा, कृष्णापट्टणम व मुद्दनूर येथील राज्याची केंद्रे — बहुतांश वीज देतात, आणि श्रीशैलम व इतर जलविद्युत केंद्रे त्यात भर घालतात. राज्याने कर्नूल व अनंतपुरमू जिल्ह्यांत मोठी सौर उद्याने आणि रायलसीमात पवन प्रकल्प उभारले आहेत, आणि कर्नूलमधील अक्षय ऊर्जा क्षेत्रांतून वीज वाहून नेण्यासाठी नव्या पारेषण वाहिन्या टाकल्या जात आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "ap-fin",
+        "pmindia"
+      ],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "cap",
+          "label": {
+            "en": "Installed power capacity",
+            "hi": "स्थापित बिजली क्षमता",
+            "mr": "स्थापित वीजक्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 27392,
+            "unit": "MW",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "ap-fin",
+            "url": "https://s3.ap-south-1.amazonaws.com/apfinance.gov.in/uploads/index-docs/AP_Socio_Economic_Survey_2024_25.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Socio Economic Survey 2024-25, Government of Andhra Pradesh."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better"
+        }
+      ]
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Capacity by source (coal, solar, wind, hydro)",
+            "hi": "स्रोतवार क्षमता (कोयला, सौर, पवन, जल)",
+            "mr": "स्रोतनिहाय क्षमता (कोळसा, सौर, पवन, जल)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "region": "IN-AP",
+  "module": "diaspora",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Telugu-speaking people from Andhra Pradesh form a large and well-established diaspora. Many engineers, doctors and students have settled in the United States, where Telugu associations are active in most large cities, and in the United Kingdom, Canada and Australia. Workers from the Godavari districts and Rayalaseema have long gone to the Gulf countries. Within India, large Telugu communities live in Hyderabad, Bengaluru, Chennai and Mumbai, and older migrations took Telugu people to Myanmar, Malaysia, Mauritius, Fiji and South Africa.",
+        "hi": "आंध्र प्रदेश के तेलुगु-भाषी लोग एक बड़ा और सुस्थापित प्रवासी समुदाय बनाते हैं। बहुत से इंजीनियर, डॉक्टर और छात्र अमेरिका में बसे हैं, जहाँ अधिकांश बड़े शहरों में तेलुगु संघ सक्रिय हैं, और ब्रिटेन, कनाडा और ऑस्ट्रेलिया में भी। गोदावरी ज़िलों और रायलसीमा के श्रमिक लंबे समय से खाड़ी देशों में जाते रहे हैं। भारत में हैदराबाद, बेंगलूरु, चेन्नई और मुंबई में बड़े तेलुगु समुदाय हैं, और पुराने प्रवास तेलुगु लोगों को म्यांमार, मलेशिया, मॉरीशस, फ़िजी और दक्षिण अफ़्रीका ले गए।",
+        "mr": "आंध्र प्रदेशातील तेलुगुभाषक लोकांचा मोठा व सुस्थापित परदेशस्थ समुदाय आहे. अनेक अभियंते, डॉक्टर व विद्यार्थी अमेरिकेत स्थायिक झाले आहेत, जिथे बहुतेक मोठ्या शहरांत तेलुगु संघटना सक्रिय आहेत, तसेच ब्रिटन, कॅनडा व ऑस्ट्रेलियातही. गोदावरी जिल्हे व रायलसीमामधील कामगार दीर्घकाळापासून आखाती देशांत जात आहेत. भारतात हैदराबाद, बंगळूरु, चेन्नई व मुंबईत मोठे तेलुगु समुदाय आहेत, आणि जुन्या स्थलांतरांनी तेलुगु लोकांना म्यानमार, मलेशिया, मॉरिशस, फिजी व दक्षिण आफ्रिकेत नेले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of emigrants and internal migrants",
+            "hi": "प्रवासियों और आंतरिक प्रवासियों की संख्या",
+            "mr": "परदेशी व देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables; MEA."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

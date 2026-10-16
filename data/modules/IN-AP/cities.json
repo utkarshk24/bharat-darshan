@@ -1,0 +1,690 @@
+{
+  "region": "IN-AP",
+  "module": "cities",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "amaravati",
+          "name": {
+            "en": "Amaravati",
+            "hi": "अमरावती",
+            "mr": "अमरावती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "State capital under construction on the Krishna; seat of the Secretariat, Legislature and High Court.",
+            "hi": "कृष्णा के किनारे निर्माणाधीन राजधानी; सचिवालय, विधानमंडल और उच्च न्यायालय का स्थान।",
+            "mr": "कृष्णेकाठी उभारली जात असलेली राजधानी; सचिवालय, विधिमंडळ व उच्च न्यायालयाचे ठिकाण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vizag",
+          "name": {
+            "en": "Visakhapatnam",
+            "hi": "विशाखापत्तनम",
+            "mr": "विशाखापट्टणम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Largest city; port, steel, navy and IT.",
+            "hi": "सबसे बड़ा शहर; बंदरगाह, इस्पात, नौसेना और आईटी।",
+            "mr": "सर्वांत मोठे शहर; बंदर, पोलाद, नौदल व आयटी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Port city",
+            "hi": "बंदरगाह नगर",
+            "mr": "बंदर शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vijayawada",
+          "name": {
+            "en": "Vijayawada",
+            "hi": "विजयवाड़ा",
+            "mr": "विजयवाडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Commercial centre and railway junction on the Krishna.",
+            "hi": "कृष्णा पर वाणिज्यिक केंद्र और रेलवे जंक्शन।",
+            "mr": "कृष्णेवरील व्यापारी केंद्र व रेल्वे जंक्शन.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Commerce",
+            "hi": "वाणिज्य",
+            "mr": "व्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "guntur",
+          "name": {
+            "en": "Guntur",
+            "hi": "गुंटूर",
+            "mr": "गुंटूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Chilli and tobacco trade; education centre.",
+            "hi": "मिर्च और तंबाकू व्यापार; शिक्षा केंद्र।",
+            "mr": "मिरची व तंबाखू व्यापार; शिक्षण केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Agri-trade",
+            "hi": "कृषि व्यापार",
+            "mr": "कृषी व्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tirupati",
+          "name": {
+            "en": "Tirupati",
+            "hi": "तिरुपति",
+            "mr": "तिरुपती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Temple town at the foot of Tirumala; universities and IIT.",
+            "hi": "तिरुमला की तलहटी में मंदिर नगर; विश्वविद्यालय और आईआईटी।",
+            "mr": "तिरुमलाच्या पायथ्याशी मंदिरनगरी; विद्यापीठे व आयआयटी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage",
+            "hi": "तीर्थ",
+            "mr": "तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nellore",
+          "name": {
+            "en": "Nellore",
+            "hi": "नेल्लोर",
+            "mr": "नेल्लोर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rice, aquaculture and the Krishnapatnam port.",
+            "hi": "धान, जलकृषि और कृष्णापट्टनम बंदरगाह।",
+            "mr": "भात, जलशेती व कृष्णापट्टणम बंदर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Coast",
+            "hi": "तट",
+            "mr": "किनारा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kurnool",
+          "name": {
+            "en": "Kurnool",
+            "hi": "कुरनूल",
+            "mr": "कर्नूल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Capital of Andhra State (1953–56); gateway to Rayalaseema.",
+            "hi": "आंध्र राज्य की राजधानी (1953–56); रायलसीमा का प्रवेश द्वार।",
+            "mr": "आंध्र राज्याची राजधानी (1953–56); रायलसीमाचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Rayalaseema",
+            "hi": "रायलसीमा",
+            "mr": "रायलसीमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rjy",
+          "name": {
+            "en": "Rajamahendravaram",
+            "hi": "राजमहेंद्रवरम",
+            "mr": "राजमहेंद्रवरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Cultural town on the Godavari; Pushkaram bathing festival.",
+            "hi": "गोदावरी पर सांस्कृतिक नगर; पुष्करम स्नान पर्व।",
+            "mr": "गोदावरीवरील सांस्कृतिक शहर; पुष्करम स्नानपर्व.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "allurisitharamaraju",
+          "name": {
+            "en": "Alluri Sitharama Raju",
+            "hi": "अल्लूरी सीताराम राजू",
+            "mr": "अल्लुरी सीताराम राजू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "anakapalli",
+          "name": {
+            "en": "Anakapalli",
+            "hi": "अनकापल्ली",
+            "mr": "अनकापल्ली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ananthapuramu",
+          "name": {
+            "en": "Ananthapuramu",
+            "hi": "अनंतपुरमु",
+            "mr": "अनंतपुरमू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "annamayya",
+          "name": {
+            "en": "Annamayya",
+            "hi": "अन्नमय्या",
+            "mr": "अन्नमय्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bapatla",
+          "name": {
+            "en": "Bapatla",
+            "hi": "बापटला",
+            "mr": "बापटला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chittoor",
+          "name": {
+            "en": "Chittoor",
+            "hi": "चित्तूर",
+            "mr": "चित्तूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "drbrambedkarkonaseema",
+          "name": {
+            "en": "Dr. B. R. Ambedkar Konaseema",
+            "hi": "डॉ. बी. आर. आंबेडकर कोनसीमा",
+            "mr": "डॉ. बी. आर. आंबेडकर कोनसीमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "eastgodavari",
+          "name": {
+            "en": "East Godavari",
+            "hi": "पूर्वी गोदावरी",
+            "mr": "पूर्व गोदावरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "eluru",
+          "name": {
+            "en": "Eluru",
+            "hi": "एलुरु",
+            "mr": "एलुरू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "guntur",
+          "name": {
+            "en": "Guntur",
+            "hi": "गुंटूर",
+            "mr": "गुंटूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kakinada",
+          "name": {
+            "en": "Kakinada",
+            "hi": "काकीनाडा",
+            "mr": "काकिनाडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "krishna",
+          "name": {
+            "en": "Krishna",
+            "hi": "कृष्णा",
+            "mr": "कृष्णा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kurnool",
+          "name": {
+            "en": "Kurnool",
+            "hi": "कुरनूल",
+            "mr": "कर्नूल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "markapuram",
+          "name": {
+            "en": "Markapuram",
+            "hi": "मार्कापुरम",
+            "mr": "मार्कापुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nandyal",
+          "name": {
+            "en": "Nandyal",
+            "hi": "नंद्याल",
+            "mr": "नंद्याल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ntr",
+          "name": {
+            "en": "NTR",
+            "hi": "एनटीआर",
+            "mr": "एनटीआर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "palnadu",
+          "name": {
+            "en": "Palnadu",
+            "hi": "पलनाडु",
+            "mr": "पलनाडू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "parvathipurammanyam",
+          "name": {
+            "en": "Parvathipuram Manyam",
+            "hi": "पार्वतीपुरम मन्यम",
+            "mr": "पार्वतीपुरम मन्यम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "polavaram",
+          "name": {
+            "en": "Polavaram",
+            "hi": "पोलावरम",
+            "mr": "पोलावरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "prakasam",
+          "name": {
+            "en": "Prakasam",
+            "hi": "प्रकाशम",
+            "mr": "प्रकाशम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sripottisriramulunellore",
+          "name": {
+            "en": "Sri Potti Sriramulu Nellore",
+            "hi": "श्री पोट्टि श्रीरामुलु नेल्लोर",
+            "mr": "श्री पोट्टी श्रीरामुलू नेल्लोर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "srisathyasai",
+          "name": {
+            "en": "Sri Sathya Sai",
+            "hi": "श्री सत्य साईं",
+            "mr": "श्री सत्य साई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "srikakulam",
+          "name": {
+            "en": "Srikakulam",
+            "hi": "श्रीकाकुलम",
+            "mr": "श्रीकाकुलम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tirupati",
+          "name": {
+            "en": "Tirupati",
+            "hi": "तिरुपति",
+            "mr": "तिरुपती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "visakhapatnam",
+          "name": {
+            "en": "Visakhapatnam",
+            "hi": "विशाखापत्तनम",
+            "mr": "विशाखापट्टणम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vizianagaram",
+          "name": {
+            "en": "Vizianagaram",
+            "hi": "विजयनगरम",
+            "mr": "विजयनगरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "westgodavari",
+          "name": {
+            "en": "West Godavari",
+            "hi": "पश्चिमी गोदावरी",
+            "mr": "पश्चिम गोदावरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ysrkadapa",
+          "name": {
+            "en": "YSR Kadapa",
+            "hi": "वाईएसआर कडपा",
+            "mr": "वायएसआर कडपा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 28 districts (alphabetical)",
+        "hi": "28 ज़िले (वर्णानुक्रम)",
+        "mr": "28 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "dsrc",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "etv",
+          "name": {
+            "en": "ETV Bharat: Cabinet approves two new districts (30 Dec 2025)",
+            "hi": "ईटीवी भारत: मंत्रिमंडल ने दो नए ज़िलों को मंज़ूरी दी (30 दिसंबर 2025)",
+            "mr": "ईटीव्ही भारत: मंत्रिमंडळाकडून दोन नव्या जिल्ह्यांना मंजुरी (30 डिसेंबर 2025)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.etvbharat.com/en/state/andhra-pradesh-cabinet-approves-formation-of-two-new-districts-enn25123002492",
+          "sourceId": "etv-bharat"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Third-party verified",
+      "title": {
+        "en": "Source for the district count",
+        "hi": "ज़िलों की संख्या का स्रोत",
+        "mr": "जिल्हा संख्येचा स्रोत",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official district list (State gazette notification)",
+            "hi": "आधिकारिक ज़िला सूची (राज्य राजपत्र अधिसूचना)",
+            "mr": "अधिकृत जिल्हा यादी (राज्य राजपत्र अधिसूचना)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Link the State notification forming Markapuram and Polavaram districts."
+        },
+        {
+          "label": {
+            "en": "City populations (Census 2011)",
+            "hi": "शहरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban agglomeration tables."
+        }
+      ]
+    }
+  ]
+}

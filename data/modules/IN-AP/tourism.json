@@ -1,0 +1,382 @@
+{
+  "region": "IN-AP",
+  "module": "tourism",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Pilgrimage brings the largest numbers: the Sri Venkateswara temple at Tirumala, Srisailam, Srikalahasti, Kanaka Durga at Vijayawada, Simhachalam and Annavaram. Visakhapatnam combines beaches, the submarine museum and the Kailasagiri hill; from there a scenic railway climbs to the Araku Valley and the Borra Caves. Buddhist sites at Amaravati, Nagarjunakonda, Thotlakonda and Bavikonda, the Vijayanagara murals of Lepakshi, the Gandikota gorge and the Belum Caves are other highlights, along with boat trips through the Papikonda hills on the Godavari.",
+        "hi": "तीर्थयात्रा सबसे अधिक लोगों को लाती है: तिरुमला का श्री वेंकटेश्वर मंदिर, श्रीशैलम, श्रीकालहस्ती, विजयवाड़ा की कनक दुर्गा, सिंहाचलम और अन्नावरम। विशाखापत्तनम में समुद्र तट, पनडुब्बी संग्रहालय और कैलासगिरि पहाड़ी हैं; वहाँ से एक मनोरम रेल अराकू घाटी और बोर्रा गुफाओं तक चढ़ती है। अमरावती, नागार्जुनकोंडा, तोट्लाकोंडा और बाविकोंडा के बौद्ध स्थल, लेपाक्षी के विजयनगर भित्तिचित्र, गंडिकोटा घाटी और बेलम गुफाएँ अन्य आकर्षण हैं, साथ में गोदावरी पर पापिकोंडा पहाड़ियों के बीच नौका-यात्रा।",
+        "mr": "तीर्थयात्रा सर्वाधिक लोकांना आणते: तिरुमलाचे श्री वेंकटेश्वर मंदिर, श्रीशैलम, श्रीकालहस्ती, विजयवाड्याची कनकदुर्गा, सिंहाचलम व अन्नवरम. विशाखापट्टणममध्ये समुद्रकिनारे, पाणबुडी संग्रहालय व कैलासगिरी टेकडी आहेत; तिथून एक निसर्गरम्य रेल्वे अराकू खोरे व बोर्रा गुहांपर्यंत चढते. अमरावती, नागार्जुनकोंडा, तोट्लाकोंडा व बाविकोंडा येथील बौद्ध स्थळे, लेपाक्षीची विजयनगर भित्तिचित्रे, गंडिकोटा घळ व बेलम गुहा ही इतर आकर्षणे आहेत, सोबत गोदावरीवर पापिकोंडा डोंगरांतून नौकाविहार.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "tirumala",
+          "name": {
+            "en": "Tirumala–Tirupati",
+            "hi": "तिरुमला–तिरुपति",
+            "mr": "तिरुमला–तिरुपती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage",
+            "hi": "तीर्थ",
+            "mr": "तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vizag",
+          "name": {
+            "en": "Visakhapatnam",
+            "hi": "विशाखापत्तनम",
+            "mr": "विशाखापट्टणम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Beaches, hills",
+            "hi": "समुद्र तट, पहाड़ियाँ",
+            "mr": "समुद्रकिनारे, टेकड्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "araku",
+          "name": {
+            "en": "Araku Valley and Borra Caves",
+            "hi": "अराकू घाटी और बोर्रा गुफाएँ",
+            "mr": "अराकू खोरे व बोर्रा गुहा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hills, coffee",
+            "hi": "पहाड़, कॉफ़ी",
+            "mr": "डोंगर, कॉफी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "srisailam",
+          "name": {
+            "en": "Srisailam",
+            "hi": "श्रीशैलम",
+            "mr": "श्रीशैलम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jyotirlinga, Nallamala",
+            "hi": "ज्योतिर्लिंग, नल्लमला",
+            "mr": "ज्योतिर्लिंग, नल्लमला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lepakshi",
+          "name": {
+            "en": "Lepakshi",
+            "hi": "लेपाक्षी",
+            "mr": "लेपाक्षी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Vijayanagara art",
+            "hi": "विजयनगर कला",
+            "mr": "विजयनगर कला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gandikota",
+          "name": {
+            "en": "Gandikota and Belum Caves",
+            "hi": "गंडिकोटा और बेलम गुफाएँ",
+            "mr": "गंडिकोटा व बेलम गुहा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Landscapes",
+            "hi": "भूदृश्य",
+            "mr": "निसर्गदृश्ये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "amaravati",
+          "name": {
+            "en": "Amaravati and Nagarjunakonda",
+            "hi": "अमरावती और नागार्जुनकोंडा",
+            "mr": "अमरावती व नागार्जुनकोंडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Buddhist heritage",
+            "hi": "बौद्ध धरोहर",
+            "mr": "बौद्ध वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "papikonda",
+          "name": {
+            "en": "Papikonda boat trip on the Godavari",
+            "hi": "गोदावरी पर पापिकोंडा नौका-यात्रा",
+            "mr": "गोदावरीवर पापिकोंडा नौकाविहार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "River",
+            "hi": "नदी",
+            "mr": "नदी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Tirupati and Tirumala, with Srikalahasti.",
+            "hi": "तिरुपति और तिरुमला, साथ में श्रीकालहस्ती।",
+            "mr": "तिरुपती व तिरुमला, सोबत श्रीकालहस्ती.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Visakhapatnam, then the train to Araku and the Borra Caves.",
+            "hi": "विशाखापत्तनम, फिर अराकू और बोर्रा गुफाओं तक रेल।",
+            "mr": "विशाखापट्टणम, नंतर अराकू व बोर्रा गुहांपर्यंत रेल्वे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Vijayawada, Amaravati, Kondapalli and the Godavari at Rajamahendravaram.",
+            "hi": "विजयवाड़ा, अमरावती, कोंडापल्ली और राजमहेंद्रवरम में गोदावरी।",
+            "mr": "विजयवाडा, अमरावती, कोंडापल्ली व राजमहेंद्रवरम येथील गोदावरी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rayalaseema: Lepakshi, Gandikota, Belum Caves and Srisailam.",
+            "hi": "रायलसीमा: लेपाक्षी, गंडिकोटा, बेलम गुफाएँ और श्रीशैलम।",
+            "mr": "रायलसीमा: लेपाक्षी, गंडिकोटा, बेलम गुहा व श्रीशैलम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "apt",
+          "name": {
+            "en": "Andhra Pradesh Tourism (official)",
+            "hi": "आंध्र प्रदेश पर्यटन (आधिकारिक)",
+            "mr": "आंध्र प्रदेश पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://tourism.ap.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "ttd",
+          "name": {
+            "en": "Tirumala Tirupati Devasthanams",
+            "hi": "तिरुमला तिरुपति देवस्थानम",
+            "mr": "तिरुमला तिरुपती देवस्थानम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.tirumala.org",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "region": "IN-AP",
+  "module": "water",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Godavari and Krishna deltas are among India's oldest irrigated areas, watered by the Dowleswaram (Sir Arthur Cotton) and Prakasam barrages built in the 19th century. Upstream, the Srisailam and Nagarjuna Sagar dams on the Krishna are shared with Telangana, and the division of Krishna waters between the two States is managed by the Krishna River Management Board. Rayalaseema depends on canals such as the Telugu Ganga and Handri–Neeva that carry Krishna water south, and on groundwater; droughts are frequent there. The Polavaram project on the Godavari is meant to irrigate the uplands of the coastal districts and divert water to the Krishna delta.",
+        "hi": "गोदावरी और कृष्णा डेल्टा भारत के सबसे पुराने सिंचित क्षेत्रों में हैं, जिन्हें 19वीं सदी में बने धवलेश्वरम (सर आर्थर कॉटन) और प्रकाशम बराज सींचते हैं। ऊपर की ओर कृष्णा पर श्रीशैलम और नागार्जुन सागर बाँध तेलंगाना के साथ साझा हैं, और दोनों राज्यों के बीच कृष्णा जल का बँटवारा कृष्णा नदी प्रबंधन बोर्ड देखता है। रायलसीमा तेलुगु गंगा और हंद्री–नीवा जैसी नहरों पर, जो कृष्णा का पानी दक्षिण ले जाती हैं, और भूजल पर निर्भर है; वहाँ सूखा अक्सर पड़ता है। गोदावरी पर पोलावरम परियोजना का उद्देश्य तटीय ज़िलों के ऊपरी भागों की सिंचाई करना और पानी को कृष्णा डेल्टा की ओर मोड़ना है।",
+        "mr": "गोदावरी व कृष्णेचे त्रिभुज प्रदेश हे भारतातील सर्वांत जुन्या सिंचित भागांपैकी आहेत, ज्यांना एकोणिसाव्या शतकात बांधलेले धवलेश्वरम (सर आर्थर कॉटन) व प्रकाशम बंधारे पाणी देतात. वरच्या भागात कृष्णेवरील श्रीशैलम व नागार्जुन सागर धरणे तेलंगणासोबत सामायिक आहेत, आणि दोन्ही राज्यांमधील कृष्णेच्या पाण्याचे वाटप कृष्णा नदी व्यवस्थापन मंडळ पाहते. रायलसीमा तेलुगु गंगा व हंद्री–नीवा यांसारख्या कालव्यांवर, जे कृष्णेचे पाणी दक्षिणेकडे नेतात, आणि भूजलावर अवलंबून आहे; तिथे दुष्काळ वारंवार पडतो. गोदावरीवरील पोलावरम प्रकल्पाचा उद्देश किनारी जिल्ह्यांच्या उंचावरील भागांना सिंचन देणे आणि पाणी कृष्णा त्रिभुज प्रदेशाकडे वळवणे हा आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Rural tap-water coverage",
+            "hi": "ग्रामीण नल जल कवरेज",
+            "mr": "ग्रामीण नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        },
+        {
+          "label": {
+            "en": "Net irrigated area",
+            "hi": "शुद्ध सिंचित क्षेत्र",
+            "mr": "निव्वळ सिंचित क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Land-use statistics, Ministry of Agriculture."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "region": "IN-AP",
+  "module": "sports",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Andhra Pradesh has produced several pioneering sportspeople. Weightlifter Karnam Malleswari of Srikakulam won bronze at the Sydney Olympics in 2000, the first Olympic medal won by an Indian woman. Pullela Gopichand, born in Prakasam district, won the All England badminton title in 2001 and became India's best-known badminton coach. Koneru Humpy of Gudivada is one of the world's leading women chess players and a world rapid champion. Cricket is followed keenly, with international matches at the ACA–VDCA Stadium in Visakhapatnam.",
+        "hi": "आंध्र प्रदेश ने कई अग्रणी खिलाड़ी दिए हैं। श्रीकाकुलम की भारोत्तोलक कर्णम मल्लेश्वरी ने 2000 के सिडनी ओलंपिक में कांस्य जीता — किसी भारतीय महिला का पहला ओलंपिक पदक। प्रकाशम ज़िले में जन्मे पुल्लेला गोपीचंद ने 2001 में ऑल इंग्लैंड बैडमिंटन ख़िताब जीता और भारत के सबसे प्रसिद्ध बैडमिंटन कोच बने। गुडिवाडा की कोनेरु हम्पी दुनिया की प्रमुख महिला शतरंज खिलाड़ियों में हैं और विश्व रैपिड चैंपियन रही हैं। क्रिकेट उत्साह से देखा जाता है, और विशाखापत्तनम के एसीए–वीडीसीए स्टेडियम में अंतरराष्ट्रीय मैच होते हैं।",
+        "mr": "आंध्र प्रदेशने अनेक अग्रणी खेळाडू दिले आहेत. श्रीकाकुलमच्या भारोत्तोलक कर्णम मल्लेश्वरी यांनी 2000 च्या सिडनी ऑलिम्पिकमध्ये कांस्यपदक जिंकले — भारतीय स्त्रीचे पहिले ऑलिम्पिक पदक. प्रकाशम जिल्ह्यात जन्मलेल्या पुल्लेला गोपीचंद यांनी 2001 मध्ये ऑल इंग्लंड बॅडमिंटन विजेतेपद जिंकले आणि ते भारताचे सर्वांत प्रसिद्ध बॅडमिंटन प्रशिक्षक झाले. गुडिवाडाच्या कोनेरू हम्पी जगातील आघाडीच्या महिला बुद्धिबळपटूंपैकी असून जागतिक रॅपिड विजेत्या राहिल्या आहेत. क्रिकेट उत्साहाने पाहिले जाते, आणि विशाखापट्टणमच्या एसीए–व्हीडीसीए स्टेडियमवर आंतरराष्ट्रीय सामने होतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "vdca",
+          "name": {
+            "en": "ACA–VDCA Cricket Stadium, Visakhapatnam",
+            "hi": "एसीए–वीडीसीए क्रिकेट स्टेडियम, विशाखापत्तनम",
+            "mr": "एसीए–व्हीडीसीए क्रिकेट स्टेडियम, विशाखापट्टणम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "igmc",
+          "name": {
+            "en": "Indira Gandhi Municipal Corporation Stadium, Vijayawada",
+            "hi": "इंदिरा गांधी नगर निगम स्टेडियम, विजयवाड़ा",
+            "mr": "इंदिरा गांधी महापालिका स्टेडियम, विजयवाडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Olympic and Asian Games medallists from Andhra Pradesh (official list)",
+            "hi": "आंध्र प्रदेश के ओलंपिक और एशियाई खेल पदक विजेता (आधिकारिक सूची)",
+            "mr": "आंध्र प्रदेशचे ऑलिम्पिक व आशियाई स्पर्धा पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Sports Authority of Andhra Pradesh."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "region": "IN-AP",
+  "module": "digital",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Visakhapatnam is the State's main IT centre, with software parks on the Rushikonda hills, and Vijayawada–Guntur and Tirupati have smaller clusters. Electronics manufacturing is concentrated at Sri City and around Tirupati. The State runs many citizen services through its village and ward secretariats, and the Satish Dhawan Space Centre at Sriharikota makes Andhra Pradesh the home of India's rocket launches.",
+        "hi": "विशाखापत्तनम राज्य का मुख्य आईटी केंद्र है, जहाँ ऋषिकोंडा पहाड़ियों पर सॉफ़्टवेयर पार्क हैं, और विजयवाड़ा–गुंटूर और तिरुपति में छोटे क्लस्टर हैं। इलेक्ट्रॉनिक्स विनिर्माण श्री सिटी और तिरुपति के आसपास केंद्रित है। राज्य अपने ग्राम और वार्ड सचिवालयों के माध्यम से कई नागरिक सेवाएँ चलाता है, और श्रीहरिकोटा का सतीश धवन अंतरिक्ष केंद्र आंध्र प्रदेश को भारत के रॉकेट प्रक्षेपणों का घर बनाता है।",
+        "mr": "विशाखापट्टणम हे राज्याचे मुख्य आयटी केंद्र आहे, जिथे ऋषिकोंडा टेकड्यांवर सॉफ्टवेअर पार्क आहेत, आणि विजयवाडा–गुंटूर व तिरुपती येथे लहान समूह आहेत. इलेक्ट्रॉनिक्स उत्पादन श्री सिटी व तिरुपतीभोवती एकवटले आहे. राज्य आपल्या ग्राम व वॉर्ड सचिवालयांमार्फत अनेक नागरी सेवा चालवते, आणि श्रीहरिकोटा येथील सतीश धवन अंतराळ केंद्रामुळे आंध्र प्रदेश हे भारताच्या रॉकेट प्रक्षेपणांचे घर आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Andhra Pradesh circle, which also covers Telangana)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

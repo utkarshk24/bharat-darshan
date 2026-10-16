@@ -1,0 +1,104 @@
+{
+  "region": "IN-AP",
+  "module": "trivia",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "andhra",
+          "name": {
+            "en": "Andhra State (1953) was the first Indian State formed on the basis of language.",
+            "hi": "आंध्र राज्य (1953) भाषा के आधार पर बना पहला भारतीय राज्य था।",
+            "mr": "आंध्र राज्य (1953) हे भाषेच्या आधारावर बनलेले पहिले भारतीय राज्य होते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "flag",
+          "name": {
+            "en": "Pingali Venkayya of Machilipatnam designed the flag on which India's national flag is based.",
+            "hi": "मछलीपट्टनम के पिंगलि वेंकय्या ने उस ध्वज की रूपरेखा बनाई जिस पर भारत का राष्ट्रीय ध्वज आधारित है।",
+            "mr": "मछलीपट्टणमच्या पिंगळी वेंकय्या यांनी ज्या ध्वजावर भारताचा राष्ट्रध्वज आधारित आहे त्याची रचना केली.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shar",
+          "name": {
+            "en": "All of ISRO's orbital launches lift off from Sriharikota, on the coast of Tirupati district.",
+            "hi": "इसरो के सभी कक्षीय प्रक्षेपण तिरुपति ज़िले के तट पर श्रीहरिकोटा से होते हैं।",
+            "mr": "इस्रोची सर्व कक्षीय प्रक्षेपणे तिरुपती जिल्ह्याच्या किनाऱ्यावरील श्रीहरिकोट्याहून होतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "laddu",
+          "name": {
+            "en": "The Tirupati laddu is a registered Geographical Indication (filed 2008).",
+            "hi": "तिरुपति लड्डू पंजीकृत भौगोलिक संकेतक है (2008 में दायर)।",
+            "mr": "तिरुपती लाडू हे नोंदणीकृत भौगोलिक मानांकन आहे (2008 मध्ये दाखल).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "sourceId": "gi-registry"
+        },
+        {
+          "id": "kolleru",
+          "name": {
+            "en": "Kolleru Lake, a Ramsar site of 90,100 ha, lies between the Godavari and Krishna deltas.",
+            "hi": "90,100 हेक्टेयर का रामसर स्थल कोल्लेरु झील गोदावरी और कृष्णा डेल्टाओं के बीच है।",
+            "mr": "90,100 हेक्टरचे रामसर स्थळ कोल्लेरू सरोवर गोदावरी व कृष्णा त्रिभुज प्रदेशांदरम्यान आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+          "sourceId": "indian-wetlands"
+        },
+        {
+          "id": "ls",
+          "name": {
+            "en": "The State elects 25 members to the Lok Sabha.",
+            "hi": "राज्य से लोकसभा के 25 सदस्य चुने जाते हैं।",
+            "mr": "राज्यातून लोकसभेवर 25 सदस्य निवडले जातात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

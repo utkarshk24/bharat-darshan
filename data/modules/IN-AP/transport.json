@@ -1,0 +1,174 @@
+{
+  "region": "IN-AP",
+  "module": "transport",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Visakhapatnam is one of India's major ports and the base of the Eastern Naval Command; non-major ports at Gangavaram, Kakinada and Krishnapatnam handle coal, fertiliser and container cargo, and the State's Socio Economic Survey counts six operational ports. Vijayawada is one of the busiest railway junctions in southern India, on the main lines between Chennai, Kolkata and Delhi. Airports serve Visakhapatnam, Vijayawada (Gannavaram), Tirupati (Renigunta), Rajahmundry, Kadapa and Kurnool, and the new Alluri Sitarama Raju International Airport at Bhogapuram was inaugurated in August 2026. National highways along the coast form part of the Golden Quadrilateral between Chennai and Kolkata.",
+        "hi": "विशाखापत्तनम भारत के बड़े बंदरगाहों में से है और पूर्वी नौसेना कमान का मुख्यालय है; गंगावरम, काकीनाडा और कृष्णापट्टनम के गैर-प्रमुख बंदरगाह कोयला, उर्वरक और कंटेनर माल संभालते हैं, और राज्य का सामाजिक-आर्थिक सर्वेक्षण छह चालू बंदरगाह गिनता है। विजयवाड़ा चेन्नई, कोलकाता और दिल्ली के बीच मुख्य रेल लाइनों पर दक्षिण भारत के सबसे व्यस्त रेलवे जंक्शनों में है। विशाखापत्तनम, विजयवाड़ा (गन्नवरम), तिरुपति (रेणिगुंटा), राजमहेंद्रवरम, कडपा और कुरनूल में हवाई अड्डे हैं, और भोगापुरम में नए अल्लूरी सीताराम राजू अंतरराष्ट्रीय हवाई अड्डे का उद्घाटन अगस्त 2026 में हुआ। तट के साथ राष्ट्रीय राजमार्ग चेन्नई और कोलकाता के बीच स्वर्णिम चतुर्भुज का हिस्सा हैं।",
+        "mr": "विशाखापट्टणम हे भारतातील प्रमुख बंदरांपैकी एक असून पूर्व नौदल कमांडचे मुख्यालय आहे; गंगावरम, काकिनाडा व कृष्णापट्टणम ही बिगर-प्रमुख बंदरे कोळसा, खते व कंटेनर माल हाताळतात, आणि राज्याचे सामाजिक-आर्थिक सर्वेक्षण सहा कार्यरत बंदरे मोजते. विजयवाडा हे चेन्नई, कोलकाता व दिल्लीदरम्यानच्या मुख्य रेल्वे मार्गांवरील दक्षिण भारतातील सर्वांत व्यस्त जंक्शनपैकी एक आहे. विशाखापट्टणम, विजयवाडा (गन्नवरम), तिरुपती (रेणिगुंटा), राजमहेंद्रवरम, कडपा व कर्नूल येथे विमानतळ आहेत, आणि भोगापुरम येथील नव्या अल्लुरी सीताराम राजू आंतरराष्ट्रीय विमानतळाचे उद्घाटन ऑगस्ट 2026 मध्ये झाले. किनाऱ्यालगतचे राष्ट्रीय महामार्ग चेन्नई–कोलकातादरम्यानच्या सुवर्ण चतुष्कोनाचा भाग आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "ap-fin",
+        "pmindia"
+      ],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "vtz",
+          "name": {
+            "en": "Visakhapatnam",
+            "hi": "विशाखापत्तनम",
+            "mr": "विशाखापट्टणम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "VTZ",
+            "hi": "VTZ",
+            "mr": "VTZ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhog",
+          "name": {
+            "en": "Alluri Sitarama Raju International Airport, Bhogapuram",
+            "hi": "अल्लूरी सीताराम राजू अंतरराष्ट्रीय हवाई अड्डा, भोगापुरम",
+            "mr": "अल्लुरी सीताराम राजू आंतरराष्ट्रीय विमानतळ, भोगापुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vga",
+          "name": {
+            "en": "Vijayawada (Gannavaram)",
+            "hi": "विजयवाड़ा (गन्नवरम)",
+            "mr": "विजयवाडा (गन्नवरम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "VGA",
+            "hi": "VGA",
+            "mr": "VGA",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tir",
+          "name": {
+            "en": "Tirupati (Renigunta)",
+            "hi": "तिरुपति (रेणिगुंटा)",
+            "mr": "तिरुपती (रेणिगुंटा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "TIR",
+            "hi": "TIR",
+            "mr": "TIR",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rja",
+          "name": {
+            "en": "Rajahmundry",
+            "hi": "राजमहेंद्रवरम",
+            "mr": "राजमहेंद्रवरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "RJA",
+            "hi": "RJA",
+            "mr": "RJA",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports (selected)",
+        "hi": "हवाई अड्डे (चयनित)",
+        "mr": "विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Port cargo handled",
+            "hi": "बंदरगाहों द्वारा संभाला गया माल",
+            "mr": "बंदरांनी हाताळलेला माल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Indian Ports Association; AP Maritime Board."
+        }
+      ]
+    }
+  ]
+}

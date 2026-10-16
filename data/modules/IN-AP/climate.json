@@ -1,0 +1,196 @@
+{
+  "region": "IN-AP",
+  "module": "climate",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Andhra Pradesh is hot for much of the year. April and May are the hottest months, and heatwaves are common in coastal and Rayalaseema districts alike. The south-west monsoon (June–September) brings most of the rain to the north and the deltas, while the south — Nellore, Chittoor and parts of Rayalaseema — also gets important rain from the north-east monsoon in October and November. Rayalaseema, in the rain shadow of the Western Ghats, is among the driest parts of southern India. Cyclones from the Bay of Bengal strike the coast mainly in May and from October to December.",
+        "hi": "आंध्र प्रदेश साल के अधिकांश समय गर्म रहता है। अप्रैल और मई सबसे गर्म महीने हैं, और तटीय व रायलसीमा दोनों ज़िलों में लू आम है। दक्षिण-पश्चिम मानसून (जून–सितंबर) उत्तर और डेल्टाओं में अधिकांश वर्षा लाता है, जबकि दक्षिण — नेल्लोर, चित्तूर और रायलसीमा के कुछ भाग — को अक्टूबर और नवंबर में उत्तर-पूर्वी मानसून से भी महत्त्वपूर्ण वर्षा मिलती है। पश्चिमी घाट की वृष्टि-छाया में स्थित रायलसीमा दक्षिण भारत के सबसे सूखे हिस्सों में है। बंगाल की खाड़ी के चक्रवात मुख्यतः मई में और अक्टूबर से दिसंबर तक तट से टकराते हैं।",
+        "mr": "आंध्र प्रदेश वर्षातील बहुतांश काळ उष्ण असते. एप्रिल व मे हे सर्वांत उष्ण महिने आहेत, आणि किनारी व रायलसीमा दोन्ही जिल्ह्यांत उष्णतेच्या लाटा नेहमीच्या आहेत. नैर्ऋत्य मान्सून (जून–सप्टेंबर) उत्तरेत व त्रिभुज प्रदेशांत बहुतांश पाऊस आणतो, तर दक्षिणेला — नेल्लोर, चित्तूर व रायलसीमाचे काही भाग — ऑक्टोबर-नोव्हेंबरमध्ये ईशान्य मान्सूनपासूनही महत्त्वाचा पाऊस मिळतो. पश्चिम घाटाच्या पर्जन्यछायेतील रायलसीमा हा दक्षिण भारतातील सर्वांत कोरड्या भागांपैकी आहे. बंगालच्या उपसागरातील चक्रीवादळे मुख्यतः मे महिन्यात आणि ऑक्टोबर ते डिसेंबरदरम्यान किनाऱ्याला धडकतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Amaravati",
+            "hi": "अमरावती",
+            "mr": "अमरावती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 16.5131,
+          "lon": 80.5165
+        },
+        {
+          "name": {
+            "en": "Visakhapatnam",
+            "hi": "विशाखापत्तनम",
+            "mr": "विशाखापट्टणम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 17.6868,
+          "lon": 83.2185
+        },
+        {
+          "name": {
+            "en": "Tirupati",
+            "hi": "तिरुपति",
+            "mr": "तिरुपती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 13.6288,
+          "lon": 79.4192
+        },
+        {
+          "name": {
+            "en": "Araku Valley",
+            "hi": "अराकू घाटी",
+            "mr": "अराकू खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 18.3273,
+          "lon": 82.8775
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to February",
+            "hi": "अक्टूबर से फ़रवरी",
+            "mr": "ऑक्टोबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pleasant weather for the coast, temples and the Araku hills; Sankranti in January.",
+            "hi": "तट, मंदिरों और अराकू पहाड़ियों के लिए सुहावना मौसम; जनवरी में संक्रांति।",
+            "mr": "किनारा, मंदिरे व अराकू डोंगरांसाठी सुखद हवामान; जानेवारीत संक्रांती.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "March to June",
+            "hi": "मार्च से जून",
+            "mr": "मार्च ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Very hot; plan travel for early mornings.",
+            "hi": "बहुत गर्म; यात्रा सुबह जल्दी करें।",
+            "mr": "खूप उष्ण; प्रवास पहाटे करा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "July to September",
+            "hi": "जुलाई से सितंबर",
+            "mr": "जुलै ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Green landscapes and waterfalls in the Eastern Ghats; heavy rain at times.",
+            "hi": "पूर्वी घाट में हरियाली और झरने; कभी-कभी भारी वर्षा।",
+            "mr": "पूर्व घाटात हिरवाई व धबधबे; कधीकधी मुसळधार पाऊस.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (Coastal Andhra Pradesh and Rayalaseema)",
+            "hi": "सामान्य वार्षिक वर्षा (तटीय आंध्र प्रदेश और रायलसीमा)",
+            "mr": "सरासरी वार्षिक पाऊस (किनारी आंध्र प्रदेश व रायलसीमा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics by sub-division."
+        },
+        {
+          "label": {
+            "en": "Cyclone landfalls by year",
+            "hi": "वर्षवार चक्रवात का तट पर पहुँचना",
+            "mr": "वर्षनिहाय चक्रीवादळांचे किनाऱ्यावर येणे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD cyclone e-Atlas."
+        }
+      ]
+    }
+  ]
+}

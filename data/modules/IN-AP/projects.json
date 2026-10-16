@@ -1,0 +1,63 @@
+{
+  "region": "IN-AP",
+  "module": "projects",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Three projects shape the State's plans: building the capital at Amaravati, completing the Polavaram dam on the Godavari, and the new international airport at Bhogapuram for Visakhapatnam. Each card shows its source and the date it was checked.",
+        "hi": "तीन परियोजनाएँ राज्य की योजनाओं को आकार देती हैं: अमरावती में राजधानी का निर्माण, गोदावरी पर पोलावरम बाँध को पूरा करना, और विशाखापत्तनम के लिए भोगापुरम में नया अंतरराष्ट्रीय हवाई अड्डा। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "तीन प्रकल्प राज्याच्या योजनांना आकार देतात: अमरावती येथे राजधानीचे बांधकाम, गोदावरीवरील पोलावरम धरण पूर्ण करणे, आणि विशाखापट्टणमसाठी भोगापुरम येथे नवे आंतरराष्ट्रीय विमानतळ. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pmindia",
+        "newsonair",
+        "sansad"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Polavaram — current physical progress",
+            "hi": "पोलावरम — वर्तमान भौतिक प्रगति",
+            "mr": "पोलावरम — सध्याची भौतिक प्रगती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Jal Shakti / Polavaram Project Authority."
+        },
+        {
+          "label": {
+            "en": "Amaravati — approved cost and timeline",
+            "hi": "अमरावती — स्वीकृत लागत और समय-सीमा",
+            "mr": "अमरावती — मंजूर खर्च व कालमर्यादा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "APCRDA official project list."
+        }
+      ]
+    }
+  ]
+}

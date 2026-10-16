@@ -1,0 +1,578 @@
+{
+  "region": "IN-JH",
+  "module": "cities",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ranchi",
+          "name": {
+            "en": "Ranchi",
+            "hi": "रांची",
+            "mr": "रांची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "State capital on the plateau; city of waterfalls.",
+            "hi": "पठार पर राज्य की राजधानी; झरनों का शहर।",
+            "mr": "पठारावरील राज्याची राजधानी; धबधब्यांचे शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jamshedpur",
+          "name": {
+            "en": "Jamshedpur",
+            "hi": "जमशेदपुर",
+            "mr": "जमशेदपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Planned steel city founded around the Tata works.",
+            "hi": "टाटा कारख़ाने के इर्द-गिर्द बसा नियोजित इस्पात नगर।",
+            "mr": "टाटा कारखान्याभोवती वसलेले नियोजित पोलादनगर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dhanbad",
+          "name": {
+            "en": "Dhanbad",
+            "hi": "धनबाद",
+            "mr": "धनबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Coal capital of India; IIT (ISM).",
+            "hi": "भारत की कोयला राजधानी; आईआईटी (आईएसएम)।",
+            "mr": "भारताची कोळसा राजधानी; आयआयटी (आयएसएम).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mining",
+            "hi": "खनन",
+            "mr": "खाणकाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bokaro",
+          "name": {
+            "en": "Bokaro Steel City",
+            "hi": "बोकारो स्टील सिटी",
+            "mr": "बोकारो स्टील सिटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Township of SAIL's Bokaro Steel Plant.",
+            "hi": "सेल के बोकारो इस्पात संयंत्र की बस्ती।",
+            "mr": "सेलच्या बोकारो पोलाद कारखान्याची वसाहत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "deoghar",
+          "name": {
+            "en": "Deoghar",
+            "hi": "देवघर",
+            "mr": "देवघर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Temple town of Baidyanath; AIIMS and airport.",
+            "hi": "बैद्यनाथ का मंदिर नगर; एम्स और हवाई अड्डा।",
+            "mr": "बैद्यनाथाचे मंदिरनगर; एम्स व विमानतळ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage",
+            "hi": "तीर्थ",
+            "mr": "तीर्थक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hazaribagh",
+          "name": {
+            "en": "Hazaribagh",
+            "hi": "हज़ारीबाग",
+            "mr": "हजारीबाग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Plateau town; Sohrai–Khovar painting.",
+            "hi": "पठारी नगर; सोहराय–खोवर चित्रकला।",
+            "mr": "पठारावरील शहर; सोहराय–खोवर चित्रकला.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Culture",
+            "hi": "संस्कृति",
+            "mr": "संस्कृती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dumka",
+          "name": {
+            "en": "Dumka",
+            "hi": "दुमका",
+            "mr": "दुमका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Sub-capital and centre of Santhal Pargana.",
+            "hi": "उपराजधानी और संथाल परगना का केंद्र।",
+            "mr": "उपराजधानी व संथाल परगण्याचे केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Sub-capital",
+            "hi": "उपराजधानी",
+            "mr": "उपराजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "bokaro",
+          "name": {
+            "en": "Bokaro",
+            "hi": "बोकारो",
+            "mr": "बोकारो",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chatra",
+          "name": {
+            "en": "Chatra",
+            "hi": "चतरा",
+            "mr": "चतरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "deoghar",
+          "name": {
+            "en": "Deoghar",
+            "hi": "देवघर",
+            "mr": "देवघर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dhanbad",
+          "name": {
+            "en": "Dhanbad",
+            "hi": "धनबाद",
+            "mr": "धनबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dumka",
+          "name": {
+            "en": "Dumka",
+            "hi": "दुमका",
+            "mr": "दुमका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "eastsinghbhum",
+          "name": {
+            "en": "East Singhbhum",
+            "hi": "पूर्वी सिंहभूम",
+            "mr": "पूर्व सिंहभूम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "garhwa",
+          "name": {
+            "en": "Garhwa",
+            "hi": "गढ़वा",
+            "mr": "गढवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "giridih",
+          "name": {
+            "en": "Giridih",
+            "hi": "गिरिडीह",
+            "mr": "गिरिडीह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "godda",
+          "name": {
+            "en": "Godda",
+            "hi": "गोड्डा",
+            "mr": "गोड्डा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gumla",
+          "name": {
+            "en": "Gumla",
+            "hi": "गुमला",
+            "mr": "गुमला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hazaribagh",
+          "name": {
+            "en": "Hazaribagh",
+            "hi": "हज़ारीबाग",
+            "mr": "हजारीबाग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jamtara",
+          "name": {
+            "en": "Jamtara",
+            "hi": "जामताड़ा",
+            "mr": "जामताडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khunti",
+          "name": {
+            "en": "Khunti",
+            "hi": "खूँटी",
+            "mr": "खुंटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "koderma",
+          "name": {
+            "en": "Koderma",
+            "hi": "कोडरमा",
+            "mr": "कोडरमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "latehar",
+          "name": {
+            "en": "Latehar",
+            "hi": "लातेहार",
+            "mr": "लातेहार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lohardaga",
+          "name": {
+            "en": "Lohardaga",
+            "hi": "लोहरदगा",
+            "mr": "लोहरदगा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pakur",
+          "name": {
+            "en": "Pakur",
+            "hi": "पाकुड़",
+            "mr": "पाकुड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "palamu",
+          "name": {
+            "en": "Palamu",
+            "hi": "पलामू",
+            "mr": "पलामू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ramgarh",
+          "name": {
+            "en": "Ramgarh",
+            "hi": "रामगढ़",
+            "mr": "रामगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ranchi",
+          "name": {
+            "en": "Ranchi",
+            "hi": "रांची",
+            "mr": "रांची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sahibganj",
+          "name": {
+            "en": "Sahibganj",
+            "hi": "साहिबगंज",
+            "mr": "साहिबगंज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "seraikelakharsawan",
+          "name": {
+            "en": "Seraikela Kharsawan",
+            "hi": "सरायकेला खरसावाँ",
+            "mr": "सरायकेला खरसावां",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "simdega",
+          "name": {
+            "en": "Simdega",
+            "hi": "सिमडेगा",
+            "mr": "सिमडेगा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "westsinghbhum",
+          "name": {
+            "en": "West Singhbhum",
+            "hi": "पश्चिमी सिंहभूम",
+            "mr": "पश्चिम सिंहभूम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 24 districts (alphabetical)",
+        "hi": "24 ज़िले (वर्णानुक्रम)",
+        "mr": "24 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official district list (State notification)",
+            "hi": "आधिकारिक ज़िला सूची (राज्य अधिसूचना)",
+            "mr": "अधिकृत जिल्हा यादी (राज्य अधिसूचना)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Link the State's list of districts."
+        },
+        {
+          "label": {
+            "en": "City populations (Census 2011)",
+            "hi": "शहरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban agglomeration tables."
+        }
+      ]
+    }
+  ]
+}

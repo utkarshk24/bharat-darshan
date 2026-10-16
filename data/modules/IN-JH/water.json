@@ -1,0 +1,68 @@
+{
+  "region": "IN-JH",
+  "module": "water",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Jharkhand receives good monsoon rain, but its hard rocks hold little groundwater and its rivers run fast off the plateau, so water scarcity in summer is common. The Damodar Valley Corporation, set up in 1948 as independent India's first multipurpose river valley project, built dams at Tilaiya, Konar, Maithon and Panchet for flood control, power and irrigation; Getalsud near Ranchi and Chandil on the Subarnarekha are other major reservoirs. Mining has polluted the Damodar and other rivers, and fluoride and arsenic affect groundwater in parts of Palamu, Garhwa and Sahibganj. Small check dams and ponds are widely used to store monsoon water.",
+        "hi": "झारखंड में अच्छी मानसूनी वर्षा होती है, लेकिन इसकी कठोर चट्टानों में भूजल कम रहता है और नदियाँ पठार से तेज़ी से बह जाती हैं, इसलिए गर्मियों में पानी की कमी आम है। 1948 में स्वतंत्र भारत की पहली बहुउद्देशीय नदी घाटी परियोजना के रूप में बने दामोदर घाटी निगम ने बाढ़ नियंत्रण, बिजली और सिंचाई के लिए तिलैया, कोनार, मैथन और पंचेत में बाँध बनाए; रांची के पास गेतलसूद और सुवर्णरेखा पर चांडिल अन्य बड़े जलाशय हैं। खनन ने दामोदर और अन्य नदियों को प्रदूषित किया है, और पलामू, गढ़वा और साहिबगंज के कुछ भागों के भूजल में फ़्लोराइड और आर्सेनिक है। मानसूनी पानी जमा करने के लिए छोटे चेक डैम और तालाब व्यापक रूप से उपयोग होते हैं।",
+        "mr": "झारखंडमध्ये चांगला मान्सूनी पाऊस पडतो, पण त्याच्या कठीण खडकांत भूजल कमी साठते आणि नद्या पठारावरून वेगाने वाहून जातात, त्यामुळे उन्हाळ्यात पाणीटंचाई सामान्य आहे. 1948 मध्ये स्वतंत्र भारताचा पहिला बहुउद्देशीय नदी खोरे प्रकल्प म्हणून स्थापन झालेल्या दामोदर खोरे महामंडळाने पूरनियंत्रण, वीज व सिंचनासाठी तिलैया, कोनार, मैथन व पंचेत येथे धरणे बांधली; रांचीजवळील गेतलसूद व सुवर्णरेखेवरील चांडिल हे इतर मोठे जलाशय आहेत. खाणकामामुळे दामोदर व इतर नद्या प्रदूषित झाल्या आहेत, आणि पलामू, गढवा व साहिबगंजच्या काही भागांतील भूजलात फ्लोराइड व आर्सेनिक आहे. पावसाचे पाणी साठवण्यासाठी लहान बंधारे व तलाव मोठ्या प्रमाणावर वापरले जातात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Irrigated area",
+            "hi": "सिंचित क्षेत्र",
+            "mr": "सिंचित क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jharkhand Economic Survey / Water Resources Department."
+        },
+        {
+          "label": {
+            "en": "Groundwater stage of extraction",
+            "hi": "भूजल दोहन का स्तर",
+            "mr": "भूजल उपशाचा टप्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Fluoride- and arsenic-affected habitations",
+            "hi": "फ़्लोराइड और आर्सेनिक प्रभावित बस्तियाँ",
+            "mr": "फ्लोराइड व आर्सेनिकबाधित वस्त्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission water-quality data."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "region": "IN-JH",
+  "module": "projects",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Deoghar's airport, opened in July 2022 under the UDAN scheme, connected the pilgrimage town to Kolkata and other cities. Other large works in the State include new railway lines, expressways and highways across the plateau, and expansion of coal mining and power plants. Each card shows its source and the date it was checked.",
+        "hi": "उड़ान योजना के तहत जुलाई 2022 में खुले देवघर हवाई अड्डे ने तीर्थ नगर को कोलकाता और अन्य शहरों से जोड़ा। राज्य के अन्य बड़े कार्यों में पठार भर में नई रेल लाइनें, एक्सप्रेसवे और राजमार्ग, और कोयला खनन व बिजली संयंत्रों का विस्तार शामिल है। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "उडान योजनेअंतर्गत जुलै 2022 मध्ये सुरू झालेल्या देवघर विमानतळाने तीर्थनगराला कोलकाता व इतर शहरांशी जोडले. राज्यातील इतर मोठ्या कामांत पठारभर नवे रेल्वेमार्ग, द्रुतगती मार्ग व महामार्ग आणि कोळसा खाणकाम व वीज प्रकल्पांचा विस्तार यांचा समावेश आहे. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "new-india-samachar"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "AIIMS Deoghar — completion date and cost",
+            "hi": "एम्स देवघर — पूर्णता तिथि और लागत",
+            "mr": "एम्स देवघर — पूर्णत्वाची तारीख व खर्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw",
+          "note": "Ministry of Health and Family Welfare."
+        },
+        {
+          "label": {
+            "en": "Jharia Master Plan (fire and subsidence) — status",
+            "hi": "झरिया मास्टर प्लान (आग और धँसान) — स्थिति",
+            "mr": "झरिया बृहत् आराखडा (आग व भूस्खलन) — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Coal."
+        }
+      ]
+    }
+  ]
+}

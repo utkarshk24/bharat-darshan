@@ -1,0 +1,55 @@
+{
+  "region": "IN-JH",
+  "module": "energy",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Coal is the base of Jharkhand's energy. Thermal stations of the Damodar Valley Corporation at Bokaro, Chandrapura and Koderma, the Maithon plant, Tenughat, Tata Power's Jojobera plant and the Patratu plant being rebuilt as a joint venture of NTPC and the State supply power both within the State and to the eastern grid. The DVC also built hydro-electric dams at Tilaiya, Maithon and Panchet. Solar capacity is small but growing, including floating solar on reservoirs.",
+        "hi": "कोयला झारखंड की ऊर्जा का आधार है। बोकारो, चंद्रपुरा और कोडरमा में दामोदर घाटी निगम के तापीय केंद्र, मैथन संयंत्र, तेनुघाट, टाटा पावर का जोजोबेरा संयंत्र और एनटीपीसी व राज्य के संयुक्त उद्यम के रूप में पुनर्निर्मित हो रहा पतरातू संयंत्र राज्य के भीतर और पूर्वी ग्रिड दोनों को बिजली देते हैं। डीवीसी ने तिलैया, मैथन और पंचेत में जलविद्युत बाँध भी बनाए। सौर क्षमता छोटी लेकिन बढ़ रही है, जिसमें जलाशयों पर तैरते सौर संयंत्र भी हैं।",
+        "mr": "कोळसा हा झारखंडच्या ऊर्जेचा पाया आहे. बोकारो, चंद्रपुरा व कोडरमा येथील दामोदर खोरे महामंडळाची औष्णिक केंद्रे, मैथन प्रकल्प, तेनुघाट, टाटा पॉवरचा जोजोबेरा प्रकल्प आणि एनटीपीसी व राज्याच्या संयुक्त उपक्रमातून पुन्हा उभारला जाणारा पतरातू प्रकल्प राज्यांतर्गत व पूर्व ग्रिडला वीज पुरवतात. डीव्हीसीने तिलैया, मैथन व पंचेत येथे जलविद्युत धरणेही बांधली. सौरक्षमता लहान पण वाढती आहे, ज्यात जलाशयांवरील तरंगते सौर प्रकल्पही आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Per capita electricity consumption",
+            "hi": "प्रति व्यक्ति बिजली खपत",
+            "mr": "दरडोई वीज वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA General Review."
+        }
+      ]
+    }
+  ]
+}

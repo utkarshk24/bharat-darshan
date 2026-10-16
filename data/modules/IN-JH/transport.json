@@ -1,0 +1,117 @@
+{
+  "region": "IN-JH",
+  "module": "transport",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Birsa Munda Airport at Ranchi is the State's main airport, and Deoghar has had commercial flights since 2022. Jharkhand's railways are among India's busiest for freight: the Dhanbad division carries vast quantities of coal, and lines from Howrah to Delhi and Mumbai cross the State through Dhanbad, Bokaro, Ranchi and Tatanagar (Jamshedpur). National highways link Ranchi with Jamshedpur, Hazaribagh and Patna, and the Grand Trunk Road crosses the north through Dhanbad and Hazaribagh district.",
+        "hi": "रांची का बिरसा मुंडा हवाई अड्डा राज्य का मुख्य हवाई अड्डा है, और देवघर से 2022 से व्यावसायिक उड़ानें हैं। झारखंड की रेलें माल ढुलाई के लिए भारत की सबसे व्यस्त रेलों में हैं: धनबाद मंडल भारी मात्रा में कोयला ढोता है, और हावड़ा से दिल्ली और मुंबई की लाइनें धनबाद, बोकारो, रांची और टाटानगर (जमशेदपुर) से होकर राज्य को पार करती हैं। राष्ट्रीय राजमार्ग रांची को जमशेदपुर, हज़ारीबाग और पटना से जोड़ते हैं, और ग्रैंड ट्रंक रोड उत्तर में धनबाद और हज़ारीबाग ज़िले से होकर गुज़रती है।",
+        "mr": "रांचीचे बिरसा मुंडा विमानतळ हे राज्याचे मुख्य विमानतळ आहे, आणि देवघरहून 2022 पासून व्यावसायिक उड्डाणे आहेत. झारखंडचे रेल्वेमार्ग मालवाहतुकीसाठी भारतातील सर्वांत व्यस्त मार्गांपैकी आहेत: धनबाद विभाग प्रचंड प्रमाणात कोळसा वाहून नेतो, आणि हावडा ते दिल्ली व मुंबई मार्ग धनबाद, बोकारो, रांची व टाटानगर (जमशेदपूर) मार्गे राज्य ओलांडतात. राष्ट्रीय महामार्ग रांचीला जमशेदपूर, हजारीबाग व पाटण्याशी जोडतात, आणि ग्रँड ट्रंक रोड उत्तरेत धनबाद व हजारीबाग जिल्ह्यातून जातो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ixr",
+          "name": {
+            "en": "Birsa Munda Airport, Ranchi",
+            "hi": "बिरसा मुंडा हवाई अड्डा, रांची",
+            "mr": "बिरसा मुंडा विमानतळ, रांची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "IXR",
+            "hi": "IXR",
+            "mr": "IXR",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dgh",
+          "name": {
+            "en": "Deoghar Airport",
+            "hi": "देवघर हवाई अड्डा",
+            "mr": "देवघर विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "DGH",
+            "hi": "DGH",
+            "mr": "DGH",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports (selected)",
+        "hi": "हवाई अड्डे (चयनित)",
+        "mr": "विमानतळ (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

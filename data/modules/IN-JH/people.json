@@ -1,0 +1,534 @@
+{
+  "region": "IN-JH",
+  "module": "people",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Jharkhand had 3.30 crore people at the 2011 Census, with about 414 people per km². The sex ratio was 948 women per 1,000 men, and the child sex ratio fell from 965 in 2001 to 948. Literacy rose sharply, from 53.6% in 2001 to 66.4% in 2011, but was still below the national 73.0%. Scheduled Tribes made up 26.2% of the population — among the highest shares outside the north-east — and Scheduled Castes 12.1%.\n\nThe largest tribal communities are the Santhal, Oraon, Munda and Ho, and the State also has several particularly vulnerable tribal groups such as the Asur, Birhor and Sauria Paharia. Santali is a scheduled language, and Mundari, Ho, Kurukh, Kharia, Nagpuri, Khortha, Kurmali and Panchpargania are widely spoken alongside Hindi, Urdu, Bengali and Odia.",
+        "hi": "2011 की जनगणना में झारखंड की जनसंख्या 3.30 करोड़ थी, और प्रति वर्ग किमी लगभग 414 लोग। लिंगानुपात प्रति 1,000 पुरुषों पर 948 महिलाएँ था, और शिशु लिंगानुपात 2001 के 965 से घटकर 948 हो गया। साक्षरता 2001 के 53.6% से तेज़ी से बढ़कर 2011 में 66.4% हुई, लेकिन फिर भी राष्ट्रीय 73.0% से कम थी। अनुसूचित जनजातियाँ जनसंख्या का 26.2% थीं — पूर्वोत्तर के बाहर सबसे ऊँचे हिस्सों में — और अनुसूचित जातियाँ 12.1%।\n\nसबसे बड़े जनजातीय समुदाय संथाल, उरांव, मुंडा और हो हैं, और राज्य में असुर, बिरहोर और सौरिया पहाड़िया जैसे कई विशेष रूप से कमज़ोर जनजातीय समूह भी हैं। संताली अनुसूचित भाषा है, और हिंदी, उर्दू, बांग्ला और ओड़िया के साथ मुंडारी, हो, कुड़ुख, खड़िया, नागपुरी, खोरठा, कुरमाली और पंचपरगनिया व्यापक रूप से बोली जाती हैं।",
+        "mr": "2011 च्या जनगणनेनुसार झारखंडची लोकसंख्या 3.30 कोटी होती, आणि प्रति चौ.किमी सुमारे 414 लोक. दर 1,000 पुरुषांमागे 948 स्त्रिया होत्या, आणि बाल लिंग गुणोत्तर 2001 मधील 965 वरून 948 वर घसरले. साक्षरता 2001 मधील 53.6% वरून 2011 मध्ये 66.4% पर्यंत वेगाने वाढली, पण तरीही राष्ट्रीय 73.0% पेक्षा कमी होती. अनुसूचित जमाती लोकसंख्येच्या 26.2% होत्या — ईशान्येबाहेरील सर्वाधिक वाट्यांपैकी — आणि अनुसूचित जाती 12.1%.\n\nसंथाल, ओराव, मुंडा व हो हे सर्वांत मोठे आदिवासी समुदाय आहेत, आणि राज्यात असुर, बिरहोर व सौरिया पहाडिया यांसारखे अनेक विशेष असुरक्षित आदिवासी गटही आहेत. संताली ही अनुसूचित भाषा आहे, आणि हिंदी, उर्दू, बंगाली व ओडियासोबत मुंडारी, हो, कुडुख, खडिया, नागपुरी, खोरठा, कुरमाली व पंचपरगनिया मोठ्या प्रमाणावर बोलल्या जातात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "census",
+        "es-india",
+        "dl-planning"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 32988134,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 1,69,30,315; females 1,60,57,819."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 948,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Puducherry DES state-wise table citing ORGI (941 in 2001)."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 941,
+            "unit": "females per 1000 males",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 948,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PIB release of 11 Feb 2014 (RGI data). Was 965 in 2001."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 965,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 66.4,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "es-india",
+            "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 53.6,
+            "unit": "%",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "es-india",
+            "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 414,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: Census 2011 population 3,29,88,134 ÷ area 79,716 km² = 413.8."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "sc",
+          "label": {
+            "en": "Scheduled Castes, share of population",
+            "hi": "अनुसूचित जातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 12.1,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "dl-planning",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/17._table_social_welfare.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Delhi Planning Department, table 17.2, citing Census 2011: 39.86 lakh people."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        },
+        {
+          "id": "st",
+          "label": {
+            "en": "Scheduled Tribes, share of population",
+            "hi": "अनुसूचित जनजातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जमाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 26.2,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "dl-planning",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/17._table_social_welfare.pdf",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Same table: 86.45 lakh people."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "langs",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "hi",
+          "name": {
+            "en": "Hindi",
+            "hi": "हिंदी",
+            "mr": "हिंदी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official language",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sat",
+          "name": {
+            "en": "Santali",
+            "hi": "संताली",
+            "mr": "संताली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Scheduled language",
+            "hi": "अनुसूचित भाषा",
+            "mr": "अनुसूचित भाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ur",
+          "name": {
+            "en": "Urdu",
+            "hi": "उर्दू",
+            "mr": "उर्दू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bn",
+          "name": {
+            "en": "Bengali",
+            "hi": "बांग्ला",
+            "mr": "बंगाली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "unr",
+          "name": {
+            "en": "Mundari",
+            "hi": "मुंडारी",
+            "mr": "मुंडारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hoc",
+          "name": {
+            "en": "Ho",
+            "hi": "हो",
+            "mr": "हो",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kru",
+          "name": {
+            "en": "Kurukh",
+            "hi": "कुड़ुख",
+            "mr": "कुडुख",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sck",
+          "name": {
+            "en": "Nagpuri (Sadri)",
+            "hi": "नागपुरी (सादरी)",
+            "mr": "नागपुरी (सादरी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kho",
+          "name": {
+            "en": "Khortha",
+            "hi": "खोरठा",
+            "mr": "खोरठा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Languages",
+        "hi": "भाषाएँ",
+        "mr": "भाषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Urban population share (Census 2011)",
+            "hi": "शहरी जनसंख्या का हिस्सा (जनगणना 2011)",
+            "mr": "नागरी लोकसंख्येचा वाटा (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Primary Census Abstract."
+        },
+        {
+          "label": {
+            "en": "Decadal growth, 2001–2011",
+            "hi": "दशकीय वृद्धि, 2001–2011",
+            "mr": "दशकातील वाढ, 2001–2011",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 Final Population Totals for Jharkhand."
+        },
+        {
+          "label": {
+            "en": "Religion shares (Census 2011, C-01)",
+            "hi": "धर्मवार हिस्सा (जनगणना 2011, C-01)",
+            "mr": "धर्मनिहाय वाटा (जनगणना 2011, C-01)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-01 table; show without commentary."
+        },
+        {
+          "label": {
+            "en": "Second official languages — notification",
+            "hi": "द्वितीय राजभाषाएँ — अधिसूचना",
+            "mr": "द्वितीय राजभाषा — अधिसूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jharkhand Official Language (Amendment) Acts; list the languages as notified."
+        },
+        {
+          "label": {
+            "en": "Current population (projected)",
+            "hi": "वर्तमान जनसंख्या (अनुमानित)",
+            "mr": "सध्याची लोकसंख्या (प्रक्षेपित)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw-projections",
+          "note": "MoHFW Technical Group projections; label as Projected."
+        }
+      ]
+    }
+  ]
+}

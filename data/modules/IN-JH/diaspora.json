@@ -1,0 +1,55 @@
+{
+  "region": "IN-JH",
+  "module": "diaspora",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "In the 19th century, many Adivasi people from Chota Nagpur were recruited to work on the tea gardens of Assam and north Bengal, where their descendants form large communities today, and some were taken as indentured labourers to Mauritius and the Caribbean. Today workers from Jharkhand migrate seasonally to brick kilns, construction sites and farms in other States, and many young women work in domestic service in Delhi and other cities. Professionals trained at Dhanbad, Mesra and Jamshedpur work across India and abroad.",
+        "hi": "19वीं सदी में छोटा नागपुर के बहुत से आदिवासी लोगों को असम और उत्तर बंगाल के चाय बाग़ानों में काम के लिए भर्ती किया गया, जहाँ उनके वंशज आज बड़े समुदाय बनाते हैं, और कुछ को गिरमिटिया मज़दूरों के रूप में मॉरीशस और कैरिबियन ले जाया गया। आज झारखंड के श्रमिक मौसमी रूप से दूसरे राज्यों के ईंट भट्ठों, निर्माण स्थलों और खेतों में जाते हैं, और बहुत सी युवा महिलाएँ दिल्ली और अन्य शहरों में घरेलू काम करती हैं। धनबाद, मेसरा और जमशेदपुर में प्रशिक्षित पेशेवर पूरे भारत और विदेश में काम करते हैं।",
+        "mr": "एकोणिसाव्या शतकात छोटा नागपूरमधील अनेक आदिवासी लोकांना आसाम व उत्तर बंगालच्या चहाच्या मळ्यांत कामासाठी भरती करण्यात आले, जिथे त्यांचे वंशज आज मोठे समुदाय बनवतात, आणि काहींना करारबद्ध मजूर म्हणून मॉरिशस व कॅरिबियनमध्ये नेले गेले. आज झारखंडचे कामगार हंगामी स्वरूपात इतर राज्यांतील वीटभट्ट्या, बांधकामस्थळे व शेतांत जातात, आणि अनेक तरुण स्त्रिया दिल्ली व इतर शहरांत घरकाम करतात. धनबाद, मेसरा व जमशेदपूरमध्ये प्रशिक्षित व्यावसायिक भारतभर व परदेशात काम करतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of internal migrants",
+            "hi": "आंतरिक प्रवासियों की संख्या",
+            "mr": "देशांतर्गत स्थलांतरितांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 D-series migration tables."
+        },
+        {
+          "label": {
+            "en": "Remittance inflows",
+            "hi": "प्रेषण प्रवाह",
+            "mr": "परदेशातून येणारा पैसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI remittance survey, state shares."
+        }
+      ]
+    }
+  ]
+}

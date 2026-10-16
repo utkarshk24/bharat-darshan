@@ -1,0 +1,183 @@
+{
+  "region": "IN-JH",
+  "module": "climate",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Jharkhand has a tropical monsoon climate, moderated by the plateau's height. Summers (March–June) are hot, especially in the lower north and in Jamshedpur and Dhanbad, while Ranchi and Netarhat stay a little cooler — Ranchi was once the summer capital of Bihar. The south-west monsoon (mid-June to September) brings most of the rain, and thunderstorms with lightning are frequent. Winters (November–February) are pleasant and dry, with cold nights on the plateau.",
+        "hi": "झारखंड की जलवायु उष्णकटिबंधीय मानसूनी है, जिसे पठार की ऊँचाई कुछ नरम बनाती है। गर्मियाँ (मार्च–जून) गर्म होती हैं, विशेषकर निचले उत्तर और जमशेदपुर व धनबाद में, जबकि रांची और नेतरहाट थोड़े ठंडे रहते हैं — रांची कभी बिहार की ग्रीष्मकालीन राजधानी थी। दक्षिण-पश्चिम मानसून (मध्य जून से सितंबर) अधिकांश वर्षा लाता है, और आकाशीय बिजली के साथ आँधी-तूफ़ान आम हैं। सर्दियाँ (नवंबर–फ़रवरी) सुहावनी और सूखी होती हैं, और पठार पर रातें ठंडी।",
+        "mr": "झारखंडचे हवामान उष्णकटिबंधीय मान्सूनचे आहे, जे पठाराच्या उंचीमुळे काहीसे सौम्य होते. उन्हाळा (मार्च–जून) उष्ण असतो, विशेषतः खालच्या उत्तर भागात व जमशेदपूर-धनबादमध्ये, तर रांची व नेतरहाट थोडे थंड राहतात — रांची एकेकाळी बिहारची उन्हाळी राजधानी होती. नैर्ऋत्य मान्सून (जूनच्या मध्यापासून सप्टेंबरपर्यंत) बहुतेक पाऊस आणतो, आणि विजांसह वादळे वारंवार होतात. हिवाळा (नोव्हेंबर–फेब्रुवारी) आल्हाददायक व कोरडा असतो, आणि पठारावर रात्री थंड असतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Ranchi",
+            "hi": "रांची",
+            "mr": "रांची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 23.3441,
+          "lon": 85.3096
+        },
+        {
+          "name": {
+            "en": "Jamshedpur",
+            "hi": "जमशेदपुर",
+            "mr": "जमशेदपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 22.8046,
+          "lon": 86.2029
+        },
+        {
+          "name": {
+            "en": "Dhanbad",
+            "hi": "धनबाद",
+            "mr": "धनबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 23.7957,
+          "lon": 86.4304
+        },
+        {
+          "name": {
+            "en": "Deoghar",
+            "hi": "देवघर",
+            "mr": "देवघर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 24.4852,
+          "lon": 86.6948
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to March",
+            "hi": "अक्टूबर से मार्च",
+            "mr": "ऑक्टोबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best for waterfalls after the rains, Netarhat sunrises and Betla; Sohrai and Tusu festivals.",
+            "hi": "बारिश के बाद झरनों, नेतरहाट के सूर्योदय और बेतला के लिए सबसे अच्छा; सोहराय और टुसू त्योहार।",
+            "mr": "पावसानंतरचे धबधबे, नेतरहाटचा सूर्योदय व बेतलासाठी उत्तम; सोहराय व टुसू सण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spring",
+          "name": {
+            "en": "March to April",
+            "hi": "मार्च से अप्रैल",
+            "mr": "मार्च ते एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Sarhul and the flowering of sal and palash.",
+            "hi": "सरहुल और साल व पलाश का फूलना।",
+            "mr": "सरहुल आणि साल व पळसाचा बहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "July to August",
+            "hi": "जुलाई से अगस्त",
+            "mr": "जुलै ते ऑगस्ट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Shravani Mela at Deoghar; lush green plateau.",
+            "hi": "देवघर में श्रावणी मेला; हरा-भरा पठार।",
+            "mr": "देवघर येथे श्रावणी मेळा; हिरवेगार पठार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (Jharkhand sub-division)",
+            "hi": "सामान्य वार्षिक वर्षा (झारखंड उप-मंडल)",
+            "mr": "सरासरी वार्षिक पाऊस (झारखंड उपविभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics."
+        }
+      ]
+    }
+  ]
+}

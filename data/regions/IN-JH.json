@@ -33,86 +33,151 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://www.jharkhand.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Asian elephant",
+        "hi": "हाथी",
+        "mr": "हत्ती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Elephas maximus",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Asian koel",
+        "hi": "कोयल",
+        "mr": "कोकिळा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Eudynamys scolopaceus",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Palash (flame of the forest)",
+        "hi": "पलाश",
+        "mr": "पळस",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Butea monosperma",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Sal",
+        "hi": "साल",
+        "mr": "साल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Shorea robusta",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 32988134,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 1,69,30,315; females 1,60,57,819."
     },
     "area": {
-      "value": null,
+      "value": 79716,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 414,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 3,29,88,134 ÷ area 79,716 km² = 413.8."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 948,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (941 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 948,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 965 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 66.4,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,87 +190,183 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 516255,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25 is the latest year published for Jharkhand. FY2023-24: ₹4,65,638 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 116663,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2023-24: ₹1,06,529."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 29.81,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-16",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 23,765.78 km² ÷ geographical area 79,716 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Santosh Kumar Gangwar",
+        "hi": "संतोष कुमार गंगवार",
+        "mr": "संतोष कुमार गंगवार",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2024-07-31",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/santosh-kumar-gangwar-takes-oath-as-governor-of-jharkhand",
+      "verifyUrl": "https://www.jharkhand.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Former Union Minister. Sworn in at Raj Bhavan, Ranchi, on 31 July 2024 by the acting Chief Justice of the Jharkhand High Court, Sujit Narayan Prasad (News On AIR)."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "name": {
+        "en": "Hemant Soren",
+        "hi": "हेमंत सोरेन",
+        "mr": "हेमंत सोरेन",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "JMM",
+      "since": "2024-11-28",
+      "asOf": "2026-10-16",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/hemant-soren-to-be-sworn-in-as-jharkhand-cm-tomorrow",
+      "verifyUrl": "https://www.jharkhand.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "note": "Sworn in for a fourth term on 28 November 2024 at Morhabadi Maidan, Ranchi, after the INDIA bloc won 56 of the 81 Assembly seats (News On AIR)."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Rabindra Nath Mahato",
+          "hi": "रवींद्र नाथ महतो",
+          "mr": "रवींद्र नाथ महतो",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "JMM",
+        "since": "2024-12-10",
+        "asOf": "2026-10-16",
+        "sourceId": "newsonair",
+        "url": "https://www.newsonair.gov.in/jmm-leader-rabindra-nath-mahto-re-elected-unanimously-as-speaker-of-jharkhand-legislative-assembly",
+        "verifyUrl": "https://jharkhandvidhansabha.nic.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Re-elected unanimously as Speaker of the sixth Assembly on 10 December 2024 — his second term (News On AIR)."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "deoghar-airport",
+      "name": {
+        "en": "Deoghar Airport",
+        "hi": "देवघर हवाई अड्डा",
+        "mr": "देवघर विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "Jharkhand's second commercial airport, built under the UDAN regional connectivity scheme near the Baba Baidyanath Dham pilgrimage town. The Prime Minister inaugurated it on 12 July 2022, when commercial flights also began.",
+        "hi": "उड़ान क्षेत्रीय संपर्क योजना के तहत बाबा बैद्यनाथ धाम तीर्थ नगर के पास बना झारखंड का दूसरा व्यावसायिक हवाई अड्डा। प्रधानमंत्री ने 12 जुलाई 2022 को इसका उद्घाटन किया, जिस दिन व्यावसायिक उड़ानें भी शुरू हुईं।",
+        "mr": "उडान प्रादेशिक संपर्क योजनेअंतर्गत बाबा बैद्यनाथ धाम तीर्थक्षेत्राजवळ उभारलेले झारखंडचे दुसरे व्यावसायिक विमानतळ. पंतप्रधानांनी 12 जुलै 2022 रोजी त्याचे उद्घाटन केले, त्याच दिवशी व्यावसायिक उड्डाणेही सुरू झाली.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "aviation",
+      "agency": "Airports Authority of India",
+      "start": null,
+      "completion": "12 July 2022",
+      "status": "Completed",
+      "asOf": "2026-10-16",
+      "sourceId": "new-india-samachar",
+      "url": "https://newindiasamachar.pib.gov.in/WriteReadData/flipbook/2022/Aug/1st/English/files/basic-html/page14.html",
+      "confidence": "Official"
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "sohrai-khovar-painting",
+      "name": {
+        "en": "Sohrai – Khovar Painting",
+        "hi": "सोहराय – खोवर चित्रकला",
+        "mr": "सोहराय – खोवर चित्रकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "658",
+      "filingDate": "2019-08-23",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-16",
+    "editorialStatus": "draft"
   }
 }

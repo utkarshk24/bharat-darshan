@@ -1,0 +1,55 @@
+{
+  "region": "IN-JH",
+  "module": "digital",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Jharkhand's technology sector is modest, centred on Ranchi and Jamshedpur, where engineering colleges and industrial companies employ IT staff. The State runs land records, certificates and welfare schemes online, and common service centres help people in villages use digital services.",
+        "hi": "झारखंड का प्रौद्योगिकी क्षेत्र साधारण है, जो रांची और जमशेदपुर पर केंद्रित है, जहाँ इंजीनियरिंग कॉलेज और औद्योगिक कंपनियाँ आईटी कर्मचारी रखती हैं। राज्य भूमि अभिलेख, प्रमाणपत्र और कल्याणकारी योजनाएँ ऑनलाइन चलाता है, और सामान्य सेवा केंद्र गाँवों में लोगों को डिजिटल सेवाओं के उपयोग में मदद करते हैं।",
+        "mr": "झारखंडचे तंत्रज्ञान क्षेत्र मर्यादित आहे, रांची व जमशेदपूरवर केंद्रित, जिथे अभियांत्रिकी महाविद्यालये व औद्योगिक कंपन्या आयटी कर्मचारी नेमतात. राज्य जमिनीच्या नोंदी, प्रमाणपत्रे व कल्याणकारी योजना ऑनलाइन चालवते, आणि सामायिक सेवा केंद्रे गावांतील लोकांना डिजिटल सेवा वापरण्यास मदत करतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Bihar circle, which includes Jharkhand)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

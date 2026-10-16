@@ -1,0 +1,493 @@
+{
+  "region": "IN-JH",
+  "module": "culture",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Jharkhand's culture is rooted in Adivasi traditions of nature worship, community dance and song. At Sarhul, villages honour the sal tree and the sacred grove; at Karma, young people dance around a branch of the karam tree; and at Sohrai, after the harvest, women paint houses with earth colours and cattle are worshipped. Group dances such as jhumar, domkach and paika, accompanied by the mandar drum and nagara, are performed at every festival. The Seraikela style of Chhau, a masked martial dance, is part of the Chhau tradition inscribed by UNESCO as intangible heritage. Sohrai and Khovar wall painting from Hazaribagh is a registered GI, and Paitkar scroll painting, Dokra metal casting and bamboo work are other crafts.\n\nWriters and scholars such as Ram Dayal Munda revived interest in tribal languages and music, and Nagpuri songs and films have a growing audience.",
+        "hi": "झारखंड की संस्कृति प्रकृति पूजा, सामुदायिक नृत्य और गीत की आदिवासी परंपराओं में रची-बसी है। सरहुल पर गाँव साल वृक्ष और पवित्र उपवन का सम्मान करते हैं; करमा पर युवा करम वृक्ष की डाली के चारों ओर नाचते हैं; और फ़सल के बाद सोहराय पर महिलाएँ मिट्टी के रंगों से घर रंगती हैं और पशुओं की पूजा होती है। मांदर और नगाड़े के साथ झूमर, डोमकच और पाइका जैसे सामूहिक नृत्य हर त्योहार पर होते हैं। मुखौटा युक्त युद्ध-नृत्य छऊ की सरायकेला शैली यूनेस्को की अमूर्त धरोहर सूची में दर्ज छऊ परंपरा का हिस्सा है। हज़ारीबाग की सोहराय और खोवर भित्ति चित्रकला पंजीकृत जीआई है, और पैटकर पट-चित्रकला, ढोकरा धातु ढलाई और बाँस का काम अन्य शिल्प हैं।\n\nराम दयाल मुंडा जैसे लेखकों और विद्वानों ने जनजातीय भाषाओं और संगीत में रुचि को पुनर्जीवित किया, और नागपुरी गीतों और फ़िल्मों के श्रोता बढ़ रहे हैं।",
+        "mr": "झारखंडची संस्कृती निसर्गपूजा, सामूहिक नृत्य व गाण्यांच्या आदिवासी परंपरांत रुजलेली आहे. सरहुलला गावे साल वृक्ष व पवित्र देवराईचा सन्मान करतात; करमाला तरुण करम वृक्षाच्या फांदीभोवती नाचतात; आणि सुगीनंतर सोहरायला स्त्रिया मातीच्या रंगांनी घरे रंगवतात व गुरांची पूजा होते. मांदर व नगाऱ्याच्या साथीने झुमर, डोमकच व पाईका यांसारखी सामूहिक नृत्ये प्रत्येक सणाला होतात. मुखवटाधारी युद्धनृत्य छाऊची सरायकेला शैली युनेस्कोच्या अमूर्त वारसा यादीत नोंदलेल्या छाऊ परंपरेचा भाग आहे. हजारीबागची सोहराय व खोवर भित्तिचित्रकला नोंदणीकृत जीआय आहे, आणि पैटकर पट-चित्रकला, ढोकरा धातू ओतकाम व बांबूकाम या इतर हस्तकला आहेत.\n\nराम दयाल मुंडा यांसारख्या लेखक व विद्वानांनी आदिवासी भाषा व संगीतातील रुची पुन्हा जागवली, आणि नागपुरी गाणी व चित्रपटांचा प्रेक्षकवर्ग वाढत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "festivals",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "sarhul",
+          "name": {
+            "en": "Sarhul",
+            "hi": "सरहुल",
+            "mr": "सरहुल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Spring festival of the sal blossom and the sacred grove; processions in Ranchi.",
+            "hi": "साल के फूल और पवित्र उपवन का वसंत उत्सव; रांची में शोभायात्राएँ।",
+            "mr": "सालच्या बहराचा व पवित्र देवराईचा वसंतोत्सव; रांचीत मिरवणुका.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "March–April",
+            "hi": "मार्च–अप्रैल",
+            "mr": "मार्च–एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "karma",
+          "name": {
+            "en": "Karma",
+            "hi": "करमा",
+            "mr": "करमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Night-long dancing around a karam branch, for prosperity and siblings' well-being.",
+            "hi": "समृद्धि और भाई-बहनों के कल्याण के लिए करम की डाली के चारों ओर रात भर नृत्य।",
+            "mr": "समृद्धी व भावंडांच्या कल्याणासाठी करमच्या फांदीभोवती रात्रभर नृत्य.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "August–September",
+            "hi": "अगस्त–सितंबर",
+            "mr": "ऑगस्ट–सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sohrai",
+          "name": {
+            "en": "Sohrai",
+            "hi": "सोहराय",
+            "mr": "सोहराय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Harvest and cattle festival; houses are painted with Sohrai art.",
+            "hi": "फ़सल और पशुओं का त्योहार; घरों पर सोहराय चित्र बनते हैं।",
+            "mr": "सुगी व गुरांचा सण; घरांवर सोहराय चित्रे काढली जातात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "October–November",
+            "hi": "अक्टूबर–नवंबर",
+            "mr": "ऑक्टोबर–नोव्हेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tusu",
+          "name": {
+            "en": "Tusu Parab",
+            "hi": "टुसू परब",
+            "mr": "टुसू परब",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Harvest festival of the south-east, with songs and colourful chaudals floated in rivers.",
+            "hi": "दक्षिण-पूर्व का फ़सल उत्सव, गीतों और नदियों में बहाए जाने वाले रंगीन चौड़लों के साथ।",
+            "mr": "आग्नेयेकडील सुगीचा सण, गाणी व नद्यांत सोडल्या जाणाऱ्या रंगीत चौडलांसह.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mid-January",
+            "hi": "मध्य जनवरी",
+            "mr": "जानेवारीच्या मध्यात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shravani",
+          "name": {
+            "en": "Shravani Mela",
+            "hi": "श्रावणी मेला",
+            "mr": "श्रावणी मेळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Kanwariyas carry Ganga water from Sultanganj to Baidyanath Dham, Deoghar.",
+            "hi": "कांवड़िये सुल्तानगंज से बैद्यनाथ धाम, देवघर तक गंगाजल लाते हैं।",
+            "mr": "कावडिये सुलतानगंजहून बैद्यनाथ धाम, देवघरपर्यंत गंगाजल आणतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "July–August",
+            "hi": "जुलाई–अगस्त",
+            "mr": "जुलै–ऑगस्ट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Festivals",
+        "hi": "त्योहार",
+        "mr": "सण-उत्सव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "arts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "chhau",
+          "name": {
+            "en": "Seraikela Chhau",
+            "hi": "सरायकेला छऊ",
+            "mr": "सरायकेला छाऊ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sohrai",
+          "name": {
+            "en": "Sohrai–Khovar painting",
+            "hi": "सोहराय–खोवर चित्रकला",
+            "mr": "सोहराय–खोवर चित्रकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "paitkar",
+          "name": {
+            "en": "Paitkar painting",
+            "hi": "पैटकर चित्रकला",
+            "mr": "पैटकर चित्रकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jhumar",
+          "name": {
+            "en": "Jhumar dance",
+            "hi": "झूमर नृत्य",
+            "mr": "झुमर नृत्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dokra",
+          "name": {
+            "en": "Dokra metal craft",
+            "hi": "ढोकरा धातु शिल्प",
+            "mr": "ढोकरा धातू हस्तकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mandar",
+          "name": {
+            "en": "Mandar and nagara drums",
+            "hi": "मांदर और नगाड़ा",
+            "mr": "मांदर व नगारा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Arts and crafts",
+        "hi": "कलाएँ और शिल्प",
+        "mr": "कला व हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "food",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "dhuska",
+          "name": {
+            "en": "Dhuska",
+            "hi": "धुस्का",
+            "mr": "धुस्का",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Deep-fried rice-and-lentil bread, eaten with potato or chickpea curry.",
+            "hi": "चावल-दाल की तली रोटी, आलू या चने की करी के साथ।",
+            "mr": "तांदूळ-डाळीची तळलेली भाकरी, बटाटा किंवा हरभऱ्याच्या रश्श्यासह.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pitha",
+          "name": {
+            "en": "Pitha",
+            "hi": "पीठा",
+            "mr": "पिठा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Steamed rice dumplings made at festivals.",
+            "hi": "त्योहारों पर बनने वाले भाप में पके चावल के पीठे।",
+            "mr": "सणांना बनवले जाणारे वाफवलेले तांदळाचे पिठे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rugra",
+          "name": {
+            "en": "Rugra",
+            "hi": "रुगड़ा",
+            "mr": "रुगडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Wild monsoon mushrooms cooked as a curry.",
+            "hi": "मानसूनी जंगली मशरूम की सब्ज़ी।",
+            "mr": "पावसाळी रानअळंबीची भाजी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bamboo",
+          "name": {
+            "en": "Bamboo shoots (karil)",
+            "hi": "बाँस की कोंपलें (करील)",
+            "mr": "बांबूचे कोंब (करील)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pickled or cooked in the monsoon.",
+            "hi": "मानसून में अचार या सब्ज़ी के रूप में।",
+            "mr": "पावसाळ्यात लोणचे किंवा भाजी म्हणून.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "litti",
+          "name": {
+            "en": "Litti chokha",
+            "hi": "लिट्टी चोखा",
+            "mr": "लिट्टी चोखा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Shared with Bihar; roasted sattu-stuffed balls.",
+            "hi": "बिहार के साथ साझा; सत्तू भरी सेंकी लिट्टी।",
+            "mr": "बिहारसोबत सामायिक; सत्तू भरलेल्या भाजलेल्या लिट्ट्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Food",
+        "hi": "खान-पान",
+        "mr": "खाद्यसंस्कृती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "dress",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "panchi",
+          "name": {
+            "en": "Panchi and parhan",
+            "hi": "पंछी और परहान",
+            "mr": "पंछी व परहान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Handwoven cotton wraps of Santhal and other women, often with red borders.",
+            "hi": "संथाल और अन्य महिलाओं के हाथ से बुने सूती वस्त्र, अक्सर लाल किनारी वाले।",
+            "mr": "संथाल व इतर स्त्रियांची हातमागावरील सुती वस्त्रे, अनेकदा लाल काठाची.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "karya",
+          "name": {
+            "en": "Karya and bhagwan",
+            "hi": "करया और भगवान",
+            "mr": "करया व भगवान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Traditional men's loincloth and wrap in villages.",
+            "hi": "गाँवों में पुरुषों का पारंपरिक वस्त्र।",
+            "mr": "गावांत पुरुषांचे पारंपरिक वस्त्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tussar",
+          "name": {
+            "en": "Tussar silk",
+            "hi": "तसर रेशम",
+            "mr": "टसर रेशीम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Jharkhand is a leading producer of tussar silk.",
+            "hi": "झारखंड तसर रेशम का अग्रणी उत्पादक है।",
+            "mr": "झारखंड हा टसर रेशमाचा आघाडीचा उत्पादक आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Traditional dress",
+        "hi": "पारंपरिक वेशभूषा",
+        "mr": "पारंपरिक वेशभूषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "region": "IN-JH",
+  "module": "education",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Jharkhand's higher-education gross enrolment ratio (ages 18–23) rose from 15.9% in 2017-18 to 18.6% in 2021-22 in AISHE, still well below the national 28.4%; women's GER (18.7%) was slightly above men's (18.6%). The State had 33 universities but only 366 colleges — few for its population. Literacy rose from 53.6% in 2001 to 66.4% in 2011.\n\nJharkhand has several old and well-known institutions: the Indian School of Mines at Dhanbad (1926, now IIT (ISM) Dhanbad), BIT Mesra (1955), XLRI Jamshedpur (1949) and Ranchi University (1960). IIM Ranchi, NIT Jamshedpur, the Central University of Jharkhand, Birsa Agricultural University and the National University of Study and Research in Law are others.",
+        "hi": "एआईएसएचई के अनुसार झारखंड का उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 2017-18 के 15.9% से बढ़कर 2021-22 में 18.6% हुआ, जो अब भी राष्ट्रीय 28.4% से काफ़ी कम है; महिलाओं का जीईआर (18.7%) पुरुषों (18.6%) से थोड़ा अधिक था। राज्य में 33 विश्वविद्यालय थे लेकिन केवल 366 कॉलेज — इसकी जनसंख्या के हिसाब से कम। साक्षरता 2001 के 53.6% से बढ़कर 2011 में 66.4% हुई।\n\nझारखंड में कई पुराने और प्रसिद्ध संस्थान हैं: धनबाद का इंडियन स्कूल ऑफ़ माइंस (1926, अब आईआईटी (आईएसएम) धनबाद), बीआईटी मेसरा (1955), एक्सएलआरआई जमशेदपुर (1949) और रांची विश्वविद्यालय (1960)। आईआईएम रांची, एनआईटी जमशेदपुर, झारखंड केंद्रीय विश्वविद्यालय, बिरसा कृषि विश्वविद्यालय और राष्ट्रीय विधि अध्ययन एवं अनुसंधान विश्वविद्यालय अन्य संस्थान हैं।",
+        "mr": "एआयएसएचईनुसार झारखंडचे उच्चशिक्षण एकूण नोंदणी गुणोत्तर (18–23 वय) 2017-18 मधील 15.9% वरून 2021-22 मध्ये 18.6% झाले, जे अजूनही राष्ट्रीय 28.4% पेक्षा बरेच कमी आहे; स्त्रियांचे जीईआर (18.7%) पुरुषांपेक्षा (18.6%) किंचित अधिक होते. राज्यात 33 विद्यापीठे होती पण केवळ 366 महाविद्यालये — लोकसंख्येच्या मानाने कमी. साक्षरता 2001 मधील 53.6% वरून 2011 मध्ये 66.4% झाली.\n\nझारखंडमध्ये अनेक जुन्या व प्रसिद्ध संस्था आहेत: धनबादचे इंडियन स्कूल ऑफ माइन्स (1926, आता आयआयटी (आयएसएम) धनबाद), बीआयटी मेसरा (1955), एक्सएलआरआय जमशेदपूर (1949) व रांची विद्यापीठ (1960). आयआयएम रांची, एनआयटी जमशेदपूर, झारखंड केंद्रीय विद्यापीठ, बिरसा कृषी विद्यापीठ व राष्ट्रीय विधी अध्ययन व संशोधन विद्यापीठ या इतर संस्था आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 18.6,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 17.01,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 33,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 366,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-16",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "jh",
+          "label": {
+            "en": "Jharkhand",
+            "hi": "झारखंड",
+            "mr": "झारखंड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 15.94,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 16.73,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 18.08,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 17.01,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 18.6,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-16",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ism",
+          "name": {
+            "en": "IIT (ISM) Dhanbad",
+            "hi": "आईआईटी (आईएसएम) धनबाद",
+            "mr": "आयआयटी (आयएसएम) धनबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Dhanbad, 1926",
+            "hi": "धनबाद, 1926",
+            "mr": "धनबाद, 1926",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bit",
+          "name": {
+            "en": "BIT Mesra",
+            "hi": "बीआईटी मेसरा",
+            "mr": "बीआयटी मेसरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ranchi, 1955",
+            "hi": "रांची, 1955",
+            "mr": "रांची, 1955",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "xlri",
+          "name": {
+            "en": "XLRI",
+            "hi": "एक्सएलआरआई",
+            "mr": "एक्सएलआरआय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jamshedpur, 1949",
+            "hi": "जमशेदपुर, 1949",
+            "mr": "जमशेदपूर, 1949",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ru",
+          "name": {
+            "en": "Ranchi University",
+            "hi": "रांची विश्वविद्यालय",
+            "mr": "रांची विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ranchi, 1960",
+            "hi": "रांची, 1960",
+            "mr": "रांची, 1960",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iimr",
+          "name": {
+            "en": "IIM Ranchi",
+            "hi": "आईआईएम रांची",
+            "mr": "आयआयएम रांची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ranchi",
+            "hi": "रांची",
+            "mr": "रांची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nitj",
+          "name": {
+            "en": "NIT Jamshedpur",
+            "hi": "एनआईटी जमशेदपुर",
+            "mr": "एनआयटी जमशेदपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jamshedpur",
+            "hi": "जमशेदपुर",
+            "mr": "जमशेदपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cuj",
+          "name": {
+            "en": "Central University of Jharkhand",
+            "hi": "झारखंड केंद्रीय विश्वविद्यालय",
+            "mr": "झारखंड केंद्रीय विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ranchi",
+            "hi": "रांची",
+            "mr": "रांची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        },
+        {
+          "label": {
+            "en": "Literacy by sex (Census 2011)",
+            "hi": "लिंग के अनुसार साक्षरता (जनगणना 2011)",
+            "mr": "लिंगनिहाय साक्षरता (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Primary Census Abstract."
+        }
+      ]
+    }
+  ]
+}

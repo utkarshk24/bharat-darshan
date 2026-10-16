@@ -1,0 +1,305 @@
+{
+  "region": "IN-JH",
+  "module": "tourism",
+  "asOf": "2026-10-16",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Ranchi is known as the 'city of waterfalls': Hundru, Dassam, Jonha and Hirni falls are within easy reach, and Patratu valley's winding road and lake are popular. Netarhat, the 'queen of Chota Nagpur', is famed for its sunrises and sunsets, and nearby Lodh falls is the State's highest waterfall. Betla National Park offers jungle drives and the ruins of the Palamu forts. Pilgrims visit the Baidyanath jyotirlinga at Deoghar, the Jain shrines of Shikharji on Parasnath hill, the Chhinnamasta temple at Rajrappa and the Maluti temples. Jamshedpur's Jubilee Park and Dimna lake are city attractions.",
+        "hi": "रांची को 'झरनों का शहर' कहा जाता है: हुंडरू, दशम, जोन्हा और हिरनी जलप्रपात आसानी से पहुँचे जा सकते हैं, और पतरातू घाटी की घुमावदार सड़क और झील लोकप्रिय हैं। 'छोटा नागपुर की रानी' नेतरहाट अपने सूर्योदय और सूर्यास्त के लिए प्रसिद्ध है, और पास का लोध जलप्रपात राज्य का सबसे ऊँचा झरना है। बेतला राष्ट्रीय उद्यान में जंगल सफ़ारी और पलामू क़िलों के खंडहर हैं। तीर्थयात्री देवघर के बैद्यनाथ ज्योतिर्लिंग, पारसनाथ पहाड़ी पर शिखरजी के जैन तीर्थ, रजरप्पा के छिन्नमस्तिका मंदिर और मलूटी मंदिरों में जाते हैं। जमशेदपुर का जुबली पार्क और डिमना झील शहर के आकर्षण हैं।",
+        "mr": "रांचीला 'धबधब्यांचे शहर' म्हणतात: हुंडरू, दशम, जोन्हा व हिरनी धबधबे सहज गाठता येतात, आणि पतरातू खोऱ्याचा वळणदार रस्ता व सरोवर लोकप्रिय आहेत. 'छोटा नागपूरची राणी' नेतरहाट सूर्योदय व सूर्यास्तासाठी प्रसिद्ध आहे, आणि जवळचा लोध धबधबा हा राज्यातील सर्वांत उंच धबधबा आहे. बेतला राष्ट्रीय उद्यानात जंगल सफारी व पलामू किल्ल्यांचे अवशेष आहेत. यात्रेकरू देवघरचे बैद्यनाथ ज्योतिर्लिंग, पारसनाथ टेकडीवरील शिखरजीची जैन तीर्थे, रजरप्पाचे छिन्नमस्ता मंदिर व मलूटीची मंदिरे पाहायला जातात. जमशेदपूरचे ज्युबिली पार्क व डिमना सरोवर ही शहरातील आकर्षणे आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ranchi",
+          "name": {
+            "en": "Ranchi waterfalls",
+            "hi": "रांची के झरने",
+            "mr": "रांचीचे धबधबे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hundru, Dassam, Jonha",
+            "hi": "हुंडरू, दशम, जोन्हा",
+            "mr": "हुंडरू, दशम, जोन्हा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "netarhat",
+          "name": {
+            "en": "Netarhat",
+            "hi": "नेतरहाट",
+            "mr": "नेतरहाट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hill station; Lodh falls",
+            "hi": "पहाड़ी स्थल; लोध जलप्रपात",
+            "mr": "थंड हवेचे ठिकाण; लोध धबधबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "betla",
+          "name": {
+            "en": "Betla National Park",
+            "hi": "बेतला राष्ट्रीय उद्यान",
+            "mr": "बेतला राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Wildlife; Palamu forts",
+            "hi": "वन्यजीव; पलामू क़िले",
+            "mr": "वन्यजीव; पलामू किल्ले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "deoghar",
+          "name": {
+            "en": "Deoghar",
+            "hi": "देवघर",
+            "mr": "देवघर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Baidyanath jyotirlinga",
+            "hi": "बैद्यनाथ ज्योतिर्लिंग",
+            "mr": "बैद्यनाथ ज्योतिर्लिंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "parasnath",
+          "name": {
+            "en": "Parasnath (Shikharji)",
+            "hi": "पारसनाथ (शिखरजी)",
+            "mr": "पारसनाथ (शिखरजी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jain pilgrimage",
+            "hi": "जैन तीर्थ",
+            "mr": "जैन तीर्थ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jamshedpur",
+          "name": {
+            "en": "Jamshedpur",
+            "hi": "जमशेदपुर",
+            "mr": "जमशेदपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jubilee Park; Dalma",
+            "hi": "जुबली पार्क; दलमा",
+            "mr": "ज्युबिली पार्क; दलमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Ranchi: Hundru, Dassam and Jonha falls, Patratu valley and Rock Garden.",
+            "hi": "रांची: हुंडरू, दशम और जोन्हा जलप्रपात, पतरातू घाटी और रॉक गार्डन।",
+            "mr": "रांची: हुंडरू, दशम व जोन्हा धबधबे, पतरातू खोरे व रॉक गार्डन.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d4",
+          "name": {
+            "en": "4 days",
+            "hi": "4 दिन",
+            "mr": "4 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Ranchi, Netarhat and Betla National Park.",
+            "hi": "रांची, नेतरहाट और बेतला राष्ट्रीय उद्यान।",
+            "mr": "रांची, नेतरहाट व बेतला राष्ट्रीय उद्यान.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3p",
+          "name": {
+            "en": "3 days (pilgrimage)",
+            "hi": "3 दिन (तीर्थयात्रा)",
+            "mr": "3 दिवस (तीर्थयात्रा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Deoghar, Parasnath and Rajrappa.",
+            "hi": "देवघर, पारसनाथ और रजरप्पा।",
+            "mr": "देवघर, पारसनाथ व रजरप्पा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "jt",
+          "name": {
+            "en": "Jharkhand Tourism (official)",
+            "hi": "झारखंड पर्यटन (आधिकारिक)",
+            "mr": "झारखंड पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://tourism.jharkhand.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        }
+      ]
+    }
+  ]
+}

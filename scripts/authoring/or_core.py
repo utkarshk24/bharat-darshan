@@ -63,6 +63,9 @@ r["government"] = {
     ],
 }
 
+from officeholder_updates_2026_10_24 import OR_GOV
+r["government"]["headOfState"] = OR_GOV  # changed 18 Oct 2026
+
 r["projects"] = [
     proj("sicsem-fab", L("SiCSem silicon-carbide semiconductor unit, Bhubaneswar", "सिकसेम सिलिकॉन कार्बाइड सेमीकंडक्टर इकाई, भुवनेश्वर", "सिकसेम सिलिकॉन कार्बाइड सेमीकंडक्टर प्रकल्प, भुवनेश्वर"),
          L("A compound-semiconductor fabrication unit at Info Valley, Bhubaneswar, with technology from Clas-SiC Wafer Fab of the UK — described by the Union Cabinet as the country's first commercial compound fab — with planned capacity of 60,000 wafers and 96 million packaged units a year.",

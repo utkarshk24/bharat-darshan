@@ -120,6 +120,8 @@ TEXTILE = {"Balaramapuram Sarees and Fine Cotton Fabrics", "Kasaragod Sarees", "
            "Kuthampully Dhoties & Set Mundu", "Cannanore Home Furnishings"}
 SHARED = {"KL,TN": ["Tamil Nadu"], "KL,KA,TN": ["Karnataka", "Tamil Nadu"], "KA,KL": ["Karnataka"]}
 r["giProducts"] = gi_list("gi_kl.tsv", GI_NAMES, SHARED, TEXTILE)
+from officeholder_updates_2026_10_24 import KL_GOV
+r["government"]["headOfState"] = KL_GOV  # changed 23 Oct 2026
 r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
 write("regions/IN-KL.json", r)
 print("kl core ok", len(r["giProducts"]), "GIs")

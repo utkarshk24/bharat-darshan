@@ -1,0 +1,204 @@
+{
+  "region": "IN-UK",
+  "module": "climate",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The plains and Doon valley have hot summers, a heavy monsoon and cool winters; the middle hills, around 1,500–2,500 m, have mild summers and cold winters with occasional snow; and the high Himalaya is under snow for much of the year, with the Char Dham shrines open only from about late April or May to November. The monsoon (late June to September) brings intense rain to the outer ranges, and cloudbursts, landslides and flash floods are common. Western disturbances bring winter rain and snow.",
+        "hi": "मैदानों और दून घाटी में गर्मियाँ गर्म, मानसून भारी और सर्दियाँ ठंडी होती हैं; लगभग 1,500–2,500 मीटर की मध्य पहाड़ियों में गर्मियाँ हल्की और सर्दियाँ ठंडी होती हैं, कभी-कभी बर्फ़ के साथ; और ऊँचा हिमालय वर्ष के अधिकांश समय बर्फ़ से ढका रहता है, जहाँ चार धाम के मंदिर केवल अप्रैल के अंत या मई से नवंबर तक खुलते हैं। मानसून (जून के अंत से सितंबर) बाहरी श्रेणियों में तीव्र वर्षा लाता है, और बादल फटना, भूस्खलन व अचानक बाढ़ आम हैं। पश्चिमी विक्षोभ सर्दियों में वर्षा और बर्फ़ लाते हैं।",
+        "mr": "मैदाने व डून खोऱ्यात उन्हाळा उष्ण, मान्सून मुसळधार व हिवाळा थंड असतो; सुमारे 1,500–2,500 मीटरवरील मधल्या टेकड्यांत उन्हाळा सौम्य व हिवाळा थंड असतो, कधीकधी बर्फासह; आणि उंच हिमालय वर्षातील बहुतेक काळ बर्फाखाली असतो, जिथे चार धामची मंदिरे केवळ एप्रिलच्या अखेरीपासून किंवा मेपासून नोव्हेंबरपर्यंत उघडी असतात. मान्सून (जूनच्या अखेरीपासून सप्टेंबर) बाहेरच्या रांगांत तीव्र पाऊस आणतो, आणि ढगफुटी, भूस्खलन व आकस्मिक पूर सामान्य आहेत. पश्चिमी विक्षोभ हिवाळ्यात पाऊस व बर्फ आणतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Dehradun",
+            "hi": "देहरादून",
+            "mr": "डेहराडून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 30.3165,
+          "lon": 78.0322
+        },
+        {
+          "name": {
+            "en": "Nainital",
+            "hi": "नैनीताल",
+            "mr": "नैनीताल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 29.3803,
+          "lon": 79.4636
+        },
+        {
+          "name": {
+            "en": "Haridwar",
+            "hi": "हरिद्वार",
+            "mr": "हरिद्वार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 29.9457,
+          "lon": 78.1642
+        },
+        {
+          "name": {
+            "en": "Joshimath",
+            "hi": "जोशीमठ",
+            "mr": "जोशीमठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 30.556,
+          "lon": 79.5643
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "summer",
+          "name": {
+            "en": "April to June",
+            "hi": "अप्रैल से जून",
+            "mr": "एप्रिल ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Char Dham season opens; hill stations at their best.",
+            "hi": "चार धाम यात्रा शुरू; पर्वतीय स्थल सबसे सुंदर।",
+            "mr": "चार धाम यात्रा सुरू; थंड हवेची ठिकाणे सर्वोत्तम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "autumn",
+          "name": {
+            "en": "September to November",
+            "hi": "सितंबर से नवंबर",
+            "mr": "सप्टेंबर ते नोव्हेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Clear Himalayan views after the monsoon; good trekking.",
+            "hi": "मानसून के बाद हिमालय के साफ़ दृश्य; ट्रेकिंग के लिए अच्छा।",
+            "mr": "मान्सूननंतर हिमालयाचे स्वच्छ दर्शन; ट्रेकिंगसाठी चांगले.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "July to August",
+            "hi": "जुलाई से अगस्त",
+            "mr": "जुलै ते ऑगस्ट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Valley of Flowers in bloom, but landslides often block roads.",
+            "hi": "फूलों की घाटी खिली होती है, पर भूस्खलन अक्सर सड़कें रोकते हैं।",
+            "mr": "फुलांचे खोरे बहरलेले असते, पण भूस्खलन अनेकदा रस्ते अडवतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "winter",
+          "name": {
+            "en": "December to March",
+            "hi": "दिसंबर से मार्च",
+            "mr": "डिसेंबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Skiing at Auli; Corbett safaris; high shrines closed.",
+            "hi": "औली में स्कीइंग; कॉर्बेट सफ़ारी; ऊँचे मंदिर बंद।",
+            "mr": "औलीत स्कीइंग; कॉर्बेट सफारी; उंचावरील मंदिरे बंद.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall",
+            "hi": "सामान्य वार्षिक वर्षा",
+            "mr": "सरासरी वार्षिक पाऊस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD Dehradun meteorological centre."
+        }
+      ]
+    }
+  ]
+}

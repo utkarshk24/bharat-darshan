@@ -1,0 +1,55 @@
+{
+  "region": "IN-UK",
+  "module": "energy",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Hydro-electricity is Uttarakhand's main power source. The Tehri dam on the Bhagirathi, with the Koteshwar project below it, is run by THDC India; NHPC operates the Dhauliganga station; and the State's UJVN runs older projects on the Yamuna, Ganga and their tributaries. Many further projects on the upper Ganga have been delayed or halted over environmental and safety concerns, especially after the floods of 2013 and 2021, when the Rishiganga and Tapovan–Vishnugad projects were badly damaged. Solar power is growing in the plains.",
+        "hi": "जलविद्युत उत्तराखंड का मुख्य बिजली स्रोत है। भागीरथी पर टिहरी बाँध, उसके नीचे कोटेश्वर परियोजना सहित, टीएचडीसी इंडिया चलाता है; एनएचपीसी धौलीगंगा केंद्र संचालित करता है; और राज्य का यूजेवीएन यमुना, गंगा और उनकी सहायक नदियों पर पुरानी परियोजनाएँ चलाता है। ऊपरी गंगा पर कई और परियोजनाएँ पर्यावरण और सुरक्षा चिंताओं के कारण टल गईं या रुक गईं, विशेषकर 2013 और 2021 की बाढ़ के बाद, जब ऋषिगंगा और तपोवन–विष्णुगाड़ परियोजनाओं को भारी नुकसान हुआ। मैदानों में सौर ऊर्जा बढ़ रही है।",
+        "mr": "जलविद्युत हा उत्तराखंडचा मुख्य वीजस्रोत आहे. भागीरथीवरील टिहरी धरण, त्याखालील कोटेश्वर प्रकल्पासह, टीएचडीसी इंडिया चालवते; एनएचपीसी धौलीगंगा केंद्र चालवते; आणि राज्याचे यूजेव्हीएन यमुना, गंगा व उपनद्यांवरील जुने प्रकल्प चालवते. वरच्या गंगेवरील अनेक नवे प्रकल्प पर्यावरण व सुरक्षाविषयक चिंतांमुळे लांबले किंवा थांबले, विशेषतः 2013 व 2021 च्या पुरांनंतर, जेव्हा ऋषिगंगा व तपोवन–विष्णुगाड प्रकल्पांचे मोठे नुकसान झाले. मैदानी भागात सौरऊर्जा वाढत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Status of suspended hydro projects on the upper Ganga",
+            "hi": "ऊपरी गंगा पर स्थगित जलविद्युत परियोजनाओं की स्थिति",
+            "mr": "वरच्या गंगेवरील स्थगित जलविद्युत प्रकल्पांची स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Jal Shakti / Supreme Court orders."
+        }
+      ]
+    }
+  ]
+}

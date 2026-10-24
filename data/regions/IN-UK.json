@@ -45,86 +45,151 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://uk.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Alpine musk deer",
+        "hi": "कस्तूरी मृग",
+        "mr": "कस्तुरी मृग",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Moschus chrysogaster",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Himalayan monal",
+        "hi": "मोनाल",
+        "mr": "मोनाल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Lophophorus impejanus",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Burans (tree rhododendron)",
+        "hi": "बुरांस",
+        "mr": "बुरांस (र्‍होडोडेंड्रॉन वृक्ष)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Rhododendron arboreum",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Brahma kamal",
+        "hi": "ब्रह्म कमल",
+        "mr": "ब्रह्मकमळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Saussurea obvallata",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 10086292,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 51,37,773; females 49,48,519."
     },
     "area": {
-      "value": null,
+      "value": 53483,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 189,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 1,00,86,292 ÷ area 53,483 km² = 188.6."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 963,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (962 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 890,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 908 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 78.8,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -137,88 +202,926 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 381889,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2025-26 is the latest year published for Uttarakhand. FY2024-25: ₹3,47,981 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 273921,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2024-25: ₹2,50,736."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 45.44,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 24,303.83 km² ÷ geographical area 53,483 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Dhal Singh Bisen",
+        "hi": "ढाल सिंह बिसेन",
+        "mr": "ढालसिंह बिसेन",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "since": "2026-10-19",
+      "asOf": "2026-10-24",
+      "sourceId": "deccan-chronicle",
+      "url": "https://www.deccanchronicle.com/nation/bisen-takes-oath-as-uttarakhand-governor-1997286",
+      "verifyUrl": "https://governoruk.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in as the ninth Governor of Uttarakhand at Lok Bhavan, Dehradun, on 19 October 2026 by Justice Manoj Kumar Tiwari (Deccan Chronicle). A former Madhya Pradesh minister and Lok Sabha member. Appointed in the Rashtrapati Bhavan communiqué of 12 October 2026."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "name": {
+        "en": "Pushkar Singh Dhami",
+        "hi": "पुष्कर सिंह धामी",
+        "mr": "पुष्करसिंह धामी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "BJP",
+      "since": "2022-03-23",
+      "asOf": "2026-10-24",
+      "sourceId": "tribune",
+      "url": "https://www.tribuneindia.com/news/nation/pushkar-dhami-takes-oath-as-uttarakhand-cm-8-ministers-also-sworn-in-380048",
+      "verifyUrl": "https://uk.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in for a second consecutive term on 23 March 2022 at Parade Ground, Dehradun, by Governor Lt Gen Gurmit Singh (retd), with eight ministers (The Tribune). He first became Chief Minister in July 2021."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Ritu Khanduri Bhushan",
+          "hi": "ऋतु खंडूड़ी भूषण",
+          "mr": "ऋतू खंडुरी भूषण",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2022-03-26",
+        "asOf": "2026-10-24",
+        "sourceId": "drishti",
+        "url": "https://drishtiias.com/state-pcs-current-affairs/ritu-khanduri-speaker-of-uttarakhand-legislative-assembly",
+        "verifyUrl": "https://ukvidhansabha.uk.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Elected unopposed on 26 March 2022 as Speaker of the fifth Uttarakhand Assembly — the first woman in the post; MLA from Kotdwar (Drishti IAS summary; replace with the Vidhan Sabha notice)."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "rishikesh-karnaprayag",
+      "name": {
+        "en": "Rishikesh–Karnaprayag new rail line",
+        "hi": "ऋषिकेश–कर्णप्रयाग नई रेल लाइन",
+        "mr": "ऋषिकेश–कर्णप्रयाग नवीन रेल्वे मार्गिका",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A 125-km broad-gauge railway from Rishikesh into the Garhwal hills to Karnaprayag, most of it in tunnels. In a written reply to the Lok Sabha reported in August 2025, the Railway Minister said 199 km of the 213 km of tunnelling was complete — 13 of 16 main-line tunnels and 9 of 12 escape tunnels — and that an exact completion date could not yet be fixed.",
+        "hi": "ऋषिकेश से गढ़वाल की पहाड़ियों में कर्णप्रयाग तक 125 किमी लंबी ब्रॉड गेज रेलवे, जिसका अधिकांश भाग सुरंगों में है। अगस्त 2025 में प्रकाशित लोकसभा में लिखित उत्तर में रेल मंत्री ने बताया कि 213 किमी सुरंग कार्य में से 199 किमी पूरा हो चुका है — 16 में से 13 मुख्य सुरंगें और 12 में से 9 निकास सुरंगें — और पूरा होने की सटीक तिथि अभी तय नहीं की जा सकती।",
+        "mr": "ऋषिकेशहून गढवालच्या डोंगरांत कर्णप्रयागपर्यंतची 125 किमी लांबीची ब्रॉड गेज रेल्वे, जिचा बहुतांश भाग बोगद्यांत आहे. ऑगस्ट 2025 मध्ये प्रसिद्ध झालेल्या लोकसभेतील लेखी उत्तरात रेल्वेमंत्र्यांनी सांगितले की 213 किमी बोगदा कामापैकी 199 किमी पूर्ण झाले आहे — 16 पैकी 13 मुख्य बोगदे व 12 पैकी 9 सुटका बोगदे — आणि पूर्ण होण्याची नेमकी तारीख अजून ठरवता येत नाही.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "rail",
+      "agency": "Rail Vikas Nigam Ltd (Ministry of Railways)",
+      "start": null,
+      "completion": null,
+      "status": "Under Construction",
+      "asOf": "2026-10-24",
+      "sourceId": "etv-bharat",
+      "url": "https://www.etvbharat.com/en/!bharat/no-timeline-set-for-completion-of-rishikesh-karnaprayag-rail-line-vaishnaw-enn25080703839",
+      "confidence": "Third-party verified"
+    },
+    {
+      "id": "kedarnath-ropeway",
+      "name": {
+        "en": "Sonprayag–Kedarnath and Govindghat–Hemkund Sahib ropeways",
+        "hi": "सोनप्रयाग–केदारनाथ और गोविंदघाट–हेमकुंड साहिब रोपवे",
+        "mr": "सोनप्रयाग–केदारनाथ व गोविंदघाट–हेमकुंड साहिब रोपवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "Two ropeways approved by the Union Cabinet on 5 March 2025: a 12.9-km line from Sonprayag to Kedarnath costing over ₹4,000 crore, which would cut the climb of 8–9 hours to about 36 minutes, and a 12.4-km line from Govindghat to Hemkund Sahib costing ₹2,730 crore.",
+        "hi": "5 मार्च 2025 को केंद्रीय मंत्रिमंडल द्वारा स्वीकृत दो रोपवे: सोनप्रयाग से केदारनाथ तक 12.9 किमी लंबी लाइन, जिसकी लागत ₹4,000 करोड़ से अधिक है और जो 8–9 घंटे की चढ़ाई को लगभग 36 मिनट कर देगी, और गोविंदघाट से हेमकुंड साहिब तक ₹2,730 करोड़ की 12.4 किमी लंबी लाइन।",
+        "mr": "5 मार्च 2025 रोजी केंद्रीय मंत्रिमंडळाने मंजूर केलेले दोन रोपवे: सोनप्रयागहून केदारनाथपर्यंतची 12.9 किमी लांबीची मार्गिका, जिचा खर्च ₹4,000 कोटींहून अधिक असून ती 8–9 तासांची चढण सुमारे 36 मिनिटांवर आणेल, आणि गोविंदघाटहून हेमकुंड साहिबपर्यंतची ₹2,730 कोटींची 12.4 किमी मार्गिका.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "transport",
+      "agency": "Ministry of Road Transport and Highways",
+      "start": "Approved 5 March 2025",
+      "completion": null,
+      "status": "Announced",
+      "asOf": "2026-10-24",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/cabinet-approves-%f0%9d%90%ab%f0%9d%90%a8%f0%9d%90%a9%f0%9d%90%9e%f0%9d%90%b0%f0%9d%90%9a%f0%9d%90%b2-%f0%9d%90%a9%f0%9d%90%ab%f0%9d%90%a8%f0%9d%90%a3%f0%9d%90%9e%f0%9d%90%9c%f0%9d%90%ads-revision-of",
+      "confidence": "Official"
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "uttarakhand-tejpat",
+      "name": {
+        "en": "Uttarakhand Tejpat",
+        "hi": "उत्तराखंड तेजपात",
+        "mr": "उत्तराखंड तमालपत्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "520",
+      "filingDate": "2015-01-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kumaon-chyura-oil",
+      "name": {
+        "en": "Kumaon Chyura Oil",
+        "hi": "कुमाऊँ च्यूरा तेल",
+        "mr": "कुमाऊँ च्यूरा तेल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "650",
+      "filingDate": "2019-05-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "munsyari-rajma",
+      "name": {
+        "en": "Munsyari Rajma",
+        "hi": "मुनस्यारी राजमा",
+        "mr": "मुनस्यारी राजमा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "651",
+      "filingDate": "2019-05-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-berinag-tea",
+      "name": {
+        "en": "Uttarakhand Berinag Tea",
+        "hi": "उत्तराखंड बेरीनाग चाय",
+        "mr": "उत्तराखंड बेरीनाग चहा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "829",
+      "filingDate": "2022-02-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-mandua",
+      "name": {
+        "en": "Uttarakhand Mandua",
+        "hi": "उत्तराखंड मंडुआ",
+        "mr": "उत्तराखंड मंडुआ (नाचणी)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "835",
+      "filingDate": "2022-02-18",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-jhangora",
+      "name": {
+        "en": "Uttarakhand Jhangora",
+        "hi": "उत्तराखंड झंगोरा",
+        "mr": "उत्तराखंड झंगोरा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "841",
+      "filingDate": "2022-03-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-gahat",
+      "name": {
+        "en": "Uttarakhand Gahat",
+        "hi": "उत्तराखंड गहत",
+        "mr": "उत्तराखंड गहत (कुळीथ)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "844",
+      "filingDate": "2022-03-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-lal-chawal-red-rice",
+      "name": {
+        "en": "Uttarakhand Lal Chawal (Red Rice)",
+        "hi": "उत्तराखंड लाल चावल",
+        "mr": "उत्तराखंड लाल तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "852",
+      "filingDate": "2022-03-14",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-kala-bhat",
+      "name": {
+        "en": "Uttarakhand Kala Bhat",
+        "hi": "उत्तराखंड काला भट",
+        "mr": "उत्तराखंड काळा भट",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "856",
+      "filingDate": "2022-03-18",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-malta-fruit",
+      "name": {
+        "en": "Uttarakhand Malta Fruit",
+        "hi": "उत्तराखंड माल्टा फल",
+        "mr": "उत्तराखंड माल्टा फळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "860",
+      "filingDate": "2022-03-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-chaulai-ramdana",
+      "name": {
+        "en": "Uttarakhand Chaulai (Ramdana)",
+        "hi": "उत्तराखंड चौलाई (रामदाना)",
+        "mr": "उत्तराखंड राजगिरा (रामदाणा)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "863",
+      "filingDate": "2022-04-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "almora-lakhori-mirchi",
+      "name": {
+        "en": "Almora Lakhori Mirchi",
+        "hi": "अल्मोड़ा लखोरी मिर्च",
+        "mr": "अल्मोडा लखोरी मिरची",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "864",
+      "filingDate": "2022-04-11",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-pahari-toor-dal",
+      "name": {
+        "en": "Uttarakhand Pahari Toor Dal",
+        "hi": "उत्तराखंड पहाड़ी तूर दाल",
+        "mr": "उत्तराखंड पहाडी तूरडाळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "867",
+      "filingDate": "2022-04-12",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ramnagar-nainital-litchi",
+      "name": {
+        "en": "Ramnagar Nainital Litchi",
+        "hi": "रामनगर नैनीताल लीची",
+        "mr": "रामनगर नैनीताल लिची",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "905",
+      "filingDate": "2022-06-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ramgarh-nainital-aadu-peach",
+      "name": {
+        "en": "Ramgarh Nainital Aadu (Peach)",
+        "hi": "रामगढ़ नैनीताल आड़ू",
+        "mr": "रामगड नैनीताल पीच (आडू)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "907",
+      "filingDate": "2022-06-14",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-bedu-fruit",
+      "name": {
+        "en": "Uttarakhand Bedu (Fruit)",
+        "hi": "उत्तराखंड बेड़ू (फल)",
+        "mr": "उत्तराखंड बेडू (फळ)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "1188",
+      "filingDate": null,
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). The filing date printed in the registry list is not a valid past date, so it is not shown."
+    },
+    {
+      "id": "uttarakhand-buransh",
+      "name": {
+        "en": "Uttarakhand Buransh",
+        "hi": "उत्तराखंड बुरांस",
+        "mr": "उत्तराखंड बुरांस",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "866",
+      "filingDate": "2022-04-12",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-badri-cow-ghee",
+      "name": {
+        "en": "Uttarakhand Badri Cow Ghee",
+        "hi": "उत्तराखंड बद्री गाय घी",
+        "mr": "उत्तराखंड बद्री गाय तूप",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "1390",
+      "filingDate": "2024-12-12",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bhotia-dann-of-uttarakhand",
+      "name": {
+        "en": "Bhotia Dann of Uttarakhand",
+        "hi": "उत्तराखंड का भोटिया दन",
+        "mr": "उत्तराखंडचा भोटिया दन",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "589",
+      "filingDate": "2017-09-18",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-aipan",
+      "name": {
+        "en": "Uttarakhand Aipan",
+        "hi": "उत्तराखंड ऐपण",
+        "mr": "उत्तराखंड ऐपण",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "648",
+      "filingDate": "2019-05-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-ringal-craft",
+      "name": {
+        "en": "Uttarakhand Ringal Craft",
+        "hi": "उत्तराखंड रिंगाल शिल्प",
+        "mr": "उत्तराखंड रिंगाल हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "652",
+      "filingDate": "2019-05-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-tamta-product",
+      "name": {
+        "en": "Uttarakhand Tamta Product",
+        "hi": "उत्तराखंड ताम्र उत्पाद",
+        "mr": "उत्तराखंड तांब्याच्या वस्तू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "653",
+      "filingDate": "2019-05-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-thulma",
+      "name": {
+        "en": "Uttarakhand Thulma",
+        "hi": "उत्तराखंड थुलमा",
+        "mr": "उत्तराखंड थुलमा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "654",
+      "filingDate": "2019-05-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-bichhu-buti-nettle-fabrics",
+      "name": {
+        "en": "Uttarakhand Bichhu Buti (Nettle) Fabrics",
+        "hi": "उत्तराखंड बिच्छू बूटी वस्त्र",
+        "mr": "उत्तराखंड बिच्छू बुटी (खाजकुइली) वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "832",
+      "filingDate": "2022-02-15",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "rangwali-pichhoda-of-kumaon",
+      "name": {
+        "en": "Rangwali Pichhoda of Kumaon",
+        "hi": "कुमाऊँ का रंगवाली पिछौड़ा",
+        "mr": "कुमाऊँचा रंगवाली पिछौडा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "874",
+      "filingDate": "2022-04-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chamoli-wooden-ramman-mask",
+      "name": {
+        "en": "Chamoli Wooden Ramman Mask",
+        "hi": "चमोली लकड़ी का रम्माण मुखौटा",
+        "mr": "चमोली लाकडी रम्माण मुखवटा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "918",
+      "filingDate": "2022-07-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "uttarakhand-likhai-wood-carving",
+      "name": {
+        "en": "Uttarakhand Likhai (Wood Carving)",
+        "hi": "उत्तराखंड लिखाई (काष्ठ नक़्क़ाशी)",
+        "mr": "उत्तराखंड लिखाई (काष्ठकोरीव काम)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "919",
+      "filingDate": "2022-07-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "nainital-mombatti-candle",
+      "name": {
+        "en": "Nainital Mombatti (Candle)",
+        "hi": "नैनीताल मोमबत्ती",
+        "mr": "नैनीताल मेणबत्ती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "873",
+      "filingDate": "2022-04-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "basmati",
+      "name": {
+        "en": "Basmati",
+        "hi": "बासमती",
+        "mr": "बासमती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "145",
+      "filingDate": "2008-11-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Punjab",
+        "Haryana",
+        "Himachal Pradesh",
+        "Delhi",
+        "Uttar Pradesh",
+        "Jammu & Kashmir"
+      ]
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-24",
+    "editorialStatus": "draft"
   },
   "formerNames": [
     {

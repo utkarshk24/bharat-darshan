@@ -1,0 +1,138 @@
+{
+  "region": "IN-UK",
+  "module": "government",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Uttarakhand has a unicameral legislature, the 70-member Vidhan Sabha, which sits in Dehradun and also holds sessions at Bhararisain (Gairsain). The State elects 5 members to the Lok Sabha and 3 to the Rajya Sabha.\n\nThe Bharatiya Janata Party won 47 of the 70 seats in the Assembly election of 2022, and Pushkar Singh Dhami — Chief Minister since July 2021 — was sworn in for a second term on 23 March 2022, although he had lost his own seat; he later won a by-election. Ritu Khanduri Bhushan (BJP), the first woman Speaker, presides over the Assembly. Dr Dhal Singh Bisen was sworn in as Governor on 19 October 2026. The next Assembly election is due by early 2027.",
+        "hi": "उत्तराखंड में एकसदनीय विधानमंडल है, 70 सदस्यों वाली विधानसभा, जिसकी बैठकें देहरादून में होती हैं और भराड़ीसैंण (गैरसैंण) में भी सत्र होते हैं। राज्य से लोकसभा के 5 और राज्यसभा के 3 सदस्य चुने जाते हैं।\n\n2022 के विधानसभा चुनाव में भारतीय जनता पार्टी ने 70 में से 47 सीटें जीतीं, और जुलाई 2021 से मुख्यमंत्री पुष्कर सिंह धामी ने 23 मार्च 2022 को दूसरे कार्यकाल की शपथ ली, हालाँकि वे अपनी सीट हार गए थे; बाद में उन्होंने उपचुनाव जीता। पहली महिला अध्यक्ष ऋतु खंडूड़ी भूषण (भाजपा) विधानसभा की अध्यक्षता करती हैं। डॉ. ढाल सिंह बिसेन ने 19 अक्टूबर 2026 को राज्यपाल पद की शपथ ली। अगला विधानसभा चुनाव 2027 की शुरुआत तक होना है।",
+        "mr": "उत्तराखंडमध्ये एकसदनी विधिमंडळ आहे, 70 सदस्यांची विधानसभा, जिच्या बैठका डेहराडूनमध्ये होतात व भराडीसैंण (गैरसैंण) येथेही अधिवेशने होतात. राज्यातून लोकसभेवर 5 व राज्यसभेवर 3 सदस्य निवडले जातात.\n\n2022 च्या विधानसभा निवडणुकीत भारतीय जनता पक्षाने 70 पैकी 47 जागा जिंकल्या, आणि जुलै 2021 पासून मुख्यमंत्री असलेल्या पुष्करसिंह धामी यांनी 23 मार्च 2022 रोजी दुसऱ्या कारकिर्दीची शपथ घेतली, जरी ते स्वतःची जागा हरले होते; नंतर त्यांनी पोटनिवडणूक जिंकली. पहिल्या महिला अध्यक्ष ऋतू खंडुरी भूषण (भाजप) विधानसभेचे अध्यक्षपद भूषवतात. डॉ. ढालसिंह बिसेन यांनी 19 ऑक्टोबर 2026 रोजी राज्यपालपदाची शपथ घेतली. पुढील विधानसभा निवडणूक 2027 च्या सुरुवातीपर्यंत होणे अपेक्षित आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "tribune",
+        "deccan-chronicle",
+        "drishti"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "gov",
+          "name": {
+            "en": "Lok Bhavan Uttarakhand",
+            "hi": "लोक भवन उत्तराखंड",
+            "mr": "लोक भवन उत्तराखंड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://governoruk.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Uttarakhand",
+            "hi": "उत्तराखंड सरकार",
+            "mr": "उत्तराखंड शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://uk.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "2022 Assembly election — party-wise result",
+            "hi": "2022 विधानसभा चुनाव — दलवार परिणाम",
+            "mr": "2022 विधानसभा निवडणूक — पक्षनिहाय निकाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "ECI statistical report for Uttarakhand 2022."
+        },
+        {
+          "label": {
+            "en": "Chief Minister's by-election (Champawat, 2022)",
+            "hi": "मुख्यमंत्री का उपचुनाव (चंपावत, 2022)",
+            "mr": "मुख्यमंत्र्यांची पोटनिवडणूक (चंपावत, 2022)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "ECI bye-election result."
+        },
+        {
+          "label": {
+            "en": "Governor's swearing-in — official source",
+            "hi": "राज्यपाल का शपथ ग्रहण — आधिकारिक स्रोत",
+            "mr": "राज्यपालांचा शपथविधी — अधिकृत स्रोत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Lok Bhavan Uttarakhand release."
+        }
+      ]
+    }
+  ]
+}

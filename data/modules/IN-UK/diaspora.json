@@ -1,0 +1,42 @@
+{
+  "region": "IN-UK",
+  "module": "diaspora",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Out-migration from the hills is one of Uttarakhand's defining issues: many young people leave for jobs in Dehradun, Haldwani, Delhi, Mumbai and the Gulf, and some villages have been left almost empty. The Garhwal Rifles and the Kumaon Regiment recruit heavily from the hills, and ex-servicemen form a large share of the population. Large Uttarakhandi communities in Delhi and the National Capital Region keep up the festivals, music and food of Garhwal and Kumaon.",
+        "hi": "पहाड़ों से पलायन उत्तराखंड के प्रमुख मुद्दों में से है: बहुत से युवा देहरादून, हल्द्वानी, दिल्ली, मुंबई और खाड़ी देशों में नौकरियों के लिए जाते हैं, और कुछ गाँव लगभग ख़ाली हो गए हैं। गढ़वाल राइफ़ल्स और कुमाऊँ रेजिमेंट पहाड़ों से बड़ी संख्या में भर्ती करती हैं, और पूर्व सैनिक जनसंख्या का बड़ा हिस्सा हैं। दिल्ली और राष्ट्रीय राजधानी क्षेत्र में बड़े उत्तराखंडी समुदाय गढ़वाल और कुमाऊँ के त्योहार, संगीत और खान-पान जीवित रखते हैं।",
+        "mr": "डोंगरांतून होणारे स्थलांतर हा उत्तराखंडचा एक मुख्य प्रश्न आहे: अनेक तरुण डेहराडून, हल्द्वानी, दिल्ली, मुंबई व आखाती देशांत नोकरीसाठी जातात, आणि काही गावे जवळपास रिकामी झाली आहेत. गढवाल रायफल्स व कुमाऊँ रेजिमेंट डोंगरांतून मोठ्या संख्येने भरती करतात, आणि माजी सैनिक लोकसंख्येचा मोठा भाग आहेत. दिल्ली व राष्ट्रीय राजधानी क्षेत्रातील मोठे उत्तराखंडी समुदाय गढवाल व कुमाऊँचे सण, संगीत व खाद्यसंस्कृती जिवंत ठेवतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Villages depopulated by migration",
+            "hi": "पलायन से ख़ाली हुए गाँव",
+            "mr": "स्थलांतरामुळे ओस पडलेली गावे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Uttarakhand Rural Development and Migration Prevention Commission."
+        }
+      ]
+    }
+  ]
+}

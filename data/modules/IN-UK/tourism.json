@@ -1,0 +1,326 @@
+{
+  "region": "IN-UK",
+  "module": "tourism",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Char Dham yatra — Yamunotri, Gangotri, Kedarnath and Badrinath — is the State's great pilgrimage, together with Hemkund Sahib, and Haridwar and Rishikesh draw pilgrims and yoga students all year; the evening Ganga aarti at Har ki Pauri is unforgettable. Hill stations include Mussoorie, Nainital with its lake, Ranikhet, Almora, Kausani with its view of the Himalaya, Lansdowne and Chakrata. Corbett and Rajaji offer jungle safaris, the Valley of Flowers blooms in July and August, Auli has skiing in winter, and treks such as Roopkund, Har ki Dun, Kedarkantha and Pindari glacier, and the climb to Tungnath — the highest Shiva temple — attract walkers from across India.",
+        "hi": "चार धाम यात्रा — यमुनोत्री, गंगोत्री, केदारनाथ और बद्रीनाथ — हेमकुंड साहिब के साथ राज्य की सबसे बड़ी तीर्थयात्रा है, और हरिद्वार व ऋषिकेश वर्ष भर तीर्थयात्रियों और योग विद्यार्थियों को खींचते हैं; हर की पैड़ी पर शाम की गंगा आरती अविस्मरणीय है। पर्वतीय स्थलों में मसूरी, अपनी झील वाला नैनीताल, रानीखेत, अल्मोड़ा, हिमालय के दृश्य वाला कौसानी, लैंसडाउन और चकराता शामिल हैं। कॉर्बेट और राजाजी जंगल सफ़ारी कराते हैं, फूलों की घाटी जुलाई और अगस्त में खिलती है, औली में सर्दियों में स्कीइंग होती है, और रूपकुंड, हर की दून, केदारकांठा और पिंडारी हिमनद जैसे ट्रेक और सबसे ऊँचे शिव मंदिर तुंगनाथ की चढ़ाई पूरे भारत से पैदल यात्रियों को आकर्षित करती है।",
+        "mr": "चार धाम यात्रा — यमुनोत्री, गंगोत्री, केदारनाथ व बद्रीनाथ — हेमकुंड साहिबसह राज्याची सर्वांत मोठी तीर्थयात्रा आहे, आणि हरिद्वार व ऋषिकेश वर्षभर यात्रेकरू व योगविद्यार्थ्यांना आकर्षित करतात; हर की पौडी येथील संध्याकाळची गंगा आरती अविस्मरणीय असते. थंड हवेच्या ठिकाणांत मसुरी, सरोवर असलेले नैनीताल, राणीखेत, अल्मोडा, हिमालयाचे दर्शन देणारे कौसानी, लॅन्सडाउन व चकराता यांचा समावेश आहे. कॉर्बेट व राजाजी जंगल सफारी देतात, फुलांचे खोरे जुलै व ऑगस्टमध्ये बहरते, औलीत हिवाळ्यात स्कीइंग होते, आणि रूपकुंड, हर की दून, केदारकांठा व पिंडारी हिमनदीसारखे ट्रेक आणि सर्वांत उंच शिवमंदिर तुंगनाथची चढाई भारतभरातून पदयात्रींना आकर्षित करते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "chardham",
+          "name": {
+            "en": "Char Dham",
+            "hi": "चार धाम",
+            "mr": "चार धाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Yamunotri, Gangotri, Kedarnath, Badrinath",
+            "hi": "यमुनोत्री, गंगोत्री, केदारनाथ, बद्रीनाथ",
+            "mr": "यमुनोत्री, गंगोत्री, केदारनाथ, बद्रीनाथ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "haridwar",
+          "name": {
+            "en": "Haridwar and Rishikesh",
+            "hi": "हरिद्वार और ऋषिकेश",
+            "mr": "हरिद्वार व ऋषिकेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ganga aarti; yoga",
+            "hi": "गंगा आरती; योग",
+            "mr": "गंगा आरती; योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nainital",
+          "name": {
+            "en": "Nainital",
+            "hi": "नैनीताल",
+            "mr": "नैनीताल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Lake town",
+            "hi": "झील नगरी",
+            "mr": "सरोवरनगरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mussoorie",
+          "name": {
+            "en": "Mussoorie",
+            "hi": "मसूरी",
+            "mr": "मसुरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "'Queen of the hills'",
+            "hi": "'पहाड़ों की रानी'",
+            "mr": "'डोंगरांची राणी'",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "corbett",
+          "name": {
+            "en": "Jim Corbett National Park",
+            "hi": "जिम कॉर्बेट राष्ट्रीय उद्यान",
+            "mr": "जिम कॉर्बेट राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Tiger safaris",
+            "hi": "बाघ सफ़ारी",
+            "mr": "व्याघ्र सफारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vof",
+          "name": {
+            "en": "Valley of Flowers and Hemkund Sahib",
+            "hi": "फूलों की घाटी और हेमकुंड साहिब",
+            "mr": "फुलांचे खोरे व हेमकुंड साहिब",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "July–August",
+            "hi": "जुलाई–अगस्त",
+            "mr": "जुलै–ऑगस्ट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "auli",
+          "name": {
+            "en": "Auli",
+            "hi": "औली",
+            "mr": "औली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Skiing",
+            "hi": "स्कीइंग",
+            "mr": "स्कीइंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Haridwar's aarti, Rishikesh's ashrams and a day in Rajaji.",
+            "hi": "हरिद्वार की आरती, ऋषिकेश के आश्रम और राजाजी में एक दिन।",
+            "mr": "हरिद्वारची आरती, ऋषिकेशचे आश्रम व राजाजीत एक दिवस.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Nainital, Bhimtal, Almora and Kausani in Kumaon.",
+            "hi": "कुमाऊँ में नैनीताल, भीमताल, अल्मोड़ा और कौसानी।",
+            "mr": "कुमाऊँमध्ये नैनीताल, भीमताल, अल्मोडा व कौसानी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d10",
+          "name": {
+            "en": "10–12 days (May–October)",
+            "hi": "10–12 दिन (मई–अक्टूबर)",
+            "mr": "10–12 दिवस (मे–ऑक्टोबर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "The Char Dham circuit from Rishikesh, after registering online.",
+            "hi": "ऑनलाइन पंजीकरण के बाद ऋषिकेश से चार धाम परिक्रमा।",
+            "mr": "ऑनलाइन नोंदणीनंतर ऋषिकेशहून चार धाम परिक्रमा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ut",
+          "name": {
+            "en": "Uttarakhand Tourism (official)",
+            "hi": "उत्तराखंड पर्यटन (आधिकारिक)",
+            "mr": "उत्तराखंड पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://uttarakhandtourism.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "region": "IN-UK",
+  "module": "projects",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Rishikesh–Karnaprayag railway, most of it in tunnels, is under construction, and ropeways to Kedarnath and Hemkund Sahib were approved in March 2025. Other large works include the all-weather Char Dham road project and the Delhi–Dehradun expressway; these will be added as cards once their status is confirmed from official sources. Each card shows its source and the date it was checked.",
+        "hi": "ऋषिकेश–कर्णप्रयाग रेलवे, जिसका अधिकांश भाग सुरंगों में है, निर्माणाधीन है, और केदारनाथ व हेमकुंड साहिब के रोपवे मार्च 2025 में स्वीकृत हुए। अन्य बड़े कार्यों में हर मौसम वाली चार धाम सड़क परियोजना और दिल्ली–देहरादून एक्सप्रेसवे शामिल हैं; आधिकारिक स्रोतों से स्थिति की पुष्टि होने पर इन्हें कार्ड के रूप में जोड़ा जाएगा। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "ऋषिकेश–कर्णप्रयाग रेल्वे, जिचा बहुतांश भाग बोगद्यांत आहे, बांधकामाधीन आहे, आणि केदारनाथ व हेमकुंड साहिबचे रोपवे मार्च 2025 मध्ये मंजूर झाले. इतर मोठ्या कामांत सर्व हवामानातील चार धाम रस्ता प्रकल्प व दिल्ली–डेहराडून द्रुतगती मार्ग यांचा समावेश आहे; अधिकृत स्रोतांतून स्थितीची खात्री झाल्यावर त्यांची कार्डे जोडली जातील. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "newsonair",
+        "etv-bharat"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Char Dham all-weather road — status",
+            "hi": "चार धाम ऑल-वेदर सड़क — स्थिति",
+            "mr": "चार धाम सर्व-हवामान रस्ता — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH project status."
+        },
+        {
+          "label": {
+            "en": "Rishikesh–Karnaprayag line — official status page",
+            "hi": "ऋषिकेश–कर्णप्रयाग लाइन — आधिकारिक स्थिति पृष्ठ",
+            "mr": "ऋषिकेश–कर्णप्रयाग मार्गिका — अधिकृत स्थिती पान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Replace the news report with the Lok Sabha answer or RVNL page."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "region": "IN-UK",
+  "module": "digital",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Dehradun is the State's technology and education hub, with an IT park at Sahastradhara Road and national scientific institutions such as the Indian Institute of Remote Sensing (ISRO), the Survey of India headquarters and the Wildlife Institute of India. Citizen services are delivered through the State's e-district portal and common service centres, and mobile coverage is weakest in the remote border valleys.",
+        "hi": "देहरादून राज्य का प्रौद्योगिकी और शिक्षा केंद्र है, जहाँ सहस्त्रधारा रोड पर आईटी पार्क और भारतीय सुदूर संवेदन संस्थान (इसरो), सर्वे ऑफ़ इंडिया मुख्यालय और भारतीय वन्यजीव संस्थान जैसे राष्ट्रीय वैज्ञानिक संस्थान हैं। नागरिक सेवाएँ राज्य के ई-डिस्ट्रिक्ट पोर्टल और सामान्य सेवा केंद्रों से दी जाती हैं, और दूरस्थ सीमावर्ती घाटियों में मोबाइल कवरेज सबसे कमज़ोर है।",
+        "mr": "डेहराडून हे राज्याचे तंत्रज्ञान व शिक्षण केंद्र आहे, जिथे सहस्रधारा रोडवर आयटी पार्क आणि भारतीय सुदूर संवेदन संस्था (इस्रो), सर्व्हे ऑफ इंडियाचे मुख्यालय व भारतीय वन्यजीव संस्था यांसारख्या राष्ट्रीय वैज्ञानिक संस्था आहेत. नागरी सेवा राज्याच्या ई-डिस्ट्रिक्ट संकेतस्थळ व सामायिक सेवा केंद्रांमार्फत दिल्या जातात, आणि दुर्गम सीमावर्ती खोऱ्यांत मोबाइल कव्हरेज सर्वांत कमकुवत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (UP West / Uttarakhand circle)."
+        }
+      ]
+    }
+  ]
+}

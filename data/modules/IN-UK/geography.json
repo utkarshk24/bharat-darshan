@@ -1,0 +1,319 @@
+{
+  "region": "IN-UK",
+  "module": "geography",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Uttarakhand has five belts from south to north. The Terai and Bhabar — once swampy forest, now fertile farmland — fringe the plains of Haridwar and Udham Singh Nagar. Above them rise the Shivaliks and the Doon valley, then the middle hills (the Lesser Himalaya) with towns such as Mussoorie, Nainital, Almora and Pauri, and then the Great Himalaya, with Nanda Devi (7,816 m), Kamet, Trishul and the Panchachuli peaks and glaciers such as Gangotri, Satopanth and Pindari. In the far north, valleys such as Niti, Mana and Johar lead to passes into Tibet. The Bhagirathi and Alaknanda meet at Devprayag to form the Ganga, the Yamuna rises at Yamunotri, and the Kali (Sharda) forms the border with Nepal.",
+        "hi": "उत्तराखंड में दक्षिण से उत्तर पाँच पट्टियाँ हैं। तराई और भाबर — कभी दलदली वन, अब उपजाऊ खेत — हरिद्वार और ऊधम सिंह नगर के मैदानों के किनारे हैं। उनके ऊपर शिवालिक और दून घाटी हैं, फिर मसूरी, नैनीताल, अल्मोड़ा और पौड़ी जैसे नगरों वाली मध्य पहाड़ियाँ (लघु हिमालय), और फिर महान हिमालय, जिसमें नंदा देवी (7,816 मीटर), कामेट, त्रिशूल और पंचाचूली चोटियाँ और गंगोत्री, सतोपंथ व पिंडारी जैसे हिमनद हैं। सुदूर उत्तर में नीती, माणा और जोहार जैसी घाटियाँ तिब्बत के दर्रों तक जाती हैं। भागीरथी और अलकनंदा देवप्रयाग में मिलकर गंगा बनाती हैं, यमुना यमुनोत्री से निकलती है, और काली (शारदा) नेपाल के साथ सीमा बनाती है।",
+        "mr": "उत्तराखंडमध्ये दक्षिणेकडून उत्तरेकडे पाच पट्टे आहेत. तराई व भाबर — एकेकाळी दलदलीचे जंगल, आता सुपीक शेती — हरिद्वार व उधमसिंह नगरच्या मैदानांच्या कडेला आहेत. त्यांच्या वर शिवालिक व डून खोरे, नंतर मसुरी, नैनीताल, अल्मोडा व पौडीसारख्या शहरांच्या मधल्या टेकड्या (लघु हिमालय), आणि नंतर महान हिमालय, ज्यात नंदादेवी (7,816 मीटर), कामेत, त्रिशूल व पंचचुली शिखरे आणि गंगोत्री, सतोपंथ व पिंडारीसारख्या हिमनद्या आहेत. अगदी उत्तरेला नीती, माणा व जोहारसारखी खोरी तिबेटकडील खिंडींकडे जातात. भागीरथी व अलकनंदा देवप्रयाग येथे मिळून गंगा बनते, यमुना यमुनोत्री येथे उगम पावते, आणि काली (शारदा) नेपाळसोबतची सीमा बनवते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 53483,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "cn",
+          "name": {
+            "en": "Tibet, China (north)",
+            "hi": "तिब्बत, चीन (उत्तर)",
+            "mr": "तिबेट, चीन (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "np",
+          "name": {
+            "en": "Nepal (east)",
+            "hi": "नेपाल (पूर्व)",
+            "mr": "नेपाळ (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "up",
+          "name": {
+            "en": "Uttar Pradesh (south)",
+            "hi": "उत्तर प्रदेश (दक्षिण)",
+            "mr": "उत्तर प्रदेश (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hr",
+          "name": {
+            "en": "Haryana (south-west)",
+            "hi": "हरियाणा (दक्षिण-पश्चिम)",
+            "mr": "हरियाणा (नैर्ऋत्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hp",
+          "name": {
+            "en": "Himachal Pradesh (north-west)",
+            "hi": "हिमाचल प्रदेश (उत्तर-पश्चिम)",
+            "mr": "हिमाचल प्रदेश (वायव्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "bhagirathi",
+          "name": {
+            "en": "Bhagirathi",
+            "hi": "भागीरथी",
+            "mr": "भागीरथी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Source stream of the Ganga from the Gangotri glacier at Gaumukh; Tehri dam.",
+            "hi": "गौमुख में गंगोत्री हिमनद से निकलने वाली गंगा की स्रोत धारा; टिहरी बाँध।",
+            "mr": "गौमुख येथे गंगोत्री हिमनदीतून निघणारा गंगेचा स्रोतप्रवाह; टिहरी धरण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "alaknanda",
+          "name": {
+            "en": "Alaknanda",
+            "hi": "अलकनंदा",
+            "mr": "अलकनंदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows past Badrinath; joined at the five prayags.",
+            "hi": "बद्रीनाथ के पास से बहती है; पंच प्रयागों पर सहायक नदियाँ मिलती हैं।",
+            "mr": "बद्रीनाथजवळून वाहते; पंचप्रयागांवर उपनद्या मिळतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ganga",
+          "name": {
+            "en": "Ganga",
+            "hi": "गंगा",
+            "mr": "गंगा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Formed at Devprayag; enters the plains at Rishikesh and Haridwar.",
+            "hi": "देवप्रयाग में बनती है; ऋषिकेश और हरिद्वार में मैदानों में आती है।",
+            "mr": "देवप्रयाग येथे तयार होते; ऋषिकेश व हरिद्वार येथे मैदानात येते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "yamuna",
+          "name": {
+            "en": "Yamuna",
+            "hi": "यमुना",
+            "mr": "यमुना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises at Yamunotri; forms part of the border with Himachal.",
+            "hi": "यमुनोत्री से निकलती है; हिमाचल के साथ सीमा का हिस्सा।",
+            "mr": "यमुनोत्री येथे उगम; हिमाचलसोबतच्या सीमेचा भाग.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kali",
+          "name": {
+            "en": "Kali (Sharda)",
+            "hi": "काली (शारदा)",
+            "mr": "काली (शारदा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Border river with Nepal in Pithoragarh and Champawat.",
+            "hi": "पिथौरागढ़ और चंपावत में नेपाल के साथ सीमा नदी।",
+            "mr": "पिथौरागड व चंपावतमध्ये नेपाळसोबतची सीमानदी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Nanda Devi elevation — Survey of India citation",
+            "hi": "नंदा देवी की ऊँचाई — सर्वे ऑफ़ इंडिया संदर्भ",
+            "mr": "नंदादेवीची उंची — सर्व्हे ऑफ इंडिया संदर्भ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Cite the Survey of India figure for the elevation used above."
+        },
+        {
+          "label": {
+            "en": "Glaciers and glacial lakes",
+            "hi": "हिमनद और हिमनदी झीलें",
+            "mr": "हिमनद्या व हिमनदी सरोवरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Wadia Institute of Himalayan Geology / NRSC inventory."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        }
+      ]
+    }
+  ]
+}

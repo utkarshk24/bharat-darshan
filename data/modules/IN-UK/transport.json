@@ -1,0 +1,138 @@
+{
+  "region": "IN-UK",
+  "module": "transport",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Jolly Grant Airport near Dehradun is the main airport, with Pantnagar serving Kumaon and small airstrips and heliports — including Pithoragarh (Naini Saini) and helipads used for Kedarnath — in the hills. Railways reach only the foothills: Dehradun, Haridwar, Rishikesh (Yog Nagari), Kathgodam, Ramnagar and Tanakpur. Most travel in the hills is by road, on highways that follow the river valleys to Badrinath, Kedarnath, Gangotri, Yamunotri and Pithoragarh, and are being widened under the Char Dham project. Landslides often close these roads in the monsoon.",
+        "hi": "देहरादून के पास जॉली ग्रांट हवाई अड्डा मुख्य हवाई अड्डा है, पंतनगर कुमाऊँ को सेवा देता है, और पहाड़ों में छोटी हवाई पट्टियाँ और हेलीपोर्ट हैं — जिनमें पिथौरागढ़ (नैनी सैनी) और केदारनाथ के लिए उपयोग होने वाले हेलीपैड शामिल हैं। रेल केवल तलहटी तक पहुँचती है: देहरादून, हरिद्वार, ऋषिकेश (योग नगरी), काठगोदाम, रामनगर और टनकपुर। पहाड़ों में अधिकांश यात्रा सड़क से होती है, उन राजमार्गों पर जो नदी घाटियों के साथ बद्रीनाथ, केदारनाथ, गंगोत्री, यमुनोत्री और पिथौरागढ़ तक जाते हैं और चार धाम परियोजना के तहत चौड़े किए जा रहे हैं। मानसून में भूस्खलन अक्सर इन सड़कों को बंद कर देते हैं।",
+        "mr": "डेहराडूनजवळील जॉली ग्रांट विमानतळ हा मुख्य विमानतळ आहे, पंतनगर कुमाऊँला सेवा देतो, आणि डोंगरांत लहान धावपट्ट्या व हेलिपोर्ट आहेत — ज्यांत पिथौरागड (नैनी सैनी) व केदारनाथसाठी वापरले जाणारे हेलिपॅड आहेत. रेल्वे केवळ पायथ्यापर्यंत पोहोचते: डेहराडून, हरिद्वार, ऋषिकेश (योगनगरी), काठगोदाम, रामनगर व टनकपूर. डोंगरांत बहुतेक प्रवास रस्त्याने होतो, नदीखोऱ्यांच्या बाजूने बद्रीनाथ, केदारनाथ, गंगोत्री, यमुनोत्री व पिथौरागडपर्यंत जाणाऱ्या महामार्गांवरून, जे चार धाम प्रकल्पाअंतर्गत रुंद केले जात आहेत. मान्सूनमध्ये भूस्खलन अनेकदा हे रस्ते बंद करतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ded",
+          "name": {
+            "en": "Jolly Grant Airport, Dehradun",
+            "hi": "जॉली ग्रांट हवाई अड्डा, देहरादून",
+            "mr": "जॉली ग्रांट विमानतळ, डेहराडून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "DED",
+            "hi": "DED",
+            "mr": "DED",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pgh",
+          "name": {
+            "en": "Pantnagar Airport",
+            "hi": "पंतनगर हवाई अड्डा",
+            "mr": "पंतनगर विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "PGH",
+            "hi": "PGH",
+            "mr": "PGH",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pith",
+          "name": {
+            "en": "Pithoragarh (Naini Saini)",
+            "hi": "पिथौरागढ़ (नैनी सैनी)",
+            "mr": "पिथौरागड (नैनी सैनी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Regional",
+            "hi": "क्षेत्रीय",
+            "mr": "प्रादेशिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road length and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

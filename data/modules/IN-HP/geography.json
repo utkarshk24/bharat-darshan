@@ -1,0 +1,331 @@
+{
+  "region": "IN-HP",
+  "module": "geography",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Himachal climbs in steps from south-west to north-east. The low Shivalik hills of Una, Hamirpur, Bilaspur and Sirmaur give way to the middle Himalaya — the Dhauladhar range rising sharply behind Dharamshala and Palampur, and the ridges around Shimla — and then to the Great Himalaya and the Pir Panjal, crossed by passes such as Rohtang. Beyond them lie the cold deserts of Lahaul, Spiti and upper Kinnaur, in the rain shadow, which resemble Ladakh and Tibet. Broad valleys — Kangra, Kullu, Chamba, Kinnaur and Spiti — follow the rivers. The Sutlej enters from Tibet near Shipki La, the Beas rises near Rohtang, and the Chandra and Bhaga join in Lahaul to form the Chenab.",
+        "hi": "हिमाचल दक्षिण-पश्चिम से उत्तर-पूर्व की ओर सीढ़ियों में ऊपर उठता है। ऊना, हमीरपुर, बिलासपुर और सिरमौर की नीची शिवालिक पहाड़ियों के बाद मध्य हिमालय आता है — धर्मशाला और पालमपुर के पीछे तेज़ी से उठती धौलाधार श्रेणी और शिमला के आसपास की पहाड़ियाँ — और फिर महान हिमालय और पीर पंजाल, जिन्हें रोहतांग जैसे दर्रे पार करते हैं। उनके पार वर्षा छाया में लाहौल, स्पीति और ऊपरी किन्नौर के शीत मरुस्थल हैं, जो लद्दाख और तिब्बत जैसे दिखते हैं। चौड़ी घाटियाँ — कांगड़ा, कुल्लू, चंबा, किन्नौर और स्पीति — नदियों के साथ चलती हैं। सतलुज शिपकी ला के पास तिब्बत से प्रवेश करती है, ब्यास रोहतांग के पास निकलती है, और चंद्रा व भागा लाहौल में मिलकर चिनाब बनाती हैं।",
+        "mr": "हिमाचल नैर्ऋत्येकडून ईशान्येकडे पायऱ्यांनी चढत जातो. ऊना, हमीरपूर, बिलासपूर व सिरमौरच्या कमी उंचीच्या शिवालिक टेकड्यांनंतर मध्य हिमालय येतो — धर्मशाला व पालमपूरच्या मागे झपाट्याने उठणारी धौलाधार रांग आणि शिमल्याभोवतीच्या टेकड्या — आणि नंतर महान हिमालय व पीर पंजाल, ज्या रोहतांगसारख्या खिंडी ओलांडतात. त्यांच्या पलीकडे पर्जन्यछायेत लाहौल, स्पिती व वरच्या किन्नौरची शीत वाळवंटे आहेत, जी लडाख व तिबेटसारखी दिसतात. रुंद खोरी — कांगडा, कुल्लू, चंबा, किन्नौर व स्पिती — नद्यांच्या बाजूने जातात. सतलज शिपकी लाजवळ तिबेटमधून प्रवेश करते, बियास रोहतांगजवळ उगम पावते, आणि चंद्रा व भागा लाहौलमध्ये मिळून चिनाब बनवतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 55673,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "jk",
+          "name": {
+            "en": "Jammu and Kashmir (north)",
+            "hi": "जम्मू और कश्मीर (उत्तर)",
+            "mr": "जम्मू व काश्मीर (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "la",
+          "name": {
+            "en": "Ladakh (north-east)",
+            "hi": "लद्दाख (उत्तर-पूर्व)",
+            "mr": "लडाख (ईशान्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cn",
+          "name": {
+            "en": "Tibet, China (east)",
+            "hi": "तिब्बत, चीन (पूर्व)",
+            "mr": "तिबेट, चीन (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "uk",
+          "name": {
+            "en": "Uttarakhand (south-east)",
+            "hi": "उत्तराखंड (दक्षिण-पूर्व)",
+            "mr": "उत्तराखंड (आग्नेय)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hr",
+          "name": {
+            "en": "Haryana (south)",
+            "hi": "हरियाणा (दक्षिण)",
+            "mr": "हरियाणा (दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pb",
+          "name": {
+            "en": "Punjab (west and south-west)",
+            "hi": "पंजाब (पश्चिम और दक्षिण-पश्चिम)",
+            "mr": "पंजाब (पश्चिम व नैर्ऋत्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "sutlej",
+          "name": {
+            "en": "Sutlej",
+            "hi": "सतलुज",
+            "mr": "सतलज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Enters from Tibet at Shipki La; dammed at Nathpa Jhakri and Bhakra (Gobind Sagar).",
+            "hi": "शिपकी ला से तिब्बत से प्रवेश; नाथपा झाकड़ी और भाखड़ा (गोबिंद सागर) पर बाँध।",
+            "mr": "शिपकी लामार्गे तिबेटमधून प्रवेश; नाथपा झाकडी व भाक्रा (गोविंद सागर) येथे धरणे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "beas",
+          "name": {
+            "en": "Beas",
+            "hi": "ब्यास",
+            "mr": "बियास",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises near Rohtang; flows through Kullu and Mandi to the Pong dam.",
+            "hi": "रोहतांग के पास से निकलती है; कुल्लू और मंडी से पौंग बाँध तक बहती है।",
+            "mr": "रोहतांगजवळ उगम; कुल्लू व मंडीमार्गे पोंग धरणापर्यंत वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ravi",
+          "name": {
+            "en": "Ravi",
+            "hi": "रावी",
+            "mr": "रावी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Drains the Chamba valley.",
+            "hi": "चंबा घाटी का जल बहाती है।",
+            "mr": "चंबा खोऱ्यातील पाणी वाहून नेते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chenab",
+          "name": {
+            "en": "Chenab (Chandra–Bhaga)",
+            "hi": "चिनाब (चंद्रा–भागा)",
+            "mr": "चिनाब (चंद्रा–भागा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Formed at Tandi in Lahaul; flows into Jammu and Kashmir.",
+            "hi": "लाहौल के तांदी में बनती है; जम्मू-कश्मीर में बहती है।",
+            "mr": "लाहौलमधील तांदी येथे तयार होते; जम्मू-काश्मीरमध्ये वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "yamuna",
+          "name": {
+            "en": "Yamuna",
+            "hi": "यमुना",
+            "mr": "यमुना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Forms part of the border with Uttarakhand near Paonta Sahib.",
+            "hi": "पांवटा साहिब के पास उत्तराखंड के साथ सीमा का हिस्सा।",
+            "mr": "पांवटा साहिबजवळ उत्तराखंडसोबतच्या सीमेचा भाग.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Highest peak — official elevation",
+            "hi": "सर्वोच्च शिखर — आधिकारिक ऊँचाई",
+            "mr": "सर्वोच्च शिखर — अधिकृत उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India."
+        },
+        {
+          "label": {
+            "en": "Glaciers and glacial lakes",
+            "hi": "हिमनद और हिमनदी झीलें",
+            "mr": "हिमनद्या व हिमनदी सरोवरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "HP State Centre on Climate Change / CWC glacial lake monitoring."
+        },
+        {
+          "label": {
+            "en": "Seismic zones (latest BIS map)",
+            "hi": "भूकंपीय क्षेत्र (नवीनतम बीआईएस मानचित्र)",
+            "mr": "भूकंप क्षेत्र (नवीनतम बीआयएस नकाशा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "bis",
+          "note": "Use the current revision of IS 1893 (Part 1)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "region": "IN-HP",
+  "module": "digital",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Despite its terrain, Himachal has good mobile coverage in most inhabited valleys. Citizen services are delivered online through the State's e-district portal and Lok Mitra Kendras, and the HIMSWAN network links government offices. IIT Mandi and IIIT Una are the main technology institutes, and Shimla and Dharamshala host small IT and data-centre facilities.",
+        "hi": "भूभाग के बावजूद हिमाचल की अधिकांश बसी घाटियों में मोबाइल कवरेज अच्छा है। राज्य के ई-डिस्ट्रिक्ट पोर्टल और लोक मित्र केंद्रों के माध्यम से नागरिक सेवाएँ ऑनलाइन दी जाती हैं, और हिमस्वान नेटवर्क सरकारी कार्यालयों को जोड़ता है। आईआईटी मंडी और आईआईआईटी ऊना मुख्य प्रौद्योगिकी संस्थान हैं, और शिमला व धर्मशाला में छोटी आईटी और डेटा सेंटर सुविधाएँ हैं।",
+        "mr": "भूप्रदेश कठीण असूनही हिमाचलच्या बहुतेक वस्ती असलेल्या खोऱ्यांत मोबाइल कव्हरेज चांगले आहे. राज्याच्या ई-डिस्ट्रिक्ट संकेतस्थळ व लोकमित्र केंद्रांमार्फत नागरी सेवा ऑनलाइन दिल्या जातात, आणि हिमस्वान जाळे सरकारी कार्यालये जोडते. आयआयटी मंडी व आयआयआयटी ऊना या मुख्य तंत्रज्ञान संस्था आहेत, आणि शिमला व धर्मशाला येथे लहान आयटी व डेटा सेंटर सुविधा आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Himachal Pradesh circle)."
+        }
+      ]
+    }
+  ]
+}

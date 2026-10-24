@@ -1,0 +1,55 @@
+{
+  "region": "IN-HP",
+  "module": "diaspora",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Many Himachalis work outside the State — in the armed forces, in which the Dogra and other regiments recruit heavily from Kangra, Hamirpur and Mandi, and in government and private jobs in Chandigarh, Delhi and beyond — and their pensions and remittances are important to hill households. The State in turn hosts a large Tibetan refugee community around Dharamshala, as well as Nepali and other migrant workers in orchards and construction.",
+        "hi": "बहुत से हिमाचली राज्य से बाहर काम करते हैं — सशस्त्र बलों में, जिनमें डोगरा और अन्य रेजिमेंट कांगड़ा, हमीरपुर और मंडी से बड़ी संख्या में भर्ती करती हैं, और चंडीगढ़, दिल्ली व अन्य जगहों पर सरकारी व निजी नौकरियों में — और उनकी पेंशन व भेजी गई रक़म पहाड़ी परिवारों के लिए महत्त्वपूर्ण है। बदले में राज्य धर्मशाला के आसपास एक बड़े तिब्बती शरणार्थी समुदाय को, और बाग़ानों व निर्माण में नेपाली व अन्य प्रवासी श्रमिकों को आश्रय देता है।",
+        "mr": "अनेक हिमाचली राज्याबाहेर काम करतात — सशस्त्र दलांत, ज्यांत डोग्रा व इतर रेजिमेंट कांगडा, हमीरपूर व मंडीतून मोठ्या संख्येने भरती करतात, आणि चंदीगड, दिल्ली व इतरत्र सरकारी व खासगी नोकऱ्यांत — आणि त्यांचे निवृत्तिवेतन व पाठवलेले पैसे डोंगरी कुटुंबांसाठी महत्त्वाचे आहेत. त्याबदल्यात राज्य धर्मशालेभोवती मोठ्या तिबेटी निर्वासित समुदायाला, आणि बागा व बांधकामात नेपाळी व इतर स्थलांतरित कामगारांना आश्रय देते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Serving and ex-servicemen from Himachal",
+            "hi": "हिमाचल के सेवारत और पूर्व सैनिक",
+            "mr": "हिमाचलचे सेवारत व माजी सैनिक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Department of Sainik Welfare, Himachal Pradesh."
+        },
+        {
+          "label": {
+            "en": "Tibetan population in Himachal",
+            "hi": "हिमाचल में तिब्बती जनसंख्या",
+            "mr": "हिमाचलमधील तिबेटी लोकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Central Tibetan Administration demographic survey."
+        }
+      ]
+    }
+  ]
+}

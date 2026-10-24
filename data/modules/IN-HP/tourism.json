@@ -1,0 +1,339 @@
+{
+  "region": "IN-HP",
+  "module": "tourism",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Shimla, the old summer capital, with its Mall Road, Ridge, Christ Church and Viceregal Lodge, is reached by the Kalka–Shimla toy train. Manali and the Kullu valley offer orchards, the Hadimba temple, the Solang valley for snow sports and the road through the Atal Tunnel to Lahaul. Dharamshala and McLeod Ganj, home of the Dalai Lama, combine Tibetan monasteries with treks on the Dhauladhar; Bir Billing is a well-known paragliding site; and Dalhousie, Khajjiar and Chamba are quieter hill stations. Spiti and Kinnaur draw travellers to Key and Tabo monasteries, Chandratal lake and villages such as Kalpa and Chitkul. Temples at Jwalamukhi, Chintpurni, Naina Devi and Baijnath are major pilgrimage sites.",
+        "hi": "पुरानी ग्रीष्मकालीन राजधानी शिमला, अपने मॉल रोड, रिज, क्राइस्ट चर्च और वाइसरीगल लॉज के साथ, कालका–शिमला टॉय ट्रेन से पहुँचा जाता है। मनाली और कुल्लू घाटी में बाग़, हिडिंबा मंदिर, बर्फ़ीले खेलों के लिए सोलंग घाटी और अटल सुरंग से लाहौल जाने वाली सड़क है। दलाई लामा का निवास धर्मशाला और मैक्लोडगंज तिब्बती मठों को धौलाधार के ट्रेक से जोड़ते हैं; बीड़ बिलिंग प्रसिद्ध पैराग्लाइडिंग स्थल है; और डलहौज़ी, खज्जियार और चंबा शांत पर्वतीय स्थल हैं। स्पीति और किन्नौर यात्रियों को की और ताबो मठों, चंद्रताल झील और कल्पा व छितकुल जैसे गाँवों की ओर खींचते हैं। ज्वालामुखी, चिंतपूर्णी, नैना देवी और बैजनाथ के मंदिर प्रमुख तीर्थस्थल हैं।",
+        "mr": "जुनी उन्हाळी राजधानी शिमला, तिच्या मॉल रोड, रिज, क्राइस्ट चर्च व व्हाइसरीगल लॉजसह, कालका–शिमला टॉय ट्रेनने गाठता येते. मनाली व कुल्लू खोऱ्यात बागा, हिडिंबा मंदिर, बर्फातील खेळांसाठी सोलंग खोरे आणि अटल बोगद्यातून लाहौलकडे जाणारा रस्ता आहे. दलाई लामांचे निवासस्थान धर्मशाला व मॅक्लिओडगंज तिबेटी मठांना धौलाधारवरील ट्रेकशी जोडतात; बीड बिलिंग हे प्रसिद्ध पॅराग्लायडिंग ठिकाण आहे; आणि डलहौसी, खज्जियार व चंबा ही शांत थंड हवेची ठिकाणे आहेत. स्पिती व किन्नौर प्रवाशांना की व ताबो मठ, चंद्रताल सरोवर आणि कल्पा व छितकुलसारख्या गावांकडे आकर्षित करतात. ज्वालामुखी, चिंतपूर्णी, नैना देवी व बैजनाथची मंदिरे प्रमुख तीर्थक्षेत्रे आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "shimla",
+          "name": {
+            "en": "Shimla",
+            "hi": "शिमला",
+            "mr": "शिमला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mall Road; toy train",
+            "hi": "मॉल रोड; टॉय ट्रेन",
+            "mr": "मॉल रोड; टॉय ट्रेन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "manali",
+          "name": {
+            "en": "Manali and Kullu",
+            "hi": "मनाली और कुल्लू",
+            "mr": "मनाली व कुल्लू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Orchards; Solang; Atal Tunnel",
+            "hi": "बाग़; सोलंग; अटल सुरंग",
+            "mr": "बागा; सोलंग; अटल बोगदा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dharamshala",
+          "name": {
+            "en": "Dharamshala and McLeod Ganj",
+            "hi": "धर्मशाला और मैक्लोडगंज",
+            "mr": "धर्मशाला व मॅक्लिओडगंज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Tibetan culture; treks",
+            "hi": "तिब्बती संस्कृति; ट्रेक",
+            "mr": "तिबेटी संस्कृती; ट्रेक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spiti",
+          "name": {
+            "en": "Spiti valley",
+            "hi": "स्पीति घाटी",
+            "mr": "स्पिती खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Key and Tabo monasteries",
+            "hi": "की और ताबो मठ",
+            "mr": "की व ताबो मठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kinnaur",
+          "name": {
+            "en": "Kinnaur",
+            "hi": "किन्नौर",
+            "mr": "किन्नौर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kalpa, Sangla, Chitkul",
+            "hi": "कल्पा, सांगला, छितकुल",
+            "mr": "कल्पा, सांगला, छितकुल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dalhousie",
+          "name": {
+            "en": "Dalhousie and Khajjiar",
+            "hi": "डलहौज़ी और खज्जियार",
+            "mr": "डलहौसी व खज्जियार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Meadows and forests",
+            "hi": "घास के मैदान और वन",
+            "mr": "कुरणे व वने",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bir",
+          "name": {
+            "en": "Bir Billing",
+            "hi": "बीड़ बिलिंग",
+            "mr": "बीड बिलिंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Paragliding",
+            "hi": "पैराग्लाइडिंग",
+            "mr": "पॅराग्लायडिंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Shimla by the toy train from Kalka, with Kufri and Naldehra.",
+            "hi": "कालका से टॉय ट्रेन द्वारा शिमला, साथ में कुफ़री और नालदेहरा।",
+            "mr": "कालकाहून टॉय ट्रेनने शिमला, सोबत कुफरी व नालदेहरा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days",
+            "hi": "5 दिन",
+            "mr": "5 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Dharamshala, McLeod Ganj, Palampur tea gardens and Bir.",
+            "hi": "धर्मशाला, मैक्लोडगंज, पालमपुर के चाय बाग़ान और बीड़।",
+            "mr": "धर्मशाला, मॅक्लिओडगंज, पालमपूरचे चहाचे मळे व बीड.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d8",
+          "name": {
+            "en": "8 days (June–September)",
+            "hi": "8 दिन (जून–सितंबर)",
+            "mr": "8 दिवस (जून–सप्टेंबर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Shimla to Kinnaur and Spiti, returning via Kunzum Pass and the Atal Tunnel to Manali.",
+            "hi": "शिमला से किन्नौर और स्पीति, लौटते समय कुंज़ुम दर्रे और अटल सुरंग से मनाली।",
+            "mr": "शिमल्याहून किन्नौर व स्पिती, परतीच्या वाटेवर कुंजुम खिंड व अटल बोगद्यामार्गे मनाली.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "hpt",
+          "name": {
+            "en": "Himachal Tourism (official)",
+            "hi": "हिमाचल पर्यटन (आधिकारिक)",
+            "mr": "हिमाचल पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://himachaltourism.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        },
+        {
+          "label": {
+            "en": "Permit rules for areas near the international border",
+            "hi": "अंतरराष्ट्रीय सीमा के पास के क्षेत्रों के परमिट नियम",
+            "mr": "आंतरराष्ट्रीय सीमेजवळील भागांचे परवाना नियम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "District administrations of Kinnaur and Lahaul and Spiti."
+        }
+      ]
+    }
+  ]
+}

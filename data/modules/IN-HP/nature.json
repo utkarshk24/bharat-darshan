@@ -1,0 +1,493 @@
+{
+  "region": "IN-HP",
+  "module": "nature",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Forests cover about 28% of Himachal Pradesh (ISFR 2023); much of the rest is alpine meadow, rock, glacier and the cold desert of Lahaul and Spiti, above the tree line. Chir pine covers the lower hills, and higher up there are forests of oak, deodar, blue pine, fir and spruce, with rhododendron and birch near the tree line. The Great Himalayan National Park in Kullu, with the adjoining Sainj and Tirthan valleys, is a UNESCO World Heritage site, and Pin Valley National Park in Spiti protects the snow leopard and Himalayan ibex. The western tragopan, the State bird, is one of the world's rarest pheasants.\n\nThe State has three Ramsar wetlands: the Pong Dam Lake on the Beas, a major wintering ground for waterbirds; the high-altitude Chandertal in Lahaul; and Renuka lake in Sirmaur.",
+        "hi": "हिमाचल प्रदेश का लगभग 28% भाग वन है (आईएसएफ़आर 2023); बाक़ी का अधिकांश भाग वृक्ष रेखा से ऊपर अल्पाइन घास के मैदान, चट्टान, हिमनद और लाहौल-स्पीति का शीत मरुस्थल है। निचली पहाड़ियों पर चीड़ है, और ऊपर बान, देवदार, कैल, फ़र और स्प्रूस के वन हैं, तथा वृक्ष रेखा के पास बुरांस और भोजपत्र। कुल्लू का ग्रेट हिमालयन राष्ट्रीय उद्यान, सैंज और तीर्थन घाटियों सहित, यूनेस्को विश्व धरोहर स्थल है, और स्पीति का पिन घाटी राष्ट्रीय उद्यान हिम तेंदुए और हिमालयी आइबेक्स को संरक्षण देता है। राज्य पक्षी जाजुराना (पश्चिमी ट्रैगोपैन) दुनिया के सबसे दुर्लभ तीतरों में है।\n\nराज्य में तीन रामसर आर्द्रभूमियाँ हैं: ब्यास पर पौंग बाँध झील, जो जलपक्षियों का बड़ा शीतकालीन ठिकाना है; लाहौल का ऊँचाई पर स्थित चंद्रताल; और सिरमौर की रेणुका झील।",
+        "mr": "हिमाचल प्रदेशचा सुमारे 28% भाग वनाच्छादित आहे (आयएसएफआर 2023); उरलेल्या भागापैकी बराचसा वृक्षरेषेवरील अल्पाइन कुरणे, खडक, हिमनद्या व लाहौल-स्पितीचे शीत वाळवंट आहे. खालच्या टेकड्यांवर चीड पाइन आहे, आणि वर ओक, देवदार, ब्लू पाइन, फर व स्प्रूसची जंगले आहेत, तसेच वृक्षरेषेजवळ र्‍होडोडेंड्रॉन व भूर्जपत्र. कुल्लूमधील ग्रेट हिमालयन राष्ट्रीय उद्यान, सैंज व तीर्थन खोऱ्यांसह, युनेस्को जागतिक वारसा स्थळ आहे, आणि स्पितीतील पिन खोरे राष्ट्रीय उद्यान हिमबिबट्या व हिमालयीन आयबेक्सचे संरक्षण करते. राज्यपक्षी जुजुराना (पश्चिमी ट्रॅगोपॅन) हा जगातील सर्वांत दुर्मीळ तितरांपैकी एक आहे.\n\nराज्यात तीन रामसर पाणथळे आहेत: बियासवरील पोंग धरण सरोवर, जे पाणपक्ष्यांचे मोठे हिवाळी ठिकाण आहे; लाहौलमधील उंचावरील चंद्रताल; आणि सिरमौरचे रेणुका सरोवर.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "indian-wetlands",
+        "unesco-whc"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 15580.35,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 15525.62,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 27.99,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 15,580.35 km² ÷ geographical area 55,673 km². Much of the rest is alpine pasture, rock and snow above the tree line."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        },
+        {
+          "id": "ramsar",
+          "label": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळ स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 3,
+            "unit": "sites",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "indian-wetlands",
+            "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "MoEFCC list of Ramsar sites as on 21 April 2026."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "ramsar",
+      "title": {
+        "en": "Ramsar wetlands",
+        "hi": "रामसर आर्द्रभूमियाँ",
+        "mr": "रामसर पाणथळ स्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Site",
+            "hi": "स्थल",
+            "mr": "स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Designated",
+            "hi": "घोषित",
+            "mr": "घोषणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        },
+        {
+          "label": {
+            "en": "Area (ha)",
+            "hi": "क्षेत्रफल (हेक्टेयर)",
+            "mr": "क्षेत्रफळ (हेक्टर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Pong Dam Lake",
+            "hi": "पौंग बाँध झील",
+            "mr": "पोंग धरण सरोवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2002",
+          "15,662"
+        ],
+        [
+          {
+            "en": "Chandertal Wetland",
+            "hi": "चंद्रताल आर्द्रभूमि",
+            "mr": "चंद्रताल पाणथळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2005",
+          "49"
+        ],
+        [
+          {
+            "en": "Renuka Wetland",
+            "hi": "रेणुका आर्द्रभूमि",
+            "mr": "रेणुका पाणथळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "2005",
+          "20"
+        ]
+      ],
+      "sourceId": "indian-wetlands",
+      "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+      "accessDate": "2026-10-24",
+      "confidence": "Official",
+      "note": {
+        "en": "MoEFCC list as on 21 April 2026 (year of designation).",
+        "hi": "21 अप्रैल 2026 की पर्यावरण मंत्रालय सूची (घोषणा वर्ष)।",
+        "mr": "21 एप्रिल 2026 ची पर्यावरण मंत्रालयाची यादी (घोषणा वर्ष).",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "protected",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ghnp",
+          "name": {
+            "en": "Great Himalayan National Park Conservation Area",
+            "hi": "ग्रेट हिमालयन राष्ट्रीय उद्यान संरक्षण क्षेत्र",
+            "mr": "ग्रेट हिमालयन राष्ट्रीय उद्यान संवर्धन क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO World Heritage, 2014",
+            "hi": "यूनेस्को विश्व धरोहर, 2014",
+            "mr": "युनेस्को जागतिक वारसा, 2014",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pin",
+          "name": {
+            "en": "Pin Valley National Park",
+            "hi": "पिन घाटी राष्ट्रीय उद्यान",
+            "mr": "पिन खोरे राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Snow leopard, ibex — Spiti",
+            "hi": "हिम तेंदुआ, आइबेक्स — स्पीति",
+            "mr": "हिमबिबट्या, आयबेक्स — स्पिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kibber",
+          "name": {
+            "en": "Kibber Wildlife Sanctuary",
+            "hi": "किब्बर वन्यजीव अभयारण्य",
+            "mr": "किब्बर वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Cold desert",
+            "hi": "शीत मरुस्थल",
+            "mr": "शीत वाळवंट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pong",
+          "name": {
+            "en": "Pong Dam Lake Wildlife Sanctuary",
+            "hi": "पौंग बाँध झील वन्यजीव अभयारण्य",
+            "mr": "पोंग धरण सरोवर वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Wintering waterbirds",
+            "hi": "शीतकालीन जलपक्षी",
+            "mr": "हिवाळी पाणपक्षी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chail",
+          "name": {
+            "en": "Chail Wildlife Sanctuary",
+            "hi": "चैल वन्यजीव अभयारण्य",
+            "mr": "चैल वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Cheer pheasant",
+            "hi": "चीर तीतर",
+            "mr": "चीर तित्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Protected areas (selected)",
+        "hi": "संरक्षित क्षेत्र (चयनित)",
+        "mr": "संरक्षित क्षेत्रे (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "species",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "snowleopard",
+          "name": {
+            "en": "Snow leopard (State animal)",
+            "hi": "हिम तेंदुआ (राज्य पशु)",
+            "mr": "हिमबिबट्या (राज्यप्राणी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tragopan",
+          "name": {
+            "en": "Western tragopan (State bird)",
+            "hi": "जाजुराना (राज्य पक्षी)",
+            "mr": "जुजुराना (राज्यपक्षी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ibex",
+          "name": {
+            "en": "Himalayan ibex",
+            "hi": "हिमालयी आइबेक्स",
+            "mr": "हिमालयीन आयबेक्स",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "musk",
+          "name": {
+            "en": "Musk deer",
+            "hi": "कस्तूरी मृग",
+            "mr": "कस्तुरी मृग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monal",
+          "name": {
+            "en": "Himalayan monal",
+            "hi": "मोनाल",
+            "mr": "मोनाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "goral",
+          "name": {
+            "en": "Goral",
+            "hi": "घोरल",
+            "mr": "घोरल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key species",
+        "hi": "प्रमुख प्रजातियाँ",
+        "mr": "प्रमुख प्रजाती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Snow leopard population estimate",
+            "hi": "हिम तेंदुए की अनुमानित संख्या",
+            "mr": "हिमबिबट्यांची अंदाजित संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "moefcc",
+          "note": "SPAI (Snow Leopard Population Assessment in India) / HP Wildlife Wing."
+        },
+        {
+          "label": {
+            "en": "Glacier retreat and glacial lake risk",
+            "hi": "हिमनदों का पीछे हटना और हिमनदी झीलों का ख़तरा",
+            "mr": "हिमनद्यांची माघार व हिमनदी सरोवरांचा धोका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "HP State Centre on Climate Change."
+        }
+      ]
+    }
+  ]
+}

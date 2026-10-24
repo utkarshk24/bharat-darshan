@@ -1,0 +1,55 @@
+{
+  "region": "IN-HP",
+  "module": "water",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Himachal is a water tower for northern India: its snow and glaciers feed the Sutlej, Beas, Ravi, Chenab and Yamuna, which irrigate Punjab, Haryana and Rajasthan downstream. The Bhakra dam's Gobind Sagar and the Pong dam's Maharana Pratap Sagar are among India's largest reservoirs, and the Beas–Sutlej link carries Beas water through a tunnel to the Sutlej. Within the State, most villages rely on springs, streams (khuds) and gravity-fed water schemes rather than groundwater, and traditional irrigation channels (kuhls) water the Kangra valley. Many springs are reported to be drying, and cloudbursts and flash floods — especially in the monsoons of 2023 and 2025 — have repeatedly damaged roads, houses and water schemes.",
+        "hi": "हिमाचल उत्तर भारत का जल भंडार है: इसकी बर्फ़ और हिमनद सतलुज, ब्यास, रावी, चिनाब और यमुना को पानी देते हैं, जो नीचे पंजाब, हरियाणा और राजस्थान को सींचती हैं। भाखड़ा बाँध का गोबिंद सागर और पौंग बाँध का महाराणा प्रताप सागर भारत के सबसे बड़े जलाशयों में हैं, और ब्यास–सतलुज लिंक सुरंग के माध्यम से ब्यास का पानी सतलुज तक ले जाता है। राज्य के भीतर अधिकांश गाँव भूजल के बजाय झरनों, खड्डों और गुरुत्व-आधारित जल योजनाओं पर निर्भर हैं, और पारंपरिक सिंचाई नालियाँ (कूहलें) कांगड़ा घाटी को सींचती हैं। बहुत से झरनों के सूखने की ख़बरें हैं, और बादल फटने व अचानक बाढ़ — विशेषकर 2023 और 2025 के मानसून में — ने बार-बार सड़कों, घरों और जल योजनाओं को नुकसान पहुँचाया है।",
+        "mr": "हिमाचल हा उत्तर भारताचा जलसाठा आहे: त्याचा बर्फ व हिमनद्या सतलज, बियास, रावी, चिनाब व यमुनेला पाणी पुरवतात, ज्या खाली पंजाब, हरियाणा व राजस्थानला भिजवतात. भाक्रा धरणाचा गोविंद सागर व पोंग धरणाचा महाराणा प्रताप सागर हे भारतातील सर्वांत मोठ्या जलाशयांपैकी आहेत, आणि बियास–सतलज जोड बोगद्यातून बियासचे पाणी सतलजपर्यंत नेतो. राज्यात बहुतेक गावे भूजलाऐवजी झरे, खड्ड (ओढे) व गुरुत्वाकर्षणावर चालणाऱ्या पाणी योजनांवर अवलंबून आहेत, आणि पारंपरिक सिंचन पाट (कूहल) कांगडा खोरे भिजवतात. अनेक झरे आटत असल्याचे सांगितले जाते, आणि ढगफुटी व आकस्मिक पूर — विशेषतः 2023 व 2025 च्या मान्सूनमध्ये — यांनी वारंवार रस्ते, घरे व पाणी योजनांचे नुकसान केले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Spring-shed and drinking-water scheme coverage",
+            "hi": "झरना क्षेत्र और पेयजल योजना कवरेज",
+            "mr": "झरा क्षेत्र व पेयजल योजना व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Shakti Vibhag, Himachal Pradesh / Jal Jeevan Mission dashboard."
+        },
+        {
+          "label": {
+            "en": "Monsoon damage, 2023 and 2025",
+            "hi": "मानसून से नुकसान, 2023 और 2025",
+            "mr": "मान्सूनमुळे नुकसान, 2023 व 2025",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "HP State Disaster Management Authority."
+        }
+      ]
+    }
+  ]
+}

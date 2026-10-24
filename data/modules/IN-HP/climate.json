@@ -1,0 +1,204 @@
+{
+  "region": "IN-HP",
+  "module": "climate",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Climate changes with altitude. The Shivalik foothills and low valleys have hot summers and mild winters; the middle hills around Shimla, Dharamshala and Kullu have pleasant summers, a wet monsoon and cold winters with snow on the higher ridges; and Lahaul, Spiti and upper Kinnaur are cold deserts with little rain, very cold winters and passes closed by snow for months. Dharamshala, under the Dhauladhar, is among the wettest places in north-western India. Heavy monsoon rain brings landslides and flash floods, and western disturbances bring winter snow.",
+        "hi": "जलवायु ऊँचाई के साथ बदलती है। शिवालिक तलहटी और निचली घाटियों में गर्मियाँ गर्म और सर्दियाँ हल्की होती हैं; शिमला, धर्मशाला और कुल्लू के आसपास की मध्य पहाड़ियों में सुहावनी गर्मियाँ, भीगा मानसून और ठंडी सर्दियाँ होती हैं, जब ऊँची पहाड़ियों पर बर्फ़ गिरती है; और लाहौल, स्पीति व ऊपरी किन्नौर कम वर्षा वाले शीत मरुस्थल हैं, जहाँ सर्दियाँ बहुत ठंडी होती हैं और दर्रे महीनों बर्फ़ से बंद रहते हैं। धौलाधार के नीचे बसा धर्मशाला उत्तर-पश्चिमी भारत के सबसे भीगे स्थानों में है। भारी मानसूनी वर्षा भूस्खलन और अचानक बाढ़ लाती है, और पश्चिमी विक्षोभ सर्दियों में बर्फ़ लाते हैं।",
+        "mr": "हवामान उंचीनुसार बदलते. शिवालिक पायथा व खालच्या खोऱ्यांत उन्हाळा उष्ण व हिवाळा सौम्य असतो; शिमला, धर्मशाला व कुल्लूभोवतीच्या मधल्या टेकड्यांत आल्हाददायक उन्हाळा, ओला मान्सून व थंड हिवाळा असतो, जेव्हा उंच कड्यांवर बर्फ पडतो; आणि लाहौल, स्पिती व वरचे किन्नौर ही कमी पावसाची शीत वाळवंटे आहेत, जिथे हिवाळा अतिशय थंड असतो व खिंडी महिनोन्महिने बर्फाने बंद असतात. धौलाधारखाली वसलेले धर्मशाला हे वायव्य भारतातील सर्वाधिक पावसाच्या ठिकाणांपैकी एक आहे. मुसळधार मान्सून पावसामुळे भूस्खलन व आकस्मिक पूर येतात, आणि पश्चिमी विक्षोभ हिवाळ्यात बर्फ आणतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Shimla",
+            "hi": "शिमला",
+            "mr": "शिमला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 31.1048,
+          "lon": 77.1734
+        },
+        {
+          "name": {
+            "en": "Dharamshala",
+            "hi": "धर्मशाला",
+            "mr": "धर्मशाला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 32.219,
+          "lon": 76.3234
+        },
+        {
+          "name": {
+            "en": "Manali",
+            "hi": "मनाली",
+            "mr": "मनाली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 32.2432,
+          "lon": 77.1892
+        },
+        {
+          "name": {
+            "en": "Kaza (Spiti)",
+            "hi": "काज़ा (स्पीति)",
+            "mr": "काझा (स्पिती)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 32.2276,
+          "lon": 78.071
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "summer",
+          "name": {
+            "en": "March to June",
+            "hi": "मार्च से जून",
+            "mr": "मार्च ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Best for Shimla, Manali and Dharamshala; apple blossom in spring.",
+            "hi": "शिमला, मनाली और धर्मशाला के लिए सबसे अच्छा; वसंत में सेब के फूल।",
+            "mr": "शिमला, मनाली व धर्मशालेसाठी उत्तम; वसंतात सफरचंदाचा बहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "autumn",
+          "name": {
+            "en": "September to November",
+            "hi": "सितंबर से नवंबर",
+            "mr": "सप्टेंबर ते नोव्हेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Clear skies; Kullu Dussehra; apple harvest.",
+            "hi": "साफ़ आसमान; कुल्लू दशहरा; सेब की तुड़ाई।",
+            "mr": "निरभ्र आकाश; कुल्लू दसरा; सफरचंदाची तोडणी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "high",
+          "name": {
+            "en": "June to September",
+            "hi": "जून से सितंबर",
+            "mr": "जून ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Lahaul and Spiti are open and dry while the monsoon soaks the lower hills.",
+            "hi": "लाहौल और स्पीति खुले और सूखे रहते हैं, जबकि निचली पहाड़ियाँ मानसून में भीगती हैं।",
+            "mr": "लाहौल व स्पिती खुले व कोरडे असतात, तर खालच्या टेकड्या मान्सूनमध्ये भिजतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "winter",
+          "name": {
+            "en": "December to February",
+            "hi": "दिसंबर से फ़रवरी",
+            "mr": "डिसेंबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Snow and skiing at Solang, Narkanda and Kufri; check road closures.",
+            "hi": "सोलंग, नारकंडा और कुफ़री में बर्फ़ और स्कीइंग; सड़कें बंद होने की जानकारी लें।",
+            "mr": "सोलंग, नारकंडा व कुफरीत बर्फ व स्कीइंग; रस्ते बंद आहेत का ते तपासा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall and snowfall",
+            "hi": "सामान्य वार्षिक वर्षा और हिमपात",
+            "mr": "सरासरी वार्षिक पाऊस व हिमवर्षाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD Shimla meteorological centre."
+        }
+      ]
+    }
+  ]
+}

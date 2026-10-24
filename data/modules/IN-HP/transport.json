@@ -1,0 +1,138 @@
+{
+  "region": "IN-HP",
+  "module": "transport",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Roads are Himachal's lifeline, and the Himachal Road Transport Corporation's buses reach remote villages. National highways run from Chandigarh to Shimla and on along the old Hindustan–Tibet Road into Kinnaur, from Kiratpur through Mandi and Kullu to Manali and, through the Atal Tunnel, on to Lahaul and Leh, and from Pathankot to Dharamshala. Small airports at Shimla (Jubbarhatti), Kullu–Manali (Bhuntar) and Kangra (Gaggal) have limited flights. The narrow-gauge Kalka–Shimla railway, a UNESCO World Heritage site, and the Pathankot–Jogindernagar line through the Kangra valley are the main railways; a broad-gauge line reaches Una.",
+        "hi": "सड़कें हिमाचल की जीवन रेखा हैं, और हिमाचल पथ परिवहन निगम की बसें दूरस्थ गाँवों तक पहुँचती हैं। राष्ट्रीय राजमार्ग चंडीगढ़ से शिमला और आगे पुरानी हिंदुस्तान–तिब्बत रोड के साथ किन्नौर तक, कीरतपुर से मंडी और कुल्लू होकर मनाली तक और अटल सुरंग से होकर लाहौल व लेह तक, और पठानकोट से धर्मशाला तक जाते हैं। शिमला (जुब्बड़हट्टी), कुल्लू–मनाली (भुंतर) और कांगड़ा (गग्गल) के छोटे हवाई अड्डों से सीमित उड़ानें हैं। यूनेस्को विश्व धरोहर नैरो गेज कालका–शिमला रेलवे और कांगड़ा घाटी से गुज़रने वाली पठानकोट–जोगिंदरनगर लाइन मुख्य रेलें हैं; एक ब्रॉड गेज लाइन ऊना तक पहुँचती है।",
+        "mr": "रस्ते ही हिमाचलची जीवनरेखा आहेत, आणि हिमाचल पथ परिवहन महामंडळाच्या बस दुर्गम गावांपर्यंत पोहोचतात. राष्ट्रीय महामार्ग चंदीगडहून शिमल्यापर्यंत व पुढे जुन्या हिंदुस्थान–तिबेट रस्त्याने किन्नौरपर्यंत, कीरतपूरहून मंडी व कुल्लूमार्गे मनालीपर्यंत व अटल बोगद्यातून लाहौल व लेहपर्यंत, आणि पठाणकोटहून धर्मशालेपर्यंत जातात. शिमला (जुब्बडहट्टी), कुल्लू–मनाली (भुंतर) व कांगडा (गग्गल) येथील लहान विमानतळांवरून मर्यादित उड्डाणे आहेत. युनेस्को जागतिक वारसा असलेली नॅरो गेज कालका–शिमला रेल्वे व कांगडा खोऱ्यातून जाणारी पठाणकोट–जोगिंदरनगर मार्गिका या मुख्य रेल्वे आहेत; एक ब्रॉड गेज मार्ग ऊनापर्यंत पोहोचतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "sla",
+          "name": {
+            "en": "Shimla (Jubbarhatti)",
+            "hi": "शिमला (जुब्बड़हट्टी)",
+            "mr": "शिमला (जुब्बडहट्टी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "SLV",
+            "hi": "SLV",
+            "mr": "SLV",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kuu",
+          "name": {
+            "en": "Kullu–Manali (Bhuntar)",
+            "hi": "कुल्लू–मनाली (भुंतर)",
+            "mr": "कुल्लू–मनाली (भुंतर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "KUU",
+            "hi": "KUU",
+            "mr": "KUU",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dhm",
+          "name": {
+            "en": "Kangra (Gaggal)",
+            "hi": "कांगड़ा (गग्गल)",
+            "mr": "कांगडा (गग्गल)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "DHM",
+            "hi": "DHM",
+            "mr": "DHM",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road length and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

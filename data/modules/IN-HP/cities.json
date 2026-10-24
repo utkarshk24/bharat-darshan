@@ -1,0 +1,434 @@
+{
+  "region": "IN-HP",
+  "module": "cities",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "shimla",
+          "name": {
+            "en": "Shimla",
+            "hi": "शिमला",
+            "mr": "शिमला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Capital and largest city; colonial-era summer capital.",
+            "hi": "राजधानी और सबसे बड़ा शहर; औपनिवेशिक काल की ग्रीष्मकालीन राजधानी।",
+            "mr": "राजधानी व सर्वांत मोठे शहर; वसाहतकालीन उन्हाळी राजधानी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dharamshala",
+          "name": {
+            "en": "Dharamshala",
+            "hi": "धर्मशाला",
+            "mr": "धर्मशाला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Second capital; seat of the Dalai Lama at McLeod Ganj.",
+            "hi": "दूसरी राजधानी; मैक्लोडगंज में दलाई लामा का निवास।",
+            "mr": "दुसरी राजधानी; मॅक्लिओडगंज येथे दलाई लामांचे निवासस्थान.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "solan",
+          "name": {
+            "en": "Solan",
+            "hi": "सोलन",
+            "mr": "सोलन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "'Mushroom city'; gateway to the Baddi industrial belt.",
+            "hi": "'मशरूम नगरी'; बद्दी औद्योगिक पट्टी का प्रवेश द्वार।",
+            "mr": "'मशरूमनगरी'; बद्दी औद्योगिक पट्ट्याचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mandi",
+          "name": {
+            "en": "Mandi",
+            "hi": "मंडी",
+            "mr": "मंडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Temple town on the Beas; Shivratri fair.",
+            "hi": "ब्यास किनारे मंदिरों का नगर; शिवरात्रि मेला।",
+            "mr": "बियासकाठचे मंदिरनगर; शिवरात्री जत्रा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kullu",
+          "name": {
+            "en": "Kullu and Manali",
+            "hi": "कुल्लू और मनाली",
+            "mr": "कुल्लू व मनाली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Valley towns of orchards and tourism.",
+            "hi": "बाग़ों और पर्यटन के घाटी नगर।",
+            "mr": "बागा व पर्यटनाची खोऱ्यातील शहरे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Tourism",
+            "hi": "पर्यटन",
+            "mr": "पर्यटन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "baddi",
+          "name": {
+            "en": "Baddi",
+            "hi": "बद्दी",
+            "mr": "बद्दी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pharmaceutical manufacturing hub.",
+            "hi": "दवा विनिर्माण केंद्र।",
+            "mr": "औषधनिर्मितीचे केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hamirpur",
+          "name": {
+            "en": "Hamirpur",
+            "hi": "हमीरपुर",
+            "mr": "हमीरपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Education town; NIT Hamirpur.",
+            "hi": "शिक्षा नगर; एनआईटी हमीरपुर।",
+            "mr": "शिक्षणनगर; एनआयटी हमीरपूर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Education",
+            "hi": "शिक्षा",
+            "mr": "शिक्षण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major towns",
+        "hi": "प्रमुख नगर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "bilaspur",
+          "name": {
+            "en": "Bilaspur",
+            "hi": "बिलासपुर",
+            "mr": "बिलासपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chamba",
+          "name": {
+            "en": "Chamba",
+            "hi": "चंबा",
+            "mr": "चंबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hamirpur",
+          "name": {
+            "en": "Hamirpur",
+            "hi": "हमीरपुर",
+            "mr": "हमीरपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kangra",
+          "name": {
+            "en": "Kangra",
+            "hi": "कांगड़ा",
+            "mr": "कांगडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kinnaur",
+          "name": {
+            "en": "Kinnaur",
+            "hi": "किन्नौर",
+            "mr": "किन्नौर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kullu",
+          "name": {
+            "en": "Kullu",
+            "hi": "कुल्लू",
+            "mr": "कुल्लू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lahaulandspiti",
+          "name": {
+            "en": "Lahaul and Spiti",
+            "hi": "लाहौल और स्पीति",
+            "mr": "लाहौल व स्पिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mandi",
+          "name": {
+            "en": "Mandi",
+            "hi": "मंडी",
+            "mr": "मंडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shimla",
+          "name": {
+            "en": "Shimla",
+            "hi": "शिमला",
+            "mr": "शिमला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sirmaur",
+          "name": {
+            "en": "Sirmaur",
+            "hi": "सिरमौर",
+            "mr": "सिरमौर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "solan",
+          "name": {
+            "en": "Solan",
+            "hi": "सोलन",
+            "mr": "सोलन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "una",
+          "name": {
+            "en": "Una",
+            "hi": "ऊना",
+            "mr": "ऊना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 12 districts (alphabetical)",
+        "hi": "12 ज़िले (वर्णानुक्रम)",
+        "mr": "12 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official district list (State notification)",
+            "hi": "आधिकारिक ज़िला सूची (राज्य अधिसूचना)",
+            "mr": "अधिकृत जिल्हा यादी (राज्य अधिसूचना)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Link the State's list of districts."
+        },
+        {
+          "label": {
+            "en": "Town populations (Census 2011)",
+            "hi": "नगरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban tables."
+        }
+      ]
+    }
+  ]
+}

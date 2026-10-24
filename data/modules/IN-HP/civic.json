@@ -1,0 +1,198 @@
+{
+  "region": "IN-HP",
+  "module": "civic",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Himachal Pradesh portal",
+            "hi": "हिमाचल प्रदेश सरकार पोर्टल",
+            "mr": "हिमाचल प्रदेश शासन संकेतस्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://himachal.nic.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "rti",
+          "name": {
+            "en": "RTI Online (Government of India)",
+            "hi": "आरटीआई ऑनलाइन (भारत सरकार)",
+            "mr": "माहितीचा अधिकार ऑनलाइन (भारत सरकार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rtionline.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "tourism",
+          "name": {
+            "en": "Himachal Tourism",
+            "hi": "हिमाचल पर्यटन",
+            "mr": "हिमाचल पर्यटन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://himachaltourism.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "consumer",
+          "name": {
+            "en": "National Consumer Helpline",
+            "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन",
+            "mr": "राष्ट्रीय ग्राहक हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://consumerhelpline.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official websites",
+        "hi": "आधिकारिक वेबसाइटें",
+        "mr": "अधिकृत संकेतस्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "std",
+      "title": {
+        "en": "STD codes of major towns",
+        "hi": "प्रमुख नगरों के एसटीडी कोड",
+        "mr": "प्रमुख शहरांचे एसटीडी कोड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Town",
+            "hi": "नगर",
+            "mr": "शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Code",
+            "hi": "कोड",
+            "mr": "कोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Shimla",
+            "hi": "शिमला",
+            "mr": "शिमला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0177"
+        ],
+        [
+          {
+            "en": "Dharamshala",
+            "hi": "धर्मशाला",
+            "mr": "धर्मशाला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "01892"
+        ],
+        [
+          {
+            "en": "Mandi",
+            "hi": "मंडी",
+            "mr": "मंडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "01905"
+        ],
+        [
+          {
+            "en": "Kullu and Manali",
+            "hi": "कुल्लू और मनाली",
+            "mr": "कुल्लू व मनाली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "01902"
+        ],
+        [
+          {
+            "en": "Solan",
+            "hi": "सोलन",
+            "mr": "सोलन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "01792"
+        ]
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "note": {
+        "en": "Editorial list; to be checked against the Department of Telecommunications numbering plan.",
+        "hi": "संपादकीय सूची; दूरसंचार विभाग की नंबरिंग योजना से जाँची जाएगी।",
+        "mr": "संपादकीय यादी; दूरसंचार विभागाच्या क्रमांक योजनेशी पडताळली जाईल.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

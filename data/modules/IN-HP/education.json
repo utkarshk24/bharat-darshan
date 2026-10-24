@@ -1,0 +1,412 @@
+{
+  "region": "IN-HP",
+  "module": "education",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Himachal Pradesh has one of India's best education records. Literacy at the 2011 Census was 82.8%, and the higher-education gross enrolment ratio (ages 18–23) was 43.1% in 2021-22 in AISHE, well above the national 28.4% and up from 36.17% in 2017-18; women's GER (49.7%) was far higher than men's (37.3%). The State had 30 universities and 349 colleges.\n\nHimachal Pradesh University in Shimla (1970), Dr Y. S. Parmar University of Horticulture and Forestry at Nauni near Solan, and CSK Himachal Pradesh Krishi Vishvavidyalaya at Palampur are the main State universities, and the Central University of Himachal Pradesh is at Dharamshala. National institutions include IIT Mandi, NIT Hamirpur, IIM Sirmaur, IIIT Una and AIIMS Bilaspur; the Indian Institute of Advanced Study occupies the former Viceregal Lodge in Shimla, and the Lawrence School, Sanawar, is one of India's oldest boarding schools.",
+        "hi": "हिमाचल प्रदेश का शिक्षा रिकॉर्ड भारत में सबसे अच्छे में है। 2011 की जनगणना में साक्षरता 82.8% थी, और एआईएसएचई के अनुसार 2021-22 में उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 43.1% था, जो राष्ट्रीय 28.4% से काफ़ी अधिक और 2017-18 के 36.17% से ऊपर है; महिलाओं का जीईआर (49.7%) पुरुषों (37.3%) से कहीं अधिक था। राज्य में 30 विश्वविद्यालय और 349 कॉलेज थे।\n\nशिमला का हिमाचल प्रदेश विश्वविद्यालय (1970), सोलन के पास नौणी का डॉ. यशवंत सिंह परमार औद्यानिकी एवं वानिकी विश्वविद्यालय और पालमपुर का चौधरी सरवण कुमार हिमाचल प्रदेश कृषि विश्वविद्यालय मुख्य राज्य विश्वविद्यालय हैं, और हिमाचल प्रदेश केंद्रीय विश्वविद्यालय धर्मशाला में है। राष्ट्रीय संस्थानों में आईआईटी मंडी, एनआईटी हमीरपुर, आईआईएम सिरमौर, आईआईआईटी ऊना और एम्स बिलासपुर शामिल हैं; भारतीय उच्च अध्ययन संस्थान शिमला के पूर्व वाइसरीगल लॉज में है, और सनावर का लॉरेंस स्कूल भारत के सबसे पुराने आवासीय विद्यालयों में है।",
+        "mr": "हिमाचल प्रदेशचा शैक्षणिक विक्रम भारतातील सर्वोत्तमांपैकी आहे. 2011 च्या जनगणनेत साक्षरता 82.8% होती, आणि एआयएसएचईनुसार 2021-22 मध्ये उच्चशिक्षण एकूण नोंदणी गुणोत्तर (18–23 वय) 43.1% होते, राष्ट्रीय 28.4% पेक्षा बरेच अधिक व 2017-18 मधील 36.17% पेक्षा जास्त; स्त्रियांचे जीईआर (49.7%) पुरुषांपेक्षा (37.3%) कितीतरी अधिक होते. राज्यात 30 विद्यापीठे व 349 महाविद्यालये होती.\n\nशिमल्याचे हिमाचल प्रदेश विद्यापीठ (1970), सोलनजवळील नौणी येथील डॉ. यशवंतसिंह परमार फलोत्पादन व वनशास्त्र विद्यापीठ आणि पालमपूरचे चौधरी सरवण कुमार हिमाचल प्रदेश कृषी विद्यापीठ ही मुख्य राज्य विद्यापीठे आहेत, आणि हिमाचल प्रदेश केंद्रीय विद्यापीठ धर्मशालेत आहे. राष्ट्रीय संस्थांत आयआयटी मंडी, एनआयटी हमीरपूर, आयआयएम सिरमौर, आयआयआयटी ऊना व एम्स बिलासपूर यांचा समावेश आहे; भारतीय प्रगत अध्ययन संस्था शिमल्याच्या पूर्वीच्या व्हाइसरीगल लॉजमध्ये आहे, आणि सनावरची लॉरेन्स स्कूल ही भारतातील सर्वांत जुन्या निवासी शाळांपैकी एक आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 43.1,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 38.72,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 30,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 349,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "hp",
+          "label": {
+            "en": "Himachal Pradesh",
+            "hi": "हिमाचल प्रदेश",
+            "mr": "हिमाचल प्रदेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 36.17,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 37.47,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 38.5,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 38.72,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 43.1,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "hpu",
+          "name": {
+            "en": "Himachal Pradesh University",
+            "hi": "हिमाचल प्रदेश विश्वविद्यालय",
+            "mr": "हिमाचल प्रदेश विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Shimla, 1970",
+            "hi": "शिमला, 1970",
+            "mr": "शिमला, 1970",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nauni",
+          "name": {
+            "en": "Dr Y. S. Parmar University of Horticulture and Forestry",
+            "hi": "डॉ. वाई. एस. परमार औद्यानिकी एवं वानिकी विश्वविद्यालय",
+            "mr": "डॉ. वाय. एस. परमार फलोत्पादन व वनशास्त्र विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Nauni, Solan",
+            "hi": "नौणी, सोलन",
+            "mr": "नौणी, सोलन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "csk",
+          "name": {
+            "en": "CSK HP Krishi Vishvavidyalaya",
+            "hi": "सीएसके हिमाचल प्रदेश कृषि विश्वविद्यालय",
+            "mr": "सीएसके हिमाचल प्रदेश कृषी विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Palampur",
+            "hi": "पालमपुर",
+            "mr": "पालमपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iitm",
+          "name": {
+            "en": "IIT Mandi",
+            "hi": "आईआईटी मंडी",
+            "mr": "आयआयटी मंडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kamand, Mandi",
+            "hi": "कमांद, मंडी",
+            "mr": "कमांद, मंडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nith",
+          "name": {
+            "en": "NIT Hamirpur",
+            "hi": "एनआईटी हमीरपुर",
+            "mr": "एनआयटी हमीरपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hamirpur",
+            "hi": "हमीरपुर",
+            "mr": "हमीरपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cuhp",
+          "name": {
+            "en": "Central University of Himachal Pradesh",
+            "hi": "हिमाचल प्रदेश केंद्रीय विश्वविद्यालय",
+            "mr": "हिमाचल प्रदेश केंद्रीय विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Dharamshala",
+            "hi": "धर्मशाला",
+            "mr": "धर्मशाला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iias",
+          "name": {
+            "en": "Indian Institute of Advanced Study",
+            "hi": "भारतीय उच्च अध्ययन संस्थान",
+            "mr": "भारतीय प्रगत अध्ययन संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Shimla",
+            "hi": "शिमला",
+            "mr": "शिमला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        }
+      ]
+    }
+  ]
+}

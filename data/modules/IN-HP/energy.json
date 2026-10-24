@@ -1,0 +1,55 @@
+{
+  "region": "IN-HP",
+  "module": "energy",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Himachal Pradesh is one of India's main hydro-electric States. Large stations include Nathpa Jhakri and Rampur on the Sutlej, run by SJVN; Karcham Wangtoo, a private project in Kinnaur; the Bhakra and Pong dams managed by the Bhakra Beas Management Board; and the Chamera and Parbati projects of NHPC, alongside the State's own and many small hydro plants. The State receives free power as royalty from many projects and sells surplus electricity to other States, especially in summer when snowmelt swells the rivers. Hydro development has also raised concerns about landslides, tunnelling and river ecology in fragile valleys.",
+        "hi": "हिमाचल प्रदेश भारत के मुख्य जलविद्युत राज्यों में से है। बड़े केंद्रों में एसजेवीएन द्वारा संचालित सतलुज पर नाथपा झाकड़ी और रामपुर; किन्नौर में निजी परियोजना करछम वांगतू; भाखड़ा ब्यास प्रबंध बोर्ड द्वारा संचालित भाखड़ा और पौंग बाँध; और एनएचपीसी की चमेरा व पार्बती परियोजनाएँ शामिल हैं, साथ में राज्य के अपने और कई छोटे जलविद्युत संयंत्र। राज्य को कई परियोजनाओं से रॉयल्टी के रूप में मुफ़्त बिजली मिलती है और यह अतिरिक्त बिजली अन्य राज्यों को बेचता है, विशेषकर गर्मियों में जब बर्फ़ पिघलने से नदियाँ उफनती हैं। जलविद्युत विकास ने नाज़ुक घाटियों में भूस्खलन, सुरंग निर्माण और नदी पारिस्थितिकी को लेकर चिंताएँ भी उठाई हैं।",
+        "mr": "हिमाचल प्रदेश हे भारतातील मुख्य जलविद्युत राज्यांपैकी एक आहे. मोठ्या केंद्रांत एसजेव्हीएनद्वारे चालवली जाणारी सतलजवरील नाथपा झाकडी व रामपूर; किन्नौरमधील खासगी प्रकल्प करछम वांगतू; भाक्रा बियास व्यवस्थापन मंडळाकडील भाक्रा व पोंग धरणे; आणि एनएचपीसीचे चमेरा व पार्बती प्रकल्प यांचा समावेश आहे, सोबत राज्याचे स्वतःचे व अनेक लहान जलविद्युत प्रकल्प. राज्याला अनेक प्रकल्पांतून स्वामित्वधन म्हणून मोफत वीज मिळते आणि ते जादा वीज इतर राज्यांना विकते, विशेषतः उन्हाळ्यात जेव्हा बर्फ वितळून नद्या फुगतात. जलविद्युत विकासाने नाजूक खोऱ्यांत भूस्खलन, बोगदे खोदणे व नदी परिसंस्थेबाबत चिंताही निर्माण केल्या आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Identified hydro potential and capacity harnessed",
+            "hi": "चिह्नित जलविद्युत क्षमता और उपयोग की गई क्षमता",
+            "mr": "निश्चित जलविद्युत क्षमता व वापरलेली क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA hydro potential assessment / HP Directorate of Energy."
+        }
+      ]
+    }
+  ]
+}

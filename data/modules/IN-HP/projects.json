@@ -1,0 +1,48 @@
+{
+  "region": "IN-HP",
+  "module": "projects",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Atal Tunnel under the Rohtang Pass (2020), AIIMS Bilaspur (2022) and the four-lane Kiratpur–Nerchowk highway (2024) are recent completed projects. Other major works include the Bhanupli–Bilaspur–Beri railway line towards Manali and Leh, four-laning of highways to Shimla and Dharamshala, and several large hydro-electric projects; these will be added as cards once their status is confirmed from official sources. Each card shows its source and the date it was checked.",
+        "hi": "रोहतांग दर्रे के नीचे अटल सुरंग (2020), एम्स बिलासपुर (2022) और चार-लेन कीरतपुर–नेरचौक राजमार्ग (2024) हाल में पूरी हुई परियोजनाएँ हैं। अन्य बड़े कार्यों में मनाली और लेह की ओर भानुपल्ली–बिलासपुर–बेरी रेल लाइन, शिमला और धर्मशाला के राजमार्गों को चार-लेन करना और कई बड़ी जलविद्युत परियोजनाएँ शामिल हैं; आधिकारिक स्रोतों से स्थिति की पुष्टि होने पर इन्हें कार्ड के रूप में जोड़ा जाएगा। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "रोहतांग खिंडीखालील अटल बोगदा (2020), एम्स बिलासपूर (2022) व चौपदरी कीरतपूर–नेरचौक महामार्ग (2024) हे अलीकडे पूर्ण झालेले प्रकल्प आहेत. इतर मोठ्या कामांत मनाली व लेहकडे जाणारी भानुपल्ली–बिलासपूर–बेरी रेल्वे मार्गिका, शिमला व धर्मशालेकडील महामार्गांचे चौपदरीकरण आणि अनेक मोठे जलविद्युत प्रकल्प यांचा समावेश आहे; अधिकृत स्रोतांतून स्थितीची खात्री झाल्यावर त्यांची कार्डे जोडली जातील. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pmindia"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Bhanupli–Bilaspur–Beri rail line — status",
+            "hi": "भानुपल्ली–बिलासपुर–बेरी रेल लाइन — स्थिति",
+            "mr": "भानुपल्ली–बिलासपूर–बेरी रेल्वे मार्गिका — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Ministry of Railways / RVNL."
+        }
+      ]
+    }
+  ]
+}

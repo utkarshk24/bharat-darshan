@@ -1,0 +1,110 @@
+{
+  "region": "IN-HP",
+  "module": "sports",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Himachal's terrain makes it India's adventure-sports playground: skiing at Solang, Narkanda and Kufri, paragliding at Bir Billing, which hosted the Paragliding World Cup in 2015, river rafting on the Beas and Sutlej, mountaineering from Manali's Atal Bihari Vajpayee Institute of Mountaineering, and mountain-bike and trail races through the high valleys. Kabaddi is hugely popular — Ajay Thakur of Bilaspur was a star of India's 2016 Kabaddi World Cup win — and the HPCA cricket stadium at Dharamshala, set against the Dhauladhar, hosts international matches. Charanjit Singh of Una captained India's hockey team to Olympic gold at Tokyo in 1964.",
+        "hi": "हिमाचल का भूभाग इसे भारत का साहसिक खेलों का मैदान बनाता है: सोलंग, नारकंडा और कुफ़री में स्कीइंग, बीड़ बिलिंग में पैराग्लाइडिंग, जहाँ 2015 में पैराग्लाइडिंग विश्व कप हुआ, ब्यास और सतलुज पर रिवर राफ्टिंग, मनाली के अटल बिहारी वाजपेयी पर्वतारोहण संस्थान से पर्वतारोहण, और ऊँची घाटियों में माउंटेन बाइक व ट्रेल दौड़। कबड्डी बहुत लोकप्रिय है — बिलासपुर के अजय ठाकुर 2016 कबड्डी विश्व कप में भारत की जीत के सितारे थे — और धौलाधार की पृष्ठभूमि में धर्मशाला का एचपीसीए क्रिकेट स्टेडियम अंतरराष्ट्रीय मैचों की मेज़बानी करता है। ऊना के चरणजीत सिंह ने 1964 में टोक्यो में भारतीय हॉकी टीम को ओलंपिक स्वर्ण दिलाया।",
+        "mr": "हिमाचलचा भूप्रदेश त्याला भारताचे साहसी खेळांचे मैदान बनवतो: सोलंग, नारकंडा व कुफरीत स्कीइंग, बीड बिलिंग येथे पॅराग्लायडिंग, जिथे 2015 मध्ये पॅराग्लायडिंग विश्वचषक झाला, बियास व सतलजवर रिव्हर राफ्टिंग, मनालीच्या अटल बिहारी वाजपेयी गिर्यारोहण संस्थेतून गिर्यारोहण, आणि उंच खोऱ्यांतून माउंटन बाइक व ट्रेल शर्यती. कबड्डी अतिशय लोकप्रिय आहे — बिलासपूरचा अजय ठाकूर 2016 कबड्डी विश्वचषकातील भारताच्या विजयाचा तारा होता — आणि धौलाधारच्या पार्श्वभूमीवरील धर्मशालेचे एचपीसीए क्रिकेट स्टेडियम आंतरराष्ट्रीय सामने आयोजित करते. ऊनाच्या चरणजीत सिंह यांनी 1964 मध्ये टोकियोत भारतीय हॉकी संघाला ऑलिम्पिक सुवर्ण मिळवून दिले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "hpca",
+          "name": {
+            "en": "HPCA Stadium, Dharamshala",
+            "hi": "एचपीसीए स्टेडियम, धर्मशाला",
+            "mr": "एचपीसीए स्टेडियम, धर्मशाला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "abvimas",
+          "name": {
+            "en": "Atal Bihari Vajpayee Institute of Mountaineering, Manali",
+            "hi": "अटल बिहारी वाजपेयी पर्वतारोहण संस्थान, मनाली",
+            "mr": "अटल बिहारी वाजपेयी गिर्यारोहण संस्था, मनाली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "solang",
+          "name": {
+            "en": "Solang valley (skiing)",
+            "hi": "सोलंग घाटी (स्कीइंग)",
+            "mr": "सोलंग खोरे (स्कीइंग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bir",
+          "name": {
+            "en": "Bir Billing (paragliding)",
+            "hi": "बीड़ बिलिंग (पैराग्लाइडिंग)",
+            "mr": "बीड बिलिंग (पॅराग्लायडिंग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "National and international medallists from Himachal (official list)",
+            "hi": "हिमाचल के राष्ट्रीय और अंतरराष्ट्रीय पदक विजेता (आधिकारिक सूची)",
+            "mr": "हिमाचलचे राष्ट्रीय व आंतरराष्ट्रीय पदकविजेते (अधिकृत यादी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "HP Youth Services and Sports Department."
+        }
+      ]
+    }
+  ]
+}

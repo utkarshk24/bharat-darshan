@@ -1,0 +1,530 @@
+{
+  "region": "IN-JK",
+  "module": "cities",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "srinagar",
+          "name": {
+            "en": "Srinagar",
+            "hi": "श्रीनगर",
+            "mr": "श्रीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Summer capital and largest city, on the Jhelum and the Dal lake.",
+            "hi": "ग्रीष्मकालीन राजधानी और सबसे बड़ा शहर, झेलम और डल झील के किनारे।",
+            "mr": "उन्हाळी राजधानी व सर्वांत मोठे शहर, झेलम व दल सरोवराकाठी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jammu",
+          "name": {
+            "en": "Jammu",
+            "hi": "जम्मू",
+            "mr": "जम्मू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Winter capital; 'city of temples' on the Tawi.",
+            "hi": "शीतकालीन राजधानी; तवी किनारे 'मंदिरों का शहर'।",
+            "mr": "हिवाळी राजधानी; तवीकाठचे 'मंदिरांचे शहर'.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "anantnag",
+          "name": {
+            "en": "Anantnag",
+            "hi": "अनंतनाग",
+            "mr": "अनंतनाग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Main town of south Kashmir; springs and Martand.",
+            "hi": "दक्षिण कश्मीर का मुख्य नगर; झरने और मार्तंड।",
+            "mr": "दक्षिण काश्मीरचे मुख्य शहर; झरे व मार्तंड.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Valley",
+            "hi": "घाटी",
+            "mr": "खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "baramulla",
+          "name": {
+            "en": "Baramulla",
+            "hi": "बारामूला",
+            "mr": "बारामुल्ला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Gateway of the Jhelum's exit from the valley.",
+            "hi": "घाटी से झेलम के निकास का द्वार।",
+            "mr": "खोऱ्यातून झेलम बाहेर पडते ते प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Valley",
+            "hi": "घाटी",
+            "mr": "खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sopore",
+          "name": {
+            "en": "Sopore",
+            "hi": "सोपोर",
+            "mr": "सोपोर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "One of Asia's largest fruit markets.",
+            "hi": "एशिया की सबसे बड़ी फल मंडियों में से एक।",
+            "mr": "आशियातील सर्वांत मोठ्या फळबाजारांपैकी एक.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Horticulture",
+            "hi": "बाग़वानी",
+            "mr": "फलोत्पादन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kathua",
+          "name": {
+            "en": "Kathua",
+            "hi": "कठुआ",
+            "mr": "कठुआ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Industrial town on the Punjab border.",
+            "hi": "पंजाब सीमा पर औद्योगिक नगर।",
+            "mr": "पंजाब सीमेवरील औद्योगिक शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "udhampur",
+          "name": {
+            "en": "Udhampur",
+            "hi": "उधमपुर",
+            "mr": "उधमपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Army Northern Command headquarters; kaladi cheese.",
+            "hi": "सेना की उत्तरी कमान का मुख्यालय; कलाड़ी।",
+            "mr": "लष्कराच्या उत्तर कमांडचे मुख्यालय; कलाडी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Defence",
+            "hi": "रक्षा",
+            "mr": "संरक्षण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "anantnag",
+          "name": {
+            "en": "Anantnag",
+            "hi": "अनंतनाग",
+            "mr": "अनंतनाग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bandipora",
+          "name": {
+            "en": "Bandipora",
+            "hi": "बांदीपोरा",
+            "mr": "बांदीपोरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "baramulla",
+          "name": {
+            "en": "Baramulla",
+            "hi": "बारामूला",
+            "mr": "बारामुल्ला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "budgam",
+          "name": {
+            "en": "Budgam",
+            "hi": "बडगाम",
+            "mr": "बडगाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "doda",
+          "name": {
+            "en": "Doda",
+            "hi": "डोडा",
+            "mr": "डोडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ganderbal",
+          "name": {
+            "en": "Ganderbal",
+            "hi": "गांदरबल",
+            "mr": "गांदरबल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jammu",
+          "name": {
+            "en": "Jammu",
+            "hi": "जम्मू",
+            "mr": "जम्मू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kathua",
+          "name": {
+            "en": "Kathua",
+            "hi": "कठुआ",
+            "mr": "कठुआ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kishtwar",
+          "name": {
+            "en": "Kishtwar",
+            "hi": "किश्तवाड़",
+            "mr": "किश्तवाड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kulgam",
+          "name": {
+            "en": "Kulgam",
+            "hi": "कुलगाम",
+            "mr": "कुलगाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kupwara",
+          "name": {
+            "en": "Kupwara",
+            "hi": "कुपवाड़ा",
+            "mr": "कुपवाडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "poonch",
+          "name": {
+            "en": "Poonch",
+            "hi": "पुंछ",
+            "mr": "पुंछ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pulwama",
+          "name": {
+            "en": "Pulwama",
+            "hi": "पुलवामा",
+            "mr": "पुलवामा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rajouri",
+          "name": {
+            "en": "Rajouri",
+            "hi": "राजौरी",
+            "mr": "राजौरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ramban",
+          "name": {
+            "en": "Ramban",
+            "hi": "रामबन",
+            "mr": "रामबन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "reasi",
+          "name": {
+            "en": "Reasi",
+            "hi": "रियासी",
+            "mr": "रियासी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "samba",
+          "name": {
+            "en": "Samba",
+            "hi": "सांबा",
+            "mr": "सांबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shopian",
+          "name": {
+            "en": "Shopian",
+            "hi": "शोपियाँ",
+            "mr": "शोपियां",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "srinagar",
+          "name": {
+            "en": "Srinagar",
+            "hi": "श्रीनगर",
+            "mr": "श्रीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "udhampur",
+          "name": {
+            "en": "Udhampur",
+            "hi": "उधमपुर",
+            "mr": "उधमपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 20 districts (alphabetical)",
+        "hi": "20 ज़िले (वर्णानुक्रम)",
+        "mr": "20 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official district list",
+            "hi": "आधिकारिक ज़िला सूची",
+            "mr": "अधिकृत जिल्हा यादी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "jk-des",
+          "note": "J&K DES gives 20 districts, 207 tehsils and 285 blocks."
+        },
+        {
+          "label": {
+            "en": "City populations (Census 2011)",
+            "hi": "शहरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban agglomeration tables."
+        }
+      ]
+    }
+  ]
+}

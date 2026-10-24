@@ -1,0 +1,117 @@
+{
+  "region": "IN-JK",
+  "module": "transport",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Srinagar's Sheikh ul-Alam International Airport and Jammu airport are the main airports, both civil enclaves at Indian Air Force stations. National Highway 44 crosses the Pir Panjal from Jammu to Srinagar through the Chenani–Nashri and Navyug tunnels, and the Mughal Road links Poonch and Rajouri with Shopian when it is free of snow. Since 2025 trains run from Jammu and Katra across the Chenab bridge and through the Pir Panjal to Srinagar and Baramulla. In Srinagar, shikaras still ferry people across the Dal and Nigeen lakes.",
+        "hi": "श्रीनगर का शेख़ उल-आलम अंतरराष्ट्रीय हवाई अड्डा और जम्मू हवाई अड्डा मुख्य हवाई अड्डे हैं, दोनों भारतीय वायु सेना के स्टेशनों पर नागरिक परिसर हैं। राष्ट्रीय राजमार्ग 44 चेनानी–नाशरी और नवयुग सुरंगों से होकर जम्मू से श्रीनगर तक पीर पंजाल पार करता है, और मुग़ल रोड बर्फ़ न होने पर पुंछ और राजौरी को शोपियाँ से जोड़ता है। 2025 से रेलगाड़ियाँ जम्मू और कटरा से चिनाब पुल पार कर और पीर पंजाल से होकर श्रीनगर और बारामूला तक चलती हैं। श्रीनगर में शिकारे आज भी लोगों को डल और निगीन झीलों के पार ले जाते हैं।",
+        "mr": "श्रीनगरचे शेख उल-आलम आंतरराष्ट्रीय विमानतळ व जम्मू विमानतळ हे मुख्य विमानतळ आहेत, दोन्ही भारतीय हवाई दलाच्या तळांवरील नागरी विभाग. राष्ट्रीय महामार्ग 44 चेनानी–नाशरी व नवयुग बोगद्यांमधून जम्मूहून श्रीनगरपर्यंत पीर पंजाल ओलांडतो, आणि मुघल रोड बर्फ नसताना पुंछ व राजौरीला शोपियांशी जोडतो. 2025 पासून रेल्वेगाड्या जम्मू व कटराहून चिनाब पूल ओलांडून व पीर पंजालमधून श्रीनगर व बारामुल्लापर्यंत धावतात. श्रीनगरमध्ये शिकारे आजही लोकांना दल व निगीन सरोवरांपलीकडे नेतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "sxr",
+          "name": {
+            "en": "Sheikh ul-Alam International Airport, Srinagar",
+            "hi": "शेख़ उल-आलम अंतरराष्ट्रीय हवाई अड्डा, श्रीनगर",
+            "mr": "शेख उल-आलम आंतरराष्ट्रीय विमानतळ, श्रीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "SXR",
+            "hi": "SXR",
+            "mr": "SXR",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ixj",
+          "name": {
+            "en": "Jammu Airport",
+            "hi": "जम्मू हवाई अड्डा",
+            "mr": "जम्मू विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "IXJ",
+            "hi": "IXJ",
+            "mr": "IXJ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Airport passenger traffic",
+            "hi": "हवाई अड्डा यात्री यातायात",
+            "mr": "विमानतळ प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

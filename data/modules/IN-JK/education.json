@@ -1,0 +1,412 @@
+{
+  "region": "IN-JK",
+  "module": "education",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Literacy in the area of the present UT was 67.0% at the 2011 Census. The higher-education gross enrolment ratio (ages 18–23) was 24.8% in 2021-22 in AISHE, below the national 28.4%; women's GER (27.2%) was higher than men's (22.6%). AISHE reported 16 universities and 341 colleges in the UT. Years before 2019-20 relate to the former State, which included Ladakh.\n\nThe University of Kashmir (1948) and the University of Jammu (1969) are the oldest universities, joined by the Central Universities of Kashmir and Jammu, the Islamic University of Science and Technology at Awantipora, Shri Mata Vaishno Devi University at Katra and the agricultural universities (SKUAST) of Kashmir and Jammu. National institutions include IIT Jammu, IIM Jammu, NIT Srinagar and AIIMS Jammu, and the Sher-i-Kashmir Institute of Medical Sciences (SKIMS) at Soura is the main medical institute of the valley.",
+        "hi": "2011 की जनगणना में वर्तमान केंद्र शासित प्रदेश के क्षेत्र में साक्षरता 67.0% थी। एआईएसएचई के अनुसार 2021-22 में उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 24.8% था, जो राष्ट्रीय 28.4% से कम है; महिलाओं का जीईआर (27.2%) पुरुषों (22.6%) से अधिक था। एआईएसएचई ने केंद्र शासित प्रदेश में 16 विश्वविद्यालय और 341 कॉलेज बताए। 2019-20 से पहले के वर्ष पूर्ववर्ती राज्य के हैं, जिसमें लद्दाख शामिल था।\n\nकश्मीर विश्वविद्यालय (1948) और जम्मू विश्वविद्यालय (1969) सबसे पुराने विश्वविद्यालय हैं, जिनके साथ कश्मीर और जम्मू के केंद्रीय विश्वविद्यालय, अवंतीपोरा का इस्लामिक यूनिवर्सिटी ऑफ़ साइंस एंड टेक्नोलॉजी, कटरा का श्री माता वैष्णो देवी विश्वविद्यालय और कश्मीर व जम्मू के कृषि विश्वविद्यालय (स्कास्ट) हैं। राष्ट्रीय संस्थानों में आईआईटी जम्मू, आईआईएम जम्मू, एनआईटी श्रीनगर और एम्स जम्मू शामिल हैं, और सौरा का शेर-ए-कश्मीर आयुर्विज्ञान संस्थान (स्किम्स) घाटी का मुख्य चिकित्सा संस्थान है।",
+        "mr": "2011 च्या जनगणनेत सध्याच्या केंद्रशासित प्रदेशाच्या क्षेत्रात साक्षरता 67.0% होती. एआयएसएचईनुसार 2021-22 मध्ये उच्चशिक्षण एकूण नोंदणी गुणोत्तर (18–23 वय) 24.8% होते, राष्ट्रीय 28.4% पेक्षा कमी; स्त्रियांचे जीईआर (27.2%) पुरुषांपेक्षा (22.6%) अधिक होते. एआयएसएचईने केंद्रशासित प्रदेशात 16 विद्यापीठे व 341 महाविद्यालये नोंदवली. 2019-20 पूर्वीची वर्षे पूर्वीच्या राज्याची आहेत, ज्यात लडाखचा समावेश होता.\n\nकाश्मीर विद्यापीठ (1948) व जम्मू विद्यापीठ (1969) ही सर्वांत जुनी विद्यापीठे आहेत, सोबत काश्मीर व जम्मूची केंद्रीय विद्यापीठे, अवंतीपोराचे इस्लामिक युनिव्हर्सिटी ऑफ सायन्स अँड टेक्नॉलॉजी, कटराचे श्री माता वैष्णोदेवी विद्यापीठ आणि काश्मीर व जम्मूची कृषी विद्यापीठे (स्कास्ट). राष्ट्रीय संस्थांत आयआयटी जम्मू, आयआयएम जम्मू, एनआयटी श्रीनगर व एम्स जम्मू यांचा समावेश आहे, आणि सौराचे शेर-ए-काश्मीर आयुर्विज्ञान संस्थान (स्किम्स) ही खोऱ्यातील मुख्य वैद्यकीय संस्था आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "jk-des"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 24.8,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 25.02,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 16,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 341,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "jk",
+          "label": {
+            "en": "Jammu and Kashmir",
+            "hi": "जम्मू और कश्मीर",
+            "mr": "जम्मू व काश्मीर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 23.41,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 25.36,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 25.12,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 25.02,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 24.8,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ku",
+          "name": {
+            "en": "University of Kashmir",
+            "hi": "कश्मीर विश्वविद्यालय",
+            "mr": "काश्मीर विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Srinagar, 1948",
+            "hi": "श्रीनगर, 1948",
+            "mr": "श्रीनगर, 1948",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ju",
+          "name": {
+            "en": "University of Jammu",
+            "hi": "जम्मू विश्वविद्यालय",
+            "mr": "जम्मू विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jammu, 1969",
+            "hi": "जम्मू, 1969",
+            "mr": "जम्मू, 1969",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iitj",
+          "name": {
+            "en": "IIT Jammu",
+            "hi": "आईआईटी जम्मू",
+            "mr": "आयआयटी जम्मू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jagti, Jammu",
+            "hi": "जगती, जम्मू",
+            "mr": "जगती, जम्मू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iimj",
+          "name": {
+            "en": "IIM Jammu",
+            "hi": "आईआईएम जम्मू",
+            "mr": "आयआयएम जम्मू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Jammu",
+            "hi": "जम्मू",
+            "mr": "जम्मू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nits",
+          "name": {
+            "en": "NIT Srinagar",
+            "hi": "एनआईटी श्रीनगर",
+            "mr": "एनआयटी श्रीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hazratbal, Srinagar",
+            "hi": "हज़रतबल, श्रीनगर",
+            "mr": "हजरतबल, श्रीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "aiimsj",
+          "name": {
+            "en": "AIIMS Jammu",
+            "hi": "एम्स जम्मू",
+            "mr": "एम्स जम्मू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Vijaypur, Samba",
+            "hi": "विजयपुर, सांबा",
+            "mr": "विजयपूर, सांबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "skims",
+          "name": {
+            "en": "SKIMS",
+            "hi": "स्किम्स",
+            "mr": "स्किम्स",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Soura, Srinagar",
+            "hi": "सौरा, श्रीनगर",
+            "mr": "सौरा, श्रीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        }
+      ]
+    }
+  ]
+}

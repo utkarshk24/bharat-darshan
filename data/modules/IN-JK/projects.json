@@ -1,0 +1,61 @@
+{
+  "region": "IN-JK",
+  "module": "projects",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Udhampur–Srinagar–Baramulla Rail Link, with the Chenab and Anji Khad bridges, was dedicated to the nation in June 2025, giving the Kashmir valley an all-weather rail connection to the rest of India. Other large works include the Zojila and Z-Morh tunnels towards Ladakh, AIIMS Awantipora, and hydro-electric projects on the Chenab such as Pakal Dul, Kiru and Ratle; these will be added as cards once their status is confirmed from official sources. Each card shows its source and the date it was checked.",
+        "hi": "चिनाब और अंजी खड्ड पुलों सहित उधमपुर–श्रीनगर–बारामूला रेल लिंक जून 2025 में राष्ट्र को समर्पित हुआ, जिससे कश्मीर घाटी को शेष भारत से हर मौसम में रेल संपर्क मिला। अन्य बड़े कार्यों में लद्दाख की ओर ज़ोजिला और ज़ेड-मोड़ सुरंगें, एम्स अवंतीपोरा, और चिनाब पर पाकल दुल, किरु और रतले जैसी जलविद्युत परियोजनाएँ शामिल हैं; आधिकारिक स्रोतों से स्थिति की पुष्टि होने पर इन्हें कार्ड के रूप में जोड़ा जाएगा। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "चिनाब व अंजी खड्ड पुलांसह उधमपूर–श्रीनगर–बारामुल्ला रेल्वे मार्ग जून 2025 मध्ये राष्ट्राला समर्पित झाला, ज्यामुळे काश्मीर खोऱ्याला उर्वरित भारताशी सर्व हवामानातील रेल्वे जोडणी मिळाली. इतर मोठ्या कामांत लडाखकडे जाणारे झोजिला व झेड-मोड बोगदे, एम्स अवंतीपोरा आणि चिनाबवरील पाकल दुल, किरू व रतले यांसारखे जलविद्युत प्रकल्प यांचा समावेश आहे; अधिकृत स्रोतांतून स्थितीची खात्री झाल्यावर त्यांची कार्डे जोडली जातील. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "USBRL length and Chenab bridge height — official figures",
+            "hi": "यूएसबीआरएल की लंबाई और चिनाब पुल की ऊँचाई — आधिकारिक आँकड़े",
+            "mr": "यूएसबीआरएलची लांबी व चिनाब पुलाची उंची — अधिकृत आकडे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Northern Railway / PIB."
+        },
+        {
+          "label": {
+            "en": "Zojila tunnel — status",
+            "hi": "ज़ोजिला सुरंग — स्थिति",
+            "mr": "झोजिला बोगदा — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "nhai",
+          "note": "NHIDCL project status."
+        }
+      ]
+    }
+  ]
+}

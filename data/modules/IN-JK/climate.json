@@ -1,0 +1,204 @@
+{
+  "region": "IN-JK",
+  "module": "climate",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Kashmir valley has four distinct seasons: a warm summer (June–August), a crisp, golden autumn, a cold winter with snow and sub-zero nights — the 40 days of harshest cold from late December are called chillai kalan — and a spring of almond and fruit blossom. Most of its precipitation comes from western disturbances in winter and spring rather than the monsoon. The Jammu plains, by contrast, have hot summers with temperatures well above 40 °C, a monsoon from July to September and mild winters, while the high ranges are snowbound for months.",
+        "hi": "कश्मीर घाटी में चार स्पष्ट ऋतुएँ होती हैं: गर्म गर्मी (जून–अगस्त), खिली हुई सुनहरी शरद ऋतु, बर्फ़ और शून्य से नीचे की रातों वाली ठंडी सर्दी — दिसंबर के अंत से सबसे कड़ी ठंड के 40 दिनों को चिल्लई कलाँ कहा जाता है — और बादाम व फलों के फूलों वाला वसंत। इसकी अधिकांश वर्षा मानसून के बजाय सर्दियों और वसंत में पश्चिमी विक्षोभों से होती है। इसके विपरीत जम्मू के मैदानों में गर्मियाँ गर्म होती हैं, तापमान 40 °C से काफ़ी ऊपर, जुलाई से सितंबर तक मानसून और सर्दियाँ हल्की, जबकि ऊँची श्रेणियाँ महीनों बर्फ़ से ढकी रहती हैं।",
+        "mr": "काश्मीर खोऱ्यात चार स्पष्ट ऋतू असतात: उबदार उन्हाळा (जून–ऑगस्ट), प्रसन्न सोनेरी शरद, बर्फ व शून्याखालील रात्रींचा थंड हिवाळा — डिसेंबरच्या अखेरीपासूनच्या सर्वांत कडक थंडीच्या 40 दिवसांना चिल्लई कलां म्हणतात — आणि बदाम व फळांच्या बहराचा वसंत. त्याचा बहुतेक पाऊस मान्सूनऐवजी हिवाळा व वसंतातील पश्चिमी विक्षोभांमुळे पडतो. याउलट जम्मूच्या मैदानांत उन्हाळा उष्ण असतो, तापमान 40 °C च्या बरेच वर, जुलै ते सप्टेंबर मान्सून व हिवाळा सौम्य, तर उंच रांगा महिनोन्महिने बर्फाखाली असतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Srinagar",
+            "hi": "श्रीनगर",
+            "mr": "श्रीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 34.0837,
+          "lon": 74.7973
+        },
+        {
+          "name": {
+            "en": "Jammu",
+            "hi": "जम्मू",
+            "mr": "जम्मू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 32.7266,
+          "lon": 74.857
+        },
+        {
+          "name": {
+            "en": "Gulmarg",
+            "hi": "गुलमर्ग",
+            "mr": "गुलमर्ग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 34.0484,
+          "lon": 74.3805
+        },
+        {
+          "name": {
+            "en": "Pahalgam",
+            "hi": "पहलगाम",
+            "mr": "पहलगाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 34.0161,
+          "lon": 75.315
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "spring",
+          "name": {
+            "en": "March to May",
+            "hi": "मार्च से मई",
+            "mr": "मार्च ते मे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Tulip garden and fruit blossom in the valley.",
+            "hi": "घाटी में ट्यूलिप उद्यान और फलों के फूल।",
+            "mr": "खोऱ्यात ट्युलिप उद्यान व फळांचा बहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "June to August",
+            "hi": "जून से अगस्त",
+            "mr": "जून ते ऑगस्ट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Meadows of Sonamarg and Pahalgam; Amarnath Yatra.",
+            "hi": "सोनमर्ग और पहलगाम के घास के मैदान; अमरनाथ यात्रा।",
+            "mr": "सोनमर्ग व पहलगामची कुरणे; अमरनाथ यात्रा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "autumn",
+          "name": {
+            "en": "September to November",
+            "hi": "सितंबर से नवंबर",
+            "mr": "सप्टेंबर ते नोव्हेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Red chinars and the saffron harvest.",
+            "hi": "लाल चिनार और केसर की फ़सल।",
+            "mr": "लाल चिनार व केशराची काढणी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "winter",
+          "name": {
+            "en": "December to March",
+            "hi": "दिसंबर से मार्च",
+            "mr": "डिसेंबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Skiing at Gulmarg; Jammu is mild and best for temples.",
+            "hi": "गुलमर्ग में स्कीइंग; जम्मू सुहावना और मंदिरों के लिए सबसे अच्छा।",
+            "mr": "गुलमर्गमध्ये स्कीइंग; जम्मू सौम्य व मंदिरांसाठी उत्तम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual precipitation, Srinagar and Jammu",
+            "hi": "सामान्य वार्षिक वर्षा, श्रीनगर और जम्मू",
+            "mr": "सरासरी वार्षिक पर्जन्य, श्रीनगर व जम्मू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD Srinagar meteorological centre."
+        }
+      ]
+    }
+  ]
+}

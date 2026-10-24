@@ -1,0 +1,326 @@
+{
+  "region": "IN-JK",
+  "module": "tourism",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Srinagar is the heart of Kashmir tourism: houseboats and shikara rides on the Dal and Nigeen lakes, the Mughal gardens of Shalimar, Nishat and Chashme Shahi, the Hazratbal shrine, the Shankaracharya temple and the old city's wooden mosques and bazaars, and Asia's largest tulip garden in spring. Gulmarg has a gondola and India's best-known ski slopes; Pahalgam and Sonamarg are bases for treks and for the Amarnath Yatra; and Doodhpathri, Yusmarg and Gurez are quieter valleys. In the Jammu division, Katra is the base for the Vaishno Devi shrine, and Jammu city, Patnitop, Bhaderwah and the Mansar and Surinsar lakes are popular.",
+        "hi": "श्रीनगर कश्मीर पर्यटन का हृदय है: डल और निगीन झीलों पर हाउसबोट और शिकारा सवारी, शालीमार, निशात और चश्मे शाही के मुग़ल बाग़, हज़रतबल दरगाह, शंकराचार्य मंदिर और पुराने शहर की लकड़ी की मस्जिदें व बाज़ार, और वसंत में एशिया का सबसे बड़ा ट्यूलिप उद्यान। गुलमर्ग में गोंडोला और भारत की सबसे प्रसिद्ध स्की ढलानें हैं; पहलगाम और सोनमर्ग ट्रेक और अमरनाथ यात्रा के आधार हैं; और दूधपथरी, यूसमर्ग और गुरेज़ शांत घाटियाँ हैं। जम्मू संभाग में कटरा वैष्णो देवी धाम का आधार है, और जम्मू शहर, पटनीटॉप, भद्रवाह और मानसर व सुरिनसर झीलें लोकप्रिय हैं।",
+        "mr": "श्रीनगर हे काश्मीर पर्यटनाचे हृदय आहे: दल व निगीन सरोवरांवर हाउसबोट व शिकारा सफर, शालिमार, निशात व चश्मे शाहीच्या मुघल बागा, हजरतबल दर्गा, शंकराचार्य मंदिर आणि जुन्या शहरातील लाकडी मशिदी व बाजार, आणि वसंतात आशियातील सर्वांत मोठे ट्युलिप उद्यान. गुलमर्गमध्ये गोंडोला व भारतातील सर्वांत प्रसिद्ध स्की उतार आहेत; पहलगाम व सोनमर्ग हे ट्रेक व अमरनाथ यात्रेचे तळ आहेत; आणि दूधपथरी, यूसमर्ग व गुरेझ ही शांत खोरी आहेत. जम्मू विभागात कटरा हे वैष्णोदेवी धामाचे तळ आहे, आणि जम्मू शहर, पटनीटॉप, भद्रवाह व मानसर आणि सुरिनसर सरोवरे लोकप्रिय आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "srinagar",
+          "name": {
+            "en": "Srinagar",
+            "hi": "श्रीनगर",
+            "mr": "श्रीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Dal lake; Mughal gardens",
+            "hi": "डल झील; मुग़ल बाग़",
+            "mr": "दल सरोवर; मुघल बागा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gulmarg",
+          "name": {
+            "en": "Gulmarg",
+            "hi": "गुलमर्ग",
+            "mr": "गुलमर्ग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Gondola; skiing",
+            "hi": "गोंडोला; स्कीइंग",
+            "mr": "गोंडोला; स्कीइंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pahalgam",
+          "name": {
+            "en": "Pahalgam",
+            "hi": "पहलगाम",
+            "mr": "पहलगाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Lidder valley",
+            "hi": "लिद्दर घाटी",
+            "mr": "लिद्दर खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sonamarg",
+          "name": {
+            "en": "Sonamarg",
+            "hi": "सोनमर्ग",
+            "mr": "सोनमर्ग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Thajiwas glacier",
+            "hi": "थाजीवास हिमनद",
+            "mr": "थाजीवास हिमनदी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vaishno",
+          "name": {
+            "en": "Vaishno Devi, Katra",
+            "hi": "वैष्णो देवी, कटरा",
+            "mr": "वैष्णोदेवी, कटरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Pilgrimage",
+            "hi": "तीर्थयात्रा",
+            "mr": "तीर्थयात्रा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "patnitop",
+          "name": {
+            "en": "Patnitop",
+            "hi": "पटनीटॉप",
+            "mr": "पटनीटॉप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hill resort",
+            "hi": "पर्वतीय स्थल",
+            "mr": "थंड हवेचे ठिकाण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gurez",
+          "name": {
+            "en": "Gurez",
+            "hi": "गुरेज़",
+            "mr": "गुरेझ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Remote valley near the LoC",
+            "hi": "नियंत्रण रेखा के पास दूरस्थ घाटी",
+            "mr": "नियंत्रण रेषेजवळील दुर्गम खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Srinagar: a night on a houseboat, Mughal gardens and the old city.",
+            "hi": "श्रीनगर: हाउसबोट पर एक रात, मुग़ल बाग़ और पुराना शहर।",
+            "mr": "श्रीनगर: हाउसबोटवर एक रात्र, मुघल बागा व जुने शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d6",
+          "name": {
+            "en": "6 days",
+            "hi": "6 दिन",
+            "mr": "6 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Srinagar, Gulmarg, Pahalgam and Sonamarg.",
+            "hi": "श्रीनगर, गुलमर्ग, पहलगाम और सोनमर्ग।",
+            "mr": "श्रीनगर, गुलमर्ग, पहलगाम व सोनमर्ग.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d4j",
+          "name": {
+            "en": "4 days",
+            "hi": "4 दिन",
+            "mr": "4 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Jammu, Vaishno Devi from Katra and Patnitop.",
+            "hi": "जम्मू, कटरा से वैष्णो देवी और पटनीटॉप।",
+            "mr": "जम्मू, कटराहून वैष्णोदेवी व पटनीटॉप.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "jkt",
+          "name": {
+            "en": "J&K Tourism (official)",
+            "hi": "जम्मू-कश्मीर पर्यटन (आधिकारिक)",
+            "mr": "जम्मू-काश्मीर पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://jktourism.jk.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tourist and pilgrim arrivals by year",
+            "hi": "वर्षवार पर्यटक और तीर्थयात्री आगमन",
+            "mr": "वर्षनिहाय पर्यटक व यात्रेकरू आगमन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "J&K Tourism Department; Shri Mata Vaishno Devi Shrine Board."
+        }
+      ]
+    }
+  ]
+}

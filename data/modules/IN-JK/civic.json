@@ -1,0 +1,198 @@
+{
+  "region": "IN-JK",
+  "module": "civic",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Jammu and Kashmir portal",
+            "hi": "जम्मू और कश्मीर सरकार पोर्टल",
+            "mr": "जम्मू व काश्मीर शासन संकेतस्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://jk.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "des",
+          "name": {
+            "en": "Directorate of Economics and Statistics, J&K",
+            "hi": "अर्थशास्त्र एवं सांख्यिकी निदेशालय, जम्मू-कश्मीर",
+            "mr": "अर्थशास्त्र व सांख्यिकी संचालनालय, जम्मू-काश्मीर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ecostatjk.nic.in",
+          "sourceId": "jk-des"
+        },
+        {
+          "id": "rti",
+          "name": {
+            "en": "RTI Online (Government of India)",
+            "hi": "आरटीआई ऑनलाइन (भारत सरकार)",
+            "mr": "माहितीचा अधिकार ऑनलाइन (भारत सरकार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rtionline.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "consumer",
+          "name": {
+            "en": "National Consumer Helpline",
+            "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन",
+            "mr": "राष्ट्रीय ग्राहक हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://consumerhelpline.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official websites",
+        "hi": "आधिकारिक वेबसाइटें",
+        "mr": "अधिकृत संकेतस्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "std",
+      "title": {
+        "en": "STD codes of major cities",
+        "hi": "प्रमुख शहरों के एसटीडी कोड",
+        "mr": "प्रमुख शहरांचे एसटीडी कोड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "City",
+            "hi": "शहर",
+            "mr": "शहर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Code",
+            "hi": "कोड",
+            "mr": "कोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Srinagar",
+            "hi": "श्रीनगर",
+            "mr": "श्रीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0194"
+        ],
+        [
+          {
+            "en": "Jammu",
+            "hi": "जम्मू",
+            "mr": "जम्मू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0191"
+        ],
+        [
+          {
+            "en": "Anantnag",
+            "hi": "अनंतनाग",
+            "mr": "अनंतनाग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "01932"
+        ],
+        [
+          {
+            "en": "Baramulla",
+            "hi": "बारामूला",
+            "mr": "बारामुल्ला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "01952"
+        ],
+        [
+          {
+            "en": "Udhampur",
+            "hi": "उधमपुर",
+            "mr": "उधमपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "01992"
+        ]
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "note": {
+        "en": "Editorial list; to be checked against the Department of Telecommunications numbering plan.",
+        "hi": "संपादकीय सूची; दूरसंचार विभाग की नंबरिंग योजना से जाँची जाएगी।",
+        "mr": "संपादकीय यादी; दूरसंचार विभागाच्या क्रमांक योजनेशी पडताळली जाईल.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

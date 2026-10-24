@@ -1,0 +1,500 @@
+{
+  "region": "IN-JK",
+  "module": "people",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The area of the present Union Territory had 1.23 crore people at the 2011 Census, according to the J&K Directorate of Economics and Statistics, with about 290 people per km² and 27.5% living in towns. The sex ratio was 892 women per 1,000 men and the child sex ratio 860 — among the lowest in India. Literacy was 67.0%, higher in the Jammu division (72.0%) than in the Kashmir division (63.0%). Scheduled Castes made up 7.5% of the population, almost all in the Jammu division, and Scheduled Tribes 10.4% — mainly Gujjars and Bakarwals, with Gaddis and Sippis; Paharis were added to the Scheduled Tribes list in 2024.\n\nKashmiri is the main language of the valley, and Dogri of the Jammu plains and hills; Gojri, Pahari, Punjabi and other languages are spoken in the hill districts, and Urdu, Hindi and English are widely used in schools and offices.",
+        "hi": "जम्मू-कश्मीर अर्थशास्त्र एवं सांख्यिकी निदेशालय के अनुसार 2011 की जनगणना में वर्तमान केंद्र शासित प्रदेश के क्षेत्र की जनसंख्या 1.23 करोड़ थी, प्रति वर्ग किमी लगभग 290 लोग, और 27.5% लोग नगरों में रहते थे। लिंगानुपात प्रति 1,000 पुरुषों पर 892 महिलाएँ और शिशु लिंगानुपात 860 था — भारत में सबसे कम में। साक्षरता 67.0% थी, जो कश्मीर संभाग (63.0%) की तुलना में जम्मू संभाग (72.0%) में अधिक थी। अनुसूचित जातियाँ जनसंख्या का 7.5% थीं, लगभग सभी जम्मू संभाग में, और अनुसूचित जनजातियाँ 10.4% — मुख्यतः गुज्जर और बकरवाल, साथ में गद्दी और सिप्पी; 2024 में पहाड़ियों को अनुसूचित जनजातियों की सूची में जोड़ा गया।\n\nकश्मीरी घाटी की मुख्य भाषा है और डोगरी जम्मू के मैदानों और पहाड़ियों की; पहाड़ी ज़िलों में गोजरी, पहाड़ी, पंजाबी और अन्य भाषाएँ बोली जाती हैं, और विद्यालयों व कार्यालयों में उर्दू, हिंदी और अंग्रेज़ी का व्यापक उपयोग होता है।",
+        "mr": "जम्मू-काश्मीर अर्थशास्त्र व सांख्यिकी संचालनालयानुसार 2011 च्या जनगणनेत सध्याच्या केंद्रशासित प्रदेशाच्या क्षेत्राची लोकसंख्या 1.23 कोटी होती, प्रति चौ.किमी सुमारे 290 लोक, आणि 27.5% लोक शहरांत राहत होते. दर 1,000 पुरुषांमागे 892 स्त्रिया होत्या व बाल लिंग गुणोत्तर 860 होते — भारतातील सर्वांत कमींपैकी. साक्षरता 67.0% होती, काश्मीर विभागापेक्षा (63.0%) जम्मू विभागात (72.0%) अधिक. अनुसूचित जाती लोकसंख्येच्या 7.5% होत्या, जवळपास सर्व जम्मू विभागात, आणि अनुसूचित जमाती 10.4% — मुख्यतः गुज्जर व बकरवाल, सोबत गद्दी व सिप्पी; 2024 मध्ये पहाडींना अनुसूचित जमातींच्या यादीत समाविष्ट करण्यात आले.\n\nकाश्मिरी ही खोऱ्याची मुख्य भाषा आहे आणि डोगरी जम्मूच्या मैदानांची व डोंगरांची; डोंगरी जिल्ह्यांत गोजरी, पहाडी, पंजाबी व इतर भाषा बोलल्या जातात, आणि शाळा-कार्यालयांत उर्दू, हिंदी व इंग्रजीचा मोठा वापर होतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "jk-des"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011, present UT)",
+            "hi": "जनसंख्या (जनगणना 2011, वर्तमान केंद्र शासित प्रदेश)",
+            "mr": "लोकसंख्या (जनगणना 2011, सध्याचा केंद्रशासित प्रदेश)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 12267013,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "jk-des",
+            "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil). Males 64,83,906; females 57,83,107. The former State, including Ladakh, had 1,25,41,302 people."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 892,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "jk-des",
+            "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil). The former State's figure was 889."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 860,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "jk-des",
+            "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil). The former State's figure was 862 (941 in 2001)."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 67.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "jk-des",
+            "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil). Jammu division 71.98%, Kashmir division 62.98%."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "urb",
+          "label": {
+            "en": "Urban population share",
+            "hi": "शहरी जनसंख्या का हिस्सा",
+            "mr": "नागरी लोकसंख्येचा वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 27.48,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "jk-des",
+            "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil). Urban population 33,71,233; rural 88,95,780."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 290.41,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "jk-des",
+            "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil)."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "sc",
+          "label": {
+            "en": "Scheduled Castes, share of population",
+            "hi": "अनुसूचित जातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 7.54,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "jk-des",
+            "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "J&K DES, UT at a Glance 2024-25: 9,24,485 people."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        },
+        {
+          "id": "st",
+          "label": {
+            "en": "Scheduled Tribes, share of population",
+            "hi": "अनुसूचित जनजातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जमाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 10.39,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "jk-des",
+            "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "J&K DES, UT at a Glance 2024-25: 12,75,106 people (Census 2011 list, before the 2024 additions)."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance (present UT)",
+        "hi": "जनगणना 2011 एक नज़र में (वर्तमान केंद्र शासित प्रदेश)",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात (सध्याचा केंद्रशासित प्रदेश)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "langs",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ks",
+          "name": {
+            "en": "Kashmiri",
+            "hi": "कश्मीरी",
+            "mr": "काश्मिरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official language",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "doi",
+          "name": {
+            "en": "Dogri",
+            "hi": "डोगरी",
+            "mr": "डोगरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official language",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ur",
+          "name": {
+            "en": "Urdu",
+            "hi": "उर्दू",
+            "mr": "उर्दू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official language",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hi",
+          "name": {
+            "en": "Hindi",
+            "hi": "हिंदी",
+            "mr": "हिंदी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official language",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "en",
+          "name": {
+            "en": "English",
+            "hi": "अंग्रेज़ी",
+            "mr": "इंग्रजी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official language",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gojri",
+          "name": {
+            "en": "Gojri",
+            "hi": "गोजरी",
+            "mr": "गोजरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pahari",
+          "name": {
+            "en": "Pahari",
+            "hi": "पहाड़ी",
+            "mr": "पहाडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Languages",
+        "hi": "भाषाएँ",
+        "mr": "भाषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Paharis and other communities added to the ST list in 2024 — official notification",
+            "hi": "2024 में अनुसूचित जनजाति सूची में जोड़े गए पहाड़ी और अन्य समुदाय — आधिकारिक अधिसूचना",
+            "mr": "2024 मध्ये अनुसूचित जमाती यादीत जोडलेले पहाडी व इतर समुदाय — अधिकृत अधिसूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tribal-affairs",
+          "note": "Constitution (Jammu and Kashmir) Scheduled Tribes Order (Amendment) Act, 2024."
+        },
+        {
+          "label": {
+            "en": "Religion shares (Census 2011, C-01)",
+            "hi": "धर्मवार हिस्सा (जनगणना 2011, C-01)",
+            "mr": "धर्मनिहाय वाटा (जनगणना 2011, C-01)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-01 table for the districts of the present UT; show without commentary."
+        },
+        {
+          "label": {
+            "en": "Current population (projected)",
+            "hi": "वर्तमान जनसंख्या (अनुमानित)",
+            "mr": "सध्याची लोकसंख्या (प्रक्षेपित)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "jk-planning",
+          "note": "J&K Planning Department gives 133.05 lakh for 2020 (projected)."
+        }
+      ]
+    }
+  ]
+}

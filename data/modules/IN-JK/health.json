@@ -1,0 +1,423 @@
+{
+  "region": "IN-JK",
+  "module": "health",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Sample Registration System reports an infant mortality rate of 17 per 1,000 live births in 2020, down from 43 in 2010 and well below the national 28, a birth rate of 14.6 and a death rate of 4.6 per 1,000 — among the lowest death rates in India. Life expectancy at birth was 74.0 years in 2014-18 (men 72.2, women 76.2), above the national 69.4; this figure includes Ladakh. In NFHS-5 (2019-21), 26.9% of children under five were stunted, 19.0% wasted and 21.0% underweight, and 92.4% of births took place in health facilities; the NFHS-4 figures shown for comparison cover the former State including Ladakh.\n\nSKIMS Soura, the Government Medical Colleges in Srinagar and Jammu, AIIMS Jammu and newer medical colleges in district towns are the main hospitals; AIIMS Awantipora is being built for the valley.",
+        "hi": "नमूना पंजीकरण प्रणाली के अनुसार 2020 में शिशु मृत्यु दर प्रति 1,000 जीवित जन्म पर 17 थी, जो 2010 के 43 से कम और राष्ट्रीय 28 से काफ़ी नीचे है, जन्म दर 14.6 और मृत्यु दर प्रति 1,000 पर 4.6 — भारत में सबसे कम मृत्यु दरों में। 2014-18 में जन्म के समय जीवन प्रत्याशा 74.0 वर्ष थी (पुरुष 72.2, महिलाएँ 76.2), जो राष्ट्रीय 69.4 से अधिक है; इस आँकड़े में लद्दाख शामिल है। एनएफ़एचएस-5 (2019-21) में पाँच वर्ष से कम आयु के 26.9% बच्चे ठिगने, 19.0% दुबले और 21.0% कम वज़न के थे, और 92.4% प्रसव स्वास्थ्य संस्थानों में हुए; तुलना के लिए दिखाए गए एनएफ़एचएस-4 के आँकड़े लद्दाख सहित पूर्ववर्ती राज्य के हैं।\n\nस्किम्स सौरा, श्रीनगर और जम्मू के सरकारी मेडिकल कॉलेज, एम्स जम्मू और ज़िला नगरों के नए मेडिकल कॉलेज मुख्य अस्पताल हैं; घाटी के लिए एम्स अवंतीपोरा बनाया जा रहा है।",
+        "mr": "नमुना नोंदणी पद्धतीनुसार 2020 मध्ये अर्भक मृत्युदर दर 1,000 जिवंत जन्मांमागे 17 होता, 2010 मधील 43 पेक्षा कमी व राष्ट्रीय 28 पेक्षा बराच खाली, जन्मदर 14.6 व मृत्युदर दर 1,000 मागे 4.6 — भारतातील सर्वांत कमी मृत्युदरांपैकी. 2014-18 मध्ये जन्मतः आयुर्मान 74.0 वर्षे होते (पुरुष 72.2, स्त्रिया 76.2), राष्ट्रीय 69.4 पेक्षा अधिक; या आकड्यात लडाखचा समावेश आहे. एनएफएचएस-5 (2019-21) मध्ये पाच वर्षांखालील 26.9% मुले खुजी, 19.0% कृश व 21.0% कमी वजनाची होती, आणि 92.4% प्रसूती आरोग्य संस्थांत झाल्या; तुलनेसाठी दाखवलेले एनएफएचएस-4 चे आकडे लडाखसह पूर्वीच्या राज्याचे आहेत.\n\nस्किम्स सौरा, श्रीनगर व जम्मूची शासकीय वैद्यकीय महाविद्यालये, एम्स जम्मू आणि जिल्हा शहरांतील नवी वैद्यकीय महाविद्यालये ही मुख्य रुग्णालये आहेत; खोऱ्यासाठी एम्स अवंतीपोरा उभारले जात आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "srs",
+        "nfhs",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "srs",
+      "items": [
+        {
+          "id": "imr",
+          "label": {
+            "en": "Infant mortality rate",
+            "hi": "शिशु मृत्यु दर",
+            "mr": "अर्भक मृत्युदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 17,
+            "unit": "per 1,000 live births",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS 2020, Economic Survey 2023-24 Statistical Appendix Table 8.2."
+          },
+          "kind": "number",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 43,
+            "unit": "per 1,000 live births",
+            "period": "2010",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Former State including Ladakh."
+          },
+          "national": {
+            "value": 28,
+            "unit": "per 1,000 live births",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "br",
+          "label": {
+            "en": "Birth rate",
+            "hi": "जन्म दर",
+            "mr": "जन्मदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 14.6,
+            "unit": "per 1,000 population",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS 2020 (death rate 4.6); 18.3 in 2010."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "previous": {
+            "value": 18.3,
+            "unit": "per 1,000 population",
+            "period": "2010",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 19.5,
+            "unit": "per 1,000 population",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "le",
+          "label": {
+            "en": "Life expectancy at birth",
+            "hi": "जन्म के समय जीवन प्रत्याशा",
+            "mr": "जन्मतः आयुर्मान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 74.0,
+            "unit": "years",
+            "period": "2014-18",
+            "periodType": "survey",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab81.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS abridged life tables, Economic Survey 2021-22 Statistical Appendix Table 8.1 (male 72.2, female 76.2); includes Ladakh."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 69.4,
+            "unit": "years",
+            "period": "2014-18",
+            "periodType": "survey",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab81.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Mortality and vital rates (Sample Registration System)",
+        "hi": "मृत्यु और जन्म दरें (नमूना पंजीकरण प्रणाली)",
+        "mr": "मृत्युदर व जन्मदर (नमुना नोंदणी पद्धत)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "facts",
+      "id": "nfhs",
+      "items": [
+        {
+          "id": "stunt",
+          "label": {
+            "en": "Stunted children under 5",
+            "hi": "5 वर्ष से कम आयु के ठिगने बच्चे",
+            "mr": "5 वर्षांखालील खुजी मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 26.86,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 27.4,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 35.47,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-24",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "waste",
+          "label": {
+            "en": "Wasted children under 5",
+            "hi": "5 वर्ष से कम आयु के दुबले (वेस्टेड) बच्चे",
+            "mr": "5 वर्षांखालील कृश मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 18.98,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 12.1,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 19.26,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-24",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "under",
+          "label": {
+            "en": "Underweight children under 5",
+            "hi": "5 वर्ष से कम आयु के कम वज़न वाले बच्चे",
+            "mr": "5 वर्षांखालील कमी वजनाची मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 20.97,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 16.6,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 32.11,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-24",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "inst",
+          "label": {
+            "en": "Institutional births",
+            "hi": "संस्थागत प्रसव",
+            "mr": "संस्थात्मक प्रसूती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 92.39,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, births in the five years before the survey."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 88.59,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-24",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Child nutrition and births (NFHS-5)",
+        "hi": "बाल पोषण और प्रसव (एनएफ़एचएस-5)",
+        "mr": "बालपोषण व प्रसूती (एनएफएचएस-5)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Whether SRS 2020 figures cover the UT alone",
+            "hi": "क्या एसआरएस 2020 के आँकड़े केवल केंद्र शासित प्रदेश के हैं",
+            "mr": "एसआरएस 2020 चे आकडे केवळ केंद्रशासित प्रदेशाचे आहेत का",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "srs",
+          "note": "Check the SRS Statistical Report 2020 table notes."
+        },
+        {
+          "label": {
+            "en": "AIIMS Awantipora — status",
+            "hi": "एम्स अवंतीपोरा — स्थिति",
+            "mr": "एम्स अवंतीपोरा — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw",
+          "note": "PMSSY status."
+        }
+      ]
+    }
+  ]
+}

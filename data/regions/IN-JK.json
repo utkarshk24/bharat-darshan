@@ -45,131 +45,164 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://jk.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Hangul (Kashmir stag)",
+        "hi": "हंगुल (कश्मीरी बारहसिंगा)",
+        "mr": "हंगुल (काश्मिरी बारशिंगा)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Cervus hanglu hanglu",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Chinar",
+        "hi": "चिनार",
+        "mr": "चिनार",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Platanus orientalis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 12267013,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "jk-des",
+      "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil). Males 64,83,906; females 57,83,107. The former State, including Ladakh, had 1,25,41,302 people."
     },
     "area": {
-      "value": null,
+      "value": 42241,
       "unit": "km²",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "jk-des",
+      "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Census 2011 geographical area of the present UT as given by the J&K DES (Jammu division 26,293 km², Kashmir division 15,948 km²). The UT's area including the areas under the occupation of Pakistan (PoK) is 1,20,355 km² (J&K Planning Department)."
     },
     "density2011": {
-      "value": null,
+      "value": 290.41,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "jk-des",
+      "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil)."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 892,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "jk-des",
+      "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil). The former State's figure was 889."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 860,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "jk-des",
+      "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil). The former State's figure was 862 (941 in 2001)."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 67.0,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "jk-des",
+      "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil). Jammu division 71.98%, Kashmir division 62.98%."
     },
     "urbanisation2011": {
-      "value": null,
+      "value": 27.48,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "jk-des",
+      "url": "https://ecostatjk.nic.in/pdf/publications/utglance/UT%20at%20a%20Glance%205.75%20X%209.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Directorate of Economics & Statistics, J&K, 'UT of Jammu & Kashmir at a Glance 2024-25' (Census 2011 figures for the area of the present Union Territory, excluding Leh and Kargil). Urban population 33,71,233; rural 88,95,780."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 285674,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2025-26 is the latest year published for J&K. FY2024-25: ₹2,62,358 crore (the J&K DES gives ₹2,62,458 crore as its second advance estimate)."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 168243,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2024-25: ₹1,55,398."
     },
     "forestCoverPct": {
       "value": null,
@@ -177,47 +210,773 @@
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
       "accessDate": null,
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "ISFR 2023 puts J&K's forest cover at 21,346.39 km², but its geographical area (2,22,236 km²) covers the whole former State including areas under the occupation of Pakistan and China, so its percentage (9.6%) is not comparable with other regions; measured against the 42,241 km² used by the J&K DES it would be about 50%. Not shown until an agreed basis is chosen; see the Nature module."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "lieutenant-governor",
-      "name": null,
+      "name": {
+        "en": "Manoj Sinha",
+        "hi": "मनोज सिन्हा",
+        "mr": "मनोज सिन्हा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "since": "2020-08-07",
+      "asOf": "2026-10-24",
+      "sourceId": "kashmir-reader",
+      "url": "https://kashmirreader.com/2020/08/07/manoj-sinha-takes-oath-as-new-lg-of-jammu-and-kashmir/",
+      "verifyUrl": "https://jk.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in as Lieutenant Governor at Raj Bhavan, Srinagar, on 7 August 2020 by Chief Justice Gita Mittal; succeeded Girish Chandra Murmu (Kashmir Reader). He addressed the Assembly's budget session in 2026 as Lieutenant Governor (News On AIR)."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "name": {
+        "en": "Omar Abdullah",
+        "hi": "उमर अब्दुल्ला",
+        "mr": "उमर अब्दुल्ला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "JKNC",
+      "since": "2024-10-16",
+      "asOf": "2026-10-24",
+      "sourceId": "etv-bharat",
+      "url": "https://www.etvbharat.com/amp/en/!bharat/omar-abdullah-sworn-in-as-jammu-and-kashmir-chief-minister-enn24101602274",
+      "verifyUrl": "https://jk.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in on 16 October 2024 at the Sher-i-Kashmir International Convention Centre, Srinagar, by Lieutenant Governor Manoj Sinha, with five ministers — the first Chief Minister of the Union Territory. He had also been Chief Minister of the former State in 2009–2015 (ETV Bharat)."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Abdul Rahim Rather",
+          "hi": "अब्दुल रहीम राथर",
+          "mr": "अब्दुल रहीम राथर",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "JKNC",
+        "since": "2024-11-04",
+        "asOf": "2026-10-24",
+        "sourceId": "etv-bharat",
+        "url": "https://www.etvbharat.com/en/!state/nc-leader-rahim-rather-elected-speaker-of-maiden-jammu-kashmir-ut-legislative-assembly-enn24110401547",
+        "verifyUrl": "https://jkla.nic.in",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Elected unanimously as Speaker of the first Legislative Assembly of the Union Territory on 4 November 2024; a seven-time MLA (ETV Bharat)."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "usbrl",
+      "name": {
+        "en": "Udhampur–Srinagar–Baramulla Rail Link",
+        "hi": "उधमपुर–श्रीनगर–बारामूला रेल लिंक",
+        "mr": "उधमपूर–श्रीनगर–बारामुल्ला रेल्वे मार्ग",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "The railway that links the Kashmir valley with the national network through the Pir Panjal and Chenab gorge, built at a cost of around ₹44,000 crore. It includes the Chenab bridge, described as the world's highest railway arch bridge, and the Anji Khad bridge, India's first cable-stayed rail bridge. Dedicated to the nation by the Prime Minister on 6 June 2025, when two Vande Bharat trains between Shri Mata Vaishno Devi Katra and Srinagar were flagged off.",
+        "hi": "वह रेलवे जो पीर पंजाल और चिनाब घाटी से होकर कश्मीर घाटी को राष्ट्रीय नेटवर्क से जोड़ती है, लगभग ₹44,000 करोड़ की लागत से बनी। इसमें दुनिया का सबसे ऊँचा रेलवे आर्च पुल बताया गया चिनाब पुल और भारत का पहला केबल-स्टेड रेल पुल अंजी खड्ड पुल शामिल हैं। प्रधानमंत्री ने 6 जून 2025 को इसे राष्ट्र को समर्पित किया, जब श्री माता वैष्णो देवी कटरा और श्रीनगर के बीच दो वंदे भारत ट्रेनों को हरी झंडी दिखाई गई।",
+        "mr": "पीर पंजाल व चिनाबच्या घळीतून काश्मीर खोऱ्याला राष्ट्रीय जाळ्याशी जोडणारी रेल्वे, सुमारे ₹44,000 कोटी खर्चून बांधलेली. तिच्यात जगातील सर्वांत उंच रेल्वे कमान पूल म्हणून वर्णन केलेला चिनाब पूल व भारतातील पहिला केबल-स्टेड रेल्वे पूल अंजी खड्ड पूल यांचा समावेश आहे. पंतप्रधानांनी 6 जून 2025 रोजी ती राष्ट्राला समर्पित केली, तेव्हा श्री माता वैष्णोदेवी कटरा व श्रीनगरदरम्यान दोन वंदे भारत गाड्यांना हिरवा झेंडा दाखवला गेला.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "rail",
+      "agency": "Northern Railway (Ministry of Railways)",
+      "start": null,
+      "completion": "6 June 2025",
+      "status": "Completed",
+      "asOf": "2026-10-24",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/rail-network-connects-country-from-kashmir-to-kanyakumari-says-pm-modi",
+      "confidence": "Official",
+      "cost": {
+        "value": 44000,
+        "unit": "₹ crore",
+        "period": "2025",
+        "periodType": "calendar",
+        "sourceId": "newsonair",
+        "url": "https://www.newsonair.gov.in/rail-network-connects-country-from-kashmir-to-kanyakumari-says-pm-modi",
+        "accessDate": "2026-10-24",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Around ₹44,000 crore (News On AIR)."
+      }
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "kashmir-saffron",
+      "name": {
+        "en": "Kashmir Saffron",
+        "hi": "कश्मीर केसर",
+        "mr": "काश्मीर केशर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "635",
+      "filingDate": "2018-12-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "mushqbudji-rice",
+      "name": {
+        "en": "Mushqbudji Rice",
+        "hi": "मुश्कबुदजी चावल",
+        "mr": "मुश्कबुदजी तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "758",
+      "filingDate": "2021-06-14",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "bhaderwah-rajmash",
+      "name": {
+        "en": "Bhaderwah Rajmash",
+        "hi": "भद्रवाह राजमाश",
+        "mr": "भद्रवाह राजमा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "768",
+      "filingDate": "2021-07-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ramban-anardana",
+      "name": {
+        "en": "Ramban Anardana",
+        "hi": "रामबन अनारदाना",
+        "mr": "रामबन अनारदाणा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "774",
+      "filingDate": "2021-08-03",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "ramban-sulai-honey",
+      "name": {
+        "en": "Ramban Sulai Honey",
+        "hi": "रामबन सुलाई शहद",
+        "mr": "रामबन सुलाई मध",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "772",
+      "filingDate": "2021-07-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "udhampur-kaladi",
+      "name": {
+        "en": "Udhampur Kaladi",
+        "hi": "उधमपुर कलाड़ी",
+        "mr": "उधमपूर कलाडी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "807",
+      "filingDate": "2021-12-22",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kashmir-pashmina",
+      "name": {
+        "en": "Kashmir Pashmina",
+        "hi": "कश्मीर पश्मीना",
+        "mr": "काश्मीर पश्मीना",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "46",
+      "filingDate": "2005-12-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kashmir-sozani-craft",
+      "name": {
+        "en": "Kashmir Sozani Craft",
+        "hi": "कश्मीर सोज़नी शिल्प",
+        "mr": "काश्मीर सोझनी हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "48",
+      "filingDate": "2006-01-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kani-shawl",
+      "name": {
+        "en": "Kani Shawl",
+        "hi": "कानी शॉल",
+        "mr": "कानी शाल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "51",
+      "filingDate": "2006-02-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kashmir-paper-machie",
+      "name": {
+        "en": "Kashmir Paper Machie",
+        "hi": "कश्मीर पेपर माशी",
+        "mr": "काश्मीर पेपर-माशे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "181",
+      "filingDate": "2009-07-17",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kashmir-walnut-wood-carving",
+      "name": {
+        "en": "Kashmir Walnut Wood Carving",
+        "hi": "कश्मीर अखरोट काष्ठ नक़्क़ाशी",
+        "mr": "काश्मीर अक्रोड लाकूड कोरीवकाम",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "182",
+      "filingDate": "2009-07-17",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "khatamband",
+      "name": {
+        "en": "Khatamband",
+        "hi": "ख़तमबंद",
+        "mr": "खतमबंद",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "204",
+      "filingDate": "2010-03-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kashmiri-hand-knotted-carpet",
+      "name": {
+        "en": "Kashmiri Hand Knotted Carpet",
+        "hi": "कश्मीरी हाथ से गाँठे क़ालीन",
+        "mr": "काश्मिरी हाताने विणलेले गालिचे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "527",
+      "filingDate": "2015-06-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "basohli-painting",
+      "name": {
+        "en": "Basohli Painting",
+        "hi": "बसोहली चित्रकला",
+        "mr": "बसोहली चित्रकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "755",
+      "filingDate": "2021-04-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "rajouri-chikri-wood-craft",
+      "name": {
+        "en": "Rajouri Chikri Wood Craft",
+        "hi": "राजौरी चिकरी काष्ठ शिल्प",
+        "mr": "राजौरी चिकरी काष्ठहस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "765",
+      "filingDate": "2021-06-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "basohli-pashmina-woolen-products",
+      "name": {
+        "en": "Basohli Pashmina Woolen Products",
+        "hi": "बसोहली पश्मीना ऊनी उत्पाद",
+        "mr": "बसोहली पश्मीना लोकरी उत्पादने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "775",
+      "filingDate": "2021-08-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kashmir-namda",
+      "name": {
+        "en": "Kashmir Namda",
+        "hi": "कश्मीर नमदा",
+        "mr": "काश्मीर नमदा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "868",
+      "filingDate": "2022-04-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kashmir-wagguv",
+      "name": {
+        "en": "Kashmir Wagguv",
+        "hi": "कश्मीर वग्गुव",
+        "mr": "काश्मीर वग्गुव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "869",
+      "filingDate": "2022-04-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "shikara",
+      "name": {
+        "en": "Shikara",
+        "hi": "शिकारा",
+        "mr": "शिकारा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "870",
+      "filingDate": "2022-04-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "gabba",
+      "name": {
+        "en": "Gabba",
+        "hi": "गब्बा",
+        "mr": "गब्बा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "902",
+      "filingDate": "2022-06-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kashmir-willow-bat",
+      "name": {
+        "en": "Kashmir Willow Bat",
+        "hi": "कश्मीर विलो बल्ला",
+        "mr": "काश्मीर विलो बॅट",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "903",
+      "filingDate": "2022-06-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kashmir-chain-stitch",
+      "name": {
+        "en": "Kashmir Chain Stitch",
+        "hi": "कश्मीर चेन स्टिच",
+        "mr": "काश्मीर चेन स्टिच",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1046",
+      "filingDate": "2023-01-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kashmir-crewel",
+      "name": {
+        "en": "Kashmir Crewel",
+        "hi": "कश्मीर क्रूएल",
+        "mr": "काश्मीर क्रुएल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1047",
+      "filingDate": "2023-01-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "kashmir-tweed",
+      "name": {
+        "en": "Kashmir Tweed",
+        "hi": "कश्मीर ट्वीड",
+        "mr": "काश्मीर ट्वीड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1048",
+      "filingDate": "2023-01-31",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "basmati",
+      "name": {
+        "en": "Basmati",
+        "hi": "बासमती",
+        "mr": "बासमती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "145",
+      "filingDate": "2008-11-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Punjab",
+        "Haryana",
+        "Himachal Pradesh",
+        "Delhi",
+        "Uttarakhand",
+        "Uttar Pradesh"
+      ]
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-24",
+    "editorialStatus": "draft"
   }
 }

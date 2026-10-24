@@ -1,0 +1,98 @@
+{
+  "region": "IN-JK",
+  "module": "sports",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Winter sports centre on Gulmarg, which has hosted the Khelo India Winter Games, and the skier Arif Khan of Baramulla represented India at the 2022 Winter Olympics in Beijing. Cricket is hugely popular: Parvez Rasool became the first player from J&K to play for India, and the fast bowler Umran Malik from Jammu followed; bats made from Kashmir willow are used around the world. Real Kashmir FC has brought professional football to Srinagar, and the valley has produced champions in wushu, kickboxing and martial arts. The Bakshi Stadium in Srinagar and the Maulana Azad Stadium in Jammu are the main venues.",
+        "hi": "शीतकालीन खेल गुलमर्ग पर केंद्रित हैं, जिसने खेलो इंडिया शीतकालीन खेलों की मेज़बानी की है, और बारामूला के स्कीयर आरिफ़ ख़ान ने 2022 बीजिंग शीतकालीन ओलंपिक में भारत का प्रतिनिधित्व किया। क्रिकेट बहुत लोकप्रिय है: परवेज़ रसूल भारत के लिए खेलने वाले जम्मू-कश्मीर के पहले खिलाड़ी बने, और उनके बाद जम्मू के तेज़ गेंदबाज़ उमरान मलिक; कश्मीरी विलो से बने बल्ले दुनिया भर में उपयोग होते हैं। रियल कश्मीर एफ़सी श्रीनगर में पेशेवर फ़ुटबॉल लाया है, और घाटी ने वुशु, किकबॉक्सिंग और मार्शल आर्ट्स में चैंपियन दिए हैं। श्रीनगर का बख़्शी स्टेडियम और जम्मू का मौलाना आज़ाद स्टेडियम मुख्य मैदान हैं।",
+        "mr": "हिवाळी खेळ गुलमर्गवर केंद्रित आहेत, ज्याने खेलो इंडिया हिवाळी स्पर्धांचे यजमानपद भूषवले आहे, आणि बारामुल्लाचा स्कीयर आरिफ खान याने 2022 बीजिंग हिवाळी ऑलिम्पिकमध्ये भारताचे प्रतिनिधित्व केले. क्रिकेट अतिशय लोकप्रिय आहे: परवेझ रसूल भारताकडून खेळणारा जम्मू-काश्मीरचा पहिला खेळाडू ठरला, आणि त्यानंतर जम्मूचा वेगवान गोलंदाज उमरान मलिक; काश्मिरी विलोपासून बनवलेल्या बॅट जगभर वापरल्या जातात. रियल काश्मीर एफसीने श्रीनगरमध्ये व्यावसायिक फुटबॉल आणला आहे, आणि खोऱ्याने वुशु, किकबॉक्सिंग व मार्शल आर्ट्समध्ये विजेते दिले आहेत. श्रीनगरचे बक्षी स्टेडियम व जम्मूचे मौलाना आझाद स्टेडियम ही मुख्य मैदाने आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "gulmarg",
+          "name": {
+            "en": "Gulmarg ski slopes and gondola",
+            "hi": "गुलमर्ग स्की ढलान और गोंडोला",
+            "mr": "गुलमर्ग स्की उतार व गोंडोला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bakshi",
+          "name": {
+            "en": "Bakshi Stadium, Srinagar",
+            "hi": "बख़्शी स्टेडियम, श्रीनगर",
+            "mr": "बक्षी स्टेडियम, श्रीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "maulana",
+          "name": {
+            "en": "Maulana Azad Stadium, Jammu",
+            "hi": "मौलाना आज़ाद स्टेडियम, जम्मू",
+            "mr": "मौलाना आझाद स्टेडियम, जम्मू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Khelo India Winter Games editions at Gulmarg — official list",
+            "hi": "गुलमर्ग में खेलो इंडिया शीतकालीन खेलों के संस्करण — आधिकारिक सूची",
+            "mr": "गुलमर्ग येथील खेलो इंडिया हिवाळी स्पर्धांच्या आवृत्त्या — अधिकृत यादी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Sports Authority of India."
+        }
+      ]
+    }
+  ]
+}

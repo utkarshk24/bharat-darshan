@@ -1,0 +1,55 @@
+{
+  "region": "IN-JK",
+  "module": "energy",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Jammu and Kashmir's power comes mostly from hydro-electricity. NHPC operates large stations on the Chenab (Salal, Dulhasti) and the Jhelum basin (Uri, Kishanganga), the UT's own Baglihar station is on the Chenab, and several more Chenab projects — Pakal Dul, Kiru, Kwar and Ratle — are being built. The rivers run low in winter, when demand for heating peaks, so the UT imports power and winter power cuts are common in the valley.",
+        "hi": "जम्मू और कश्मीर की बिजली अधिकतर जलविद्युत से आती है। एनएचपीसी चिनाब (सलाल, दुलहस्ती) और झेलम बेसिन (उड़ी, किशनगंगा) पर बड़े केंद्र चलाता है, केंद्र शासित प्रदेश का अपना बगलिहार केंद्र चिनाब पर है, और चिनाब पर कई और परियोजनाएँ — पाकल दुल, किरु, क्वार और रतले — बन रही हैं। सर्दियों में नदियों का प्रवाह कम होता है, जब तापन की माँग चरम पर होती है, इसलिए केंद्र शासित प्रदेश बिजली आयात करता है और घाटी में सर्दियों में बिजली कटौती आम है।",
+        "mr": "जम्मू व काश्मीरची वीज बहुतांश जलविद्युतमधून येते. एनएचपीसी चिनाब (सलाल, दुलहस्ती) व झेलम खोऱ्यात (उरी, किशनगंगा) मोठी केंद्रे चालवते, केंद्रशासित प्रदेशाचे स्वतःचे बगलिहार केंद्र चिनाबवर आहे, आणि चिनाबवरील आणखी काही प्रकल्प — पाकल दुल, किरू, क्वार व रतले — उभारले जात आहेत. हिवाळ्यात नद्यांचा प्रवाह कमी होतो, तेव्हा उबेची मागणी शिखरावर असते, म्हणून केंद्रशासित प्रदेश वीज आयात करतो आणि खोऱ्यात हिवाळ्यात वीजकपात सामान्य असते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Chenab projects — status and capacity",
+            "hi": "चिनाब परियोजनाएँ — स्थिति और क्षमता",
+            "mr": "चिनाब प्रकल्प — स्थिती व क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "NHPC / CVPPL project pages."
+        }
+      ]
+    }
+  ]
+}

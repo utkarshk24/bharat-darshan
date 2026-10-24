@@ -1,0 +1,42 @@
+{
+  "region": "IN-JK",
+  "module": "digital",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mobile and internet services in Jammu and Kashmir have at times been suspended for security reasons, most extensively after August 2019, and connectivity in remote border areas remains limited. Citizen services are increasingly delivered online, and IT parks have been set up in Srinagar and Jammu, while IIT Jammu and NIT Srinagar train engineers for the region.",
+        "hi": "जम्मू और कश्मीर में मोबाइल और इंटरनेट सेवाएँ समय-समय पर सुरक्षा कारणों से निलंबित की गई हैं, सबसे व्यापक रूप से अगस्त 2019 के बाद, और दूरस्थ सीमावर्ती क्षेत्रों में संपर्क अब भी सीमित है। नागरिक सेवाएँ अधिकाधिक ऑनलाइन दी जा रही हैं, और श्रीनगर व जम्मू में आईटी पार्क बनाए गए हैं, जबकि आईआईटी जम्मू और एनआईटी श्रीनगर क्षेत्र के लिए इंजीनियर तैयार करते हैं।",
+        "mr": "जम्मू व काश्मीरमध्ये मोबाइल व इंटरनेट सेवा वेळोवेळी सुरक्षेच्या कारणांनी स्थगित केल्या गेल्या आहेत, सर्वाधिक व्यापकपणे ऑगस्ट 2019 नंतर, आणि दुर्गम सीमावर्ती भागांत जोडणी अजूनही मर्यादित आहे. नागरी सेवा अधिकाधिक ऑनलाइन दिल्या जात आहेत, आणि श्रीनगर व जम्मूमध्ये आयटी पार्क उभारले गेले आहेत, तर आयआयटी जम्मू व एनआयटी श्रीनगर प्रदेशासाठी अभियंते घडवतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (J&K circle)."
+        }
+      ]
+    }
+  ]
+}

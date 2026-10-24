@@ -1,0 +1,55 @@
+{
+  "region": "IN-HR",
+  "module": "digital",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gurugram is one of India's leading technology and business-services cities, home to offices of many multinational companies, global capability centres and start-ups; Faridabad, Manesar and Panchkula's IT park add to the cluster. The State delivers citizen services online through the Saral portal and Antyodaya Saral centres, and runs the Parivar Pehchan Patra family-ID system used for welfare schemes.",
+        "hi": "गुरुग्राम भारत के अग्रणी प्रौद्योगिकी और व्यावसायिक सेवा शहरों में से है, जहाँ अनेक बहुराष्ट्रीय कंपनियों के कार्यालय, वैश्विक क्षमता केंद्र और स्टार्टअप हैं; फ़रीदाबाद, मानेसर और पंचकूला का आईटी पार्क इस क्लस्टर को बढ़ाते हैं। राज्य सरल पोर्टल और अंत्योदय सरल केंद्रों के माध्यम से नागरिक सेवाएँ ऑनलाइन देता है, और कल्याणकारी योजनाओं के लिए परिवार पहचान पत्र प्रणाली चलाता है।",
+        "mr": "गुरुग्राम हे भारतातील आघाडीच्या तंत्रज्ञान व व्यावसायिक सेवा शहरांपैकी एक आहे, जिथे अनेक बहुराष्ट्रीय कंपन्यांची कार्यालये, जागतिक क्षमता केंद्रे व स्टार्टअप आहेत; फरिदाबाद, मानेसर व पंचकुलाचे आयटी पार्क या समूहात भर घालतात. राज्य सरल पोर्टल व अंत्योदय सरल केंद्रांमार्फत नागरी सेवा ऑनलाइन देते, आणि कल्याणकारी योजनांसाठी परिवार पहचान पत्र ही कुटुंब ओळख प्रणाली चालवते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Haryana circle)."
+        },
+        {
+          "label": {
+            "en": "DPIIT-recognised start-ups",
+            "hi": "डीपीआईआईटी मान्यता प्राप्त स्टार्टअप",
+            "mr": "डीपीआयआयटी मान्यताप्राप्त स्टार्टअप",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "startup-india",
+          "note": "Startup India state dashboard."
+        }
+      ]
+    }
+  ]
+}

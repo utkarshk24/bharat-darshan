@@ -1,0 +1,55 @@
+{
+  "region": "IN-HR",
+  "module": "water",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Haryana has little surface water of its own and depends on canals and groundwater. The Western Yamuna Canal, one of the oldest canal systems in India, draws water at the Hathnikund barrage on the Yamuna, and the Bhakra main line brings Sutlej water from the Bhakra–Nangal system; lift canals carry water up to the dry south. Groundwater is heavily used for wheat and paddy, and many blocks in the north and centre are over-exploited, while parts of the south-west have saline groundwater. Sharing of river waters with Punjab — including the long-pending Sutlej–Yamuna Link canal — and Delhi's dependence on Yamuna flows through Haryana remain contested issues. The Yamuna, Ghaggar and Markanda flooded parts of the State in July 2023.",
+        "hi": "हरियाणा के पास अपना सतही जल कम है और यह नहरों व भूजल पर निर्भर है। भारत की सबसे पुरानी नहर प्रणालियों में से एक, पश्चिमी यमुना नहर, यमुना पर हथिनीकुंड बैराज से पानी लेती है, और भाखड़ा मुख्य नहर भाखड़ा–नंगल प्रणाली से सतलुज का पानी लाती है; उठान नहरें पानी को सूखे दक्षिण तक पहुँचाती हैं। गेहूँ और धान के लिए भूजल का भारी उपयोग होता है, और उत्तर व मध्य के कई ब्लॉक अति-दोहित हैं, जबकि दक्षिण-पश्चिम के कुछ भागों में भूजल खारा है। पंजाब के साथ नदी जल बँटवारा — जिसमें लंबे समय से लंबित सतलुज–यमुना लिंक नहर भी है — और हरियाणा से आने वाले यमुना प्रवाह पर दिल्ली की निर्भरता विवादित मुद्दे बने हुए हैं। जुलाई 2023 में यमुना, घग्गर और मारकंडा ने राज्य के कई भागों में बाढ़ ला दी।",
+        "mr": "हरियाणाकडे स्वतःचे पृष्ठजल कमी आहे आणि ते कालवे व भूजलावर अवलंबून आहे. भारतातील सर्वांत जुन्या कालवा प्रणालींपैकी एक, पश्चिम यमुना कालवा, यमुनेवरील हथिनीकुंड बंधाऱ्यातून पाणी घेतो, आणि भाक्रा मुख्य कालवा भाक्रा–नांगल प्रणालीतून सतलजचे पाणी आणतो; उपसा कालवे पाणी कोरड्या दक्षिणेपर्यंत पोहोचवतात. गहू व भातासाठी भूजलाचा प्रचंड वापर होतो, आणि उत्तर व मध्य भागातील अनेक गट अतिउपसा श्रेणीत आहेत, तर नैर्ऋत्येच्या काही भागांत भूजल खारे आहे. पंजाबसोबतचे नदी पाणीवाटप — ज्यात दीर्घकाळ प्रलंबित सतलज–यमुना जोड कालवाही आहे — आणि हरियाणातून येणाऱ्या यमुनेच्या प्रवाहावरील दिल्लीचे अवलंबित्व हे वादग्रस्त मुद्दे राहिले आहेत. जुलै 2023 मध्ये यमुना, घग्गर व मारकंडाने राज्याच्या अनेक भागांत पूर आणला.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Groundwater stage of extraction and over-exploited blocks",
+            "hi": "भूजल दोहन का स्तर और अति-दोहित ब्लॉक",
+            "mr": "भूजल उपशाचा टप्पा व अतिउपसा गट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "CGWB Dynamic Ground Water Resources assessment."
+        },
+        {
+          "label": {
+            "en": "Canal command area",
+            "hi": "नहर कमान क्षेत्र",
+            "mr": "कालवा लाभक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Haryana Irrigation and Water Resources Department."
+        }
+      ]
+    }
+  ]
+}

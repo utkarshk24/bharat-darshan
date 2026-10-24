@@ -1,0 +1,55 @@
+{
+  "region": "IN-HR",
+  "module": "energy",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Haryana's electricity comes mainly from coal-fired plants — the State's own stations at Panipat, Khedar (Hisar) and Yamunanagar, the Indira Gandhi plant at Jhajjar run with NTPC, and a private plant at Jhajjar — together with its share of hydro-electric power from the Bhakra–Beas system and long-term purchases from central and other States' plants. A nuclear power project is being built at Gorakhpur in Fatehabad district by the Nuclear Power Corporation of India. Demand peaks in summer and during paddy transplanting, and rooftop and farm solar pumps are being promoted.",
+        "hi": "हरियाणा की बिजली मुख्यतः कोयला संयंत्रों से आती है — पानीपत, खेदड़ (हिसार) और यमुनानगर के राज्य के अपने संयंत्र, एनटीपीसी के साथ चलने वाला झज्जर का इंदिरा गांधी संयंत्र और झज्जर का एक निजी संयंत्र — साथ में भाखड़ा–ब्यास प्रणाली की जलविद्युत में इसका हिस्सा और केंद्रीय व अन्य राज्यों के संयंत्रों से दीर्घकालिक ख़रीद। फ़तेहाबाद ज़िले के गोरखपुर में न्यूक्लियर पावर कॉर्पोरेशन ऑफ़ इंडिया एक परमाणु बिजली परियोजना बना रहा है। गर्मियों और धान रोपाई के दौरान माँग चरम पर होती है, और छतों पर सौर ऊर्जा और खेतों के लिए सौर पंपों को बढ़ावा दिया जा रहा है।",
+        "mr": "हरियाणाची वीज मुख्यतः कोळसा प्रकल्पांतून येते — पानिपत, खेदड (हिसार) व यमुनानगर येथील राज्याचे स्वतःचे प्रकल्प, एनटीपीसीसोबत चालवला जाणारा झज्जरचा इंदिरा गांधी प्रकल्प व झज्जरचा एक खासगी प्रकल्प — सोबत भाक्रा–बियास प्रणालीतील जलविद्युतचा वाटा आणि केंद्रीय व इतर राज्यांच्या प्रकल्पांतून दीर्घकालीन खरेदी. फतेहाबाद जिल्ह्यातील गोरखपूर येथे न्यूक्लियर पॉवर कॉर्पोरेशन ऑफ इंडिया अणुऊर्जा प्रकल्प उभारत आहे. उन्हाळ्यात व भातलावणीच्या काळात मागणी शिखरावर असते, आणि छतांवरील सौरऊर्जा व शेतीसाठी सौरपंपांना प्रोत्साहन दिले जात आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Gorakhpur nuclear project — capacity and progress",
+            "hi": "गोरखपुर परमाणु परियोजना — क्षमता और प्रगति",
+            "mr": "गोरखपूर अणुप्रकल्प — क्षमता व प्रगती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "npcil",
+          "note": "NPCIL."
+        }
+      ]
+    }
+  ]
+}

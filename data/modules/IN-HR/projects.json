@@ -1,0 +1,61 @@
+{
+  "region": "IN-HR",
+  "module": "projects",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The 19-km Haryana section of the Dwarka Expressway, linking Gurugram with IGI Airport, was inaugurated in March 2024. Other large works in the State include the Delhi–Mumbai Expressway through Sohna and Nuh, the Western Dedicated Freight Corridor through Rewari, the nuclear power project at Gorakhpur in Fatehabad district and the AIIMS at Majra in Rewari; these will be added as cards once their status is confirmed from official sources. Each card shows its source and the date it was checked.",
+        "hi": "गुरुग्राम को आईजीआई हवाई अड्डे से जोड़ने वाले द्वारका एक्सप्रेसवे के 19 किमी हरियाणा खंड का उद्घाटन मार्च 2024 में हुआ। राज्य के अन्य बड़े कार्यों में सोहना और नूँह से होकर दिल्ली–मुंबई एक्सप्रेसवे, रेवाड़ी से होकर पश्चिमी समर्पित माल गलियारा, फ़तेहाबाद ज़िले के गोरखपुर में परमाणु बिजली परियोजना और रेवाड़ी के माजरा में एम्स शामिल हैं; आधिकारिक स्रोतों से स्थिति की पुष्टि होने पर इन्हें कार्ड के रूप में जोड़ा जाएगा। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "गुरुग्रामला आयजीआय विमानतळाशी जोडणाऱ्या द्वारका द्रुतगती मार्गाच्या 19 किमी हरियाणा टप्प्याचे उद्घाटन मार्च 2024 मध्ये झाले. राज्यातील इतर मोठ्या कामांत सोहना व नूहमार्गे दिल्ली–मुंबई द्रुतगती मार्ग, रेवाडीमार्गे पश्चिम समर्पित मालवाहतूक मार्गिका, फतेहाबाद जिल्ह्यातील गोरखपूर येथील अणुऊर्जा प्रकल्प आणि रेवाडीच्या माजरा येथील एम्स यांचा समावेश आहे; अधिकृत स्रोतांतून स्थितीची खात्री झाल्यावर त्यांची कार्डे जोडली जातील. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "pmindia"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Gorakhpur Haryana Anu Vidyut Pariyojana — status",
+            "hi": "गोरखपुर हरियाणा अणु विद्युत परियोजना — स्थिति",
+            "mr": "गोरखपूर हरियाणा अणुविद्युत प्रकल्प — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "npcil",
+          "note": "NPCIL project status."
+        },
+        {
+          "label": {
+            "en": "AIIMS Rewari (Majra) — status",
+            "hi": "एम्स रेवाड़ी (माजरा) — स्थिति",
+            "mr": "एम्स रेवाडी (माजरा) — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mohfw",
+          "note": "MoHFW / PMSSY status."
+        }
+      ]
+    }
+  ]
+}

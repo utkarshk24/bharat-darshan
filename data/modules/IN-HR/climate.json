@@ -1,0 +1,183 @@
+{
+  "region": "IN-HR",
+  "module": "climate",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Haryana has a continental, semi-arid climate. Summers (April–June) are very hot, with loo winds and dust storms, especially in the south-west. The monsoon (July–September) brings most of the year's rain, more in the Shivalik foothills of the north-east than in the sandy south-west. Winters (December–February) are cold, with frost and dense fog across the plains, and western disturbances bring light winter rain that helps the wheat and mustard crops.",
+        "hi": "हरियाणा की जलवायु महाद्वीपीय और अर्ध-शुष्क है। गर्मियाँ (अप्रैल–जून) बहुत गर्म होती हैं, लू और आँधियों के साथ, विशेषकर दक्षिण-पश्चिम में। मानसून (जुलाई–सितंबर) वर्ष की अधिकांश वर्षा लाता है, जो रेतीले दक्षिण-पश्चिम की तुलना में उत्तर-पूर्व की शिवालिक तलहटी में अधिक होती है। सर्दियाँ (दिसंबर–फ़रवरी) ठंडी होती हैं, मैदानों में पाला और घना कोहरा रहता है, और पश्चिमी विक्षोभ सर्दियों की हल्की वर्षा लाते हैं जो गेहूँ और सरसों की फ़सलों के लिए सहायक है।",
+        "mr": "हरियाणाचे हवामान खंडीय व अर्धशुष्क आहे. उन्हाळा (एप्रिल–जून) अतिशय उष्ण असतो, लू वारे व धुळीच्या वादळांसह, विशेषतः नैर्ऋत्येत. मान्सून (जुलै–सप्टेंबर) वर्षातील बहुतेक पाऊस आणतो, जो वाळूमय नैर्ऋत्येपेक्षा ईशान्येकडील शिवालिक पायथ्याशी अधिक पडतो. हिवाळा (डिसेंबर–फेब्रुवारी) थंड असतो, मैदानांत दव गोठते व दाट धुके असते, आणि पश्चिमी विक्षोभ हलका हिवाळी पाऊस आणतात जो गहू व मोहरीच्या पिकांना उपयुक्त ठरतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Gurugram",
+            "hi": "गुरुग्राम",
+            "mr": "गुरुग्राम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 28.4595,
+          "lon": 77.0266
+        },
+        {
+          "name": {
+            "en": "Hisar",
+            "hi": "हिसार",
+            "mr": "हिसार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 29.1492,
+          "lon": 75.7217
+        },
+        {
+          "name": {
+            "en": "Ambala",
+            "hi": "अंबाला",
+            "mr": "अंबाला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 30.3782,
+          "lon": 76.7767
+        },
+        {
+          "name": {
+            "en": "Kurukshetra",
+            "hi": "कुरुक्षेत्र",
+            "mr": "कुरुक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 29.9695,
+          "lon": 76.8783
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to March",
+            "hi": "अक्टूबर से मार्च",
+            "mr": "ऑक्टोबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pleasant days; the Gita Mahotsav at Kurukshetra and the Surajkund crafts fair in February; fog can delay travel.",
+            "hi": "सुहावने दिन; कुरुक्षेत्र में गीता महोत्सव और फ़रवरी में सूरजकुंड शिल्प मेला; कोहरे से यात्रा में देरी हो सकती है।",
+            "mr": "आल्हाददायक दिवस; कुरुक्षेत्र येथील गीता महोत्सव व फेब्रुवारीतील सूरजकुंड हस्तकला मेळा; धुक्यामुळे प्रवासाला उशीर होऊ शकतो.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spring",
+          "name": {
+            "en": "March to April",
+            "hi": "मार्च से अप्रैल",
+            "mr": "मार्च ते एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Mustard in flower, then the wheat harvest and Baisakhi.",
+            "hi": "सरसों फूलती है, फिर गेहूँ की कटाई और बैसाखी।",
+            "mr": "मोहरी फुलते, नंतर गव्हाची कापणी व बैसाखी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "summer",
+          "name": {
+            "en": "May to June",
+            "hi": "मई से जून",
+            "mr": "मे ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Very hot; Morni hills are the cooler escape.",
+            "hi": "बहुत गर्म; मोरनी पहाड़ियाँ ठंडी जगह हैं।",
+            "mr": "अतिशय उष्ण; मोरनी टेकड्या हे थंड ठिकाण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall (Haryana, Chandigarh and Delhi sub-division)",
+            "hi": "सामान्य वार्षिक वर्षा (हरियाणा, चंडीगढ़ और दिल्ली उप-मंडल)",
+            "mr": "सरासरी वार्षिक पाऊस (हरियाणा, चंदीगड व दिल्ली उपविभाग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD rainfall statistics."
+        }
+      ]
+    }
+  ]
+}

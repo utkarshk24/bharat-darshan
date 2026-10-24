@@ -1,0 +1,305 @@
+{
+  "region": "IN-HR",
+  "module": "tourism",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Kurukshetra is Haryana's best-known destination, with the Brahma Sarovar tank, Jyotisar — where the Gita is said to have been spoken — the Sri Krishna Museum and the panorama of the Mahabharata war, and it fills with pilgrims during the Gita Mahotsav and solar eclipses. Pinjore's terraced Yadavindra Gardens and the Morni hills, Haryana's only hill station, lie near Panchkula. Panipat's museum tells the story of its three battles, and Rakhigarhi and Agroha attract those interested in archaeology. Close to Delhi, the Surajkund crafts fair, the Sultanpur bird sanctuary, Damdama lake and the highway dhabas of Murthal are popular weekend trips, and the State's tourist complexes named after birds — such as Blue Jay at Samalkha and Skylark at Panipat — line the highways.",
+        "hi": "कुरुक्षेत्र हरियाणा का सबसे प्रसिद्ध गंतव्य है, जहाँ ब्रह्म सरोवर, ज्योतिसर — जहाँ गीता का उपदेश दिया गया माना जाता है — श्रीकृष्ण संग्रहालय और महाभारत युद्ध का पैनोरमा है, और गीता महोत्सव व सूर्य ग्रहण के समय यह तीर्थयात्रियों से भर जाता है। पिंजौर के सीढ़ीदार यादविंद्र उद्यान और हरियाणा का एकमात्र पर्वतीय स्थल मोरनी पहाड़ियाँ पंचकूला के पास हैं। पानीपत का संग्रहालय उसके तीन युद्धों की कहानी बताता है, और राखीगढ़ी व अग्रोहा पुरातत्व में रुचि रखने वालों को आकर्षित करते हैं। दिल्ली के पास सूरजकुंड शिल्प मेला, सुल्तानपुर पक्षी अभयारण्य, दमदमा झील और मुरथल के राजमार्ग ढाबे लोकप्रिय सप्ताहांत यात्राएँ हैं, और राजमार्गों पर पक्षियों के नाम वाले राज्य के पर्यटक परिसर — जैसे समालखा का ब्लू जे और पानीपत का स्काईलार्क — मिलते हैं।",
+        "mr": "कुरुक्षेत्र हे हरियाणाचे सर्वांत प्रसिद्ध पर्यटनस्थळ आहे, जिथे ब्रह्म सरोवर, ज्योतिसर — जिथे गीता सांगितली गेली असे मानले जाते — श्रीकृष्ण संग्रहालय व महाभारत युद्धाचे पॅनोरमा आहे, आणि गीता महोत्सव व सूर्यग्रहणाच्या वेळी ते यात्रेकरूंनी गजबजते. पिंजोरचे पायऱ्यांचे यादविंद्र उद्यान व हरियाणाचे एकमेव थंड हवेचे ठिकाण मोरनी टेकड्या पंचकुलाजवळ आहेत. पानिपतचे संग्रहालय तिथल्या तीन लढायांची कहाणी सांगते, आणि राखीगढी व अग्रोहा पुरातत्त्वात रस असणाऱ्यांना आकर्षित करतात. दिल्लीजवळ सूरजकुंड हस्तकला मेळा, सुलतानपूर पक्षी अभयारण्य, दमदमा तलाव व मुरथलचे महामार्ग ढाबे हे लोकप्रिय शनिवार-रविवार सहलींचे ठिकाण आहेत, आणि महामार्गांवर पक्ष्यांची नावे असलेली राज्याची पर्यटक संकुले — जसे समालखाचे ब्लू जे व पानिपतचे स्कायलार्क — आढळतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kurukshetra",
+          "name": {
+            "en": "Kurukshetra",
+            "hi": "कुरुक्षेत्र",
+            "mr": "कुरुक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Brahma Sarovar; Jyotisar",
+            "hi": "ब्रह्म सरोवर; ज्योतिसर",
+            "mr": "ब्रह्म सरोवर; ज्योतिसर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pinjore",
+          "name": {
+            "en": "Pinjore and Morni hills",
+            "hi": "पिंजौर और मोरनी पहाड़ियाँ",
+            "mr": "पिंजोर व मोरनी टेकड्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Gardens and hills near Panchkula",
+            "hi": "पंचकूला के पास उद्यान और पहाड़ियाँ",
+            "mr": "पंचकुलाजवळील उद्याने व टेकड्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "surajkund",
+          "name": {
+            "en": "Surajkund",
+            "hi": "सूरजकुंड",
+            "mr": "सूरजकुंड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Crafts fair in February",
+            "hi": "फ़रवरी में शिल्प मेला",
+            "mr": "फेब्रुवारीत हस्तकला मेळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sultanpur",
+          "name": {
+            "en": "Sultanpur National Park",
+            "hi": "सुल्तानपुर राष्ट्रीय उद्यान",
+            "mr": "सुलतानपूर राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Winter birdwatching",
+            "hi": "सर्दियों में पक्षी दर्शन",
+            "mr": "हिवाळ्यात पक्षीनिरीक्षण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "panipat",
+          "name": {
+            "en": "Panipat",
+            "hi": "पानीपत",
+            "mr": "पानिपत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Battlefield museum; textiles",
+            "hi": "युद्धभूमि संग्रहालय; वस्त्र",
+            "mr": "युद्धभूमी संग्रहालय; वस्त्रोद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rakhigarhi",
+          "name": {
+            "en": "Rakhigarhi",
+            "hi": "राखीगढ़ी",
+            "mr": "राखीगढी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Harappan site and museum",
+            "hi": "हड़प्पा स्थल और संग्रहालय",
+            "mr": "हडप्पा स्थळ व संग्रहालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d2",
+          "name": {
+            "en": "2 days",
+            "hi": "2 दिन",
+            "mr": "2 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Kurukshetra's sarovars and museums, with a stop at Panipat on the way from Delhi.",
+            "hi": "दिल्ली से रास्ते में पानीपत रुकते हुए कुरुक्षेत्र के सरोवर और संग्रहालय।",
+            "mr": "दिल्लीहून वाटेत पानिपतला थांबत कुरुक्षेत्राचे सरोवर व संग्रहालये.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pinjore gardens, Morni hills and the Chandigarh tricity.",
+            "hi": "पिंजौर उद्यान, मोरनी पहाड़ियाँ और चंडीगढ़ ट्राइसिटी।",
+            "mr": "पिंजोर उद्यान, मोरनी टेकड्या व चंदीगड त्रिनगरी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d1",
+          "name": {
+            "en": "1 day from Delhi",
+            "hi": "दिल्ली से 1 दिन",
+            "mr": "दिल्लीहून 1 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Sultanpur at dawn, then Surajkund or Damdama lake.",
+            "hi": "भोर में सुल्तानपुर, फिर सूरजकुंड या दमदमा झील।",
+            "mr": "पहाटे सुलतानपूर, नंतर सूरजकुंड किंवा दमदमा तलाव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ht",
+          "name": {
+            "en": "Haryana Tourism (official)",
+            "hi": "हरियाणा पर्यटन (आधिकारिक)",
+            "mr": "हरियाणा पर्यटन (अधिकृत)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://haryanatourism.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium state table."
+        }
+      ]
+    }
+  ]
+}

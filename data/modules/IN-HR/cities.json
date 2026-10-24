@@ -1,0 +1,596 @@
+{
+  "region": "IN-HR",
+  "module": "cities",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "faridabad",
+          "name": {
+            "en": "Faridabad",
+            "hi": "फ़रीदाबाद",
+            "mr": "फरिदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Largest city; engineering and manufacturing hub next to Delhi.",
+            "hi": "सबसे बड़ा शहर; दिल्ली से सटा इंजीनियरिंग और विनिर्माण केंद्र।",
+            "mr": "सर्वांत मोठे शहर; दिल्लीलगतचे अभियांत्रिकी व उत्पादन केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gurugram",
+          "name": {
+            "en": "Gurugram",
+            "hi": "गुरुग्राम",
+            "mr": "गुरुग्राम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Corporate, IT and automobile city.",
+            "hi": "कॉर्पोरेट, आईटी और ऑटोमोबाइल शहर।",
+            "mr": "कॉर्पोरेट, आयटी व मोटार उद्योगाचे शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Services",
+            "hi": "सेवाएँ",
+            "mr": "सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "panipat",
+          "name": {
+            "en": "Panipat",
+            "hi": "पानीपत",
+            "mr": "पानिपत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Textiles, handloom and refinery; three historic battles.",
+            "hi": "वस्त्र, हथकरघा और रिफ़ाइनरी; तीन ऐतिहासिक युद्ध।",
+            "mr": "वस्त्रोद्योग, हातमाग व रिफायनरी; तीन ऐतिहासिक लढाया.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Industry",
+            "hi": "उद्योग",
+            "mr": "उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ambala",
+          "name": {
+            "en": "Ambala",
+            "hi": "अंबाला",
+            "mr": "अंबाला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Cantonment and railway junction; scientific instruments.",
+            "hi": "छावनी और रेलवे जंक्शन; वैज्ञानिक उपकरण।",
+            "mr": "छावणी व रेल्वे जंक्शन; वैज्ञानिक उपकरणे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Transport",
+            "hi": "परिवहन",
+            "mr": "वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rohtak",
+          "name": {
+            "en": "Rohtak",
+            "hi": "रोहतक",
+            "mr": "रोहतक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Education centre: MDU, PGIMS and IIM.",
+            "hi": "शिक्षा केंद्र: एमडीयू, पीजीआईएमएस और आईआईएम।",
+            "mr": "शिक्षण केंद्र: एमडीयू, पीजीआयएमएस व आयआयएम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Education",
+            "hi": "शिक्षा",
+            "mr": "शिक्षण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hisar",
+          "name": {
+            "en": "Hisar",
+            "hi": "हिसार",
+            "mr": "हिसार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Agricultural university, livestock research and steel.",
+            "hi": "कृषि विश्वविद्यालय, पशुधन अनुसंधान और इस्पात।",
+            "mr": "कृषी विद्यापीठ, पशुधन संशोधन व पोलाद.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Agriculture",
+            "hi": "कृषि",
+            "mr": "शेती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "karnal",
+          "name": {
+            "en": "Karnal",
+            "hi": "करनाल",
+            "mr": "कर्नाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rice and dairy research institutes.",
+            "hi": "धान और डेयरी अनुसंधान संस्थान।",
+            "mr": "भात व दुग्ध संशोधन संस्था.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Agriculture",
+            "hi": "कृषि",
+            "mr": "शेती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "panchkula",
+          "name": {
+            "en": "Panchkula",
+            "hi": "पंचकूला",
+            "mr": "पंचकुला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Planned city in the Chandigarh tricity.",
+            "hi": "चंडीगढ़ ट्राइसिटी का नियोजित शहर।",
+            "mr": "चंदीगड त्रिनगरीतील नियोजित शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Administration",
+            "hi": "प्रशासन",
+            "mr": "प्रशासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major cities",
+        "hi": "प्रमुख शहर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "districts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ambala",
+          "name": {
+            "en": "Ambala",
+            "hi": "अंबाला",
+            "mr": "अंबाला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhiwani",
+          "name": {
+            "en": "Bhiwani",
+            "hi": "भिवानी",
+            "mr": "भिवानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "charkhidadri",
+          "name": {
+            "en": "Charkhi Dadri",
+            "hi": "चरखी दादरी",
+            "mr": "चरखी दादरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "faridabad",
+          "name": {
+            "en": "Faridabad",
+            "hi": "फ़रीदाबाद",
+            "mr": "फरिदाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "fatehabad",
+          "name": {
+            "en": "Fatehabad",
+            "hi": "फ़तेहाबाद",
+            "mr": "फतेहाबाद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gurugram",
+          "name": {
+            "en": "Gurugram",
+            "hi": "गुरुग्राम",
+            "mr": "गुरुग्राम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hansi",
+          "name": {
+            "en": "Hansi",
+            "hi": "हांसी",
+            "mr": "हांसी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hisar",
+          "name": {
+            "en": "Hisar",
+            "hi": "हिसार",
+            "mr": "हिसार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jhajjar",
+          "name": {
+            "en": "Jhajjar",
+            "hi": "झज्जर",
+            "mr": "झज्जर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jind",
+          "name": {
+            "en": "Jind",
+            "hi": "जींद",
+            "mr": "जिंद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kaithal",
+          "name": {
+            "en": "Kaithal",
+            "hi": "कैथल",
+            "mr": "कैथल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "karnal",
+          "name": {
+            "en": "Karnal",
+            "hi": "करनाल",
+            "mr": "कर्नाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kurukshetra",
+          "name": {
+            "en": "Kurukshetra",
+            "hi": "कुरुक्षेत्र",
+            "mr": "कुरुक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mahendragarh",
+          "name": {
+            "en": "Mahendragarh",
+            "hi": "महेंद्रगढ़",
+            "mr": "महेंद्रगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nuh",
+          "name": {
+            "en": "Nuh",
+            "hi": "नूँह",
+            "mr": "नूह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "palwal",
+          "name": {
+            "en": "Palwal",
+            "hi": "पलवल",
+            "mr": "पलवल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "panchkula",
+          "name": {
+            "en": "Panchkula",
+            "hi": "पंचकूला",
+            "mr": "पंचकुला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "panipat",
+          "name": {
+            "en": "Panipat",
+            "hi": "पानीपत",
+            "mr": "पानिपत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rewari",
+          "name": {
+            "en": "Rewari",
+            "hi": "रेवाड़ी",
+            "mr": "रेवाडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rohtak",
+          "name": {
+            "en": "Rohtak",
+            "hi": "रोहतक",
+            "mr": "रोहतक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sirsa",
+          "name": {
+            "en": "Sirsa",
+            "hi": "सिरसा",
+            "mr": "सिरसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sonipat",
+          "name": {
+            "en": "Sonipat",
+            "hi": "सोनीपत",
+            "mr": "सोनीपत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "yamunanagar",
+          "name": {
+            "en": "Yamunanagar",
+            "hi": "यमुनानगर",
+            "mr": "यमुनानगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "The 23 districts (alphabetical)",
+        "hi": "23 ज़िले (वर्णानुक्रम)",
+        "mr": "23 जिल्हे (वर्णक्रमानुसार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official district list (State notification)",
+            "hi": "आधिकारिक ज़िला सूची (राज्य अधिसूचना)",
+            "mr": "अधिकृत जिल्हा यादी (राज्य अधिसूचना)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Link the State's list of districts; Hansi was carved out of Hisar in December 2025."
+        },
+        {
+          "label": {
+            "en": "City populations (Census 2011)",
+            "hi": "शहरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban agglomeration tables."
+        }
+      ]
+    }
+  ]
+}

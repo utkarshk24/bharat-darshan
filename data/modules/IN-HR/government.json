@@ -1,0 +1,138 @@
+{
+  "region": "IN-HR",
+  "module": "government",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Haryana has a unicameral legislature, the 90-member Vidhan Sabha, which sits in Chandigarh. The State elects 10 members to the Lok Sabha and 5 to the Rajya Sabha.\n\nIn the Assembly election of October 2024 the Bharatiya Janata Party won 48 of the 90 seats, a third consecutive term, and Nayab Singh Saini — Chief Minister since March 2024 — was sworn in again on 17 October 2024 at Panchkula. Harvinder Kalyan (BJP) is Speaker. Ashim Kumar Ghosh has been Governor since 21 July 2025. The next Assembly election is due by late 2029.",
+        "hi": "हरियाणा में एकसदनीय विधानमंडल है, 90 सदस्यों वाली विधानसभा, जिसकी बैठकें चंडीगढ़ में होती हैं। राज्य से लोकसभा के 10 और राज्यसभा के 5 सदस्य चुने जाते हैं।\n\nअक्टूबर 2024 के विधानसभा चुनाव में भारतीय जनता पार्टी ने 90 में से 48 सीटें जीतीं, जो लगातार तीसरा कार्यकाल है, और मार्च 2024 से मुख्यमंत्री नायब सिंह सैनी ने 17 अक्टूबर 2024 को पंचकूला में फिर से शपथ ली। हरविंद्र कल्याण (भाजपा) अध्यक्ष हैं। असीम कुमार घोष 21 जुलाई 2025 से राज्यपाल हैं। अगला विधानसभा चुनाव 2029 के अंत तक होना है।",
+        "mr": "हरियाणामध्ये एकसदनी विधिमंडळ आहे, 90 सदस्यांची विधानसभा, जिच्या बैठका चंदीगडमध्ये होतात. राज्यातून लोकसभेवर 10 व राज्यसभेवर 5 सदस्य निवडले जातात.\n\nऑक्टोबर 2024 च्या विधानसभा निवडणुकीत भारतीय जनता पक्षाने 90 पैकी 48 जागा जिंकल्या, ही सलग तिसरी कारकीर्द आहे, आणि मार्च 2024 पासून मुख्यमंत्री असलेल्या नायबसिंह सैनी यांनी 17 ऑक्टोबर 2024 रोजी पंचकुला येथे पुन्हा शपथ घेतली. हरविंदर कल्याण (भाजप) अध्यक्ष आहेत. असीम कुमार घोष 21 जुलै 2025 पासून राज्यपाल आहेत. पुढील विधानसभा निवडणूक 2029 च्या अखेरीपर्यंत होणे अपेक्षित आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "the-week",
+        "hr-lokbhavan",
+        "tribune"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "lokbhavan",
+          "name": {
+            "en": "Lok Bhavan Haryana",
+            "hi": "लोक भवन हरियाणा",
+            "mr": "लोक भवन हरियाणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://lokbhavan.haryana.gov.in",
+          "sourceId": "hr-lokbhavan"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Haryana",
+            "hi": "हरियाणा सरकार",
+            "mr": "हरियाणा शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://haryana.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "2024 Assembly election — party-wise result",
+            "hi": "2024 विधानसभा चुनाव — दलवार परिणाम",
+            "mr": "2024 विधानसभा निवडणूक — पक्षनिहाय निकाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "ECI statistical report for Haryana 2024."
+        },
+        {
+          "label": {
+            "en": "Chief Minister's swearing-in — official source",
+            "hi": "मुख्यमंत्री का शपथ ग्रहण — आधिकारिक स्रोत",
+            "mr": "मुख्यमंत्र्यांचा शपथविधी — अधिकृत स्रोत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "hr-lokbhavan",
+          "note": "Replace the PTI copy with the Lok Bhavan release."
+        },
+        {
+          "label": {
+            "en": "Leader of Opposition — official notice",
+            "hi": "नेता प्रतिपक्ष — आधिकारिक सूचना",
+            "mr": "विरोधी पक्षनेते — अधिकृत सूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Vidhan Sabha secretariat."
+        }
+      ]
+    }
+  ]
+}

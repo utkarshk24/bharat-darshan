@@ -1,0 +1,412 @@
+{
+  "region": "IN-HR",
+  "module": "education",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Haryana's higher-education gross enrolment ratio (ages 18–23) was 33.3% in 2021-22 in AISHE, above the national 28.4% and up from 27.6% in 2017-18; women's GER (37.0%) was well above men's (30.3%). The State had 56 universities and 1,090 colleges. Literacy at the 2011 Census was 75.6%.\n\nKurukshetra University (1956), Maharshi Dayanand University in Rohtak (1976) and Chaudhary Charan Singh Haryana Agricultural University in Hisar (1970) are the oldest State universities, and the Lala Lajpat Rai University of Veterinary and Animal Sciences is also in Hisar. National institutions include IIM Rohtak, NIT Kurukshetra, the National Dairy Research Institute in Karnal, the Central University of Haryana at Mahendragarh, and the National Cancer Institute of AIIMS at Badsa in Jhajjar; Pt. B. D. Sharma PGIMS in Rohtak is the main State medical institute. Private universities in Sonipat and Gurugram have grown rapidly.",
+        "hi": "एआईएसएचई के अनुसार 2021-22 में हरियाणा का उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 33.3% था, जो राष्ट्रीय 28.4% से अधिक और 2017-18 के 27.6% से ऊपर है; महिलाओं का जीईआर (37.0%) पुरुषों (30.3%) से काफ़ी अधिक था। राज्य में 56 विश्वविद्यालय और 1,090 कॉलेज थे। 2011 की जनगणना में साक्षरता 75.6% थी।\n\nकुरुक्षेत्र विश्वविद्यालय (1956), रोहतक का महर्षि दयानंद विश्वविद्यालय (1976) और हिसार का चौधरी चरण सिंह हरियाणा कृषि विश्वविद्यालय (1970) सबसे पुराने राज्य विश्वविद्यालय हैं, और लाला लाजपत राय पशु चिकित्सा एवं पशु विज्ञान विश्वविद्यालय भी हिसार में है। राष्ट्रीय संस्थानों में आईआईएम रोहतक, एनआईटी कुरुक्षेत्र, करनाल का राष्ट्रीय डेयरी अनुसंधान संस्थान, महेंद्रगढ़ का हरियाणा केंद्रीय विश्वविद्यालय और झज्जर के बाढ़सा में एम्स का राष्ट्रीय कैंसर संस्थान शामिल हैं; रोहतक का पं. बी. डी. शर्मा पीजीआईएमएस राज्य का मुख्य चिकित्सा संस्थान है। सोनीपत और गुरुग्राम में निजी विश्वविद्यालय तेज़ी से बढ़े हैं।",
+        "mr": "एआयएसएचईनुसार 2021-22 मध्ये हरियाणाचे उच्चशिक्षण एकूण नोंदणी गुणोत्तर (18–23 वय) 33.3% होते, राष्ट्रीय 28.4% पेक्षा अधिक व 2017-18 मधील 27.6% पेक्षा जास्त; स्त्रियांचे जीईआर (37.0%) पुरुषांपेक्षा (30.3%) बरेच अधिक होते. राज्यात 56 विद्यापीठे व 1,090 महाविद्यालये होती. 2011 च्या जनगणनेत साक्षरता 75.6% होती.\n\nकुरुक्षेत्र विद्यापीठ (1956), रोहतकचे महर्षी दयानंद विद्यापीठ (1976) व हिसारचे चौधरी चरणसिंह हरियाणा कृषी विद्यापीठ (1970) ही सर्वांत जुनी राज्य विद्यापीठे आहेत, आणि लाला लजपतराय पशुवैद्यकीय व पशुविज्ञान विद्यापीठही हिसारमध्ये आहे. राष्ट्रीय संस्थांत आयआयएम रोहतक, एनआयटी कुरुक्षेत्र, कर्नालची राष्ट्रीय दुग्ध संशोधन संस्था, महेंद्रगडचे हरियाणा केंद्रीय विद्यापीठ आणि झज्जरच्या बाढसा येथील एम्सची राष्ट्रीय कर्करोग संस्था यांचा समावेश आहे; रोहतकचे पं. बी. डी. शर्मा पीजीआयएमएस ही राज्याची मुख्य वैद्यकीय संस्था आहे. सोनीपत व गुरुग्राममध्ये खासगी विद्यापीठे झपाट्याने वाढली आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 33.3,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 31.08,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 56,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1090,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "hr",
+          "label": {
+            "en": "Haryana",
+            "hi": "हरियाणा",
+            "mr": "हरियाणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 27.6,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 28.07,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 28.2,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 31.08,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 33.3,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kuk",
+          "name": {
+            "en": "Kurukshetra University",
+            "hi": "कुरुक्षेत्र विश्वविद्यालय",
+            "mr": "कुरुक्षेत्र विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kurukshetra, 1956",
+            "hi": "कुरुक्षेत्र, 1956",
+            "mr": "कुरुक्षेत्र, 1956",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mdu",
+          "name": {
+            "en": "Maharshi Dayanand University",
+            "hi": "महर्षि दयानंद विश्वविद्यालय",
+            "mr": "महर्षी दयानंद विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Rohtak, 1976",
+            "hi": "रोहतक, 1976",
+            "mr": "रोहतक, 1976",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hau",
+          "name": {
+            "en": "CCS Haryana Agricultural University",
+            "hi": "चौ. चरण सिंह हरियाणा कृषि विश्वविद्यालय",
+            "mr": "चौ. चरणसिंह हरियाणा कृषी विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hisar, 1970",
+            "hi": "हिसार, 1970",
+            "mr": "हिसार, 1970",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iimr",
+          "name": {
+            "en": "IIM Rohtak",
+            "hi": "आईआईएम रोहतक",
+            "mr": "आयआयएम रोहतक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Rohtak",
+            "hi": "रोहतक",
+            "mr": "रोहतक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nitk",
+          "name": {
+            "en": "NIT Kurukshetra",
+            "hi": "एनआईटी कुरुक्षेत्र",
+            "mr": "एनआयटी कुरुक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kurukshetra",
+            "hi": "कुरुक्षेत्र",
+            "mr": "कुरुक्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ndri",
+          "name": {
+            "en": "National Dairy Research Institute",
+            "hi": "राष्ट्रीय डेयरी अनुसंधान संस्थान",
+            "mr": "राष्ट्रीय दुग्ध संशोधन संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Karnal",
+            "hi": "करनाल",
+            "mr": "कर्नाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cuh",
+          "name": {
+            "en": "Central University of Haryana",
+            "hi": "हरियाणा केंद्रीय विश्वविद्यालय",
+            "mr": "हरियाणा केंद्रीय विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Mahendragarh",
+            "hi": "महेंद्रगढ़",
+            "mr": "महेंद्रगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        }
+      ]
+    }
+  ]
+}

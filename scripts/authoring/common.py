@@ -191,6 +191,9 @@ def gi_list(path, names, shared_map, textile=()):
              "applicationNo": app, "filingDate": date, "registrationYear": None, "region": None, "description": None,
              "sourceId": "gi-registry", "url": GI_PDF, "revisionStatus": "final", "confidence": "Official",
              "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."}
+        if not date:
+            g["filingDate"] = None
+            g["note"] = "Registered GI as listed by the GI Registry (as on 31 Dec 2025). The filing date printed in the registry list is not a valid past date, so it is not shown."
         if states in shared_map:
             g["sharedWith"] = shared_map[states]
         out.append(g)

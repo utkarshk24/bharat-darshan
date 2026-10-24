@@ -1,0 +1,42 @@
+{
+  "region": "IN-HR",
+  "module": "diaspora",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Haryana's migration story is mostly within India — to Delhi, the armed forces and government service — and the State in turn draws large numbers of workers from Uttar Pradesh, Bihar and other States to the factories and offices of Gurugram, Faridabad and Panipat. Families from Haryana have also settled in Australia, Canada, the United States and the United Kingdom, often through study, and the Haryanvi community abroad celebrates Haryana Day and Teej.",
+        "hi": "हरियाणा की प्रवास कहानी अधिकतर भारत के भीतर है — दिल्ली, सशस्त्र बलों और सरकारी सेवा की ओर — और बदले में राज्य उत्तर प्रदेश, बिहार और अन्य राज्यों से बड़ी संख्या में श्रमिकों को गुरुग्राम, फ़रीदाबाद और पानीपत के कारख़ानों और कार्यालयों में खींचता है। हरियाणा के परिवार ऑस्ट्रेलिया, कनाडा, अमेरिका और ब्रिटेन में भी बसे हैं, अक्सर पढ़ाई के माध्यम से, और विदेश में हरियाणवी समुदाय हरियाणा दिवस और तीज मनाता है।",
+        "mr": "हरियाणाची स्थलांतर कथा बहुतांश भारतांतर्गत आहे — दिल्ली, सशस्त्र दले व सरकारी सेवेकडे — आणि त्याबदल्यात राज्य उत्तर प्रदेश, बिहार व इतर राज्यांतून मोठ्या संख्येने कामगारांना गुरुग्राम, फरिदाबाद व पानिपतच्या कारखाने व कार्यालयांकडे खेचते. हरियाणातील कुटुंबे ऑस्ट्रेलिया, कॅनडा, अमेरिका व ब्रिटनमध्येही स्थायिक झाली आहेत, अनेकदा शिक्षणाच्या माध्यमातून, आणि परदेशातील हरियाणवी समुदाय हरियाणा दिन व तीज साजरी करतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Migration in and out of Haryana (Census 2011 D-series)",
+            "hi": "हरियाणा में आने-जाने वाला प्रवास (जनगणना 2011 डी-शृंखला)",
+            "mr": "हरियाणात येणारे-जाणारे स्थलांतर (जनगणना 2011 डी-मालिका)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 migration tables."
+        }
+      ]
+    }
+  ]
+}

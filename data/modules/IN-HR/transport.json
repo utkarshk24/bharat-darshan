@@ -1,0 +1,130 @@
+{
+  "region": "IN-HR",
+  "module": "transport",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Most air travellers from Haryana use Delhi's Indira Gandhi International Airport, next to Gurugram; the State's own Maharaja Agrasen Airport at Hisar has begun scheduled flights. National Highway 44 (the old Grand Trunk Road) runs north from Delhi through Sonipat, Panipat, Karnal and Ambala, and the Delhi–Mumbai Expressway, the Kundli–Manesar–Palwal Expressway and the Dwarka Expressway serve the south. The Delhi Metro reaches Gurugram, Faridabad, Ballabgarh and Bahadurgarh, and Gurugram has its own Rapid Metro. Ambala Cantonment is a major railway junction of the Northern Railway, and the Western Dedicated Freight Corridor passes through Rewari.",
+        "hi": "हरियाणा के अधिकांश हवाई यात्री गुरुग्राम से सटे दिल्ली के इंदिरा गांधी अंतरराष्ट्रीय हवाई अड्डे का उपयोग करते हैं; राज्य के अपने हिसार स्थित महाराजा अग्रसेन हवाई अड्डे से नियमित उड़ानें शुरू हो चुकी हैं। राष्ट्रीय राजमार्ग 44 (पुरानी ग्रैंड ट्रंक रोड) दिल्ली से उत्तर की ओर सोनीपत, पानीपत, करनाल और अंबाला से होकर जाता है, और दिल्ली–मुंबई एक्सप्रेसवे, कुंडली–मानेसर–पलवल एक्सप्रेसवे और द्वारका एक्सप्रेसवे दक्षिण को सेवा देते हैं। दिल्ली मेट्रो गुरुग्राम, फ़रीदाबाद, बल्लभगढ़ और बहादुरगढ़ तक पहुँचती है, और गुरुग्राम की अपनी रैपिड मेट्रो है। अंबाला छावनी उत्तर रेलवे का प्रमुख जंक्शन है, और पश्चिमी समर्पित माल गलियारा रेवाड़ी से गुज़रता है।",
+        "mr": "हरियाणातील बहुतेक हवाई प्रवासी गुरुग्रामलगतच्या दिल्लीच्या इंदिरा गांधी आंतरराष्ट्रीय विमानतळाचा वापर करतात; राज्याच्या स्वतःच्या हिसार येथील महाराजा अग्रसेन विमानतळावरून नियमित उड्डाणे सुरू झाली आहेत. राष्ट्रीय महामार्ग 44 (जुना ग्रँड ट्रंक रोड) दिल्लीहून उत्तरेकडे सोनीपत, पानिपत, कर्नाल व अंबालामार्गे जातो, आणि दिल्ली–मुंबई द्रुतगती मार्ग, कुंडली–मानेसर–पलवल द्रुतगती मार्ग व द्वारका द्रुतगती मार्ग दक्षिणेला सेवा देतात. दिल्ली मेट्रो गुरुग्राम, फरिदाबाद, बल्लभगड व बहादुरगडपर्यंत पोहोचते, आणि गुरुग्रामची स्वतःची रॅपिड मेट्रो आहे. अंबाला छावणी हे उत्तर रेल्वेचे प्रमुख जंक्शन आहे, आणि पश्चिम समर्पित मालवाहतूक मार्गिका रेवाडीमधून जाते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "del",
+          "name": {
+            "en": "Indira Gandhi International Airport, Delhi (nearest hub)",
+            "hi": "इंदिरा गांधी अंतरराष्ट्रीय हवाई अड्डा, दिल्ली (निकटतम केंद्र)",
+            "mr": "इंदिरा गांधी आंतरराष्ट्रीय विमानतळ, दिल्ली (जवळचे केंद्र)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "DEL",
+            "hi": "DEL",
+            "mr": "DEL",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hss",
+          "name": {
+            "en": "Maharaja Agrasen Airport, Hisar",
+            "hi": "महाराजा अग्रसेन हवाई अड्डा, हिसार",
+            "mr": "महाराजा अग्रसेन विमानतळ, हिसार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hisar",
+            "hi": "हिसार",
+            "mr": "हिसार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Hisar airport — flights and traffic",
+            "hi": "हिसार हवाई अड्डा — उड़ानें और यातायात",
+            "mr": "हिसार विमानतळ — उड्डाणे व वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI / State Civil Aviation Department."
+        },
+        {
+          "label": {
+            "en": "Delhi–Gurugram–SNB RRTS corridor — status",
+            "hi": "दिल्ली–गुरुग्राम–एसएनबी आरआरटीएस गलियारा — स्थिति",
+            "mr": "दिल्ली–गुरुग्राम–एसएनबी आरआरटीएस मार्गिका — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ncrtc",
+          "note": "NCRTC project page."
+        }
+      ]
+    }
+  ]
+}

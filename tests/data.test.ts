@@ -86,7 +86,7 @@ describe("search", () => {
   const regions = load().regions.map((r) => Region.parse(r.json)).map((r) => ({
     code: r.code, slug: r.slug, type: r.type as "state" | "ut", name: r.name, localName: r.localName, formerNames: r.formerNames,
     zonalCouncil: r.zonalCouncil, accent: r.accent, motif: r.motif, tile: r.tile, capitals: r.capitals, governanceModel: r.governanceModel,
-    population2011: null, gsdpCurrent: null, headOfState: null, headOfGovernment: null, sourceLabels: {},
+    population2011: null, gsdpCurrent: null, headOfState: null, headOfGovernment: null, sourceLabels: {}, mapMetrics: {},
   }));
   const search = createSearcher(buildIndex(regions));
   const top = (q: string) => search(q)[0]?.label.en;

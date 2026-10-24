@@ -19,7 +19,7 @@ export default async function Page({ params }: { params: Promise<{ locale: Local
   const t = await getTranslations();
   return (
     <div className="mx-auto max-w-7xl px-4 py-10">
-      <PageHeader title={t("nav.map")} intro={t("home.mapNote")} asOn={getDataAsOn()} />
+      <PageHeader title={t("atlas.heroTitle")} intro={t("atlas.heroSub")} asOn={getDataAsOn()} />
       <IndiaMap regions={getSummaries()} />
       <div className="mt-10"><Disclaimer /></div>
     </div>

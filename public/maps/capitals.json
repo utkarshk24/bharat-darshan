@@ -1,0 +1,580 @@
+{
+ "source": "Natural Earth 1:10m populated places (public domain), v5 - point locations only",
+ "sourceUrl": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
+ "missing": [
+  "IN-HP Dharamshala",
+  "IN-UK Bhararisain (Gairsain)"
+ ],
+ "capitals": [
+  {
+   "code": "IN-AN",
+   "role": "administrative",
+   "name": {
+    "en": "Sri Vijaya Puram",
+    "hi": "श्री विजयपुरम",
+    "mr": "श्री विजयपुरम",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 92.736,
+   "lat": 11.667
+  },
+  {
+   "code": "IN-AP",
+   "role": "administrative",
+   "name": {
+    "en": "Amaravati",
+    "hi": "अमरावती",
+    "mr": "अमरावती",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 80.5243,
+   "lat": 16.5337
+  },
+  {
+   "code": "IN-AR",
+   "role": "administrative",
+   "name": {
+    "en": "Itanagar",
+    "hi": "ईटानगर",
+    "mr": "इटानगर",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 93.6166,
+   "lat": 27.1004
+  },
+  {
+   "code": "IN-AS",
+   "role": "administrative",
+   "name": {
+    "en": "Dispur",
+    "hi": "दिसपुर",
+    "mr": "दिसपूर",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 91.7666,
+   "lat": 26.144
+  },
+  {
+   "code": "IN-BR",
+   "role": "administrative",
+   "name": {
+    "en": "Patna",
+    "hi": "पटना",
+    "mr": "पाटणा",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 85.1281,
+   "lat": 25.6269
+  },
+  {
+   "code": "IN-CH",
+   "role": "administrative",
+   "name": {
+    "en": "Chandigarh",
+    "hi": "चंडीगढ़",
+    "mr": "चंदीगड",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 76.7781,
+   "lat": 30.7219
+  },
+  {
+   "code": "IN-CT",
+   "role": "administrative",
+   "name": {
+    "en": "Raipur",
+    "hi": "रायपुर",
+    "mr": "रायपूर",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 81.6331,
+   "lat": 21.2369
+  },
+  {
+   "code": "IN-DH",
+   "role": "administrative",
+   "name": {
+    "en": "Daman",
+    "hi": "दमन",
+    "mr": "दमण",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 72.85,
+   "lat": 20.417
+  },
+  {
+   "code": "IN-DL",
+   "role": "national",
+   "name": {
+    "en": "New Delhi",
+    "hi": "नई दिल्ली",
+    "mr": "नवी दिल्ली",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 77.2,
+   "lat": 28.6
+  },
+  {
+   "code": "IN-GA",
+   "role": "administrative",
+   "name": {
+    "en": "Panaji",
+    "hi": "पणजी",
+    "mr": "पणजी",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 73.818,
+   "lat": 15.492
+  },
+  {
+   "code": "IN-GJ",
+   "role": "administrative",
+   "name": {
+    "en": "Gandhinagar",
+    "hi": "गांधीनगर",
+    "mr": "गांधीनगर",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 72.6436,
+   "lat": 23.219
+  },
+  {
+   "code": "IN-HP",
+   "role": "administrative",
+   "name": {
+    "en": "Shimla",
+    "hi": "शिमला",
+    "mr": "शिमला",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 77.1666,
+   "lat": 31.1
+  },
+  {
+   "code": "IN-HR",
+   "role": "administrative",
+   "name": {
+    "en": "Chandigarh",
+    "hi": "चंडीगढ़",
+    "mr": "चंदीगड",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 76.7781,
+   "lat": 30.7219
+  },
+  {
+   "code": "IN-JH",
+   "role": "administrative",
+   "name": {
+    "en": "Ranchi",
+    "hi": "रांची",
+    "mr": "रांची",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 85.3281,
+   "lat": 23.372
+  },
+  {
+   "code": "IN-JK",
+   "role": "summer",
+   "name": {
+    "en": "Srinagar",
+    "hi": "श्रीनगर",
+    "mr": "श्रीनगर",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 74.8283,
+   "lat": 34.0695
+  },
+  {
+   "code": "IN-JK",
+   "role": "winter",
+   "name": {
+    "en": "Jammu",
+    "hi": "जम्मू",
+    "mr": "जम्मू",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 74.8448,
+   "lat": 32.7137
+  },
+  {
+   "code": "IN-KA",
+   "role": "administrative",
+   "name": {
+    "en": "Bengaluru",
+    "hi": "बेंगलुरु",
+    "mr": "बंगळुरू",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 77.5581,
+   "lat": 12.9719
+  },
+  {
+   "code": "IN-KL",
+   "role": "administrative",
+   "name": {
+    "en": "Thiruvananthapuram",
+    "hi": "तिरुवनंतपुरम",
+    "mr": "तिरुवनंतपुरम",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 76.9252,
+   "lat": 8.5155
+  },
+  {
+   "code": "IN-LA",
+   "role": "administrative",
+   "name": {
+    "en": "Leh",
+    "hi": "लेह",
+    "mr": "लेह",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 77.5723,
+   "lat": 34.1616
+  },
+  {
+   "code": "IN-LD",
+   "role": "administrative",
+   "name": {
+    "en": "Kavaratti",
+    "hi": "कवरत्ती",
+    "mr": "कवरत्ती",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 72.6369,
+   "lat": 10.5626
+  },
+  {
+   "code": "IN-MH",
+   "role": "administrative",
+   "name": {
+    "en": "Mumbai",
+    "hi": "मुंबई",
+    "mr": "मुंबई",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 72.8758,
+   "lat": 19.0684
+  },
+  {
+   "code": "IN-MH",
+   "role": "winter-session",
+   "name": {
+    "en": "Nagpur",
+    "hi": "नागपुर",
+    "mr": "नागपूर",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 79.088,
+   "lat": 21.1719
+  },
+  {
+   "code": "IN-ML",
+   "role": "administrative",
+   "name": {
+    "en": "Shillong",
+    "hi": "शिलांग",
+    "mr": "शिलाँग",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 91.88,
+   "lat": 25.5705
+  },
+  {
+   "code": "IN-MN",
+   "role": "administrative",
+   "name": {
+    "en": "Imphal",
+    "hi": "इंफाल",
+    "mr": "इंफाळ",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 93.95,
+   "lat": 24.8
+  },
+  {
+   "code": "IN-MP",
+   "role": "administrative",
+   "name": {
+    "en": "Bhopal",
+    "hi": "भोपाल",
+    "mr": "भोपाळ",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 77.408,
+   "lat": 23.2519
+  },
+  {
+   "code": "IN-MZ",
+   "role": "administrative",
+   "name": {
+    "en": "Aizawl",
+    "hi": "आइज़ोल",
+    "mr": "ऐझॉल",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 92.72,
+   "lat": 23.7104
+  },
+  {
+   "code": "IN-NL",
+   "role": "administrative",
+   "name": {
+    "en": "Kohima",
+    "hi": "कोहिमा",
+    "mr": "कोहिमा",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 94.1166,
+   "lat": 25.667
+  },
+  {
+   "code": "IN-OR",
+   "role": "administrative",
+   "name": {
+    "en": "Bhubaneswar",
+    "hi": "भुवनेश्वर",
+    "mr": "भुवनेश्वर",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 85.8254,
+   "lat": 20.2724
+  },
+  {
+   "code": "IN-PB",
+   "role": "administrative",
+   "name": {
+    "en": "Chandigarh",
+    "hi": "चंडीगढ़",
+    "mr": "चंदीगड",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 76.7781,
+   "lat": 30.7219
+  },
+  {
+   "code": "IN-PY",
+   "role": "administrative",
+   "name": {
+    "en": "Puducherry",
+    "hi": "पुडुचेरी",
+    "mr": "पुदुच्चेरी",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 79.83,
+   "lat": 11.935
+  },
+  {
+   "code": "IN-RJ",
+   "role": "administrative",
+   "name": {
+    "en": "Jaipur",
+    "hi": "जयपुर",
+    "mr": "जयपूर",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 75.808,
+   "lat": 26.9231
+  },
+  {
+   "code": "IN-SK",
+   "role": "administrative",
+   "name": {
+    "en": "Gangtok",
+    "hi": "गंगटोक",
+    "mr": "गंगटोक",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 88.6166,
+   "lat": 27.3333
+  },
+  {
+   "code": "IN-TG",
+   "role": "administrative",
+   "name": {
+    "en": "Hyderabad",
+    "hi": "हैदराबाद",
+    "mr": "हैदराबाद",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 78.478,
+   "lat": 17.4019
+  },
+  {
+   "code": "IN-TN",
+   "role": "administrative",
+   "name": {
+    "en": "Chennai",
+    "hi": "चेन्नई",
+    "mr": "चेन्नई",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 80.2781,
+   "lat": 13.0919
+  },
+  {
+   "code": "IN-TR",
+   "role": "administrative",
+   "name": {
+    "en": "Agartala",
+    "hi": "अगरतला",
+    "mr": "आगरतळा",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 91.28,
+   "lat": 23.8354
+  },
+  {
+   "code": "IN-UK",
+   "role": "winter",
+   "name": {
+    "en": "Dehradun",
+    "hi": "देहरादून",
+    "mr": "डेहराडून",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 78.05,
+   "lat": 30.3204
+  },
+  {
+   "code": "IN-UP",
+   "role": "administrative",
+   "name": {
+    "en": "Lucknow",
+    "hi": "लखनऊ",
+    "mr": "लखनौ",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 80.9131,
+   "lat": 26.857
+  },
+  {
+   "code": "IN-WB",
+   "role": "administrative",
+   "name": {
+    "en": "Kolkata",
+    "hi": "कोलकाता",
+    "mr": "कोलकाता",
+    "_status": {
+     "hi": "draft",
+     "mr": "draft"
+    }
+   },
+   "lon": 88.3691,
+   "lat": 22.5696
+  }
+ ]
+}

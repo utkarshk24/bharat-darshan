@@ -1,13 +1,16 @@
 {
-  "$comment": "Install an official Survey of India boundary file here (TopoJSON). Until 'file' is set and 'verified' is true, the site renders the tile-grid cartogram, which draws no boundaries. See docs/MAPS.md.",
+  "$comment": "Official Survey of India boundary file. See docs/MAPS.md for how it is built and checked.",
   "boundaries": {
-    "file": null,
+    "file": "india-soi-states.topo.json",
     "format": "topojson",
     "object": "states",
     "idProperty": "iso_code",
     "sourceId": "survey-of-india",
-    "verified": false,
-    "verifiedBy": null,
-    "verifiedOn": null
-  }
+    "sourceProduct": "Survey of India digital boundary data, State/UT boundaries (free product OVSF/1M/7, onlinemaps.surveyofindia.gov.in), repackaged unchanged by ramSeraph/indian_admin_boundaries (CC0), release 'states', file SOI_States.geojsonl.7z (dated 11 Dec 2023)",
+    "simplification": "Visvalingam 3%, keep-shapes, for screen display only",
+    "verified": true,
+    "verifiedBy": "Bharat Darshan build check: 36 States/UTs + 4 inter-State disputed areas; J&K incl. PoK, Ladakh incl. Gilgit-Baltistan and Aksai Chin, Arunachal Pradesh in full; extent 68.18–97.41°E, 6.75–37.09°N",
+    "verifiedOn": "2026-10-25"
+  },
+  "capitals": { "file": "capitals.json" }
 }

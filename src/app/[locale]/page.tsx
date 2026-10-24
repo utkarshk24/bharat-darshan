@@ -86,7 +86,7 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
         {/* Map */}
         <section aria-labelledby="map-h">
           <h2 id="map-h" className="mb-4 text-2xl font-bold">{t("home.mapTitle")}</h2>
-          <IndiaMap regions={summaries} />
+          <IndiaMap regions={summaries} compact />
         </section>
 
         {/* Quick facts, featured region, indicator of the day */}

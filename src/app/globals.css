@@ -24,6 +24,12 @@
   --green-ink: #0b6b2e;    /* 6.3:1 on white */
   --link: #1d4ed8;
   --focus: #1d4ed8;
+  /* Map data layers: low → high (validated ordinal ramp, light surface) */
+  --seq-0: #86b6ef;
+  --seq-1: #5598e7;
+  --seq-2: #2a78d6;
+  --seq-3: #1c5cab;
+  --seq-4: #0d366b;
   --good: #0b6b2e;
   --bad: #b42318;
   --neutral: #4a5568;
@@ -45,6 +51,12 @@
   --green-ink: #6fd18b;
   --link: #8ab4ff;
   --focus: #8ab4ff;
+  /* Map data layers on dark: low → high reads dark → bright (validated vs #141d2b) */
+  --seq-0: #184f95;
+  --seq-1: #256abf;
+  --seq-2: #3987e5;
+  --seq-3: #6da7ec;
+  --seq-4: #b7d3f6;
   --good: #6fd18b;
   --bad: #ff8a80;
   --neutral: #a8b3c4;

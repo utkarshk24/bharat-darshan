@@ -1,108 +1,202 @@
 "use client";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { Grid3x3, Table2, Info } from "lucide-react";
-import { Link, useRouter } from "@/i18n/navigation";
+import { Download, Info, Layers, Link2, Map as MapIcon, Minus, Plus, RotateCcw, Search, Table2, X } from "lucide-react";
+import type { Topology } from "topojson-specification";
+import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import type { RegionSummary } from "@/lib/data";
 import type { ZonalCouncil } from "@/lib/schema";
 import { pick } from "@/lib/l10n";
 import { cn } from "@/lib/cn";
-import { ZONAL_COLORS, TYPE_COLORS, inkFor } from "./mapColors";
-import { GeoMap, type BoundaryManifest } from "./GeoMap";
+import { formatPeriod, formatValue, toDevanagariDigits } from "@/lib/format";
+import { usePreferences } from "@/components/Preferences";
+import { ZONAL_COLORS, TYPE_COLORS } from "./mapColors";
+import { GeoMap, type BoundaryManifest, type Capital, type GeoMapHandle } from "./GeoMap";
+import { DATA_THEMES, OVERLAYS, PLANNED, buildScale, fillForTheme, isDataTheme, type Overlay, type ThemeId } from "./layers";
+import { exportPng } from "./exportPng";
 
-export type Layer = "zonal" | "type";
 const ZONES: ZonalCouncil[] = ["northern", "central", "eastern", "western", "southern", "north-eastern", "islands"];
+const THEMES: ThemeId[] = ["zonal", "type", ...DATA_THEMES.map((d) => d.id)];
+const hrefFor = (r: RegionSummary) => (r.type === "state" ? `/states/${r.slug}` : `/uts/${r.slug}`);
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
-export function fillFor(r: RegionSummary, layer: Layer) {
-  return layer === "zonal" ? ZONAL_COLORS[r.zonalCouncil ?? "islands"] : TYPE_COLORS[r.type];
+interface Loaded {
+  manifest: BoundaryManifest;
+  topo: Topology;
+  capitals: Capital[];
+  missingCapitals: string[];
 }
 
-const hrefFor = (r: RegionSummary) => (r.type === "state" ? `/states/${r.slug}` : `/uts/${r.slug}`);
+/** Read #theme=…&on=labels,capitals&r=IN-MH from the URL (shareable views). */
+function readHash() {
+  if (typeof window === "undefined") return {};
+  const p = new URLSearchParams(window.location.hash.slice(1));
+  const theme = p.get("theme") as ThemeId | null;
+  const on = p.get("on");
+  return {
+    theme: theme && THEMES.includes(theme) ? theme : undefined,
+    overlays: on !== null ? new Set(on.split(",").filter((o): o is Overlay => OVERLAYS.includes(o as Overlay))) : undefined,
+    region: p.get("r") ?? undefined,
+  };
+}
 
 /**
- * Interactive India map (Sections 6, 9.3).
- * Renders official Survey of India boundaries ONLY when a verified file is installed
- * (public/maps/manifest.json). Otherwise it shows a tile-grid cartogram, which draws no
- * boundaries at all and therefore cannot misrepresent them (Principle 8).
+ * The India Atlas (Sections 6, 9.3): official Survey of India boundaries, data layers
+ * from sourced figures, capitals, search, zoom, share and export. `compact` is the
+ * home-page version without the side panel.
  */
 export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[]; compact?: boolean }) {
   const t = useTranslations();
+  const ta = useTranslations("atlas");
   const locale = useLocale() as Locale;
-  const router = useRouter();
-  const [layer, setLayer] = useState<Layer>("zonal");
-  const [view, setView] = useState<"map" | "table">("map");
-  const [focus, setFocus] = useState<ZonalCouncil | null>(null);
-  const [active, setActive] = useState<RegionSummary | null>(null);
-  const [manifest, setManifest] = useState<BoundaryManifest | null>(null);
+  const { digits } = usePreferences();
+  const dg = useCallback((s: string) => (digits === "devanagari" ? toDevanagariDigits(s) : s), [digits]);
+  const mapRef = useRef<GeoMapHandle>(null);
+  const wrapRef = useRef<HTMLDivElement>(null);
 
+  const [data, setData] = useState<Loaded | null>(null);
+  const [failed, setFailed] = useState(false);
+  const [theme, setTheme] = useState<ThemeId>("zonal");
+  const [overlays, setOverlays] = useState<Set<Overlay>>(new Set(compact ? ["capitals"] : ["labels", "capitals", "disputed"]));
+  const [focusZone, setFocusZone] = useState<ZonalCouncil | null>(null);
+  const [selected, setSelected] = useState<string | null>(null);
+  const [hover, setHover] = useState<{ r: RegionSummary; pt?: { x: number; y: number } } | null>(null);
+  const [view, setView] = useState<"map" | "table">("map");
+  const [query, setQuery] = useState("");
+  const [status, setStatus] = useState("");
+  const [restored, setRestored] = useState(compact);
+
+  // Load manifest → boundary file + capitals
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/maps/manifest.json`)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((m) => m?.boundaries?.file && m.boundaries.verified === true && m.boundaries.sourceId === "survey-of-india" && setManifest(m.boundaries))
-      .catch(() => {});
+    (async () => {
+      try {
+        const m = await (await fetch(`${BASE}/maps/manifest.json`)).json();
+        const b = m?.boundaries;
+        if (!(b?.file && b.verified === true && b.sourceId === "survey-of-india")) throw new Error("unverified");
+        const [topo, caps] = await Promise.all([
+          fetch(`${BASE}/maps/${b.file}`).then((r) => r.json()),
+          m.capitals?.file ? fetch(`${BASE}/maps/${m.capitals.file}`).then((r) => r.json()) : { capitals: [], missing: [] },
+        ]);
+        setData({ manifest: b, topo, capitals: caps.capitals ?? [], missingCapitals: caps.missing ?? [] });
+      } catch {
+        setFailed(true);
+        setView("table");
+      }
+    })();
   }, []);
 
-  const placed = useMemo(() => regions.filter((r) => r.tile), [regions]);
-  const rows = Math.max(...placed.map((r) => r.tile!.row)) + 1;
-  const cols = Math.max(...placed.map((r) => r.tile!.col)) + 1;
-  const S = 64, G = 6;
+  // Restore a shared view
+  useEffect(() => {
+    if (compact) return;
+    const h = readHash();
+    if (h.theme) setTheme(h.theme);
+    if (h.overlays) setOverlays(h.overlays);
+    if (h.region && regions.some((r) => r.code === h.region)) setSelected(h.region);
+    setRestored(true);
+  }, [compact, regions]);
+  useEffect(() => {
+    if (data && selected && !compact) mapRef.current?.focus(selected);
+    // only once the map has mounted
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data]);
 
-  const shortCode = (r: RegionSummary) => r.code.slice(3);
+  // Keep the URL in step with the view (no history entries)
+  useEffect(() => {
+    if (compact || !restored || typeof window === "undefined") return;
+    const p = new URLSearchParams();
+    p.set("theme", theme);
+    p.set("on", [...overlays].join(","));
+    if (selected) p.set("r", selected);
+    window.history.replaceState(null, "", `#${p.toString()}`);
+  }, [theme, overlays, selected, compact, restored]);
 
-  return (
-    <div className="flex flex-col gap-4">
-      {/* Controls */}
-      <div className="flex flex-wrap items-center gap-3">
-        <div role="radiogroup" aria-label={t("home.layer")} className="flex overflow-hidden rounded-md border border-border text-sm">
-          {(["zonal", "type"] as const).map((l) => (
-            <button
-              key={l}
-              role="radio"
-              aria-checked={layer === l}
-              onClick={() => setLayer(l)}
-              className={cn("px-3 py-1.5", layer === l ? "bg-navy text-bg font-semibold" : "hover:bg-surface-2")}
-            >
-              {l === "zonal" ? t("home.layerZonal") : t("home.layerType")}
-            </button>
-          ))}
-        </div>
-        <button
-          type="button"
-          onClick={() => setView(view === "map" ? "table" : "map")}
-          className="inline-flex items-center gap-1.5 rounded-md border border-border px-3 py-1.5 text-sm hover:bg-surface-2"
-        >
-          {view === "map" ? <Table2 aria-hidden className="size-4" /> : <Grid3x3 aria-hidden className="size-4" />}
-          {view === "map" ? t("home.viewAsTable") : t("home.viewAsMap")}
-        </button>
-      </div>
+  const byCode = useMemo(() => new Map(regions.map((r) => [r.code, r])), [regions]);
+  const scale = useMemo(() => (isDataTheme(theme) ? buildScale(regions, theme) : null), [regions, theme]);
+  const dataTheme = isDataTheme(theme) ? DATA_THEMES.find((d) => d.id === theme)! : null;
+  const fill = useCallback((r: RegionSummary) => fillForTheme(r, theme, scale), [theme, scale]);
 
-      {/* Region filters */}
-      {layer === "zonal" && (
-        <div role="group" aria-label={t("home.filterRegion")} className="flex flex-wrap gap-2 text-sm">
+  const valueText = useCallback(
+    (r: RegionSummary): string | null => {
+      if (!dataTheme) return null;
+      const dp = r.mapMetrics[dataTheme.id];
+      if (!dp) return ta("notAvailable");
+      const v = formatValue(dp, dataTheme.kind, locale) ?? ta("notAvailable");
+      return dg(`${v} (${formatPeriod(dp.period, locale)})`);
+    },
+    [dataTheme, locale, ta, dg],
+  );
+  const describe = useCallback(
+    (r: RegionSummary) => {
+      const kind = r.type === "state" ? t("common.state") : t("common.ut");
+      const v = valueText(r);
+      return `${pick(r.name, locale)}, ${kind}${v ? `. ${ta(`theme.${theme}`)}: ${v}` : ""}`;
+    },
+    [locale, t, ta, theme, valueText],
+  );
+
+  const select = useCallback((r: RegionSummary) => {
+    setSelected((cur) => (cur === r.code ? null : r.code));
+    if (!compact) mapRef.current?.focus(r.code);
+  }, [compact]);
+
+  const toggleOverlay = (o: Overlay) =>
+    setOverlays((s) => {
+      const n = new Set(s);
+      if (n.has(o)) n.delete(o);
+      else n.add(o);
+      return n;
+    });
+
+  const matches = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return [];
+    return regions
+      .filter((r) => [r.name.en, r.name.hi, r.name.mr, r.code, ...r.capitals.map((c) => c.name.en), ...r.capitals.map((c) => pick(c.name, locale))].some((s) => s.toLowerCase().includes(q)))
+      .slice(0, 6);
+  }, [query, regions, locale]);
+
+  const share = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setStatus(ta("linkCopied"));
+    } catch {
+      setStatus(window.location.href);
+    }
+  };
+  const doExport = async () => {
+    const svg = mapRef.current?.svg();
+    if (!svg) return;
+    const title = `${ta("exportTitle")} — ${ta(`theme.${theme}`)}`;
+    await exportPng(svg, { title, attribution: ta("attributionShort"), filename: `bharat-darshan-${theme}.png`, period: scale?.period ? formatPeriod(scale.period, locale) : null });
+    setStatus(ta("exported"));
+  };
+
+  const sel = selected ? byCode.get(selected) ?? null : null;
+  const dim = theme === "zonal" && focusZone ? (r: RegionSummary) => r.zonalCouncil !== focusZone : undefined;
+
+  /* ------------------------------ pieces ------------------------------ */
+
+  const legend = (
+    <div className="flex flex-col gap-2 text-sm">
+      {theme === "zonal" && (
+        <div role="group" aria-label={t("home.filterRegion")} className="flex flex-wrap gap-1.5">
           {ZONES.map((z) => (
             <button
               key={z}
               type="button"
-              aria-pressed={focus === z}
-              onClick={() => setFocus(focus === z ? null : z)}
-              className={cn(
-                "inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1",
-                focus === z ? "border-text font-semibold" : "border-border hover:bg-surface-2",
-              )}
+              aria-pressed={focusZone === z}
+              onClick={() => setFocusZone(focusZone === z ? null : z)}
+              className={cn("inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1", focusZone === z ? "border-text font-semibold" : "border-border hover:bg-surface-2")}
             >
               <span aria-hidden className="size-3 rounded-sm" style={{ background: ZONAL_COLORS[z] }} />
               {t(`zonal.${z}`)}
             </button>
           ))}
-          <span className="inline-flex items-center gap-1.5 px-1 py-1 text-muted">
-            <span aria-hidden className="size-3 rounded-sm border border-dashed border-text" />
-            {t("home.utOutline")}
-          </span>
         </div>
       )}
-      {layer === "type" && (
-        <div className="flex flex-wrap gap-3 text-sm">
+      {theme === "type" && (
+        <div className="flex flex-wrap gap-3">
           {(["state", "ut"] as const).map((k) => (
             <span key={k} className="inline-flex items-center gap-1.5">
               <span aria-hidden className="size-3 rounded-sm" style={{ background: TYPE_COLORS[k] }} />
@@ -111,121 +205,304 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
           ))}
         </div>
       )}
-
-      {view === "map" ? (
-        <div className={cn("grid gap-4", !compact && "lg:grid-cols-[1fr_18rem]")}>
-          <div className="rounded-2xl border border-border bg-surface p-3">
-            {manifest ? (
-              <GeoMap manifest={manifest} regions={regions} layer={layer} focus={focus} onActive={setActive} onOpen={(r) => router.push(hrefFor(r))} />
-            ) : (
-              <svg viewBox={`0 0 ${cols * (S + G)} ${rows * (S + G)}`} className="mx-auto w-full max-w-xl" role="group" aria-label={t("home.mapTitle")}>
-                {placed.map((r) => {
-                  const x = r.tile!.col * (S + G), y = r.tile!.row * (S + G);
-                  const fill = fillFor(r, layer);
-                  const dim = focus && r.zonalCouncil !== focus;
-                  const name = pick(r.name, locale);
-                  return (
-                    <a
-                      key={r.code}
-                      href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/${locale}${hrefFor(r)}`}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        router.push(hrefFor(r));
-                      }}
-                      onMouseEnter={() => setActive(r)}
-                      onFocus={() => setActive(r)}
-                      aria-label={`${shortCode(r)}, ${name}`}
-                      className="outline-none [&:focus-visible>rect]:stroke-[var(--focus)] [&:focus-visible>rect]:stroke-[4]"
-                    >
-                      <title>{name}</title>
-                      <rect
-                        x={x}
-                        y={y}
-                        width={S}
-                        height={S}
-                        rx={10}
-                        fill={fill}
-                        opacity={dim ? 0.18 : 1}
-                        stroke={active?.code === r.code ? "var(--text)" : "transparent"}
-                        strokeWidth={3}
-                        className="transition-opacity"
-                      />
-                      {r.type === "ut" && layer === "zonal" && (
-                        <rect x={x + 4} y={y + 4} width={S - 8} height={S - 8} rx={7} fill="none" stroke={inkFor(fill)} strokeDasharray="4 3" strokeWidth={1.2} opacity={dim ? 0.2 : 0.7} />
-                      )}
-                      <text
-                        x={x + S / 2}
-                        y={y + S / 2 + 6}
-                        textAnchor="middle"
-                        fontSize="18"
-                        fontWeight="700"
-                        fill={inkFor(fill)}
-                        opacity={dim ? 0.3 : 1}
-                        style={{ pointerEvents: "none", fontFamily: "Inter Variable, sans-serif" }}
-                      >
-                        {shortCode(r)}
-                      </text>
-                    </a>
-                  );
-                })}
-              </svg>
+      {dataTheme && scale && (
+        <div className="flex flex-col gap-1.5">
+          <p className="font-medium">
+            {ta(`theme.${dataTheme.id}`)}
+            {scale.period && <span className="font-normal text-muted"> · {dg(formatPeriod(scale.period, locale))}</span>}
+          </p>
+          <ol className="flex flex-wrap gap-x-3 gap-y-1">
+            {scale.colors.map((c, i) => {
+              const lo = i === 0 ? null : scale.breaks[i - 1];
+              const hi = scale.breaks[i] ?? null;
+              const f = (v: number) => formatValue({ value: v } as never, dataTheme.kind, locale) ?? "";
+              const txt = lo === null ? `≤ ${f(hi!)}` : hi === null ? `> ${f(lo)}` : `${f(lo)} – ${f(hi)}`;
+              return (
+                <li key={i} className="inline-flex items-center gap-1.5">
+                  <span aria-hidden className="h-3 w-5 rounded-sm" style={{ background: c }} />
+                  <span>{dg(txt)}</span>
+                </li>
+              );
+            })}
+            <li className="inline-flex items-center gap-1.5">
+              <svg aria-hidden width="20" height="12"><rect width="20" height="12" rx="2" fill="url(#bd-na-legend)" /><defs><pattern id="bd-na-legend" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="var(--surface-2)" /><line x1="0" y1="0" x2="0" y2="6" stroke="var(--border)" strokeWidth="3" /></pattern></defs></svg>
+              <span>{ta("notAvailableYet")}</span>
+            </li>
+            {scale.offPeriod.size > 0 && (
+              <li className="inline-flex items-center gap-1.5">
+                <svg aria-hidden width="20" height="12"><rect width="20" height="12" rx="2" fill="url(#bd-off-legend)" /><defs><pattern id="bd-off-legend" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(135)"><rect width="5" height="5" fill="var(--surface)" /><line x1="0" y1="0" x2="0" y2="5" stroke="var(--seq-2)" strokeWidth="1.5" /></pattern></defs></svg>
+                <span>{ta("otherPeriod")}</span>
+              </li>
             )}
-            <p className="mt-3 flex gap-1.5 text-xs text-muted">
-              <Info aria-hidden className="mt-0.5 size-3.5 shrink-0" />
-              <span>
-                {t("home.mapNote")} {!manifest && t("home.mapOfficialPending")}
-              </span>
-            </p>
-          </div>
-
-          {!compact && (
-            <aside aria-live="polite" className="rounded-2xl border border-border bg-surface p-4 text-sm">
-              {active ? (
-                <div className="flex flex-col gap-2">
-                  <span className="h-1.5 w-12 rounded-full" style={{ background: active.accent }} />
-                  <p className="text-lg font-semibold">{pick(active.name, locale)}</p>
-                  {active.localName && <p lang={active.localName.lang} className="text-muted">{active.localName.text}</p>}
-                  <p>{active.type === "state" ? t("common.state") : t("common.ut")} · {t(`governance.${active.governanceModel}`)}</p>
-                  {active.zonalCouncil && <p>{t("common.region")}: {t(`zonal.${active.zonalCouncil}`)}</p>}
-                  <p>
-                    {t("common.capital")}: {active.capitals.map((c) => pick(c.name, locale)).join(" / ")}
-                  </p>
-                  <Link href={hrefFor(active)} className="font-medium">{t("common.viewProfile")} →</Link>
-                </div>
-              ) : (
-                <p className="text-muted">{t("home.mapHint")}</p>
-              )}
-              <p className="mt-4 border-t border-border pt-3 text-xs text-muted">{t("home.layerDataPending")}</p>
-            </aside>
-          )}
-        </div>
-      ) : (
-        <div role="region" tabIndex={0} aria-label={t("home.mapTitle")} className="overflow-x-auto rounded-2xl border border-border bg-surface focus-visible:outline-2 focus-visible:outline-offset-2">
-          <table className="w-full text-left text-sm">
-            <caption className="sr-only">{t("home.mapTitle")}</caption>
-            <thead className="bg-surface-2">
-              <tr>
-                <th scope="col" className="px-3 py-2">{t("common.region")}</th>
-                <th scope="col" className="px-3 py-2">{t("home.filterType")}</th>
-                <th scope="col" className="px-3 py-2">{t("home.layerZonal")}</th>
-                <th scope="col" className="px-3 py-2">{t("common.capital")}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {regions.map((r) => (
-                <tr key={r.code} className="border-t border-border">
-                  <th scope="row" className="px-3 py-2 font-medium">
-                    <Link href={hrefFor(r)}>{pick(r.name, locale)}</Link>
-                  </th>
-                  <td className="px-3 py-2">{r.type === "state" ? t("common.state") : t("common.ut")}</td>
-                  <td className="px-3 py-2">{r.zonalCouncil ? t(`zonal.${r.zonalCouncil}`) : "—"}</td>
-                  <td className="px-3 py-2">{r.capitals.map((c) => pick(c.name, locale)).join(" / ")}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          </ol>
+          <p className="text-xs text-muted">{ta("quantileNote")}</p>
         </div>
       )}
     </div>
   );
+
+  const themePicker = (
+    <fieldset className="flex flex-col gap-1">
+      <legend className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted">{ta("colourBy")}</legend>
+      {THEMES.map((id) => (
+        <label key={id} className={cn("flex cursor-pointer items-center gap-2 rounded-md px-2 py-1 text-sm", theme === id ? "bg-surface-2 font-semibold" : "hover:bg-surface-2")}>
+          <input type="radio" name="bd-theme" value={id} checked={theme === id} onChange={() => setTheme(id)} className="accent-[var(--focus)]" />
+          {ta(`theme.${id}`)}
+        </label>
+      ))}
+    </fieldset>
+  );
+
+  const overlayPicker = (
+    <fieldset className="flex flex-col gap-1">
+      <legend className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted">{ta("overlays")}</legend>
+      {OVERLAYS.map((o) => (
+        <label key={o} className="flex cursor-pointer items-center gap-2 rounded-md px-2 py-1 text-sm hover:bg-surface-2">
+          <input type="checkbox" checked={overlays.has(o)} onChange={() => toggleOverlay(o)} className="accent-[var(--focus)]" />
+          {ta(`overlay.${o}`)}
+        </label>
+      ))}
+    </fieldset>
+  );
+
+  const planned = (
+    <div className="flex flex-col gap-1">
+      <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted">{ta("plannedTitle")}</p>
+      <ul className="flex flex-col gap-1 text-sm text-muted">
+        {PLANNED.map((p) => (
+          <li key={p} className="flex items-center justify-between gap-2 px-2">
+            <span>{ta(`planned.${p}`)}</span>
+            <span className="rounded-full border border-border px-2 py-0.5 text-[11px]">{ta("plannedChip")}</span>
+          </li>
+        ))}
+      </ul>
+      <p className="px-2 pt-1 text-xs text-muted">{ta("plannedNote")}</p>
+    </div>
+  );
+
+  const infoCard = sel ? (
+    <div className="flex flex-col gap-2 text-sm">
+      <div className="flex items-start justify-between">
+        <span className="mt-1 h-1.5 w-12 rounded-full" style={{ background: sel.accent }} />
+        {!compact && (
+          <button type="button" onClick={() => setSelected(null)} aria-label={ta("close")} title={ta("close")} className="-mr-1 -mt-1 rounded p-1 text-muted hover:bg-surface-2">
+            <X aria-hidden className="size-4" />
+          </button>
+        )}
+      </div>
+      <p className="text-lg font-semibold">{pick(sel.name, locale)}</p>
+      {sel.localName && <p lang={sel.localName.lang} className="text-muted">{sel.localName.text}</p>}
+      <p>{sel.type === "state" ? t("common.state") : t("common.ut")} · {t(`governance.${sel.governanceModel}`)}</p>
+      {sel.zonalCouncil && <p>{t("common.region")}: {t(`zonal.${sel.zonalCouncil}`)}</p>}
+      <p>{t("common.capital")}: {sel.capitals.map((c) => pick(c.name, locale)).join(" / ")}</p>
+      {dataTheme && (
+        <div className="rounded-lg bg-surface-2 p-2">
+          <p className="text-xs text-muted">{ta(`theme.${dataTheme.id}`)}</p>
+          <p className="font-semibold">{valueText(sel)}</p>
+          {sel.mapMetrics[dataTheme.id] && (
+            <p className="text-xs text-muted">
+              {ta("source")}:{" "}
+              <a href={sel.mapMetrics[dataTheme.id]!.url ?? undefined} target="_blank" rel="noreferrer" className="underline">
+                {(() => {
+                  const id = sel.mapMetrics[dataTheme.id]!.sourceId ?? "";
+                  return sel.sourceLabels[id] ?? id;
+                })()}
+              </a>
+            </p>
+          )}
+        </div>
+      )}
+      <Link href={hrefFor(sel)} className="font-medium">{t("common.viewProfile")} →</Link>
+    </div>
+  ) : (
+    <p className="text-sm text-muted">{ta("hint")}</p>
+  );
+
+  const table = (
+    <div className="overflow-x-auto rounded-2xl border border-border">
+      <table className="w-full text-left text-sm">
+        <caption className="sr-only">{ta("tableCaption", { theme: ta(`theme.${theme}`) })}</caption>
+        <thead className="bg-surface-2">
+          <tr>
+            <th scope="col" className="px-3 py-2">{ta("colRegion")}</th>
+            <th scope="col" className="px-3 py-2">{ta("colType")}</th>
+            <th scope="col" className="px-3 py-2">{t("common.capital")}</th>
+            <th scope="col" className="px-3 py-2">{dataTheme ? ta(`theme.${theme}`) : t("common.region")}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {[...regions].sort((a, b) => pick(a.name, locale).localeCompare(pick(b.name, locale))).map((r) => (
+            <tr key={r.code} className="border-t border-border">
+              <th scope="row" className="px-3 py-2 font-medium"><Link href={hrefFor(r)}>{pick(r.name, locale)}</Link></th>
+              <td className="px-3 py-2">{r.type === "state" ? t("common.state") : t("common.ut")}</td>
+              <td className="px-3 py-2">{r.capitals.map((c) => pick(c.name, locale)).join(" / ")}</td>
+              <td className="px-3 py-2">{dataTheme ? valueText(r) : r.zonalCouncil ? t(`zonal.${r.zonalCouncil}`) : "—"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+
+  const tip = hover && !compact && hover.pt ? (
+    <div
+      role="presentation"
+      className="pointer-events-none absolute z-10 max-w-[16rem] rounded-lg border border-border bg-surface px-3 py-2 text-sm shadow-lg"
+      style={{ left: Math.min(hover.pt.x + 14, (wrapRef.current?.clientWidth ?? 600) - 200), top: hover.pt.y + 14 }}
+    >
+      <p className="font-semibold">{pick(hover.r.name, locale)}</p>
+      <p className="text-muted">{dataTheme ? valueText(hover.r) : hover.r.capitals.map((c) => pick(c.name, locale)).join(" / ")}</p>
+    </div>
+  ) : null;
+
+  const btn = "inline-flex size-9 items-center justify-center rounded-md border border-border bg-surface hover:bg-surface-2";
+
+  const mapBox = (
+    <div ref={wrapRef} className={cn("relative overflow-hidden rounded-2xl border border-border bg-surface", compact ? "mx-auto aspect-[8/9] w-full max-w-[600px]" : "aspect-[8/9] lg:aspect-auto lg:h-[min(88vh,960px)]")}>
+      {data ? (
+        <GeoMap
+          ref={mapRef}
+          topo={data.topo}
+          object={data.manifest.object}
+          idProperty={data.manifest.idProperty}
+          capitals={data.capitals}
+          regions={regions}
+          fill={fill}
+          overlays={overlays}
+          selected={selected}
+          dim={dim}
+          describe={describe}
+          onHover={(r, pt) => setHover(r ? { r, pt } : null)}
+          onSelect={select}
+          label={ta("mapLabel")}
+          interactive={!compact}
+        />
+      ) : (
+        <div className="skeleton h-full w-full" />
+      )}
+      {tip}
+      {!compact && data && (
+        <div className="absolute right-2 top-2 flex flex-col gap-1.5">
+          <button type="button" className={btn} onClick={() => mapRef.current?.zoomIn()} aria-label={ta("zoomIn")} title={ta("zoomIn")}><Plus aria-hidden className="size-4" /></button>
+          <button type="button" className={btn} onClick={() => mapRef.current?.zoomOut()} aria-label={ta("zoomOut")} title={ta("zoomOut")}><Minus aria-hidden className="size-4" /></button>
+          <button type="button" className={btn} onClick={() => { mapRef.current?.reset(); setSelected(null); }} aria-label={ta("reset")} title={ta("reset")}><RotateCcw aria-hidden className="size-4" /></button>
+          <button type="button" className={btn} onClick={share} aria-label={ta("share")} title={ta("share")}><Link2 aria-hidden className="size-4" /></button>
+          <button type="button" className={btn} onClick={doExport} aria-label={ta("export")} title={ta("export")}><Download aria-hidden className="size-4" /></button>
+        </div>
+      )}
+      {!compact && data && <p className="pointer-events-none absolute bottom-2 left-3 rounded bg-surface/80 px-1.5 text-[11px] text-muted">{ta("zoomHint")}</p>}
+    </div>
+  );
+
+  const attribution = (
+    <p className="mt-3 flex gap-1.5 text-xs text-muted">
+      <Info aria-hidden className="mt-0.5 size-3.5 shrink-0" />
+      <span>
+        {failed ? ta("unavailable") : ta("attribution")}
+        {data && data.missingCapitals.length > 0 && !compact && <> {ta("capitalsMissing", { list: data.missingCapitals.map((m) => m.slice(6)).join(", ") })}</>}
+      </span>
+    </p>
+  );
+
+  /* ------------------------------ layout ------------------------------ */
+
+  if (compact) {
+    return (
+      <div className="flex flex-col gap-3">
+        <div className="flex flex-wrap items-center gap-2">{legend}</div>
+        <div className="grid gap-4 lg:grid-cols-[1fr_18rem]">
+          <div>
+            {mapBox}
+            {attribution}
+          </div>
+          <aside aria-live="polite" className="rounded-2xl border border-border bg-surface p-4">
+            {infoCard}
+            <Link href="/map" className="mt-4 inline-flex items-center gap-1.5 border-t border-border pt-3 text-sm font-medium">
+              <MapIcon aria-hidden className="size-4" /> {ta("openAtlas")} →
+            </Link>
+          </aside>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="flex flex-wrap items-center gap-3">
+        <div className="relative min-w-[16rem] flex-1">
+          <Search aria-hidden className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted" />
+          <input
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && matches[0]) {
+                select(matches[0]);
+                setQuery("");
+              }
+            }}
+            placeholder={ta("searchPlaceholder")}
+            aria-label={ta("searchLabel")}
+            aria-controls={matches.length ? "bd-map-search" : undefined}
+            className="w-full rounded-md border border-border bg-surface py-2 pl-9 pr-3 text-sm"
+          />
+          {matches.length > 0 && (
+            <ul id="bd-map-search" className="absolute z-20 mt-1 w-full overflow-hidden rounded-md border border-border bg-surface shadow-lg">
+              {matches.map((r) => (
+                <li key={r.code}>
+                  <button type="button" onClick={() => { select(r); setQuery(""); }} className="flex w-full items-center justify-between px-3 py-2 text-left text-sm hover:bg-surface-2">
+                    <span>{pick(r.name, locale)}</span>
+                    <span className="text-xs text-muted">{r.capitals.map((c) => pick(c.name, locale)).join(" / ")}</span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+        <button
+          type="button"
+          onClick={() => setView(view === "map" ? "table" : "map")}
+          disabled={failed}
+          className="inline-flex items-center gap-1.5 rounded-md border border-border px-3 py-2 text-sm hover:bg-surface-2 disabled:opacity-50"
+        >
+          {view === "map" ? <Table2 aria-hidden className="size-4" /> : <MapIcon aria-hidden className="size-4" />}
+          {view === "map" ? t("home.viewAsTable") : t("home.viewAsMap")}
+        </button>
+      </div>
+
+      <div className="grid gap-4 lg:grid-cols-[15rem_1fr]">
+        <details open className="group order-2 h-fit rounded-2xl border border-border bg-surface p-3 lg:order-none [&_summary::-webkit-details-marker]:hidden">
+          <summary className="flex cursor-pointer items-center gap-2 text-sm font-semibold">
+            <Layers aria-hidden className="size-4" /> {ta("layers")}
+          </summary>
+          <div className="mt-3 flex flex-col gap-4">
+            {themePicker}
+            {overlayPicker}
+            {planned}
+          </div>
+        </details>
+
+        <div className="order-1 flex min-w-0 flex-col gap-3 lg:order-none">
+          <div className="rounded-2xl border border-border bg-surface p-3">
+            {legend}
+            {!sel && <p className="mt-2 text-xs text-muted">{ta("hint")}</p>}
+          </div>
+          {view === "map" ? (
+            <div className="relative">
+              {mapBox}
+              <aside aria-live="polite" hidden={!sel} className="mt-3 rounded-2xl border border-border bg-surface p-4 lg:absolute lg:left-3 lg:top-3 lg:mt-0 lg:w-72 lg:bg-surface/95 lg:shadow-md">
+                {infoCard}
+              </aside>
+            </div>
+          ) : (
+            table
+          )}
+          {attribution}
+        </div>
+      </div>
+      <p role="status" className="sr-only">{status}</p>
+      {status && <p className="text-sm text-muted" aria-hidden>{status}</p>}
+    </div>
+  );
 }
+

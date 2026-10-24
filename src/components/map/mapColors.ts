@@ -26,3 +26,10 @@ export function inkFor(hex: string): string {
   // Contrast vs white = 1.05/(L+0.05); vs black = (L+0.05)/0.05. Choose the higher.
   return 1.05 / (L + 0.05) >= (L + 0.05) / 0.05 ? "#ffffff" : "#111111";
 }
+
+/**
+ * Sequential ramp for data layers, low → high. Values live in globals.css (--seq-0..4) so
+ * light and dark mode each use their own validated steps. Every value is also shown as
+ * text in the tooltip, info card and table, so colour never carries meaning alone.
+ */
+export const SEQ_BLUE = ["var(--seq-0)", "var(--seq-1)", "var(--seq-2)", "var(--seq-3)", "var(--seq-4)"];

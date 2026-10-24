@@ -8,7 +8,7 @@ const require = createRequire(import.meta.url);
 const AXE = readFileSync(require.resolve("axe-core/axe.min.js"), "utf8");
 const SITE = (process.env.SITE || "http://localhost:3200/bharat-darshan").replace(/\/$/, "");
 const PATHS = [
-  "/en/", "/hi/", "/mr/",
+  "/en/", "/hi/", "/mr/", "/en/map/", "/mr/map/",
   "/en/states/maharashtra/", "/hi/uts/ladakh/economy/",
   "/en/compare/", "/en/gi/", "/mr/projects/", "/en/themes/economy/",
   "/en/states/karnataka/", "/hi/states/west-bengal/government/", "/mr/states/gujarat/gi/",

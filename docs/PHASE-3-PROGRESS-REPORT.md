@@ -444,7 +444,7 @@ All 26 sections of each profile are written in English, Hindi and Marathi, in th
 
 | Check | Result |
 |---|---|
-| validate-data | 0 errors, 0 warnings, 1,438 gaps (1,295 after batch 4) |
+| validate-data | 0 errors, 0 warnings, 1,475 gaps (1,295 after batch 4). Includes 37 Compare-table gaps for the five new regions. |
 | Tests | 66/66 |
 | Type check | clean |
 | Static build, links and axe | run by GitHub Actions on push (see below) |
@@ -459,6 +459,57 @@ All 26 sections of each profile are written in English, Hindi and Marathi, in th
 4. **J&K area basis.** Decide which area to use for density and forest percentage (42,241 km² administered, per Census 2011, or the official 2,22,236 / 1,20,355 km² figures), for both J&K and Ladakh.
 5. **New districts.** Link the official notifications for Hansi (Haryana) and Kushavati (Goa).
 6. **Translations.** Hindi and Marathi text of the five profiles, especially Konkani, Kashmiri, Dogri and Pahari names, need a native-speaker read.
+
+## 7. The India map: official boundaries
+
+The tile-grid cartogram has been replaced by a geographic map drawn from the **Survey of India** State/UT boundary data. It applies the most useful parts of the three map briefs within the project's rules. Full details are in `docs/MAPS.md`.
+
+**From the briefs, now built:**
+
+- Real State/UT boundaries with hover highlight.
+- Capitals.
+- Choropleth data layers from the sourced figures.
+- Layer panel.
+- Search.
+- Select-to-zoom, with zoom, pan and reset.
+- A shareable view link.
+- PNG export with attribution.
+- Table view and keyboard access.
+- Dark mode.
+- Mobile layout.
+- The landing line "Not Just a Map. It's Bharat." in all three languages.
+- A compact version on the home page.
+
+**Boundaries:**
+
+- The boundaries are the Survey of India digital boundary data (free product OVSF/1M/7), simplified for display only.
+- J&K includes the areas under the occupation of Pakistan.
+- Ladakh includes Gilgit-Baltistan and Aksai Chin, and Arunachal Pradesh is shown in full.
+- The 4 inter-State disputed areas in the SoI file are drawn hatched.
+- No third-party basemap is used, since tile basemaps show other boundary depictions.
+- Capital points come from Natural Earth (public domain). Dharamshala and Gairsain are not in it yet.
+
+**Not taken from the briefs, by rule:**
+
+- Data sources that do not follow the SoI depiction (geohacker, DataMaps, Mapbox/OSM basemaps).
+- Paid tiers.
+- Any layer without official data. These are listed on the map as "Planned": districts, rivers, protected areas, transport, UNESCO sites, hazard zones, and a State-formation timeline.
+- The SoI district file available is out of date (Andhra Pradesh shows 13 districts), so districts wait for a current file.
+
+**Period rule:** each data layer colours only the regions whose figure is for the most common period. Per capita income is FY2025-26 for 14 regions and FY2024-25 or earlier for 9. The rest are striped "different year, not compared".
+
+**Checks:**
+
+- `tests/map.test.ts`: 36 shapes, the full extent, and a capital for each region. 70/70 tests pass.
+- Type check: clean.
+- validate-data: 0 errors.
+- axe: 23/23 pages clean, run on the dev server and now including `/en/map/` and `/mr/map/`.
+- The map was screenshot-checked in light, dark, Hindi, Marathi and at 390 px.
+
+**Please check:**
+
+1. Look at `/en/map/` and confirm the boundary depiction. The manifest is marked verified on the build check.
+2. Decide whether per capita income should show FY2024-25 for all regions, so that more of them are compared.
 
 ## Next batch
 

@@ -3,6 +3,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { cache } from "react";
 import { existsSync } from "node:fs";
+import { MAP_METRICS, type MapMetric } from "./mapMetrics";
 import { CompareFile, GlossaryFile, ModuleContent, Region, SourcesFile, type DataPoint, type Officeholder } from "./schema";
 
 const DATA = path.join(process.cwd(), "data");
@@ -50,13 +51,20 @@ export interface RegionSummary {
   headOfState: Officeholder | null;
   headOfGovernment: Officeholder | null;
   sourceLabels: Record<string, string>;
+  /** Sourced figures used by the map's data layers (only the keys in MAP_METRICS). */
+  mapMetrics: Partial<Record<MapMetric, DataPoint>>;
 }
 
 export function summarize(r: Region): RegionSummary {
   const pop = r.metrics.population2011 ?? null;
   const gsdp = r.metrics.gsdpCurrent ?? null;
   const labels: Record<string, string> = {};
-  for (const id of [pop?.sourceId, gsdp?.sourceId, r.government.headOfState?.sourceId, r.government.headOfGovernment?.sourceId]) {
+  const mapMetrics: Partial<Record<MapMetric, DataPoint>> = {};
+  for (const k of MAP_METRICS) {
+    const dp = (r.metrics as Record<string, DataPoint | null | undefined>)[k];
+    if (dp && typeof dp.value === "number") mapMetrics[k] = dp;
+  }
+  for (const id of [pop?.sourceId, gsdp?.sourceId, r.government.headOfState?.sourceId, r.government.headOfGovernment?.sourceId, ...Object.values(mapMetrics).map((d) => d.sourceId)]) {
     if (id) labels[id] = sourceName(id)?.short ?? id;
   }
   return {
@@ -77,6 +85,7 @@ export function summarize(r: Region): RegionSummary {
     headOfState: r.government.headOfState,
     headOfGovernment: r.government.headOfGovernment,
     sourceLabels: labels,
+    mapMetrics,
   };
 }
 

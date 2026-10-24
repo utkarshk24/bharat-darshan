@@ -1,0 +1,150 @@
+{
+  "region": "IN-GA",
+  "module": "civic",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Goa portal",
+            "hi": "गोवा सरकार पोर्टल",
+            "mr": "गोवा शासन संकेतस्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.goa.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "goaonline",
+          "name": {
+            "en": "Goa Online (citizen services)",
+            "hi": "गोवा ऑनलाइन (नागरिक सेवाएँ)",
+            "mr": "गोवा ऑनलाइन (नागरी सेवा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://goaonline.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "dip",
+          "name": {
+            "en": "Department of Information and Publicity",
+            "hi": "सूचना एवं प्रचार विभाग",
+            "mr": "माहिती व प्रसिद्धी खाते",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://dip.goa.gov.in",
+          "sourceId": "goa-dip"
+        },
+        {
+          "id": "rti",
+          "name": {
+            "en": "RTI Online (Government of India)",
+            "hi": "आरटीआई ऑनलाइन (भारत सरकार)",
+            "mr": "माहितीचा अधिकार ऑनलाइन (भारत सरकार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rtionline.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official websites",
+        "hi": "आधिकारिक वेबसाइटें",
+        "mr": "अधिकृत संकेतस्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "std",
+      "title": {
+        "en": "STD code",
+        "hi": "एसटीडी कोड",
+        "mr": "एसटीडी कोड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Area",
+            "hi": "क्षेत्र",
+            "mr": "क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Code",
+            "hi": "कोड",
+            "mr": "कोड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "All of Goa",
+            "hi": "पूरा गोवा",
+            "mr": "संपूर्ण गोवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0832"
+        ]
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "note": {
+        "en": "Editorial; Goa uses a single STD code. To be checked against the Department of Telecommunications numbering plan.",
+        "hi": "संपादकीय; गोवा में एक ही एसटीडी कोड है। दूरसंचार विभाग की नंबरिंग योजना से जाँचा जाएगा।",
+        "mr": "संपादकीय; गोव्यात एकच एसटीडी कोड आहे. दूरसंचार विभागाच्या क्रमांक योजनेशी पडताळले जाईल.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

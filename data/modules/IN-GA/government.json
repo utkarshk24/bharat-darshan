@@ -1,0 +1,138 @@
+{
+  "region": "IN-GA",
+  "module": "government",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Goa has a unicameral legislature, the 40-member Legislative Assembly, which sits at Porvorim across the Mandovi from Panaji. The State elects 2 members to the Lok Sabha and 1 to the Rajya Sabha.\n\nAfter the Assembly election of February 2022 the Bharatiya Janata Party formed the government, and Pramod Sawant — Chief Minister since March 2019 — was sworn in for a second term on 28 March 2022. Ganesh Gaonkar (BJP) was elected Speaker in September 2025, after Ramesh Tawadkar joined the Cabinet. Pusapati Ashok Gajapathi Raju has been Governor since 26 July 2025. The next Assembly election is due by early 2027.",
+        "hi": "गोवा में एकसदनीय विधानमंडल है, 40 सदस्यों वाली विधानसभा, जिसकी बैठकें पणजी के सामने मांडवी के पार पोरवोरिम में होती हैं। राज्य से लोकसभा के 2 और राज्यसभा का 1 सदस्य चुना जाता है।\n\nफ़रवरी 2022 के विधानसभा चुनाव के बाद भारतीय जनता पार्टी ने सरकार बनाई, और मार्च 2019 से मुख्यमंत्री प्रमोद सावंत ने 28 मार्च 2022 को दूसरे कार्यकाल की शपथ ली। रमेश तावडकर के मंत्रिमंडल में शामिल होने के बाद सितंबर 2025 में गणेश गावकर (भाजपा) अध्यक्ष चुने गए। पुसपति अशोक गजपति राजू 26 जुलाई 2025 से राज्यपाल हैं। अगला विधानसभा चुनाव 2027 की शुरुआत तक होना है।",
+        "mr": "गोव्यात एकसदनी विधिमंडळ आहे, 40 सदस्यांची विधानसभा, जिच्या बैठका पणजीसमोर मांडवीपलीकडील पर्वरी येथे होतात. राज्यातून लोकसभेवर 2 व राज्यसभेवर 1 सदस्य निवडला जातो.\n\nफेब्रुवारी 2022 च्या विधानसभा निवडणुकीनंतर भारतीय जनता पक्षाने सरकार स्थापन केले, आणि मार्च 2019 पासून मुख्यमंत्री असलेल्या प्रमोद सावंत यांनी 28 मार्च 2022 रोजी दुसऱ्या कारकिर्दीची शपथ घेतली. रमेश तवडकर मंत्रिमंडळात गेल्यावर सप्टेंबर 2025 मध्ये गणेश गावकर (भाजप) अध्यक्षपदी निवडले गेले. पुसपती अशोक गजपती राजू 26 जुलै 2025 पासून राज्यपाल आहेत. पुढील विधानसभा निवडणूक 2027 च्या सुरुवातीपर्यंत होणे अपेक्षित आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "the-week",
+        "goa-dip",
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "lokbhavan",
+          "name": {
+            "en": "Lok Bhavan Goa",
+            "hi": "लोक भवन गोवा",
+            "mr": "लोक भवन गोवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://lokbhavan.goa.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Goa",
+            "hi": "गोवा सरकार",
+            "mr": "गोवा शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.goa.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "2022 Assembly election — party-wise result",
+            "hi": "2022 विधानसभा चुनाव — दलवार परिणाम",
+            "mr": "2022 विधानसभा निवडणूक — पक्षनिहाय निकाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "ECI statistical report for Goa 2022."
+        },
+        {
+          "label": {
+            "en": "Chief Minister's swearing-in — official source",
+            "hi": "मुख्यमंत्री का शपथ ग्रहण — आधिकारिक स्रोत",
+            "mr": "मुख्यमंत्र्यांचा शपथविधी — अधिकृत स्रोत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "goa-dip",
+          "note": "Replace the PTI copy with the DIP Goa release."
+        },
+        {
+          "label": {
+            "en": "Leader of Opposition — official notice",
+            "hi": "नेता प्रतिपक्ष — आधिकारिक सूचना",
+            "mr": "विरोधी पक्षनेते — अधिकृत सूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Goa Legislative Assembly secretariat."
+        }
+      ]
+    }
+  ]
+}

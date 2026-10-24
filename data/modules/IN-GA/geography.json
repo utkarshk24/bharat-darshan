@@ -1,0 +1,282 @@
+{
+  "region": "IN-GA",
+  "module": "geography",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Goa has about 100 km of coastline, broken by the estuaries of the Terekhol, Chapora, Mandovi, Zuari, Sal, Talpona and Galgibag rivers. Behind the beaches lie khazan lands — reclaimed estuarine fields protected by sluice gates — and paddy and coconut groves, then a midland of laterite plateaus and hills, and finally the Sahyadri (Western Ghats) in the east, where Sonsogor is among the highest points and the Dudhsagar falls plunge down the Mandovi's headwaters. The Mandovi and Zuari, linked by the Cumbarjua canal, make Tiswadi (Ilhas) an island, and Mormugao is one of India's oldest natural harbours.",
+        "hi": "गोवा की लगभग 100 किमी लंबी तटरेखा तेरेखोल, शापोरा, मांडवी, जुवारी, साल, तळपोणा और गालजीबाग नदियों के मुहानों से कटी है। समुद्र तटों के पीछे खाज़न भूमि है — जलद्वारों (मानसों) से सुरक्षित, मुहाने से प्राप्त खेत — और धान व नारियल के बाग़, फिर लैटेराइट पठारों और पहाड़ियों का मध्य क्षेत्र, और अंत में पूर्व में सह्याद्रि (पश्चिमी घाट), जहाँ सोनसोगोड सबसे ऊँचे स्थानों में है और दूधसागर जलप्रपात मांडवी के उद्गम क्षेत्र में गिरता है। कुंबारजुआ नहर से जुड़ी मांडवी और जुवारी तिसवाड़ी (इल्हास) को द्वीप बनाती हैं, और मुरगाँव भारत के सबसे पुराने प्राकृतिक बंदरगाहों में है।",
+        "mr": "गोव्याची सुमारे 100 किमी लांबीची किनारपट्टी तेरेखोल, शापोरा, मांडवी, जुवारी, साळ, तळपण व गालजीबाग नद्यांच्या खाड्यांनी तुटलेली आहे. किनाऱ्यांच्या मागे खाजन जमीन आहे — मानशींनी (जलद्वारांनी) संरक्षित, खाडीतून मिळवलेली शेते — आणि भात व माडांच्या बागा, नंतर जांभ्या दगडाच्या पठारांचा व टेकड्यांचा मधला प्रदेश, आणि शेवटी पूर्वेला सह्याद्री (पश्चिम घाट), जिथे सोनसोगड हे सर्वांत उंच ठिकाणांपैकी आहे आणि दूधसागर धबधबा मांडवीच्या उगम प्रदेशात कोसळतो. कुंभारजुवे कालव्याने जोडलेल्या मांडवी व जुवारीमुळे तिसवाडी (इल्हास) बेट बनते, आणि मुरगाव हे भारतातील सर्वांत जुन्या नैसर्गिक बंदरांपैकी एक आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 3702,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "mh",
+          "name": {
+            "en": "Maharashtra (north)",
+            "hi": "महाराष्ट्र (उत्तर)",
+            "mr": "महाराष्ट्र (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ka",
+          "name": {
+            "en": "Karnataka (east and south)",
+            "hi": "कर्नाटक (पूर्व और दक्षिण)",
+            "mr": "कर्नाटक (पूर्व व दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sea",
+          "name": {
+            "en": "Arabian Sea (west)",
+            "hi": "अरब सागर (पश्चिम)",
+            "mr": "अरबी समुद्र (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "mandovi",
+          "name": {
+            "en": "Mandovi (Mhadei)",
+            "hi": "मांडवी (म्हादई)",
+            "mr": "मांडवी (म्हादई)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rises in Karnataka as the Mhadei; flows past Panaji to the sea.",
+            "hi": "कर्नाटक में म्हादई के रूप में निकलती है; पणजी से होकर समुद्र में मिलती है।",
+            "mr": "कर्नाटकात म्हादई म्हणून उगम; पणजीजवळून समुद्राला मिळते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "zuari",
+          "name": {
+            "en": "Zuari",
+            "hi": "जुवारी",
+            "mr": "जुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Broad estuary between Tiswadi and Mormugao.",
+            "hi": "तिसवाड़ी और मुरगाँव के बीच चौड़ा मुहाना।",
+            "mr": "तिसवाडी व मुरगावदरम्यानची रुंद खाडी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chapora",
+          "name": {
+            "en": "Chapora",
+            "hi": "शापोरा",
+            "mr": "शापोरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "North Goa river below Chapora fort.",
+            "hi": "शापोरा क़िले के नीचे उत्तर गोवा की नदी।",
+            "mr": "शापोरा किल्ल्याखालील उत्तर गोव्याची नदी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "terekhol",
+          "name": {
+            "en": "Terekhol",
+            "hi": "तेरेखोल",
+            "mr": "तेरेखोल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Border river with Maharashtra.",
+            "hi": "महाराष्ट्र के साथ सीमा नदी।",
+            "mr": "महाराष्ट्रसोबतची सीमानदी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sal",
+          "name": {
+            "en": "Sal",
+            "hi": "साल",
+            "mr": "साळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows along the Salcete coast to Mobor.",
+            "hi": "सासष्टी तट के साथ मोबोर तक बहती है।",
+            "mr": "सासष्टी किनाऱ्याने मोबोरपर्यंत वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Coastline length — official figure",
+            "hi": "तटरेखा की लंबाई — आधिकारिक आँकड़ा",
+            "mr": "किनारपट्टीची लांबी — अधिकृत आकडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India / Goa Coastal Zone Management Authority."
+        },
+        {
+          "label": {
+            "en": "Highest point — official elevation",
+            "hi": "सर्वोच्च बिंदु — आधिकारिक ऊँचाई",
+            "mr": "सर्वोच्च शिखर — अधिकृत उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India."
+        }
+      ]
+    }
+  ]
+}

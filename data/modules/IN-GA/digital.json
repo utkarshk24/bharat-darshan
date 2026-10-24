@@ -1,0 +1,42 @@
+{
+  "region": "IN-GA",
+  "module": "digital",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Goa has high mobile and internet penetration and a growing community of remote workers and start-ups, encouraged by the State's IT and start-up policies. Citizen services are delivered online through the Goa Online portal, and institutions such as IIT Goa, NIT Goa and the BITS Pilani K. K. Birla Goa campus train engineers.",
+        "hi": "गोवा में मोबाइल और इंटरनेट की पहुँच ऊँची है और दूर से काम करने वालों और स्टार्टअप का बढ़ता समुदाय है, जिसे राज्य की आईटी और स्टार्टअप नीतियों से प्रोत्साहन मिला है। नागरिक सेवाएँ गोवा ऑनलाइन पोर्टल से ऑनलाइन दी जाती हैं, और आईआईटी गोवा, एनआईटी गोवा और बिट्स पिलानी के के. के. बिड़ला गोवा परिसर जैसे संस्थान इंजीनियर तैयार करते हैं।",
+        "mr": "गोव्यात मोबाइल व इंटरनेटचा प्रसार जास्त आहे आणि दूरस्थ काम करणाऱ्यांचा व स्टार्टअपचा वाढता समुदाय आहे, ज्याला राज्याच्या आयटी व स्टार्टअप धोरणांनी प्रोत्साहन दिले आहे. नागरी सेवा गोवा ऑनलाइन संकेतस्थळावरून दिल्या जातात, आणि आयआयटी गोवा, एनआयटी गोवा व बिट्स पिलानीचे के. के. बिर्ला गोवा संकुल यांसारख्या संस्था अभियंते घडवतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (Maharashtra & Goa circle)."
+        }
+      ]
+    }
+  ]
+}

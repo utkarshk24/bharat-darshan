@@ -1,0 +1,183 @@
+{
+  "region": "IN-GA",
+  "module": "climate",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Goa has a warm, humid tropical climate. The south-west monsoon, from June to September, brings very heavy rain — more in the Ghats than on the coast — and turns the land a deep green, while the sea is rough and beaches are closed to swimming. October to February is dry and pleasant with sea breezes, and March to May is hot and humid. Cyclones in the Arabian Sea occasionally bring high winds and storm surges.",
+        "hi": "गोवा की जलवायु गर्म, आर्द्र उष्णकटिबंधीय है। जून से सितंबर तक दक्षिण-पश्चिम मानसून बहुत भारी वर्षा लाता है — तट से अधिक घाटों में — और भूमि को गहरा हरा कर देता है, जबकि समुद्र उग्र रहता है और समुद्र तटों पर तैरना बंद रहता है। अक्टूबर से फ़रवरी सूखा और सुहावना होता है, समुद्री हवाओं के साथ, और मार्च से मई गर्म व उमस भरा। अरब सागर के चक्रवात कभी-कभी तेज़ हवाएँ और तूफ़ानी लहरें लाते हैं।",
+        "mr": "गोव्याचे हवामान उष्ण, दमट उष्णकटिबंधीय आहे. जून ते सप्टेंबर नैर्ऋत्य मान्सून अतिशय मुसळधार पाऊस आणतो — किनाऱ्यापेक्षा घाटांत अधिक — आणि जमीन गडद हिरवीगार करतो, तर समुद्र खवळलेला असतो व किनाऱ्यांवर पोहणे बंद असते. ऑक्टोबर ते फेब्रुवारी कोरडा व आल्हाददायक काळ असतो, समुद्री वाऱ्यांसह, आणि मार्च ते मे उष्ण व दमट. अरबी समुद्रातील चक्रीवादळे कधीकधी जोरदार वारे व वादळी लाटा आणतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Panaji",
+            "hi": "पणजी",
+            "mr": "पणजी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 15.4909,
+          "lon": 73.8278
+        },
+        {
+          "name": {
+            "en": "Margao",
+            "hi": "मडगाँव",
+            "mr": "मडगाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 15.2832,
+          "lon": 73.9862
+        },
+        {
+          "name": {
+            "en": "Mapusa",
+            "hi": "म्हापसा",
+            "mr": "म्हापसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 15.5937,
+          "lon": 73.8142
+        },
+        {
+          "name": {
+            "en": "Canacona",
+            "hi": "काणकोण",
+            "mr": "काणकोण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 15.0108,
+          "lon": 74.0444
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "November to February",
+            "hi": "नवंबर से फ़रवरी",
+            "mr": "नोव्हेंबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Beach season; Christmas, New Year and Carnival.",
+            "hi": "समुद्र तट का मौसम; क्रिसमस, नव वर्ष और कार्निवल।",
+            "mr": "किनाऱ्यांचा हंगाम; नाताळ, नववर्ष व कार्निव्हल.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "June to September",
+            "hi": "जून से सितंबर",
+            "mr": "जून ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Green landscapes, Dudhsagar in full flow and São João; no sea swimming.",
+            "hi": "हरे-भरे भूदृश्य, पूरे वेग में दूधसागर और साओ जोआओ; समुद्र में तैरना नहीं।",
+            "mr": "हिरवीगार भूदृश्ये, पूर्ण भरलेला दूधसागर व सांजाव; समुद्रात पोहणे नाही.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spring",
+          "name": {
+            "en": "March",
+            "hi": "मार्च",
+            "mr": "मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Shigmo processions; cashew and mango season begins.",
+            "hi": "शिगमो शोभायात्राएँ; काजू और आम का मौसम शुरू।",
+            "mr": "शिगमो मिरवणुका; काजू व आंब्याचा हंगाम सुरू.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall",
+            "hi": "सामान्य वार्षिक वर्षा",
+            "mr": "सरासरी वार्षिक पाऊस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD Goa meteorological centre."
+        }
+      ]
+    }
+  ]
+}

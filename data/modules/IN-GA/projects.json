@@ -1,0 +1,48 @@
+{
+  "region": "IN-GA",
+  "module": "projects",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Goa's new Manohar International Airport at Mopa opened in December 2022. Other recent and ongoing works include the new Zuari bridge, the four-laning of the Mumbai–Goa and Panaji–Margao highways, the doubling of the South Western Railway line through the Ghats, and the restart of iron-ore mining through auctioned blocks; these will be added as cards once their status is confirmed from official sources. Each card shows its source and the date it was checked.",
+        "hi": "मोपा में गोवा का नया मनोहर अंतरराष्ट्रीय हवाई अड्डा दिसंबर 2022 में खुला। अन्य हाल के और चल रहे कार्यों में नया जुवारी पुल, मुंबई–गोवा और पणजी–मडगाँव राजमार्गों को चार-लेन करना, घाटों से गुज़रने वाली दक्षिण पश्चिम रेलवे लाइन का दोहरीकरण, और नीलाम किए गए ब्लॉकों से लौह अयस्क खनन की पुनः शुरुआत शामिल हैं; आधिकारिक स्रोतों से स्थिति की पुष्टि होने पर इन्हें कार्ड के रूप में जोड़ा जाएगा। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "मोपा येथील गोव्याचा नवा मनोहर आंतरराष्ट्रीय विमानतळ डिसेंबर 2022 मध्ये सुरू झाला. इतर अलीकडील व चालू कामांत नवा जुवारी पूल, मुंबई–गोवा व पणजी–मडगाव महामार्गांचे चौपदरीकरण, घाटांतून जाणाऱ्या दक्षिण पश्चिम रेल्वे मार्गाचे दुहेरीकरण, आणि लिलाव केलेल्या गटांद्वारे लोहखनिज खाणकाम पुन्हा सुरू करणे यांचा समावेश आहे; अधिकृत स्रोतांतून स्थितीची खात्री झाल्यावर त्यांची कार्डे जोडली जातील. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "deccan-herald"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Mopa airport — official source and project cost",
+            "hi": "मोपा हवाई अड्डा — आधिकारिक स्रोत और परियोजना लागत",
+            "mr": "मोपा विमानतळ — अधिकृत स्रोत व प्रकल्प खर्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "civil-aviation",
+          "note": "Replace the news report with the PIB or Ministry of Civil Aviation release."
+        }
+      ]
+    }
+  ]
+}

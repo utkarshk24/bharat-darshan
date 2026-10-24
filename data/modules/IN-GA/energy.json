@@ -1,0 +1,55 @@
+{
+  "region": "IN-GA",
+  "module": "energy",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Goa generates very little electricity of its own and buys most of its power from central generating stations — chiefly NTPC's coal plants in the western region — through its Electricity Department. Demand is driven by households, hotels and industry, and the State is promoting rooftop solar under national schemes. Power lines across the Western Ghats from Karnataka and Maharashtra have been debated because they pass through protected forests.",
+        "hi": "गोवा स्वयं बहुत कम बिजली बनाता है और अपनी अधिकांश बिजली विद्युत विभाग के माध्यम से केंद्रीय उत्पादन केंद्रों — मुख्यतः पश्चिमी क्षेत्र में एनटीपीसी के कोयला संयंत्रों — से ख़रीदता है। माँग घरों, होटलों और उद्योगों से आती है, और राज्य राष्ट्रीय योजनाओं के तहत छतों पर सौर ऊर्जा को बढ़ावा दे रहा है। कर्नाटक और महाराष्ट्र से पश्चिमी घाट पार करने वाली बिजली लाइनें संरक्षित वनों से गुज़रने के कारण बहस का विषय रही हैं।",
+        "mr": "गोवा स्वतः फारच थोडी वीज निर्माण करतो आणि आपली बहुतेक वीज वीज खात्यामार्फत केंद्रीय निर्मिती केंद्रांकडून — मुख्यतः पश्चिम विभागातील एनटीपीसीच्या कोळसा प्रकल्पांकडून — विकत घेतो. मागणी घरे, हॉटेल व उद्योगांकडून येते, आणि राज्य राष्ट्रीय योजनांअंतर्गत छतांवरील सौरऊर्जेला प्रोत्साहन देत आहे. कर्नाटक व महाराष्ट्रातून पश्चिम घाट ओलांडणाऱ्या वीजवाहिन्या संरक्षित वनांतून जात असल्याने वादाचा विषय ठरल्या आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Power purchase and own generation by source",
+            "hi": "स्रोतवार बिजली ख़रीद और स्वयं उत्पादन",
+            "mr": "स्रोतनिहाय वीजखरेदी व स्वनिर्मिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA / Goa Electricity Department."
+        },
+        {
+          "label": {
+            "en": "Why utilities have a large share of GSVA",
+            "hi": "जीएसवीए में उपयोगिताओं का बड़ा हिस्सा क्यों है",
+            "mr": "जीएसव्हीएमध्ये उपयुक्तता सेवांचा वाटा मोठा का",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mospi",
+          "note": "Check the MoSPI/DES Goa sub-sector breakdown for electricity, gas and water supply."
+        }
+      ]
+    }
+  ]
+}

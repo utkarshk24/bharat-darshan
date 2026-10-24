@@ -1,0 +1,412 @@
+{
+  "region": "IN-GA",
+  "module": "education",
+  "asOf": "2026-10-24",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Literacy in Goa was 88.7% at the 2011 Census, among the highest in India. The higher-education gross enrolment ratio (ages 18–23) was 35.8% in 2021-22 in AISHE, above the national 28.4% and up from 30.02% in 2017-18, with little difference between women (35.5%) and men (36.0%). The State had 3 universities and 62 colleges.\n\nGoa University at Taleigao (1985) is the State university, and Goa Medical College at Bambolim traces its origin to a medical school founded in 1842, one of the oldest in Asia. National institutions include IIT Goa, NIT Goa, the BITS Pilani K. K. Birla Goa campus, the CSIR–National Institute of Oceanography at Dona Paula and the National Centre for Polar and Ocean Research at Vasco, which runs India's Antarctic and Arctic stations.",
+        "hi": "2011 की जनगणना में गोवा की साक्षरता 88.7% थी, जो भारत में सबसे ऊँची में है। एआईएसएचई के अनुसार 2021-22 में उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 35.8% था, जो राष्ट्रीय 28.4% से अधिक और 2017-18 के 30.02% से ऊपर है, और महिलाओं (35.5%) व पुरुषों (36.0%) में बहुत कम अंतर था। राज्य में 3 विश्वविद्यालय और 62 कॉलेज थे।\n\nताळगाँव का गोवा विश्वविद्यालय (1985) राज्य विश्वविद्यालय है, और बांबोलिम का गोवा मेडिकल कॉलेज 1842 में स्थापित एक चिकित्सा विद्यालय से अपना मूल बताता है, जो एशिया के सबसे पुराने में है। राष्ट्रीय संस्थानों में आईआईटी गोवा, एनआईटी गोवा, बिट्स पिलानी का के. के. बिड़ला गोवा परिसर, डोना पाउला का सीएसआईआर–राष्ट्रीय समुद्र विज्ञान संस्थान और वास्को का राष्ट्रीय ध्रुवीय एवं समुद्री अनुसंधान केंद्र शामिल हैं, जो भारत के अंटार्कटिक और आर्कटिक केंद्र चलाता है।",
+        "mr": "2011 च्या जनगणनेत गोव्याची साक्षरता 88.7% होती, भारतातील सर्वाधिकांपैकी. एआयएसएचईनुसार 2021-22 मध्ये उच्चशिक्षण एकूण नोंदणी गुणोत्तर (18–23 वय) 35.8% होते, राष्ट्रीय 28.4% पेक्षा अधिक व 2017-18 मधील 30.02% पेक्षा जास्त, आणि स्त्रिया (35.5%) व पुरुष (36.0%) यांत फारसा फरक नव्हता. राज्यात 3 विद्यापीठे व 62 महाविद्यालये होती.\n\nताळगावचे गोवा विद्यापीठ (1985) हे राज्य विद्यापीठ आहे, आणि बांबोळीचे गोवा वैद्यकीय महाविद्यालय 1842 मध्ये स्थापन झालेल्या वैद्यकीय शाळेपासून आपले मूळ सांगते, जी आशियातील सर्वांत जुन्यांपैकी आहे. राष्ट्रीय संस्थांत आयआयटी गोवा, एनआयटी गोवा, बिट्स पिलानीचे के. के. बिर्ला गोवा संकुल, दोना पावलची सीएसआयआर–राष्ट्रीय समुद्रविज्ञान संस्था व वास्कोचे राष्ट्रीय ध्रुवीय व सागरी संशोधन केंद्र यांचा समावेश आहे, जे भारताची अंटार्क्टिक व आर्क्टिक केंद्रे चालवते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 35.8,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 33.79,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 3,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 62,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-24",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "ga",
+          "label": {
+            "en": "Goa",
+            "hi": "गोवा",
+            "mr": "गोवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 30.02,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 32.22,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 30.32,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 33.79,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 35.8,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-24",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "gu",
+          "name": {
+            "en": "Goa University",
+            "hi": "गोवा विश्वविद्यालय",
+            "mr": "गोवा विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Taleigao, 1985",
+            "hi": "ताळगाँव, 1985",
+            "mr": "ताळगाव, 1985",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gmc",
+          "name": {
+            "en": "Goa Medical College",
+            "hi": "गोवा मेडिकल कॉलेज",
+            "mr": "गोवा वैद्यकीय महाविद्यालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Bambolim (origin 1842)",
+            "hi": "बांबोलिम (मूल 1842)",
+            "mr": "बांबोळी (मूळ 1842)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iitg",
+          "name": {
+            "en": "IIT Goa",
+            "hi": "आईआईटी गोवा",
+            "mr": "आयआयटी गोवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Goa",
+            "hi": "गोवा",
+            "mr": "गोवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nitg",
+          "name": {
+            "en": "NIT Goa",
+            "hi": "एनआईटी गोवा",
+            "mr": "एनआयटी गोवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Cuncolim",
+            "hi": "कुंकळ्ळी",
+            "mr": "कुंकळ्ळी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bits",
+          "name": {
+            "en": "BITS Pilani K. K. Birla Goa Campus",
+            "hi": "बिट्स पिलानी के. के. बिड़ला गोवा परिसर",
+            "mr": "बिट्स पिलानी के. के. बिर्ला गोवा संकुल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Zuarinagar",
+            "hi": "ज़ुआरीनगर",
+            "mr": "झुआरीनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nio",
+          "name": {
+            "en": "CSIR–National Institute of Oceanography",
+            "hi": "सीएसआईआर–राष्ट्रीय समुद्र विज्ञान संस्थान",
+            "mr": "सीएसआयआर–राष्ट्रीय समुद्रविज्ञान संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Dona Paula",
+            "hi": "डोना पाउला",
+            "mr": "दोना पावल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ncpor",
+          "name": {
+            "en": "National Centre for Polar and Ocean Research",
+            "hi": "राष्ट्रीय ध्रुवीय एवं समुद्री अनुसंधान केंद्र",
+            "mr": "राष्ट्रीय ध्रुवीय व सागरी संशोधन केंद्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Vasco",
+            "hi": "वास्को",
+            "mr": "वास्को",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        }
+      ]
+    }
+  ]
+}

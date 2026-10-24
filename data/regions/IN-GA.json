@@ -33,86 +33,135 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://www.goa.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Gaur",
+        "hi": "गौर (भारतीय बाइसन)",
+        "mr": "गवा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Bos gaurus",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Flame-throated bulbul",
+        "hi": "लाल-कंठ बुलबुल",
+        "mr": "लालकंठी बुलबुल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Rubigula gularis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Matti (crocodile bark)",
+        "hi": "मत्ती (असन)",
+        "mr": "माटी (ऐन)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Terminalia elliptica",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 1458545,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 7,39,140; females 7,19,405."
     },
     "area": {
-      "value": null,
+      "value": 3702,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 394,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 14,58,545 ÷ area 3,702 km² = 394.0."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 973,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (961 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 942,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 938 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 88.7,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,87 +174,533 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 117079,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25 is the latest year published for Goa. FY2023-24: ₹97,839 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 636703,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2023-24: ₹5,42,341. Second only to Sikkim among the 30 regions with a FY2024-25 figure in the MoSPI series."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 61.2,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-24",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 2,265.72 km² ÷ geographical area 3,702 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Pusapati Ashok Gajapathi Raju",
+        "hi": "पुसपति अशोक गजपति राजू",
+        "mr": "पुसपती अशोक गजपती राजू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2025-07-26",
+      "asOf": "2026-10-24",
+      "sourceId": "goa-dip",
+      "url": "https://dip.goa.gov.in/pusapati-ashok-gajapathi-raju-sworn-in-as-governor/",
+      "verifyUrl": "https://lokbhavan.goa.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Sworn in as the 22nd Governor of Goa at Raj Bhavan, Dona Paula, on 26 July 2025 by Chief Justice Alok Aradhe of the Bombay High Court; succeeded P. S. Sreedharan Pillai (Department of Information and Publicity, Goa)."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "name": {
+        "en": "Pramod Sawant",
+        "hi": "प्रमोद सावंत",
+        "mr": "प्रमोद सावंत",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "BJP",
+      "since": "2022-03-28",
+      "asOf": "2026-10-24",
+      "sourceId": "the-week",
+      "url": "https://www.theweek.in/news/india/2022/03/28/pramod-sawant-takes-oath-goa-cm.html",
+      "verifyUrl": "https://www.goa.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in for a second term on 28 March 2022 at the Dr Syama Prasad Mookerjee stadium, Bambolim, by Governor P. S. Sreedharan Pillai, with eight ministers; MLA from Sanquelim (PTI via The Week). He first became Chief Minister in March 2019."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Ganesh Gaonkar",
+          "hi": "गणेश गावकर",
+          "mr": "गणेश गावकर",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2025-09-25",
+        "asOf": "2026-10-24",
+        "sourceId": "newsonair",
+        "url": "https://www.newsonair.gov.in/bjp-mla-ganesh-gaonkar-elected-speaker-of-goa-legislative-assembly",
+        "verifyUrl": "https://goavidhansabha.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Elected Speaker on 25 September 2025 with 31 votes against 7, after Ramesh Tawadkar resigned to join the Cabinet (News On AIR); MLA from Sanvordem."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "mopa-airport",
+      "name": {
+        "en": "Manohar International Airport, Mopa",
+        "hi": "मनोहर अंतरराष्ट्रीय हवाई अड्डा, मोपा",
+        "mr": "मनोहर आंतरराष्ट्रीय विमानतळ, मोपा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A greenfield international airport at Mopa in Pernem taluka, North Goa, named after former Chief Minister Manohar Parrikar. Its first phase, with a capacity of about 40 lakh passengers a year that can be expanded to about 3.5 crore, was inaugurated by the Prime Minister on 11 December 2022. Goa's older airport at Dabolim, a civil enclave at a naval air station, continues to operate.",
+        "hi": "उत्तर गोवा के पेरनेम तालुका के मोपा में नया अंतरराष्ट्रीय हवाई अड्डा, जिसका नाम पूर्व मुख्यमंत्री मनोहर पर्रिकर के नाम पर है। इसके पहले चरण का, जिसकी क्षमता प्रति वर्ष लगभग 40 लाख यात्रियों की है और जिसे लगभग 3.5 करोड़ तक बढ़ाया जा सकता है, प्रधानमंत्री ने 11 दिसंबर 2022 को उद्घाटन किया। नौसेना हवाई स्टेशन पर नागरिक परिसर के रूप में गोवा का पुराना डाबोलिम हवाई अड्डा भी चलता रहता है।",
+        "mr": "उत्तर गोव्याच्या पेडणे तालुक्यातील मोपा येथील नवा आंतरराष्ट्रीय विमानतळ, ज्याला माजी मुख्यमंत्री मनोहर पर्रीकर यांचे नाव दिले आहे. वर्षाला सुमारे 40 लाख प्रवासी क्षमतेच्या व सुमारे 3.5 कोटींपर्यंत वाढवता येणाऱ्या त्याच्या पहिल्या टप्प्याचे पंतप्रधानांनी 11 डिसेंबर 2022 रोजी उद्घाटन केले. नौदल हवाई तळावरील नागरी विभाग म्हणून गोव्याचा जुना दाबोळी विमानतळही सुरू आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "aviation",
+      "agency": "GMR Goa International Airport Ltd (concessionaire)",
+      "start": null,
+      "completion": "11 December 2022 (phase 1)",
+      "status": "Completed",
+      "asOf": "2026-10-24",
+      "sourceId": "deccan-herald",
+      "url": "https://www.deccanherald.com/amp/story/india%2Fpm-modi-inaugurates-first-phase-of-mopa-international-airport-in-goa-1170718.html",
+      "confidence": "Third-party verified"
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "khola-chilli",
+      "name": {
+        "en": "Khola Chilli",
+        "hi": "खोला मिर्च",
+        "mr": "खोला मिरची",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "618",
+      "filingDate": "2018-08-06",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "harmal-chilli",
+      "name": {
+        "en": "Harmal Chilli",
+        "hi": "हरमल मिर्च",
+        "mr": "हरमल मिरची",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "642",
+      "filingDate": "2019-01-14",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "myndoli-banana",
+      "name": {
+        "en": "Myndoli Banana",
+        "hi": "मैंदोली केला",
+        "mr": "मैंदोळी केळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "680",
+      "filingDate": "2019-12-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "goa-cashew-kaju-or-caju",
+      "name": {
+        "en": "Goa Cashew (Kaju or Caju)",
+        "hi": "गोवा काजू",
+        "mr": "गोवा काजू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "714",
+      "filingDate": "2020-10-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "agsechi-vayingim-agassaim-brinjal",
+      "name": {
+        "en": "Agsechi Vayingim (Agassaim Brinjal)",
+        "hi": "आगशी वायंगिम (आगशी बैंगन)",
+        "mr": "आगशी वायंगी (आगशी वांगे)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "763",
+      "filingDate": "2021-06-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sat-shiro-bheno-sat-shirancho-bhendo",
+      "name": {
+        "en": "Sat Shiro Bheno (Sat Shirancho Bhendo)",
+        "hi": "सात शिरांचो भेंडो (सात धारियों वाली भिंडी)",
+        "mr": "सात शिरांचो भेंडो (सात शिरांची भेंडी)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "790",
+      "filingDate": "2021-11-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "goa-mankurad-mango",
+      "name": {
+        "en": "Goa Mankurad Mango",
+        "hi": "गोवा मानकुराद आम",
+        "mr": "गोवा मानकुराद आंबा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "728",
+      "filingDate": "2020-12-14",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "taleigao-vayingim-taleigao-brinjal",
+      "name": {
+        "en": "Taleigao Vayingim (Taleigao Brinjal)",
+        "hi": "ताळगाँव वायंगिम (ताळगाँव बैंगन)",
+        "mr": "ताळगाव वायंगी (ताळगाव वांगे)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "878",
+      "filingDate": "2022-04-22",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "goa-hilario-mango",
+      "name": {
+        "en": "Goa Hilario Mango",
+        "hi": "गोवा हिलारियो आम",
+        "mr": "गोवा हिलारियो आंबा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "879",
+      "filingDate": "2022-04-22",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "goa-korgut-rice",
+      "name": {
+        "en": "Goa Korgut Rice",
+        "hi": "गोवा कोरगुट चावल",
+        "mr": "गोवा कोरगुट तांदूळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "916",
+      "filingDate": "2022-06-21",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "goa-kaju-apple",
+      "name": {
+        "en": "Goa Kaju Apple",
+        "hi": "गोवा काजू फल",
+        "mr": "गोवा काजूबोंड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "1079",
+      "filingDate": "2023-04-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "goa-mussarad-mango",
+      "name": {
+        "en": "Goa Mussarad Mango",
+        "hi": "गोवा मुसराद आम",
+        "mr": "गोवा मुसराद आंबा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "1080",
+      "filingDate": "2023-04-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "goan-khaje",
+      "name": {
+        "en": "Goan Khaje",
+        "hi": "गोवा खाजे",
+        "mr": "गोमंतकीय खाजे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "655",
+      "filingDate": "2019-07-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "goan-bebinca",
+      "name": {
+        "en": "Goan Bebinca",
+        "hi": "गोवा बेबिंका",
+        "mr": "गोमंतकीय बेबिंका",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "746",
+      "filingDate": "2021-04-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "feni",
+      "name": {
+        "en": "Feni",
+        "hi": "फ़ेनी",
+        "mr": "फेणी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "120",
+      "filingDate": "2007-12-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-24",
+    "editorialStatus": "draft"
   }
 }

@@ -381,6 +381,85 @@ The Jagiroad plant is kept as "Under construction". Reports in 2026 describe pil
 5. **ISO code.** The hero shows "IN-OR" for Odisha, which is the site's internal code. Check whether the published ISO 3166-2 code is now IN-OD before relying on it.
 6. **Translations.** Hindi and Marathi text of the five profiles, especially the 42 Assam GI names (many Bodo terms), need a native-speaker read.
 
+## 6. Phase 3, batch 5: Haryana, Himachal Pradesh, Uttarakhand, Jammu and Kashmir, Goa
+
+All 26 sections of each profile are written in English, Hindi and Marathi, in the same structure as the earlier batches.
+
+**Officeholders** (as of 24 October 2026):
+
+| Region | Governor / LG | Chief Minister | Speaker |
+|---|---|---|---|
+| Haryana | Ashim Kumar Ghosh, since 21 July 2025 (Lok Bhavan Haryana) | Nayab Singh Saini (BJP), second term from 17 Oct 2024 (*third-party*) | Harvinder Kalyan (BJP), since 25 Oct 2024 (*third-party*) |
+| Himachal Pradesh | **Kavinder Gupta, since 10 Mar 2026** (*third-party*) | Sukhvinder Singh Sukhu (INC), since 11 Dec 2022 (*third-party*) | Kuldeep Singh Pathania (INC), since 5 Jan 2023 (*third-party*) |
+| Uttarakhand | **Dhal Singh Bisen, since 19 Oct 2026** (*third-party*) | Pushkar Singh Dhami (BJP), second term from 23 Mar 2022 (*third-party*) | Ritu Khanduri Bhushan (BJP), since 26 Mar 2022 (*third-party*) |
+| Jammu and Kashmir (UT) | LG Manoj Sinha, since 7 Aug 2020 (*third-party*) | Omar Abdullah (JKNC), since 16 Oct 2024 (*third-party*) | Abdul Rahim Rather (JKNC), since 4 Nov 2024 (*third-party*) |
+| Goa | Pusapati Ashok Gajapathi Raju, since 26 July 2025 (DIP Goa) | Pramod Sawant (BJP), second term from 28 Mar 2022 (*third-party*) | Ganesh Gaonkar (BJP), since 25 Sep 2025 (News On AIR) |
+
+**Haryana's economy figures come from the CAG and the State.** As with Assam, MoSPI's state-wise API returned nothing for Haryana:
+- GSDP ₹12,13,951 crore in FY2024-25, and a five-year series from FY2020-21, come from the CAG's State Finances Audit Report of Haryana 2024-25 (Table 1.2).
+- Per capita income (₹3,25,759, FY2023-24 advance estimate) and sector shares at constant prices (services 50.7%, industry 33.0%, primary 16.3%) come from the Haryana Finance Department's FRBM statements laid with Budget 2024-25.
+- Haryana shows "Not available" for GSDP on `/compare`, which uses MoSPI only.
+
+**Jammu and Kashmir uses UT-level Census figures.** The usual Census 2011 tables give the former State, including Ladakh. The J&K Directorate of Economics and Statistics ("UT at a Glance 2024-25") gives the figures for the present UT: population 1,22,67,013; area 42,241 km²; density 290; sex ratio 892; child sex ratio 860; literacy 67.0%; urban share 27.5%; SC 7.5%; ST 10.4%. Notes on each figure explain the difference, and the area note gives the 1,20,355 km² figure that includes PoK (J&K Planning Department). Where a source covers the former State (NFHS-4, SRS 2010, life expectancy 2014-18, AISHE before 2019-20, possibly MoSPI's back series), the text says so.
+
+**Forest-cover percentage for J&K is left blank.** ISFR 2023 gives 21,346 km² of forest cover but measures it against 2,22,236 km², the area of the whole former State including the areas under the occupation of Pakistan and China. That gives 9.6%, which is not comparable with other regions. The figure is left out until an agreed area basis is chosen, as was done for Ladakh.
+
+**Latest year differs by region.** MoSPI publishes FY2025-26 for Uttarakhand and J&K and FY2024-25 for Himachal and Goa. Sector tables use FY2024-25 for all four.
+
+**Data added for all five:**
+- **Census 2011 basics** for Haryana, Himachal, Uttarakhand and Goa, from the same tables as earlier batches. Haryana's child sex ratio (834) was the lowest of any State or UT. Saved in `research/census_b5plus.json`, which also holds the figures for the remaining 12 regions.
+- **PLFS 2022–2025.** Women's labour-force participation is very high in Himachal (64.7%) and J&K (53.1%) and low in Haryana (23.8%) and Goa (27.4%). Goa's unemployment rate (8.3%) is the highest of the five.
+- **AISHE GER by sex**, now saved for every region. Himachal's women's GER is 49.7%.
+- **NFHS-5.** Child stunting rose in Himachal and Goa between NFHS-4 and NFHS-5.
+- **SRS 2020.** Life expectancy is available only for Haryana, Himachal and J&K (with Ladakh); Uttarakhand and Goa are gaps.
+- **ISFR 2023 and Ramsar sites:** Haryana 2, Himachal 3, Uttarakhand 1, J&K 5, Goa 1.
+- **GIs:** Himachal 10, Uttarakhand 28, J&K 24, Goa 15, plus shared Basmati and Phulkari. The GI directory now has **622 products**.
+  - Uttarakhand Bedu's filing date is printed as 27.02.2027 in the registry list. It is shown as blank, with a note.
+- **New district counts:** Haryana 23 (Hansi, December 2025); Goa 3 (Kushavati, notified at the end of December 2025).
+- **Per capita NSDP for all 30 regions** with a FY2024-25 figure is saved in `research/mospi_pcnsdp_all_2024_25.json`. Goa (₹6,36,703) is second only to Sikkim (₹6,46,183).
+
+**Projects:**
+
+| Project | Status | Source |
+|---|---|---|
+| Dwarka Expressway, Haryana section (19 km) | Completed (11 Mar 2024), about ₹4,100 crore | PMO |
+| Atal Tunnel, Rohtang (9.02 km) | Completed (3 Oct 2020) | PMO |
+| AIIMS Bilaspur | Completed (5 Oct 2022), about ₹1,470 crore | PMO |
+| Kiratpur–Nerchowk four-lane NH-21 | Completed (11 Mar 2024), about ₹3,400 crore | PMO |
+| Rishikesh–Karnaprayag rail line | Under construction (199 of 213 km tunnelled, Aug 2025) | ETV Bharat, reporting a Lok Sabha reply (*third-party*) |
+| Kedarnath and Hemkund Sahib ropeways | Announced (Cabinet approval 5 Mar 2025) | News On AIR |
+| Udhampur–Srinagar–Baramulla Rail Link | Completed (6 June 2025), around ₹44,000 crore | News On AIR |
+| Manohar International Airport, Mopa | Completed (phase 1, 11 Dec 2022) | Deccan Herald (*third-party*) |
+
+**Neutrality.** The J&K history and government sections describe the 1947 accession, Article 370, the 2019 reorganisation, the insurgency and the displacement of Kashmiri Pandits in factual terms, without commentary. Restoration of statehood is mentioned only as a political question.
+
+**Also changed:**
+- `/compare` now covers 24 regions.
+- The axe scan covers 21 pages, adding J&K government (en), Uttarakhand GI (hi) and Goa culture (mr).
+- The data test's example of an empty profile is now Sikkim.
+- `gi_list` now accepts a blank filing date.
+- **Sources added:** Lok Bhavan Haryana, Haryana Finance Department, DIP Goa, J&K DES and J&K Planning. Third-party: Deccan Chronicle, The Week, Kashmir Life, Kashmir Reader, The Goan and Drishti IAS.
+
+### Checks run (batch 5)
+
+| Check | Result |
+|---|---|
+| validate-data | 0 errors, 0 warnings, 1,438 gaps (1,295 after batch 4) |
+| Tests | 66/66 |
+| Type check | clean |
+| Static build, links and axe | run by GitHub Actions on push (see below) |
+
+**The local build was stopped by Next.js.** Next.js 16.4.0 now halts builds run by an AI agent to report a known security vulnerability in that version, and recommends `next upgrade --agent=security`. The upgrade was not run, because changing the framework version is your decision. GitHub Actions builds are not affected, so the deploy, link check and axe scan run there as usual.
+
+### Please check (batch 5)
+
+1. **Next.js security upgrade.** Decide whether to upgrade Next.js. The site should be rebuilt and re-checked after an upgrade.
+2. **Third-party officeholders.** Most cards in this batch cite news reports. Link the Raj Bhavan / Lok Bhavan and Assembly pages in review. The Uttarakhand Speaker card cites a Drishti IAS summary.
+3. **Haryana economy.** Confirm the CAG and FRBM figures against the Haryana Economic Survey 2024-25, and add a FY2024-25 per capita figure.
+4. **J&K area basis.** Decide which area to use for density and forest percentage (42,241 km² administered, per Census 2011, or the official 2,22,236 / 1,20,355 km² figures), for both J&K and Ladakh.
+5. **New districts.** Link the official notifications for Hansi (Haryana) and Kushavati (Goa).
+6. **Translations.** Hindi and Marathi text of the five profiles, especially Konkani, Kashmiri, Dogri and Pahari names, need a native-speaker read.
+
 ## Next batch
 
-Haryana, Himachal Pradesh, Uttarakhand, Jammu and Kashmir, and Goa (proposed).
+Sikkim, Arunachal Pradesh, Nagaland, Manipur and Meghalaya (proposed). After them: Mizoram, Tripura, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Lakshadweep and Puducherry.

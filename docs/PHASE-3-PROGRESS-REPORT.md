@@ -1,8 +1,8 @@
 # Phase 3 progress report
 
-Last updated: 16 October 2026. Status: **draft, awaiting your review.**
+Last updated: 25 October 2026. Status: **draft, awaiting your review.**
 
-Fifteen of the remaining 32 regions are now complete: Tamil Nadu (batch 1); Uttar Pradesh, Karnataka, Gujarat and West Bengal (batch 2, section 3); Andhra Pradesh, Telangana, Rajasthan, Madhya Pradesh and Bihar (batch 3, section 4); and Odisha, Jharkhand, Chhattisgarh, Assam and Punjab (batch 4, section 5).
+Twenty-five of the remaining 32 regions are now complete: Tamil Nadu (batch 1); Uttar Pradesh, Karnataka, Gujarat and West Bengal (batch 2, section 3); Andhra Pradesh, Telangana, Rajasthan, Madhya Pradesh and Bihar (batch 3, section 4); Odisha, Jharkhand, Chhattisgarh, Assam and Punjab (batch 4, section 5); Haryana, Himachal Pradesh, Uttarakhand, Jammu and Kashmir and Goa (batch 5, section 6); and Sikkim, Arunachal Pradesh, Nagaland, Manipur and Meghalaya (batch 6, section 8). Section 7 covers the new India map.
 
 ## 1. Quality checks (the MVP release criteria)
 
@@ -512,6 +512,72 @@ The tile-grid cartogram has been replaced by a geographic map drawn from the **S
 1. Look at `/en/map/` and confirm the boundary depiction. The manifest is marked verified on the build check.
 2. Decide whether per capita income should show FY2024-25 for all regions, so that more of them are compared.
 
+## 8. Phase 3, batch 6: Sikkim, Arunachal Pradesh, Nagaland, Manipur, Meghalaya
+
+All 26 sections of each profile are written in English, Hindi and Marathi, in the same structure as the earlier batches.
+
+**Officeholders** (as of 25 October 2026):
+
+| Region | Governor | Chief Minister | Speaker |
+|---|---|---|---|
+| Sikkim | **Dushyant Kumar Gautam, since 19 Oct 2026** (*third-party*) | Prem Singh Tamang (SKM), second term from 10 June 2024 (*third-party*) | Mingma Norbu Sherpa (SKM), since 12 June 2024 (Assembly notification) |
+| Arunachal Pradesh | Lt Gen K. T. Parnaik (Retd), since 16 Feb 2023 (Lok Bhavan) | Pema Khandu (BJP), from 13 June 2024 (*third-party*) | Tesam Pongte (BJP), since 15 June 2024 (News On AIR) |
+| Nagaland | Nand Kishore Yadav, since 13 Mar 2026 (News On AIR) | Neiphiu Rio, fifth term from 7 Mar 2023 (*third-party*); now NPF after the NDPP merged into it on 18 Oct 2025 | Sharingain Longkumer, since 20 Mar 2023 (*third-party*) |
+| Manipur | Ajay Kumar Bhalla, since 3 Jan 2025 (News On AIR) | **Yumnam Khemchand Singh (BJP), since 4 Feb 2026**, after President's Rule (13 Feb 2025 – 4 Feb 2026) (*third-party*) | Thokchom Satyabrata Singh (BJP), since 24 Mar 2022 (Assembly bulletin) |
+| Meghalaya | C. H. Vijayashankar, since 30 July 2024 (Lok Bhavan) | Conrad K. Sangma (NPP), second term from 7 Mar 2023 (*third-party*) | Thomas A. Sangma (NPP), since 9 Mar 2023 (Assembly notice) |
+
+**Nagaland's economy figures come from the State.** MoSPI's API returned no rows for Nagaland. GSDP (₹51,014 crore, FY2025-26 advance estimate; ₹45,133 crore in FY2024-25) and per capita income (₹1,92,282) come from the Nagaland Economic Survey 2025-26, as reported by The Morung Express. They are marked third-party, and Nagaland shows "Not available" for GSDP on `/compare`.
+
+**Manipur is written neutrally.** The history, vibe and government sections describe the ethnic violence since 3 May 2023, the resignation of the Chief Minister, President's Rule and the return of an elected government in plain terms, without casualty figures or blame. Official figures for deaths and displacement are recorded as a gap. Manipur's Census 2011 figures exclude three sub-divisions of Senapati district, and every figure says so.
+
+**Data added for all five:**
+- **Census 2011, PLFS, AISHE, NFHS-5 and SRS** from the same tables as earlier batches.
+  - Women's labour-force participation is high in Meghalaya (64.3%) and Manipur (52.6%).
+  - Manipur's GER (35.4%) is well above the national 28.4%.
+  - Meghalaya's child stunting rose from 43.8% to 46.5% between NFHS-4 and NFHS-5, and only 58.1% of births were in health facilities.
+- **ISFR 2023 forest cover:** Sikkim 47%, Arunachal 79%, Nagaland 74%, Manipur 74%, Meghalaya 76%.
+- **Ramsar sites:** Sikkim 1 (Khecheopalri) and Manipur 1 (Loktak). Arunachal, Nagaland and Meghalaya have none.
+- **GIs:** Sikkim 4, Arunachal 21, Nagaland 5, Manipur 7 and Meghalaya 8. Chak-hao is shared by Manipur and Nagaland. The GI directory now has **664 products**.
+- **District boundaries:** Sikkim (6), Manipur (16) and Meghalaya (12) match the LGD file and are drawn on the map. Arunachal (27 in the profile, 26 in the file) is marked out of date. Nagaland's count is left unconfirmed.
+
+**Projects:**
+
+| Project | Status | Source |
+|---|---|---|
+| Pakyong Airport, Sikkim | Completed (24 Sep 2018) | PMO |
+| Sivok–Rangpo rail line | Under construction (77%, target Dec 2027) | The Morung Express (*third-party*) |
+| Sela Tunnel, Arunachal | Completed (9 Mar 2024), ₹825 crore | The Morung Express/IANS (*third-party*) |
+| Donyi Polo Airport, Itanagar | Completed (19 Nov 2022), ₹645 crore | New India Samachar |
+| Dhansiri–Zubza (Kohima) rail line | Under construction (target 2029) | The Morung Express (*third-party*) |
+| Jiribam–Imphal rail line (111 km) | Under construction (target June 2029), about ₹22,000 crore | IANS via The Morung Express (*third-party*) |
+| Shillong–Silchar greenfield corridor | Tendering (approved 30 Apr 2025), ₹22,864 crore | Swarajya (*third-party*) |
+
+**Also changed:**
+- `/compare` now covers 29 regions.
+- The axe scan covers 26 pages, adding Manipur government (en), Meghalaya culture (hi) and Sikkim nature (mr).
+- The data test's example of an empty profile is now Lakshadweep.
+- District index rebuilt with the new profile counts.
+- **Sources added:** Government of Sikkim, Lok Bhavan Arunachal, Lok Bhavan Meghalaya, Government of Meghalaya and the Manipur Assembly. Third-party: EastMojo, Eastern Mirror, The Morung Express and Swarajya.
+
+### Checks run (batch 6)
+
+| Check | Result |
+|---|---|
+| validate-data | 0 errors, 0 warnings, 1,650 gaps (1,475 after batch 5). Includes Compare-table gaps for the five new regions. |
+| Tests | 73/73 |
+| Type check | clean |
+| Static build | passes locally (after the Next.js security notice, on retry) |
+| axe | 26/26 pages clean |
+
+### Please check (batch 6)
+
+1. **Next.js security upgrade.** Still open from batch 5.
+2. **Third-party sources.** The Manipur and Meghalaya Chief Minister cards, Nagaland's economy and most projects cite news reports. Replace them with State notifications, the Ministry of Railways and PIB in review.
+3. **Manipur.** Read the history and government sections for neutrality, and add official figures for deaths and displacement when the Union or State publishes them.
+4. **District counts.** Confirm Arunachal's 27th district (Bichom) and Nagaland's current count, then rebuild the district index.
+5. **West Bengal GI list.** Add Dalle Khursani, shared with Sikkim.
+6. **Translations.** Hindi and Marathi text of the five profiles, especially Khasi, Garo, Meitei and Naga names, need a native-speaker read.
+
 ## Next batch
 
-Sikkim, Arunachal Pradesh, Nagaland, Manipur and Meghalaya (proposed). After them: Mizoram, Tripura, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Lakshadweep and Puducherry.
+Mizoram, Tripura, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Lakshadweep and Puducherry (the last seven regions).

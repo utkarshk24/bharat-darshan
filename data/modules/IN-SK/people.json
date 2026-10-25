@@ -1,0 +1,533 @@
+{
+  "region": "IN-SK",
+  "module": "people",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Sikkim had 6.1 lakh people at the 2011 Census, about 86 per km². Its sex ratio was 890 women per 1,000 men, up from 875 in 2001, while the child sex ratio fell slightly from 963 to 957, and literacy was 81.4%. Scheduled Tribes made up 33.8% of the population — the Lepcha, regarded as the original inhabitants, the Bhutia and, since 2003, the Limboo and Tamang — and Scheduled Castes 4.6%.\n\nNepali, spoken by the Nepali-origin majority, is the common language of the State; Bhutia (Sikkimese), Lepcha, Limbu, Newari, Rai, Gurung, Mangar, Sherpa, Tamang and Sunwar are also official languages, and English is the language of administration and schooling.",
+        "hi": "2011 की जनगणना में सिक्किम की जनसंख्या 6.1 लाख थी, प्रति वर्ग किमी लगभग 86। लिंगानुपात प्रति 1,000 पुरुषों पर 890 महिलाएँ था, जो 2001 के 875 से अधिक है, जबकि शिशु लिंगानुपात 963 से थोड़ा घटकर 957 हुआ, और साक्षरता 81.4% थी। अनुसूचित जनजातियाँ जनसंख्या का 33.8% थीं — लेप्चा, जिन्हें मूल निवासी माना जाता है, भूटिया और 2003 से लिम्बू और तमांग — और अनुसूचित जातियाँ 4.6%।\n\nनेपाली मूल के बहुसंख्यकों द्वारा बोली जाने वाली नेपाली राज्य की सामान्य भाषा है; भूटिया (सिक्किमी), लेप्चा, लिम्बू, नेवारी, राई, गुरुंग, मगर, शेर्पा, तमांग और सुनुवार भी राजभाषाएँ हैं, और प्रशासन व शिक्षा की भाषा अंग्रेज़ी है।",
+        "mr": "2011 च्या जनगणनेनुसार सिक्कीमची लोकसंख्या 6.1 लाख होती, प्रति चौ.किमी सुमारे 86. दर 1,000 पुरुषांमागे 890 स्त्रिया होत्या, 2001 मधील 875 वरून वाढ, तर बाल लिंग गुणोत्तर 963 वरून किंचित घटून 957 झाले, आणि साक्षरता 81.4% होती. अनुसूचित जमाती लोकसंख्येच्या 33.8% होत्या — मूळ रहिवासी मानले जाणारे लेप्चा, भुतिया व 2003 पासून लिंबू आणि तमांग — आणि अनुसूचित जाती 4.6%.\n\nनेपाळी वंशाच्या बहुसंख्याकांची नेपाळी ही राज्याची सामान्य भाषा आहे; भुतिया (सिक्कीमी), लेप्चा, लिंबू, नेवारी, राई, गुरुंग, मगर, शेर्पा, तमांग व सुनुवार याही राजभाषा आहेत, आणि प्रशासन व शिक्षणाची भाषा इंग्रजी आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "census",
+        "es-india",
+        "dl-planning",
+        "pib"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 610577,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 3,23,070; females 2,87,507."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 890,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Puducherry DES state-wise table citing ORGI (875 in 2001)."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 875,
+            "unit": "females per 1000 males",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 957,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PIB release of 11 Feb 2014 (RGI data). Was 963 in 2001."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 963,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 81.4,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "es-india",
+            "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 86,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: Census 2011 population 6,10,577 ÷ area 7,096 km² = 86.0."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "st",
+          "label": {
+            "en": "Scheduled Tribes, share of population",
+            "hi": "अनुसूचित जनजातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जमाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 33.8,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "dl-planning",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/17._table_social_welfare.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Delhi Planning Department, table 17.2, citing Census 2011: 2.06 lakh people. Scheduled Castes were 4.6% (0.28 lakh)."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "langs",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ne",
+          "name": {
+            "en": "Nepali",
+            "hi": "नेपाली",
+            "mr": "नेपाळी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official; in the Eighth Schedule",
+            "hi": "राजभाषा; आठवीं अनुसूची में",
+            "mr": "राजभाषा; आठव्या अनुसूचीत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bhu",
+          "name": {
+            "en": "Bhutia (Sikkimese)",
+            "hi": "भूटिया (सिक्किमी)",
+            "mr": "भुतिया (सिक्कीमी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lep",
+          "name": {
+            "en": "Lepcha",
+            "hi": "लेप्चा",
+            "mr": "लेप्चा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lim",
+          "name": {
+            "en": "Limbu",
+            "hi": "लिम्बू",
+            "mr": "लिंबू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "new",
+          "name": {
+            "en": "Newari",
+            "hi": "नेवारी",
+            "mr": "नेवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rai",
+          "name": {
+            "en": "Rai",
+            "hi": "राई",
+            "mr": "राई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gur",
+          "name": {
+            "en": "Gurung",
+            "hi": "गुरुंग",
+            "mr": "गुरुंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mag",
+          "name": {
+            "en": "Mangar",
+            "hi": "मगर",
+            "mr": "मगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "she",
+          "name": {
+            "en": "Sherpa",
+            "hi": "शेर्पा",
+            "mr": "शेर्पा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tam",
+          "name": {
+            "en": "Tamang",
+            "hi": "तमांग",
+            "mr": "तमांग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sun",
+          "name": {
+            "en": "Sunwar",
+            "hi": "सुनुवार",
+            "mr": "सुनुवार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "en",
+          "name": {
+            "en": "English",
+            "hi": "अंग्रेज़ी",
+            "mr": "इंग्रजी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Language of administration",
+            "hi": "प्रशासन की भाषा",
+            "mr": "प्रशासनाची भाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Languages",
+        "hi": "भाषाएँ",
+        "mr": "भाषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official Languages Act — list and amendments",
+            "hi": "राजभाषा अधिनियम — सूची और संशोधन",
+            "mr": "राजभाषा अधिनियम — यादी व सुधारणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Sikkim Official Languages Act, 1977 and later amendments."
+        },
+        {
+          "label": {
+            "en": "Urban population share (Census 2011)",
+            "hi": "शहरी जनसंख्या का हिस्सा (जनगणना 2011)",
+            "mr": "नागरी लोकसंख्येचा वाटा (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Primary Census Abstract."
+        },
+        {
+          "label": {
+            "en": "Religion shares (Census 2011, C-01)",
+            "hi": "धर्मवार हिस्सा (जनगणना 2011, C-01)",
+            "mr": "धर्मनिहाय वाटा (जनगणना 2011, C-01)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-01 table; show without commentary."
+        }
+      ]
+    }
+  ]
+}

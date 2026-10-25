@@ -1,0 +1,42 @@
+{
+  "region": "IN-SK",
+  "module": "digital",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mobile coverage reaches most towns and villages, though signal is patchy in the high north and roads and cables are often cut by landslides. Government services are offered online through the State portal, and Sikkim University, NIT Sikkim and Sikkim Manipal University train students in computing and engineering.",
+        "hi": "मोबाइल कवरेज अधिकांश नगरों और गाँवों तक पहुँचता है, हालाँकि ऊँचे उत्तर में सिग्नल कमज़ोर है और भूस्खलन से अक्सर सड़कें और केबल कट जाते हैं। सरकारी सेवाएँ राज्य पोर्टल से ऑनलाइन दी जाती हैं, और सिक्किम विश्वविद्यालय, एनआईटी सिक्किम और सिक्किम मणिपाल विश्वविद्यालय कंप्यूटिंग और इंजीनियरिंग में छात्रों को प्रशिक्षित करते हैं।",
+        "mr": "मोबाइल सेवा बहुतेक शहरे व गावांपर्यंत पोहोचते, मात्र उंच उत्तरेत संकेत कमकुवत आहे आणि भूस्खलनामुळे रस्ते व केबल अनेकदा तुटतात. सरकारी सेवा राज्य संकेतस्थळावरून ऑनलाइन दिल्या जातात, आणि सिक्कीम विद्यापीठ, एनआयटी सिक्कीम व सिक्कीम मणिपाल विद्यापीठ संगणन व अभियांत्रिकीचे शिक्षण देतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (North East circle / Sikkim)."
+        }
+      ]
+    }
+  ]
+}

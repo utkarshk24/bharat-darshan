@@ -1,0 +1,544 @@
+{
+  "region": "IN-SK",
+  "module": "culture",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Sikkim's culture blends the Buddhist traditions of the Lepcha and Bhutia with the Hindu and Kirat traditions of its Nepali communities. Monasteries hold masked cham dances at festivals, and thangka painting, wood carving and the making of choktse (carved folding tables) are traditional crafts. The Lepcha honour Mount Kangchenjunga and nature spirits, and Pang Lhabsol, a festival unique to Sikkim, worships Kangchenjunga as the guardian deity. Nepali folk songs and dances such as the maruni and tamang selo, and Lepcha and Bhutia songs, are performed at festivals across the State.",
+        "hi": "सिक्किम की संस्कृति लेप्चा और भूटिया की बौद्ध परंपराओं को उसके नेपाली समुदायों की हिंदू और किरात परंपराओं से जोड़ती है। मठों में त्योहारों पर मुखौटे वाले छम नृत्य होते हैं, और थांका चित्रकला, लकड़ी की नक्काशी और छोक्त्से (नक्काशीदार मोड़ने वाली मेज़ें) बनाना पारंपरिक शिल्प हैं। लेप्चा कंचनजंगा पर्वत और प्रकृति की आत्माओं का सम्मान करते हैं, और सिक्किम का अनूठा त्योहार पांग ल्हाबसोल कंचनजंगा को संरक्षक देवता के रूप में पूजता है। नेपाली लोकगीत और मारुनी व तमांग सेलो जैसे नृत्य, और लेप्चा व भूटिया गीत पूरे राज्य में त्योहारों पर प्रस्तुत होते हैं।",
+        "mr": "सिक्कीमची संस्कृती लेप्चा व भुतियांच्या बौद्ध परंपरांना तेथील नेपाळी समुदायांच्या हिंदू व किरात परंपरांशी जोडते. मठांत सणांना मुखवटे घातलेली छम नृत्ये होतात, आणि थांका चित्रकला, लाकडी कोरीवकाम व छोक्त्से (कोरीव घडीची टेबले) बनवणे या पारंपरिक कला आहेत. लेप्चा कांचनजंगा पर्वत व निसर्गदेवतांचा आदर करतात, आणि सिक्कीमचा वैशिष्ट्यपूर्ण सण पांग ल्हाबसोल कांचनजंगाची रक्षणकर्ती देवता म्हणून पूजा करतो. नेपाळी लोकगीते व मारुनी आणि तमांग सेलोसारखी नृत्ये, तसेच लेप्चा व भुतिया गीते संपूर्ण राज्यात सणांना सादर होतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "festivals",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "losar",
+          "name": {
+            "en": "Losar",
+            "hi": "लोसार",
+            "mr": "लोसार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Tibetan New Year, with cham dances at monasteries.",
+            "hi": "तिब्बती नव वर्ष, मठों में छम नृत्यों के साथ।",
+            "mr": "तिबेटी नववर्ष, मठांत छम नृत्यांसह.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "February–March",
+            "hi": "फ़रवरी–मार्च",
+            "mr": "फेब्रुवारी–मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sagadawa",
+          "name": {
+            "en": "Saga Dawa",
+            "hi": "सागा दावा",
+            "mr": "सागा दावा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Celebrates the Buddha's birth, enlightenment and parinirvana.",
+            "hi": "बुद्ध के जन्म, ज्ञान और परिनिर्वाण का उत्सव।",
+            "mr": "बुद्धाचा जन्म, ज्ञानप्राप्ती व परिनिर्वाणाचा उत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "May–June",
+            "hi": "मई–जून",
+            "mr": "मे–जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "panglhabsol",
+          "name": {
+            "en": "Pang Lhabsol",
+            "hi": "पांग ल्हाबसोल",
+            "mr": "पांग ल्हाबसोल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Worship of Kangchenjunga as Sikkim's guardian deity.",
+            "hi": "कंचनजंगा की सिक्किम के संरक्षक देवता के रूप में पूजा।",
+            "mr": "कांचनजंगाची सिक्कीमची रक्षणकर्ती देवता म्हणून पूजा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "August–September",
+            "hi": "अगस्त–सितंबर",
+            "mr": "ऑगस्ट–सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dasain",
+          "name": {
+            "en": "Dasain and Tihar",
+            "hi": "दसैं और तिहार",
+            "mr": "दसैं व तिहार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "The main festivals of Sikkim's Nepali Hindus.",
+            "hi": "सिक्किम के नेपाली हिंदुओं के मुख्य त्योहार।",
+            "mr": "सिक्कीममधील नेपाळी हिंदूंचे मुख्य सण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "October–November",
+            "hi": "अक्टूबर–नवंबर",
+            "mr": "ऑक्टोबर–नोव्हेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bumchu",
+          "name": {
+            "en": "Bumchu",
+            "hi": "बुमछू",
+            "mr": "बुमछू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Opening of the sacred water vase at Tashiding.",
+            "hi": "ताशिदिंग में पवित्र जल कलश का उद्घाटन।",
+            "mr": "ताशिदिंग येथे पवित्र जलकलश उघडणे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "February–March",
+            "hi": "फ़रवरी–मार्च",
+            "mr": "फेब्रुवारी–मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tendong",
+          "name": {
+            "en": "Tendong Lho Rum Faat",
+            "hi": "तेंदोंग ल्हो रम फात",
+            "mr": "तेंदोंग ल्हो रम फात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Lepcha festival honouring Mount Tendong.",
+            "hi": "तेंदोंग पर्वत के सम्मान में लेप्चा त्योहार।",
+            "mr": "तेंदोंग पर्वताच्या सन्मानार्थ लेप्चा सण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "August",
+            "hi": "अगस्त",
+            "mr": "ऑगस्ट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Festivals",
+        "hi": "त्योहार",
+        "mr": "सण-उत्सव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "arts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "cham",
+          "name": {
+            "en": "Cham masked dances",
+            "hi": "छम मुखौटा नृत्य",
+            "mr": "छम मुखवटा नृत्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thangka",
+          "name": {
+            "en": "Thangka painting",
+            "hi": "थांका चित्रकला",
+            "mr": "थांका चित्रकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "choktse",
+          "name": {
+            "en": "Choktse tables",
+            "hi": "छोक्त्से मेज़ें",
+            "mr": "छोक्त्से टेबले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "maruni",
+          "name": {
+            "en": "Maruni dance",
+            "hi": "मारुनी नृत्य",
+            "mr": "मारुनी नृत्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "carpet",
+          "name": {
+            "en": "Hand-woven carpets",
+            "hi": "हाथ से बुने क़ालीन",
+            "mr": "हाताने विणलेले गालिचे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pumtong",
+          "name": {
+            "en": "Lepcha flute (pumtong pulit)",
+            "hi": "लेप्चा बाँसुरी (पुमतोंग पुलित)",
+            "mr": "लेप्चा बासरी (पुमतोंग पुलित)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Arts and crafts",
+        "hi": "कलाएँ और शिल्प",
+        "mr": "कला व हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "food",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "momo",
+          "name": {
+            "en": "Momos and thukpa",
+            "hi": "मोमो और थुकपा",
+            "mr": "मोमो व थुकपा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Dumplings and noodle soup, eaten everywhere.",
+            "hi": "पकौड़ी जैसे मोमो और नूडल सूप, हर जगह खाए जाते हैं।",
+            "mr": "मोमो व नूडल सूप, सर्वत्र खाल्ले जातात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gundruk",
+          "name": {
+            "en": "Gundruk and sinki",
+            "hi": "गुंद्रुक और सिंकी",
+            "mr": "गुंद्रुक व सिंकी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Fermented leafy greens and radish, made into soups and pickles.",
+            "hi": "किण्वित पत्तेदार साग और मूली, जिनसे सूप और अचार बनते हैं।",
+            "mr": "आंबवलेल्या पालेभाज्या व मुळा, ज्यांची सूप व लोणची बनतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kinema",
+          "name": {
+            "en": "Kinema",
+            "hi": "किनेमा",
+            "mr": "किनेमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Fermented soya bean dish of the Nepali communities.",
+            "hi": "नेपाली समुदायों का किण्वित सोयाबीन व्यंजन।",
+            "mr": "नेपाळी समुदायांचा आंबवलेल्या सोयाबीनचा पदार्थ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "churpi",
+          "name": {
+            "en": "Churpi",
+            "hi": "छुरपी",
+            "mr": "छुरपी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hard cheese of yak or cow milk.",
+            "hi": "याक या गाय के दूध का सख़्त पनीर।",
+            "mr": "याक किंवा गायीच्या दुधाचे कडक चीज.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "selroti",
+          "name": {
+            "en": "Sel roti",
+            "hi": "सेल रोटी",
+            "mr": "सेल रोटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Ring-shaped rice bread made at festivals.",
+            "hi": "त्योहारों पर बनने वाली चावल की गोल रोटी।",
+            "mr": "सणांना केली जाणारी तांदळाची गोल भाकरी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khursani",
+          "name": {
+            "en": "Dalle khursani",
+            "hi": "डल्ले खुर्सानी",
+            "mr": "डल्ले खुर्सानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Fiery round chilli; a registered GI shared with West Bengal.",
+            "hi": "तीखी गोल मिर्च; पश्चिम बंगाल के साथ साझा पंजीकृत जीआई।",
+            "mr": "तिखट गोल मिरची; पश्चिम बंगालसोबत सामायिक नोंदणीकृत जीआय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Food",
+        "hi": "खान-पान",
+        "mr": "खाद्यसंस्कृती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "dress",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "bakhu",
+          "name": {
+            "en": "Bakhu",
+            "hi": "बखू",
+            "mr": "बखू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Loose robe worn by Bhutia men and women.",
+            "hi": "भूटिया पुरुषों और महिलाओं द्वारा पहना जाने वाला ढीला चोगा।",
+            "mr": "भुतिया पुरुष व स्त्रिया घालतात तो सैल झगा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dumvum",
+          "name": {
+            "en": "Dumvum and dumdyam",
+            "hi": "दुमवुम और दुमद्याम",
+            "mr": "दुमवुम व दुमद्याम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Traditional Lepcha dress for women and men.",
+            "hi": "लेप्चा महिलाओं और पुरुषों की पारंपरिक पोशाक।",
+            "mr": "लेप्चा स्त्री-पुरुषांचा पारंपरिक पोशाख.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "daura",
+          "name": {
+            "en": "Daura-suruwal and chaubandi cholo",
+            "hi": "दौरा-सुरुवाल और चौबंदी चोलो",
+            "mr": "दौरा-सुरुवाल व चौबंदी चोलो",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Traditional Nepali dress for men and women.",
+            "hi": "नेपाली पुरुषों और महिलाओं की पारंपरिक पोशाक।",
+            "mr": "नेपाळी स्त्री-पुरुषांचा पारंपरिक पोशाख.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Traditional dress",
+        "hi": "पारंपरिक वेशभूषा",
+        "mr": "पारंपरिक वेशभूषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

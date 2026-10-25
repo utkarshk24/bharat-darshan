@@ -1,0 +1,106 @@
+{
+  "region": "IN-SK",
+  "module": "trivia",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "pop",
+          "name": {
+            "en": "Sikkim is India's least populous State — 6.1 lakh people in 2011.",
+            "hi": "सिक्किम भारत का सबसे कम आबादी वाला राज्य है — 2011 में 6.1 लाख लोग।",
+            "mr": "सिक्कीम हे भारतातील सर्वांत कमी लोकसंख्येचे राज्य आहे — 2011 मध्ये 6.1 लाख लोक.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://statistics.py.gov.in/state-wise-population",
+          "sourceId": "census"
+        },
+        {
+          "id": "pc",
+          "name": {
+            "en": "Sikkim's per capita NSDP in FY2024-25 was the highest of any State or UT in the MoSPI series.",
+            "hi": "वित्त वर्ष 2024-25 में सिक्किम का प्रति व्यक्ति एनएसडीपी मोस्पी शृंखला में किसी भी राज्य या केंद्र शासित प्रदेश में सबसे अधिक था।",
+            "mr": "आ.व. 2024-25 मध्ये सिक्कीमचे दरडोई एनएसडीपी मोस्पी मालिकेत कोणत्याही राज्य वा केंद्रशासित प्रदेशात सर्वाधिक होते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://mospi.gov.in",
+          "sourceId": "mospi"
+        },
+        {
+          "id": "knp",
+          "name": {
+            "en": "Khangchendzonga National Park was India's first 'mixed' World Heritage Site (2016).",
+            "hi": "खांगचेंदज़ोंगा राष्ट्रीय उद्यान भारत का पहला 'मिश्रित' विश्व धरोहर स्थल था (2016)।",
+            "mr": "खांगचेंदझोंगा राष्ट्रीय उद्यान हे भारतातील पहिले 'मिश्र' जागतिक वारसा स्थळ होते (2016).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://whc.unesco.org/en/statesparties/in",
+          "sourceId": "unesco-whc"
+        },
+        {
+          "id": "organic",
+          "name": {
+            "en": "Sikkim was declared India's first fully organic State in 2016.",
+            "hi": "सिक्किम को 2016 में भारत का पहला पूर्णतः जैविक राज्य घोषित किया गया।",
+            "mr": "सिक्कीमला 2016 मध्ये भारताचे पहिले पूर्णतः सेंद्रिय राज्य घोषित केले गेले.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sangha",
+          "name": {
+            "en": "One Assembly seat, the Sangha seat, is elected only by monks and nuns.",
+            "hi": "विधानसभा की एक सीट, संघ सीट, केवल भिक्षुओं और भिक्षुणियों द्वारा चुनी जाती है।",
+            "mr": "विधानसभेची एक जागा, संघ जागा, केवळ भिक्षू व भिक्षुणी निवडतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "langs",
+          "name": {
+            "en": "Sikkim has eleven official languages.",
+            "hi": "सिक्किम की ग्यारह राजभाषाएँ हैं।",
+            "mr": "सिक्कीमच्या अकरा राजभाषा आहेत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

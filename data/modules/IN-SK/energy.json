@@ -1,0 +1,55 @@
+{
+  "region": "IN-SK",
+  "module": "energy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Sikkim's steep rivers make it a hydropower State. Run-of-river stations on the Teesta and Rangeet, built by NHPC, the State government and private developers, feed the eastern regional grid as well as the State. The glacial lake outburst flood of 4 October 2023 swept away the dam of the Teesta III project at Chungthang and damaged other stations downstream, raising questions about hydropower in a fragile, earthquake-prone valley.",
+        "hi": "सिक्किम की तेज़ ढलान वाली नदियाँ इसे जलविद्युत राज्य बनाती हैं। एनएचपीसी, राज्य सरकार और निजी विकासकर्ताओं द्वारा तीस्ता और रंगीत पर बनाए गए नदी-प्रवाह केंद्र राज्य के साथ-साथ पूर्वी क्षेत्रीय ग्रिड को भी बिजली देते हैं। 4 अक्टूबर 2023 की हिमनद झील फटने से आई बाढ़ ने चुंगथांग में तीस्ता III परियोजना का बाँध बहा दिया और नीचे के अन्य केंद्रों को क्षति पहुँचाई, जिससे नाज़ुक, भूकंप-प्रवण घाटी में जलविद्युत पर प्रश्न उठे।",
+        "mr": "सिक्कीमच्या तीव्र उताराच्या नद्या त्याला जलविद्युत राज्य बनवतात. एनएचपीसी, राज्य सरकार व खासगी विकासकांनी तिस्ता व रंगीतवर बांधलेली प्रवाही केंद्रे राज्याबरोबरच पूर्व प्रादेशिक ग्रिडलाही वीज पुरवतात. 4 ऑक्टोबर 2023 रोजी हिमनदी सरोवर फुटून आलेल्या पुराने चुंगथांग येथील तिस्ता III प्रकल्पाचे धरण वाहून गेले आणि खालच्या इतर केंद्रांचे नुकसान झाले, ज्यामुळे नाजूक, भूकंपप्रवण खोऱ्यातील जलविद्युतबद्दल प्रश्न उपस्थित झाले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed hydropower capacity by station",
+            "hi": "केंद्रवार स्थापित जलविद्युत क्षमता",
+            "mr": "केंद्रनिहाय स्थापित जलविद्युत क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        },
+        {
+          "label": {
+            "en": "Teesta III restoration — official status",
+            "hi": "तीस्ता III की बहाली — आधिकारिक स्थिति",
+            "mr": "तिस्ता III ची पुनर्बांधणी — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Power / Sikkim Urja Ltd."
+        }
+      ]
+    }
+  ]
+}

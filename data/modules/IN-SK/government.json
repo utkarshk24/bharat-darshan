@@ -1,0 +1,124 @@
+{
+  "region": "IN-SK",
+  "module": "government",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Sikkim has a unicameral legislature, the 32-member Legislative Assembly in Gangtok. Seats are reserved for the Bhutia-Lepcha communities, and one seat, the Sangha seat, is elected only by registered monks and nuns of the State's monasteries. Sikkim elects 1 member to the Lok Sabha and 1 to the Rajya Sabha. Article 371F of the Constitution, added when Sikkim joined India, protects its existing laws and the special features of its legislature.\n\nThe Sikkim Krantikari Morcha won the Assembly election of 2024, and Prem Singh Tamang (Golay), Chief Minister since 2019, was sworn in for a second term on 10 June 2024. Mingma Norbu Sherpa was elected Speaker on 12 June 2024, and Dushyant Kumar Gautam has been Governor since 19 October 2026. The next Assembly election is due by 2029.",
+        "hi": "सिक्किम में एकसदनीय विधानमंडल है, गंगटोक में 32 सदस्यों वाली विधानसभा। भूटिया-लेप्चा समुदायों के लिए सीटें आरक्षित हैं, और एक सीट, संघ सीट, केवल राज्य के मठों के पंजीकृत भिक्षुओं और भिक्षुणियों द्वारा चुनी जाती है। सिक्किम से लोकसभा का 1 और राज्यसभा का 1 सदस्य चुना जाता है। सिक्किम के भारत में शामिल होने पर संविधान में जोड़ा गया अनुच्छेद 371च इसके मौजूदा क़ानूनों और इसकी विधानसभा की विशेषताओं की रक्षा करता है।\n\n2024 का विधानसभा चुनाव सिक्किम क्रांतिकारी मोर्चा ने जीता, और 2019 से मुख्यमंत्री प्रेम सिंह तमांग (गोले) ने 10 जून 2024 को दूसरे कार्यकाल की शपथ ली। मिंगमा नोर्बु शेर्पा 12 जून 2024 को अध्यक्ष चुने गए, और दुष्यंत कुमार गौतम 19 अक्टूबर 2026 से राज्यपाल हैं। अगला विधानसभा चुनाव 2029 तक होना है।",
+        "mr": "सिक्कीममध्ये एकसदनी विधिमंडळ आहे, गंगटोकमधील 32 सदस्यांची विधानसभा. भुतिया-लेप्चा समुदायांसाठी जागा राखीव आहेत, आणि एक जागा, संघ जागा, केवळ राज्यातील मठांतील नोंदणीकृत भिक्षू व भिक्षुणी निवडतात. सिक्कीममधून लोकसभेवर 1 व राज्यसभेवर 1 सदस्य निवडला जातो. सिक्कीम भारतात सामील झाले तेव्हा संविधानात जोडलेला अनुच्छेद 371च त्याचे विद्यमान कायदे व विधानसभेची वैशिष्ट्ये जपतो.\n\n2024 ची विधानसभा निवडणूक सिक्कीम क्रांतिकारी मोर्चाने जिंकली, आणि 2019 पासून मुख्यमंत्री असलेल्या प्रेम सिंह तमांग (गोले) यांनी 10 जून 2024 रोजी दुसऱ्या कारकिर्दीची शपथ घेतली. मिंगमा नोर्बु शेर्पा 12 जून 2024 रोजी अध्यक्षपदी निवडले गेले, आणि दुष्यंत कुमार गौतम 19 ऑक्टोबर 2026 पासून राज्यपाल आहेत. पुढील विधानसभा निवडणूक 2029 पर्यंत होणे अपेक्षित आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "scroll",
+        "sk-gov",
+        "eastmojo"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Sikkim",
+            "hi": "सिक्किम सरकार",
+            "mr": "सिक्कीम शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://sikkim.gov.in",
+          "sourceId": "sk-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "2024 Assembly election — party-wise result",
+            "hi": "2024 विधानसभा चुनाव — दलवार परिणाम",
+            "mr": "2024 विधानसभा निवडणूक — पक्षनिहाय निकाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "ECI statistical report for Sikkim 2024."
+        },
+        {
+          "label": {
+            "en": "Governor's swearing-in — official source",
+            "hi": "राज्यपाल का शपथ ग्रहण — आधिकारिक स्रोत",
+            "mr": "राज्यपालांचा शपथविधी — अधिकृत स्रोत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Replace the news report with the Lok Bhavan Sikkim release."
+        },
+        {
+          "label": {
+            "en": "Chief Minister's swearing-in — official source",
+            "hi": "मुख्यमंत्री का शपथ ग्रहण — आधिकारिक स्रोत",
+            "mr": "मुख्यमंत्र्यांचा शपथविधी — अधिकृत स्रोत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "sk-gov",
+          "note": "Replace the news report with the Government of Sikkim notification."
+        }
+      ]
+    }
+  ]
+}

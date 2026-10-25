@@ -1,0 +1,42 @@
+{
+  "region": "IN-SK",
+  "module": "diaspora",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Sikkim has a small diaspora. Many young people study and work in Bengaluru, Delhi, Kolkata and other cities, especially in hospitality, nursing, aviation and IT, and others serve in the armed forces. There are close family and cultural ties with Darjeeling and Kalimpong in West Bengal, Nepal and Bhutan.",
+        "hi": "सिक्किम का प्रवासी समुदाय छोटा है। बहुत से युवा बेंगलुरु, दिल्ली, कोलकाता और अन्य नगरों में पढ़ते और काम करते हैं, विशेषकर आतिथ्य, नर्सिंग, विमानन और आईटी में, और अन्य सशस्त्र बलों में सेवा करते हैं। पश्चिम बंगाल के दार्जिलिंग और कालिम्पोंग, नेपाल और भूटान के साथ घनिष्ठ पारिवारिक और सांस्कृतिक संबंध हैं।",
+        "mr": "सिक्कीमचा प्रवासी समुदाय लहान आहे. अनेक तरुण बंगळुरू, दिल्ली, कोलकाता व इतर शहरांत शिकतात व काम करतात, विशेषतः आतिथ्य, परिचर्या, विमानवाहतूक व आयटी क्षेत्रांत, आणि काही सशस्त्र दलांत सेवा करतात. पश्चिम बंगालमधील दार्जिलिंग व कालिम्पोंग, नेपाळ आणि भूतानशी जवळचे कौटुंबिक व सांस्कृतिक नाते आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Out-migration from Sikkim — official estimate",
+            "hi": "सिक्किम से बाहर प्रवास — आधिकारिक अनुमान",
+            "mr": "सिक्कीममधून बाहेर स्थलांतर — अधिकृत अंदाज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 migration tables (D-series)."
+        }
+      ]
+    }
+  ]
+}

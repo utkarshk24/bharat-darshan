@@ -1,0 +1,409 @@
+{
+  "region": "IN-SK",
+  "module": "nature",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Forests cover about 47% of Sikkim (ISFR 2023); above them lie alpine meadows, rock and permanent snow. Within a few kilometres the vegetation changes from tropical sal and bamboo in the lower Teesta valley to oak, magnolia and some 40 kinds of rhododendron, then fir, juniper and alpine flowers. Sikkim is famous for its orchids — the noble dendrobium is the State flower — and its wildlife includes the red panda (the State animal), snow leopard, Himalayan black bear, blue sheep and the blood pheasant (the State bird).\n\nKhangchendzonga National Park, covering much of the north-west around Kangchenjunga, was inscribed in 2016 as India's first mixed World Heritage Site, and the wider Khangchendzonga Biosphere Reserve is part of UNESCO's network. Sanctuaries include Fambong Lho, Kyongnosla, Maenam, Barsey and Shingba (rhododendron) and Pangolakha. Khecheopalri Lake, sacred to Buddhists and Hindus, is Sikkim's Ramsar site.",
+        "hi": "सिक्किम का लगभग 47% भाग वनाच्छादित है (आईएसएफ़आर 2023); उनके ऊपर अल्पाइन घास के मैदान, चट्टानें और स्थायी बर्फ़ है। कुछ किलोमीटर के भीतर वनस्पति निचली तीस्ता घाटी के उष्णकटिबंधीय साल और बाँस से बदलकर बलूत, मैगनोलिया और बुरांश की लगभग 40 किस्मों, फिर देवदार (फ़र), जुनिपर और अल्पाइन फूलों में बदल जाती है। सिक्किम अपने ऑर्किड के लिए प्रसिद्ध है — नोबल डेंड्रोबियम राज्य पुष्प है — और इसके वन्यजीवों में लाल पांडा (राज्य पशु), हिम तेंदुआ, हिमालयी काला भालू, भरल और रक्त तीतर (राज्य पक्षी) शामिल हैं।\n\nकंचनजंगा के आसपास उत्तर-पश्चिम के बड़े भाग में फैले खांगचेंदज़ोंगा राष्ट्रीय उद्यान को 2016 में भारत के पहले मिश्रित विश्व धरोहर स्थल के रूप में अंकित किया गया, और व्यापक खांगचेंदज़ोंगा जैवमंडल आरक्षित क्षेत्र यूनेस्को नेटवर्क का भाग है। अभयारण्यों में फ़ंबोंग ल्हो, क्योंगनोसला, मैनम, बरसे और शिंगबा (बुरांश) और पांगोलाखा शामिल हैं। बौद्धों और हिंदुओं के लिए पवित्र खेचियोपलरी झील सिक्किम का रामसर स्थल है।",
+        "mr": "सिक्कीमचा सुमारे 47% भाग वनाच्छादित आहे (आयएसएफआर 2023); त्यांच्या वर अल्पाइन कुरणे, खडक व कायमचे बर्फ आहे. काही किलोमीटरमध्येच वनस्पती खालच्या तिस्ता खोऱ्यातील उष्णकटिबंधीय साल व बांबूपासून ओक, मॅग्नोलिया व ऱ्होडोडेंड्रॉनच्या सुमारे 40 प्रकारांत, नंतर फर, ज्युनिपर व अल्पाइन फुलांत बदलते. सिक्कीम त्याच्या ऑर्किडसाठी प्रसिद्ध आहे — नोबल डेंड्रोबियम हे राज्यपुष्प आहे — आणि त्याच्या वन्यजीवांत लाल पांडा (राज्यप्राणी), हिमबिबट्या, हिमालयी काळे अस्वल, भरल व रक्त तितर (राज्यपक्षी) यांचा समावेश आहे.\n\nकांचनजंगाभोवती वायव्येचा मोठा भाग व्यापणाऱ्या खांगचेंदझोंगा राष्ट्रीय उद्यानाची 2016 मध्ये भारतातील पहिले मिश्र जागतिक वारसा स्थळ म्हणून नोंद झाली, आणि व्यापक खांगचेंदझोंगा जीवावरण राखीव क्षेत्र युनेस्कोच्या जाळ्याचा भाग आहे. अभयारण्यांत फांबोंग ल्हो, क्योंगनोसला, मैनम, बरसे व शिंगबा (ऱ्होडोडेंड्रॉन) आणि पांगोलाखा यांचा समावेश आहे. बौद्ध व हिंदूंसाठी पवित्र खेचिओपलरी सरोवर हे सिक्कीमचे रामसर स्थळ आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "indian-wetlands",
+        "unesco-whc"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 3358.4,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 3353.21,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 47.33,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 3,358.40 km² ÷ geographical area 7,096 km². Much of the north is alpine meadow, rock, snow and glacier above the tree line."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        },
+        {
+          "id": "ramsar",
+          "label": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळ स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1,
+            "unit": "sites",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "indian-wetlands",
+            "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "MoEFCC list of Ramsar sites as on 21 April 2026: Khecheopalri (listed as Khachoedpalri) wetland, 172 ha."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "protected",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "knp",
+          "name": {
+            "en": "Khangchendzonga National Park",
+            "hi": "खांगचेंदज़ोंगा राष्ट्रीय उद्यान",
+            "mr": "खांगचेंदझोंगा राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "UNESCO World Heritage (mixed), 2016",
+            "hi": "यूनेस्को विश्व धरोहर (मिश्रित), 2016",
+            "mr": "युनेस्को जागतिक वारसा (मिश्र), 2016",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "fambong",
+          "name": {
+            "en": "Fambong Lho Wildlife Sanctuary",
+            "hi": "फ़ंबोंग ल्हो वन्यजीव अभयारण्य",
+            "mr": "फांबोंग ल्हो वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Near Gangtok",
+            "hi": "गंगटोक के पास",
+            "mr": "गंगटोकजवळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kyongnosla",
+          "name": {
+            "en": "Kyongnosla Alpine Sanctuary",
+            "hi": "क्योंगनोसला अल्पाइन अभयारण्य",
+            "mr": "क्योंगनोसला अल्पाइन अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "On the road to Tsomgo",
+            "hi": "छांगू के मार्ग पर",
+            "mr": "छांगूच्या रस्त्यावर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "barsey",
+          "name": {
+            "en": "Barsey Rhododendron Sanctuary",
+            "hi": "बरसे बुरांश अभयारण्य",
+            "mr": "बरसे ऱ्होडोडेंड्रॉन अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "West Sikkim",
+            "hi": "पश्चिम सिक्किम",
+            "mr": "पश्चिम सिक्कीम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "shingba",
+          "name": {
+            "en": "Shingba Rhododendron Sanctuary",
+            "hi": "शिंगबा बुरांश अभयारण्य",
+            "mr": "शिंगबा ऱ्होडोडेंड्रॉन अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Yumthang valley",
+            "hi": "युमथांग घाटी",
+            "mr": "युमथांग खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khecheopalri",
+          "name": {
+            "en": "Khecheopalri Lake",
+            "hi": "खेचियोपलरी झील",
+            "mr": "खेचिओपलरी सरोवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ramsar site",
+            "hi": "रामसर स्थल",
+            "mr": "रामसर स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Protected areas (selected)",
+        "hi": "संरक्षित क्षेत्र (चयनित)",
+        "mr": "संरक्षित क्षेत्रे (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "species",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "redpanda",
+          "name": {
+            "en": "Red panda (State animal)",
+            "hi": "लाल पांडा (राज्य पशु)",
+            "mr": "लाल पांडा (राज्यप्राणी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pheasant",
+          "name": {
+            "en": "Blood pheasant (State bird)",
+            "hi": "रक्त तीतर (राज्य पक्षी)",
+            "mr": "रक्त तितर (राज्यपक्षी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "snowleopard",
+          "name": {
+            "en": "Snow leopard",
+            "hi": "हिम तेंदुआ",
+            "mr": "हिमबिबट्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bharal",
+          "name": {
+            "en": "Blue sheep (bharal)",
+            "hi": "भरल (नीली भेड़)",
+            "mr": "भरल (निळी मेंढी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rhodo",
+          "name": {
+            "en": "Rhododendrons",
+            "hi": "बुरांश",
+            "mr": "ऱ्होडोडेंड्रॉन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "orchid",
+          "name": {
+            "en": "Orchids",
+            "hi": "ऑर्किड",
+            "mr": "ऑर्किड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key species",
+        "hi": "प्रमुख प्रजातियाँ",
+        "mr": "प्रमुख प्रजाती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of rhododendron and orchid species — official",
+            "hi": "बुरांश और ऑर्किड की प्रजातियों की संख्या — आधिकारिक",
+            "mr": "ऱ्होडोडेंड्रॉन व ऑर्किड प्रजातींची संख्या — अधिकृत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Botanical Survey of India / Sikkim Forest Department."
+        },
+        {
+          "label": {
+            "en": "Khecheopalri Ramsar designation date",
+            "hi": "खेचियोपलरी रामसर घोषणा की तिथि",
+            "mr": "खेचिओपलरी रामसर घोषणेची तारीख",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ramsar",
+          "note": "Confirm against the Ramsar Sites Information Service."
+        }
+      ]
+    }
+  ]
+}

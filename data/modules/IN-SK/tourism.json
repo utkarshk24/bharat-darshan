@@ -1,0 +1,284 @@
+{
+  "region": "IN-SK",
+  "module": "tourism",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Gangtok, with MG Marg, Rumtek and Enchey monasteries and views of Kangchenjunga, is the base for trips east to Tsomgo (Changu) Lake, Baba Mandir and Nathu La on the China border. North Sikkim's Lachung, the Yumthang valley of rhododendrons and hot springs, and Gurudongmar Lake at about 5,400 m need permits and a night or two in Lachen or Lachung. In the west, Pelling looks across to Kangchenjunga and the Pemayangtse monastery, Yuksom is the starting point of the trek to Dzongri and Goecha La, and Khecheopalri is a sacred lake. In the south, Namchi has a giant statue of Guru Padmasambhava at Samdruptse and the Char Dham complex, and Ravangla has the Buddha Park.",
+        "hi": "एमजी मार्ग, रुमटेक और एंचे मठों और कंचनजंगा के दृश्यों वाला गंगटोक पूर्व में छांगू (त्सोमगो) झील, बाबा मंदिर और चीन सीमा पर नाथु ला की यात्राओं का आधार है। उत्तर सिक्किम का लाचुंग, बुरांश और गर्म झरनों की युमथांग घाटी, और लगभग 5,400 मीटर पर गुरुडोंगमार झील के लिए परमिट और लाचेन या लाचुंग में एक-दो रातें चाहिए। पश्चिम में पेलिंग से कंचनजंगा और पेमायांग्त्से मठ दिखते हैं, युकसोम ज़ोंगरी और गोएचा ला ट्रेक का आरंभ बिंदु है, और खेचियोपलरी एक पवित्र झील है। दक्षिण में नामची के सामद्रुप्त्से में गुरु पद्मसंभव की विशाल प्रतिमा और चार धाम परिसर है, और रावंगला में बुद्ध पार्क है।",
+        "mr": "एमजी मार्ग, रुमटेक व एंचे मठ आणि कांचनजंगाचे दर्शन असलेले गंगटोक हे पूर्वेकडील छांगू (त्सोमगो) सरोवर, बाबा मंदिर व चीन सीमेवरील नथु लाच्या सहलींसाठी तळ आहे. उत्तर सिक्कीममधील लाचुंग, ऱ्होडोडेंड्रॉन व गरम पाण्याच्या झऱ्यांचे युमथांग खोरे, आणि सुमारे 5,400 मीटरवरील गुरुडोंगमार सरोवरासाठी परवाने व लाचेन किंवा लाचुंग येथे एक-दोन रात्री लागतात. पश्चिमेला पेलिंगहून कांचनजंगा व पेमायांगत्से मठ दिसतात, युकसोम हे झोंगरी व गोएचा ला ट्रेकचे सुरुवातीचे ठिकाण आहे, आणि खेचिओपलरी हे पवित्र सरोवर आहे. दक्षिणेत नामचीच्या सामद्रुप्त्से येथे गुरु पद्मसंभवांची भव्य मूर्ती व चारधाम संकुल आहे, आणि रावंगला येथे बुद्ध उद्यान आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "gangtok",
+          "name": {
+            "en": "Gangtok",
+            "hi": "गंगटोक",
+            "mr": "गंगटोक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "MG Marg, monasteries, ropeway",
+            "hi": "एमजी मार्ग, मठ, रोपवे",
+            "mr": "एमजी मार्ग, मठ, रोपवे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tsomgo",
+          "name": {
+            "en": "Tsomgo Lake and Nathu La",
+            "hi": "छांगू झील और नाथु ला",
+            "mr": "छांगू सरोवर व नथु ला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Permit needed",
+            "hi": "परमिट आवश्यक",
+            "mr": "परवाना आवश्यक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "yumthang",
+          "name": {
+            "en": "Lachung and Yumthang",
+            "hi": "लाचुंग और युमथांग",
+            "mr": "लाचुंग व युमथांग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Valley of flowers",
+            "hi": "फूलों की घाटी",
+            "mr": "फुलांचे खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gurudongmar",
+          "name": {
+            "en": "Gurudongmar Lake",
+            "hi": "गुरुडोंगमार झील",
+            "mr": "गुरुडोंगमार सरोवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "High-altitude lake",
+            "hi": "ऊँचाई की झील",
+            "mr": "उंचावरील सरोवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pelling",
+          "name": {
+            "en": "Pelling and Yuksom",
+            "hi": "पेलिंग और युकसोम",
+            "mr": "पेलिंग व युकसोम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Kangchenjunga views; trekking",
+            "hi": "कंचनजंगा दृश्य; ट्रेकिंग",
+            "mr": "कांचनजंगा दर्शन; ट्रेकिंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "namchi",
+          "name": {
+            "en": "Namchi and Ravangla",
+            "hi": "नामची और रावंगला",
+            "mr": "नामची व रावंगला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Samdruptse, Char Dham, Buddha Park",
+            "hi": "सामद्रुप्त्से, चार धाम, बुद्ध पार्क",
+            "mr": "सामद्रुप्त्से, चारधाम, बुद्ध उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Gangtok, Rumtek, and a day trip to Tsomgo Lake and Nathu La.",
+            "hi": "गंगटोक, रुमटेक, और छांगू झील व नाथु ला की एक दिन की यात्रा।",
+            "mr": "गंगटोक, रुमटेक, आणि छांगू सरोवर व नथु लाची एकदिवसीय सहल.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d6",
+          "name": {
+            "en": "6 days",
+            "hi": "6 दिन",
+            "mr": "6 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Add Lachung, Yumthang and Gurudongmar (two nights in the north).",
+            "hi": "लाचुंग, युमथांग और गुरुडोंगमार जोड़ें (उत्तर में दो रातें)।",
+            "mr": "लाचुंग, युमथांग व गुरुडोंगमार जोडा (उत्तरेत दोन रात्री).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d4w",
+          "name": {
+            "en": "4 days (west and south)",
+            "hi": "4 दिन (पश्चिम और दक्षिण)",
+            "mr": "4 दिवस (पश्चिम व दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Ravangla, Pelling, Pemayangtse, Khecheopalri and Yuksom.",
+            "hi": "रावंगला, पेलिंग, पेमायांग्त्से, खेचियोपलरी और युकसोम।",
+            "mr": "रावंगला, पेलिंग, पेमायांगत्से, खेचिओपलरी व युकसोम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium / Sikkim Tourism."
+        },
+        {
+          "label": {
+            "en": "Gurudongmar Lake — official elevation",
+            "hi": "गुरुडोंगमार झील — आधिकारिक ऊँचाई",
+            "mr": "गुरुडोंगमार सरोवर — अधिकृत उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India."
+        }
+      ]
+    }
+  ]
+}

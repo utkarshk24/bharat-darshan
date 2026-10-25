@@ -1,0 +1,196 @@
+{
+  "region": "IN-SK",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Sikkim's climate changes with height more than with season. The southern valleys are warm and humid, Gangtok at about 1,600 m is mild, and the north above 4,000 m is alpine, with snow for much of the year. The south-west monsoon from June to September brings very heavy rain, landslides and road closures; October to December is clear, with the best mountain views; and January and February are cold, with snow on the higher roads to Tsomgo, Nathu La and Lachung.",
+        "hi": "सिक्किम की जलवायु मौसम से अधिक ऊँचाई के साथ बदलती है। दक्षिणी घाटियाँ गर्म और आर्द्र हैं, लगभग 1,600 मीटर पर गंगटोक सुहावना है, और 4,000 मीटर से ऊपर का उत्तर अल्पाइन है, जहाँ वर्ष के बड़े भाग में बर्फ़ रहती है। जून से सितंबर तक दक्षिण-पश्चिम मानसून बहुत भारी वर्षा, भूस्खलन और सड़कें बंद होना लाता है; अक्टूबर से दिसंबर साफ़ रहता है, पहाड़ों के सबसे अच्छे दृश्यों के साथ; और जनवरी-फ़रवरी ठंडे होते हैं, जब छांगू, नाथु ला और लाचुंग की ऊँची सड़कों पर बर्फ़ होती है।",
+        "mr": "सिक्कीमचे हवामान ऋतूपेक्षा उंचीनुसार अधिक बदलते. दक्षिणेकडील खोरी उबदार व दमट आहेत, सुमारे 1,600 मीटरवरील गंगटोक सौम्य आहे, आणि 4,000 मीटरवरील उत्तर भाग अल्पाइन आहे, जिथे वर्षाचा बराच काळ बर्फ असते. जून ते सप्टेंबर नैर्ऋत्य मान्सून अतिशय मुसळधार पाऊस, भूस्खलन व रस्ते बंद होणे आणतो; ऑक्टोबर ते डिसेंबर निरभ्र असतो, पर्वतांच्या सर्वोत्तम दर्शनासह; आणि जानेवारी-फेब्रुवारी थंड असतात, जेव्हा छांगू, नथु ला व लाचुंगच्या उंच रस्त्यांवर बर्फ असते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Gangtok",
+            "hi": "गंगटोक",
+            "mr": "गंगटोक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 27.3314,
+          "lon": 88.6138
+        },
+        {
+          "name": {
+            "en": "Namchi",
+            "hi": "नामची",
+            "mr": "नामची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 27.1667,
+          "lon": 88.35
+        },
+        {
+          "name": {
+            "en": "Mangan",
+            "hi": "मंगन",
+            "mr": "मंगन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 27.5066,
+          "lon": 88.5297
+        },
+        {
+          "name": {
+            "en": "Lachung",
+            "hi": "लाचुंग",
+            "mr": "लाचुंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 27.689,
+          "lon": 88.7436
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "spring",
+          "name": {
+            "en": "March to May",
+            "hi": "मार्च से मई",
+            "mr": "मार्च ते मे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rhododendrons and orchids in bloom; trekking season.",
+            "hi": "बुरांश और ऑर्किड खिलते हैं; ट्रेकिंग का मौसम।",
+            "mr": "ऱ्होडोडेंड्रॉन व ऑर्किड बहरतात; ट्रेकिंगचा हंगाम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "autumn",
+          "name": {
+            "en": "October to December",
+            "hi": "अक्टूबर से दिसंबर",
+            "mr": "ऑक्टोबर ते डिसेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Clear skies and views of Kangchenjunga.",
+            "hi": "साफ़ आसमान और कंचनजंगा के दृश्य।",
+            "mr": "निरभ्र आकाश व कांचनजंगाचे दर्शन.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "winter",
+          "name": {
+            "en": "January to February",
+            "hi": "जनवरी से फ़रवरी",
+            "mr": "जानेवारी ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Snow at Tsomgo and Lachung; Losar celebrations. Some high roads close.",
+            "hi": "छांगू और लाचुंग में बर्फ़; लोसार उत्सव। कुछ ऊँची सड़कें बंद होती हैं।",
+            "mr": "छांगू व लाचुंगला बर्फ; लोसार उत्सव. काही उंच रस्ते बंद होतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall",
+            "hi": "सामान्य वार्षिक वर्षा",
+            "mr": "सरासरी वार्षिक पाऊस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD Gangtok meteorological centre."
+        },
+        {
+          "label": {
+            "en": "Glacier retreat and glacial lakes — official assessment",
+            "hi": "हिमनदों का पीछे हटना और हिमनद झीलें — आधिकारिक आकलन",
+            "mr": "हिमनद्यांचे मागे हटणे व हिमनदी सरोवरे — अधिकृत मूल्यांकन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "isro",
+          "note": "ISRO / NRSC glacial lake atlas; Sikkim State Disaster Management Authority."
+        }
+      ]
+    }
+  ]
+}

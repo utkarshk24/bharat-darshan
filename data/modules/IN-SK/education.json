@@ -1,0 +1,349 @@
+{
+  "region": "IN-SK",
+  "module": "education",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Literacy in Sikkim was 81.4% at the 2011 Census. The higher-education gross enrolment ratio (ages 18–23) was 38.6% in 2021-22 in AISHE, above the national 28.4%, and women's GER (42.5%) was higher than men's (35.1%). The small State had 9 universities and 24 colleges.\n\nSikkim University, a central university founded in 2007, is in Gangtok; Sikkim Manipal University (1995) runs medical, engineering and management institutes; and NIT Sikkim is at Ravangla. Monastic schools teach Buddhist philosophy, and Nepali, Bhutia, Lepcha and other official languages are taught in State schools.",
+        "hi": "2011 की जनगणना में सिक्किम की साक्षरता 81.4% थी। एआईएसएचई के अनुसार 2021-22 में उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 38.6% था, जो राष्ट्रीय 28.4% से अधिक है, और महिलाओं का जीईआर (42.5%) पुरुषों (35.1%) से अधिक था। इस छोटे राज्य में 9 विश्वविद्यालय और 24 कॉलेज थे।\n\n2007 में स्थापित केंद्रीय विश्वविद्यालय, सिक्किम विश्वविद्यालय गंगटोक में है; सिक्किम मणिपाल विश्वविद्यालय (1995) चिकित्सा, इंजीनियरिंग और प्रबंधन संस्थान चलाता है; और एनआईटी सिक्किम रावंगला में है। मठ विद्यालय बौद्ध दर्शन पढ़ाते हैं, और राज्य के स्कूलों में नेपाली, भूटिया, लेप्चा और अन्य राजभाषाएँ पढ़ाई जाती हैं।",
+        "mr": "2011 च्या जनगणनेत सिक्कीमची साक्षरता 81.4% होती. एआयएसएचईनुसार 2021-22 मध्ये उच्चशिक्षण एकूण नोंदणी गुणोत्तर (18–23 वय) 38.6% होते, राष्ट्रीय 28.4% पेक्षा अधिक, आणि स्त्रियांचे जीईआर (42.5%) पुरुषांपेक्षा (35.1%) जास्त होते. या लहान राज्यात 9 विद्यापीठे व 24 महाविद्यालये होती.\n\n2007 मध्ये स्थापन झालेले केंद्रीय विद्यापीठ, सिक्कीम विद्यापीठ गंगटोकमध्ये आहे; सिक्कीम मणिपाल विद्यापीठ (1995) वैद्यकीय, अभियांत्रिकी व व्यवस्थापन संस्था चालवते; आणि एनआयटी सिक्कीम रावंगला येथे आहे. मठांतील शाळा बौद्ध तत्त्वज्ञान शिकवतात, आणि राज्याच्या शाळांत नेपाळी, भुतिया, लेप्चा व इतर राजभाषा शिकवल्या जातात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 38.6,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 39.91,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 9,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 24,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "sk",
+          "label": {
+            "en": "Sikkim",
+            "hi": "सिक्किम",
+            "mr": "सिक्कीम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 33.71,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 48.12,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 66.93,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 39.91,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 38.6,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "su",
+          "name": {
+            "en": "Sikkim University",
+            "hi": "सिक्किम विश्वविद्यालय",
+            "mr": "सिक्कीम विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Central university, Gangtok, 2007",
+            "hi": "केंद्रीय विश्वविद्यालय, गंगटोक, 2007",
+            "mr": "केंद्रीय विद्यापीठ, गंगटोक, 2007",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "smu",
+          "name": {
+            "en": "Sikkim Manipal University",
+            "hi": "सिक्किम मणिपाल विश्वविद्यालय",
+            "mr": "सिक्कीम मणिपाल विद्यापीठ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Gangtok, 1995",
+            "hi": "गंगटोक, 1995",
+            "mr": "गंगटोक, 1995",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nits",
+          "name": {
+            "en": "NIT Sikkim",
+            "hi": "एनआईटी सिक्किम",
+            "mr": "एनआयटी सिक्कीम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ravangla",
+            "hi": "रावंगला",
+            "mr": "रावंगला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "namgyal",
+          "name": {
+            "en": "Namgyal Institute of Tibetology",
+            "hi": "नामग्याल तिब्बत विज्ञान संस्थान",
+            "mr": "नामग्याल तिबेटविद्या संस्था",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Gangtok",
+            "hi": "गंगटोक",
+            "mr": "गंगटोक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        }
+      ]
+    }
+  ]
+}

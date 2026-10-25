@@ -1,0 +1,117 @@
+{
+  "region": "IN-SK",
+  "module": "transport",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "National Highway 10, from Sevoke near Siliguri up the Teesta valley to Gangtok, is Sikkim's lifeline, and it is often cut by landslides in the monsoon. Mountain roads run north to Mangan, Lachen and Lachung and east to Tsomgo and Nathu La, and shared jeeps are the main public transport. Pakyong Airport serves Gangtok, but most visitors fly into Bagdogra in West Bengal; the nearest railway stations are New Jalpaiguri and Siliguri until the Sivok–Rangpo line opens. Gangtok has a short passenger ropeway. Indian visitors need permits for Nathu La, Tsomgo and North Sikkim, and foreign visitors need a Restricted Area Permit to enter the State.",
+        "hi": "सिलीगुड़ी के पास सेवक से तीस्ता घाटी होते हुए गंगटोक तक राष्ट्रीय राजमार्ग 10 सिक्किम की जीवनरेखा है, और मानसून में अक्सर भूस्खलन से कट जाता है। पहाड़ी सड़कें उत्तर में मंगन, लाचेन और लाचुंग और पूर्व में छांगू और नाथु ला तक जाती हैं, और साझा जीपें मुख्य सार्वजनिक परिवहन हैं। पाक्योंग हवाई अड्डा गंगटोक की सेवा करता है, पर अधिकांश यात्री पश्चिम बंगाल के बागडोगरा उतरते हैं; सेवक–रंगपो लाइन खुलने तक निकटतम रेलवे स्टेशन न्यू जलपाईगुड़ी और सिलीगुड़ी हैं। गंगटोक में एक छोटा यात्री रोपवे है। भारतीय पर्यटकों को नाथु ला, छांगू और उत्तर सिक्किम के लिए परमिट चाहिए, और विदेशी पर्यटकों को राज्य में प्रवेश के लिए प्रतिबंधित क्षेत्र परमिट चाहिए।",
+        "mr": "सिलिगुडीजवळील सेवकपासून तिस्ता खोऱ्यातून गंगटोकपर्यंत जाणारा राष्ट्रीय महामार्ग 10 ही सिक्कीमची जीवनवाहिनी आहे, आणि पावसाळ्यात तो अनेकदा भूस्खलनाने तुटतो. डोंगरी रस्ते उत्तरेला मंगन, लाचेन व लाचुंग आणि पूर्वेला छांगू व नथु लापर्यंत जातात, आणि सामायिक जीप ही मुख्य सार्वजनिक वाहतूक आहे. पाकयोंग विमानतळ गंगटोकला सेवा देतो, पण बहुतेक पर्यटक पश्चिम बंगालमधील बागडोगरा येथे उतरतात; सेवक–रंगपो मार्ग सुरू होईपर्यंत जवळची रेल्वे स्थानके न्यू जलपाईगुडी व सिलिगुडी आहेत. गंगटोकमध्ये लहान प्रवासी रोपवे आहे. भारतीय पर्यटकांना नथु ला, छांगू व उत्तर सिक्कीमसाठी परवाने लागतात, आणि परदेशी पर्यटकांना राज्यात प्रवेशासाठी प्रतिबंधित क्षेत्र परवाना लागतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "pyg",
+          "name": {
+            "en": "Pakyong Airport",
+            "hi": "पाक्योंग हवाई अड्डा",
+            "mr": "पाकयोंग विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "PYG",
+            "hi": "PYG",
+            "mr": "PYG",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ixb",
+          "name": {
+            "en": "Bagdogra (West Bengal)",
+            "hi": "बागडोगरा (पश्चिम बंगाल)",
+            "mr": "बागडोगरा (पश्चिम बंगाल)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "IXB, nearest major airport",
+            "hi": "IXB, निकटतम बड़ा हवाई अड्डा",
+            "mr": "IXB, जवळचा मोठा विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Permit rules for visitors — official notice",
+            "hi": "पर्यटकों के लिए परमिट नियम — आधिकारिक सूचना",
+            "mr": "पर्यटकांसाठी परवाना नियम — अधिकृत सूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Sikkim Tourism / Ministry of Home Affairs."
+        },
+        {
+          "label": {
+            "en": "Road length and NH-10 closures",
+            "hi": "सड़क लंबाई और एनएच-10 बंद होने की घटनाएँ",
+            "mr": "रस्त्यांची लांबी व एनएच-10 बंद होण्याच्या घटना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH / NHIDCL."
+        }
+      ]
+    }
+  ]
+}

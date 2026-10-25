@@ -1,0 +1,55 @@
+{
+  "region": "IN-SK",
+  "module": "water",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Sikkim's water comes from glaciers, snowmelt, monsoon rain and countless hill springs (dhara), which most villages depend on for drinking water. As springs have dried up with changing rainfall and land use, the State has run spring-recharge programmes on the hillsides. The Teesta, fed by glaciers and glacial lakes, is also the source of a long-standing water-sharing question between India and Bangladesh downstream. High glacial lakes such as South Lhonak are monitored because they can burst, as South Lhonak did in October 2023.",
+        "hi": "सिक्किम का पानी हिमनदों, बर्फ़ पिघलने, मानसूनी वर्षा और अनगिनत पहाड़ी झरनों (धारा) से आता है, जिन पर अधिकांश गाँव पेयजल के लिए निर्भर हैं। बदलती वर्षा और भूमि उपयोग से झरने सूखने पर राज्य ने पहाड़ी ढलानों पर झरना पुनर्भरण कार्यक्रम चलाए हैं। हिमनदों और हिमनद झीलों से पोषित तीस्ता नीचे भारत और बांग्लादेश के बीच जल बँटवारे के लंबे प्रश्न का स्रोत भी है। दक्षिण ल्होनक जैसी ऊँची हिमनद झीलों की निगरानी की जाती है क्योंकि वे फट सकती हैं, जैसा अक्टूबर 2023 में दक्षिण ल्होनक के साथ हुआ।",
+        "mr": "सिक्कीमचे पाणी हिमनद्या, वितळणारे बर्फ, मान्सूनचा पाऊस व असंख्य डोंगरी झरे (धारा) यांतून येते, ज्यांवर बहुतेक गावे पिण्याच्या पाण्यासाठी अवलंबून आहेत. बदलत्या पावसामुळे व जमीनवापरामुळे झरे आटू लागल्यावर राज्याने डोंगरउतारांवर झरा पुनर्भरण कार्यक्रम राबवले आहेत. हिमनद्या व हिमनदी सरोवरांनी पोसलेली तिस्ता खालच्या बाजूस भारत व बांगलादेशमधील दीर्घकालीन पाणीवाटप प्रश्नाचा स्रोतही आहे. दक्षिण ल्होनकसारख्या उंचावरील हिमनदी सरोवरांवर लक्ष ठेवले जाते कारण ती फुटू शकतात, जसे ऑक्टोबर 2023 मध्ये दक्षिण ल्होनकचे झाले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Spring-recharge programme — area and springs revived",
+            "hi": "झरना पुनर्भरण कार्यक्रम — क्षेत्र और पुनर्जीवित झरने",
+            "mr": "झरा पुनर्भरण कार्यक्रम — क्षेत्र व पुनरुज्जीवित झरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Sikkim Rural Development Department (Dhara Vikas)."
+        },
+        {
+          "label": {
+            "en": "Household tap-water coverage",
+            "hi": "घरेलू नल जल कवरेज",
+            "mr": "घरगुती नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        }
+      ]
+    }
+  ]
+}

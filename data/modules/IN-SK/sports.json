@@ -1,0 +1,86 @@
+{
+  "region": "IN-SK",
+  "module": "sports",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Football is Sikkim's most popular sport. Baichung Bhutia from Tinkitam captained India and became one of its best-known footballers, and the Paljor Stadium in Gangtok hosts the Sikkim Governor's Gold Cup football tournament. Archery has a strong following too: Tarundeep Rai has represented India at several Olympic Games. The mountains draw climbers, trekkers, paragliders and river-rafters on the Teesta and Rangeet.",
+        "hi": "फ़ुटबॉल सिक्किम का सबसे लोकप्रिय खेल है। तिनकिताम के बाईचुंग भूटिया ने भारत की कप्तानी की और देश के सबसे प्रसिद्ध फ़ुटबॉलरों में बने, और गंगटोक का पलजोर स्टेडियम सिक्किम गवर्नर्स गोल्ड कप फ़ुटबॉल टूर्नामेंट की मेज़बानी करता है। तीरंदाज़ी भी लोकप्रिय है: तरुणदीप राय कई ओलंपिक खेलों में भारत का प्रतिनिधित्व कर चुके हैं। पहाड़ पर्वतारोहियों, ट्रेकरों, पैराग्लाइडरों और तीस्ता व रंगीत पर रिवर-राफ़्टिंग करने वालों को खींचते हैं।",
+        "mr": "फुटबॉल हा सिक्कीमचा सर्वांत लोकप्रिय खेळ आहे. तिनकितामचे बायचुंग भुतिया यांनी भारताचे कर्णधारपद भूषवले व ते देशातील सर्वांत प्रसिद्ध फुटबॉलपटूंपैकी झाले, आणि गंगटोकचे पलजोर स्टेडियम सिक्कीम गव्हर्नर्स गोल्ड कप फुटबॉल स्पर्धेचे यजमान आहे. तिरंदाजीचीही मोठी आवड आहे: तरुणदीप राय यांनी अनेक ऑलिंपिक स्पर्धांत भारताचे प्रतिनिधित्व केले आहे. पर्वत गिर्यारोहक, ट्रेकर, पॅराग्लायडर व तिस्ता आणि रंगीतवर राफ्टिंग करणाऱ्यांना आकर्षित करतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "venues",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "paljor",
+          "name": {
+            "en": "Paljor Stadium, Gangtok",
+            "hi": "पलजोर स्टेडियम, गंगटोक",
+            "mr": "पलजोर स्टेडियम, गंगटोक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "namchi",
+          "name": {
+            "en": "Bhaichung Stadium, Namchi",
+            "hi": "बाईचुंग स्टेडियम, नामची",
+            "mr": "बायचुंग स्टेडियम, नामची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major venues",
+        "hi": "प्रमुख मैदान",
+        "mr": "प्रमुख मैदाने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Gold Cup history — official record",
+            "hi": "गोल्ड कप इतिहास — आधिकारिक रिकॉर्ड",
+            "mr": "गोल्ड कप इतिहास — अधिकृत नोंद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Sikkim Football Association."
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,7 @@
 | State and UT boundaries, national boundary | **Survey of India** digital boundary data, State/UT level (free product OVSF/1M/7, [onlinemaps.surveyofindia.gov.in](https://onlinemaps.surveyofindia.gov.in/Digital_Product_Show.aspx)) | Downloaded as `SOI_States.geojsonl.7z` from [ramSeraph/indian_admin_boundaries](https://github.com/ramSeraph/indian_admin_boundaries/releases/tag/states) (release "states", file dated 11 Dec 2023), which republishes the SoI file unchanged under CC0. |
 | Inter-State disputed areas | Same SoI file (4 areas: MP–Gujarat, MP–Rajasthan, Rajasthan–Gujarat, West Bengal–Bihar–Jharkhand) | Drawn hatched and labelled "as shown by the Survey of India". |
 | Capital locations | [Natural Earth](https://www.naturalearthdata.com/) 1:10m populated places (public domain) | Point locations only. Natural Earth is **never** used for any boundary. |
+| District boundaries (selected State/UT) | Local Government Directory (LGD) district boundaries via NIC Bharatmaps ([mapservice.gov.in](https://mapservice.gov.in)) | `LGD_Districts.geojsonl.7z` from [ramSeraph/indian_admin_boundaries](https://github.com/ramSeraph/indian_admin_boundaries/releases/tag/districts) (11 Dec 2023, CC0). Its outer boundary matches the SoI file, and it includes Mirpur and Muzaffarabad (PoK) in J&K. |
 | Data layers (population, density, literacy, sex ratio, forest cover, per capita income) | The sourced figures already in `data/regions/*.json` | Same provenance as the profiles. |
 
 The National Geospatial Guidelines (DST, 2021, para xiii) say that for political maps of India "SoI published maps or SoI digital boundary data are the standard to be used", that they "shall be made easily downloadable for free", and that "their digital display and printing shall be permissible".
@@ -35,6 +36,25 @@ This downloads the two inputs and runs `mapshaper@0.6.102` to simplify the bound
 
 `public/maps/manifest.json` names the file. `npm run validate-data` refuses a manifest whose `sourceId` isn't `survey-of-india` or that isn't `verified`, and the app only draws boundaries when both are true. Otherwise it shows the table.
 
+## Districts
+
+`python3 scripts/maps/build_districts.py /tmp/bd-maps` writes one file per region to `public/maps/districts/` (simplified 4%, keep-shapes, about 840 KB in all). A file loads only when a reader selects that State or UT with the Districts overlay on.
+
+District lists change often. The build compares the number of districts in the file with the number in the region's profile. Where they differ, no district boundaries are drawn, and the info card says why. On 25 October 2026 that applied to:
+
+| Region | In file | In profile |
+|---|---|---|
+| Andhra Pradesh | 26 | 28 |
+| Goa | 2 | 3 |
+| Gujarat | 33 | 34 |
+| Haryana | 22 | 23 |
+| Madhya Pradesh | 52 | 55 |
+| Rajasthan | 50 | 41 |
+
+Regions without a profile yet are drawn with the file's date shown, and their count is checked when their profile is written. District names are in English, as in LGD, on all three language versions. Hindi and Marathi names need an official source (LGD local-language names).
+
+The older SoI district file (742 districts, with Andhra Pradesh at 13) is not used.
+
 ## What the map does
 
 - **Colour by:** Zonal Council region, State or UT, or one of six sourced figures. Data layers use five quantile groups on a validated single-hue ramp, with separate light and dark steps (`--seq-0..4` in `globals.css`).
@@ -48,10 +68,9 @@ This downloads the two inputs and runs `mapshaper@0.6.102` to simplify the bound
 
 Each of these is added only with official, sourced data:
 
-- **Districts.** The SoI district file in the same repository is older than the current district list (Andhra Pradesh shows 13 districts), so it is not used. It is needed from SoI or LGD at the current vintage.
 - **Rivers and lakes:** India-WRIS.
 - **Protected areas and Ramsar sites:** MoEFCC / WII ENVIS.
 - **Transport:** NHAI/MoRTH, Indian Railways, AAI, the Ministry of Ports.
-- **UNESCO sites:** whc.unesco.org.
+- **UNESCO sites:** whc.unesco.org. Several site pages (for example Ajanta, Ellora and Konark) print no coordinates, and the full list export could not be read from the build environment. Needs the UNESCO list export (XML/XLS) attached, or the ASI list with coordinates.
 - **Seismic zones:** BIS IS 1893.
 - **Timeline of State formation, 1956–2019:** the Acts of Parliament.

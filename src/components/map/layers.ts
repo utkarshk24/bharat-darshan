@@ -25,11 +25,11 @@ export const DATA_THEMES: DataTheme[] = [
 
 export const isDataTheme = (t: ThemeId): t is MapMetric => DATA_THEMES.some((d) => d.id === t);
 
-export type Overlay = "labels" | "capitals" | "disputed";
-export const OVERLAYS: Overlay[] = ["labels", "capitals", "disputed"];
+export type Overlay = "labels" | "capitals" | "districts" | "disputed";
+export const OVERLAYS: Overlay[] = ["labels", "capitals", "districts", "disputed"];
 
 /** Layers we will add only once official, sourced data is in place (shown as "planned"). */
-export const PLANNED = ["districts", "rivers", "protected", "transport", "heritage", "hazards", "timeline"] as const;
+export const PLANNED = ["rivers", "protected", "transport", "heritage", "hazards", "timeline"] as const;
 
 export interface Scale {
   /** Period every coloured value shares (period hygiene: one period per map). */

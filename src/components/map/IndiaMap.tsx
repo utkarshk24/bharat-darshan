@@ -9,7 +9,7 @@ import type { RegionSummary } from "@/lib/data";
 import type { ZonalCouncil } from "@/lib/schema";
 import { pick } from "@/lib/l10n";
 import { cn } from "@/lib/cn";
-import { formatPeriod, formatValue, toDevanagariDigits } from "@/lib/format";
+import { formatDate, formatPeriod, formatValue, toDevanagariDigits } from "@/lib/format";
 import { usePreferences } from "@/components/Preferences";
 import { ZONAL_COLORS, TYPE_COLORS } from "./mapColors";
 import dynamic from "next/dynamic";
@@ -24,6 +24,13 @@ const ZONES: ZonalCouncil[] = ["northern", "central", "eastern", "western", "sou
 const THEMES: ThemeId[] = ["zonal", "type", ...DATA_THEMES.map((d) => d.id)];
 const hrefFor = (r: RegionSummary) => (r.type === "state" ? `/states/${r.slug}` : `/uts/${r.slug}`);
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+/** On large screens the info card floats over the map's left side (w-72 + margin). */
+const panelPad = () => (typeof window !== "undefined" && window.matchMedia("(min-width: 1024px)").matches ? 304 : 0);
+
+interface DistrictIndex {
+  vintage: string;
+  regions: Record<string, { count: number; profileCount: number | null; status: "shown" | "outdated"; file?: string }>;
+}
 
 interface Loaded {
   manifest: BoundaryManifest;
@@ -62,10 +69,13 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
   const [data, setData] = useState<Loaded | null>(null);
   const [failed, setFailed] = useState(false);
   const [theme, setTheme] = useState<ThemeId>("zonal");
-  const [overlays, setOverlays] = useState<Set<Overlay>>(new Set(compact ? ["capitals"] : ["labels", "capitals", "disputed"]));
+  const [overlays, setOverlays] = useState<Set<Overlay>>(new Set(compact ? ["capitals"] : ["labels", "capitals", "districts", "disputed"]));
   const [focusZone, setFocusZone] = useState<ZonalCouncil | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [hover, setHover] = useState<{ r: RegionSummary; pt?: { x: number; y: number } } | null>(null);
+  const [dHover, setDHover] = useState<{ name: string; pt?: { x: number; y: number } } | null>(null);
+  const [dIndex, setDIndex] = useState<DistrictIndex | null>(null);
+  const [dTopo, setDTopo] = useState<{ code: string; topo: Topology } | null>(null);
   const [view, setView] = useState<"map" | "table">("map");
   const [query, setQuery] = useState("");
   const [status, setStatus] = useState("");
@@ -107,6 +117,26 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
     })();
   }, [near]);
 
+  // Districts: the index once, then the selected region's file (LGD boundaries)
+  const wantDistricts = !compact && overlays.has("districts");
+  useEffect(() => {
+    if (!wantDistricts || dIndex) return;
+    fetch(`${BASE}/maps/districts/index.json`).then((r) => r.json()).then(setDIndex).catch(() => {});
+  }, [wantDistricts, dIndex]);
+  useEffect(() => {
+    const entry = selected && dIndex?.regions[selected];
+    if (!wantDistricts || !entry || !entry.file || dTopo?.code === selected) return;
+    let cancelled = false;
+    fetch(`${BASE}/maps/districts/${entry.file}`)
+      .then((r) => r.json())
+      .then((topo: Topology) => !cancelled && setDTopo({ code: selected!, topo }))
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [wantDistricts, selected, dIndex, dTopo]);
+  const districtTopo = wantDistricts && dTopo && dTopo.code === selected ? dTopo.topo : null;
+
   // Restore a shared view
   useEffect(() => {
     if (compact) return;
@@ -117,7 +147,15 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
     setRestored(true);
   }, [compact, regions]);
   useEffect(() => {
-    if (data && selected && !compact) mapRef.current?.focus(selected);
+    if (!data || !selected || compact) return;
+    // The renderer is loaded on demand, so wait for it to mount
+    let tries = 0, id = 0;
+    const go = () => {
+      if (mapRef.current) mapRef.current.focus(selected, panelPad());
+      else if (tries++ < 120) id = requestAnimationFrame(go);
+    };
+    go();
+    return () => cancelAnimationFrame(id);
     // only once the map has mounted
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
@@ -158,7 +196,7 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
 
   const select = useCallback((r: RegionSummary) => {
     setSelected((cur) => (cur === r.code ? null : r.code));
-    if (!compact) mapRef.current?.focus(r.code);
+    if (!compact) mapRef.current?.focus(r.code, panelPad());
   }, [compact]);
 
   const toggleOverlay = (o: Overlay) =>
@@ -333,6 +371,17 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
           )}
         </div>
       )}
+      {wantDistricts && dIndex?.regions[sel.code] && (() => {
+        const e = dIndex.regions[sel.code];
+        const date = formatDate(dIndex.vintage, locale);
+        return (
+          <p className="text-xs text-muted">
+            {e.status === "shown"
+              ? ta("districtsShown", { count: dg(String(e.count)), date: dg(date) })
+              : ta("districtsOutdated", { count: dg(String(e.count)), now: dg(String(e.profileCount)), date: dg(date) })}
+          </p>
+        );
+      })()}
       <Link href={hrefFor(sel)} className="font-medium">{t("common.viewProfile")} →</Link>
     </div>
   ) : (
@@ -365,7 +414,16 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
     </div>
   );
 
-  const tip = hover && !compact && hover.pt ? (
+  const tip = dHover && !compact && dHover.pt && sel ? (
+    <div
+      role="presentation"
+      className="pointer-events-none absolute z-10 max-w-[16rem] rounded-lg border border-border bg-surface px-3 py-2 text-sm shadow-lg"
+      style={{ left: Math.min(dHover.pt.x + 14, (wrapRef.current?.clientWidth ?? 600) - 200), top: dHover.pt.y + 14 }}
+    >
+      <p className="font-semibold" lang="en">{dHover.name}</p>
+      <p className="text-muted">{ta("districtOf", { region: pick(sel.name, locale) })}</p>
+    </div>
+  ) : hover && !compact && hover.pt ? (
     <div
       role="presentation"
       className="pointer-events-none absolute z-10 max-w-[16rem] rounded-lg border border-border bg-surface px-3 py-2 text-sm shadow-lg"
@@ -400,6 +458,8 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
           dim={dim}
           describe={describe}
           onHover={(r, pt) => setHover(r ? { r, pt } : null)}
+          districts={districtTopo}
+          onDistrictHover={(name, pt) => setDHover(name ? { name, pt } : null)}
           onSelect={select}
           label={ta("mapLabel")}
           interactive={!compact}
@@ -512,7 +572,7 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
         <div className="order-1 flex min-w-0 flex-col gap-3 lg:order-none">
           <div className="rounded-2xl border border-border bg-surface p-3">
             {legend}
-            {!sel && <p className="mt-2 text-xs text-muted">{ta("hint")}</p>}
+            {!sel && <p className="mt-2 text-xs text-muted">{ta("hint")}{overlays.has("districts") && ` ${ta("districtsHint")}`}</p>}
           </div>
           {view === "map" ? (
             <div className="relative">

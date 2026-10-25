@@ -39,3 +39,33 @@ describe("India map data", () => {
     for (const c of codes) expect(caps.some((x) => x.code === c)).toBe(true);
   });
 });
+
+describe("district layer", () => {
+  const index = read("public/maps/districts/index.json") as {
+    vintage: string;
+    regions: Record<string, { count: number; profileCount: number | null; status: string; file?: string }>;
+  };
+
+  it("covers every region and never draws a district list that differs from the profile", () => {
+    expect(Object.keys(index.regions)).toHaveLength(36);
+    for (const [code, e] of Object.entries(index.regions)) {
+      if (e.profileCount !== null && e.profileCount !== e.count) expect(e.status, code).toBe("outdated");
+      if (e.status === "outdated") expect(e.file, code).toBeUndefined();
+    }
+  });
+
+  it("ships one file per shown region with every district in it", () => {
+    for (const [code, e] of Object.entries(index.regions)) {
+      if (e.status !== "shown") continue;
+      const topo = read(`public/maps/districts/${e.file}`) as Topology;
+      const named = (topo.objects.districts as GeometryCollection<{ lgd: number }>).geometries.filter((g) => (g.properties as { lgd: number }).lgd !== 0);
+      expect(named.length, code).toBe(e.count);
+    }
+  });
+
+  it("keeps the areas of J&K under the occupation of Pakistan inside J&K", () => {
+    const topo = read("public/maps/districts/IN-JK.topo.json") as Topology;
+    const names = (topo.objects.districts as GeometryCollection<{ name: string }>).geometries.map((g) => (g.properties as { name: string }).name);
+    expect(names).toEqual(expect.arrayContaining(["Mirpur", "Muzaffarabad"]));
+  });
+});

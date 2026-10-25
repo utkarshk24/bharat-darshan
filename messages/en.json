@@ -454,11 +454,11 @@
     "overlay": {
       "labels": "State and UT names",
       "capitals": "Capitals",
-      "disputed": "Inter-State disputed areas"
+      "disputed": "Inter-State disputed areas",
+      "districts": "Districts (selected State/UT)"
     },
     "plannedTitle": "Coming layers",
     "planned": {
-      "districts": "Districts",
       "rivers": "Rivers and lakes",
       "protected": "National parks, tiger reserves, Ramsar sites",
       "transport": "Highways, railways, airports, ports",
@@ -485,7 +485,7 @@
     "linkCopied": "Link copied.",
     "exported": "Image downloaded.",
     "exportTitle": "Bharat Darshan · India",
-    "attribution": "Boundaries: Survey of India digital boundary data (States/UTs), simplified for display; international and State boundaries as published by the Survey of India. Capital locations: Natural Earth (public domain).",
+    "attribution": "Boundaries: Survey of India digital boundary data (States/UTs), simplified for display; international and State boundaries as published by the Survey of India. Capital locations: Natural Earth (public domain). District boundaries: Local Government Directory (LGD) via NIC Bharatmaps.",
     "attributionShort": "Boundaries: Survey of India. Capitals: Natural Earth. Data: see Bharat Darshan sources.",
     "unavailable": "The boundary map could not be loaded, so the table is shown instead.",
     "capitalsMissing": "Not yet marked: {list}.",
@@ -496,6 +496,10 @@
     "colType": "Type",
     "openAtlas": "Open the full map",
     "close": "Close",
-    "explore": "Explore the interactive map"
+    "explore": "Explore the interactive map",
+    "districtOf": "District, {region}",
+    "districtsShown": "Dashed lines: {count} districts, boundaries as in the Local Government Directory (LGD) on {date}. Names in English as in LGD.",
+    "districtsOutdated": "District boundaries not shown: the latest available file ({date}) has {count} districts, and the State/UT now has {now}.",
+    "districtsHint": "Select one to see its district boundaries."
   }
 }

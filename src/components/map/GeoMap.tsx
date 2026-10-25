@@ -34,7 +34,8 @@ export interface GeoMapHandle {
   zoomIn(): void;
   zoomOut(): void;
   reset(): void;
-  focus(code: string): void;
+  /** Zoom to a region; `padLeft` (CSS px) keeps it clear of a panel over the map's left side. */
+  focus(code: string, padLeft?: number): void;
   svg(): SVGSVGElement | null;
 }
 
@@ -53,6 +54,9 @@ type Props = {
   onSelect: (r: RegionSummary) => void;
   label: string;
   interactive?: boolean;
+  /** District boundaries of the selected region (LGD), drawn over it. */
+  districts?: Topology | null;
+  onDistrictHover?: (name: string | null, pt?: { x: number; y: number }) => void;
 };
 
 const W = 800, H = 900;
@@ -63,7 +67,7 @@ type F = Feature<Geometry, Record<string, unknown>>;
  * SVG + d3-geo; d3-zoom for pan and zoom. Each State/UT is a focusable button.
  */
 export const GeoMap = forwardRef<GeoMapHandle, Props>(function GeoMap(
-  { topo, object, idProperty, capitals, regions, fill, overlays, selected, dim, describe, onHover, onSelect, label, interactive = true },
+  { topo, object, idProperty, capitals, regions, fill, overlays, selected, dim, describe, onHover, onSelect, label, interactive = true, districts, onDistrictHover },
   ref,
 ) {
   const locale = useLocale() as Locale;
@@ -98,6 +102,22 @@ export const GeoMap = forwardRef<GeoMapHandle, Props>(function GeoMap(
     [features, idProperty, path, byCode, locale],
   );
 
+  const dShapes = useMemo(() => {
+    if (!districts) return [];
+    const obj = districts.objects.districts as GeometryCollection<Record<string, unknown>>;
+    const fc = feature(districts, obj) as FeatureCollection<Geometry, Record<string, unknown>>;
+    return fc.features.map((f, i) => {
+      const [[x0, y0], [x1, y1]] = path.bounds(f);
+      const [cx, cy] = path.centroid(f);
+      return { key: `${f.properties?.lgd}-${i}`, name: String(f.properties?.name ?? ""), d: path(f) ?? "", box: { x0, y0, x1, y1 }, cx, cy };
+    });
+  }, [districts, path]);
+  const dMesh = useMemo(() => {
+    if (!districts) return "";
+    const obj = districts.objects.districts as GeometryCollection<Record<string, unknown>>;
+    return path(mesh(districts, obj, (a, b) => a !== b) as MultiLineString) ?? "";
+  }, [districts, path]);
+
   // Zoom behaviour
   useEffect(() => {
     if (!svgRef.current || !interactive) return;
@@ -129,12 +149,16 @@ export const GeoMap = forwardRef<GeoMapHandle, Props>(function GeoMap(
     zoomIn: () => zoomRef.current && svgRef.current && select(svgRef.current).transition().duration(250).call(zoomRef.current.scaleBy as never, 1.6),
     zoomOut: () => zoomRef.current && svgRef.current && select(svgRef.current).transition().duration(250).call(zoomRef.current.scaleBy as never, 1 / 1.6),
     reset: () => zoomTo(zoomIdentity),
-    focus: (code: string) => {
+    focus: (code: string, padLeft = 0) => {
       const s = shapes.find((x) => x.code === code);
       if (!s) return;
       const { x0, y0, x1, y1 } = s.box;
-      const k = Math.min(10, 0.8 / Math.max((x1 - x0) / W, (y1 - y0) / H));
-      zoomTo(zoomIdentity.translate(W / 2, H / 2).scale(Math.max(1, k)).translate(-(x0 + x1) / 2, -(y0 + y1) / 2));
+      // CSS px → viewBox units (the SVG keeps its aspect ratio, so use the limiting side)
+      const el = svgRef.current;
+      const unit = el ? Math.max(W / el.clientWidth, H / el.clientHeight) : 1;
+      const pad = Math.min(W * 0.45, padLeft * unit);
+      const k = Math.min(10, 0.8 / Math.max((x1 - x0) / (W - pad), (y1 - y0) / H));
+      zoomTo(zoomIdentity.translate(pad + (W - pad) / 2, H / 2).scale(Math.max(1, k)).translate(-(x0 + x1) / 2, -(y0 + y1) / 2));
     },
     svg: () => svgRef.current,
   }), [shapes, zoomTo]);
@@ -238,6 +262,31 @@ export const GeoMap = forwardRef<GeoMapHandle, Props>(function GeoMap(
         {/* Inter-State lines and the national boundary, as in the SoI file */}
         <path d={inner} fill="none" stroke="var(--surface)" strokeWidth={0.9} vectorEffect="non-scaling-stroke" pointerEvents="none" />
         <path d={outline} fill="none" stroke="var(--text)" strokeWidth={1.3} vectorEffect="non-scaling-stroke" pointerEvents="none" />
+        {dShapes.length > 0 && (
+          <g>
+            {dShapes.map((ds) => (
+              <path
+                key={ds.key}
+                d={ds.d}
+                fill="transparent"
+                className="cursor-pointer hover:fill-[var(--text)]/10"
+                onMouseMove={(e) => {
+                  const box = svgRef.current?.getBoundingClientRect();
+                  onDistrictHover?.(ds.name, box ? { x: e.clientX - box.left, y: e.clientY - box.top } : undefined);
+                }}
+                onMouseLeave={() => onDistrictHover?.(null)}
+                onClick={() => {
+                  const r = selected ? byCode.get(selected) : undefined;
+                  if (r) onSelect(r);
+                }}
+              >
+                <title>{ds.name}</title>
+              </path>
+            ))}
+            <path d={dMesh} fill="none" stroke="var(--surface)" strokeOpacity={0.8} strokeWidth={2} vectorEffect="non-scaling-stroke" pointerEvents="none" />
+            <path d={dMesh} fill="none" stroke="var(--text)" strokeOpacity={0.7} strokeWidth={0.7} strokeDasharray="3 2" vectorEffect="non-scaling-stroke" pointerEvents="none" />
+          </g>
+        )}
         {selected &&
           shapes
             .filter((s) => s.code === selected)
@@ -250,7 +299,7 @@ export const GeoMap = forwardRef<GeoMapHandle, Props>(function GeoMap(
       {overlays.has("labels") && (
         <g pointerEvents="none" style={{ fontFamily }} aria-hidden>
           {shapes.map((s) => {
-            if (!s.r) return null;
+            if (!s.r || (s.code === selected && dShapes.length > 0)) return null;
             const name = pick(s.r.name, locale);
             const w = (s.box.x1 - s.box.x0) * k;
             const h = (s.box.y1 - s.box.y0) * k;
@@ -264,6 +313,20 @@ export const GeoMap = forwardRef<GeoMapHandle, Props>(function GeoMap(
             return (
               <text key={s.code} x={x} y={y} textAnchor="middle" dominantBaseline="middle" fontSize={size} fontWeight={600} fill="var(--text)" stroke="var(--surface)" strokeWidth={3} strokeLinejoin="round" paintOrder="stroke">
                 {name}
+              </text>
+            );
+          })}
+        </g>
+      )}
+      {dShapes.length > 0 && k >= 1.8 && (
+        <g pointerEvents="none" style={{ fontFamily }} aria-hidden>
+          {dShapes.map((ds) => {
+            const w = (ds.box.x1 - ds.box.x0) * k;
+            if (w < ds.name.length * 10 * 0.58 || (ds.box.y1 - ds.box.y0) * k < 18) return null;
+            const [x, y] = at(ds.cx, ds.cy);
+            return (
+              <text key={ds.key} x={x} y={y} lang="en" textAnchor="middle" dominantBaseline="middle" fontSize={10} fill="var(--text)" stroke="var(--surface)" strokeWidth={2.5} strokeLinejoin="round" paintOrder="stroke">
+                {ds.name}
               </text>
             );
           })}

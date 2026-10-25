@@ -1,0 +1,42 @@
+{
+  "region": "IN-CH",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chandigarh has a humid subtropical climate: hot summers from April to June, monsoon rain from July to September, and cool, foggy winters from December to February. October–November and February–March are the most pleasant months.",
+        "hi": "चंडीगढ़ की जलवायु आर्द्र उपोष्ण है: अप्रैल से जून तक गर्म गर्मियाँ, जुलाई से सितंबर तक मानसूनी वर्षा, और दिसंबर से फ़रवरी तक ठंडी, कोहरे वाली सर्दियाँ। अक्टूबर–नवंबर और फ़रवरी–मार्च सबसे सुहावने महीने हैं।",
+        "mr": "चंदीगडचे हवामान दमट उपोष्ण आहे: एप्रिल ते जून उष्ण उन्हाळा, जुलै ते सप्टेंबर मान्सूनी पाऊस, आणि डिसेंबर ते फेब्रुवारी थंड, धुक्याचा हिवाळा. ऑक्टोबर–नोव्हेंबर व फेब्रुवारी–मार्च हे सर्वांत सुखद महिने आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Chandigarh",
+            "hi": "चंडीगढ़",
+            "mr": "चंदीगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 30.7333,
+          "lon": 76.7794
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "region": "IN-AN",
+  "module": "energy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The islands are not connected to the national grid, so most electricity comes from diesel generators, which is costly and polluting. Solar plants, including battery-backed projects in South Andaman, are being added to cut diesel use.",
+        "hi": "द्वीप राष्ट्रीय ग्रिड से जुड़े नहीं हैं, इसलिए अधिकांश बिजली डीज़ल जनरेटरों से आती है, जो महँगी और प्रदूषणकारी है। डीज़ल का उपयोग घटाने के लिए दक्षिण अंडमान में बैटरी-समर्थित परियोजनाओं सहित सौर संयंत्र जोड़े जा रहे हैं।",
+        "mr": "बेटे राष्ट्रीय ग्रिडशी जोडलेली नाहीत, त्यामुळे बहुतांश वीज डिझेल जनरेटरमधून येते, जी महाग व प्रदूषणकारी आहे. डिझेलचा वापर कमी करण्यासाठी दक्षिण अंदमानमध्ये बॅटरी-आधारित प्रकल्पांसह सौर प्रकल्प वाढवले जात आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by source",
+            "hi": "स्रोतवार स्थापित क्षमता",
+            "mr": "स्रोतनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA / A&N Electricity Department."
+        }
+      ]
+    }
+  ]
+}

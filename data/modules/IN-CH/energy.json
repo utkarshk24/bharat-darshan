@@ -1,0 +1,42 @@
+{
+  "region": "IN-CH",
+  "module": "energy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chandigarh has no large power stations and draws electricity from the northern grid through central allocations. Rooftop solar is mandatory on larger buildings, and government buildings have been fitted with solar panels.",
+        "hi": "चंडीगढ़ में बड़े बिजलीघर नहीं हैं और यह केंद्रीय आवंटन से उत्तरी ग्रिड से बिजली लेता है। बड़े भवनों पर रूफ़टॉप सौर अनिवार्य है, और सरकारी भवनों पर सौर पैनल लगाए गए हैं।",
+        "mr": "चंदीगडमध्ये मोठी वीजकेंद्रे नाहीत आणि ते केंद्रीय वाटपातून उत्तर ग्रिडमधून वीज घेते. मोठ्या इमारतींवर छतावरील सौरऊर्जा बंधनकारक आहे, आणि सरकारी इमारतींवर सौर पॅनेल बसवले गेले आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Rooftop solar capacity",
+            "hi": "रूफ़टॉप सौर क्षमता",
+            "mr": "छतावरील सौर क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "MNRE / CREST Chandigarh."
+        }
+      ]
+    }
+  ]
+}

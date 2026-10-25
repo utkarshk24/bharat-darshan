@@ -1,0 +1,48 @@
+{
+  "region": "IN-AN",
+  "module": "government",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The islands are a Union Territory without a legislature, administered by a Lieutenant Governor appointed by the President, with a Chief Secretary and UT departments. Elected panchayats and the Sri Vijaya Puram Municipal Council handle local matters, and the Andaman and Nicobar Command, the country's first tri-service command (2001), is based at Sri Vijaya Puram. The UT elects one member to the Lok Sabha. Dinesh Sharma has been Lieutenant Governor since 15 September 2026.",
+        "hi": "द्वीपसमूह बिना विधानसभा वाला केंद्र शासित प्रदेश है, जिसका प्रशासन राष्ट्रपति द्वारा नियुक्त उपराज्यपाल मुख्य सचिव और केंद्र शासित प्रदेश के विभागों के साथ करते हैं। निर्वाचित पंचायतें और श्री विजयपुरम नगर परिषद स्थानीय विषय सँभालती हैं, और देश की पहली त्रि-सेवा कमान, अंडमान और निकोबार कमान (2001), श्री विजयपुरम में है। केंद्र शासित प्रदेश से लोकसभा का एक सदस्य चुना जाता है। दिनेश शर्मा 15 सितंबर 2026 से उपराज्यपाल हैं।",
+        "mr": "बेटे हा विधिमंडळ नसलेला केंद्रशासित प्रदेश आहे, ज्याचा कारभार राष्ट्रपतींनी नेमलेले नायब राज्यपाल मुख्य सचिव व केंद्रशासित प्रदेशाच्या विभागांसह पाहतात. निवडून आलेल्या पंचायती व श्री विजयपुरम नगर परिषद स्थानिक विषय हाताळतात, आणि देशातील पहिले त्रिसेवा कमांड, अंदमान व निकोबार कमांड (2001), श्री विजयपुरम येथे आहे. केंद्रशासित प्रदेशातून लोकसभेवर एक सदस्य निवडला जातो. दिनेश शर्मा 15 सप्टेंबर 2026 पासून नायब राज्यपाल आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "theprint"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Lieutenant Governor's swearing-in — official source",
+            "hi": "उपराज्यपाल का शपथ ग्रहण — आधिकारिक स्रोत",
+            "mr": "नायब राज्यपालांचा शपथविधी — अधिकृत स्रोत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Replace the news report with the A&N Administration release."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "region": "IN-AN",
+  "module": "nature",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "About 82% of the islands is forest (ISFR 2023) — evergreen rainforest, mangroves and littoral forest — with coral reefs around most islands. Many species are found nowhere else, such as the Andaman wood pigeon, Narcondam hornbill and Nicobar megapode, and dugongs, sea turtles and saltwater crocodiles live in the surrounding waters. Mahatma Gandhi Marine National Park at Wandoor, Rani Jhansi Marine National Park and the Campbell Bay and Galathea national parks are among the islands' many protected areas, and the Great Nicobar Biosphere Reserve is part of UNESCO's network. The islands have no Ramsar site on the list as on 21 April 2026.",
+        "hi": "द्वीपों का लगभग 82% भाग वन है (आईएसएफ़आर 2023) — सदाबहार वर्षावन, मैंग्रोव और तटीय वन — और अधिकांश द्वीपों के चारों ओर प्रवाल भित्तियाँ हैं। कई प्रजातियाँ कहीं और नहीं मिलतीं, जैसे अंडमान वन कबूतर, नारकोंडम धनेश और निकोबार मेगापोड, और आसपास के जल में डुगोंग, समुद्री कछुए और खारे पानी के मगरमच्छ रहते हैं। वांडूर का महात्मा गांधी समुद्री राष्ट्रीय उद्यान, रानी झाँसी समुद्री राष्ट्रीय उद्यान और कैंपबेल बे व गैलाथिया राष्ट्रीय उद्यान द्वीपों के अनेक संरक्षित क्षेत्रों में हैं, और ग्रेट निकोबार जैवमंडल आरक्षित क्षेत्र यूनेस्को नेटवर्क का भाग है। 21 अप्रैल 2026 की सूची में द्वीपों में कोई रामसर स्थल नहीं है।",
+        "mr": "बेटांचा सुमारे 82% भाग वनाच्छादित आहे (आयएसएफआर 2023) — सदाहरित वर्षावन, खारफुटी व किनारी वने — आणि बहुतेक बेटांभोवती प्रवाळ भित्ती आहेत. अनेक प्रजाती इतरत्र कुठेच आढळत नाहीत, उदा. अंदमान वन कबूतर, नारकोंडम धनेश व निकोबार मेगापोड, आणि सभोवतालच्या पाण्यात डुगाँग, सागरी कासवे व खाऱ्या पाण्यातील मगरी राहतात. वांडूर येथील महात्मा गांधी सागरी राष्ट्रीय उद्यान, राणी झाशी सागरी राष्ट्रीय उद्यान आणि कॅम्पबेल बे व गॅलाथिया राष्ट्रीय उद्याने ही बेटांवरील अनेक संरक्षित क्षेत्रांपैकी आहेत, आणि ग्रेट निकोबार जैवमंडल राखीव क्षेत्र युनेस्को जाळ्याचा भाग आहे. 21 एप्रिल 2026 च्या यादीत बेटांवर कोणतेही रामसर स्थळ नाही.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "indian-wetlands"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 6732.92,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 6736.94,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 81.62,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 6,732.92 km² ÷ geographical area 8,249 km²."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        },
+        {
+          "id": "ramsar",
+          "label": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळ स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 0,
+            "unit": "sites",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "indian-wetlands",
+            "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "MoEFCC list of Ramsar sites as on 21 April 2026: none in the Andaman and Nicobar Islands."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Number of protected areas — official list",
+            "hi": "संरक्षित क्षेत्रों की संख्या — आधिकारिक सूची",
+            "mr": "संरक्षित क्षेत्रांची संख्या — अधिकृत यादी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "ENVIS / Wildlife Institute of India protected-area database."
+        }
+      ]
+    }
+  ]
+}

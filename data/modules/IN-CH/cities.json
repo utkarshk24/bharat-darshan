@@ -1,0 +1,88 @@
+{
+  "region": "IN-CH",
+  "module": "cities",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ch",
+          "name": {
+            "en": "Chandigarh",
+            "hi": "चंडीगढ़",
+            "mr": "चंदीगड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Planned city of sectors; the whole UT is one district.",
+            "hi": "सेक्टरों वाला नियोजित नगर; पूरा केंद्र शासित प्रदेश एक ज़िला है।",
+            "mr": "सेक्टरांचे नियोजित शहर; संपूर्ण केंद्रशासित प्रदेश एकच जिल्हा आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "manimajra",
+          "name": {
+            "en": "Manimajra",
+            "hi": "मनीमाजरा",
+            "mr": "मनीमाजरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Older town within the UT.",
+            "hi": "केंद्र शासित प्रदेश के भीतर पुराना नगर।",
+            "mr": "केंद्रशासित प्रदेशातील जुने गाव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Main settlements",
+        "hi": "मुख्य बस्तियाँ",
+        "mr": "मुख्य वस्त्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

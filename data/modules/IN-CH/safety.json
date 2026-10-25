@@ -1,0 +1,149 @@
+{
+  "region": "IN-CH",
+  "module": "safety",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chandigarh lies in seismic zone IV. Winter fog disrupts road, rail and air travel, and the city's roads have a large number of vehicles for its size. Emergency services are coordinated by the UT Administration.",
+        "hi": "चंडीगढ़ भूकंपीय क्षेत्र IV में है। सर्दियों का कोहरा सड़क, रेल और हवाई यात्रा बाधित करता है, और शहर की सड़कों पर उसके आकार की तुलना में बहुत वाहन हैं। आपात सेवाओं का समन्वय केंद्र शासित प्रदेश प्रशासन करता है।",
+        "mr": "चंदीगड भूकंप क्षेत्र IV मध्ये आहे. हिवाळ्यातील धुके रस्ता, रेल्वे व हवाई प्रवास विस्कळीत करते, आणि शहराच्या आकाराच्या मानाने रस्त्यांवर वाहने जास्त आहेत. आपत्कालीन सेवांचा समन्वय केंद्रशासित प्रदेश प्रशासन करते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "table",
+      "id": "numbers",
+      "title": {
+        "en": "Emergency numbers",
+        "hi": "आपातकालीन नंबर",
+        "mr": "आपत्कालीन क्रमांक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Service",
+            "hi": "सेवा",
+            "mr": "सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Number",
+            "hi": "नंबर",
+            "mr": "क्रमांक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Emergency response (police, fire, ambulance)",
+            "hi": "आपातकालीन सहायता (पुलिस, अग्निशमन, एंबुलेंस)",
+            "mr": "आपत्कालीन मदत (पोलीस, अग्निशमन, रुग्णवाहिका)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "112"
+        ],
+        [
+          {
+            "en": "Ambulance",
+            "hi": "एंबुलेंस",
+            "mr": "रुग्णवाहिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "108"
+        ],
+        [
+          {
+            "en": "Women's helpline",
+            "hi": "महिला हेल्पलाइन",
+            "mr": "महिला हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "181"
+        ],
+        [
+          {
+            "en": "Child helpline",
+            "hi": "चाइल्ड हेल्पलाइन",
+            "mr": "चाइल्ड हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1098"
+        ],
+        [
+          {
+            "en": "Cybercrime",
+            "hi": "साइबर अपराध",
+            "mr": "सायबर गुन्हे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1930"
+        ],
+        [
+          {
+            "en": "Tourist helpline (Ministry of Tourism)",
+            "hi": "पर्यटक हेल्पलाइन (पर्यटन मंत्रालय)",
+            "mr": "पर्यटक हेल्पलाइन (पर्यटन मंत्रालय)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1800-11-1363"
+        ]
+      ],
+      "sourceId": "india-gov",
+      "url": "https://www.india.gov.in",
+      "accessDate": null,
+      "confidence": "Official",
+      "note": {
+        "en": "National numbers that work in Chandigarh.",
+        "hi": "राष्ट्रीय नंबर जो चंडीगढ़ में काम करते हैं।",
+        "mr": "चंदीगडमध्ये चालणारे राष्ट्रीय क्रमांक.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

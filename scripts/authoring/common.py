@@ -126,8 +126,8 @@ def aishe_block(code, name):
         fact("ger", L("Gross enrolment ratio, higher education (18–23)", "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)", "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)"),
              dp(ger[ys[-1]], "%", ys[-1], "survey", "aishe", AISHE, note="AISHE, all categories, both sexes (via MoSPI API)."), "percent", "higher-is-better",
              previous=dp(ger[ys[-2]], "%", ys[-2], "survey", "aishe", AISHE), national=dp(28.40, "%", "2021-22", "survey", "aishe", AISHE, level="national")),
-        fact("univ", L("Universities", "विश्वविद्यालय", "विद्यापीठे"), dp(AP["aishe_universities_2021_22"][code], "count", "2021-22", "survey", "aishe", AISHE), "number"),
-        fact("coll", L("Colleges", "कॉलेज", "महाविद्यालये"), dp(AP["aishe_colleges_2021_22"][code], "count", "2021-22", "survey", "aishe", AISHE), "number"),
+        fact("univ", L("Universities", "विश्वविद्यालय", "विद्यापीठे"), dp(AP["aishe_universities_2021_22"].get(code), "count", "2021-22", "survey", "aishe", AISHE, note=None if AP["aishe_universities_2021_22"].get(code) is not None else "Not reported for this region in AISHE 2021-22 as returned by the MoSPI API."), "number"),
+        fact("coll", L("Colleges", "कॉलेज", "महाविद्यालये"), dp(AP["aishe_colleges_2021_22"].get(code), "count", "2021-22", "survey", "aishe", AISHE, note=None if AP["aishe_colleges_2021_22"].get(code) is not None else "Not reported for this region in AISHE 2021-22 as returned by the MoSPI API."), "number"),
     ])
     s = {"type": "series", "id": "ger-series", "title": L(f"Higher-education GER, {ys[0]} to {ys[-1]}", f"उच्च शिक्षा जीईआर, {ys[0]} से {ys[-1]}", f"उच्चशिक्षण जीईआर, {ys[0]} ते {ys[-1]}"),
          "kind": "percent", "polarity": "higher-is-better",

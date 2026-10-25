@@ -1,0 +1,46 @@
+{
+  "region": "IN-CH",
+  "module": "projects",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Planned works include a metro or mass rapid transit system for the Tricity and the expansion of Chandigarh International Airport, which lies just across the border in Mohali. They will be added as cards once their status is confirmed from official sources.",
+        "hi": "नियोजित कार्यों में ट्राइसिटी के लिए मेट्रो या मास रैपिड ट्रांज़िट प्रणाली और मोहाली में सीमा के ठीक पार स्थित चंडीगढ़ अंतरराष्ट्रीय हवाई अड्डे का विस्तार शामिल हैं। आधिकारिक स्रोतों से स्थिति की पुष्टि होने पर इन्हें कार्ड के रूप में जोड़ा जाएगा।",
+        "mr": "नियोजित कामांत ट्रायसिटीसाठी मेट्रो किंवा मास रॅपिड ट्रान्झिट प्रणाली आणि मोहालीत सीमेपलीकडेच असलेल्या चंदीगड आंतरराष्ट्रीय विमानतळाचा विस्तार यांचा समावेश आहे. अधिकृत स्रोतांतून स्थितीची खात्री झाल्यावर त्यांची कार्डे जोडली जातील.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tricity metro — official status",
+            "hi": "ट्राइसिटी मेट्रो — आधिकारिक स्थिति",
+            "mr": "ट्रायसिटी मेट्रो — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Chandigarh Administration / MoHUA."
+        }
+      ]
+    }
+  ]
+}

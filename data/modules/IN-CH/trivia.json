@@ -1,0 +1,68 @@
+{
+  "region": "IN-CH",
+  "module": "trivia",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "capital",
+          "name": {
+            "en": "Chandigarh is the capital of two States, Punjab and Haryana.",
+            "hi": "चंडीगढ़ दो राज्यों, पंजाब और हरियाणा, की राजधानी है।",
+            "mr": "चंदीगड ही दोन राज्यांची, पंजाब व हरियाणाची, राजधानी आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "unesco",
+          "name": {
+            "en": "The Capitol Complex is part of a World Heritage Site spread over seven countries.",
+            "hi": "कैपिटल कॉम्प्लेक्स सात देशों में फैले एक विश्व धरोहर स्थल का भाग है।",
+            "mr": "कॅपिटल कॉम्प्लेक्स सात देशांत पसरलेल्या जागतिक वारसा स्थळाचा भाग आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://whc.unesco.org/en/statesparties/in",
+          "sourceId": "unesco-whc"
+        },
+        {
+          "id": "density",
+          "name": {
+            "en": "Chandigarh had about 9,258 people per km² in 2011.",
+            "hi": "2011 में चंडीगढ़ में प्रति वर्ग किमी लगभग 9,258 लोग थे।",
+            "mr": "2011 मध्ये चंदीगडमध्ये प्रति चौ.किमी सुमारे 9,258 लोक होते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://statistics.py.gov.in/state-wise-population",
+          "sourceId": "census"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

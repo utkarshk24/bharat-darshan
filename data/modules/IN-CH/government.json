@@ -1,0 +1,48 @@
+{
+  "region": "IN-CH",
+  "module": "government",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chandigarh is a Union Territory without a legislature. Since 1984 the Governor of Punjab has also served as its Administrator, assisted by an Adviser and UT officers. The elected Municipal Corporation of Chandigarh, headed by a Mayor, runs civic services, and the UT elects one member to the Lok Sabha. The Punjab and Haryana legislatures and secretariats sit in the Capitol Complex.",
+        "hi": "चंडीगढ़ बिना विधानसभा वाला केंद्र शासित प्रदेश है। 1984 से पंजाब के राज्यपाल इसके प्रशासक भी हैं, जिनकी सहायता एक सलाहकार और केंद्र शासित प्रदेश के अधिकारी करते हैं। महापौर के नेतृत्व वाला निर्वाचित चंडीगढ़ नगर निगम नागरिक सेवाएँ चलाता है, और केंद्र शासित प्रदेश से लोकसभा का एक सदस्य चुना जाता है। पंजाब और हरियाणा की विधानसभाएँ और सचिवालय कैपिटल कॉम्प्लेक्स में हैं।",
+        "mr": "चंदीगड हा विधिमंडळ नसलेला केंद्रशासित प्रदेश आहे. 1984 पासून पंजाबचे राज्यपाल त्याचे प्रशासकही आहेत, ज्यांना एक सल्लागार व केंद्रशासित प्रदेशाचे अधिकारी मदत करतात. महापौरांच्या नेतृत्वाखालील निवडून आलेली चंदीगड महानगरपालिका नागरी सेवा चालवते, आणि केंद्रशासित प्रदेशातून लोकसभेवर एक सदस्य निवडला जातो. पंजाब व हरियाणाच्या विधानसभा व सचिवालये कॅपिटल कॉम्प्लेक्समध्ये आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Mayor of Chandigarh — current",
+            "hi": "चंडीगढ़ के महापौर — वर्तमान",
+            "mr": "चंदीगडचे महापौर — सध्याचे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Municipal Corporation Chandigarh; record the date of election."
+        }
+      ]
+    }
+  ]
+}

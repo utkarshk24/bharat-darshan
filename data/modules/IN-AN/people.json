@@ -1,0 +1,298 @@
+{
+  "region": "IN-AN",
+  "module": "people",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The islands had 3.81 lakh people at the 2011 Census, about 46 per km². The sex ratio was 876 women per 1,000 men, up from 846 in 2001, and literacy 86.6%. Scheduled Tribes — the Nicobarese and the much smaller Andamanese, Onge, Jarawa, Sentinelese and Shompen communities — made up 7.5%. Most people descend from settlers, convicts and workers brought from the mainland in the 19th and 20th centuries, and from families resettled after 1947. Contact with the Sentinelese and Jarawa is restricted by law to protect them.",
+        "hi": "2011 की जनगणना में द्वीपसमूह की जनसंख्या 3.81 लाख थी, प्रति वर्ग किमी लगभग 46। लिंगानुपात प्रति 1,000 पुरुषों पर 876 महिलाएँ था, जो 2001 के 846 से अधिक है, और साक्षरता 86.6%। अनुसूचित जनजातियाँ — निकोबारी और बहुत छोटे अंडमानी, ओंगे, जारवा, सेंटिनली और शोम्पेन समुदाय — 7.5% थीं। अधिकांश लोग 19वीं और 20वीं सदी में मुख्य भूमि से लाए गए बसने वालों, क़ैदियों और मज़दूरों के, और 1947 के बाद पुनर्वासित परिवारों के वंशज हैं। सेंटिनली और जारवा की रक्षा के लिए उनसे संपर्क क़ानूनन प्रतिबंधित है।",
+        "mr": "2011 च्या जनगणनेनुसार बेटांची लोकसंख्या 3.81 लाख होती, प्रति चौ.किमी सुमारे 46. दर 1,000 पुरुषांमागे 876 स्त्रिया होत्या, 2001 मधील 846 वरून वाढ, आणि साक्षरता 86.6%. अनुसूचित जमाती — निकोबारी व खूप लहान अंदमानी, ओंगे, जारवा, सेंटिनली व शोम्पेन समुदाय — 7.5% होत्या. बहुतेक लोक एकोणिसाव्या व विसाव्या शतकात मुख्य भूमीतून आणलेल्या स्थायिक, कैदी व मजुरांचे, आणि 1947 नंतर पुनर्वसित कुटुंबांचे वंशज आहेत. सेंटिनली व जारवा यांच्या संरक्षणासाठी त्यांच्याशी संपर्काला कायद्याने बंदी आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "census",
+        "es-india",
+        "dl-planning",
+        "pib"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 380581,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 2,02,871; females 1,77,710."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 876,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Puducherry DES state-wise table citing ORGI (846 in 2001)."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 846,
+            "unit": "females per 1000 males",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 968,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PIB release of 11 Feb 2014 (RGI data). Was 957 in 2001."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 957,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 86.6,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "es-india",
+            "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 46,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: Census 2011 population ÷ area 8,249 km²."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "st",
+          "label": {
+            "en": "Scheduled Tribes, share of population",
+            "hi": "अनुसूचित जनजातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जमाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 7.5,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "dl-planning",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/17._table_social_welfare.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Delhi Planning Department, table 17.2, citing Census 2011: 0.28 lakh people. No Scheduled Castes are notified for the UT."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Population of each indigenous community — official figures",
+            "hi": "प्रत्येक मूल निवासी समुदाय की जनसंख्या — आधिकारिक आँकड़े",
+            "mr": "प्रत्येक मूळ समुदायाची लोकसंख्या — अधिकृत आकडे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tribal-affairs",
+          "note": "Census 2011 ST tables / Andaman Adim Janjati Vikas Samiti."
+        }
+      ]
+    }
+  ]
+}

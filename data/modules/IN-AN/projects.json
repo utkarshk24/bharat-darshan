@@ -1,0 +1,48 @@
+{
+  "region": "IN-AN",
+  "module": "projects",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The new airport terminal at Sri Vijaya Puram opened in 2023. The proposed Great Nicobar development — a transshipment port at Galathea Bay, an airport, a township and a power plant — has been approved by the Union Government but has drawn concerns over forests, coral reefs and the rights of the Shompen and Nicobarese; its status will be shown from official sources only. A submarine optical-fibre cable from Chennai has linked the islands since 2020.",
+        "hi": "श्री विजयपुरम में हवाई अड्डे का नया टर्मिनल 2023 में खुला। प्रस्तावित ग्रेट निकोबार विकास — गैलाथिया खाड़ी में ट्रांसशिपमेंट बंदरगाह, हवाई अड्डा, नगर और बिजलीघर — को केंद्र सरकार ने स्वीकृति दी है, पर वनों, प्रवाल भित्तियों और शोम्पेन व निकोबारी लोगों के अधिकारों को लेकर चिंताएँ उठी हैं; इसकी स्थिति केवल आधिकारिक स्रोतों से दिखाई जाएगी। 2020 से चेन्नई से समुद्री ऑप्टिकल फ़ाइबर केबल द्वीपों को जोड़ती है।",
+        "mr": "श्री विजयपुरम येथील विमानतळाचे नवे टर्मिनल 2023 मध्ये सुरू झाले. प्रस्तावित ग्रेट निकोबार विकास — गॅलाथिया खाडीतील ट्रान्सशिपमेंट बंदर, विमानतळ, नगर व वीजकेंद्र — याला केंद्र सरकारने मंजुरी दिली आहे, पण जंगले, प्रवाळ भित्ती व शोम्पेन आणि निकोबारी लोकांच्या हक्कांबाबत चिंता व्यक्त झाल्या आहेत; त्याची स्थिती केवळ अधिकृत स्रोतांतून दाखवली जाईल. 2020 पासून चेन्नईहून सागरी ऑप्टिकल फायबर केबल बेटांना जोडते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "newsonair"
+      ],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Great Nicobar project — official status and clearances",
+            "hi": "ग्रेट निकोबार परियोजना — आधिकारिक स्थिति और मंज़ूरियाँ",
+            "mr": "ग्रेट निकोबार प्रकल्प — अधिकृत स्थिती व मंजुऱ्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "NITI Aayog / MoEFCC / ANIIDCO; cite official documents only."
+        }
+      ]
+    }
+  ]
+}

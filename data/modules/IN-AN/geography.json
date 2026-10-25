@@ -1,0 +1,69 @@
+{
+  "region": "IN-AN",
+  "module": "geography",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The islands are the peaks of a submerged mountain chain that continues the Arakan Yoma of Myanmar southwards towards Sumatra. Most are hilly and covered with forest, fringed by mangroves, beaches and coral reefs. Saddle Peak on North Andaman is the highest point of the Andamans, and Mount Thuillier the highest on Great Nicobar. Barren Island, east of the main Andaman chain, is an active volcano, and Narcondam is a dormant one.",
+        "hi": "ये द्वीप एक जलमग्न पर्वत शृंखला की चोटियाँ हैं, जो म्यांमार की अराकान योमा को दक्षिण में सुमात्रा की ओर आगे बढ़ाती है। अधिकांश पहाड़ी और वनाच्छादित हैं, जिनके किनारे मैंग्रोव, तट और प्रवाल भित्तियाँ हैं। उत्तरी अंडमान पर सैडल पीक अंडमान का सबसे ऊँचा बिंदु है, और माउंट थुइलियर ग्रेट निकोबार का। मुख्य अंडमान शृंखला के पूर्व में बैरन द्वीप एक सक्रिय ज्वालामुखी है, और नारकोंडम सुप्त।",
+        "mr": "ही बेटे एका बुडालेल्या पर्वतरांगेची शिखरे आहेत, जी म्यानमारच्या अराकान योमाला दक्षिणेकडे सुमात्राकडे पुढे नेते. बहुतेक डोंगराळ व वनाच्छादित असून त्यांच्या कडेला खारफुटी, किनारे व प्रवाळ भित्ती आहेत. उत्तर अंदमानवरील सॅडल पीक हे अंदमानचे सर्वोच्च ठिकाण आहे, आणि माउंट थुइलियर ग्रेट निकोबारचे. मुख्य अंदमान रांगेच्या पूर्वेला बॅरन बेट हा जागृत ज्वालामुखी आहे, आणि नारकोंडम सुप्त.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 8249,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    }
+  ]
+}

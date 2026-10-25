@@ -1,0 +1,66 @@
+{
+  "region": "IN-AN",
+  "module": "trivia",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "indira",
+          "name": {
+            "en": "Indira Point on Great Nicobar is the southernmost point of India.",
+            "hi": "ग्रेट निकोबार पर इंदिरा पॉइंट भारत का सबसे दक्षिणी बिंदु है।",
+            "mr": "ग्रेट निकोबारवरील इंदिरा पॉइंट हे भारताचे दक्षिणेकडील टोक आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "barren",
+          "name": {
+            "en": "Barren Island is an active volcano.",
+            "hi": "बैरन द्वीप एक सक्रिय ज्वालामुखी है।",
+            "mr": "बॅरन बेट हा जागृत ज्वालामुखी आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "forest",
+          "name": {
+            "en": "About 82% of the islands is forest (ISFR 2023).",
+            "hi": "द्वीपों का लगभग 82% भाग वन है (आईएसएफ़आर 2023)।",
+            "mr": "बेटांचा सुमारे 82% भाग वनाच्छादित आहे (आयएसएफआर 2023).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+          "sourceId": "fsi"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

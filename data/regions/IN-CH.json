@@ -33,86 +33,135 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://chandigarh.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Indian grey mongoose",
+        "hi": "भारतीय भूरा नेवला",
+        "mr": "भारतीय मुंगूस",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Urva edwardsii",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Indian grey hornbill",
+        "hi": "भारतीय भूरा धनेश",
+        "mr": "भारतीय राखी धनेश",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Ocyceros birostris",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Mango",
+        "hi": "आम",
+        "mr": "आंबा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Mangifera indica",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 1055450,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 5,80,663; females 4,74,787."
     },
     "area": {
-      "value": null,
+      "value": 114,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 9258,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population ÷ area 114 km²."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 818,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (777 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 880,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 845 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 86.0,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,75 +174,84 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 68073,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25 is the latest year published for Chandigarh. FY2023-24: ₹62,447 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 489173,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2023-24: ₹4,52,994."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 21.93,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 25.0 km² ÷ geographical area 114 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "administrator",
-      "name": null,
+      "name": {
+        "en": "Gulab Chand Kataria",
+        "hi": "गुलाब चंद कटारिया",
+        "mr": "गुलाबचंद कटारिया",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2024-07-31",
+      "asOf": "2026-10-25",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/gulab-chand-kataria-takes-oath-as-governor-of-punjab/",
+      "verifyUrl": "https://chandigarh.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Governor of Punjab since 31 July 2024, and by convention Administrator of the Union Territory of Chandigarh (All India Radio News). A March 2026 News On AIR report (https://www.newsonair.gov.in/punjab-governor-gulab-chand-kataria-congratulates-contributors-to-chandigarhs-growth) still describes him in this role."
     },
-    "headOfGovernment": null
+    "headOfGovernment": null,
+    "others": []
   },
   "projects": [],
   "giProducts": [],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-25",
+    "editorialStatus": "draft"
   }
 }

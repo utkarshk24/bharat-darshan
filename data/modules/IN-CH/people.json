@@ -1,0 +1,279 @@
+{
+  "region": "IN-CH",
+  "module": "people",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Chandigarh had 10.55 lakh people at the 2011 Census, at a density of about 9,258 per km². Its sex ratio was 818 women per 1,000 men, up from 777 in 2001, reflecting male migrant workers, and the child sex ratio rose from 845 to 880. Literacy was 86.0%, and Scheduled Castes made up 18.9% of the population. Hindi and Punjabi are the main languages, and English is the language of administration.",
+        "hi": "2011 की जनगणना में चंडीगढ़ की जनसंख्या 10.55 लाख थी, लगभग 9,258 प्रति वर्ग किमी के घनत्व पर। लिंगानुपात प्रति 1,000 पुरुषों पर 818 महिलाएँ था, जो 2001 के 777 से अधिक है और पुरुष प्रवासी मज़दूरों को दर्शाता है, और शिशु लिंगानुपात 845 से बढ़कर 880 हुआ। साक्षरता 86.0% थी, और अनुसूचित जातियाँ जनसंख्या का 18.9% थीं। हिंदी और पंजाबी मुख्य भाषाएँ हैं, और प्रशासन की भाषा अंग्रेज़ी है।",
+        "mr": "2011 च्या जनगणनेनुसार चंदीगडची लोकसंख्या 10.55 लाख होती, सुमारे 9,258 प्रति चौ.किमी घनतेसह. दर 1,000 पुरुषांमागे 818 स्त्रिया होत्या, 2001 मधील 777 वरून वाढ, जी पुरुष स्थलांतरित मजुरांमुळे आहे, आणि बाल लिंग गुणोत्तर 845 वरून 880 झाले. साक्षरता 86.0% होती, आणि अनुसूचित जाती लोकसंख्येच्या 18.9% होत्या. हिंदी व पंजाबी मुख्य भाषा आहेत, आणि प्रशासनाची भाषा इंग्रजी आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "census",
+        "es-india",
+        "dl-planning",
+        "pib"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1055450,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 5,80,663; females 4,74,787."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 818,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Puducherry DES state-wise table citing ORGI (777 in 2001)."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 777,
+            "unit": "females per 1000 males",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 880,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PIB release of 11 Feb 2014 (RGI data). Was 845 in 2001."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 845,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 86.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "es-india",
+            "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 9258,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: Census 2011 population ÷ area 114 km²."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "sc",
+          "label": {
+            "en": "Scheduled Castes, share of population",
+            "hi": "अनुसूचित जातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 18.9,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "dl-planning",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/17._table_social_welfare.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Delhi Planning Department, table 17.2, citing Census 2011: 1.99 lakh people. No Scheduled Tribes are notified for the UT."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

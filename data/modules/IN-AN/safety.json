@@ -1,0 +1,168 @@
+{
+  "region": "IN-AN",
+  "module": "safety",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The islands lie in seismic zone V on an active plate boundary; the earthquake and tsunami of December 2004 killed thousands here. Cyclones and heavy rain are other hazards. Entry to tribal reserves is prohibited, and foreign visitors need permits for some islands. Swim only at guarded beaches, and follow advice on crocodiles at creeks and mangroves.",
+        "hi": "द्वीप एक सक्रिय प्लेट सीमा पर भूकंपीय क्षेत्र V में हैं; दिसंबर 2004 के भूकंप और सुनामी में यहाँ हज़ारों लोग मारे गए। चक्रवात और भारी वर्षा अन्य ख़तरे हैं। जनजातीय आरक्षित क्षेत्रों में प्रवेश प्रतिबंधित है, और विदेशी पर्यटकों को कुछ द्वीपों के लिए परमिट चाहिए। केवल सुरक्षित तटों पर तैरें, और खाड़ियों और मैंग्रोव में मगरमच्छों के बारे में सलाह मानें।",
+        "mr": "बेटे सक्रिय प्लेट सीमेवर भूकंप क्षेत्र V मध्ये आहेत; डिसेंबर 2004 च्या भूकंप व त्सुनामीत येथे हजारो लोक मृत्युमुखी पडले. चक्रीवादळे व मुसळधार पाऊस हे इतर धोके आहेत. आदिवासी राखीव क्षेत्रांत प्रवेश बंदी आहे, आणि परदेशी पर्यटकांना काही बेटांसाठी परवाने लागतात. फक्त सुरक्षित किनाऱ्यांवर पोहा, आणि खाड्या व खारफुटीत मगरींबाबतचा सल्ला पाळा.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "table",
+      "id": "numbers",
+      "title": {
+        "en": "Emergency numbers",
+        "hi": "आपातकालीन नंबर",
+        "mr": "आपत्कालीन क्रमांक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Service",
+            "hi": "सेवा",
+            "mr": "सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Number",
+            "hi": "नंबर",
+            "mr": "क्रमांक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Emergency response (police, fire, ambulance)",
+            "hi": "आपातकालीन सहायता (पुलिस, अग्निशमन, एंबुलेंस)",
+            "mr": "आपत्कालीन मदत (पोलीस, अग्निशमन, रुग्णवाहिका)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "112"
+        ],
+        [
+          {
+            "en": "Ambulance",
+            "hi": "एंबुलेंस",
+            "mr": "रुग्णवाहिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "108"
+        ],
+        [
+          {
+            "en": "Women's helpline",
+            "hi": "महिला हेल्पलाइन",
+            "mr": "महिला हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "181"
+        ],
+        [
+          {
+            "en": "Child helpline",
+            "hi": "चाइल्ड हेल्पलाइन",
+            "mr": "चाइल्ड हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1098"
+        ],
+        [
+          {
+            "en": "Cybercrime",
+            "hi": "साइबर अपराध",
+            "mr": "सायबर गुन्हे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1930"
+        ],
+        [
+          {
+            "en": "Tourist helpline (Ministry of Tourism)",
+            "hi": "पर्यटक हेल्पलाइन (पर्यटन मंत्रालय)",
+            "mr": "पर्यटक हेल्पलाइन (पर्यटन मंत्रालय)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1800-11-1363"
+        ]
+      ],
+      "sourceId": "india-gov",
+      "url": "https://www.india.gov.in",
+      "accessDate": null,
+      "confidence": "Official",
+      "note": {
+        "en": "National numbers that work in Andaman and Nicobar Islands.",
+        "hi": "राष्ट्रीय नंबर जो अंडमान और निकोबार द्वीपसमूह में काम करते हैं।",
+        "mr": "अंदमान आणि निकोबार बेटेमध्ये चालणारे राष्ट्रीय क्रमांक.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "2004 tsunami — official toll for the islands",
+            "hi": "2004 सुनामी — द्वीपों के लिए आधिकारिक मृतक संख्या",
+            "mr": "2004 त्सुनामी — बेटांसाठी अधिकृत मृतसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ndma",
+          "note": "MHA / A&N Administration reports."
+        }
+      ]
+    }
+  ]
+}

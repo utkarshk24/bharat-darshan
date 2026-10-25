@@ -1,0 +1,68 @@
+{
+  "region": "IN-AN",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The islands have a warm, humid tropical climate all year, with temperatures mostly between 23 and 31 °C. Both the south-west monsoon (May to September) and the north-east monsoon (October to December) bring rain, and cyclones can form in the Bay of Bengal. December to April is the dry, calm season for travel and diving.",
+        "hi": "द्वीपों की जलवायु पूरे वर्ष गर्म, आर्द्र उष्णकटिबंधीय है, तापमान अधिकतर 23 से 31 °C के बीच रहता है। दक्षिण-पश्चिम मानसून (मई से सितंबर) और उत्तर-पूर्व मानसून (अक्टूबर से दिसंबर) दोनों वर्षा लाते हैं, और बंगाल की खाड़ी में चक्रवात बन सकते हैं। दिसंबर से अप्रैल यात्रा और गोताख़ोरी का सूखा, शांत मौसम है।",
+        "mr": "बेटांचे हवामान वर्षभर उष्ण, दमट उष्णकटिबंधीय असते, तापमान बहुधा 23 ते 31 °C दरम्यान. नैर्ऋत्य मान्सून (मे ते सप्टेंबर) व ईशान्य मान्सून (ऑक्टोबर ते डिसेंबर) दोन्ही पाऊस आणतात, आणि बंगालच्या उपसागरात चक्रीवादळे तयार होऊ शकतात. डिसेंबर ते एप्रिल प्रवास व डायव्हिंगसाठी कोरडा, शांत काळ असतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Sri Vijaya Puram",
+            "hi": "श्री विजयपुरम",
+            "mr": "श्री विजयपुरम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 11.6234,
+          "lon": 92.7265
+        },
+        {
+          "name": {
+            "en": "Car Nicobar",
+            "hi": "कार निकोबार",
+            "mr": "कार निकोबार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 9.165,
+          "lon": 92.817
+        },
+        {
+          "name": {
+            "en": "Mayabunder",
+            "hi": "मायाबंदर",
+            "mr": "मायाबंदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 12.92,
+          "lon": 92.9
+        }
+      ]
+    }
+  ]
+}

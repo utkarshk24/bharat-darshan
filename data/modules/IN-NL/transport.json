@@ -1,0 +1,96 @@
+{
+  "region": "IN-NL",
+  "module": "transport",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Dimapur is Nagaland's gateway: it has the State's only airport and its main railway station, on the line between Guwahati and Dibrugarh. National Highway 29 climbs from Dimapur to Kohima and continues to Imphal in Manipur, and other highways link Mokokchung, Wokha, Zunheboto, Tuensang and Mon. Roads are narrow and often damaged by landslides in the monsoon. The new Dhansiri–Zubza line will bring the railway close to Kohima. Visitors from other States need an Inner Line Permit, which can be obtained online.",
+        "hi": "दीमापुर नागालैंड का प्रवेश द्वार है: यहाँ राज्य का एकमात्र हवाई अड्डा और गुवाहाटी–डिब्रूगढ़ लाइन पर मुख्य रेलवे स्टेशन है। राष्ट्रीय राजमार्ग 29 दीमापुर से कोहिमा चढ़ता है और मणिपुर के इंफाल तक जाता है, और अन्य राजमार्ग मोकोकचुंग, वोखा, ज़ुन्हेबोटो, त्वेनसांग और मोन को जोड़ते हैं। सड़कें संकरी हैं और मानसून में अक्सर भूस्खलन से क्षतिग्रस्त होती हैं। नई धनसिरी–ज़ुबज़ा लाइन रेलवे को कोहिमा के पास लाएगी। अन्य राज्यों से आने वालों को इनर लाइन परमिट चाहिए, जो ऑनलाइन मिल सकता है।",
+        "mr": "दिमापूर हे नागालँडचे प्रवेशद्वार आहे: येथे राज्याचा एकमेव विमानतळ व गुवाहाटी–दिब्रुगड मार्गावरील मुख्य रेल्वे स्थानक आहे. राष्ट्रीय महामार्ग 29 दिमापूरहून कोहिमापर्यंत चढतो व मणिपूरच्या इंफाळपर्यंत जातो, आणि इतर महामार्ग मोकोकचुंग, वोखा, झुन्हेबोटो, त्वेनसांग व मोनला जोडतात. रस्ते अरुंद आहेत व पावसाळ्यात अनेकदा भूस्खलनाने खराब होतात. नवा धनसिरी–झुबझा मार्ग रेल्वे कोहिमाजवळ आणेल. इतर राज्यांतून येणाऱ्यांना इनर लाइन परवाना लागतो, जो ऑनलाइन मिळू शकतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "dmu",
+          "name": {
+            "en": "Dimapur Airport",
+            "hi": "दीमापुर हवाई अड्डा",
+            "mr": "दिमापूर विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "DMU",
+            "hi": "DMU",
+            "mr": "DMU",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        },
+        {
+          "label": {
+            "en": "Inner Line Permit rules — official notice",
+            "hi": "इनर लाइन परमिट नियम — आधिकारिक सूचना",
+            "mr": "इनर लाइन परवाना नियम — अधिकृत सूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Government of Nagaland ILP portal."
+        }
+      ]
+    }
+  ]
+}

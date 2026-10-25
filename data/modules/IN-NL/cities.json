@@ -1,0 +1,240 @@
+{
+  "region": "IN-NL",
+  "module": "cities",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kohima",
+          "name": {
+            "en": "Kohima",
+            "hi": "कोहिमा",
+            "mr": "कोहिमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hill capital at about 1,400 m.",
+            "hi": "लगभग 1,400 मीटर पर पहाड़ी राजधानी।",
+            "mr": "सुमारे 1,400 मीटरवरील डोंगरी राजधानी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dimapur",
+          "name": {
+            "en": "Dimapur",
+            "hi": "दीमापुर",
+            "mr": "दिमापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Commercial hub with the airport and railway.",
+            "hi": "हवाई अड्डे और रेलवे वाला वाणिज्यिक केंद्र।",
+            "mr": "विमानतळ व रेल्वे असलेले व्यापारी केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Commerce",
+            "hi": "वाणिज्य",
+            "mr": "व्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mokokchung",
+          "name": {
+            "en": "Mokokchung",
+            "hi": "मोकोकचुंग",
+            "mr": "मोकोकचुंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Cultural centre of the Ao.",
+            "hi": "आओ लोगों का सांस्कृतिक केंद्र।",
+            "mr": "आओ लोकांचे सांस्कृतिक केंद्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Culture",
+            "hi": "संस्कृति",
+            "mr": "संस्कृती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tuensang",
+          "name": {
+            "en": "Tuensang",
+            "hi": "त्वेनसांग",
+            "mr": "त्वेनसांग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Largest town of eastern Nagaland.",
+            "hi": "पूर्वी नागालैंड का सबसे बड़ा नगर।",
+            "mr": "पूर्व नागालँडमधील सर्वांत मोठे शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Administration",
+            "hi": "प्रशासन",
+            "mr": "प्रशासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "wokha",
+          "name": {
+            "en": "Wokha",
+            "hi": "वोखा",
+            "mr": "वोखा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Lotha country; Doyang lake.",
+            "hi": "लोथा क्षेत्र; दोयांग झील।",
+            "mr": "लोथा प्रदेश; दोयांग सरोवर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Nature",
+            "hi": "प्रकृति",
+            "mr": "निसर्ग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mon",
+          "name": {
+            "en": "Mon",
+            "hi": "मोन",
+            "mr": "मोन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Konyak heartland.",
+            "hi": "कोन्याक क्षेत्र का हृदय।",
+            "mr": "कोन्याक प्रदेशाचे हृदय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Culture",
+            "hi": "संस्कृति",
+            "mr": "संस्कृती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major towns",
+        "hi": "प्रमुख नगर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "List of districts — official",
+            "hi": "ज़िलों की सूची — आधिकारिक",
+            "mr": "जिल्ह्यांची यादी — अधिकृत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Government of Nagaland; see the district-count note in the overview."
+        },
+        {
+          "label": {
+            "en": "Town populations (Census 2011)",
+            "hi": "नगरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban tables."
+        }
+      ]
+    }
+  ]
+}

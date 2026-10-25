@@ -1,0 +1,42 @@
+{
+  "region": "IN-NL",
+  "module": "digital",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mobile and internet services reach the towns and most villages, though connectivity is weak in the remote eastern districts. Government services such as the online Inner Line Permit are delivered digitally, and Kohima and Dimapur have growing start-up and creative communities in music, fashion and food.",
+        "hi": "मोबाइल और इंटरनेट सेवाएँ नगरों और अधिकांश गाँवों तक पहुँचती हैं, हालाँकि दूरस्थ पूर्वी ज़िलों में कनेक्टिविटी कमज़ोर है। ऑनलाइन इनर लाइन परमिट जैसी सरकारी सेवाएँ डिजिटल रूप से दी जाती हैं, और कोहिमा व दीमापुर में संगीत, फ़ैशन और भोजन में बढ़ते स्टार्टअप और रचनात्मक समुदाय हैं।",
+        "mr": "मोबाइल व इंटरनेट सेवा शहरे व बहुतेक गावांपर्यंत पोहोचते, मात्र दुर्गम पूर्वेकडील जिल्ह्यांत संपर्क कमकुवत आहे. ऑनलाइन इनर लाइन परवान्यासारख्या सरकारी सेवा डिजिटल पद्धतीने दिल्या जातात, आणि कोहिमा व दिमापूरमध्ये संगीत, फॅशन व खाद्यक्षेत्रात वाढते स्टार्टअप व सर्जनशील समुदाय आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (North East circle)."
+        }
+      ]
+    }
+  ]
+}

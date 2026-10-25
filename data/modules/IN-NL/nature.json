@@ -1,0 +1,387 @@
+{
+  "region": "IN-NL",
+  "module": "nature",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "About 74% of Nagaland is forest (ISFR 2023), much of it owned by villages and clans rather than the State, which makes community conservation especially important. Forests range from tropical evergreen in the foothills to subtropical and temperate broadleaf forest and rhododendron on the high ridges. Wildlife includes the hoolock gibbon, the Blyth's tragopan (the State bird), the mithun (the State animal), hornbills and the Amur falcon, which stops over in huge numbers at Doyang reservoir in Wokha every autumn — once hunted, now protected by the villages. Ntangki National Park and the Fakim, Pulie Badze and Rangapahar sanctuaries are the main protected areas, and Khonoma has a community-run sanctuary.\n\nThere are no Ramsar sites in Nagaland on the list as on 21 April 2026.",
+        "hi": "नागालैंड का लगभग 74% भाग वन है (आईएसएफ़आर 2023), जिसका अधिकांश भाग राज्य के बजाय गाँवों और कुलों के स्वामित्व में है, इसलिए सामुदायिक संरक्षण विशेष रूप से महत्त्वपूर्ण है। वन तलहटी के उष्णकटिबंधीय सदाबहार से ऊँची पहाड़ियों पर उपोष्ण और समशीतोष्ण चौड़ी पत्ती वाले वन और बुरांश तक फैले हैं। वन्यजीवों में हूलॉक गिबन, ब्लाइथ ट्रैगोपैन (राज्य पक्षी), मिथुन (राज्य पशु), धनेश और अमूर बाज़ शामिल हैं, जो हर शरद में वोखा के दोयांग जलाशय पर भारी संख्या में रुकते हैं — कभी इनका शिकार होता था, अब गाँव इनकी रक्षा करते हैं। नटांगकी राष्ट्रीय उद्यान और फ़ाकिम, पुलिए बाद्ज़े और रंगापहाड़ अभयारण्य मुख्य संरक्षित क्षेत्र हैं, और खोनोमा में समुदाय द्वारा चलाया जाने वाला अभयारण्य है।\n\n21 अप्रैल 2026 की सूची में नागालैंड में कोई रामसर स्थल नहीं है।",
+        "mr": "नागालँडचा सुमारे 74% भाग वनाच्छादित आहे (आयएसएफआर 2023), ज्यातील बहुतांश राज्याऐवजी गावे व कुळांच्या मालकीचे आहे, त्यामुळे सामुदायिक संवर्धन विशेष महत्त्वाचे आहे. जंगले पायथ्याच्या उष्णकटिबंधीय सदाहरितांपासून उंच कड्यांवरील उपोष्ण व समशीतोष्ण रुंदपर्णी जंगले व ऱ्होडोडेंड्रॉनपर्यंत आहेत. वन्यजीवांत हूलॉक गिबन, ब्लायथ ट्रॅगोपॅन (राज्यपक्षी), मिथुन (राज्यप्राणी), धनेश व अमूर ससाणा यांचा समावेश आहे, जो दर शरद ऋतूत वोखाच्या दोयांग जलाशयावर प्रचंड संख्येने थांबतो — एकेकाळी त्याची शिकार होई, आता गावे त्याचे रक्षण करतात. नटांगकी राष्ट्रीय उद्यान व फाकिम, पुलिए बाद्झे आणि रंगापहाड अभयारण्ये ही मुख्य संरक्षित क्षेत्रे आहेत, आणि खोनोमामध्ये समुदायचालित अभयारण्य आहे.\n\n21 एप्रिल 2026 च्या यादीत नागालँडमध्ये कोणतेही रामसर स्थळ नाही.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "indian-wetlands"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 12222.47,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 12274.36,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 73.72,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 12,222.47 km² ÷ geographical area 16,579 km²."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        },
+        {
+          "id": "ramsar",
+          "label": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळ स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 0,
+            "unit": "sites",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "indian-wetlands",
+            "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "MoEFCC list of Ramsar sites as on 21 April 2026: none in Nagaland."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "protected",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ntangki",
+          "name": {
+            "en": "Ntangki National Park",
+            "hi": "नटांगकी राष्ट्रीय उद्यान",
+            "mr": "नटांगकी राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Peren district",
+            "hi": "पेरेन ज़िला",
+            "mr": "पेरेन जिल्हा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "fakim",
+          "name": {
+            "en": "Fakim Wildlife Sanctuary",
+            "hi": "फ़ाकिम वन्यजीव अभयारण्य",
+            "mr": "फाकिम वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Near Saramati",
+            "hi": "सारामती के पास",
+            "mr": "सारामतीजवळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "puliebadze",
+          "name": {
+            "en": "Pulie Badze Wildlife Sanctuary",
+            "hi": "पुलिए बाद्ज़े वन्यजीव अभयारण्य",
+            "mr": "पुलिए बाद्झे वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Above Kohima",
+            "hi": "कोहिमा के ऊपर",
+            "mr": "कोहिमावर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khonoma",
+          "name": {
+            "en": "Khonoma Nature Conservation and Tragopan Sanctuary",
+            "hi": "खोनोमा प्रकृति संरक्षण और ट्रैगोपैन अभयारण्य",
+            "mr": "खोनोमा निसर्ग संवर्धन व ट्रॅगोपॅन अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Community-run",
+            "hi": "समुदाय द्वारा संचालित",
+            "mr": "समुदायचालित",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "doyang",
+          "name": {
+            "en": "Doyang reservoir",
+            "hi": "दोयांग जलाशय",
+            "mr": "दोयांग जलाशय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Amur falcon roost",
+            "hi": "अमूर बाज़ का बसेरा",
+            "mr": "अमूर ससाण्याचा थांबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Protected areas (selected)",
+        "hi": "संरक्षित क्षेत्र (चयनित)",
+        "mr": "संरक्षित क्षेत्रे (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "species",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "mithun",
+          "name": {
+            "en": "Mithun (State animal)",
+            "hi": "मिथुन (राज्य पशु)",
+            "mr": "मिथुन (राज्यप्राणी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tragopan",
+          "name": {
+            "en": "Blyth's tragopan (State bird)",
+            "hi": "ब्लाइथ ट्रैगोपैन (राज्य पक्षी)",
+            "mr": "ब्लायथ ट्रॅगोपॅन (राज्यपक्षी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "falcon",
+          "name": {
+            "en": "Amur falcon",
+            "hi": "अमूर बाज़",
+            "mr": "अमूर ससाणा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gibbon",
+          "name": {
+            "en": "Hoolock gibbon",
+            "hi": "हूलॉक गिबन",
+            "mr": "हूलॉक गिबन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hornbill",
+          "name": {
+            "en": "Hornbills",
+            "hi": "धनेश",
+            "mr": "धनेश",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lily",
+          "name": {
+            "en": "Dzükou lily",
+            "hi": "ज़ुकू लिली",
+            "mr": "झुकू लिली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key species",
+        "hi": "प्रमुख प्रजातियाँ",
+        "mr": "प्रमुख प्रजाती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Amur falcon counts at Doyang",
+            "hi": "दोयांग में अमूर बाज़ों की संख्या",
+            "mr": "दोयांग येथील अमूर ससाण्यांची संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Nagaland Forest Department / WII."
+        },
+        {
+          "label": {
+            "en": "Community-conserved areas — official list",
+            "hi": "सामुदायिक संरक्षित क्षेत्र — आधिकारिक सूची",
+            "mr": "सामुदायिक संवर्धित क्षेत्रे — अधिकृत यादी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Nagaland Forest Department."
+        }
+      ]
+    }
+  ]
+}

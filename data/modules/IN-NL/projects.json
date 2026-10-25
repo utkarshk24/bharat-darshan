@@ -1,0 +1,48 @@
+{
+  "region": "IN-NL",
+  "module": "projects",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The railway from Dimapur to Kohima is the State's largest project, with its first two sections already open. Other works include four-laning of the Dimapur–Kohima highway, the Foothill Road along the Assam border, and new medical and engineering colleges; these will be added as cards once their status is confirmed from official sources. Each card shows its source and the date it was checked.",
+        "hi": "दीमापुर से कोहिमा तक रेलवे राज्य की सबसे बड़ी परियोजना है, जिसके पहले दो खंड खुल चुके हैं। अन्य कार्यों में दीमापुर–कोहिमा राजमार्ग को चार-लेन करना, असम सीमा के साथ फ़ुटहिल रोड, और नए मेडिकल व इंजीनियरिंग कॉलेज शामिल हैं; आधिकारिक स्रोतों से स्थिति की पुष्टि होने पर इन्हें कार्ड के रूप में जोड़ा जाएगा। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "दिमापूर ते कोहिमा रेल्वे हा राज्यातील सर्वांत मोठा प्रकल्प आहे, ज्याचे पहिले दोन टप्पे आधीच सुरू झाले आहेत. इतर कामांत दिमापूर–कोहिमा महामार्गाचे चौपदरीकरण, आसाम सीमेलगतचा फूटहिल रस्ता, आणि नवी वैद्यकीय व अभियांत्रिकी महाविद्यालये यांचा समावेश आहे; अधिकृत स्रोतांतून स्थितीची खात्री झाल्यावर त्यांची कार्डे जोडली जातील. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "morung-express"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Dimapur–Kohima line — sanctioned cost and official progress",
+            "hi": "दीमापुर–कोहिमा लाइन — स्वीकृत लागत और आधिकारिक प्रगति",
+            "mr": "दिमापूर–कोहिमा मार्ग — मंजूर खर्च व अधिकृत प्रगती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Ministry of Railways / NFR release; replace the news report."
+        }
+      ]
+    }
+  ]
+}

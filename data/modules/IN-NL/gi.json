@@ -1,0 +1,48 @@
+{
+  "region": "IN-NL",
+  "module": "gi",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Five GIs belong to Nagaland on the GI Registry's list as on 31 December 2025. Naga mircha, the king chilli filed in 2007, was among the earliest GIs from the North-East; Naga tree tomato, Naga cucumber and the Chakhesang shawl followed, and Chak-hao, the aromatic black rice, is shared with Manipur.",
+        "hi": "जीआई रजिस्ट्री की 31 दिसंबर 2025 की सूची में पाँच जीआई नागालैंड के हैं। 2007 में दायर राजा मिर्च, नागा मिर्च, पूर्वोत्तर के सबसे पहले जीआई में थी; इसके बाद नागा ट्री टमाटर, नागा खीरा और चाखेसांग शॉल आए, और सुगंधित काला चावल चाक-हाओ मणिपुर के साथ साझा है।",
+        "mr": "जीआय रजिस्ट्रीच्या 31 डिसेंबर 2025 च्या यादीत पाच जीआय नागालँडचे आहेत. 2007 मध्ये दाखल राजा मिरची, नागा मिरची, ईशान्येतील सर्वांत पहिल्या जीआयपैकी होती; त्यानंतर नागा झाड-टोमॅटो, नागा काकडी व चाखेसांग शाल आले, आणि सुगंधी काळा तांदूळ चाक-हाओ मणिपूरसोबत सामायिक आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "gi-registry"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "gi",
+      "id": "gi"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Pending GI applications from Nagaland",
+            "hi": "नागालैंड के लंबित जीआई आवेदन",
+            "mr": "नागालँडचे प्रलंबित जीआय अर्ज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "gi-registry",
+          "note": "GI Registry application status search."
+        }
+      ]
+    }
+  ]
+}

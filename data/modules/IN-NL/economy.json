@@ -1,0 +1,648 @@
+{
+  "region": "IN-NL",
+  "module": "economy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Nagaland's GSDP at current prices was about ₹51,014 crore in FY2025-26 (advance estimate), 13.03% higher than the previous year and 10.33% higher in real terms, according to the Nagaland Economic Survey 2025-26; per capita income was ₹1,92,282. Services made up about 67% of the economy — much of it government administration, education, trade and transport — agriculture and allied activities about 23% and industry about 11%. Most rural families grow rice on terraces or jhum (shifting cultivation) fields, along with maize, millets, vegetables, the Naga king chilli and fruit; pigs and mithun are reared widely. The State depends heavily on transfers from the Union government.\n\nThe PLFS unemployment rate was 6.7% in 2025 (it was 9.5% in 2024), above the national 3.1%, while labour-force participation was high: 72.1% of people aged 15 and above and 64.5% of women, against 40.0% of women nationally.",
+        "hi": "नागालैंड आर्थिक सर्वेक्षण 2025-26 के अनुसार वित्त वर्ष 2025-26 (अग्रिम अनुमान) में नागालैंड का प्रचलित मूल्यों पर जीएसडीपी लगभग ₹51,014 करोड़ था, जो पिछले वर्ष से 13.03% और वास्तविक रूप से 10.33% अधिक है; प्रति व्यक्ति आय ₹1,92,282 थी। अर्थव्यवस्था में सेवाओं का हिस्सा लगभग 67% था — इसका बड़ा भाग सरकारी प्रशासन, शिक्षा, व्यापार और परिवहन — कृषि और संबद्ध गतिविधियों का लगभग 23% और उद्योग का लगभग 11%। अधिकांश ग्रामीण परिवार सीढ़ीदार या झूम (स्थानांतरित खेती) खेतों में धान उगाते हैं, साथ में मक्का, मोटे अनाज, सब्ज़ियाँ, नागा राजा मिर्च और फल; सूअर और मिथुन व्यापक रूप से पाले जाते हैं। राज्य केंद्र सरकार से मिलने वाले अंतरण पर बहुत निर्भर है।\n\nपीएलएफ़एस बेरोज़गारी दर 2025 में 6.7% थी (2024 में 9.5%), जो राष्ट्रीय 3.1% से अधिक है, जबकि श्रम बल भागीदारी ऊँची थी: 15 वर्ष से अधिक आयु के 72.1% लोग और 64.5% महिलाएँ, जबकि राष्ट्रीय स्तर पर 40.0% महिलाएँ।",
+        "mr": "नागालँड आर्थिक पाहणी 2025-26 नुसार आ.व. 2025-26 (आगाऊ अंदाज) मध्ये नागालँडचे चालू किमतींनुसार जीएसडीपी सुमारे ₹51,014 कोटी होते, मागील वर्षापेक्षा 13.03% आणि प्रत्यक्ष मूल्यात 10.33% अधिक; दरडोई उत्पन्न ₹1,92,282 होते. अर्थव्यवस्थेत सेवांचा वाटा सुमारे 67% होता — त्यातील मोठा भाग सरकारी प्रशासन, शिक्षण, व्यापार व वाहतूक — शेती व संलग्न उपक्रमांचा सुमारे 23% आणि उद्योगाचा सुमारे 11%. बहुतेक ग्रामीण कुटुंबे पायऱ्यांच्या किंवा झूम (स्थलांतरित शेती) शेतांत भात घेतात, सोबत मका, भरडधान्ये, भाज्या, नागा राजा मिरची व फळे; डुकरे व मिथुन मोठ्या प्रमाणावर पाळले जातात. राज्य केंद्र सरकारकडून मिळणाऱ्या निधीवर मोठ्या प्रमाणात अवलंबून आहे.\n\nपीएलएफएस बेरोजगारी दर 2025 मध्ये 6.7% होता (2024 मध्ये 9.5%), राष्ट्रीय 3.1% पेक्षा जास्त, तर श्रमशक्ती सहभाग उच्च होता: 15 वर्षांवरील 72.1% लोक व 64.5% स्त्रिया, तर राष्ट्रीय पातळीवर 40.0% स्त्रिया.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "morung-express",
+        "plfs"
+      ],
+      "confidence": "Third-party verified"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "gsdp",
+          "label": {
+            "en": "GSDP, current prices",
+            "hi": "जीएसडीपी, प्रचलित मूल्य",
+            "mr": "जीएसडीपी, चालू किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 51014,
+            "unit": "₹ crore",
+            "period": "FY2025-26",
+            "periodType": "fy",
+            "sourceId": "morung-express",
+            "url": "https://morungexpress.com/nagaland-economy-crosses-rs-50000-cr-but-fiscal-dependence-persists",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Third-party verified",
+            "priceBase": {
+              "type": "current"
+            },
+            "note": "Nagaland Economic Survey 2025-26 (advance estimate), as reported by The Morung Express on 9 March 2026. MoSPI's state series has no figure for Nagaland. FY2024-25 (provisional): ₹45,133 crore."
+          },
+          "kind": "rupeeCrore",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 45133,
+            "unit": "₹ crore",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "morung-express",
+            "url": "https://morungexpress.com/nagaland-economy-crosses-rs-50000-cr-but-fiscal-dependence-persists",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Third-party verified",
+            "priceBase": {
+              "type": "current"
+            },
+            "note": "Nagaland Economic Survey 2025-26, as reported by The Morung Express (9 March 2026). MoSPI's state series has no Nagaland figures. Provisional estimate."
+          }
+        },
+        {
+          "id": "gsdpk",
+          "label": {
+            "en": "GSDP, constant 2011-12 prices",
+            "hi": "जीएसडीपी, स्थिर 2011-12 मूल्य",
+            "mr": "जीएसडीपी, स्थिर 2011-12 किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 25665,
+            "unit": "₹ crore",
+            "period": "FY2025-26",
+            "periodType": "fy",
+            "sourceId": "morung-express",
+            "url": "https://morungexpress.com/nagaland-economy-crosses-rs-50000-cr-but-fiscal-dependence-persists",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Third-party verified",
+            "priceBase": {
+              "type": "constant",
+              "baseYear": "2011-12"
+            },
+            "note": "Nagaland Economic Survey 2025-26, as reported by The Morung Express (9 March 2026). MoSPI's state series has no Nagaland figures. Advance estimate."
+          },
+          "kind": "rupeeCrore",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 23262,
+            "unit": "₹ crore",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "morung-express",
+            "url": "https://morungexpress.com/nagaland-economy-crosses-rs-50000-cr-but-fiscal-dependence-persists",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Third-party verified",
+            "priceBase": {
+              "type": "constant",
+              "baseYear": "2011-12"
+            },
+            "note": "Nagaland Economic Survey 2025-26, as reported by The Morung Express (9 March 2026). MoSPI's state series has no Nagaland figures."
+          }
+        },
+        {
+          "id": "pc",
+          "label": {
+            "en": "Per capita income, current prices",
+            "hi": "प्रति व्यक्ति आय, प्रचलित मूल्य",
+            "mr": "दरडोई उत्पन्न, चालू किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 192282,
+            "unit": "₹",
+            "period": "FY2025-26",
+            "periodType": "fy",
+            "sourceId": "morung-express",
+            "url": "https://morungexpress.com/nagaland-economy-crosses-rs-50000-cr-but-fiscal-dependence-persists",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Third-party verified",
+            "priceBase": {
+              "type": "current"
+            },
+            "note": "Per capita income, Nagaland Economic Survey 2025-26 (advance estimate), as reported by The Morung Express. Not from the MoSPI series, so compare with other States with care."
+          },
+          "kind": "rupee",
+          "polarity": "higher-is-better"
+        },
+        {
+          "id": "ur",
+          "label": {
+            "en": "Unemployment rate, 15+ (PS+SS)",
+            "hi": "बेरोज़गारी दर, 15+ (पीएस+एसएस)",
+            "mr": "बेरोजगारी दर, 15+ (पीएस+एसएस)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 6.7,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PLFS annual, calendar year, usual status (PS+SS), persons 15 years and above."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 9.5,
+            "unit": "%",
+            "period": "2024",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 3.1,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lfpr",
+          "label": {
+            "en": "Labour force participation, women 15+",
+            "hi": "श्रम बल भागीदारी, महिलाएँ 15+",
+            "mr": "श्रमशक्ती सहभाग, महिला 15+",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 64.5,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PLFS annual 2025, PS+SS. All persons: 72.1% (India 59.3%)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 40.0,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Key indicators",
+        "hi": "मुख्य संकेतक",
+        "mr": "प्रमुख निर्देशक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": "sectors",
+      "title": {
+        "en": "Sectoral shares of GSDP, FY2025-26 (current prices)",
+        "hi": "जीएसडीपी में क्षेत्रवार हिस्सा, वित्त वर्ष 2025-26 (प्रचलित मूल्य)",
+        "mr": "जीएसडीपीमधील क्षेत्रनिहाय वाटा, आ.व. 2025-26 (चालू किमती)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Sector",
+            "hi": "क्षेत्र",
+            "mr": "क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Share (%)",
+            "hi": "हिस्सा (%)",
+            "mr": "वाटा (%)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Primary (agriculture and allied)",
+            "hi": "प्राथमिक (कृषि और संबद्ध)",
+            "mr": "प्राथमिक (शेती व संलग्न)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          22.76
+        ],
+        [
+          {
+            "en": "Secondary (industry)",
+            "hi": "द्वितीयक (उद्योग)",
+            "mr": "द्वितीयक (उद्योग)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          10.6
+        ],
+        [
+          {
+            "en": "Tertiary (services)",
+            "hi": "तृतीयक (सेवाएँ)",
+            "mr": "तृतीयक (सेवा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          66.64
+        ]
+      ],
+      "sourceId": "morung-express",
+      "url": "https://morungexpress.com/nagaland-economy-crosses-rs-50000-cr-but-fiscal-dependence-persists",
+      "accessDate": "2026-10-25",
+      "confidence": "Third-party verified",
+      "period": "FY2025-26",
+      "note": {
+        "en": "Nagaland Economic Survey 2025-26 (advance estimates), as reported by The Morung Express.",
+        "hi": "नागालैंड आर्थिक सर्वेक्षण 2025-26 (अग्रिम अनुमान), द मोरुंग एक्सप्रेस के अनुसार।",
+        "mr": "नागालँड आर्थिक पाहणी 2025-26 (आगाऊ अंदाज), द मोरुंग एक्सप्रेसनुसार.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "series",
+      "id": "ur-series",
+      "title": {
+        "en": "Unemployment rate, persons 15+ (PLFS)",
+        "hi": "बेरोज़गारी दर, 15+ आयु (पीएलएफ़एस)",
+        "mr": "बेरोजगारी दर, 15+ वय (पीएलएफएस)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "lower-is-better",
+      "series": [
+        {
+          "id": "nl",
+          "label": {
+            "en": "Nagaland",
+            "hi": "नागालैंड",
+            "mr": "नागालँड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 6.0,
+              "unit": "%",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 5.6,
+              "unit": "%",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 9.5,
+              "unit": "%",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 6.7,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            }
+          ]
+        },
+        {
+          "id": "in",
+          "label": {
+            "en": "India",
+            "hi": "भारत",
+            "mr": "भारत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 3.6,
+              "unit": "%",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.1,
+              "unit": "%",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.2,
+              "unit": "%",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.1,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "sectors-key",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "agri",
+          "name": {
+            "en": "Rice, maize and millets",
+            "hi": "धान, मक्का और मोटे अनाज",
+            "mr": "भात, मका व भरडधान्ये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Terraced and jhum cultivation.",
+            "hi": "सीढ़ीदार और झूम खेती।",
+            "mr": "पायऱ्यांची व झूम शेती.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "horti",
+          "name": {
+            "en": "Horticulture and spices",
+            "hi": "बाग़वानी और मसाले",
+            "mr": "फलोत्पादन व मसाले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "King chilli, ginger, pineapple, passion fruit, tree tomato.",
+            "hi": "राजा मिर्च, अदरक, अनानास, पैशन फ़्रूट, ट्री टमाटर।",
+            "mr": "राजा मिरची, आले, अननस, पॅशन फ्रूट, झाड-टोमॅटो.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "livestock",
+          "name": {
+            "en": "Pig and mithun rearing",
+            "hi": "सूअर और मिथुन पालन",
+            "mr": "डुक्कर व मिथुन पालन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Central to rural incomes and feasts.",
+            "hi": "ग्रामीण आय और भोज के केंद्र में।",
+            "mr": "ग्रामीण उत्पन्न व मेजवान्यांच्या केंद्रस्थानी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bamboo",
+          "name": {
+            "en": "Bamboo",
+            "hi": "बाँस",
+            "mr": "बांबू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Construction, crafts and food.",
+            "hi": "निर्माण, शिल्प और भोजन।",
+            "mr": "बांधकाम, हस्तकला व अन्न.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tourism",
+          "name": {
+            "en": "Tourism",
+            "hi": "पर्यटन",
+            "mr": "पर्यटन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Hornbill Festival, Kohima, Dzükou and village tourism.",
+            "hi": "हॉर्नबिल महोत्सव, कोहिमा, ज़ुकू और ग्राम पर्यटन।",
+            "mr": "हॉर्नबिल महोत्सव, कोहिमा, झुकू व ग्रामपर्यटन.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key sectors",
+        "hi": "प्रमुख क्षेत्र",
+        "mr": "प्रमुख क्षेत्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "GSDP series — official DES Nagaland or MoSPI",
+            "hi": "जीएसडीपी शृंखला — आधिकारिक डीईएस नागालैंड या मोस्पी",
+            "mr": "जीएसडीपी मालिका — अधिकृत डीईएस नागालँड किंवा मोस्पी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mospi",
+          "note": "Replace the news report with the Nagaland Economic Survey PDF or the DES Nagaland GSDP tables."
+        },
+        {
+          "label": {
+            "en": "Debt-to-GSDP ratio",
+            "hi": "ऋण-जीएसडीपी अनुपात",
+            "mr": "कर्ज-जीएसडीपी गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI State Finances: A Study of Budgets."
+        }
+      ]
+    }
+  ]
+}

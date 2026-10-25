@@ -1,0 +1,42 @@
+{
+  "region": "IN-NL",
+  "module": "energy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Nagaland generates only a small part of the power it uses — chiefly from the Doyang hydroelectric project in Wokha district and small hydel stations — and buys the rest from central stations through the north-eastern grid. Many villages rely on small hydro and solar schemes, and the State is promoting rooftop solar. Oil exists in the foothills, but production has been suspended for decades over questions of land and resource ownership.",
+        "hi": "नागालैंड अपनी ज़रूरत की बिजली का छोटा भाग ही बनाता है — मुख्यतः वोखा ज़िले की दोयांग जलविद्युत परियोजना और छोटे जलविद्युत केंद्रों से — और शेष पूर्वोत्तर ग्रिड के माध्यम से केंद्रीय केंद्रों से ख़रीदता है। कई गाँव छोटी जलविद्युत और सौर योजनाओं पर निर्भर हैं, और राज्य छतों पर सौर ऊर्जा को बढ़ावा दे रहा है। तलहटी में तेल है, पर भूमि और संसाधन स्वामित्व के प्रश्नों के कारण उत्पादन दशकों से रुका है।",
+        "mr": "नागालँड आपल्या गरजेच्या विजेचा लहान भागच निर्माण करतो — मुख्यतः वोखा जिल्ह्यातील दोयांग जलविद्युत प्रकल्प व लहान जलविद्युत केंद्रांतून — आणि उर्वरित वीज ईशान्य ग्रिडमार्फत केंद्रीय केंद्रांकडून विकत घेतो. अनेक गावे लहान जलविद्युत व सौर योजनांवर अवलंबून आहेत, आणि राज्य छतांवरील सौरऊर्जेला प्रोत्साहन देत आहे. पायथ्याच्या भागात तेल आहे, पण जमीन व संसाधन मालकीच्या प्रश्नांमुळे उत्पादन दशकांपासून थांबले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Power purchase and own generation",
+            "hi": "बिजली ख़रीद और स्वयं उत्पादन",
+            "mr": "वीजखरेदी व स्वनिर्मिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA / Nagaland Department of Power."
+        }
+      ]
+    }
+  ]
+}

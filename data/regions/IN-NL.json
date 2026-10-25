@@ -33,86 +33,135 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://www.nagaland.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Mithun",
+        "hi": "मिथुन",
+        "mr": "मिथुन",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Bos frontalis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Blyth's tragopan",
+        "hi": "ब्लाइथ ट्रैगोपैन",
+        "mr": "ब्लायथ ट्रॅगोपॅन",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Tragopan blythii",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Alder",
+        "hi": "आल्डर",
+        "mr": "आल्डर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Alnus nepalensis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 1978502,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 10,24,649; females 9,53,853."
     },
     "area": {
-      "value": null,
+      "value": 16579,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 119,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 19,78,502 ÷ area 16,579 km² = 119.3."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 931,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (900 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 943,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 964 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 79.6,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,87 +174,287 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 51014,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
-      "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "morung-express",
+      "url": "https://morungexpress.com/nagaland-economy-crosses-rs-50000-cr-but-fiscal-dependence-persists",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
+      "revisionStatus": "provisional",
+      "confidence": "Third-party verified",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "Nagaland Economic Survey 2025-26 (advance estimate), as reported by The Morung Express on 9 March 2026. MoSPI's state series has no figure for Nagaland. FY2024-25 (provisional): ₹45,133 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 192282,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
-      "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "morung-express",
+      "url": "https://morungexpress.com/nagaland-economy-crosses-rs-50000-cr-but-fiscal-dependence-persists",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
+      "revisionStatus": "provisional",
+      "confidence": "Third-party verified",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "Per capita income, Nagaland Economic Survey 2025-26 (advance estimate), as reported by The Morung Express. Not from the MoSPI series, so compare with other States with care."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 73.72,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 12,222.47 km² ÷ geographical area 16,579 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Nand Kishore Yadav",
+        "hi": "नंद किशोर यादव",
+        "mr": "नंदकिशोर यादव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2026-03-13",
+      "asOf": "2026-10-25",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/wp-content/uploads/2026/03/kohima-text-1920-2.pdf",
+      "verifyUrl": "https://rajbhavan.nagaland.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Sworn in as the 23rd Governor of Nagaland on 13 March 2026; the oath was administered by Chief Justice Ashutosh Kumar of the Gauhati High Court (All India Radio News, Kohima). He was appointed by the President on 5 March and succeeded Ajay Kumar Bhalla, who had held additional charge."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "name": {
+        "en": "Neiphiu Rio",
+        "hi": "नेफ़्यू रियो",
+        "mr": "नेफ्यू रियो",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "NPF",
+      "since": "2023-03-07",
+      "asOf": "2026-10-25",
+      "sourceId": "tribune",
+      "url": "https://www.tribuneindia.com/news/nation/rio-becomes-nagaland-cm-for-5th-term-486121",
+      "verifyUrl": "https://www.nagaland.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in for a fifth term on 7 March 2023 at the Capital Cultural Hall, Kohima, by Governor La Ganesan, with T. R. Zeliang and Y. Patton as Deputy Chief Ministers (The Tribune). He then led the NDPP, which merged with the Naga People's Front on 18 October 2025; Rio was elected leader of the NPF legislature party (All India Radio News, https://www.newsonair.gov.in/wp-content/uploads/2025/10/kohiam-en-g1920.pdf)."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Sharingain Longkumer",
+          "hi": "शरिंगेन लोंगकुमेर",
+          "mr": "शरिंगेन लोंगकुमेर",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": null,
+        "since": "2023-03-20",
+        "asOf": "2026-10-25",
+        "sourceId": "eastmojo",
+        "url": "https://eastmojo.com/nagaland/2023/03/20/sharingain-longkumer-re-elected-as-nagaland-speaker-for-second-time/",
+        "verifyUrl": "https://www.nagaland.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Third-party verified",
+        "note": "Re-elected unopposed as Speaker of the 14th Nagaland Legislative Assembly on 20 March 2023 (EastMojo); MLA from Aonglenden. He was first elected Speaker in 2020."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "dimapur-kohima-rail",
+      "name": {
+        "en": "Dhansiri (Dimapur)–Zubza (Kohima) new railway line",
+        "hi": "धनसिरी (दीमापुर)–ज़ुबज़ा (कोहिमा) नई रेल लाइन",
+        "mr": "धनसिरी (दिमापूर)–झुबझा (कोहिमा) नवा रेल्वेमार्ग",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A 78.42-km broad-gauge line from Dhansiri near Dimapur to Zubza near Kohima, through Assam's Karbi Anglong and Nagaland's Chümoukedima and Kohima districts, which will bring the railway to the State capital. The 16.5-km Dhansiri–Shokhuvi section opened in October 2021 and the 14.64-km Shokhuvi–Molvom section in March 2025; 20 tunnels and 27 major bridges remained, and Northeast Frontier Railway targets completion by 2029.",
+        "hi": "दीमापुर के पास धनसिरी से कोहिमा के पास ज़ुबज़ा तक 78.42 किमी लंबी बड़ी लाइन, जो असम के कार्बी आंगलोंग और नागालैंड के चुमौकेदिमा और कोहिमा ज़िलों से गुज़रेगी और राज्य की राजधानी तक रेल लाएगी। 16.5 किमी का धनसिरी–शोखुवी खंड अक्टूबर 2021 में और 14.64 किमी का शोखुवी–मोलवोम खंड मार्च 2025 में खुला; 20 सुरंगें और 27 बड़े पुल शेष थे, और पूर्वोत्तर सीमांत रेलवे ने 2029 तक पूरा करने का लक्ष्य रखा है।",
+        "mr": "दिमापूरजवळील धनसिरी ते कोहिमाजवळील झुबझापर्यंतचा 78.42 किमी लांबीचा ब्रॉडगेज मार्ग, जो आसाममधील कार्बी आंगलोंग व नागालँडमधील चुमौकेदिमा आणि कोहिमा जिल्ह्यांतून जाईल व राज्याच्या राजधानीपर्यंत रेल्वे आणेल. 16.5 किमीचा धनसिरी–शोखुवी टप्पा ऑक्टोबर 2021 मध्ये व 14.64 किमीचा शोखुवी–मोलवोम टप्पा मार्च 2025 मध्ये सुरू झाला; 20 बोगदे व 27 मोठे पूल बाकी होते, आणि ईशान्य सीमा रेल्वेने 2029 पर्यंत पूर्णत्वाचे उद्दिष्ट ठेवले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "railways",
+      "agency": "Northeast Frontier Railway",
+      "start": null,
+      "completion": "2029 (target)",
+      "status": "Under Construction",
+      "asOf": "2026-10-25",
+      "sourceId": "morung-express",
+      "url": "https://morungexpress.com/railways-target-2029-completion-of-dimapurkohima-line",
+      "confidence": "Third-party verified"
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "naga-mircha",
+      "name": {
+        "en": "Naga Mircha",
+        "hi": "नागा मिर्च",
+        "mr": "नागा मिरची",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "109",
+      "filingDate": "2007-08-22",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "naga-tree-tomato",
+      "name": {
+        "en": "Naga Tree Tomato",
+        "hi": "नागा ट्री टमाटर",
+        "mr": "नागा झाड-टोमॅटो",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "374",
+      "filingDate": "2012-01-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "naga-cucumber",
+      "name": {
+        "en": "Naga Cucumber",
+        "hi": "नागा खीरा",
+        "mr": "नागा काकडी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "640",
+      "filingDate": "2018-12-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chakhesang-shawl",
+      "name": {
+        "en": "Chakhesang Shawl",
+        "hi": "चाखेसांग शॉल",
+        "mr": "चाखेसांग शाल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "542",
+      "filingDate": "2016-01-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chak-hao",
+      "name": {
+        "en": "Chak-Hao",
+        "hi": "चाक-हाओ (काला चावल)",
+        "mr": "चाक-हाओ (काळा तांदूळ)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "602",
+      "filingDate": "2017-12-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Manipur"
+      ]
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-25",
+    "editorialStatus": "draft"
   }
 }

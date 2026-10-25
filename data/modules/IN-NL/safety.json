@@ -1,0 +1,216 @@
+{
+  "region": "IN-NL",
+  "module": "safety",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Nagaland lies in a high earthquake zone, and landslides on the hill roads are the most common hazard in the monsoon, sometimes cutting NH-29 between Dimapur and Kohima. Visitors need an Inner Line Permit and should carry identity documents, check road conditions before travel, and follow local advice when visiting remote villages and border areas.",
+        "hi": "नागालैंड उच्च भूकंप क्षेत्र में है, और पहाड़ी सड़कों पर भूस्खलन मानसून का सबसे आम ख़तरा है, जो कभी-कभी दीमापुर और कोहिमा के बीच एनएच-29 को काट देता है। पर्यटकों को इनर लाइन परमिट चाहिए, पहचान पत्र साथ रखने चाहिए, यात्रा से पहले सड़क की स्थिति देखनी चाहिए, और दूरस्थ गाँवों और सीमावर्ती क्षेत्रों में जाते समय स्थानीय सलाह माननी चाहिए।",
+        "mr": "नागालँड उच्च भूकंप क्षेत्रात आहे, आणि डोंगरी रस्त्यांवरील भूस्खलन हा पावसाळ्यातील सर्वांत सामान्य धोका आहे, जो कधीकधी दिमापूर व कोहिमादरम्यान एनएच-29 तोडतो. पर्यटकांना इनर लाइन परवाना लागतो, त्यांनी ओळखपत्रे जवळ ठेवावीत, प्रवासापूर्वी रस्त्यांची स्थिती तपासावी, आणि दुर्गम गावे व सीमाभागांना भेट देताना स्थानिक सल्ला पाळावा.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "table",
+      "id": "numbers",
+      "title": {
+        "en": "Emergency numbers",
+        "hi": "आपातकालीन नंबर",
+        "mr": "आपत्कालीन क्रमांक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Service",
+            "hi": "सेवा",
+            "mr": "सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Number",
+            "hi": "नंबर",
+            "mr": "क्रमांक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Emergency response (police, fire, ambulance)",
+            "hi": "आपातकालीन सहायता (पुलिस, अग्निशमन, एंबुलेंस)",
+            "mr": "आपत्कालीन मदत (पोलीस, अग्निशमन, रुग्णवाहिका)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "112"
+        ],
+        [
+          {
+            "en": "Ambulance",
+            "hi": "एंबुलेंस",
+            "mr": "रुग्णवाहिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "108"
+        ],
+        [
+          {
+            "en": "Women's helpline",
+            "hi": "महिला हेल्पलाइन",
+            "mr": "महिला हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "181"
+        ],
+        [
+          {
+            "en": "Child helpline",
+            "hi": "चाइल्ड हेल्पलाइन",
+            "mr": "चाइल्ड हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1098"
+        ],
+        [
+          {
+            "en": "Cybercrime",
+            "hi": "साइबर अपराध",
+            "mr": "सायबर गुन्हे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1930"
+        ],
+        [
+          {
+            "en": "Tourist helpline (Ministry of Tourism)",
+            "hi": "पर्यटक हेल्पलाइन (पर्यटन मंत्रालय)",
+            "mr": "पर्यटक हेल्पलाइन (पर्यटन मंत्रालय)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1800-11-1363"
+        ]
+      ],
+      "sourceId": "india-gov",
+      "url": "https://www.india.gov.in",
+      "accessDate": null,
+      "confidence": "Official",
+      "note": {
+        "en": "National numbers that work in Nagaland.",
+        "hi": "राष्ट्रीय नंबर जो नागालैंड में काम करते हैं।",
+        "mr": "नागालँडमध्ये चालणारे राष्ट्रीय क्रमांक.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "imd",
+          "name": {
+            "en": "IMD weather warnings",
+            "hi": "आईएमडी मौसम चेतावनियाँ",
+            "mr": "आयएमडी हवामान इशारे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://mausam.imd.gov.in",
+          "sourceId": "imd"
+        },
+        {
+          "id": "ndma",
+          "name": {
+            "en": "National Disaster Management Authority",
+            "hi": "राष्ट्रीय आपदा प्रबंधन प्राधिकरण",
+            "mr": "राष्ट्रीय आपत्ती व्यवस्थापन प्राधिकरण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ndma.gov.in",
+          "sourceId": "ndma"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "State Disaster Management Authority — verified link",
+            "hi": "राज्य आपदा प्रबंधन प्राधिकरण — सत्यापित लिंक",
+            "mr": "राज्य आपत्ती व्यवस्थापन प्राधिकरण — पडताळलेला दुवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ndma",
+          "note": "Add the official address."
+        }
+      ]
+    }
+  ]
+}

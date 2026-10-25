@@ -1,0 +1,42 @@
+{
+  "region": "IN-NL",
+  "module": "water",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Most of Nagaland's villages and towns depend on springs, streams and rainwater, collected from roofs into tanks. Kohima in particular faces dry-season water shortages, and water is often delivered by tanker. The Doyang reservoir is the State's largest water body. Terraced rice fields in the Angami and Chakhesang areas are irrigated by channels that carry stream water along the hillsides, a centuries-old system.",
+        "hi": "नागालैंड के अधिकांश गाँव और नगर झरनों, धाराओं और वर्षा जल पर निर्भर हैं, जिसे छतों से टंकियों में इकट्ठा किया जाता है। विशेषकर कोहिमा में सूखे मौसम में पानी की कमी होती है, और पानी अक्सर टैंकर से पहुँचाया जाता है। दोयांग जलाशय राज्य का सबसे बड़ा जलाशय है। अंगामी और चाखेसांग क्षेत्रों के सीढ़ीदार धान के खेत उन नहरों से सींचे जाते हैं जो पहाड़ी ढलानों के साथ धारा का पानी ले जाती हैं, जो सदियों पुरानी व्यवस्था है।",
+        "mr": "नागालँडमधील बहुतेक गावे व शहरे झरे, ओढे व पावसाच्या पाण्यावर अवलंबून आहेत, जे छपरांवरून टाक्यांत साठवले जाते. विशेषतः कोहिमाला कोरड्या ऋतूत पाणीटंचाई जाणवते, आणि पाणी अनेकदा टँकरने पुरवले जाते. दोयांग जलाशय हा राज्यातील सर्वांत मोठा जलसाठा आहे. अंगामी व चाखेसांग भागांतील पायऱ्यांच्या भातशेतांना डोंगरउतारांवरून ओढ्यांचे पाणी वाहून नेणाऱ्या कालव्यांनी पाणी दिले जाते, ही शतकानुशतकांची पद्धत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Household tap-water coverage",
+            "hi": "घरेलू नल जल कवरेज",
+            "mr": "घरगुती नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        }
+      ]
+    }
+  ]
+}

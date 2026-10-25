@@ -1,0 +1,42 @@
+{
+  "region": "IN-NL",
+  "module": "diaspora",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Many young Nagas study and work outside the State — in Delhi, Bengaluru, Pune, Guwahati and Shillong — especially in hospitality, aviation, healthcare and IT, and Naga students' unions are active in these cities. Naga communities also live across the border in Myanmar and in neighbouring Manipur, Assam and Arunachal Pradesh.",
+        "hi": "बहुत से युवा नागा राज्य के बाहर पढ़ते और काम करते हैं — दिल्ली, बेंगलुरु, पुणे, गुवाहाटी और शिलांग में — विशेषकर आतिथ्य, विमानन, स्वास्थ्य सेवा और आईटी में, और इन नगरों में नागा छात्र संघ सक्रिय हैं। नागा समुदाय सीमा पार म्यांमार और पड़ोसी मणिपुर, असम और अरुणाचल प्रदेश में भी रहते हैं।",
+        "mr": "अनेक तरुण नागा राज्याबाहेर शिकतात व काम करतात — दिल्ली, बंगळुरू, पुणे, गुवाहाटी व शिलाँगमध्ये — विशेषतः आतिथ्य, विमानवाहतूक, आरोग्यसेवा व आयटीत, आणि या शहरांत नागा विद्यार्थी संघटना सक्रिय आहेत. नागा समुदाय सीमेपलीकडे म्यानमारमध्ये व शेजारच्या मणिपूर, आसाम आणि अरुणाचल प्रदेशातही राहतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Out-migration from the State — official estimate",
+            "hi": "राज्य से बाहर प्रवास — आधिकारिक अनुमान",
+            "mr": "राज्याबाहेर स्थलांतर — अधिकृत अंदाज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 migration tables (D-series)."
+        }
+      ]
+    }
+  ]
+}

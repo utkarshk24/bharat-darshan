@@ -1,0 +1,271 @@
+{
+  "region": "IN-NL",
+  "module": "tourism",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Kohima is the starting point for most visitors: the Kohima War Cemetery on the old battlefield, the State Museum, Kisama Heritage Village where the Hornbill Festival is held each December, and nearby Angami villages such as Khonoma, Jotsoma and Touphema. A trek from Viswema or Zakhama leads to the Dzükou valley, famous for its rolling green hills and summer lilies, and Japfü peak above it. Further north, Mokokchung is the heart of Ao country; Wokha has Doyang lake and the Amur falcons; and in Mon, Konyak villages such as Longwa straddle the Myanmar border. Dimapur has the Kachari ruins and the Chümoukedima heritage area.",
+        "hi": "अधिकांश पर्यटकों के लिए कोहिमा आरंभ बिंदु है: पुराने युद्धक्षेत्र पर कोहिमा युद्ध समाधि स्थल, राज्य संग्रहालय, किसामा धरोहर गाँव जहाँ हर दिसंबर हॉर्नबिल महोत्सव होता है, और पास के खोनोमा, जोत्सोमा और तौफ़ेमा जैसे अंगामी गाँव। विस्वेमा या ज़ाखामा से एक ट्रेक ज़ुकू घाटी ले जाता है, जो हरी-भरी लहरदार पहाड़ियों और गर्मियों की लिली के लिए प्रसिद्ध है, और उसके ऊपर जाप्फ़ू चोटी। आगे उत्तर में मोकोकचुंग आओ क्षेत्र का हृदय है; वोखा में दोयांग झील और अमूर बाज़ हैं; और मोन में लोंगवा जैसे कोन्याक गाँव म्यांमार सीमा पर फैले हैं। दीमापुर में कचारी खंडहर और चुमौकेदिमा धरोहर क्षेत्र हैं।",
+        "mr": "बहुतेक पर्यटकांसाठी कोहिमा हे सुरुवातीचे ठिकाण आहे: जुन्या रणभूमीवरील कोहिमा युद्धस्मशान, राज्य संग्रहालय, दर डिसेंबरला हॉर्नबिल महोत्सव भरतो ते किसामा वारसा गाव, आणि जवळची खोनोमा, जोत्सोमा व तौफेमा सारखी अंगामी गावे. विस्वेमा किंवा झाखामाहून ट्रेक झुकू खोऱ्याकडे जातो, जे हिरव्यागार लहरदार टेकड्या व उन्हाळी लिलींसाठी प्रसिद्ध आहे, आणि त्यावरील जाप्फू शिखर. पुढे उत्तरेला मोकोकचुंग हे आओ प्रदेशाचे हृदय आहे; वोखामध्ये दोयांग सरोवर व अमूर ससाणे आहेत; आणि मोनमध्ये लोंगवासारखी कोन्याक गावे म्यानमार सीमेवर पसरलेली आहेत. दिमापूरमध्ये कचारी अवशेष व चुमौकेदिमा वारसा क्षेत्र आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kohima",
+          "name": {
+            "en": "Kohima",
+            "hi": "कोहिमा",
+            "mr": "कोहिमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "War cemetery, museum",
+            "hi": "युद्ध समाधि स्थल, संग्रहालय",
+            "mr": "युद्धस्मशान, संग्रहालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kisama",
+          "name": {
+            "en": "Kisama",
+            "hi": "किसामा",
+            "mr": "किसामा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hornbill Festival",
+            "hi": "हॉर्नबिल महोत्सव",
+            "mr": "हॉर्नबिल महोत्सव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dzukou",
+          "name": {
+            "en": "Dzükou valley",
+            "hi": "ज़ुकू घाटी",
+            "mr": "झुकू खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Trek; summer lilies",
+            "hi": "ट्रेक; गर्मियों की लिली",
+            "mr": "ट्रेक; उन्हाळी लिली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khonoma",
+          "name": {
+            "en": "Khonoma",
+            "hi": "खोनोमा",
+            "mr": "खोनोमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Angami village",
+            "hi": "अंगामी गाँव",
+            "mr": "अंगामी गाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mokokchung",
+          "name": {
+            "en": "Mokokchung",
+            "hi": "मोकोकचुंग",
+            "mr": "मोकोकचुंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ao heartland",
+            "hi": "आओ क्षेत्र का हृदय",
+            "mr": "आओ प्रदेशाचे हृदय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "longwa",
+          "name": {
+            "en": "Longwa, Mon",
+            "hi": "लोंगवा, मोन",
+            "mr": "लोंगवा, मोन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Konyak village on the border",
+            "hi": "सीमा पर कोन्याक गाँव",
+            "mr": "सीमेवरील कोन्याक गाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d4",
+          "name": {
+            "en": "4 days",
+            "hi": "4 दिन",
+            "mr": "4 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Kohima, Khonoma and Kisama, with a day trek to Dzükou.",
+            "hi": "कोहिमा, खोनोमा और किसामा, ज़ुकू के एक दिन के ट्रेक के साथ।",
+            "mr": "कोहिमा, खोनोमा व किसामा, झुकूच्या एकदिवसीय ट्रेकसह.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d7",
+          "name": {
+            "en": "7 days",
+            "hi": "7 दिन",
+            "mr": "7 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Add Mokokchung, Wokha and Mon (Longwa).",
+            "hi": "मोकोकचुंग, वोखा और मोन (लोंगवा) जोड़ें।",
+            "mr": "मोकोकचुंग, वोखा व मोन (लोंगवा) जोडा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hornbill",
+          "name": {
+            "en": "Hornbill Festival (3 days)",
+            "hi": "हॉर्नबिल महोत्सव (3 दिन)",
+            "mr": "हॉर्नबिल महोत्सव (3 दिवस)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Book early for stays in Kohima in early December.",
+            "hi": "दिसंबर की शुरुआत में कोहिमा में ठहरने के लिए पहले से बुक करें।",
+            "mr": "डिसेंबरच्या सुरुवातीला कोहिमात राहण्यासाठी आधीच नोंदणी करा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Hornbill Festival visitor numbers",
+            "hi": "हॉर्नबिल महोत्सव में आगंतुकों की संख्या",
+            "mr": "हॉर्नबिल महोत्सवातील पर्यटकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "Nagaland Department of Tourism."
+        }
+      ]
+    }
+  ]
+}

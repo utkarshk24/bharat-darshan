@@ -1,0 +1,183 @@
+{
+  "region": "IN-NL",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Nagaland has a monsoon climate that varies with height: Dimapur in the plains is hot and humid, while Kohima at about 1,400 m and other hill towns are mild in summer and cool in winter, with occasional frost on the highest ridges. The south-west monsoon from May to September brings heavy rain and landslides, and October to April is dry, with clear skies from October to December.",
+        "hi": "नागालैंड की मानसूनी जलवायु ऊँचाई के साथ बदलती है: मैदानों में दीमापुर गर्म और आर्द्र है, जबकि लगभग 1,400 मीटर पर कोहिमा और अन्य पहाड़ी नगर गर्मियों में सुहावने और सर्दियों में ठंडे रहते हैं, और सबसे ऊँची पहाड़ियों पर कभी-कभी पाला पड़ता है। मई से सितंबर तक दक्षिण-पश्चिम मानसून भारी वर्षा और भूस्खलन लाता है, और अक्टूबर से अप्रैल सूखा रहता है, अक्टूबर से दिसंबर साफ़ आसमान के साथ।",
+        "mr": "नागालँडचे मान्सूनी हवामान उंचीनुसार बदलते: मैदानातील दिमापूर उष्ण व दमट आहे, तर सुमारे 1,400 मीटरवरील कोहिमा व इतर डोंगरी शहरे उन्हाळ्यात सौम्य व हिवाळ्यात थंड असतात, आणि सर्वांत उंच कड्यांवर कधीकधी दव गोठते. मे ते सप्टेंबर नैर्ऋत्य मान्सून मुसळधार पाऊस व भूस्खलन आणतो, आणि ऑक्टोबर ते एप्रिल कोरडा असतो, ऑक्टोबर ते डिसेंबर निरभ्र आकाशासह.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Kohima",
+            "hi": "कोहिमा",
+            "mr": "कोहिमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 25.6747,
+          "lon": 94.1086
+        },
+        {
+          "name": {
+            "en": "Dimapur",
+            "hi": "दीमापुर",
+            "mr": "दिमापूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 25.9063,
+          "lon": 93.7276
+        },
+        {
+          "name": {
+            "en": "Mokokchung",
+            "hi": "मोकोकचुंग",
+            "mr": "मोकोकचुंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 26.322,
+          "lon": 94.513
+        },
+        {
+          "name": {
+            "en": "Mon",
+            "hi": "मोन",
+            "mr": "मोन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 26.735,
+          "lon": 95.057
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "dec",
+          "name": {
+            "en": "October to December",
+            "hi": "अक्टूबर से दिसंबर",
+            "mr": "ऑक्टोबर ते डिसेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Clear weather; the Hornbill Festival from 1 December.",
+            "hi": "साफ़ मौसम; 1 दिसंबर से हॉर्नबिल महोत्सव।",
+            "mr": "निरभ्र हवामान; 1 डिसेंबरपासून हॉर्नबिल महोत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spring",
+          "name": {
+            "en": "February to April",
+            "hi": "फ़रवरी से अप्रैल",
+            "mr": "फेब्रुवारी ते एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Sekrenyi and Aoleang festivals; rhododendrons in bloom.",
+            "hi": "सेक्रेन्यी और आओलियांग त्योहार; बुरांश खिलते हैं।",
+            "mr": "सेक्रेन्यी व आओलेआंग सण; ऱ्होडोडेंड्रॉन बहरतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dzukou",
+          "name": {
+            "en": "June to September",
+            "hi": "जून से सितंबर",
+            "mr": "जून ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Dzükou lilies in bloom, but roads can be blocked by landslides.",
+            "hi": "ज़ुकू लिली खिलती हैं, पर भूस्खलन से सड़कें बंद हो सकती हैं।",
+            "mr": "झुकू लिली बहरतात, पण भूस्खलनाने रस्ते बंद होऊ शकतात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall",
+            "hi": "सामान्य वार्षिक वर्षा",
+            "mr": "सरासरी वार्षिक पाऊस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD Kohima / Guwahati regional centre."
+        }
+      ]
+    }
+  ]
+}

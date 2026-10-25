@@ -10,11 +10,14 @@ Inputs (downloaded into a work folder, never committed):
 Outputs:
   public/maps/india-soi-states.topo.json  (object "states", property iso_code)
   public/maps/capitals.json               (points with region code, role and source)
+  public/maps/india-preview.svg           (static zonal-colour preview for the home page)
 
 Run:  python3 scripts/maps/build_boundaries.py <workdir>
 Needs: py7zr (pip) and mapshaper (npx -y mapshaper@0.6.102).
-Geometry is simplified for screen display only (Visvalingam, 3%, keep-shapes); no boundary
-line is moved, added or removed, and inter-State disputed areas are kept as published.
+Geometry is simplified for screen display only (Visvalingam, 3%, keep-shapes). `-clean` builds
+shared borders between neighbouring States (the source polygons do not share exact vertices) and
+resolves sub-3 km² gaps and overlaps between them; no boundary is otherwise moved, added or
+removed, and inter-State disputed areas are kept as published.
 """
 import glob, json, os, subprocess, sys, urllib.request
 
@@ -64,8 +67,24 @@ def main():
     json.dump({"type": "FeatureCollection", "features": feats}, open(src, "w"))
     out = os.path.join(ROOT, "public", "maps", "india-soi-states.topo.json")
     subprocess.run(["npx", "-y", "mapshaper@0.6.102", src, "-rename-layers", "states",
-                    "-simplify", "3%", "keep-shapes",
+                    "-simplify", "3%", "keep-shapes", "-clean",
                     "-o", "format=topojson", "quantization=100000", out], check=True)
+
+    # Static preview for the home page (no JavaScript needed): zonal colours, lighter detail.
+    zonal = {"northern": "#0072B2", "central": "#E69F00", "eastern": "#009E73", "western": "#D55E00",
+             "southern": "#CC79A7", "north-eastern": "#56B4E9", "islands": "#7F7F7F"}  # = mapColors.ts
+    zone_of = {}
+    for path in glob.glob(os.path.join(ROOT, "data", "regions", "*.json")):
+        r = json.load(open(path, encoding="utf8"))
+        zone_of[r["code"]] = zonal[r.get("zonalCouncil") or "islands"]
+    for f in feats:
+        f["properties"]["fill"] = zone_of.get(f["properties"]["iso_code"], "#d9d5cb")
+    styled = os.path.join(WORK, "styled.geojson")
+    json.dump({"type": "FeatureCollection", "features": feats}, open(styled, "w"))
+    preview = os.path.join(ROOT, "public", "maps", "india-preview.svg")
+    subprocess.run(["npx", "-y", "mapshaper@0.6.102", styled, "-simplify", "0.6%", "keep-shapes", "-clean",
+                    "-proj", "merc", "-style", "stroke='#ffffff'", "stroke-width=0.6",
+                    "-o", "width=600", "margin=6", "precision=0.5", preview], check=True)
 
     # Capitals
     ne = json.load(open(fetch(NE_URL, os.path.join(WORK, "ne_pp.geojson"))))

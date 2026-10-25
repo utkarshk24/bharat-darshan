@@ -27,9 +27,10 @@ pip install py7zr
 python3 scripts/maps/build_boundaries.py /tmp/bd-maps
 ```
 
-This downloads the two inputs and runs `mapshaper@0.6.102` to simplify the boundaries for screen display (Visvalingam, 3%, keep-shapes; about 320 KB). No line is moved, added or removed. It writes:
+This downloads the two inputs and runs `mapshaper@0.6.102` to simplify the boundaries for screen display (Visvalingam, 3%, keep-shapes; about 320 KB). `-clean` builds shared borders between neighbouring States, because the source polygons do not share exact vertices, and resolves gaps and overlaps under 3 km². No boundary is otherwise moved, added or removed. It writes:
 
 - `public/maps/india-soi-states.topo.json` (object `states`, property `iso_code`)
+- `public/maps/india-preview.svg`: a static, lighter preview (0.6%) for the home page, so the home page needs no map JavaScript until the reader hovers over or taps the map.
 - `public/maps/capitals.json` (Dharamshala and Bhararisain/Gairsain are not in Natural Earth and are listed as `missing`).
 
 `public/maps/manifest.json` names the file. `npm run validate-data` refuses a manifest whose `sourceId` isn't `survey-of-india` or that isn't `verified`, and the app only draws boundaries when both are true. Otherwise it shows the table.
@@ -41,7 +42,7 @@ This downloads the two inputs and runs `mapshaper@0.6.102` to simplify the bound
 - **Overlays:** State and UT names, capitals (a star for New Delhi), and inter-State disputed areas.
 - **Tools:** search for States, UTs and capitals; select a State or UT to zoom to it; zoom buttons, drag to pan, and pinch or Ctrl + scroll to zoom; reset; copy a link to the view (`#theme=…&on=…&r=IN-XX`); download a PNG with the attribution.
 - **Accessibility:** every State/UT is a keyboard button with its name and value. There is a full table view, and values are always given as text, never by colour alone.
-- **Home page:** a compact version without zoom, which links to the full map.
+- **Home page:** a static preview image. It becomes the interactive map, without zoom, on hover or tap, and links to the full map. This keeps Lighthouse mobile performance at its earlier level: the eager map raised Total Blocking Time from about 60 ms to about 1,350 ms in a local test.
 
 ## Planned layers
 

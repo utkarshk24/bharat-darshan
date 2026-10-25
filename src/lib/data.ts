@@ -62,7 +62,8 @@ export function summarize(r: Region): RegionSummary {
   const mapMetrics: Partial<Record<MapMetric, DataPoint>> = {};
   for (const k of MAP_METRICS) {
     const dp = (r.metrics as Record<string, DataPoint | null | undefined>)[k];
-    if (dp && typeof dp.value === "number") mapMetrics[k] = dp;
+    // Only what the map shows, to keep page payloads small
+    if (dp && typeof dp.value === "number") mapMetrics[k] = { value: dp.value, unit: dp.unit, period: dp.period, sourceId: dp.sourceId, url: dp.url } as DataPoint;
   }
   for (const id of [pop?.sourceId, gsdp?.sourceId, r.government.headOfState?.sourceId, r.government.headOfGovernment?.sourceId, ...Object.values(mapMetrics).map((d) => d.sourceId)]) {
     if (id) labels[id] = sourceName(id)?.short ?? id;

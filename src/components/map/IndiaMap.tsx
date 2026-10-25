@@ -71,15 +71,21 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
   const [status, setStatus] = useState("");
   const [restored, setRestored] = useState(compact);
 
-  // Start loading when the map is near the viewport (the home page map sits below the fold)
+  // The full map loads when it is near the viewport. The home-page version shows a static
+  // preview image and loads the interactive map only when the reader reaches for it.
   const [near, setNear] = useState(false);
+  const [live, setLive] = useState(!compact);
   useEffect(() => {
+    if (compact) return;
     const el = wrapRef.current;
     if (!el || typeof IntersectionObserver === "undefined") return setNear(true);
-    const io = new IntersectionObserver((es) => es.some((e) => e.isIntersecting) && (setNear(true), io.disconnect()), { rootMargin: compact ? "0px" : "300px" });
+    const io = new IntersectionObserver((es) => es.some((e) => e.isIntersecting) && (setNear(true), io.disconnect()), { rootMargin: "300px" });
     io.observe(el);
     return () => io.disconnect();
   }, [compact]);
+  useEffect(() => {
+    if (live && compact) setNear(true);
+  }, [live, compact]);
 
   // Load manifest → boundary file + capitals
   useEffect(() => {
@@ -373,8 +379,14 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
   const btn = "inline-flex size-9 items-center justify-center rounded-md border border-border bg-surface hover:bg-surface-2";
 
   const mapBox = (
-    <div ref={wrapRef} className={cn("relative overflow-hidden rounded-2xl border border-border bg-surface", compact ? "mx-auto aspect-[8/9] w-full max-w-[600px]" : "aspect-[8/9] lg:aspect-auto lg:h-[min(88vh,960px)]")}>
-      {data ? (
+    <div ref={wrapRef} onPointerEnter={() => setLive(true)} onTouchStart={() => setLive(true)} className={cn("relative overflow-hidden rounded-2xl border border-border bg-surface", compact ? "mx-auto aspect-[8/9] w-full max-w-[600px]" : "aspect-[8/9] lg:aspect-auto lg:h-[min(88vh,960px)]")}>
+      {compact && !live ? (
+        <button type="button" onClick={() => setLive(true)} className="group block h-full w-full" aria-label={ta("explore")}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={`${BASE}/maps/india-preview.svg`} alt={ta("mapLabel")} width={600} height={675} loading="lazy" decoding="async" className="h-full w-full object-contain p-3" />
+          <span className="absolute bottom-3 left-1/2 -translate-x-1/2 rounded-full border border-border bg-surface px-3 py-1 text-sm font-medium shadow group-hover:bg-surface-2">{ta("explore")}</span>
+        </button>
+      ) : data ? (
         <GeoMap
           ref={mapRef}
           topo={data.topo}

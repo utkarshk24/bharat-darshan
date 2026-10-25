@@ -478,7 +478,7 @@ The tile-grid cartogram has been replaced by a geographic map drawn from the **S
 - Dark mode.
 - Mobile layout.
 - The landing line "Not Just a Map. It's Bharat." in all three languages.
-- A compact version on the home page.
+- A compact version on the home page. It shows a static preview image and becomes interactive on hover or tap, which keeps Lighthouse mobile performance at or above 0.9.
 
 **Boundaries:**
 
@@ -505,6 +505,7 @@ The tile-grid cartogram has been replaced by a geographic map drawn from the **S
 - validate-data: 0 errors.
 - axe: 23/23 pages clean, run on the dev server and now including `/en/map/` and `/mr/map/`.
 - The map was screenshot-checked in light, dark, Hindi, Marathi and at 390 px.
+- GitHub Actions deploy and Quality checks (Lighthouse, axe, source links): passing.
 
 **Please check:**
 

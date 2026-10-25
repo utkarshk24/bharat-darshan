@@ -1,0 +1,471 @@
+{
+  "region": "IN-MN",
+  "module": "people",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Manipur had 25.7 lakh people at the 2011 Census, about 115 per km² — figures that exclude three sub-divisions of Senapati district where the results were not used. The sex ratio was 992 women per 1,000 men, but the child sex ratio fell from 957 in 2001 to 936. Literacy was 76.9%. Scheduled Tribes made up 35.1% of the counted population and Scheduled Castes 3.8%.\n\nThe Meitei, who live mainly in the valley and speak Manipuri (Meiteilon), are the largest community; Meitei Pangals (Manipuri Muslims) also live in the valley. The hills are home to many Naga tribes, such as the Tangkhul, Mao, Maram, Zeliangrong and Poumai, and to the Kuki-Zo tribes, such as the Thadou, Hmar, Paite, Vaiphei and Zou. Manipuri is in the Eighth Schedule of the Constitution, and dozens of tribal languages are spoken.",
+        "hi": "2011 की जनगणना में मणिपुर की जनसंख्या 25.7 लाख थी, प्रति वर्ग किमी लगभग 115 — ये आँकड़े सेनापति ज़िले के उन तीन उपखंडों को छोड़कर हैं जहाँ परिणाम उपयोग नहीं किए गए। लिंगानुपात प्रति 1,000 पुरुषों पर 992 महिलाएँ था, पर शिशु लिंगानुपात 2001 के 957 से घटकर 936 हो गया। साक्षरता 76.9% थी। गिनी गई जनसंख्या में अनुसूचित जनजातियाँ 35.1% और अनुसूचित जातियाँ 3.8% थीं।\n\nमुख्यतः घाटी में रहने वाले और मणिपुरी (मैतेईलोन) बोलने वाले मैतेई सबसे बड़ा समुदाय हैं; मैतेई पांगल (मणिपुरी मुसलमान) भी घाटी में रहते हैं। पहाड़ियों में तांगखुल, माओ, मराम, ज़ेलियांगरोंग और पौमाई जैसी कई नागा जनजातियाँ और थाडू, ह्मार, पाइते, वाइफ़ेई और ज़ो जैसी कुकी-ज़ो जनजातियाँ रहती हैं। मणिपुरी संविधान की आठवीं अनुसूची में है, और दर्जनों जनजातीय भाषाएँ बोली जाती हैं।",
+        "mr": "2011 च्या जनगणनेनुसार मणिपूरची लोकसंख्या 25.7 लाख होती, प्रति चौ.किमी सुमारे 115 — हे आकडे सेनापती जिल्ह्यातील त्या तीन उपविभागांना वगळून आहेत जिथले निकाल वापरले गेले नाहीत. दर 1,000 पुरुषांमागे 992 स्त्रिया होत्या, पण बाल लिंग गुणोत्तर 2001 मधील 957 वरून घटून 936 झाले. साक्षरता 76.9% होती. मोजलेल्या लोकसंख्येत अनुसूचित जमाती 35.1% व अनुसूचित जाती 3.8% होत्या.\n\nमुख्यतः खोऱ्यात राहणारे व मणिपुरी (मैतेईलोन) बोलणारे मैतेई हा सर्वांत मोठा समुदाय आहे; मैतेई पांगल (मणिपुरी मुस्लिम) देखील खोऱ्यात राहतात. डोंगरांत तांगखुल, माओ, मराम, झेलियांगरोंग व पौमाईसारख्या अनेक नागा जमाती आणि थाडू, ह्मार, पाइते, वाइफेई व झोसारख्या कुकी-झो जमाती राहतात. मणिपुरी संविधानाच्या आठव्या अनुसूचीत आहे, आणि डझनावारी आदिवासी भाषा बोलल्या जातात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "census",
+        "es-india",
+        "dl-planning",
+        "pib"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 2570390,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 12,90,171; females 12,80,219. Census 2011 figures for Manipur exclude the Mao-Maram, Paomata and Purul sub-divisions of Senapati district, where the results were not used."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 992,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Puducherry DES state-wise table citing ORGI (978 in 2001)."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 978,
+            "unit": "females per 1000 males",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 936,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PIB release of 11 Feb 2014 (RGI data). Was 957 in 2001."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 957,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 76.9,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "es-india",
+            "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 115,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: Census 2011 population 25,70,390 ÷ area 22,327 km² = 115.1. Census 2011 figures for Manipur exclude the Mao-Maram, Paomata and Purul sub-divisions of Senapati district, where the results were not used."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "st",
+          "label": {
+            "en": "Scheduled Tribes, share of population",
+            "hi": "अनुसूचित जनजातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जमाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 35.1,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "dl-planning",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/17._table_social_welfare.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Delhi Planning Department, table 17.2, citing Census 2011: 9.02 lakh people. Scheduled Castes were 3.8% (0.97 lakh). Excludes three sub-divisions of Senapati district."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "langs",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "mni",
+          "name": {
+            "en": "Manipuri (Meiteilon)",
+            "hi": "मणिपुरी (मैतेईलोन)",
+            "mr": "मणिपुरी (मैतेईलोन)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official; in the Eighth Schedule",
+            "hi": "राजभाषा; आठवीं अनुसूची में",
+            "mr": "राजभाषा; आठव्या अनुसूचीत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tangkhul",
+          "name": {
+            "en": "Tangkhul",
+            "hi": "तांगखुल",
+            "mr": "तांगखुल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thadou",
+          "name": {
+            "en": "Thadou",
+            "hi": "थाडू",
+            "mr": "थाडू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mao",
+          "name": {
+            "en": "Mao",
+            "hi": "माओ",
+            "mr": "माओ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "paite",
+          "name": {
+            "en": "Paite",
+            "hi": "पाइते",
+            "mr": "पाइते",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hmar",
+          "name": {
+            "en": "Hmar",
+            "hi": "ह्मार",
+            "mr": "ह्मार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kabui",
+          "name": {
+            "en": "Rongmei (Kabui)",
+            "hi": "रोंगमेई (काबुई)",
+            "mr": "रोंगमेई (काबुई)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "en",
+          "name": {
+            "en": "English",
+            "hi": "अंग्रेज़ी",
+            "mr": "इंग्रजी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Used in administration and education",
+            "hi": "प्रशासन और शिक्षा में प्रयोग",
+            "mr": "प्रशासन व शिक्षणात वापर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Languages (selected)",
+        "hi": "भाषाएँ (चयनित)",
+        "mr": "भाषा (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Population of the excluded Senapati sub-divisions",
+            "hi": "छोड़े गए सेनापति उपखंडों की जनसंख्या",
+            "mr": "वगळलेल्या सेनापती उपविभागांची लोकसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 Primary Census Abstract notes for Manipur."
+        },
+        {
+          "label": {
+            "en": "Urban population share (Census 2011)",
+            "hi": "शहरी जनसंख्या का हिस्सा (जनगणना 2011)",
+            "mr": "नागरी लोकसंख्येचा वाटा (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Primary Census Abstract."
+        },
+        {
+          "label": {
+            "en": "Religion shares (Census 2011, C-01)",
+            "hi": "धर्मवार हिस्सा (जनगणना 2011, C-01)",
+            "mr": "धर्मनिहाय वाटा (जनगणना 2011, C-01)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-01 table; show without commentary."
+        },
+        {
+          "label": {
+            "en": "Population by community — official figures",
+            "hi": "समुदायवार जनसंख्या — आधिकारिक आँकड़े",
+            "mr": "समुदायनिहाय लोकसंख्या — अधिकृत आकडे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 ST-wise tables (A-11)."
+        }
+      ]
+    }
+  ]
+}

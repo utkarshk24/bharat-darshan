@@ -1,0 +1,55 @@
+{
+  "region": "IN-MN",
+  "module": "water",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Loktak and the smaller lakes and marshes of the valley store water, support fisheries and feed the Loktak hydroelectric project, but the Ithai barrage, silt from the deforested hills and the spread of phumdis have changed the lake. Imphal's piped water comes from the Singda and Maphou dams and river intakes, and dry-season shortages are common. Hill villages depend on springs and streams, and the Khuga and Thoubal multipurpose projects irrigate parts of the valley.",
+        "hi": "लोकटक और घाटी की छोटी झीलें और दलदल पानी संचित करते हैं, मत्स्य पालन को सहारा देते हैं और लोकटक जलविद्युत परियोजना को पानी देते हैं, पर इथाई बैराज, वनविहीन पहाड़ियों की गाद और फुमदियों के फैलाव ने झील को बदल दिया है। इंफाल को पाइप से पानी सिंगदा और माफ़ौ बाँधों और नदी के इनटेक से मिलता है, और सूखे मौसम में कमी आम है। पहाड़ी गाँव झरनों और धाराओं पर निर्भर हैं, और खुगा और थौबाल बहुउद्देशीय परियोजनाएँ घाटी के कुछ भागों की सिंचाई करती हैं।",
+        "mr": "लोकटक व खोऱ्यातील लहान सरोवरे व दलदली पाणी साठवतात, मासेमारीला आधार देतात व लोकटक जलविद्युत प्रकल्पाला पाणी पुरवतात, पण इथाई बंधारा, वृक्षतोड झालेल्या डोंगरांतील गाळ व फुमदींचा प्रसार यांनी सरोवर बदलले आहे. इंफाळला नळाचे पाणी सिंगदा व माफौ धरणे व नदीतील उद्भवांतून मिळते, आणि कोरड्या ऋतूत टंचाई सामान्य आहे. डोंगरी गावे झरे व ओढ्यांवर अवलंबून आहेत, आणि खुगा व थौबाल बहुउद्देशीय प्रकल्प खोऱ्याच्या काही भागांना सिंचन देतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Household tap-water coverage",
+            "hi": "घरेलू नल जल कवरेज",
+            "mr": "घरगुती नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        },
+        {
+          "label": {
+            "en": "Irrigated area",
+            "hi": "सिंचित क्षेत्र",
+            "mr": "सिंचित क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Land Use Statistics, Ministry of Agriculture."
+        }
+      ]
+    }
+  ]
+}

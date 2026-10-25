@@ -1,0 +1,387 @@
+{
+  "region": "IN-MN",
+  "module": "nature",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "About 74% of Manipur is forest (ISFR 2023), much of it bamboo and secondary forest regrowing on old jhum fields. Loktak lake, a Ramsar site since 1990, is the heart of the valley's wetlands; its phumdis, floating mats of vegetation, carry Keibul Lamjao National Park, a park that floats on the lake and the last natural home of the sangai. Siroi hill in Ukhrul is the only known home of the Shirui lily, the State flower. Other wildlife includes the hoolock gibbon, the Mrs Hume's pheasant, clouded leopards and many hornbills, and the State has the Yangoupokpi-Lokchao and Bunning sanctuaries as well as the Zeilad and Shiroi community areas.",
+        "hi": "मणिपुर का लगभग 74% भाग वन है (आईएसएफ़आर 2023), जिसका बड़ा हिस्सा बाँस और पुराने झूम खेतों पर फिर से उगता द्वितीयक वन है। 1990 से रामसर स्थल लोकटक झील घाटी की आर्द्रभूमियों का हृदय है; इसकी फुमदियाँ, वनस्पति के तैरते गद्दे, कैबुल लामजाओ राष्ट्रीय उद्यान को धारण करती हैं, जो झील पर तैरता उद्यान और संगाई का अंतिम प्राकृतिक आवास है। उखरुल की शिरुई पहाड़ी राज्य पुष्प शिरुई लिली का एकमात्र ज्ञात आवास है। अन्य वन्यजीवों में हूलॉक गिबन, मिसेज़ ह्यूम्स फ़ेज़ेंट, धूमिल तेंदुआ और कई धनेश शामिल हैं, और राज्य में यांगौपोकपी-लोकचाओ और बुनिंग अभयारण्य तथा ज़ेइलाद और शिरुई सामुदायिक क्षेत्र हैं।",
+        "mr": "मणिपूरचा सुमारे 74% भाग वनाच्छादित आहे (आयएसएफआर 2023), ज्यातील बराचसा भाग बांबू व जुन्या झूम शेतांवर पुन्हा वाढणारे दुय्यम वन आहे. 1990 पासून रामसर स्थळ असलेले लोकटक सरोवर हे खोऱ्यातील पाणथळींचे हृदय आहे; त्याच्या फुमदी, वनस्पतींचे तरंगते थर, कैबुल लामजाओ राष्ट्रीय उद्यान धारण करतात, जे सरोवरावर तरंगणारे उद्यान व संगाईचे शेवटचे नैसर्गिक अधिवास आहे. उखरुलमधील शिरुई टेकडी हे राज्यपुष्प शिरुई लिलीचे एकमेव ज्ञात अधिवास आहे. इतर वन्यजीवांत हूलॉक गिबन, मिसेस ह्यूम्स फेझंट, ढगाळ बिबट्या व अनेक धनेश यांचा समावेश आहे, आणि राज्यात यांगौपोकपी-लोकचाओ व बुनिंग अभयारण्ये तसेच झेइलाद व शिरुई सामुदायिक क्षेत्रे आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "fsi",
+        "indian-wetlands"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "fc",
+          "label": {
+            "en": "Forest cover (ISFR 2023)",
+            "hi": "वन आवरण (आईएसएफ़आर 2023)",
+            "mr": "वनाच्छादन (आयएसएफआर 2023)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 16585.46,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Lok Sabha Unstarred Q. 1550, 9 Feb 2026, citing ISFR 2021 and 2023."
+          },
+          "kind": "number",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 16640.29,
+            "unit": "km²",
+            "period": "2021",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "fcp",
+          "label": {
+            "en": "Forest cover, % of area",
+            "hi": "वन आवरण, क्षेत्रफल का %",
+            "mr": "वनाच्छादन, क्षेत्रफळाच्या %",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 74.28,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 16,585.46 km² ÷ geographical area 22,327 km²."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 21.76,
+            "unit": "% of geographical area",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from ISFR 2023 forest cover 7,15,342.61 km² ÷ 32,87,469 km²."
+          }
+        },
+        {
+          "id": "ramsar",
+          "label": {
+            "en": "Ramsar wetlands",
+            "hi": "रामसर आर्द्रभूमियाँ",
+            "mr": "रामसर पाणथळ स्थळे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 1,
+            "unit": "sites",
+            "period": "2026",
+            "periodType": "calendar",
+            "sourceId": "indian-wetlands",
+            "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "MoEFCC list of Ramsar sites as on 21 April 2026: Loktak Lake (designated 23 March 1990)."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "protected",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "keibul",
+          "name": {
+            "en": "Keibul Lamjao National Park",
+            "hi": "कैबुल लामजाओ राष्ट्रीय उद्यान",
+            "mr": "कैबुल लामजाओ राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Floating park; sangai",
+            "hi": "तैरता उद्यान; संगाई",
+            "mr": "तरंगते उद्यान; संगाई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "loktak",
+          "name": {
+            "en": "Loktak Lake",
+            "hi": "लोकटक झील",
+            "mr": "लोकटक सरोवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Ramsar site",
+            "hi": "रामसर स्थल",
+            "mr": "रामसर स्थळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sirohi",
+          "name": {
+            "en": "Shirui (Siroi) National Park",
+            "hi": "शिरुई (सिरोई) राष्ट्रीय उद्यान",
+            "mr": "शिरुई (सिरोई) राष्ट्रीय उद्यान",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Shirui lily, Ukhrul",
+            "hi": "शिरुई लिली, उखरुल",
+            "mr": "शिरुई लिली, उखरुल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "yangoupokpi",
+          "name": {
+            "en": "Yangoupokpi-Lokchao Wildlife Sanctuary",
+            "hi": "यांगौपोकपी-लोकचाओ वन्यजीव अभयारण्य",
+            "mr": "यांगौपोकपी-लोकचाओ वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Myanmar border",
+            "hi": "म्यांमार सीमा",
+            "mr": "म्यानमार सीमा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bunning",
+          "name": {
+            "en": "Bunning Wildlife Sanctuary",
+            "hi": "बुनिंग वन्यजीव अभयारण्य",
+            "mr": "बुनिंग वन्यजीव अभयारण्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Tamenglong",
+            "hi": "तामेंगलोंग",
+            "mr": "तामेंगलोंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Protected areas (selected)",
+        "hi": "संरक्षित क्षेत्र (चयनित)",
+        "mr": "संरक्षित क्षेत्रे (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "species",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "sangai",
+          "name": {
+            "en": "Sangai (State animal)",
+            "hi": "संगाई (राज्य पशु)",
+            "mr": "संगाई (राज्यप्राणी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pheasant",
+          "name": {
+            "en": "Mrs Hume's pheasant (State bird)",
+            "hi": "मिसेज़ ह्यूम्स फ़ेज़ेंट (राज्य पक्षी)",
+            "mr": "मिसेस ह्यूम्स फेझंट (राज्यपक्षी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lily",
+          "name": {
+            "en": "Shirui lily (State flower)",
+            "hi": "शिरुई लिली (राज्य पुष्प)",
+            "mr": "शिरुई लिली (राज्यपुष्प)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gibbon",
+          "name": {
+            "en": "Hoolock gibbon",
+            "hi": "हूलॉक गिबन",
+            "mr": "हूलॉक गिबन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "leopard",
+          "name": {
+            "en": "Clouded leopard",
+            "hi": "धूमिल तेंदुआ",
+            "mr": "ढगाळ बिबट्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pengba",
+          "name": {
+            "en": "Pengba (Manipur osteobrama, a fish)",
+            "hi": "पेंगबा (एक मछली)",
+            "mr": "पेंगबा (एक मासा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key species",
+        "hi": "प्रमुख प्रजातियाँ",
+        "mr": "प्रमुख प्रजाती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Sangai population — latest official census",
+            "hi": "संगाई की संख्या — नवीनतम आधिकारिक गणना",
+            "mr": "संगाईची संख्या — नवीनतम अधिकृत गणना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Manipur Forest Department / Wildlife Institute of India."
+        },
+        {
+          "label": {
+            "en": "Phumdi thickness and Loktak water quality",
+            "hi": "फुमदी की मोटाई और लोकटक जल गुणवत्ता",
+            "mr": "फुमदीची जाडी व लोकटक पाण्याची गुणवत्ता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Loktak Development Authority."
+        }
+      ]
+    }
+  ]
+}

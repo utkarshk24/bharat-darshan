@@ -33,86 +33,135 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://manipur.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Sangai (brow-antlered deer)",
+        "hi": "संगाई (भौंह-सींग वाला हिरण)",
+        "mr": "संगाई (भुवई-शिंगी हरिण)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Rucervus eldii eldii",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Mrs Hume's pheasant (nongyeen)",
+        "hi": "मिसेज़ ह्यूम्स फ़ेज़ेंट (नोंगयीन)",
+        "mr": "मिसेस ह्यूम्स फेझंट (नोंगयीन)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Syrmaticus humiae",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Shirui lily",
+        "hi": "शिरुई लिली",
+        "mr": "शिरुई लिली",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Lilium mackliniae",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 2570390,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 12,90,171; females 12,80,219. Census 2011 figures for Manipur exclude the Mao-Maram, Paomata and Purul sub-divisions of Senapati district, where the results were not used."
     },
     "area": {
-      "value": null,
+      "value": 22327,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 115,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 25,70,390 ÷ area 22,327 km² = 115.1. Census 2011 figures for Manipur exclude the Mao-Maram, Paomata and Purul sub-divisions of Senapati district, where the results were not used."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 992,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (978 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 936,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 957 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 76.9,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,87 +174,352 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 50309,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25 is the latest year published for Manipur. FY2023-24: ₹43,425 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 138535,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2023-24: ₹1,19,967."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 74.28,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 16,585.46 km² ÷ geographical area 22,327 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Ajay Kumar Bhalla",
+        "hi": "अजय कुमार भल्ला",
+        "mr": "अजय कुमार भल्ला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2025-01-03",
+      "asOf": "2026-10-25",
+      "sourceId": "newsonair",
+      "url": "https://www.newsonair.gov.in/former-union-home-secretary-ajay-kumar-bhalla-sworn-in-as-governor-of-manipur",
+      "verifyUrl": "https://rajbhavanmanipur.nic.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Former Union Home Secretary; sworn in as Governor of Manipur on 3 January 2025 in the Durbar Hall of Raj Bhavan, Imphal, by Chief Justice D. Krishnakumar of the Manipur High Court, succeeding Lakshman Prasad Acharya, who had held additional charge (All India Radio News)."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "name": {
+        "en": "Yumnam Khemchand Singh",
+        "hi": "युमनाम खेमचंद सिंह",
+        "mr": "युमनाम खेमचंद सिंह",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "BJP",
+      "since": "2026-02-04",
+      "asOf": "2026-10-25",
+      "sourceId": "hitavada",
+      "url": "https://www.thehitavada.com/Encyc/2026/2/5/presidents-rule-revoked-khemchand-singh-is-manipurs-new-cm.html",
+      "verifyUrl": "https://manipur.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in on 4 February 2026 by Governor Ajay Kumar Bhalla, hours after President's Rule (in force since 13 February 2025) was revoked. Nemcha Kipgen (BJP) and L. Dikho (NPF) were sworn in as Deputy Chief Ministers (The Hitavada, 5 February 2026)."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Thokchom Satyabrata Singh",
+          "hi": "थोकचोम सत्यव्रत सिंह",
+          "mr": "थोकचोम सत्यव्रत सिंह",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2022-03-24",
+        "asOf": "2026-10-25",
+        "sourceId": "mn-assembly",
+        "url": "https://assembly.mn.gov.in/user/pages/files/bulletin/part-ii/No.%206%20Election%20of%20Speaker.pdf",
+        "verifyUrl": "https://assembly.mn.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Elected Speaker of the Twelfth Manipur Legislative Assembly on 24 March 2022; Member from 14-Yaiskul (Assembly Bulletin Part II, No. 6)."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "jiribam-imphal-rail",
+      "name": {
+        "en": "Jiribam–Imphal new railway line",
+        "hi": "जिरीबाम–इंफाल नई रेल लाइन",
+        "mr": "जिरीबाम–इंफाळ नवा रेल्वेमार्ग",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A 111-km broad-gauge line from Jiribam on the Assam border to Imphal through the hills of Noney and Tamenglong, with 54 tunnels totalling about 66.5 km — the longest, Tunnel 12, is 11.55 km — and the Noney bridge, whose 141-m piers Northeast Frontier Railway describes as the tallest railway piers in the world. The estimated cost is about ₹22,000 crore. In August 2026 NFR officials inspected the Jiribam–Khongsang, Khongsang–Awangkhul and Awangkhul–Imphal sections, and the line is targeted to reach Imphal by June 2029.",
+        "hi": "असम सीमा पर जिरीबाम से नोनी और तामेंगलोंग की पहाड़ियों से होकर इंफाल तक 111 किमी लंबी बड़ी लाइन, जिसमें कुल लगभग 66.5 किमी की 54 सुरंगें हैं — सबसे लंबी, सुरंग 12, 11.55 किमी की है — और नोनी पुल, जिसके 141 मीटर ऊँचे खंभों को पूर्वोत्तर सीमांत रेलवे दुनिया के सबसे ऊँचे रेलवे खंभे बताता है। अनुमानित लागत लगभग ₹22,000 करोड़ है। अगस्त 2026 में एनएफ़आर अधिकारियों ने जिरीबाम–खोंगसांग, खोंगसांग–अवांगखुल और अवांगखुल–इंफाल खंडों का निरीक्षण किया, और जून 2029 तक लाइन को इंफाल पहुँचाने का लक्ष्य है।",
+        "mr": "आसाम सीमेवरील जिरीबामपासून नोनी व तामेंगलोंगच्या डोंगरांतून इंफाळपर्यंतचा 111 किमी लांबीचा ब्रॉडगेज मार्ग, ज्यात एकूण सुमारे 66.5 किमीचे 54 बोगदे आहेत — सर्वांत लांब, बोगदा 12, 11.55 किमीचा आहे — आणि नोनी पूल, ज्याच्या 141 मीटर उंच खांबांना ईशान्य सीमा रेल्वे जगातील सर्वांत उंच रेल्वे खांब म्हणते. अंदाजित खर्च सुमारे ₹22,000 कोटी आहे. ऑगस्ट 2026 मध्ये एनएफआर अधिकाऱ्यांनी जिरीबाम–खोंगसांग, खोंगसांग–अवांगखुल व अवांगखुल–इंफाळ टप्प्यांची पाहणी केली, आणि जून 2029 पर्यंत मार्ग इंफाळला पोहोचवण्याचे उद्दिष्ट आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "railways",
+      "agency": "Northeast Frontier Railway",
+      "start": null,
+      "completion": "June 2029 (target)",
+      "status": "Under Construction",
+      "asOf": "2026-10-25",
+      "sourceId": "morung-express",
+      "url": "https://morungexpress.com/imphal-to-become-fifth-northeast-capital-city-on-national-railway-map-by-june-2029",
+      "confidence": "Third-party verified",
+      "cost": {
+        "value": 22000,
+        "unit": "₹ crore",
+        "period": "2026",
+        "periodType": "calendar",
+        "sourceId": "morung-express",
+        "url": "https://morungexpress.com/imphal-to-become-fifth-northeast-capital-city-on-national-railway-map-by-june-2029",
+        "accessDate": "2026-10-25",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "About ₹22,000 crore, as reported (IANS via The Morung Express, 25 Aug 2026); sanctioned cost to be confirmed from the Ministry of Railways."
+      }
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "kachai-lemon",
+      "name": {
+        "en": "Kachai Lemon",
+        "hi": "काचाई नींबू",
+        "mr": "काचाई लिंबू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "466",
+      "filingDate": "2013-12-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "tamenglong-orange",
+      "name": {
+        "en": "Tamenglong Orange",
+        "hi": "तामेंगलोंग संतरा",
+        "mr": "तामेंगलोंग संत्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "590",
+      "filingDate": "2017-09-18",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "sirarakhong-hathei",
+      "name": {
+        "en": "Sirarakhong Hathei",
+        "hi": "सिरारखोंग हथेई (मिर्च)",
+        "mr": "सिरारखोंग हथेई (मिरची)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "592",
+      "filingDate": "2017-09-18",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "shaphee-lanphee",
+      "name": {
+        "en": "Shaphee Lanphee",
+        "hi": "शफ़ी लानफ़ी",
+        "mr": "शफी लानफी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "371",
+      "filingDate": "2011-12-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "wangkhei-phee",
+      "name": {
+        "en": "Wangkhei Phee",
+        "hi": "वांगखेई फ़ी",
+        "mr": "वांगखेई फी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "372",
+      "filingDate": "2011-12-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "moirang-phee",
+      "name": {
+        "en": "Moirang Phee",
+        "hi": "मोइरांग फ़ी",
+        "mr": "मोइरांग फी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "373",
+      "filingDate": "2011-12-19",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "chak-hao",
+      "name": {
+        "en": "Chak-Hao",
+        "hi": "चाक-हाओ (काला चावल)",
+        "mr": "चाक-हाओ (काळा तांदूळ)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "602",
+      "filingDate": "2017-12-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Nagaland"
+      ]
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-25",
+    "editorialStatus": "draft"
   }
 }

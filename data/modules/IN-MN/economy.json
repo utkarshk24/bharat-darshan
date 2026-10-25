@@ -1,0 +1,1741 @@
+{
+  "region": "IN-MN",
+  "module": "economy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Manipur's GSDP at current prices was about ₹50,309 crore in FY2024-25, the latest year in the MoSPI series, and per capita NSDP was ₹1,38,535. Agriculture, livestock, forestry and fishing contributed about 19% of GSVA — rice in the valley, terraced and jhum farming in the hills, fruit such as pineapple, orange and Kachai lemon, and fish from Loktak and the wetlands. Public administration made up about 19%, while manufacturing was only about 1.5%; handloom and handicrafts are the main industries and employ many women. Border trade with Myanmar passes through Moreh.\n\nThe PLFS unemployment rate was 5.2% in 2025 (national 3.1%), and 52.6% of women aged 15 and above were in the labour force, against 40.0% nationally. The violence since 2023 disrupted trade, transport and farming, and displaced many families from their land.",
+        "hi": "मोस्पी शृंखला के नवीनतम वर्ष, वित्त वर्ष 2024-25 में मणिपुर का प्रचलित मूल्यों पर जीएसडीपी लगभग ₹50,309 करोड़ और प्रति व्यक्ति एनएसडीपी ₹1,38,535 था। कृषि, पशुपालन, वानिकी और मत्स्य पालन का जीएसवीए में योगदान लगभग 19% था — घाटी में धान, पहाड़ियों में सीढ़ीदार और झूम खेती, अनानास, संतरा और काचाई नींबू जैसे फल, और लोकटक व आर्द्रभूमियों से मछली। लोक प्रशासन का हिस्सा लगभग 19% था, जबकि विनिर्माण केवल लगभग 1.5% था; हथकरघा और हस्तशिल्प मुख्य उद्योग हैं और बहुत सी महिलाओं को रोज़गार देते हैं। म्यांमार के साथ सीमा व्यापार मोरेह से होता है।\n\nपीएलएफ़एस बेरोज़गारी दर 2025 में 5.2% थी (राष्ट्रीय 3.1%), और 15 वर्ष से अधिक आयु की 52.6% महिलाएँ श्रम बल में थीं, जबकि राष्ट्रीय स्तर पर 40.0%। 2023 से चली हिंसा ने व्यापार, परिवहन और खेती को बाधित किया, और बहुत से परिवारों को उनकी भूमि से विस्थापित किया।",
+        "mr": "मोस्पी मालिकेतील नवीनतम वर्ष, आ.व. 2024-25 मध्ये मणिपूरचे चालू किमतींनुसार जीएसडीपी सुमारे ₹50,309 कोटी व दरडोई एनएसडीपी ₹1,38,535 होते. शेती, पशुपालन, वनीकरण व मासेमारीचा जीएसव्हीएमध्ये वाटा सुमारे 19% होता — खोऱ्यात भात, डोंगरांत पायऱ्यांची व झूम शेती, अननस, संत्री व काचाई लिंबूसारखी फळे, आणि लोकटक व पाणथळींतील मासे. लोकप्रशासनाचा वाटा सुमारे 19% होता, तर उत्पादन उद्योग केवळ सुमारे 1.5% होता; हातमाग व हस्तकला हे मुख्य उद्योग आहेत आणि अनेक स्त्रियांना रोजगार देतात. म्यानमारशी सीमाव्यापार मोरेहमार्गे होतो.\n\nपीएलएफएस बेरोजगारी दर 2025 मध्ये 5.2% होता (राष्ट्रीय 3.1%), आणि 15 वर्षांवरील 52.6% स्त्रिया श्रमशक्तीत होत्या, तर राष्ट्रीय पातळीवर 40.0%. 2023 पासूनच्या हिंसाचाराने व्यापार, वाहतूक व शेती विस्कळीत झाली, आणि अनेक कुटुंबे आपल्या जमिनींवरून विस्थापित झाली.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "mospi",
+        "plfs"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "gsdp",
+          "label": {
+            "en": "GSDP, current prices",
+            "hi": "जीएसडीपी, प्रचलित मूल्य",
+            "mr": "जीएसडीपी, चालू किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 50309,
+            "unit": "₹ crore",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            },
+            "note": "MoSPI state-wise estimates, base 2011-12 (current series), accessed via the MoSPI API on 25 Oct 2026. FY2024-25 is the latest year published for Manipur and may be revised."
+          },
+          "kind": "rupeeCrore",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 43425,
+            "unit": "₹ crore",
+            "period": "FY2023-24",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          }
+        },
+        {
+          "id": "gsdpk",
+          "label": {
+            "en": "GSDP, constant 2011-12 prices",
+            "hi": "जीएसडीपी, स्थिर 2011-12 मूल्य",
+            "mr": "जीएसडीपी, स्थिर 2011-12 किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 25241,
+            "unit": "₹ crore",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "constant",
+              "baseYear": "2011-12"
+            },
+            "note": "MoSPI state-wise estimates, base 2011-12 (current series), accessed via the MoSPI API on 25 Oct 2026. FY2024-25 is the latest year published for Manipur and may be revised."
+          },
+          "kind": "rupeeCrore",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 22858,
+            "unit": "₹ crore",
+            "period": "FY2023-24",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "constant",
+              "baseYear": "2011-12"
+            }
+          }
+        },
+        {
+          "id": "pc",
+          "label": {
+            "en": "Per capita NSDP, current prices",
+            "hi": "प्रति व्यक्ति एनएसडीपी, प्रचलित मूल्य",
+            "mr": "दरडोई एनएसडीपी, चालू किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 138535,
+            "unit": "₹",
+            "period": "FY2024-25",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            },
+            "note": "MoSPI state-wise estimates, base 2011-12 (current series), accessed via the MoSPI API on 25 Oct 2026. FY2024-25 is the latest year published for Manipur and may be revised."
+          },
+          "kind": "rupee",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 119967,
+            "unit": "₹",
+            "period": "FY2023-24",
+            "periodType": "fy",
+            "sourceId": "mospi",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "provisional",
+            "confidence": "Official",
+            "priceBase": {
+              "type": "current"
+            }
+          }
+        },
+        {
+          "id": "ur",
+          "label": {
+            "en": "Unemployment rate, 15+ (PS+SS)",
+            "hi": "बेरोज़गारी दर, 15+ (पीएस+एसएस)",
+            "mr": "बेरोजगारी दर, 15+ (पीएस+एसएस)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 5.2,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PLFS annual, calendar year, usual status (PS+SS), persons 15 years and above."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 6.5,
+            "unit": "%",
+            "period": "2024",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 3.1,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lfpr",
+          "label": {
+            "en": "Labour force participation, women 15+",
+            "hi": "श्रम बल भागीदारी, महिलाएँ 15+",
+            "mr": "श्रमशक्ती सहभाग, महिला 15+",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 52.6,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PLFS annual 2025, PS+SS. All persons: 63.1% (India 59.3%)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 40.0,
+            "unit": "%",
+            "period": "2025",
+            "periodType": "calendar",
+            "sourceId": "plfs",
+            "url": "https://mospi.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Key indicators",
+        "hi": "मुख्य संकेतक",
+        "mr": "प्रमुख निर्देशक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "series",
+      "id": "gsdp-series",
+      "title": {
+        "en": "GSDP, FY2011-12 to FY2024-25",
+        "hi": "जीएसडीपी, वित्त वर्ष 2011-12 से वित्त वर्ष 2024-25 तक",
+        "mr": "जीएसडीपी, आ.व. 2011-12 ते आ.व. 2024-25",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "rupeeCrore",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "current",
+          "label": {
+            "en": "Current prices",
+            "hi": "प्रचलित मूल्य",
+            "mr": "चालू किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 12915,
+              "unit": "₹ crore",
+              "period": "FY2011-12",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 13743,
+              "unit": "₹ crore",
+              "period": "FY2012-13",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 16182,
+              "unit": "₹ crore",
+              "period": "FY2013-14",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 18129,
+              "unit": "₹ crore",
+              "period": "FY2014-15",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 19531,
+              "unit": "₹ crore",
+              "period": "FY2015-16",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 21294,
+              "unit": "₹ crore",
+              "period": "FY2016-17",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 25789,
+              "unit": "₹ crore",
+              "period": "FY2017-18",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 27388,
+              "unit": "₹ crore",
+              "period": "FY2018-19",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 29813,
+              "unit": "₹ crore",
+              "period": "FY2019-20",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 29776,
+              "unit": "₹ crore",
+              "period": "FY2020-21",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 35027,
+              "unit": "₹ crore",
+              "period": "FY2021-22",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 38552,
+              "unit": "₹ crore",
+              "period": "FY2022-23",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 43425,
+              "unit": "₹ crore",
+              "period": "FY2023-24",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 50309,
+              "unit": "₹ crore",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series), accessed via the MoSPI API. FY2024-25 is the latest year published for this region and may be revised."
+            }
+          ]
+        },
+        {
+          "id": "constant",
+          "label": {
+            "en": "Constant 2011-12 prices",
+            "hi": "स्थिर 2011-12 मूल्य",
+            "mr": "स्थिर 2011-12 किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 12915,
+              "unit": "₹ crore",
+              "period": "FY2011-12",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 12993,
+              "unit": "₹ crore",
+              "period": "FY2012-13",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 14115,
+              "unit": "₹ crore",
+              "period": "FY2013-14",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 15245,
+              "unit": "₹ crore",
+              "period": "FY2014-15",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 16424,
+              "unit": "₹ crore",
+              "period": "FY2015-16",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 17082,
+              "unit": "₹ crore",
+              "period": "FY2016-17",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 18751,
+              "unit": "₹ crore",
+              "period": "FY2017-18",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 18262,
+              "unit": "₹ crore",
+              "period": "FY2018-19",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 19187,
+              "unit": "₹ crore",
+              "period": "FY2019-20",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 18073,
+              "unit": "₹ crore",
+              "period": "FY2020-21",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 19981,
+              "unit": "₹ crore",
+              "period": "FY2021-22",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 21198,
+              "unit": "₹ crore",
+              "period": "FY2022-23",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 22858,
+              "unit": "₹ crore",
+              "period": "FY2023-24",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 25241,
+              "unit": "₹ crore",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series), accessed via the MoSPI API. FY2024-25 is the latest year published for this region and may be revised."
+            }
+          ]
+        }
+      ],
+      "note": {
+        "en": "Current prices include inflation; constant prices show real growth. The dip in FY2020-21 reflects the pandemic year.",
+        "hi": "प्रचलित मूल्यों में महँगाई शामिल है; स्थिर मूल्य वास्तविक वृद्धि दिखाते हैं। वित्त वर्ष 2020-21 की गिरावट महामारी वर्ष को दर्शाती है।",
+        "mr": "चालू किमतींमध्ये महागाई समाविष्ट असते; स्थिर किमती प्रत्यक्ष वाढ दाखवतात. आ.व. 2020-21 मधील घसरण महामारीच्या वर्षामुळे आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "series",
+      "id": "pc-series",
+      "title": {
+        "en": "Per capita NSDP",
+        "hi": "प्रति व्यक्ति एनएसडीपी",
+        "mr": "दरडोई एनएसडीपी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "rupee",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "current",
+          "label": {
+            "en": "Current prices",
+            "hi": "प्रचलित मूल्य",
+            "mr": "चालू किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 39762,
+              "unit": "₹",
+              "period": "FY2011-12",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 41230,
+              "unit": "₹",
+              "period": "FY2012-13",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 47798,
+              "unit": "₹",
+              "period": "FY2013-14",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 52717,
+              "unit": "₹",
+              "period": "FY2014-15",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 55447,
+              "unit": "₹",
+              "period": "FY2015-16",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 59345,
+              "unit": "₹",
+              "period": "FY2016-17",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 71507,
+              "unit": "₹",
+              "period": "FY2017-18",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 73795,
+              "unit": "₹",
+              "period": "FY2018-19",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 78574,
+              "unit": "₹",
+              "period": "FY2019-20",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 75784,
+              "unit": "₹",
+              "period": "FY2020-21",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 98826,
+              "unit": "₹",
+              "period": "FY2021-22",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 107205,
+              "unit": "₹",
+              "period": "FY2022-23",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 119967,
+              "unit": "₹",
+              "period": "FY2023-24",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              }
+            },
+            {
+              "value": 138535,
+              "unit": "₹",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "current"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series), accessed via the MoSPI API. FY2024-25 is the latest year published for this region and may be revised."
+            }
+          ]
+        },
+        {
+          "id": "constant",
+          "label": {
+            "en": "Constant 2011-12 prices",
+            "hi": "स्थिर 2011-12 मूल्य",
+            "mr": "स्थिर 2011-12 किमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 39762,
+              "unit": "₹",
+              "period": "FY2011-12",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 38954,
+              "unit": "₹",
+              "period": "FY2012-13",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 41441,
+              "unit": "₹",
+              "period": "FY2013-14",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 44101,
+              "unit": "₹",
+              "period": "FY2014-15",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 46389,
+              "unit": "₹",
+              "period": "FY2015-16",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 47151,
+              "unit": "₹",
+              "period": "FY2016-17",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 51211,
+              "unit": "₹",
+              "period": "FY2017-18",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 48106,
+              "unit": "₹",
+              "period": "FY2018-19",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 49267,
+              "unit": "₹",
+              "period": "FY2019-20",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 44449,
+              "unit": "₹",
+              "period": "FY2020-21",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 54587,
+              "unit": "₹",
+              "period": "FY2021-22",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 57299,
+              "unit": "₹",
+              "period": "FY2022-23",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 61082,
+              "unit": "₹",
+              "period": "FY2023-24",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              }
+            },
+            {
+              "value": 67083,
+              "unit": "₹",
+              "period": "FY2024-25",
+              "periodType": "fy",
+              "sourceId": "mospi",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "provisional",
+              "confidence": "Official",
+              "priceBase": {
+                "type": "constant",
+                "baseYear": "2011-12"
+              },
+              "note": "MoSPI state-wise estimates, base 2011-12 (current series), accessed via the MoSPI API. FY2024-25 is the latest year published for this region and may be revised."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "sectors",
+      "title": {
+        "en": "Sectoral shares of GSVA, FY2024-25 (current prices)",
+        "hi": "जीएसवीए में क्षेत्रवार हिस्सा, वित्त वर्ष 2024-25 (प्रचलित मूल्य)",
+        "mr": "जीएसव्हीएमधील क्षेत्रनिहाय वाटा, आ.व. 2024-25 (चालू किमती)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Sector",
+            "hi": "क्षेत्र",
+            "mr": "क्षेत्र",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Share of GSVA (%)",
+            "hi": "जीएसवीए में हिस्सा (%)",
+            "mr": "जीएसव्हीएमधील वाटा (%)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Agriculture, livestock, forestry & fishing",
+            "hi": "कृषि, पशुपालन, वानिकी और मत्स्य",
+            "mr": "कृषी, पशुपालन, वनीकरण व मत्स्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "18.53"
+        ],
+        [
+          {
+            "en": "Mining & quarrying",
+            "hi": "खनन और उत्खनन",
+            "mr": "खाणकाम व उत्खनन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "0.02"
+        ],
+        [
+          {
+            "en": "Manufacturing",
+            "hi": "विनिर्माण",
+            "mr": "उत्पादन उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1.47"
+        ],
+        [
+          {
+            "en": "Electricity, gas, water & utilities",
+            "hi": "बिजली, गैस, जल और उपयोगिताएँ",
+            "mr": "वीज, वायू, पाणी व उपयुक्त सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1.88"
+        ],
+        [
+          {
+            "en": "Construction",
+            "hi": "निर्माण",
+            "mr": "बांधकाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "7.08"
+        ],
+        [
+          {
+            "en": "Trade, repair, hotels & restaurants",
+            "hi": "व्यापार, मरम्मत, होटल और रेस्तराँ",
+            "mr": "व्यापार, दुरुस्ती, हॉटेल व उपाहारगृहे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "12.42"
+        ],
+        [
+          {
+            "en": "Transport, storage & communication",
+            "hi": "परिवहन, भंडारण और संचार",
+            "mr": "वाहतूक, साठवण व दळणवळण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "6.15"
+        ],
+        [
+          {
+            "en": "Financial services",
+            "hi": "वित्तीय सेवाएँ",
+            "mr": "वित्तीय सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "5.54"
+        ],
+        [
+          {
+            "en": "Real estate, dwellings & professional services",
+            "hi": "रियल एस्टेट, आवास और पेशेवर सेवाएँ",
+            "mr": "स्थावर मालमत्ता, निवास व व्यावसायिक सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "5.44"
+        ],
+        [
+          {
+            "en": "Public administration",
+            "hi": "लोक प्रशासन",
+            "mr": "लोकप्रशासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "18.53"
+        ],
+        [
+          {
+            "en": "Other services",
+            "hi": "अन्य सेवाएँ",
+            "mr": "इतर सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "22.96"
+        ]
+      ],
+      "sourceId": "mospi",
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-25",
+      "confidence": "Official",
+      "period": "FY2024-25",
+      "note": {
+        "en": "Computed from MoSPI GSVA by industry (₹ lakh). Primary sector 18.5%, secondary 10.4%, services 71.0%.",
+        "hi": "मोस्पी के उद्योगवार जीएसवीए (₹ लाख) से गणना। प्राथमिक क्षेत्र 18.5%, द्वितीयक 10.4%, सेवाएँ 71.0%।",
+        "mr": "मोस्पीच्या उद्योगनिहाय जीएसव्हीए (₹ लाख) वरून गणना. प्राथमिक क्षेत्र 18.5%, द्वितीयक 10.4%, सेवा 71.0%.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "series",
+      "id": "ur-series",
+      "title": {
+        "en": "Unemployment rate, persons 15+ (PLFS)",
+        "hi": "बेरोज़गारी दर, 15+ आयु (पीएलएफ़एस)",
+        "mr": "बेरोजगारी दर, 15+ वय (पीएलएफएस)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "lower-is-better",
+      "series": [
+        {
+          "id": "mn",
+          "label": {
+            "en": "Manipur",
+            "hi": "मणिपुर",
+            "mr": "मणिपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 8.0,
+              "unit": "%",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 4.2,
+              "unit": "%",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 6.5,
+              "unit": "%",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            },
+            {
+              "value": 5.2,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official",
+              "note": "PS+SS, calendar year."
+            }
+          ]
+        },
+        {
+          "id": "in",
+          "label": {
+            "en": "India",
+            "hi": "भारत",
+            "mr": "भारत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 3.6,
+              "unit": "%",
+              "period": "2022",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.1,
+              "unit": "%",
+              "period": "2023",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.2,
+              "unit": "%",
+              "period": "2024",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 3.1,
+              "unit": "%",
+              "period": "2025",
+              "periodType": "calendar",
+              "sourceId": "plfs",
+              "url": "https://mospi.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "national",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "sectors-key",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "handloom",
+          "name": {
+            "en": "Handloom and handicrafts",
+            "hi": "हथकरघा और हस्तशिल्प",
+            "mr": "हातमाग व हस्तकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Phanek, shawls, Moirang phee and Longpi pottery.",
+            "hi": "फ़ानेक, शॉल, मोइरांग फ़ी और लोंगपी के बर्तन।",
+            "mr": "फानेक, शाली, मोइरांग फी व लोंगपी भांडी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "rice",
+          "name": {
+            "en": "Rice and horticulture",
+            "hi": "धान और बाग़वानी",
+            "mr": "भात व फलोत्पादन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Black rice, pineapple, orange, Kachai lemon.",
+            "hi": "काला चावल, अनानास, संतरा, काचाई नींबू।",
+            "mr": "काळा तांदूळ, अननस, संत्री, काचाई लिंबू.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "fish",
+          "name": {
+            "en": "Fisheries",
+            "hi": "मत्स्य पालन",
+            "mr": "मत्स्यव्यवसाय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Loktak and valley wetlands.",
+            "hi": "लोकटक और घाटी की आर्द्रभूमियाँ।",
+            "mr": "लोकटक व खोऱ्यातील पाणथळी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "border",
+          "name": {
+            "en": "Border trade",
+            "hi": "सीमा व्यापार",
+            "mr": "सीमाव्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Through Moreh–Tamu with Myanmar.",
+            "hi": "म्यांमार के साथ मोरेह–तामू से।",
+            "mr": "म्यानमारशी मोरेह–तामूमार्गे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sericulture",
+          "name": {
+            "en": "Sericulture",
+            "hi": "रेशम उत्पादन",
+            "mr": "रेशीम उद्योग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Mulberry, eri, muga and oak tasar silk.",
+            "hi": "शहतूत, एरी, मूगा और ओक तसर रेशम।",
+            "mr": "तुती, एरी, मुगा व ओक टसर रेशीम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Key sectors",
+        "hi": "प्रमुख क्षेत्र",
+        "mr": "प्रमुख क्षेत्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Economic impact of the conflict since 2023 — official estimate",
+            "hi": "2023 से संघर्ष का आर्थिक प्रभाव — आधिकारिक अनुमान",
+            "mr": "2023 पासूनच्या संघर्षाचा आर्थिक परिणाम — अधिकृत अंदाज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "state-economic-survey",
+          "note": "Economic Survey of Manipur."
+        },
+        {
+          "label": {
+            "en": "Border trade through Moreh by year",
+            "hi": "मोरेह से वर्षवार सीमा व्यापार",
+            "mr": "मोरेहमार्गे वर्षनिहाय सीमाव्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Department of Commerce / Land Ports Authority of India."
+        },
+        {
+          "label": {
+            "en": "Debt-to-GSDP ratio",
+            "hi": "ऋण-जीएसडीपी अनुपात",
+            "mr": "कर्ज-जीएसडीपी गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "rbi-handbook",
+          "note": "RBI State Finances: A Study of Budgets."
+        }
+      ]
+    }
+  ]
+}

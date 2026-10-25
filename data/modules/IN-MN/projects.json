@@ -1,0 +1,61 @@
+{
+  "region": "IN-MN",
+  "module": "projects",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Jiribam–Imphal railway, built through steep, earthquake-prone hills, will bring broad-gauge trains to Imphal. Other works — the four-laning of the Imphal–Moreh road on the India–Myanmar–Thailand Trilateral Highway corridor and the restoration of roads and houses damaged since 2023 — will be added as cards once their status is confirmed from official sources. Each card shows its source and the date it was checked.",
+        "hi": "खड़ी, भूकंप-प्रवण पहाड़ियों से होकर बन रही जिरीबाम–इंफाल रेलवे इंफाल तक बड़ी लाइन की ट्रेनें लाएगी। अन्य कार्य — भारत–म्यांमार–थाईलैंड त्रिपक्षीय राजमार्ग गलियारे पर इंफाल–मोरेह सड़क का चार-लेन विस्तार और 2023 से क्षतिग्रस्त सड़कों और घरों की मरम्मत — आधिकारिक स्रोतों से स्थिति की पुष्टि होने पर कार्ड के रूप में जोड़े जाएँगे। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "तीव्र, भूकंपप्रवण डोंगरांतून बांधली जाणारी जिरीबाम–इंफाळ रेल्वे इंफाळपर्यंत ब्रॉडगेज गाड्या आणेल. इतर कामे — भारत–म्यानमार–थायलंड त्रिपक्षीय महामार्ग मार्गिकेवरील इंफाळ–मोरेह रस्त्याचे चौपदरीकरण आणि 2023 पासून नुकसान झालेल्या रस्ते व घरांची दुरुस्ती — अधिकृत स्रोतांतून स्थितीची खात्री झाल्यावर कार्डे म्हणून जोडली जातील. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "morung-express"
+      ],
+      "confidence": "Third-party verified"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Jiribam–Imphal line — sanctioned cost and official progress",
+            "hi": "जिरीबाम–इंफाल लाइन — स्वीकृत लागत और आधिकारिक प्रगति",
+            "mr": "जिरीबाम–इंफाळ मार्ग — मंजूर खर्च व अधिकृत प्रगती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Ministry of Railways / Parliament answer; replace the news report."
+        },
+        {
+          "label": {
+            "en": "Imphal–Moreh highway — status",
+            "hi": "इंफाल–मोरेह राजमार्ग — स्थिति",
+            "mr": "इंफाळ–मोरेह महामार्ग — स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH / NHIDCL."
+        }
+      ]
+    }
+  ]
+}

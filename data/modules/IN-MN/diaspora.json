@@ -1,0 +1,42 @@
+{
+  "region": "IN-MN",
+  "module": "diaspora",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Manipuri communities live in Assam's Barak valley, Tripura and Bangladesh, descendants of people who left during the Burmese wars of the 19th century, and in Myanmar. Today many young people from all communities study and work in Delhi, Bengaluru, Pune, Guwahati and other cities, and the displacement since 2023 has sent more families to Mizoram, Assam and beyond.",
+        "hi": "मणिपुरी समुदाय असम की बराक घाटी, त्रिपुरा और बांग्लादेश में रहते हैं, जो 19वीं सदी के बर्मी युद्धों में यहाँ से गए लोगों के वंशज हैं, और म्यांमार में भी। आज सभी समुदायों के बहुत से युवा दिल्ली, बेंगलुरु, पुणे, गुवाहाटी और अन्य नगरों में पढ़ते और काम करते हैं, और 2023 से विस्थापन ने और परिवारों को मिज़ोरम, असम और उससे आगे भेजा है।",
+        "mr": "मणिपुरी समुदाय आसामच्या बराक खोऱ्यात, त्रिपुरा व बांगलादेशात राहतात, जे एकोणिसाव्या शतकातील ब्रह्मी युद्धांच्या काळात येथून गेलेल्या लोकांचे वंशज आहेत, आणि म्यानमारमध्येही. आज सर्व समुदायांतील अनेक तरुण दिल्ली, बंगळुरू, पुणे, गुवाहाटी व इतर शहरांत शिकतात व काम करतात, आणि 2023 पासूनच्या विस्थापनाने आणखी कुटुंबे मिझोराम, आसाम व त्यापलीकडे गेली आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Out-migration from the State — official estimate",
+            "hi": "राज्य से बाहर प्रवास — आधिकारिक अनुमान",
+            "mr": "राज्याबाहेर स्थलांतर — अधिकृत अंदाज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 migration tables (D-series)."
+        }
+      ]
+    }
+  ]
+}

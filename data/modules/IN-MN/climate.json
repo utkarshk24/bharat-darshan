@@ -1,0 +1,183 @@
+{
+  "region": "IN-MN",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Imphal valley has a mild climate, with warm, wet summers and cool, dry winters in which nights can be near freezing and mornings foggy. The south-west monsoon brings most of the rain from May to September, often with floods in the valley and landslides on the hill roads. The hills are cooler and wetter, and the high ridges of Ukhrul and Senapati can see frost in winter. October to March is the pleasant season for travel.",
+        "hi": "इंफाल घाटी की जलवायु सौम्य है, जहाँ गर्मियाँ गर्म और नम और सर्दियाँ ठंडी और सूखी होती हैं, जिनमें रातें लगभग जमाव बिंदु तक और सुबहें कोहरे वाली हो सकती हैं। दक्षिण-पश्चिम मानसून मई से सितंबर तक अधिकांश वर्षा लाता है, अक्सर घाटी में बाढ़ और पहाड़ी सड़कों पर भूस्खलन के साथ। पहाड़ियाँ अधिक ठंडी और नम हैं, और उखरुल और सेनापति की ऊँची पहाड़ियों पर सर्दियों में पाला पड़ सकता है। अक्टूबर से मार्च यात्रा का सुहावना मौसम है।",
+        "mr": "इंफाळ खोऱ्याचे हवामान सौम्य आहे, उबदार व दमट उन्हाळे आणि थंड व कोरडे हिवाळे, ज्यांत रात्री जवळपास गोठणबिंदूपर्यंत व सकाळी धुक्याच्या असू शकतात. नैर्ऋत्य मान्सून मे ते सप्टेंबरमध्ये बहुतांश पाऊस आणतो, अनेकदा खोऱ्यात पूर व डोंगरी रस्त्यांवर भूस्खलनासह. डोंगर अधिक थंड व ओलसर आहेत, आणि उखरुल व सेनापतीच्या उंच कड्यांवर हिवाळ्यात दव गोठू शकते. ऑक्टोबर ते मार्च हा प्रवासासाठी सुखद काळ आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Imphal",
+            "hi": "इंफाल",
+            "mr": "इंफाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 24.817,
+          "lon": 93.9368
+        },
+        {
+          "name": {
+            "en": "Churachandpur",
+            "hi": "चुराचांदपुर",
+            "mr": "चुराचांदपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 24.3333,
+          "lon": 93.6833
+        },
+        {
+          "name": {
+            "en": "Ukhrul",
+            "hi": "उखरुल",
+            "mr": "उखरुल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 25.096,
+          "lon": 94.36
+        },
+        {
+          "name": {
+            "en": "Moirang",
+            "hi": "मोइरांग",
+            "mr": "मोइरांग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 24.499,
+          "lon": 93.772
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "autumn",
+          "name": {
+            "en": "October to December",
+            "hi": "अक्टूबर से दिसंबर",
+            "mr": "ऑक्टोबर ते डिसेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Clear weather; Ningol Chakouba and the Sangai Festival in November.",
+            "hi": "साफ़ मौसम; नवंबर में निंगोल चाकौबा और संगाई महोत्सव।",
+            "mr": "निरभ्र हवामान; नोव्हेंबरमध्ये निंगोल चाकौबा व संगाई महोत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spring",
+          "name": {
+            "en": "February to April",
+            "hi": "फ़रवरी से अप्रैल",
+            "mr": "फेब्रुवारी ते एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Yaoshang (Holi) and Cheiraoba (Meitei New Year).",
+            "hi": "याओशांग (होली) और चेइराओबा (मैतेई नव वर्ष)।",
+            "mr": "याओशांग (होळी) व चेइराओबा (मैतेई नववर्ष).",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "may",
+          "name": {
+            "en": "May to June",
+            "hi": "मई से जून",
+            "mr": "मे ते जून",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Shirui lilies bloom in Ukhrul; the monsoon begins.",
+            "hi": "उखरुल में शिरुई लिली खिलती है; मानसून शुरू होता है।",
+            "mr": "उखरुलमध्ये शिरुई लिली फुलते; मान्सून सुरू होतो.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall",
+            "hi": "सामान्य वार्षिक वर्षा",
+            "mr": "सरासरी वार्षिक पाऊस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD Imphal meteorological centre."
+        }
+      ]
+    }
+  ]
+}

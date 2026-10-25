@@ -1,0 +1,227 @@
+{
+  "region": "IN-MN",
+  "module": "cities",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "imphal",
+          "name": {
+            "en": "Imphal",
+            "hi": "इंफाल",
+            "mr": "इंफाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Capital in the centre of the valley.",
+            "hi": "घाटी के केंद्र में राजधानी।",
+            "mr": "खोऱ्याच्या मध्यभागी राजधानी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "thoubal",
+          "name": {
+            "en": "Thoubal",
+            "hi": "थौबाल",
+            "mr": "थौबाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Valley town south-east of Imphal.",
+            "hi": "इंफाल के दक्षिण-पूर्व में घाटी का नगर।",
+            "mr": "इंफाळच्या आग्नेयेकडील खोऱ्यातील शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Trade",
+            "hi": "व्यापार",
+            "mr": "व्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kakching",
+          "name": {
+            "en": "Kakching",
+            "hi": "काकचिंग",
+            "mr": "काकचिंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Market town and district headquarters.",
+            "hi": "बाज़ार नगर और ज़िला मुख्यालय।",
+            "mr": "बाजारपेठेचे शहर व जिल्हा मुख्यालय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Trade",
+            "hi": "व्यापार",
+            "mr": "व्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "churachandpur",
+          "name": {
+            "en": "Churachandpur (Lamka)",
+            "hi": "चुराचांदपुर (लमका)",
+            "mr": "चुराचांदपूर (लमका)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Main town of the southern hills.",
+            "hi": "दक्षिणी पहाड़ियों का मुख्य नगर।",
+            "mr": "दक्षिणेकडील डोंगरांचे मुख्य शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Administration",
+            "hi": "प्रशासन",
+            "mr": "प्रशासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ukhrul",
+          "name": {
+            "en": "Ukhrul",
+            "hi": "उखरुल",
+            "mr": "उखरुल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Tangkhul Naga hill town.",
+            "hi": "तांगखुल नागा पहाड़ी नगर।",
+            "mr": "तांगखुल नागा डोंगरी शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Culture",
+            "hi": "संस्कृति",
+            "mr": "संस्कृती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "moreh",
+          "name": {
+            "en": "Moreh",
+            "hi": "मोरेह",
+            "mr": "मोरेह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Border town opposite Tamu in Myanmar.",
+            "hi": "म्यांमार के तामू के सामने सीमावर्ती नगर।",
+            "mr": "म्यानमारमधील तामूसमोरील सीमावर्ती शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Border trade",
+            "hi": "सीमा व्यापार",
+            "mr": "सीमाव्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major towns",
+        "hi": "प्रमुख नगर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Town populations (Census 2011)",
+            "hi": "नगरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban tables."
+        }
+      ]
+    }
+  ]
+}

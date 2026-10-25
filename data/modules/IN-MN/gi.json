@@ -1,0 +1,48 @@
+{
+  "region": "IN-MN",
+  "module": "gi",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Seven GIs belong to Manipur on the GI Registry's list as on 31 December 2025. Three are handloom textiles registered in 2011 — Shaphee Lanphee, a warrior's shawl once given as a royal honour, the fine Wangkhei Phee and the bordered Moirang Phee. The rest are farm products: Kachai lemon from Ukhrul, Tamenglong orange, Sirarakhong hathei chilli and Chak-hao black rice, which is shared with Nagaland.",
+        "hi": "जीआई रजिस्ट्री की 31 दिसंबर 2025 की सूची में सात जीआई मणिपुर के हैं। तीन 2011 में पंजीकृत हथकरघा वस्त्र हैं — शफ़ी लानफ़ी, एक योद्धा की शॉल जो कभी राजकीय सम्मान के रूप में दी जाती थी, महीन वांगखेई फ़ी और किनारीदार मोइरांग फ़ी। शेष कृषि उत्पाद हैं: उखरुल का काचाई नींबू, तामेंगलोंग संतरा, सिरारखोंग हथेई मिर्च और चाक-हाओ काला चावल, जो नागालैंड के साथ साझा है।",
+        "mr": "जीआय रजिस्ट्रीच्या 31 डिसेंबर 2025 च्या यादीत सात जीआय मणिपूरचे आहेत. तीन 2011 मध्ये नोंदणीकृत हातमाग वस्त्रे आहेत — शफी लानफी, एकेकाळी राजसन्मान म्हणून दिली जाणारी योद्ध्याची शाल, बारीक वांगखेई फी आणि काठाची मोइरांग फी. उरलेली कृषी उत्पादने आहेत: उखरुलचा काचाई लिंबू, तामेंगलोंग संत्रे, सिरारखोंग हथेई मिरची आणि चाक-हाओ काळा तांदूळ, जो नागालँडसोबत सामायिक आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "gi-registry"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "gi",
+      "id": "gi"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Pending GI applications from Manipur",
+            "hi": "मणिपुर के लंबित जीआई आवेदन",
+            "mr": "मणिपूरचे प्रलंबित जीआय अर्ज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "gi-registry",
+          "note": "GI Registry application status search."
+        }
+      ]
+    }
+  ]
+}

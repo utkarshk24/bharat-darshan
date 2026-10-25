@@ -1,0 +1,96 @@
+{
+  "region": "IN-MN",
+  "module": "transport",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Manipur depends on two highways: NH-2 north through Kohima to Dimapur, and NH-37 west through Jiribam to Silchar in Assam. Both cross long stretches of hill road and are often hit by landslides and blockades, so supplies of fuel and food are easily disrupted. NH-102 (part of Asian Highway 1) runs south-east to Moreh on the Myanmar border. Bir Tikendrajit International Airport at Imphal has flights to Guwahati, Kolkata, Delhi and other cities and is the State's main link with the rest of India. The railway reaches Jiribam and Khongsang; the line to Imphal is under construction.",
+        "hi": "मणिपुर दो राजमार्गों पर निर्भर है: उत्तर में कोहिमा होकर दीमापुर तक एनएच-2, और पश्चिम में जिरीबाम होकर असम के सिलचर तक एनएच-37। दोनों लंबी पहाड़ी सड़कों से गुज़रते हैं और अक्सर भूस्खलन और नाकेबंदी से प्रभावित होते हैं, इसलिए ईंधन और खाद्य की आपूर्ति आसानी से बाधित होती है। एनएच-102 (एशियाई राजमार्ग 1 का भाग) दक्षिण-पूर्व में म्यांमार सीमा पर मोरेह तक जाता है। इंफाल का बीर टिकेंद्रजीत अंतरराष्ट्रीय हवाई अड्डा गुवाहाटी, कोलकाता, दिल्ली और अन्य नगरों से जुड़ा है और शेष भारत से राज्य की मुख्य कड़ी है। रेलवे जिरीबाम और खोंगसांग तक पहुँचती है; इंफाल तक लाइन निर्माणाधीन है।",
+        "mr": "मणिपूर दोन महामार्गांवर अवलंबून आहे: उत्तरेला कोहिमामार्गे दिमापूरपर्यंत एनएच-2, आणि पश्चिमेला जिरीबाममार्गे आसाममधील सिलचरपर्यंत एनएच-37. दोन्ही लांब डोंगरी रस्त्यांतून जातात आणि अनेकदा भूस्खलन व अडवणुकीने प्रभावित होतात, त्यामुळे इंधन व अन्नपुरवठा सहज विस्कळीत होतो. एनएच-102 (आशियाई महामार्ग 1 चा भाग) आग्नेयेला म्यानमार सीमेवरील मोरेहपर्यंत जातो. इंफाळचा बीर टिकेंद्रजीत आंतरराष्ट्रीय विमानतळ गुवाहाटी, कोलकाता, दिल्ली व इतर शहरांशी जोडलेला आहे आणि उर्वरित भारताशी राज्याचा मुख्य दुवा आहे. रेल्वे जिरीबाम व खोंगसांगपर्यंत पोहोचते; इंफाळपर्यंतचा मार्ग बांधकामाधीन आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "imf",
+          "name": {
+            "en": "Bir Tikendrajit International Airport, Imphal",
+            "hi": "बीर टिकेंद्रजीत अंतरराष्ट्रीय हवाई अड्डा, इंफाल",
+            "mr": "बीर टिकेंद्रजीत आंतरराष्ट्रीय विमानतळ, इंफाळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "IMF",
+            "hi": "IMF",
+            "mr": "IMF",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Inner Line Permit rules (since 2019)",
+            "hi": "इनर लाइन परमिट नियम (2019 से)",
+            "mr": "इनर लाइन परवाना नियम (2019 पासून)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Government of Manipur ILP portal."
+        },
+        {
+          "label": {
+            "en": "Passenger traffic at Imphal airport",
+            "hi": "इंफाल हवाई अड्डे पर यात्री यातायात",
+            "mr": "इंफाळ विमानतळावरील प्रवासी वाहतूक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "aai",
+          "note": "AAI traffic statistics."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "region": "IN-MN",
+  "module": "digital",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mobile and broadband networks cover Imphal and most district headquarters, but connectivity in hill villages is patchy. Mobile internet was suspended across the State for long periods after May 2023 under government orders, affecting business, banking and education. IIIT Manipur, NIT Manipur and Manipur University train students in computing and electronics.",
+        "hi": "मोबाइल और ब्रॉडबैंड नेटवर्क इंफाल और अधिकांश ज़िला मुख्यालयों को कवर करते हैं, पर पहाड़ी गाँवों में संपर्क कमज़ोर है। मई 2023 के बाद सरकारी आदेशों के तहत लंबे समय तक पूरे राज्य में मोबाइल इंटरनेट बंद रहा, जिससे व्यापार, बैंकिंग और शिक्षा प्रभावित हुए। आईआईआईटी मणिपुर, एनआईटी मणिपुर और मणिपुर विश्वविद्यालय कंप्यूटिंग और इलेक्ट्रॉनिक्स में छात्रों को प्रशिक्षित करते हैं।",
+        "mr": "मोबाइल व ब्रॉडबँड जाळे इंफाळ व बहुतेक जिल्हा मुख्यालयांना व्यापते, पण डोंगरी गावांत संपर्क कमकुवत आहे. मे 2023 नंतर सरकारी आदेशांनुसार दीर्घ काळ संपूर्ण राज्यात मोबाइल इंटरनेट बंद होते, ज्याचा व्यापार, बँकिंग व शिक्षणावर परिणाम झाला. आयआयआयटी मणिपूर, एनआयटी मणिपूर व मणिपूर विद्यापीठ संगणन व इलेक्ट्रॉनिक्सचे शिक्षण देतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (North East circle)."
+        }
+      ]
+    }
+  ]
+}

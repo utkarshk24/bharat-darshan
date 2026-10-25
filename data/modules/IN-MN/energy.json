@@ -1,0 +1,42 @@
+{
+  "region": "IN-MN",
+  "module": "energy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Manipur produces little of its own electricity. The Loktak hydroelectric project of NHPC, commissioned in 1983, uses water diverted from Loktak lake through a tunnel to a power house at Leimatak, and its barrage at Ithai changed the lake's water levels and the life of its phumdis. Most power comes from central stations in the North-East through the regional grid, and solar power and pre-paid smart meters are being expanded.",
+        "hi": "मणिपुर अपनी बहुत कम बिजली स्वयं बनाता है। एनएचपीसी की लोकटक जलविद्युत परियोजना, जो 1983 में चालू हुई, लोकटक झील से सुरंग के ज़रिए लेइमाताक के बिजलीघर तक मोड़े गए पानी का उपयोग करती है, और इथाई के बैराज ने झील के जलस्तर और उसकी फुमदियों के जीवन को बदल दिया। अधिकांश बिजली क्षेत्रीय ग्रिड के माध्यम से पूर्वोत्तर के केंद्रीय बिजलीघरों से आती है, और सौर ऊर्जा और प्रीपेड स्मार्ट मीटरों का विस्तार हो रहा है।",
+        "mr": "मणिपूर स्वतःची फार थोडी वीज निर्माण करते. एनएचपीसीचा लोकटक जलविद्युत प्रकल्प, 1983 मध्ये कार्यान्वित, लोकटक सरोवरातून बोगद्याने लेइमाताक येथील वीजघरापर्यंत वळवलेले पाणी वापरतो, आणि इथाई येथील बंधाऱ्याने सरोवराची पाणीपातळी व फुमदींचे जीवन बदलले. बहुतांश वीज प्रादेशिक ग्रिडद्वारे ईशान्येतील केंद्रीय वीजकेंद्रांतून येते, आणि सौरऊर्जा व प्रीपेड स्मार्ट मीटरांचा विस्तार होत आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity and peak demand",
+            "hi": "स्थापित क्षमता और अधिकतम माँग",
+            "mr": "स्थापित क्षमता व कमाल मागणी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report / load generation balance report."
+        }
+      ]
+    }
+  ]
+}

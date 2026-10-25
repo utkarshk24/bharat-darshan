@@ -12,7 +12,11 @@ import { cn } from "@/lib/cn";
 import { formatPeriod, formatValue, toDevanagariDigits } from "@/lib/format";
 import { usePreferences } from "@/components/Preferences";
 import { ZONAL_COLORS, TYPE_COLORS } from "./mapColors";
-import { GeoMap, type BoundaryManifest, type Capital, type GeoMapHandle } from "./GeoMap";
+import dynamic from "next/dynamic";
+import type { BoundaryManifest, Capital, GeoMapHandle } from "./GeoMap";
+
+// d3 and the boundary renderer load only when the map is about to be seen
+const GeoMap = dynamic(() => import("./GeoMap").then((m) => m.GeoMap), { ssr: false, loading: () => <div className="skeleton h-full w-full" /> });
 import { DATA_THEMES, OVERLAYS, PLANNED, buildScale, fillForTheme, isDataTheme, type Overlay, type ThemeId } from "./layers";
 import { exportPng } from "./exportPng";
 
@@ -67,8 +71,19 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
   const [status, setStatus] = useState("");
   const [restored, setRestored] = useState(compact);
 
+  // Start loading when the map is near the viewport (the home page map sits below the fold)
+  const [near, setNear] = useState(false);
+  useEffect(() => {
+    const el = wrapRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return setNear(true);
+    const io = new IntersectionObserver((es) => es.some((e) => e.isIntersecting) && (setNear(true), io.disconnect()), { rootMargin: compact ? "0px" : "300px" });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [compact]);
+
   // Load manifest → boundary file + capitals
   useEffect(() => {
+    if (!near) return;
     (async () => {
       try {
         const m = await (await fetch(`${BASE}/maps/manifest.json`)).json();
@@ -84,7 +99,7 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
         setView("table");
       }
     })();
-  }, []);
+  }, [near]);
 
   // Restore a shared view
   useEffect(() => {

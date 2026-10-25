@@ -1,0 +1,70 @@
+{
+  "region": "IN-PY",
+  "module": "civic",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Puducherry",
+            "hi": "पुडुचेरी सरकार",
+            "mr": "पुदुच्चेरी शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://py.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "assembly",
+          "name": {
+            "en": "Puducherry Legislative Assembly (NeVA)",
+            "hi": "पुडुचेरी विधानसभा (नेवा)",
+            "mr": "पुदुच्चेरी विधानसभा (नेवा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://puddu.neva.gov.in",
+          "sourceId": "py-assembly"
+        },
+        {
+          "id": "rti",
+          "name": {
+            "en": "RTI Online (Government of India)",
+            "hi": "आरटीआई ऑनलाइन (भारत सरकार)",
+            "mr": "माहितीचा अधिकार ऑनलाइन (भारत सरकार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rtionline.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official websites",
+        "hi": "आधिकारिक वेबसाइटें",
+        "mr": "अधिकृत संकेतस्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

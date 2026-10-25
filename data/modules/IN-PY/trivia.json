@@ -1,0 +1,68 @@
+{
+  "region": "IN-PY",
+  "module": "trivia",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "sr",
+          "name": {
+            "en": "Puducherry had 1,037 women per 1,000 men in 2011.",
+            "hi": "2011 में पुडुचेरी में प्रति 1,000 पुरुषों पर 1,037 महिलाएँ थीं।",
+            "mr": "2011 मध्ये पुदुच्चेरीत दर 1,000 पुरुषांमागे 1,037 स्त्रिया होत्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://statistics.py.gov.in/state-wise-population",
+          "sourceId": "census"
+        },
+        {
+          "id": "four",
+          "name": {
+            "en": "The UT's four regions lie on three different coasts and in three neighbouring States.",
+            "hi": "केंद्र शासित प्रदेश के चार क्षेत्र तीन अलग तटों और तीन पड़ोसी राज्यों में हैं।",
+            "mr": "केंद्रशासित प्रदेशाचे चार प्रदेश तीन वेगवेगळ्या किनाऱ्यांवर व तीन शेजारच्या राज्यांत आहेत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gi",
+          "name": {
+            "en": "Villianur terracotta and Tirukanur papier-mâché are registered GIs.",
+            "hi": "विल्लियनूर टेराकोटा और तिरुकानूर पेपर मैशे पंजीकृत जीआई हैं।",
+            "mr": "विल्लियनूर टेराकोटा व तिरुकानूर पेपर मॅशे नोंदणीकृत जीआय आहेत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "sourceId": "gi-registry"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

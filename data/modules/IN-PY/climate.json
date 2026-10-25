@@ -1,0 +1,81 @@
+{
+  "region": "IN-PY",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Puducherry and Karaikal have a hot, humid coastal climate, with most rain from the north-east monsoon in October–December and frequent cyclones; Mahe gets heavy south-west monsoon rain; and Yanam is hot in summer. December to March is the most pleasant time to visit.",
+        "hi": "पुडुचेरी और कराईकल की जलवायु गर्म, आर्द्र तटीय है, जहाँ अधिकांश वर्षा अक्टूबर–दिसंबर में उत्तर-पूर्व मानसून से होती है और चक्रवात बार-बार आते हैं; माहे में भारी दक्षिण-पश्चिम मानसूनी वर्षा होती है; और यनम गर्मियों में गर्म रहता है। दिसंबर से मार्च घूमने का सबसे सुहावना समय है।",
+        "mr": "पुदुच्चेरी व कराईकलचे हवामान उष्ण, दमट किनारी आहे, जिथे बहुतांश पाऊस ऑक्टोबर–डिसेंबरमध्ये ईशान्य मान्सूनमुळे पडतो व चक्रीवादळे वारंवार येतात; माहेमध्ये मुसळधार नैर्ऋत्य मान्सूनी पाऊस पडतो; आणि यानम उन्हाळ्यात उष्ण असते. डिसेंबर ते मार्च भेटीसाठी सर्वांत सुखद काळ आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Puducherry",
+            "hi": "पुडुचेरी",
+            "mr": "पुदुच्चेरी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 11.9416,
+          "lon": 79.8083
+        },
+        {
+          "name": {
+            "en": "Karaikal",
+            "hi": "कराईकल",
+            "mr": "कराईकल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 10.9254,
+          "lon": 79.838
+        },
+        {
+          "name": {
+            "en": "Mahe",
+            "hi": "माहे",
+            "mr": "माहे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 11.701,
+          "lon": 75.5365
+        },
+        {
+          "name": {
+            "en": "Yanam",
+            "hi": "यनम",
+            "mr": "यानम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 16.7333,
+          "lon": 82.2167
+        }
+      ]
+    }
+  ]
+}

@@ -16,7 +16,6 @@ const load = (): RawFiles => ({
 });
 const errors = (raw: RawFiles) => validateDataset(raw, new Date("2026-10-13")).filter((f) => f.severity === "error");
 const mh = (raw: RawFiles) => raw.regions.find((r) => r.file.endsWith("IN-MH.json"))!.json as any;
-const seed = (raw: RawFiles) => raw.regions.find((r) => r.file.endsWith("IN-LD.json"))!.json as any;
 
 describe("dataset", () => {
   it("passes validation with no errors", () => expect(errors(load())).toEqual([]));
@@ -29,7 +28,7 @@ describe("dataset", () => {
 
   it("rejects a null value not marked TODO", () => {
     const raw = load();
-    seed(raw).metrics.area.revisionStatus = "final";
+    mh(raw).metrics.area = { ...mh(raw).metrics.area, value: null, note: undefined, revisionStatus: "final" };
     expect(errors(raw).length).toBeGreaterThan(0);
   });
 
@@ -49,7 +48,7 @@ describe("dataset", () => {
 
   it("rejects period strings that don't match their type", () => {
     const raw = load();
-    seed(raw).metrics.gsdpCurrent.period = "2023-24";
+    mh(raw).metrics.gsdpCurrent.period = "2023-24";
     expect(errors(raw).some((e) => e.path.includes("period"))).toBe(true);
   });
 

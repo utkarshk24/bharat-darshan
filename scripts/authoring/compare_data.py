@@ -4,13 +4,13 @@ import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 from common import *
 
-REGIONS = ["IN-MH", "IN-TN", "IN-UP", "IN-KL", "IN-KA", "IN-GJ", "IN-WB", "IN-AP", "IN-TG", "IN-RJ", "IN-MP", "IN-BR", "IN-OR", "IN-JH", "IN-CT", "IN-AS", "IN-PB", "IN-HR", "IN-HP", "IN-UK", "IN-JK", "IN-GA", "IN-DL", "IN-LA", "IN-SK", "IN-AR", "IN-NL", "IN-MN", "IN-ML"]
+REGIONS = ["IN-MH", "IN-TN", "IN-UP", "IN-KL", "IN-KA", "IN-GJ", "IN-WB", "IN-AP", "IN-TG", "IN-RJ", "IN-MP", "IN-BR", "IN-OR", "IN-JH", "IN-CT", "IN-AS", "IN-PB", "IN-HR", "IN-HP", "IN-UK", "IN-JK", "IN-GA", "IN-DL", "IN-LA", "IN-SK", "IN-AR", "IN-NL", "IN-MN", "IN-ML", "IN-MZ", "IN-TR", "IN-AN", "IN-CH", "IN-DH", "IN-LD", "IN-PY"]
 SHORT = {c: c[3:] for c in REGIONS}
 reg = {c: read(f"regions/{c}.json") for c in REGIONS}
 ind = read("india.json")
 mo = {"MH": research("mospi.json"), "KL": research("mospi_kl.json"), "DL": research("mospi_dl.json"),
       "TN": research("mospi_tn.json"), "UP": research("mospi_up.json"),
-      **{k: research(f"mospi_{k.lower()}.json") for k in ("KA", "GJ", "WB", "AP", "TG", "RJ", "MP", "BR", "OR", "JH", "CT", "PB", "HP", "UK", "JK", "GA", "SK", "AR", "MN", "ML")}}
+      **{k: research(f"mospi_{k.lower()}.json") for k in ("KA", "GJ", "WB", "AP", "TG", "RJ", "MP", "BR", "OR", "JH", "CT", "PB", "HP", "UK", "JK", "GA", "SK", "AR", "MN", "ML", "MZ", "TR", "AN", "CH", "PY")}}
 gdp = research("mospi_india_gdp.json")["gdp"]
 srs = NF["SRS_2021_PIB_PRID2128024"]
 SRS_TN = {"MMR_2019_21": 49, "U5MR": 14, "NMR": 9}

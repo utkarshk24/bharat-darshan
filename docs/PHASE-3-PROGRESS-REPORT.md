@@ -2,7 +2,7 @@
 
 Last updated: 25 October 2026. Status: **draft, awaiting your review.**
 
-Twenty-five of the remaining 32 regions are now complete: Tamil Nadu (batch 1); Uttar Pradesh, Karnataka, Gujarat and West Bengal (batch 2, section 3); Andhra Pradesh, Telangana, Rajasthan, Madhya Pradesh and Bihar (batch 3, section 4); Odisha, Jharkhand, Chhattisgarh, Assam and Punjab (batch 4, section 5); Haryana, Himachal Pradesh, Uttarakhand, Jammu and Kashmir and Goa (batch 5, section 6); and Sikkim, Arunachal Pradesh, Nagaland, Manipur and Meghalaya (batch 6, section 8). Section 7 covers the new India map.
+All 32 remaining regions are now complete (sections 2–6, 8 and 9); with the four Phase 2 reference profiles, every State and UT has a profile. Section 7 covers the India map.
 
 ## 1. Quality checks (the MVP release criteria)
 
@@ -578,6 +578,67 @@ All 26 sections of each profile are written in English, Hindi and Marathi, in th
 5. **West Bengal GI list.** Add Dalle Khursani, shared with Sikkim.
 6. **Translations.** Hindi and Marathi text of the five profiles, especially Khasi, Garo, Meitei and Naga names, need a native-speaker read.
 
-## Next batch
+## 9. Phase 3, batch 7: Mizoram, Tripura, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Lakshadweep, Puducherry
 
-Mizoram, Tripura, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Lakshadweep and Puducherry (the last seven regions).
+This completes Phase 3: **all 36 States and Union Territories now have profiles** in English, Hindi and Marathi. The five smaller UTs use a shared set of building blocks (`scripts/authoring/ut_kit.py`), so each is one script.
+
+**Officeholders** (as of 25 October 2026):
+
+| Region | Governor / LG / Administrator | Chief Minister | Speaker |
+|---|---|---|---|
+| Mizoram | Gen. V. K. Singh (Retd), since 16 Jan 2025 (News On AIR) | Lalduhoma (ZPM), since 8 Dec 2023 (*third-party*) | Lalbiakzama (ZPM), since 12 Dec 2023 (Assembly bulletin) |
+| Tripura | N. Indrasena Reddy, since 26 Oct 2023 (*third-party*) | Manik Saha (BJP), second term from 8 Mar 2023 (*third-party*) | **Not shown.** Biswa Bandhu Sen died on 26 Dec 2025, and no official source for his successor was found |
+| Andaman and Nicobar Islands | **LG Dinesh Sharma, since 15 Sep 2026** (*third-party*) | — | — |
+| Chandigarh | Administrator Gulab Chand Kataria (Governor of Punjab), since 31 Jul 2024 (News On AIR) | — | — |
+| DNH and Daman and Diu | Administrator Praful Khoda Patel (UT Lakshadweep page; start date to confirm) | — | — |
+| Lakshadweep | Administrator Praful Khoda Patel, since 5 Dec 2020 (UT Lakshadweep) | — | — |
+| Puducherry | LG K. Kailashnathan, since 7 Aug 2024 (News On AIR) | **N. Rangasamy (AINRC), fifth term from 13 May 2026**; the NDA won 18 of 30 seats (*third-party*) | A. Anbalagan (AIADMK), as listed on the Assembly's NeVA portal; election date to confirm |
+
+**Data notes:**
+- **MoSPI GSDP** is available for Mizoram, Tripura, Andaman and Nicobar, Chandigarh and Puducherry (latest year FY2024-25). DNH and Daman and Diu and Lakshadweep have no MoSPI series, so they show "Not available".
+- **Dadra and Nagar Haveli and Daman and Diu** were separate UTs at the 2011 Census. Population (5,86,956) and sex ratio (706) are computed by adding the two. Literacy and child sex ratio are shown separately, not combined, because combining them needs the age-group populations.
+- **Mizoram's GSVA** shows electricity, gas and water at about 23%. That is what MoSPI reports. An explanation from the State has been requested as a gap.
+- **Lakshadweep's AISHE GER** fell from 7.2% (2020-21) to 1.1% (2021-22). This is flagged as a likely reporting change.
+- **PLFS, NFHS-5, SRS, ISFR 2023 and Census 2011** data were added for all seven regions. Child stunting rose in Tripura (24.3% → 32.3%) and Lakshadweep, and was 39.4% in DNH and Daman and Diu. Unemployment was high in the Andaman and Nicobar Islands (10.0% in 2025).
+- **Ramsar sites:** Mizoram 1 (Pala) and Tripura 1 (Rudrasagar). The five UTs have none.
+- **GIs:** Mizoram 7, Tripura 4, Andaman and Nicobar 7, Puducherry 2, and Warli painting shared with DNH and Daman and Diu. The GI directory now has **684 products**.
+- **District boundaries** for all seven regions match the LGD file, so they are drawn on the map.
+
+**Projects:**
+
+| Project | Status | Source |
+|---|---|---|
+| Bairabi–Sairang railway, Mizoram | Completed (13 Sep 2025), ₹8,070 crore | News On AIR |
+| Veer Savarkar airport terminal, Sri Vijaya Puram | Completed (18 Jul 2023), about ₹710 crore | News On AIR |
+| NAMO Hospital, Silvassa | Completed (7 Mar 2025), about ₹460 crore | Deccan Herald (*third-party*) |
+| Kochi–Lakshadweep submarine fibre (KLI-SOFC) | Completed (3 Jan 2024) | PMO |
+
+Tripura, Chandigarh and Puducherry have no project cards yet. Their prose lists candidate projects, such as the Agartala–Akhaura rail link and the Tricity metro, to be added once official status is found. The Great Nicobar project is described neutrally in prose only, with its status left as a gap.
+
+**Also changed:**
+- `/compare` now covers all 36 regions.
+- The axe scan covers 29 pages, adding Puducherry government (en), Tripura culture (hi) and Lakshadweep nature (mr).
+- The data tests no longer depend on an empty profile.
+- `aishe_block` now accepts a missing university or college count.
+- **Sources added:** Mizoram Assembly, Puducherry Assembly (NeVA), UT Lakshadweep. Third-party: The Sentinel, Udayavani and Organiser.
+
+### Checks run (batch 7)
+
+| Check | Result |
+|---|---|
+| validate-data | 0 errors, 0 warnings, 1,726 gaps |
+| Tests | 73/73 |
+| Type check | clean |
+| Static build and axe | see the commit; the GitHub Actions run is the record |
+
+### Please check (batch 7)
+
+1. **Tripura Speaker.** Confirm the current Speaker from the Assembly.
+2. **Puducherry Speaker** and the **DNH and Daman and Diu Administrator** start dates.
+3. **Third-party officeholder sources** for Mizoram, Tripura, Andaman and Nicobar and Puducherry: replace them with official releases.
+4. **DNH and Daman and Diu Census:** add combined literacy and child sex ratio from the Census tables.
+5. **Translations** of the seven profiles need a native-speaker read, especially Mizo, Kokborok, Nicobarese and Mahl names.
+
+## Next steps
+
+Phase 3 content is complete. What remains is review: the "Please check" lists in each section, the third-party sources to be replaced with official ones, and the data gaps in `docs/DATA-GAP-REPORT.md`. The planned map layers (rivers, protected areas, transport, UNESCO sites, hazards, timeline) still need official data.

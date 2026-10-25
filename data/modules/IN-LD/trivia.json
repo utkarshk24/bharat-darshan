@@ -1,0 +1,56 @@
+{
+  "region": "IN-LD",
+  "module": "trivia",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "smallest",
+          "name": {
+            "en": "Lakshadweep had 64,473 people in 2011 on about 30 km² of land.",
+            "hi": "2011 में लक्षद्वीप में लगभग 30 वर्ग किमी भूमि पर 64,473 लोग थे।",
+            "mr": "2011 मध्ये लक्षद्वीपमध्ये सुमारे 30 चौ.किमी जमिनीवर 64,473 लोक होते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://statistics.py.gov.in/state-wise-population",
+          "sourceId": "census"
+        },
+        {
+          "id": "fibre",
+          "name": {
+            "en": "The 2024 fibre link raised internet capacity from 1.7 to 200 Gbps.",
+            "hi": "2024 के फ़ाइबर लिंक ने इंटरनेट क्षमता 1.7 से 200 जीबीपीएस की।",
+            "mr": "2024 च्या फायबर जोडणीने इंटरनेट क्षमता 1.7 वरून 200 जीबीपीएस केली.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.pmindia.gov.in/?p=16351284",
+          "sourceId": "pmindia"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

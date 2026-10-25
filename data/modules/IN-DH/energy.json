@@ -1,0 +1,42 @@
+{
+  "region": "IN-DH",
+  "module": "energy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The UT buys almost all its electricity from central power stations through the western grid; demand is dominated by industry in Silvassa and Daman. Diu has solar plants that supply much of its daytime demand.",
+        "hi": "केंद्र शासित प्रदेश अपनी लगभग पूरी बिजली पश्चिमी ग्रिड से केंद्रीय बिजलीघरों से ख़रीदता है; माँग में सिलवासा और दमन के उद्योग प्रमुख हैं। दीव में सौर संयंत्र हैं जो दिन की माँग का बड़ा भाग पूरा करते हैं।",
+        "mr": "केंद्रशासित प्रदेश जवळपास सर्व वीज पश्चिम ग्रिडमार्फत केंद्रीय वीजकेंद्रांकडून खरेदी करतो; मागणीत सिलवासा व दमणमधील उद्योग प्रमुख आहेत. दीवमध्ये सौर प्रकल्प आहेत जे दिवसाच्या मागणीचा मोठा भाग पुरवतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Diu solar — official record",
+            "hi": "दीव सौर — आधिकारिक अभिलेख",
+            "mr": "दीव सौर — अधिकृत नोंद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "mnre",
+          "note": "UT Electricity Department / MNRE."
+        }
+      ]
+    }
+  ]
+}

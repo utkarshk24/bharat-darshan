@@ -1,0 +1,216 @@
+{
+  "region": "IN-DH",
+  "module": "people",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The two former UTs together had about 5,86,956 people at the 2011 Census. Their sex ratios were unusually low — 774 women per 1,000 men in Dadra and Nagar Haveli and 618 in Daman and Diu — because of the many male workers who came for factory jobs. Literacy was 76.2% in Dadra and Nagar Haveli and 87.1% in Daman and Diu. Scheduled Tribes, mainly the Warli, Kokna, Dhodia and Dubla, made up 52% of the population of Dadra and Nagar Haveli. Gujarati, Hindi and Marathi are widely spoken, and Portuguese is still heard among older residents of Daman and Diu.",
+        "hi": "2011 की जनगणना में दोनों पूर्व केंद्र शासित प्रदेशों की कुल जनसंख्या लगभग 5,86,956 थी। उनके लिंगानुपात असामान्य रूप से कम थे — दादरा और नगर हवेली में प्रति 1,000 पुरुषों पर 774 महिलाएँ और दमन और दीव में 618 — कारख़ानों में नौकरी के लिए आए बहुत से पुरुष मज़दूरों के कारण। साक्षरता दादरा और नगर हवेली में 76.2% और दमन और दीव में 87.1% थी। अनुसूचित जनजातियाँ, मुख्यतः वारली, कोकना, धोडिया और दुबला, दादरा और नगर हवेली की जनसंख्या का 52% थीं। गुजराती, हिंदी और मराठी व्यापक रूप से बोली जाती हैं, और दमन और दीव के पुराने निवासियों में पुर्तगाली अब भी सुनाई देती है।",
+        "mr": "2011 च्या जनगणनेनुसार दोन्ही पूर्वीच्या केंद्रशासित प्रदेशांची एकूण लोकसंख्या सुमारे 5,86,956 होती. त्यांचे लिंग गुणोत्तर असामान्यपणे कमी होते — दादरा आणि नगर हवेलीत दर 1,000 पुरुषांमागे 774 स्त्रिया व दमण आणि दीवमध्ये 618 — कारखान्यांतील नोकऱ्यांसाठी आलेल्या अनेक पुरुष कामगारांमुळे. साक्षरता दादरा आणि नगर हवेलीत 76.2% व दमण आणि दीवमध्ये 87.1% होती. अनुसूचित जमाती, मुख्यतः वारली, कोकणा, धोडिया व दुबळा, दादरा आणि नगर हवेलीच्या लोकसंख्येच्या 52% होत्या. गुजराती, हिंदी व मराठी मोठ्या प्रमाणावर बोलल्या जातात, आणि दमण व दीवच्या जुन्या रहिवाशांत पोर्तुगीज अजूनही ऐकू येते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "census",
+        "es-india",
+        "dl-planning",
+        "pib"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 586956,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 was taken for the two former UTs separately; the combined figure is computed here. Dadra and Nagar Haveli 3,43,709; Daman and Diu 2,43,247 (Puducherry DES table citing ORGI)."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 706,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Computed from combined males 3,44,061 and females 2,42,895. Separately: Dadra and Nagar Haveli 774, Daman and Diu 618."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": null,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "es-india",
+            "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+            "accessDate": null,
+            "dataLevel": "state",
+            "revisionStatus": "TODO",
+            "confidence": "Official",
+            "note": "Not combined: Dadra and Nagar Haveli 76.2%, Daman and Diu 87.1% (Economic Survey 2021-22, Table 8.5). A combined rate needs the population aged 7+."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 975,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: combined Census 2011 population 5,86,956 ÷ 602 km²."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "st",
+          "label": {
+            "en": "Scheduled Tribes, Dadra and Nagar Haveli",
+            "hi": "अनुसूचित जनजातियाँ, दादरा और नगर हवेली",
+            "mr": "अनुसूचित जमाती, दादरा आणि नगर हवेली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 52.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "dl-planning",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/17._table_social_welfare.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Delhi Planning Department, table 17.2, citing Census 2011 for the former UT of Dadra and Nagar Haveli (1.78 lakh). Daman and Diu: 6.3%."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

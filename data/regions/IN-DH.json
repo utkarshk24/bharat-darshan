@@ -33,60 +33,60 @@
       }
     }
   ],
-  "officialPortal": null,
+  "officialPortal": "https://ddd.gov.in",
   "symbols": {},
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 586956,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 was taken for the two former UTs separately; the combined figure is computed here. Dadra and Nagar Haveli 3,43,709; Daman and Diu 2,43,247 (Puducherry DES table citing ORGI)."
     },
     "area": {
-      "value": null,
+      "value": 602,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 975,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: combined Census 2011 population 5,86,956 ÷ 602 km²."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 706,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Computed from combined males 3,44,061 and females 2,42,895. Separately: Dadra and Nagar Haveli 774, Daman and Diu 618."
     },
     "childSexRatio2011": {
       "value": null,
@@ -94,25 +94,25 @@
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
       "accessDate": null,
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Not combined: the two former UTs had 926 (Dadra and Nagar Haveli) and 904 (Daman and Diu) in 2011 (PIB, 11 Feb 2014). A combined figure needs the 0–6 population."
     },
     "literacyRate2011": {
       "value": null,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
       "accessDate": null,
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Not combined: Dadra and Nagar Haveli 76.2%, Daman and Diu 87.1% (Economic Survey 2021-22, Table 8.5). A combined rate needs the population aged 7+."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,12 +125,12 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Needs the Census 2011 Primary Census Abstract for both former UTs."
     },
     "gsdpCurrent": {
       "value": null,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
       "url": null,
@@ -138,15 +138,15 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI's state series returned no rows for Dadra and Nagar Haveli and Daman and Diu."
     },
     "perCapitaNsdpCurrent": {
       "value": null,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
       "url": null,
@@ -154,46 +154,129 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "Not published by MoSPI for this UT."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 37.48,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 225.62 km² ÷ geographical area 602 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "administrator",
-      "name": null,
+      "name": {
+        "en": "Praful Khoda Patel",
+        "hi": "प्रफुल्ल खोड़ा पटेल",
+        "mr": "प्रफुल्ल खोडा पटेल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
       "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "asOf": "2026-10-25",
+      "sourceId": "ld-gov",
+      "url": "https://lakshadweep.gov.in/about-lakshadweep/profile-administrator/",
+      "verifyUrl": "https://ddd.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Administrator of Dadra and Nagar Haveli and Daman and Diu (also Administrator of Lakshadweep since 5 December 2020), as stated on the Lakshadweep Administration's profile page. He became Administrator of the merged UT when it was formed on 26 January 2020; the start date is to be confirmed from an official notification."
     },
-    "headOfGovernment": null
+    "headOfGovernment": null,
+    "others": []
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "namo-hospital",
+      "name": {
+        "en": "NAMO Hospital (Phase I), Silvassa",
+        "hi": "नमो अस्पताल (चरण I), सिलवासा",
+        "mr": "नमो रुग्णालय (टप्पा I), सिलवासा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A 450-bed hospital in Silvassa, built at a cost of about ₹460 crore and inaugurated by the Prime Minister on 7 March 2025, to give the UT and nearby tribal areas of Gujarat and Maharashtra specialist care close to home. It is attached to the NAMO Medical Education and Research Institute.",
+        "hi": "सिलवासा में 450 बिस्तरों वाला अस्पताल, जो लगभग ₹460 करोड़ की लागत से बना और जिसका प्रधानमंत्री ने 7 मार्च 2025 को उद्घाटन किया, ताकि केंद्र शासित प्रदेश और गुजरात व महाराष्ट्र के पास के जनजातीय क्षेत्रों को घर के पास विशेषज्ञ उपचार मिले। यह नमो चिकित्सा शिक्षा एवं अनुसंधान संस्थान से जुड़ा है।",
+        "mr": "सिलवासा येथील 450 खाटांचे रुग्णालय, जे सुमारे ₹460 कोटी खर्चून बांधले गेले व ज्याचे पंतप्रधानांनी 7 मार्च 2025 रोजी उद्घाटन केले, जेणेकरून केंद्रशासित प्रदेश व गुजरात आणि महाराष्ट्रातील जवळच्या आदिवासी भागांना घराजवळ विशेषज्ञ उपचार मिळावेत. ते नमो वैद्यकीय शिक्षण व संशोधन संस्थेशी संलग्न आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "health",
+      "agency": "UT Administration of DNH and DD",
+      "start": null,
+      "completion": "7 March 2025",
+      "status": "Completed",
+      "asOf": "2026-10-25",
+      "sourceId": "deccan-herald",
+      "url": "https://www.deccanherald.com/amp/story/india%2Fdaman-and-diu%2Fpm-modi-inaugurates-namo-hospital-in-silvassa-3436729",
+      "confidence": "Third-party verified",
+      "cost": {
+        "value": 460,
+        "unit": "₹ crore",
+        "period": "2025",
+        "periodType": "calendar",
+        "sourceId": "deccan-herald",
+        "url": "https://www.deccanherald.com/amp/story/india%2Fdaman-and-diu%2Fpm-modi-inaugurates-namo-hospital-in-silvassa-3436729",
+        "accessDate": "2026-10-25",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "About ₹460 crore (Deccan Herald/PTI, 7 Mar 2025)."
+      }
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "warli-painting",
+      "name": {
+        "en": "Warli Painting",
+        "hi": "वारली चित्रकला",
+        "mr": "वारली चित्रकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "239",
+      "filingDate": "2011-07-06",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Maharashtra",
+        "Gujarat"
+      ]
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-25",
+    "editorialStatus": "draft"
   }
 }

@@ -33,86 +33,135 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://lakshadweep.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Butterfly fish",
+        "hi": "तितली मछली",
+        "mr": "फुलपाखरू मासा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Chaetodon spp.",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Sooty tern",
+        "hi": "सूटी टर्न",
+        "mr": "सुटी टर्न",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Onychoprion fuscatus",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Breadfruit",
+        "hi": "ब्रेडफ़्रूट",
+        "mr": "नीरफणस",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Artocarpus altilis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 64473,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 33,123; females 31,350."
     },
     "area": {
-      "value": null,
+      "value": 30,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 2149,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population ÷ area 30 km²."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 946,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (948 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 911,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 959 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 91.8,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,12 +174,12 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
       "value": null,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
       "url": null,
@@ -138,15 +187,15 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI's state series returned no rows for Lakshadweep."
     },
     "perCapitaNsdpCurrent": {
       "value": null,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
       "url": null,
@@ -154,46 +203,86 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "Not published by MoSPI for Lakshadweep."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 90.2,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 27.06 km² ÷ geographical area 30 km². Most of it is coconut-dominated tree cover classed as forest by ISFR."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "administrator",
-      "name": null,
+      "name": {
+        "en": "Praful Khoda Patel",
+        "hi": "प्रफुल्ल खोड़ा पटेल",
+        "mr": "प्रफुल्ल खोडा पटेल",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2020-12-05",
+      "asOf": "2026-10-25",
+      "sourceId": "ld-gov",
+      "url": "https://lakshadweep.gov.in/about-lakshadweep/profile-administrator/",
+      "verifyUrl": "https://lakshadweep.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Administrator of Lakshadweep since 5 December 2020 (Lakshadweep Administration profile page); also Administrator of Dadra and Nagar Haveli and Daman and Diu."
     },
-    "headOfGovernment": null
+    "headOfGovernment": null,
+    "others": []
   },
-  "projects": [],
+  "projects": [
+    {
+      "id": "kli-sofc",
+      "name": {
+        "en": "Kochi–Lakshadweep Islands Submarine Optical Fibre Connection (KLI-SOFC)",
+        "hi": "कोच्चि–लक्षद्वीप द्वीप समुद्री ऑप्टिकल फ़ाइबर कनेक्शन (केएलआई-एसओएफ़सी)",
+        "mr": "कोची–लक्षद्वीप बेटे सागरी ऑप्टिकल फायबर जोडणी (केएलआय-एसओएफसी)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A submarine optical-fibre cable from Kochi that connected Lakshadweep by fibre for the first time, inaugurated by the Prime Minister at Kavaratti on 3 January 2024. It raised internet capacity more than a hundredfold, from 1.7 Gbps to 200 Gbps, with benefits for telemedicine, e-governance and education. It was one of projects worth more than ₹1,150 crore launched that day.",
+        "hi": "कोच्चि से समुद्री ऑप्टिकल फ़ाइबर केबल, जिसने पहली बार लक्षद्वीप को फ़ाइबर से जोड़ा; प्रधानमंत्री ने 3 जनवरी 2024 को कवरत्ती में इसका उद्घाटन किया। इससे इंटरनेट क्षमता 1.7 जीबीपीएस से 200 जीबीपीएस, यानी सौ गुना से अधिक बढ़ी, जिससे टेलीमेडिसिन, ई-शासन और शिक्षा को लाभ हुआ। यह उस दिन शुरू की गई ₹1,150 करोड़ से अधिक की परियोजनाओं में से एक थी।",
+        "mr": "कोचीहून सागरी ऑप्टिकल फायबर केबल, जिने प्रथमच लक्षद्वीपला फायबरने जोडले; पंतप्रधानांनी 3 जानेवारी 2024 रोजी कवरत्ती येथे तिचे उद्घाटन केले. यामुळे इंटरनेट क्षमता 1.7 जीबीपीएसवरून 200 जीबीपीएस, म्हणजे शंभरपटीहून अधिक वाढली, ज्याचा टेलिमेडिसिन, ई-शासन व शिक्षणाला लाभ झाला. त्या दिवशी सुरू झालेल्या ₹1,150 कोटींहून अधिक किमतीच्या प्रकल्पांपैकी हा एक होता.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "telecom",
+      "agency": "BSNL / Department of Telecommunications",
+      "start": null,
+      "completion": "3 January 2024",
+      "status": "Completed",
+      "asOf": "2026-10-25",
+      "sourceId": "pmindia",
+      "url": "https://www.pmindia.gov.in/?p=16351284",
+      "confidence": "Official"
+    }
+  ],
   "giProducts": [],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-25",
+    "editorialStatus": "draft"
   }
 }

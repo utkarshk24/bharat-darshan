@@ -1,0 +1,48 @@
+{
+  "region": "IN-LD",
+  "module": "government",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Lakshadweep is a Union Territory without a legislature, run by an Administrator appointed by the President, with an elected District Panchayat and island (dweep) panchayats. It elects one member to the Lok Sabha, and courts come under the Kerala High Court. Praful Khoda Patel has been Administrator since December 2020; some of the regulations proposed by the Administration since 2021 have been debated and challenged in court.",
+        "hi": "लक्षद्वीप बिना विधानसभा वाला केंद्र शासित प्रदेश है, जिसे राष्ट्रपति द्वारा नियुक्त प्रशासक चलाते हैं, निर्वाचित ज़िला पंचायत और द्वीप पंचायतों के साथ। इससे लोकसभा का एक सदस्य चुना जाता है, और न्यायालय केरल उच्च न्यायालय के अंतर्गत हैं। प्रफुल्ल खोड़ा पटेल दिसंबर 2020 से प्रशासक हैं; 2021 से प्रशासन द्वारा प्रस्तावित कुछ विनियमों पर बहस हुई है और उन्हें न्यायालय में चुनौती दी गई है।",
+        "mr": "लक्षद्वीप हा विधिमंडळ नसलेला केंद्रशासित प्रदेश असून राष्ट्रपतींनी नेमलेले प्रशासक त्याचा कारभार पाहतात, निवडून आलेली जिल्हा पंचायत व बेट (द्वीप) पंचायतींसह. येथून लोकसभेवर एक सदस्य निवडला जातो, आणि न्यायालये केरळ उच्च न्यायालयाच्या अखत्यारीत आहेत. प्रफुल्ल खोडा पटेल डिसेंबर 2020 पासून प्रशासक आहेत; 2021 पासून प्रशासनाने प्रस्तावित केलेल्या काही नियमनांवर चर्चा झाली असून त्यांना न्यायालयात आव्हान देण्यात आले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "ld-gov"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Status of draft regulations (2021) — official record",
+            "hi": "मसौदा विनियमों (2021) की स्थिति — आधिकारिक अभिलेख",
+            "mr": "मसुदा नियमनांची (2021) स्थिती — अधिकृत नोंद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "MHA / Lakshadweep Administration; Kerala High Court orders."
+        }
+      ]
+    }
+  ]
+}

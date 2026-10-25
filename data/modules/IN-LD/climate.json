@@ -1,0 +1,55 @@
+{
+  "region": "IN-LD",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The climate is warm and humid all year, between about 25 and 32 °C. The south-west monsoon from late May to September brings rough seas, when most boat and ship services are reduced; October to April is calm and dry and is the visiting season.",
+        "hi": "जलवायु पूरे वर्ष गर्म और आर्द्र रहती है, लगभग 25 से 32 °C के बीच। मई के अंत से सितंबर तक दक्षिण-पश्चिम मानसून समुद्र को अशांत करता है, जब अधिकांश नौका और जहाज़ सेवाएँ कम हो जाती हैं; अक्टूबर से अप्रैल शांत और सूखा रहता है और घूमने का मौसम है।",
+        "mr": "हवामान वर्षभर उष्ण व दमट असते, सुमारे 25 ते 32 °C. मेच्या अखेरीपासून सप्टेंबरपर्यंत नैर्ऋत्य मान्सून समुद्र खवळवतो, तेव्हा बहुतेक नौका व जहाज सेवा कमी होतात; ऑक्टोबर ते एप्रिल शांत व कोरडा असतो आणि भेटीचा हंगाम असतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Kavaratti",
+            "hi": "कवरत्ती",
+            "mr": "कवरत्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 10.5669,
+          "lon": 72.642
+        },
+        {
+          "name": {
+            "en": "Minicoy",
+            "hi": "मिनिकॉय",
+            "mr": "मिनिकॉय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 8.2833,
+          "lon": 73.05
+        }
+      ]
+    }
+  ]
+}

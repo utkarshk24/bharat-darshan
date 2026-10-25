@@ -1,0 +1,194 @@
+{
+  "region": "IN-LD",
+  "module": "overview",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "intro",
+      "body": {
+        "en": "Lakshadweep, 'a hundred thousand islands', is a Union Territory of only about 30 km² of land: a group of coral atolls, islands and reefs in the Arabian Sea, about 200–440 km off the Kerala coast. Ten islands are inhabited, among them Kavaratti, the capital, Agatti, Amini, Andrott, Kalpeni and Minicoy. The islands are low and flat, ringed by white sand and turquoise lagoons, and their people live from fishing, coconuts and government work.",
+        "hi": "लक्षद्वीप, 'एक लाख द्वीप', केवल लगभग 30 वर्ग किमी भूमि वाला केंद्र शासित प्रदेश है: अरब सागर में केरल तट से लगभग 200–440 किमी दूर प्रवाल एटॉल, द्वीपों और भित्तियों का समूह। दस द्वीप बसे हुए हैं, जिनमें राजधानी कवरत्ती, अगत्ती, अमीनी, आंद्रोत, कल्पेनी और मिनिकॉय शामिल हैं। द्वीप नीचे और समतल हैं, सफ़ेद रेत और फ़िरोज़ी लैगून से घिरे, और इनके लोग मछली पकड़ने, नारियल और सरकारी काम से जीविका चलाते हैं।",
+        "mr": "लक्षद्वीप, 'लाख बेटे', हा केवळ सुमारे 30 चौ.किमी जमिनीचा केंद्रशासित प्रदेश आहे: अरबी समुद्रात केरळ किनाऱ्यापासून सुमारे 200–440 किमी अंतरावरील प्रवाळ कंकणद्वीपे, बेटे व भित्तींचा समूह. दहा बेटांवर वस्ती आहे, ज्यांत राजधानी कवरत्ती, अगत्ती, अमिनी, आंद्रोत, कल्पेनी व मिनिकॉय आहेत. बेटे सखल व सपाट आहेत, पांढऱ्या वाळूने व नीलवर्णी खाजणांनी वेढलेली, आणि तेथील लोक मासेमारी, नारळ व सरकारी कामावर उपजीविका करतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "census",
+        "fsi"
+      ],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "table",
+      "id": "admin",
+      "title": {
+        "en": "Administrative identity",
+        "hi": "प्रशासनिक पहचान",
+        "mr": "प्रशासकीय ओळख",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Item",
+            "hi": "विषय",
+            "mr": "बाब",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Value",
+            "hi": "विवरण",
+            "mr": "तपशील",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Status",
+            "hi": "दर्जा",
+            "mr": "दर्जा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          {
+            "en": "Union Territory without a legislature (since 1 November 1956)",
+            "hi": "बिना विधानसभा वाला केंद्र शासित प्रदेश (1 नवंबर 1956 से)",
+            "mr": "विधिमंडळ नसलेला केंद्रशासित प्रदेश (1 नोव्हेंबर 1956 पासून)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        ],
+        [
+          {
+            "en": "Districts",
+            "hi": "ज़िले",
+            "mr": "जिल्हे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          {
+            "en": "1 (Lakshadweep)",
+            "hi": "1 (लक्षद्वीप)",
+            "mr": "1 (लक्षद्वीप)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        ],
+        [
+          {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          {
+            "en": "Kavaratti",
+            "hi": "कवरत्ती",
+            "mr": "कवरत्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        ],
+        [
+          {
+            "en": "High Court",
+            "hi": "उच्च न्यायालय",
+            "mr": "उच्च न्यायालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          {
+            "en": "High Court of Kerala",
+            "hi": "केरल उच्च न्यायालय",
+            "mr": "केरळ उच्च न्यायालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        ],
+        [
+          {
+            "en": "Vehicle registration code",
+            "hi": "वाहन पंजीकरण कोड",
+            "mr": "वाहन नोंदणी संकेतांक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "LD"
+        ],
+        [
+          {
+            "en": "Time zone",
+            "hi": "समय क्षेत्र",
+            "mr": "प्रमाणवेळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "IST (UTC+05:30)"
+        ]
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Official count of islands",
+            "hi": "द्वीपों की आधिकारिक संख्या",
+            "mr": "बेटांची अधिकृत संख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ld-gov",
+          "note": "Lakshadweep Administration."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "region": "IN-DH",
+  "module": "geography",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Dadra and Nagar Haveli lies in the foothills of the Western Ghats, crossed by the Damanganga river and its tributaries, with forests, hills and the Madhuban reservoir. Daman, about 30 km to the west, is a flat coastal strip split by the Damanganga into Nani Daman and Moti Daman. Diu, more than 600 km away by road, is a small limestone island separated from Gujarat by a tidal creek.",
+        "hi": "दादरा और नगर हवेली पश्चिमी घाट की तलहटी में है, जिसे दमनगंगा नदी और उसकी सहायक नदियाँ पार करती हैं, जहाँ वन, पहाड़ियाँ और मधुबन जलाशय हैं। लगभग 30 किमी पश्चिम में दमन एक समतल तटीय पट्टी है, जिसे दमनगंगा नानी दमन और मोटी दमन में बाँटती है। सड़क से 600 किमी से अधिक दूर दीव एक छोटा चूना पत्थर द्वीप है, जो एक ज्वारीय खाड़ी से गुजरात से अलग है।",
+        "mr": "दादरा आणि नगर हवेली पश्चिम घाटाच्या पायथ्याशी आहे, जिथून दमणगंगा नदी व तिच्या उपनद्या वाहतात, जंगले, टेकड्या व मधुबन जलाशयासह. सुमारे 30 किमी पश्चिमेला दमण ही सपाट किनारपट्टी आहे, जिला दमणगंगा नानी दमण व मोटी दमणमध्ये विभागते. रस्त्याने 600 किमीहून अधिक दूर दीव हे लहान चुनखडीचे बेट असून भरतीच्या खाडीने गुजरातपासून वेगळे आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 602,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    }
+  ]
+}

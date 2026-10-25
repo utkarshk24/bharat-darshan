@@ -1,0 +1,56 @@
+{
+  "region": "IN-DH",
+  "module": "civic",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "portal",
+          "name": {
+            "en": "UT Administration of DNH and DD",
+            "hi": "दादरा और नगर हवेली और दमन और दीव प्रशासन",
+            "mr": "दादरा आणि नगर हवेली आणि दमण आणि दीव प्रशासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ddd.gov.in",
+          "sourceId": "india-gov"
+        },
+        {
+          "id": "rti",
+          "name": {
+            "en": "RTI Online (Government of India)",
+            "hi": "आरटीआई ऑनलाइन (भारत सरकार)",
+            "mr": "माहितीचा अधिकार ऑनलाइन (भारत सरकार)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://rtionline.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official websites",
+        "hi": "आधिकारिक वेबसाइटें",
+        "mr": "अधिकृत संकेतस्थळे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

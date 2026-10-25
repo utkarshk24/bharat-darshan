@@ -1,0 +1,54 @@
+{
+  "region": "IN-DH",
+  "module": "trivia",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "merge",
+          "name": {
+            "en": "The UT was created on 26 January 2020 by merging two UTs.",
+            "hi": "यह केंद्र शासित प्रदेश 26 जनवरी 2020 को दो केंद्र शासित प्रदेशों के विलय से बना।",
+            "mr": "हा केंद्रशासित प्रदेश 26 जानेवारी 2020 रोजी दोन केंद्रशासित प्रदेशांच्या विलीनीकरणाने तयार झाला.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "warli",
+          "name": {
+            "en": "Warli painting is a GI shared with Maharashtra and Gujarat.",
+            "hi": "वारली चित्रकला महाराष्ट्र और गुजरात के साथ साझा जीआई है।",
+            "mr": "वारली चित्रकला महाराष्ट्र व गुजरातसोबत सामायिक जीआय आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "sourceId": "gi-registry"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

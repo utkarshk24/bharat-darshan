@@ -1,0 +1,68 @@
+{
+  "region": "IN-DH",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "All three parts have a tropical climate. Dadra and Nagar Haveli and Daman receive heavy south-west monsoon rain from June to September; Diu is drier. Winters from November to February are pleasant.",
+        "hi": "तीनों भागों की जलवायु उष्णकटिबंधीय है। दादरा और नगर हवेली और दमन में जून से सितंबर तक भारी दक्षिण-पश्चिम मानसूनी वर्षा होती है; दीव अधिक सूखा है। नवंबर से फ़रवरी तक सर्दियाँ सुहावनी होती हैं।",
+        "mr": "तिन्ही भागांचे हवामान उष्णकटिबंधीय आहे. दादरा आणि नगर हवेली व दमणमध्ये जून ते सप्टेंबर मुसळधार नैर्ऋत्य मान्सूनी पाऊस पडतो; दीव अधिक कोरडे आहे. नोव्हेंबर ते फेब्रुवारी हिवाळा सुखद असतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Daman",
+            "hi": "दमन",
+            "mr": "दमण",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 20.3974,
+          "lon": 72.8328
+        },
+        {
+          "name": {
+            "en": "Silvassa",
+            "hi": "सिलवासा",
+            "mr": "सिलवासा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 20.2766,
+          "lon": 73.0083
+        },
+        {
+          "name": {
+            "en": "Diu",
+            "hi": "दीव",
+            "mr": "दीव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 20.7144,
+          "lon": 70.9874
+        }
+      ]
+    }
+  ]
+}

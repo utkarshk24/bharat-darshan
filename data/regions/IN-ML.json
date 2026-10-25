@@ -33,86 +33,151 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://meghalaya.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Clouded leopard",
+        "hi": "धूमिल तेंदुआ",
+        "mr": "ढगाळ बिबट्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Neofelis nebulosa",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Hill myna",
+        "hi": "पहाड़ी मैना",
+        "mr": "डोंगरी मैना",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Gracula religiosa",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Lady's slipper orchid",
+        "hi": "लेडीज़ स्लिपर ऑर्किड",
+        "mr": "लेडीज स्लिपर ऑर्किड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Paphiopedilum insigne",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Gamhar",
+        "hi": "गम्हार",
+        "mr": "शिवण",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Gmelina arborea",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 2966889,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 14,91,832; females 14,75,057."
     },
     "area": {
-      "value": null,
+      "value": 22429,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 132,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 29,66,889 ÷ area 22,429 km² = 132.3."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 989,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (972 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 970,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 973 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 74.4,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,87 +190,374 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 59626,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25 is the latest year published for Meghalaya. FY2023-24: ₹53,223 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 157141,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2023-24: ₹1,41,195."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 75.65,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 16,966.84 km² ÷ geographical area 22,429 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "C. H. Vijayashankar",
+        "hi": "सी. एच. विजयशंकर",
+        "mr": "सी. एच. विजयशंकर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2024-07-30",
+      "asOf": "2026-10-25",
+      "sourceId": "ml-governor",
+      "url": "https://meggovernor.gov.in/img/PressRelease-SwearingInCeremony.pdf",
+      "verifyUrl": "https://meggovernor.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Sworn in as Governor of Meghalaya on 30 July 2024 at Raj Bhavan, Shillong, by Chief Justice S. Vaidyanathan of the Meghalaya High Court (Lok Bhavan Meghalaya press release). He succeeded Phagu Chauhan."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "name": {
+        "en": "Conrad K. Sangma",
+        "hi": "कॉनराड के. संगमा",
+        "mr": "कॉनराड के. संगमा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "NPP",
+      "since": "2023-03-07",
+      "asOf": "2026-10-25",
+      "sourceId": "morung-express",
+      "url": "https://morungexpress.com/conrad-sangma-takes-oath-as-meghalaya-cm-for-2nd-term",
+      "verifyUrl": "https://meghalaya.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in for a second term on 7 March 2023 in Shillong, heading the Meghalaya Democratic Alliance (MDA 2.0) led by the National People's Party, with Prestone Tynsong and Sniawbhalang Dhar as Deputy Chief Ministers (The Morung Express). First sworn in as Chief Minister in March 2018."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Thomas A. Sangma",
+          "hi": "थॉमस ए. संगमा",
+          "mr": "थॉमस ए. संगमा",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "NPP",
+        "since": "2023-03-09",
+        "asOf": "2026-10-25",
+        "sourceId": "ml-gov",
+        "url": "https://meghalaya.gov.in/circulars/content/44326",
+        "verifyUrl": "https://meghalaya.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Elected Speaker of the Eleventh Meghalaya Legislative Assembly on 9 March 2023 (Legislative Assembly Secretariat notice No. LB.5/LA/2023/5)."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "shillong-silchar-corridor",
+      "name": {
+        "en": "Shillong–Silchar greenfield high-speed corridor (NH-06)",
+        "hi": "शिलांग–सिलचर ग्रीनफ़ील्ड हाई-स्पीड कॉरिडोर (एनएच-06)",
+        "mr": "शिलाँग–सिलचर ग्रीनफिल्ड हाय-स्पीड कॉरिडॉर (एनएच-06)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A 166.80-km four-lane, access-controlled highway from Mawlyngkhung near Shillong to Panchgram near Silchar in Assam, 144.80 km of it in Meghalaya, approved by the Cabinet Committee on Economic Affairs on 30 April 2025 at a capital cost of ₹22,864 crore under the hybrid annuity mode. It is meant to give a faster, all-weather alternative to the existing hill road through the Jaintia Hills. In March 2026 NHIDCL was inviting bids for its four packages, and the Prime Minister was to lay the foundation stone at Silchar on 14 March 2026.",
+        "hi": "शिलांग के पास मावलिंगखुंग से असम में सिलचर के पास पंचग्राम तक 166.80 किमी लंबा चार-लेन, नियंत्रित प्रवेश वाला राजमार्ग, जिसका 144.80 किमी भाग मेघालय में है; आर्थिक मामलों की मंत्रिमंडलीय समिति ने 30 अप्रैल 2025 को हाइब्रिड एन्युटी मोड में ₹22,864 करोड़ की पूँजी लागत पर इसे स्वीकृति दी। इसका उद्देश्य जयंतिया पहाड़ियों से होकर जाने वाली मौजूदा पहाड़ी सड़क का तेज़, हर मौसम में चलने वाला विकल्प देना है। मार्च 2026 में एनएचआईडीसीएल इसके चार पैकेजों के लिए बोलियाँ आमंत्रित कर रहा था, और प्रधानमंत्री को 14 मार्च 2026 को सिलचर में आधारशिला रखनी थी।",
+        "mr": "शिलाँगजवळील मावलिंगखुंग ते आसाममधील सिलचरजवळील पंचग्रामपर्यंतचा 166.80 किमी लांबीचा चौपदरी, नियंत्रित प्रवेशाचा महामार्ग, ज्याचा 144.80 किमी भाग मेघालयात आहे; आर्थिक व्यवहार मंत्रिमंडळ समितीने 30 एप्रिल 2025 रोजी हायब्रिड अॅन्युइटी पद्धतीने ₹22,864 कोटी भांडवली खर्चास त्याला मंजुरी दिली. जयंतिया टेकड्यांतून जाणाऱ्या विद्यमान डोंगरी रस्त्याला जलद, सर्व ऋतूंत चालणारा पर्याय देणे हा त्याचा उद्देश आहे. मार्च 2026 मध्ये एनएचआयडीसीएल त्याच्या चार पॅकेजसाठी निविदा मागवत होते, आणि पंतप्रधान 14 मार्च 2026 रोजी सिलचर येथे पायाभरणी करणार होते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "roads",
+      "agency": "NHIDCL (Ministry of Road Transport and Highways)",
+      "start": null,
+      "completion": null,
+      "status": "Tendering",
+      "asOf": "2026-10-25",
+      "sourceId": "swarajya",
+      "url": "https://swarajyamag.com/amp/story/news-brief/pm-modi-to-lay-foundation-stone-of-rs-22864-crore-shillong-silchar-corridor-on-14-march-report",
+      "confidence": "Third-party verified",
+      "cost": {
+        "value": 22864,
+        "unit": "₹ crore",
+        "period": "2025",
+        "periodType": "calendar",
+        "sourceId": "swarajya",
+        "url": "https://swarajyamag.com/amp/story/news-brief/pm-modi-to-lay-foundation-stone-of-rs-22864-crore-shillong-silchar-corridor-on-14-march-report",
+        "accessDate": "2026-10-25",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Total capital cost approved by the CCEA on 30 April 2025, as reported (Swarajya, 7 March 2026)."
+      }
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "memong-narang",
+      "name": {
+        "en": "Memong Narang",
+        "hi": "मेमोंग नारंग (संतरा)",
+        "mr": "मेमोंग नारंग (संत्रे)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "437",
+      "filingDate": "2013-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "khasi-mandarin",
+      "name": {
+        "en": "Khasi Mandarin",
+        "hi": "खासी संतरा",
+        "mr": "खासी संत्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "465",
+      "filingDate": "2013-12-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "lakadong-turmeric",
+      "name": {
+        "en": "Lakadong Turmeric",
+        "hi": "लाकाडोंग हल्दी",
+        "mr": "लाकाडोंग हळद",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "741",
+      "filingDate": "2021-02-15",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "meghalaya-garo-textile",
+      "name": {
+        "en": "Meghalaya Garo Textile",
+        "hi": "मेघालय गारो वस्त्र",
+        "mr": "मेघालय गारो वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1094",
+      "filingDate": "2023-05-30",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "meghalaya-lyrnai-pottery",
+      "name": {
+        "en": "Meghalaya Lyrnai Pottery",
+        "hi": "मेघालय लिरनाई मिट्टी के बर्तन",
+        "mr": "मेघालय लिरनाई मातीची भांडी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "1095",
+      "filingDate": "2023-05-30",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "meghalaya-ryndia-textile",
+      "name": {
+        "en": "Meghalaya Ryndia Textile",
+        "hi": "मेघालय रिंदिया वस्त्र",
+        "mr": "मेघालय रिंदिया वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1112",
+      "filingDate": "2023-07-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "meghalaya-khasi-handloom-products",
+      "name": {
+        "en": "Meghalaya Khasi Handloom Products",
+        "hi": "मेघालय खासी हथकरघा उत्पाद",
+        "mr": "मेघालय खासी हातमाग उत्पादने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1113",
+      "filingDate": "2023-07-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "meghalaya-chubitchi",
+      "name": {
+        "en": "Meghalaya Chubitchi",
+        "hi": "मेघालय चुबित्ची (चावल पेय)",
+        "mr": "मेघालय चुबित्ची (तांदळाचे पेय)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "1096",
+      "filingDate": "2023-06-01",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-25",
+    "editorialStatus": "draft"
   }
 }

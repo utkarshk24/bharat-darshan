@@ -1,0 +1,350 @@
+{
+  "region": "IN-ML",
+  "module": "geography",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Shillong plateau is an ancient block of rock, uplifted and separated from the Indian peninsula by the Garo–Rajmahal gap. Its highest point is Shillong Peak, close to the capital. The north slopes gently to the Brahmaputra valley in Assam, while the south ends in a steep escarpment of deep gorges and waterfalls — Nohkalikai, Nohsngithiang (Seven Sisters) and Kynrem near Sohra — that fall towards the Surma plains of Bangladesh. Limestone, coal and uranium deposits lie in the southern hills, and rivers such as the Umiam, Umngot, Myntdu, Kynshi and Simsang (Someshwari) cut through the plateau.",
+        "hi": "शिलांग पठार चट्टान का एक प्राचीन खंड है, जो ऊपर उठा और गारो–राजमहल अंतराल से भारतीय प्रायद्वीप से अलग हुआ। इसका सबसे ऊँचा बिंदु राजधानी के पास शिलांग पीक है। उत्तर धीरे-धीरे असम की ब्रह्मपुत्र घाटी की ओर ढलता है, जबकि दक्षिण गहरे खड्डों और झरनों की खड़ी ढलान में समाप्त होता है — सोहरा के पास नोहकलिकाई, नोहस्ङिथियांग (सेवन सिस्टर्स) और किनरेम — जो बांग्लादेश के सुरमा मैदानों की ओर गिरते हैं। दक्षिणी पहाड़ियों में चूना पत्थर, कोयला और यूरेनियम के भंडार हैं, और उमियम, उमंगोट, मिंतदू, किन्शी और सिमसांग (सोमेश्वरी) जैसी नदियाँ पठार को काटती हैं।",
+        "mr": "शिलाँग पठार हा खडकाचा एक प्राचीन खंड आहे, जो उंचावला व गारो–राजमहाल खिंडीने भारतीय द्वीपकल्पापासून वेगळा झाला. त्याचे सर्वोच्च ठिकाण राजधानीजवळील शिलाँग पीक आहे. उत्तर भाग हळूहळू आसाममधील ब्रह्मपुत्रा खोऱ्याकडे उतरतो, तर दक्षिण भाग खोल दऱ्या व धबधब्यांच्या तीव्र कड्यात संपतो — सोहराजवळील नोहकलिकाई, नोहस्ङिथियांग (सेव्हन सिस्टर्स) व किनरेम — जे बांगलादेशच्या सुरमा मैदानांकडे कोसळतात. दक्षिणेकडील टेकड्यांत चुनखडी, कोळसा व युरेनियमचे साठे आहेत, आणि उमियम, उमंगोट, मिंतदू, किन्शी व सिमसांग (सोमेश्वरी) सारख्या नद्या पठार कापतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 22429,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "as",
+          "name": {
+            "en": "Assam (north and east)",
+            "hi": "असम (उत्तर और पूर्व)",
+            "mr": "आसाम (उत्तर व पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bd",
+          "name": {
+            "en": "Bangladesh (south and west)",
+            "hi": "बांग्लादेश (दक्षिण और पश्चिम)",
+            "mr": "बांगलादेश (दक्षिण व पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "umiam",
+          "name": {
+            "en": "Umiam",
+            "hi": "उमियम",
+            "mr": "उमियम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Dammed to form Umiam lake (Barapani) north of Shillong.",
+            "hi": "शिलांग के उत्तर में बाँध से उमियम झील (बड़ापानी) बनी।",
+            "mr": "शिलाँगच्या उत्तरेला धरणाने उमियम सरोवर (बडापानी) तयार झाले.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "umngot",
+          "name": {
+            "en": "Umngot",
+            "hi": "उमंगोट",
+            "mr": "उमंगोट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Clear river at Dawki on the Bangladesh border.",
+            "hi": "बांग्लादेश सीमा पर दावकी में साफ़ पानी की नदी।",
+            "mr": "बांगलादेश सीमेवरील दावकी येथील स्वच्छ पाण्याची नदी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "simsang",
+          "name": {
+            "en": "Simsang (Someshwari)",
+            "hi": "सिमसांग (सोमेश्वरी)",
+            "mr": "सिमसांग (सोमेश्वरी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Main river of the Garo Hills.",
+            "hi": "गारो पहाड़ियों की मुख्य नदी।",
+            "mr": "गारो टेकड्यांतील मुख्य नदी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "myntdu",
+          "name": {
+            "en": "Myntdu",
+            "hi": "मिंतदू",
+            "mr": "मिंतदू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows past Jowai; used for hydropower.",
+            "hi": "जोवाई के पास से बहती है; जलविद्युत के लिए उपयोग।",
+            "mr": "जोवाईजवळून वाहते; जलविद्युतसाठी वापर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kynshi",
+          "name": {
+            "en": "Kynshi (Jadukata)",
+            "hi": "किन्शी (जादुकाटा)",
+            "mr": "किन्शी (जादुकाटा)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Drains the West Khasi Hills.",
+            "hi": "पश्चिमी खासी पहाड़ियों का जल बहाती है।",
+            "mr": "पश्चिम खासी टेकड्यांचे पाणी वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "features",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "peak",
+          "name": {
+            "en": "Shillong Peak",
+            "hi": "शिलांग पीक",
+            "mr": "शिलाँग पीक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nohkalikai",
+          "name": {
+            "en": "Nohkalikai falls",
+            "hi": "नोहकलिकाई जलप्रपात",
+            "mr": "नोहकलिकाई धबधबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "caves",
+          "name": {
+            "en": "Limestone caves of the Jaintia and Khasi Hills",
+            "hi": "जयंतिया और खासी पहाड़ियों की चूना पत्थर गुफाएँ",
+            "mr": "जयंतिया व खासी टेकड्यांतील चुनखडी गुहा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "laitlum",
+          "name": {
+            "en": "Laitlum canyons",
+            "hi": "लाइटलुम घाटियाँ",
+            "mr": "लाइटलुम दऱ्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "balpakram",
+          "name": {
+            "en": "Balpakram plateau",
+            "hi": "बालपाक्रम पठार",
+            "mr": "बालपाक्रम पठार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Landscapes",
+        "hi": "भूदृश्य",
+        "mr": "भूदृश्ये",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Shillong Peak — official elevation",
+            "hi": "शिलांग पीक — आधिकारिक ऊँचाई",
+            "mr": "शिलाँग पीक — अधिकृत उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India."
+        },
+        {
+          "label": {
+            "en": "Length of the Bangladesh border",
+            "hi": "बांग्लादेश सीमा की लंबाई",
+            "mr": "बांगलादेश सीमेची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Home Affairs (Department of Border Management)."
+        }
+      ]
+    }
+  ]
+}

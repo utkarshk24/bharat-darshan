@@ -1,0 +1,62 @@
+{
+  "region": "IN-ML",
+  "module": "projects",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "The Shillong–Silchar greenfield corridor, approved in April 2025 at ₹22,864 crore, is meant to cut travel time between Shillong and the Barak valley of Assam. Railway lines to Byrnihat and Shillong have been held up for years by local opposition and land issues; these and other works will be added as cards once their status is confirmed from official sources. Each card shows its source and the date it was checked.",
+        "hi": "शिलांग–सिलचर ग्रीनफ़ील्ड कॉरिडोर, जिसे अप्रैल 2025 में ₹22,864 करोड़ की लागत पर स्वीकृति मिली, का उद्देश्य शिलांग और असम की बराक घाटी के बीच यात्रा समय घटाना है। बर्नीहाट और शिलांग तक रेल लाइनें स्थानीय विरोध और भूमि संबंधी मुद्दों के कारण वर्षों से रुकी हैं; आधिकारिक स्रोतों से स्थिति की पुष्टि होने पर इन्हें और अन्य कार्यों को कार्ड के रूप में जोड़ा जाएगा। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "शिलाँग–सिलचर ग्रीनफिल्ड कॉरिडॉर, ज्याला एप्रिल 2025 मध्ये ₹22,864 कोटी खर्चास मंजुरी मिळाली, याचा उद्देश शिलाँग व आसाममधील बराक खोऱ्यातील प्रवासाचा वेळ कमी करणे हा आहे. बर्नीहाट व शिलाँगपर्यंतचे रेल्वेमार्ग स्थानिक विरोध व जमिनीच्या प्रश्नांमुळे वर्षानुवर्षे रखडले आहेत; अधिकृत स्रोतांतून स्थितीची खात्री झाल्यावर हे व इतर प्रकल्प कार्डे म्हणून जोडले जातील. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "swarajya",
+        "the-week"
+      ],
+      "confidence": "Third-party verified"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Shillong–Silchar corridor — CCEA release and award status",
+            "hi": "शिलांग–सिलचर कॉरिडोर — सीसीईए विज्ञप्ति और अनुबंध स्थिति",
+            "mr": "शिलाँग–सिलचर कॉरिडॉर — सीसीईए प्रसिद्धिपत्रक व कंत्राट स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "pib",
+          "note": "PIB release of 30 April 2025; NHIDCL award notices."
+        },
+        {
+          "label": {
+            "en": "Tetelia–Byrnihat railway — official status",
+            "hi": "तेतेलिया–बर्नीहाट रेलवे — आधिकारिक स्थिति",
+            "mr": "तेतेलिया–बर्नीहाट रेल्वे — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Ministry of Railways / Parliament answer."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "region": "IN-ML",
+  "module": "digital",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mobile networks cover Shillong, Tura and most towns, but many villages in the deep valleys and border areas have weak signals. The State has built online services for land records, certificates and payments, and IIM Shillong, NEHU and NIT Meghalaya, with a growing number of software and design start-ups in Shillong, form a small technology community.",
+        "hi": "मोबाइल नेटवर्क शिलांग, तुरा और अधिकांश नगरों को कवर करते हैं, पर गहरी घाटियों और सीमावर्ती क्षेत्रों के बहुत से गाँवों में सिग्नल कमज़ोर हैं। राज्य ने भूमि अभिलेख, प्रमाणपत्र और भुगतान की ऑनलाइन सेवाएँ बनाई हैं, और आईआईएम शिलांग, नेहू और एनआईटी मेघालय, शिलांग के बढ़ते सॉफ़्टवेयर और डिज़ाइन स्टार्ट-अप के साथ, एक छोटा प्रौद्योगिकी समुदाय बनाते हैं।",
+        "mr": "मोबाइल जाळे शिलाँग, तुरा व बहुतेक शहरांना व्यापते, पण खोल दऱ्या व सीमाभागांतील अनेक गावांत संकेत कमकुवत आहेत. राज्याने भूमी अभिलेख, दाखले व देयकांसाठी ऑनलाइन सेवा उभारल्या आहेत, आणि आयआयएम शिलाँग, नेहू व एनआयटी मेघालय, शिलाँगमधील वाढत्या सॉफ्टवेअर व डिझाइन स्टार्ट-अपसह, एक लहान तंत्रज्ञान समुदाय घडवतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (North East circle)."
+        }
+      ]
+    }
+  ]
+}

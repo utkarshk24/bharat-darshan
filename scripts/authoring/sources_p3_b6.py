@@ -19,6 +19,10 @@ NEW = [
          url="https://www.easternmirrornagaland.com", category="governance", priority=27, notes="Third-party."),
     dict(id="morung-express", short="Morung Express", name="The Morung Express", publisher="The Morung Express, Nagaland (news, third party)",
          url="https://morungexpress.com", category="governance", priority=27, notes="Third-party (often IANS/PTI copy)."),
+    dict(id="ml-gov", short="Govt of Meghalaya", name="Government of Meghalaya — notifications and press releases", publisher="Government of Meghalaya",
+         url="https://meghalaya.gov.in", category="governance", priority=5),
+    dict(id="swarajya", short="Swarajya", name="Swarajya", publisher="Swarajya (news, third party)",
+         url="https://swarajyamag.com", category="governance", priority=27, notes="Third-party."),
 ]
 added = 0
 for s in NEW:

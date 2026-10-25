@@ -1,0 +1,55 @@
+{
+  "region": "IN-ML",
+  "module": "water",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Despite its rain, Meghalaya faces dry-season water shortages: water runs off the steep, often deforested slopes quickly, and Sohra itself has struggled for drinking water in winter. Shillong is supplied by the Greater Shillong water supply scheme and springs, and Umiam lake stores water for power and is threatened by silt and pollution. Villages rely on springs, and the State's spring-shed programme maps and protects them. Acid drainage from abandoned coal mines has polluted rivers such as the Lukha and Myntdu in the Jaintia Hills.",
+        "hi": "वर्षा के बावजूद मेघालय को सूखे मौसम में पानी की कमी झेलनी पड़ती है: खड़ी, अक्सर वनविहीन ढलानों से पानी जल्दी बह जाता है, और स्वयं सोहरा में सर्दियों में पीने के पानी की कठिनाई रही है। शिलांग को ग्रेटर शिलांग जल आपूर्ति योजना और झरनों से पानी मिलता है, और उमियम झील बिजली के लिए पानी संचित करती है और गाद व प्रदूषण से संकट में है। गाँव झरनों पर निर्भर हैं, और राज्य का स्प्रिंग-शेड कार्यक्रम उनका मानचित्रण और संरक्षण करता है। छोड़ी गई कोयला खदानों के अम्लीय बहाव ने जयंतिया पहाड़ियों की लुखा और मिंतदू जैसी नदियों को प्रदूषित किया है।",
+        "mr": "पाऊस असूनही मेघालयाला कोरड्या ऋतूत पाणीटंचाई जाणवते: तीव्र, अनेकदा वृक्षतोड झालेल्या उतारांवरून पाणी पटकन वाहून जाते, आणि खुद्द सोहराला हिवाळ्यात पिण्याच्या पाण्याची अडचण आली आहे. शिलाँगला ग्रेटर शिलाँग पाणीपुरवठा योजना व झऱ्यांतून पाणी मिळते, आणि उमियम सरोवर विजेसाठी पाणी साठवते व गाळ आणि प्रदूषणाने धोक्यात आहे. गावे झऱ्यांवर अवलंबून आहेत, आणि राज्याचा स्प्रिंग-शेड कार्यक्रम त्यांचे नकाशांकन व संरक्षण करतो. सोडून दिलेल्या कोळसा खाणींतील आम्लयुक्त निचऱ्याने जयंतिया टेकड्यांतील लुखा व मिंतदूसारख्या नद्या प्रदूषित केल्या आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Household tap-water coverage",
+            "hi": "घरेलू नल जल कवरेज",
+            "mr": "घरगुती नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        },
+        {
+          "label": {
+            "en": "River water quality (Lukha, Myntdu)",
+            "hi": "नदी जल गुणवत्ता (लुखा, मिंतदू)",
+            "mr": "नदी पाण्याची गुणवत्ता (लुखा, मिंतदू)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Meghalaya State Pollution Control Board / CPCB."
+        }
+      ]
+    }
+  ]
+}

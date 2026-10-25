@@ -1,0 +1,271 @@
+{
+  "region": "IN-ML",
+  "module": "tourism",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Shillong is the base for most visitors: Ward's Lake, the Don Bosco Museum, Shillong Peak, Elephant Falls and the cafés of Police Bazaar and Laitumkhrah. South of the city, Sohra has the Nohkalikai and Seven Sisters falls, the Mawsmai cave and the trek down to the double-decker living root bridge at Nongriat; Laitlum canyons and the Mawphlang sacred forest are close by. Further east, Mawlynnong village and the Umngot river at Dawki and Shnongpdeng draw large crowds, and the Jaintia Hills have the Nartiang monoliths and the Krang Suri falls. In the west, Tura is the gateway to Nokrek, Balpakram and the Siju caves.",
+        "hi": "अधिकांश पर्यटकों के लिए शिलांग आधार है: वार्ड्स झील, डॉन बॉस्को संग्रहालय, शिलांग पीक, एलिफ़ेंट फ़ॉल्स और पुलिस बाज़ार व लैतुमख्राह के कैफ़े। शहर के दक्षिण में सोहरा में नोहकलिकाई और सेवन सिस्टर्स जलप्रपात, मावस्माई गुफा और नोंग्रियात के दोमंज़िला जीवित जड़ पुल तक नीचे का ट्रेक है; लाइटलुम घाटियाँ और माफ़लांग पवित्र वन पास ही हैं। आगे पूर्व में मावलिननोंग गाँव और दावकी व श्नोंगपदेंग में उमंगोट नदी भारी भीड़ खींचते हैं, और जयंतिया पहाड़ियों में नारतियांग एकाश्म और क्रांग सूरी जलप्रपात हैं। पश्चिम में तुरा नोकरेक, बालपाक्रम और सिजू गुफाओं का प्रवेश द्वार है।",
+        "mr": "बहुतेक पर्यटकांसाठी शिलाँग हा तळ आहे: वॉर्ड्स सरोवर, डॉन बॉस्को संग्रहालय, शिलाँग पीक, एलिफंट फॉल्स व पोलीस बाजार आणि लैतुमख्राहमधील कॅफे. शहराच्या दक्षिणेला सोहरामध्ये नोहकलिकाई व सेव्हन सिस्टर्स धबधबे, मावस्माई गुहा व नोंग्रियातच्या दुमजली जिवंत मुळांच्या पुलापर्यंत खाली उतरणारा ट्रेक आहे; लाइटलुम दऱ्या व माफलांग देवराई जवळच आहेत. पुढे पूर्वेला मावलिननोंग गाव आणि दावकी व श्नोंगपदेंग येथील उमंगोट नदी मोठी गर्दी खेचतात, आणि जयंतिया टेकड्यांत नारतियांग एकाश्म स्तंभ व क्रांग सूरी धबधबा आहेत. पश्चिमेला तुरा हे नोकरेक, बालपाक्रम व सिजू गुहांचे प्रवेशद्वार आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "shillong",
+          "name": {
+            "en": "Shillong",
+            "hi": "शिलांग",
+            "mr": "शिलाँग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital; music and cafés",
+            "hi": "राजधानी; संगीत और कैफ़े",
+            "mr": "राजधानी; संगीत व कॅफे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sohra",
+          "name": {
+            "en": "Sohra (Cherrapunji)",
+            "hi": "सोहरा (चेरापूंजी)",
+            "mr": "सोहरा (चेरापुंजी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Waterfalls and caves",
+            "hi": "जलप्रपात और गुफाएँ",
+            "mr": "धबधबे व गुहा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nongriat",
+          "name": {
+            "en": "Nongriat",
+            "hi": "नोंग्रियात",
+            "mr": "नोंग्रियात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Double-decker root bridge",
+            "hi": "दोमंज़िला जड़ पुल",
+            "mr": "दुमजली मुळांचा पूल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dawki",
+          "name": {
+            "en": "Dawki and Shnongpdeng",
+            "hi": "दावकी और श्नोंगपदेंग",
+            "mr": "दावकी व श्नोंगपदेंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Umngot river",
+            "hi": "उमंगोट नदी",
+            "mr": "उमंगोट नदी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mawlynnong",
+          "name": {
+            "en": "Mawlynnong",
+            "hi": "मावलिननोंग",
+            "mr": "मावलिननोंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Village known for cleanliness",
+            "hi": "स्वच्छता के लिए प्रसिद्ध गाँव",
+            "mr": "स्वच्छतेसाठी प्रसिद्ध गाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nokrek",
+          "name": {
+            "en": "Tura and Nokrek",
+            "hi": "तुरा और नोकरेक",
+            "mr": "तुरा व नोकरेक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Garo Hills",
+            "hi": "गारो पहाड़ियाँ",
+            "mr": "गारो टेकड्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d3",
+          "name": {
+            "en": "3 days",
+            "hi": "3 दिन",
+            "mr": "3 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Shillong, then a day each at Sohra and at Dawki–Mawlynnong.",
+            "hi": "शिलांग, फिर एक-एक दिन सोहरा और दावकी–मावलिननोंग में।",
+            "mr": "शिलाँग, मग एक-एक दिवस सोहरा व दावकी–मावलिननोंगमध्ये.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d6",
+          "name": {
+            "en": "6 days",
+            "hi": "6 दिन",
+            "mr": "6 दिवस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Add a night at Nongriat for the root bridges and a day in the Jaintia Hills.",
+            "hi": "जड़ पुलों के लिए नोंग्रियात में एक रात और जयंतिया पहाड़ियों में एक दिन जोड़ें।",
+            "mr": "मुळांच्या पुलांसाठी नोंग्रियातमध्ये एक रात्र व जयंतिया टेकड्यांत एक दिवस जोडा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "garo",
+          "name": {
+            "en": "Garo Hills (4 days)",
+            "hi": "गारो पहाड़ियाँ (4 दिन)",
+            "mr": "गारो टेकड्या (4 दिवस)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Tura, Nokrek and Balpakram; time a visit with Wangala in November.",
+            "hi": "तुरा, नोकरेक और बालपाक्रम; नवंबर में वांगला के समय जाएँ।",
+            "mr": "तुरा, नोकरेक व बालपाक्रम; नोव्हेंबरमधील वांगलाच्या वेळी भेट द्या.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tourist arrivals by year",
+            "hi": "वर्षवार पर्यटक आगमन",
+            "mr": "वर्षनिहाय पर्यटक आगमन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "Meghalaya Tourism Department / India Tourism Statistics."
+        }
+      ]
+    }
+  ]
+}

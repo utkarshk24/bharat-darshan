@@ -1,0 +1,493 @@
+{
+  "region": "IN-ML",
+  "module": "culture",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Each of Meghalaya's main communities has its own traditions. The Khasi faith, Niam Khasi (Seng Khasi), and the Jaintia Niamtre honour a creator god and ancestral clans, and festivals such as Shad Suk Mynsiem and Ka Pomblang Nongkrem are danced in traditional dress and gold and silver ornaments. The Garo celebrate Wangala, a harvest thanksgiving to the sun god Saljong, with long rows of dancers and the beat of the dama drum. Most people are now Christian, and church choirs and gospel music are part of public life alongside Shillong's rock and blues scene. Cane and bamboo work, weaving and wooden crafts are made across the hills.",
+        "hi": "मेघालय के प्रत्येक मुख्य समुदाय की अपनी परंपराएँ हैं। खासी धर्म, नियाम खासी (सेंग खासी), और जयंतिया नियामत्रे एक सृष्टिकर्ता ईश्वर और पूर्वज कुलों का सम्मान करते हैं, और शाद सुक मिनसिएम और का पोम्ब्लांग नोंगक्रेम जैसे त्योहारों में पारंपरिक वेशभूषा और सोने-चाँदी के आभूषणों में नृत्य होता है। गारो वांगला मनाते हैं, सूर्य देवता सलजोंग के प्रति फ़सल का धन्यवाद पर्व, नर्तकों की लंबी पंक्तियों और दामा ढोल की थाप के साथ। अधिकांश लोग अब ईसाई हैं, और चर्च गायक मंडलियाँ और गॉस्पेल संगीत शिलांग के रॉक और ब्लूज़ के साथ सार्वजनिक जीवन का हिस्सा हैं। बेंत और बाँस का काम, बुनाई और लकड़ी के शिल्प पूरी पहाड़ियों में बनते हैं।",
+        "mr": "मेघालयातील प्रत्येक मुख्य समुदायाच्या स्वतःच्या परंपरा आहेत. खासी धर्म, नियाम खासी (सेंग खासी), व जयंतिया नियामत्रे एका सृष्टिकर्त्या देवाचा व पूर्वज कुळांचा आदर करतात, आणि शाद सुक मिनसिएम व का पोम्ब्लांग नोंगक्रेमसारख्या सणांत पारंपरिक पोशाख व सोन्या-चांदीच्या दागिन्यांत नृत्य होते. गारो वांगला साजरा करतात, सूर्यदेव सलजोंगप्रती सुगीचा कृतज्ञता सण, नर्तकांच्या लांब रांगा व दामा ढोलाच्या तालासह. बहुतेक लोक आता ख्रिस्ती आहेत, आणि चर्चमधील गायकवृंद व गॉस्पेल संगीत शिलाँगच्या रॉक व ब्लूजसोबत सार्वजनिक जीवनाचा भाग आहेत. वेत व बांबूकाम, विणकाम व लाकडी हस्तकला संपूर्ण टेकड्यांत बनतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "festivals",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "suk",
+          "name": {
+            "en": "Shad Suk Mynsiem",
+            "hi": "शाद सुक मिनसिएम",
+            "mr": "शाद सुक मिनसिएम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Khasi 'dance of the joyful heart' at Weiking, Shillong.",
+            "hi": "शिलांग के वाइकिंग में खासी 'प्रसन्न हृदय का नृत्य'।",
+            "mr": "शिलाँगच्या वाइकिंग येथे खासी 'आनंदी हृदयाचे नृत्य'.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "April",
+            "hi": "अप्रैल",
+            "mr": "एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nongkrem",
+          "name": {
+            "en": "Ka Pomblang Nongkrem",
+            "hi": "का पोम्ब्लांग नोंगक्रेम",
+            "mr": "का पोम्ब्लांग नोंगक्रेम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Five-day festival of the Hima Khyrim at Smit.",
+            "hi": "स्मित में हिमा ख्रिम का पाँच दिवसीय उत्सव।",
+            "mr": "स्मित येथे हिमा ख्रिमचा पाच दिवसांचा उत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "October–November",
+            "hi": "अक्टूबर–नवंबर",
+            "mr": "ऑक्टोबर–नोव्हेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "wangala",
+          "name": {
+            "en": "Wangala",
+            "hi": "वांगला",
+            "mr": "वांगला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Garo harvest festival; the '100 drums' gathering near Tura.",
+            "hi": "गारो फ़सल उत्सव; तुरा के पास '100 ढोल' का आयोजन।",
+            "mr": "गारो सुगीचा सण; तुराजवळ '100 ढोल' मेळावा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "November",
+            "hi": "नवंबर",
+            "mr": "नोव्हेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "behdienkhlam",
+          "name": {
+            "en": "Behdienkhlam",
+            "hi": "बेहदिएनख्लाम",
+            "mr": "बेहदिएनख्लाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Jaintia festival at Jowai to drive away disease.",
+            "hi": "रोग दूर भगाने का जोवाई में जयंतिया त्योहार।",
+            "mr": "रोगराई दूर करण्यासाठी जोवाई येथील जयंतिया सण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "July",
+            "hi": "जुलाई",
+            "mr": "जुलै",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "christmas",
+          "name": {
+            "en": "Christmas",
+            "hi": "क्रिसमस",
+            "mr": "नाताळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Celebrated across the State with carols and lights.",
+            "hi": "पूरे राज्य में कैरल और रोशनी के साथ मनाया जाता है।",
+            "mr": "संपूर्ण राज्यात कॅरल व दिव्यांसह साजरा होतो.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "December",
+            "hi": "दिसंबर",
+            "mr": "डिसेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Festivals",
+        "hi": "त्योहार",
+        "mr": "सण-उत्सव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "arts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "dama",
+          "name": {
+            "en": "Dama and nagra drums",
+            "hi": "दामा और नगाड़ा ढोल",
+            "mr": "दामा व नगारा ढोल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "duitara",
+          "name": {
+            "en": "Duitara (Khasi string instrument)",
+            "hi": "दुइतारा (खासी तंतु वाद्य)",
+            "mr": "दुइतारा (खासी तंतुवाद्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "cane",
+          "name": {
+            "en": "Cane and bamboo work",
+            "hi": "बेंत और बाँस का काम",
+            "mr": "वेत व बांबूकाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ryndia",
+          "name": {
+            "en": "Ryndia (eri silk) weaving",
+            "hi": "रिंदिया (एरी रेशम) बुनाई",
+            "mr": "रिंदिया (एरी रेशीम) विणकाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "choir",
+          "name": {
+            "en": "Choral and gospel music",
+            "hi": "कोरल और गॉस्पेल संगीत",
+            "mr": "समूहगान व गॉस्पेल संगीत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "lyrnai",
+          "name": {
+            "en": "Lyrnai pottery",
+            "hi": "लिरनाई मिट्टी के बर्तन",
+            "mr": "लिरनाई मातीची भांडी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Arts and crafts",
+        "hi": "कलाएँ और शिल्प",
+        "mr": "कला व हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "food",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "jadoh",
+          "name": {
+            "en": "Jadoh",
+            "hi": "जादोह",
+            "mr": "जादोह",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Khasi rice cooked with pork or chicken.",
+            "hi": "सूअर या मुर्ग़े के मांस के साथ पका खासी चावल।",
+            "mr": "डुकराचे किंवा कोंबडीचे मांस घालून शिजवलेला खासी भात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dohneiiong",
+          "name": {
+            "en": "Doh neiiong",
+            "hi": "दोह नेइयोंग",
+            "mr": "दोह नेइयोंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pork cooked with black sesame.",
+            "hi": "काले तिल के साथ पका सूअर का मांस।",
+            "mr": "काळ्या तिळासह शिजवलेले डुकराचे मांस.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tungrymbai",
+          "name": {
+            "en": "Tungrymbai",
+            "hi": "तुंगरिम्बाई",
+            "mr": "तुंगरिम्बाई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Fermented soya bean paste.",
+            "hi": "किण्वित सोयाबीन का पेस्ट।",
+            "mr": "आंबवलेल्या सोयाबीनची चटणी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nakham",
+          "name": {
+            "en": "Nakham bitchi",
+            "hi": "नाखाम बित्ची",
+            "mr": "नाखाम बित्ची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Garo soup of dried fish.",
+            "hi": "सूखी मछली का गारो सूप।",
+            "mr": "सुक्या माशांचे गारो सूप.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pukhlein",
+          "name": {
+            "en": "Pukhlein",
+            "hi": "पुखलेइन",
+            "mr": "पुखलेइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Sweet fried rice-flour cake.",
+            "hi": "चावल के आटे का मीठा तला केक।",
+            "mr": "तांदळाच्या पिठाचा गोड तळलेला केक.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Food",
+        "hi": "खान-पान",
+        "mr": "खाद्यसंस्कृती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "dress",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "jainsem",
+          "name": {
+            "en": "Jainsem and dhara",
+            "hi": "जैनसेम और धारा",
+            "mr": "जैनसेम व धारा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Draped dress worn by Khasi women.",
+            "hi": "खासी महिलाओं द्वारा पहनी जाने वाली लिपटी पोशाक।",
+            "mr": "खासी स्त्रिया परिधान करतात तो गुंडाळलेला पोशाख.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jymphong",
+          "name": {
+            "en": "Jymphong",
+            "hi": "जिम्फोंग",
+            "mr": "जिम्फोंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Sleeveless coat of Khasi men.",
+            "hi": "खासी पुरुषों का बिना आस्तीन का कोट।",
+            "mr": "खासी पुरुषांचा बिनबाह्यांचा कोट.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dakmanda",
+          "name": {
+            "en": "Dakmanda",
+            "hi": "दकमांडा",
+            "mr": "दकमांडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Woven wrap-around of Garo women.",
+            "hi": "गारो महिलाओं का बुना लपेटने वाला वस्त्र।",
+            "mr": "गारो स्त्रियांचे विणलेले गुंडाळायचे वस्त्र.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Traditional dress",
+        "hi": "पारंपरिक वेशभूषा",
+        "mr": "पारंपरिक वेशभूषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "region": "IN-ML",
+  "module": "vibe",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Shillong mixes hill-station calm with a lively youth culture: cafés and live music, church choirs, football on the Polo Grounds and the daily teer archery lottery. Police Bazaar is the busy centre, and Iewduh (Bara Bazar) is the large traditional market. Village life is organised around clans and the traditional institutions of chiefs (syiem, doloi, nokma) and councils, and community rules on forests, water and cleanliness are widely respected. Sunday is quiet in much of the State, as most people are Christian and go to church.",
+        "hi": "शिलांग पहाड़ी नगर की शांति और जीवंत युवा संस्कृति का मेल है: कैफ़े और लाइव संगीत, चर्च गायक मंडलियाँ, पोलो ग्राउंड पर फ़ुटबॉल और रोज़ होने वाली तीर तीरंदाज़ी लॉटरी। पुलिस बाज़ार व्यस्त केंद्र है, और इवदुह (बड़ा बाज़ार) बड़ा पारंपरिक बाज़ार है। गाँव का जीवन कुलों और मुखियाओं (स्येम, दोलोई, नोकमा) और परिषदों की पारंपरिक संस्थाओं के इर्द-गिर्द चलता है, और वनों, पानी और स्वच्छता पर सामुदायिक नियमों का व्यापक सम्मान होता है। राज्य के अधिकांश भाग में रविवार शांत रहता है, क्योंकि अधिकांश लोग ईसाई हैं और चर्च जाते हैं।",
+        "mr": "शिलाँगमध्ये डोंगरी शहराची शांतता व चैतन्यशील तरुण संस्कृती यांचा मेळ आहे: कॅफे व थेट संगीत, चर्चमधील गायकवृंद, पोलो ग्राउंडवर फुटबॉल आणि रोजची तीर धनुर्विद्या लॉटरी. पोलीस बाजार हे गजबजलेले केंद्र आहे, आणि इवदुह (बडा बाजार) हा मोठा पारंपरिक बाजार आहे. गावजीवन कुळे आणि प्रमुख (स्येम, दोलोई, नोकमा) व परिषदांच्या पारंपरिक संस्थांभोवती चालते, आणि जंगल, पाणी व स्वच्छतेबाबतचे सामुदायिक नियम मोठ्या प्रमाणावर पाळले जातात. राज्याच्या बहुतांश भागात रविवार शांत असतो, कारण बहुतेक लोक ख्रिस्ती आहेत व चर्चला जातात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Religion shares (Census 2011, C-01)",
+            "hi": "धर्मवार हिस्सा (जनगणना 2011, C-01)",
+            "mr": "धर्मनिहाय वाटा (जनगणना 2011, C-01)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census C-01 table; show without commentary."
+        }
+      ]
+    }
+  ]
+}

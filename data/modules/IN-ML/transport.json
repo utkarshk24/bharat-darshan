@@ -1,0 +1,117 @@
+{
+  "region": "IN-ML",
+  "module": "transport",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Roads carry almost all of Meghalaya's traffic. NH-6 (formerly NH-40 and NH-44) climbs from Guwahati to Shillong and continues through the Jaintia Hills to Silchar, and NH-62 and NH-217 serve the Garo Hills. Shillong airport at Umroi, about 30 km from the city, has small-aircraft flights, while most travellers use Guwahati airport, about three hours away; Tura has an airstrip at Baljek. The only railway station is Mendipathar in North Garo Hills, linked to Assam since 2014. Shared taxis and buses connect towns, and land ports at Dawki and elsewhere handle trade with Bangladesh.",
+        "hi": "मेघालय का लगभग सारा यातायात सड़कों से होता है। एनएच-6 (पहले एनएच-40 और एनएच-44) गुवाहाटी से शिलांग चढ़ता है और जयंतिया पहाड़ियों से होकर सिलचर तक जाता है, और एनएच-62 व एनएच-217 गारो पहाड़ियों को जोड़ते हैं। शहर से लगभग 30 किमी दूर उमरोई का शिलांग हवाई अड्डा छोटे विमानों की उड़ानें देता है, जबकि अधिकांश यात्री लगभग तीन घंटे दूर गुवाहाटी हवाई अड्डे का उपयोग करते हैं; तुरा में बालजेक में हवाई पट्टी है। एकमात्र रेलवे स्टेशन उत्तरी गारो हिल्स का मेंदीपाथर है, जो 2014 से असम से जुड़ा है। साझा टैक्सियाँ और बसें नगरों को जोड़ती हैं, और दावकी व अन्य जगहों के भू-बंदरगाह बांग्लादेश के साथ व्यापार संभालते हैं।",
+        "mr": "मेघालयातील जवळपास सर्व वाहतूक रस्त्यांनी होते. एनएच-6 (पूर्वीचे एनएच-40 व एनएच-44) गुवाहाटीहून शिलाँगपर्यंत चढतो व जयंतिया टेकड्यांतून सिलचरपर्यंत जातो, आणि एनएच-62 व एनएच-217 गारो टेकड्यांना सेवा देतात. शहरापासून सुमारे 30 किमीवरील उमरोई येथील शिलाँग विमानतळावरून लहान विमानांची उड्डाणे होतात, तर बहुतेक प्रवासी सुमारे तीन तासांवरील गुवाहाटी विमानतळ वापरतात; तुराला बालजेक येथे धावपट्टी आहे. एकमेव रेल्वे स्थानक उत्तर गारो हिल्समधील मेंदीपाथर आहे, जे 2014 पासून आसामशी जोडलेले आहे. सामायिक टॅक्सी व बस शहरे जोडतात, आणि दावकी व इतर ठिकाणची भू-बंदरे बांगलादेशशी व्यापार हाताळतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "shl",
+          "name": {
+            "en": "Shillong Airport, Umroi",
+            "hi": "शिलांग हवाई अड्डा, उमरोई",
+            "mr": "शिलाँग विमानतळ, उमरोई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "SHL",
+            "hi": "SHL",
+            "mr": "SHL",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "gau",
+          "name": {
+            "en": "Guwahati (Assam)",
+            "hi": "गुवाहाटी (असम)",
+            "mr": "गुवाहाटी (आसाम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "GAU, nearest major airport",
+            "hi": "GAU, निकटतम बड़ा हवाई अड्डा",
+            "mr": "GAU, जवळचा मोठा विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road length by category",
+            "hi": "श्रेणीवार सड़क लंबाई",
+            "mr": "प्रकारनिहाय रस्त्यांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "Basic Road Statistics of India."
+        },
+        {
+          "label": {
+            "en": "Mendipathar rail link — opening date",
+            "hi": "मेंदीपाथर रेल लिंक — उद्घाटन तिथि",
+            "mr": "मेंदीपाथर रेल्वे जोड — उद्घाटन तारीख",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Northeast Frontier Railway."
+        }
+      ]
+    }
+  ]
+}

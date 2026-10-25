@@ -1,0 +1,42 @@
+{
+  "region": "IN-ML",
+  "module": "diaspora",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Khasi and Garo communities also live in neighbouring Assam and across the border in Bangladesh's Sylhet and Mymensingh divisions. Many young people from Meghalaya study and work in Guwahati, Delhi, Bengaluru and other cities, especially in hospitality, aviation and services, and Shillong's musicians and choirs perform in India and abroad.",
+        "hi": "खासी और गारो समुदाय पड़ोसी असम में और सीमा पार बांग्लादेश के सिलहट और मयमनसिंह मंडलों में भी रहते हैं। मेघालय के बहुत से युवा गुवाहाटी, दिल्ली, बेंगलुरु और अन्य नगरों में पढ़ते और काम करते हैं, विशेषकर आतिथ्य, विमानन और सेवाओं में, और शिलांग के संगीतकार और गायक मंडलियाँ भारत और विदेश में प्रस्तुति देते हैं।",
+        "mr": "खासी व गारो समुदाय शेजारच्या आसाममध्ये आणि सीमेपलीकडे बांगलादेशच्या सिलहट व मयमनसिंह विभागांतही राहतात. मेघालयातील अनेक तरुण गुवाहाटी, दिल्ली, बंगळुरू व इतर शहरांत शिकतात व काम करतात, विशेषतः आतिथ्य, विमानवाहतूक व सेवा क्षेत्रांत, आणि शिलाँगचे संगीतकार व गायकवृंद भारतात व परदेशात सादरीकरण करतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Out-migration from the State — official estimate",
+            "hi": "राज्य से बाहर प्रवास — आधिकारिक अनुमान",
+            "mr": "राज्याबाहेर स्थलांतर — अधिकृत अंदाज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 migration tables (D-series)."
+        }
+      ]
+    }
+  ]
+}

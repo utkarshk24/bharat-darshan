@@ -1,0 +1,467 @@
+{
+  "region": "IN-ML",
+  "module": "people",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Meghalaya had 29.7 lakh people at the 2011 Census, about 132 per km². The sex ratio was 989 women per 1,000 men, up from 972 in 2001, and the child sex ratio 970. Literacy was 74.4%. Scheduled Tribes made up 86.1% of the population — mainly the Khasi, the Jaintia (Pnar, War and others, often counted with the Khasi) and the Garo, with smaller groups such as the Hajong, Koch, Rabha and Biate — and Scheduled Castes 0.6%.\n\nKhasi and Garo are the main languages, and English is the official language. Among the Khasi and Jaintia the youngest daughter (ka khadduh) traditionally inherits the ancestral home, and among the Garo a chosen daughter (nokna) inherits; children take their mother's clan name.",
+        "hi": "2011 की जनगणना में मेघालय की जनसंख्या 29.7 लाख थी, प्रति वर्ग किमी लगभग 132। लिंगानुपात प्रति 1,000 पुरुषों पर 989 महिलाएँ था, जो 2001 के 972 से अधिक है, और शिशु लिंगानुपात 970 था। साक्षरता 74.4% थी। अनुसूचित जनजातियाँ जनसंख्या का 86.1% थीं — मुख्यतः खासी, जयंतिया (प्नार, वार और अन्य, जिन्हें अक्सर खासी के साथ गिना जाता है) और गारो, और हाजोंग, कोच, राभा और बियाते जैसे छोटे समूह — और अनुसूचित जातियाँ 0.6%।\n\nखासी और गारो मुख्य भाषाएँ हैं, और अंग्रेज़ी राजभाषा है। खासी और जयंतिया में परंपरागत रूप से सबसे छोटी बेटी (का खद्दुह) पैतृक घर की उत्तराधिकारी होती है, और गारो में एक चुनी हुई बेटी (नोकना); बच्चे माँ का कुल नाम लेते हैं।",
+        "mr": "2011 च्या जनगणनेनुसार मेघालयाची लोकसंख्या 29.7 लाख होती, प्रति चौ.किमी सुमारे 132. दर 1,000 पुरुषांमागे 989 स्त्रिया होत्या, 2001 मधील 972 वरून वाढ, आणि बाल लिंग गुणोत्तर 970 होते. साक्षरता 74.4% होती. अनुसूचित जमाती लोकसंख्येच्या 86.1% होत्या — मुख्यतः खासी, जयंतिया (प्नार, वार व इतर, ज्यांची अनेकदा खासींसोबत गणना होते) व गारो, आणि हाजोंग, कोच, राभा व बियाते सारखे लहान गट — आणि अनुसूचित जाती 0.6%.\n\nखासी व गारो या मुख्य भाषा आहेत, आणि इंग्रजी राजभाषा आहे. खासी व जयंतियांमध्ये परंपरेने सर्वांत धाकटी मुलगी (का खद्दुह) वडिलोपार्जित घराची वारस असते, आणि गारोंमध्ये निवडलेली मुलगी (नोकना); मुले आईचे कुळनाव घेतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "census",
+        "es-india",
+        "dl-planning",
+        "pib"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "pop",
+          "label": {
+            "en": "Population (Census 2011)",
+            "hi": "जनसंख्या (जनगणना 2011)",
+            "mr": "लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 2966889,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 14,91,832; females 14,75,057."
+          },
+          "kind": "count",
+          "polarity": "neutral",
+          "national": {
+            "value": 1210854977,
+            "unit": "persons",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Census 2011 final total; State Data Bank shows 12,10,855 thousand."
+          }
+        },
+        {
+          "id": "sr",
+          "label": {
+            "en": "Sex ratio",
+            "hi": "लिंगानुपात",
+            "mr": "लिंग गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 989,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Puducherry DES state-wise table citing ORGI (972 in 2001)."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 972,
+            "unit": "females per 1000 males",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 943,
+            "unit": "females per 1000 males",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "csr",
+          "label": {
+            "en": "Child sex ratio (0–6)",
+            "hi": "शिशु लिंगानुपात (0–6)",
+            "mr": "बाल लिंग गुणोत्तर (0–6)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 970,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "PIB release of 11 Feb 2014 (RGI data). Was 973 in 2001."
+          },
+          "kind": "ratio",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 973,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2001",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 919,
+            "unit": "girls per 1000 boys (0–6 yrs)",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "lit",
+          "label": {
+            "en": "Literacy rate",
+            "hi": "साक्षरता दर",
+            "mr": "साक्षरता दर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 74.4,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "es-india",
+            "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 73.0,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://mahasdb.maharashtra.gov.in/maagCmpIndia.do",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Population aged 7+, as rounded by the State Data Bank."
+          }
+        },
+        {
+          "id": "den",
+          "label": {
+            "en": "Population density",
+            "hi": "जनसंख्या घनत्व",
+            "mr": "लोकसंख्या घनता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 132,
+            "unit": "persons per km²",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "census",
+            "url": "https://statistics.py.gov.in/state-wise-population",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Calculated: Census 2011 population 29,66,889 ÷ area 22,429 km² = 132.3."
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "st",
+          "label": {
+            "en": "Scheduled Tribes, share of population",
+            "hi": "अनुसूचित जनजातियाँ, जनसंख्या में हिस्सा",
+            "mr": "अनुसूचित जमाती, लोकसंख्येतील वाटा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 86.1,
+            "unit": "%",
+            "period": "2011",
+            "periodType": "census",
+            "sourceId": "dl-planning",
+            "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/17._table_social_welfare.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Delhi Planning Department, table 17.2, citing Census 2011: 25.56 lakh people. Scheduled Castes were 0.6% (0.17 lakh)."
+          },
+          "kind": "percent",
+          "polarity": "neutral"
+        }
+      ],
+      "title": {
+        "en": "Census 2011 at a glance",
+        "hi": "जनगणना 2011 एक नज़र में",
+        "mr": "जनगणना 2011 दृष्टिक्षेपात",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "langs",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "kha",
+          "name": {
+            "en": "Khasi",
+            "hi": "खासी",
+            "mr": "खासी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Associate official language",
+            "hi": "सहायक राजभाषा",
+            "mr": "सहयोगी राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "garo",
+          "name": {
+            "en": "Garo (A·chik)",
+            "hi": "गारो (आ·चिक)",
+            "mr": "गारो (आ·चिक)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Associate official language",
+            "hi": "सहायक राजभाषा",
+            "mr": "सहयोगी राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pnar",
+          "name": {
+            "en": "Pnar (Jaintia)",
+            "hi": "प्नार (जयंतिया)",
+            "mr": "प्नार (जयंतिया)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "war",
+          "name": {
+            "en": "War",
+            "hi": "वार",
+            "mr": "वार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "hajong",
+          "name": {
+            "en": "Hajong",
+            "hi": "हाजोंग",
+            "mr": "हाजोंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bn",
+          "name": {
+            "en": "Bengali",
+            "hi": "बांग्ला",
+            "mr": "बंगाली",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ne",
+          "name": {
+            "en": "Nepali",
+            "hi": "नेपाली",
+            "mr": "नेपाळी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "en",
+          "name": {
+            "en": "English",
+            "hi": "अंग्रेज़ी",
+            "mr": "इंग्रजी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Official language",
+            "hi": "राजभाषा",
+            "mr": "राजभाषा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Languages",
+        "hi": "भाषाएँ",
+        "mr": "भाषा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Urban population share (Census 2011)",
+            "hi": "शहरी जनसंख्या का हिस्सा (जनगणना 2011)",
+            "mr": "नागरी लोकसंख्येचा वाटा (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Primary Census Abstract."
+        },
+        {
+          "label": {
+            "en": "Population by tribe — official figures",
+            "hi": "जनजातिवार जनसंख्या — आधिकारिक आँकड़े",
+            "mr": "जमातिनिहाय लोकसंख्या — अधिकृत आकडे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 ST-wise tables (A-11)."
+        },
+        {
+          "label": {
+            "en": "Meghalaya State Language Act — official text",
+            "hi": "मेघालय राज्य भाषा अधिनियम — आधिकारिक पाठ",
+            "mr": "मेघालय राज्य भाषा अधिनियम — अधिकृत मजकूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ml-gov",
+          "note": "Meghalaya State Language Act, 2005."
+        }
+      ]
+    }
+  ]
+}

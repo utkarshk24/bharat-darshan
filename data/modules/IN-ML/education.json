@@ -1,0 +1,349 @@
+{
+  "region": "IN-ML",
+  "module": "education",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Literacy in Meghalaya was 74.4% at the 2011 Census. The higher-education gross enrolment ratio (ages 18–23) was 25.4% in 2021-22 in AISHE, below the national 28.4%, and women's GER (28.1%) was well above men's (22.7%). The State had 11 universities, many of them private, and 77 colleges.\n\nShillong has long been an educational centre for the North-East, with mission schools and colleges such as St. Edmund's and St. Anthony's. North-Eastern Hill University (NEHU), a central university founded in 1973, has campuses in Shillong and Tura; IIM Shillong was set up in 2007, and NIT Meghalaya is at Sohra. Khasi and Garo are taught in schools, and NEHU offers degrees in both languages.",
+        "hi": "2011 की जनगणना में मेघालय की साक्षरता 74.4% थी। एआईएसएचई के अनुसार 2021-22 में उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 25.4% था, जो राष्ट्रीय 28.4% से कम है, और महिलाओं का जीईआर (28.1%) पुरुषों (22.7%) से काफ़ी अधिक था। राज्य में 11 विश्वविद्यालय थे, जिनमें से कई निजी हैं, और 77 कॉलेज।\n\nशिलांग लंबे समय से पूर्वोत्तर का शैक्षिक केंद्र रहा है, जहाँ सेंट एडमंड्स और सेंट एंथनीज़ जैसे मिशन स्कूल और कॉलेज हैं। 1973 में स्थापित केंद्रीय विश्वविद्यालय, नॉर्थ-ईस्टर्न हिल यूनिवर्सिटी (नेहू), के परिसर शिलांग और तुरा में हैं; आईआईएम शिलांग 2007 में स्थापित हुआ, और एनआईटी मेघालय सोहरा में है। स्कूलों में खासी और गारो पढ़ाई जाती हैं, और नेहू दोनों भाषाओं में डिग्री देता है।",
+        "mr": "2011 च्या जनगणनेत मेघालयाची साक्षरता 74.4% होती. एआयएसएचईनुसार 2021-22 मध्ये उच्चशिक्षण एकूण नोंदणी गुणोत्तर (18–23 वय) 25.4% होते, राष्ट्रीय 28.4% पेक्षा कमी, आणि स्त्रियांचे जीईआर (28.1%) पुरुषांपेक्षा (22.7%) बरेच जास्त होते. राज्यात 11 विद्यापीठे होती, त्यांपैकी अनेक खासगी, आणि 77 महाविद्यालये.\n\nशिलाँग दीर्घ काळापासून ईशान्येचे शैक्षणिक केंद्र आहे, जिथे सेंट एडमंड्स व सेंट अँथनीजसारख्या मिशन शाळा व महाविद्यालये आहेत. 1973 मध्ये स्थापन झालेल्या केंद्रीय विद्यापीठाचे, नॉर्थ-ईस्टर्न हिल युनिव्हर्सिटी (नेहू), परिसर शिलाँग व तुरा येथे आहेत; आयआयएम शिलाँग 2007 मध्ये स्थापन झाले, आणि एनआयटी मेघालय सोहरा येथे आहे. शाळांत खासी व गारो शिकवल्या जातात, आणि नेहू दोन्ही भाषांत पदव्या देते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 25.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 25.76,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 11,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 77,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "ml",
+          "label": {
+            "en": "Meghalaya",
+            "hi": "मेघालय",
+            "mr": "मेघालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 22.38,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 23.12,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 23.2,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 25.76,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 25.4,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "ini",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "nehu",
+          "name": {
+            "en": "North-Eastern Hill University",
+            "hi": "नॉर्थ-ईस्टर्न हिल यूनिवर्सिटी",
+            "mr": "नॉर्थ-ईस्टर्न हिल युनिव्हर्सिटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Central university, Shillong, 1973",
+            "hi": "केंद्रीय विश्वविद्यालय, शिलांग, 1973",
+            "mr": "केंद्रीय विद्यापीठ, शिलाँग, 1973",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "iims",
+          "name": {
+            "en": "IIM Shillong",
+            "hi": "आईआईएम शिलांग",
+            "mr": "आयआयएम शिलाँग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "2007",
+            "hi": "2007",
+            "mr": "2007",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "nitm",
+          "name": {
+            "en": "NIT Meghalaya",
+            "hi": "एनआईटी मेघालय",
+            "mr": "एनआयटी मेघालय",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Sohra",
+            "hi": "सोहरा",
+            "mr": "सोहरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "neigrihms",
+          "name": {
+            "en": "NEIGRIHMS",
+            "hi": "नेग्रिम्स",
+            "mr": "नेग्रिम्स",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Medical institute, Shillong",
+            "hi": "चिकित्सा संस्थान, शिलांग",
+            "mr": "वैद्यकीय संस्था, शिलाँग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Institutions (selected)",
+        "hi": "संस्थान (चयनित)",
+        "mr": "संस्था (निवडक)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "region": "IN-ML",
+  "module": "energy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Hydropower is Meghalaya's main source of electricity. The Umiam–Umtru stations, begun in the 1960s around Umiam lake, the Myntdu-Leshka project in the Jaintia Hills and the New Umtru station are run by the State-owned Meghalaya Energy Corporation, and the State also draws power from central stations through the North-Eastern grid. Coal from the Jaintia and Garo Hills was once a major output, but unscientific 'rat-hole' mining was banned by the National Green Tribunal in 2014, and scientific mining under approved plans has resumed only slowly.",
+        "hi": "जलविद्युत मेघालय की बिजली का मुख्य स्रोत है। उमियम झील के आसपास 1960 के दशक में शुरू हुए उमियम–उमत्रू केंद्र, जयंतिया पहाड़ियों में मिंतदू-लेश्का परियोजना और न्यू उमत्रू केंद्र राज्य के स्वामित्व वाले मेघालय ऊर्जा निगम द्वारा चलाए जाते हैं, और राज्य पूर्वोत्तर ग्रिड के माध्यम से केंद्रीय बिजलीघरों से भी बिजली लेता है। जयंतिया और गारो पहाड़ियों का कोयला कभी बड़ा उत्पादन था, पर अवैज्ञानिक 'रैट-होल' खनन पर 2014 में राष्ट्रीय हरित अधिकरण ने रोक लगाई, और स्वीकृत योजनाओं के तहत वैज्ञानिक खनन धीरे-धीरे ही फिर शुरू हुआ है।",
+        "mr": "जलविद्युत हा मेघालयाच्या विजेचा मुख्य स्रोत आहे. उमियम सरोवराभोवती 1960 च्या दशकात सुरू झालेली उमियम–उमत्रू केंद्रे, जयंतिया टेकड्यांतील मिंतदू-लेश्का प्रकल्प व न्यू उमत्रू केंद्र राज्याच्या मालकीचे मेघालय ऊर्जा महामंडळ चालवते, आणि राज्य ईशान्य ग्रिडद्वारे केंद्रीय वीजकेंद्रांतूनही वीज घेते. जयंतिया व गारो टेकड्यांतील कोळसा एकेकाळी मोठे उत्पादन होते, पण अशास्त्रीय 'रॅट-होल' खाणकामावर 2014 मध्ये राष्ट्रीय हरित लवादाने बंदी घातली, आणि मंजूर आराखड्यांनुसार शास्त्रीय खाणकाम हळूहळूच पुन्हा सुरू झाले आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by station",
+            "hi": "केंद्रवार स्थापित क्षमता",
+            "mr": "केंद्रनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report / MePGCL."
+        },
+        {
+          "label": {
+            "en": "Coal production since the resumption of mining",
+            "hi": "खनन फिर शुरू होने के बाद कोयला उत्पादन",
+            "mr": "खाणकाम पुन्हा सुरू झाल्यापासून कोळसा उत्पादन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Coal / Meghalaya Mining and Geology Department."
+        }
+      ]
+    }
+  ]
+}

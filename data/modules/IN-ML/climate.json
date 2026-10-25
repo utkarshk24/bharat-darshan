@@ -1,0 +1,183 @@
+{
+  "region": "IN-ML",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Meghalaya is cool for its latitude because of its height: Shillong, at about 1,500 m, has mild summers and chilly winters. The south-west monsoon from May to September is extremely wet on the southern escarpment, where Sohra and Mawsynram receive very heavy rainfall; the northern slopes and Ri-Bhoi are in a rain shadow and much drier. Winters, from November to February, are dry and clear, with fog in the valleys. The Garo Hills, lower and warmer, have a more tropical climate.",
+        "hi": "ऊँचाई के कारण मेघालय अपने अक्षांश के हिसाब से ठंडा है: लगभग 1,500 मीटर पर शिलांग में गर्मियाँ सुहावनी और सर्दियाँ ठंडी होती हैं। मई से सितंबर तक दक्षिण-पश्चिम मानसून दक्षिणी ढलान पर अत्यधिक वर्षा लाता है, जहाँ सोहरा और मौसिनराम में बहुत भारी वर्षा होती है; उत्तरी ढलानें और री-भोई वृष्टि छाया में हैं और बहुत सूखे हैं। नवंबर से फ़रवरी तक सर्दियाँ सूखी और साफ़ होती हैं, घाटियों में कोहरे के साथ। नीची और गर्म गारो पहाड़ियों की जलवायु अधिक उष्णकटिबंधीय है।",
+        "mr": "उंचीमुळे मेघालय त्याच्या अक्षांशाच्या मानाने थंड आहे: सुमारे 1,500 मीटरवरील शिलाँगमध्ये उन्हाळे सौम्य व हिवाळे गारठलेले असतात. मे ते सप्टेंबर नैर्ऋत्य मान्सून दक्षिणी कड्यावर अतिशय पाऊस आणतो, जिथे सोहरा व मौसिनरामला अतिशय मुसळधार पाऊस पडतो; उत्तरेकडील उतार व री-भोई पर्जन्यछायेत असून बरेच कोरडे आहेत. नोव्हेंबर ते फेब्रुवारी हिवाळा कोरडा व निरभ्र असतो, खोऱ्यांत धुक्यासह. कमी उंचीच्या व उबदार गारो टेकड्यांचे हवामान अधिक उष्णकटिबंधीय आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Shillong",
+            "hi": "शिलांग",
+            "mr": "शिलाँग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 25.5788,
+          "lon": 91.8933
+        },
+        {
+          "name": {
+            "en": "Sohra (Cherrapunji)",
+            "hi": "सोहरा (चेरापूंजी)",
+            "mr": "सोहरा (चेरापुंजी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 25.2702,
+          "lon": 91.7323
+        },
+        {
+          "name": {
+            "en": "Tura",
+            "hi": "तुरा",
+            "mr": "तुरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 25.5138,
+          "lon": 90.2036
+        },
+        {
+          "name": {
+            "en": "Jowai",
+            "hi": "जोवाई",
+            "mr": "जोवाई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 25.45,
+          "lon": 92.2
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "autumn",
+          "name": {
+            "en": "October to November",
+            "hi": "अक्टूबर से नवंबर",
+            "mr": "ऑक्टोबर ते नोव्हेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Clear skies after the rains; Shad Nongkrem and Wangala festivals.",
+            "hi": "वर्षा के बाद साफ़ आसमान; शाद नोंगक्रेम और वांगला उत्सव।",
+            "mr": "पावसानंतर निरभ्र आकाश; शाद नोंगक्रेम व वांगला उत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spring",
+          "name": {
+            "en": "March to May",
+            "hi": "मार्च से मई",
+            "mr": "मार्च ते मे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pleasant weather; Shad Suk Mynsiem in April.",
+            "hi": "सुहावना मौसम; अप्रैल में शाद सुक मिनसिएम।",
+            "mr": "सुखद हवामान; एप्रिलमध्ये शाद सुक मिनसिएम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "June to September",
+            "hi": "जून से सितंबर",
+            "mr": "जून ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Waterfalls at their fullest; expect heavy rain, slippery treks and road delays.",
+            "hi": "झरने पूरे उफान पर; भारी वर्षा, फिसलन भरे ट्रेक और सड़क पर देरी की संभावना।",
+            "mr": "धबधबे पूर्ण भरात; मुसळधार पाऊस, निसरडे ट्रेक व रस्त्यांवर उशीर अपेक्षित.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall at Sohra and Mawsynram",
+            "hi": "सोहरा और मौसिनराम में सामान्य वार्षिक वर्षा",
+            "mr": "सोहरा व मौसिनराम येथील सरासरी वार्षिक पाऊस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD climatological normals."
+        }
+      ]
+    }
+  ]
+}

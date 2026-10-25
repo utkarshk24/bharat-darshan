@@ -1,0 +1,68 @@
+{
+  "region": "IN-TR",
+  "module": "trivia",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "st",
+          "name": {
+            "en": "Scheduled Tribes made up 31.8% of Tripura's population in 2011.",
+            "hi": "2011 में त्रिपुरा की जनसंख्या में अनुसूचित जनजातियों का हिस्सा 31.8% था।",
+            "mr": "2011 मध्ये त्रिपुराच्या लोकसंख्येत अनुसूचित जमातींचा वाटा 31.8% होता.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/17._table_social_welfare.pdf",
+          "sourceId": "dl-planning"
+        },
+        {
+          "id": "ramsar",
+          "name": {
+            "en": "Rudrasagar Lake was designated a Ramsar site on 8 November 2005.",
+            "hi": "रुद्रसागर झील को 8 नवंबर 2005 को रामसर स्थल घोषित किया गया।",
+            "mr": "रुद्रसागर सरोवराला 8 नोव्हेंबर 2005 रोजी रामसर स्थळ घोषित केले गेले.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://indianwetlands.in/wp-content/uploads/library/1761126102.pdf",
+          "sourceId": "indian-wetlands"
+        },
+        {
+          "id": "tagore",
+          "name": {
+            "en": "Rabindranath Tagore visited Agartala several times as a guest of the Manikya kings.",
+            "hi": "रवींद्रनाथ टैगोर माणिक्य राजाओं के अतिथि के रूप में कई बार अगरतला आए।",
+            "mr": "रवींद्रनाथ टागोर माणिक्य राजांचे पाहुणे म्हणून अनेकदा आगरतळ्याला आले.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

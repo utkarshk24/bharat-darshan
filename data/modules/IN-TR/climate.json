@@ -1,0 +1,128 @@
+{
+  "region": "IN-TR",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tripura has a warm, humid tropical climate. Summers from March to May are hot, with thunderstorms; the monsoon from June to September brings heavy rain and floods in low-lying areas; and winters from November to February are mild and pleasant.",
+        "hi": "त्रिपुरा की जलवायु गर्म, आर्द्र उष्णकटिबंधीय है। मार्च से मई तक गर्मियाँ गर्म होती हैं, गरज के साथ तूफ़ानों के साथ; जून से सितंबर तक मानसून भारी वर्षा और निचले क्षेत्रों में बाढ़ लाता है; और नवंबर से फ़रवरी तक सर्दियाँ सौम्य और सुहावनी होती हैं।",
+        "mr": "त्रिपुराचे हवामान उष्ण, दमट उष्णकटिबंधीय आहे. मार्च ते मे उन्हाळा उष्ण असतो, वादळी पावसासह; जून ते सप्टेंबर मान्सून मुसळधार पाऊस व सखल भागांत पूर आणतो; आणि नोव्हेंबर ते फेब्रुवारी हिवाळा सौम्य व सुखद असतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Agartala",
+            "hi": "अगरतला",
+            "mr": "आगरतळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 23.8315,
+          "lon": 91.2868
+        },
+        {
+          "name": {
+            "en": "Udaipur",
+            "hi": "उदयपुर",
+            "mr": "उदयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 23.5333,
+          "lon": 91.4833
+        },
+        {
+          "name": {
+            "en": "Dharmanagar",
+            "hi": "धर्मनगर",
+            "mr": "धर्मनगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 24.3667,
+          "lon": 92.1667
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to March",
+            "hi": "अक्टूबर से मार्च",
+            "mr": "ऑक्टोबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pleasant weather; Durga Puja and Diwali at Tripura Sundari.",
+            "hi": "सुहावना मौसम; दुर्गा पूजा और त्रिपुरा सुंदरी में दीवाली।",
+            "mr": "सुखद हवामान; दुर्गापूजा व त्रिपुरा सुंदरी येथे दिवाळी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall",
+            "hi": "सामान्य वार्षिक वर्षा",
+            "mr": "सरासरी वार्षिक पाऊस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD climatological normals for Agartala."
+        }
+      ]
+    }
+  ]
+}

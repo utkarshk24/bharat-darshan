@@ -1,0 +1,248 @@
+{
+  "region": "IN-TR",
+  "module": "geography",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Six main hill ranges — Jampui, Sakhan, Longtharai, Atharamura, Baramura and Deotamura — run north to south, rising to about 900 m at Betlingchhip in the Jampui hills on the Mizoram border. Between them lie valleys drained by the Gomati, Khowai, Haora, Manu, Dhalai and Juri rivers, most of which flow west into Bangladesh. The Gomati, dammed at Dumbur, feeds a large reservoir. Much of the land is covered by forest, bamboo and rubber plantations.",
+        "hi": "छह मुख्य पहाड़ी शृंखलाएँ — जामपुई, साखन, लोंगथराई, अठारमुड़ा, बड़मुड़ा और देवतामुड़ा — उत्तर से दक्षिण चलती हैं, जो मिज़ोरम सीमा पर जामपुई पहाड़ियों में बेटलिंगछिप पर लगभग 900 मीटर तक उठती हैं। इनके बीच गोमती, खोवाई, हावड़ा, मनु, धलाई और जूरी नदियों की घाटियाँ हैं, जिनमें से अधिकांश पश्चिम में बांग्लादेश की ओर बहती हैं। डुम्बुर में बाँधी गई गोमती एक बड़ा जलाशय बनाती है। भूमि का बड़ा भाग वन, बाँस और रबर बाग़ानों से ढका है।",
+        "mr": "सहा मुख्य डोंगररांगा — जामपुई, साखन, लोंगथराई, अठारमुडा, बडमुडा व देवतामुडा — उत्तर-दक्षिण धावतात, ज्या मिझोराम सीमेवरील जामपुई टेकड्यांत बेटलिंगछिप येथे सुमारे 900 मीटरपर्यंत उंचावतात. त्यांच्यामध्ये गोमती, खोवाई, हावडा, मनू, धलाई व जुरी नद्यांची खोरी आहेत, ज्यांतील बहुतेक पश्चिमेला बांगलादेशकडे वाहतात. डुम्बुर येथे बांधलेली गोमती मोठा जलाशय तयार करते. जमिनीचा बराचसा भाग जंगल, बांबू व रबराच्या मळ्यांनी व्यापलेला आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 10486,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "bd",
+          "name": {
+            "en": "Bangladesh (north, west and south)",
+            "hi": "बांग्लादेश (उत्तर, पश्चिम और दक्षिण)",
+            "mr": "बांगलादेश (उत्तर, पश्चिम व दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "as",
+          "name": {
+            "en": "Assam (north-east)",
+            "hi": "असम (उत्तर-पूर्व)",
+            "mr": "आसाम (ईशान्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mz",
+          "name": {
+            "en": "Mizoram (east)",
+            "hi": "मिज़ोरम (पूर्व)",
+            "mr": "मिझोराम (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "gomati",
+          "name": {
+            "en": "Gomati",
+            "hi": "गोमती",
+            "mr": "गोमती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Dammed at Dumbur; flows west past Udaipur.",
+            "hi": "डुम्बुर में बाँधी गई; उदयपुर से पश्चिम बहती है।",
+            "mr": "डुम्बुर येथे धरण; उदयपूरवरून पश्चिमेला वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "haora",
+          "name": {
+            "en": "Haora",
+            "hi": "हावड़ा",
+            "mr": "हावडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows through Agartala into Bangladesh.",
+            "hi": "अगरतला से होकर बांग्लादेश जाती है।",
+            "mr": "आगरतळ्यातून बांगलादेशात जाते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "manu",
+          "name": {
+            "en": "Manu",
+            "hi": "मनु",
+            "mr": "मनू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Drains the north.",
+            "hi": "उत्तरी भाग का जल बहाती है।",
+            "mr": "उत्तरेकडील भागाचे पाणी वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khowai",
+          "name": {
+            "en": "Khowai",
+            "hi": "खोवाई",
+            "mr": "खोवाई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows north-west into Bangladesh.",
+            "hi": "उत्तर-पश्चिम में बांग्लादेश जाती है।",
+            "mr": "वायव्येला बांगलादेशात जाते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Length of the Bangladesh border",
+            "hi": "बांग्लादेश सीमा की लंबाई",
+            "mr": "बांगलादेश सीमेची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Home Affairs (Department of Border Management)."
+        }
+      ]
+    }
+  ]
+}

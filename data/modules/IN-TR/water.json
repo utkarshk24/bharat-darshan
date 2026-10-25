@@ -1,0 +1,42 @@
+{
+  "region": "IN-TR",
+  "module": "water",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tripura's rivers are short and rain-fed, and most flow into Bangladesh, so sharing river water — especially of the Feni and the Manu — is a matter for India–Bangladesh talks. Ponds and lakes are used for fish farming across the State, and groundwater supplies most drinking water; iron content is high in many areas.",
+        "hi": "त्रिपुरा की नदियाँ छोटी और वर्षा पर आधारित हैं, और अधिकांश बांग्लादेश में बहती हैं, इसलिए नदी जल का बँटवारा — विशेषकर फेनी और मनु का — भारत–बांग्लादेश वार्ता का विषय है। पूरे राज्य में तालाबों और झीलों में मछली पालन होता है, और अधिकांश पेयजल भूजल से आता है; कई क्षेत्रों में लौह की मात्रा अधिक है।",
+        "mr": "त्रिपुराच्या नद्या लहान व पावसावर अवलंबून आहेत, आणि बहुतेक बांगलादेशात वाहतात, त्यामुळे नदीपाण्याची वाटणी — विशेषतः फेनी व मनूची — भारत–बांगलादेश चर्चेचा विषय आहे. संपूर्ण राज्यात तलाव व सरोवरांत मत्स्यपालन होते, आणि बहुतांश पिण्याचे पाणी भूजलातून येते; अनेक भागांत लोहाचे प्रमाण जास्त आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Household tap-water coverage",
+            "hi": "घरेलू नल जल कवरेज",
+            "mr": "घरगुती नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        }
+      ]
+    }
+  ]
+}

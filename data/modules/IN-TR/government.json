@@ -1,0 +1,111 @@
+{
+  "region": "IN-TR",
+  "module": "government",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tripura has a unicameral, 60-member Legislative Assembly in Agartala, 20 of whose seats are reserved for Scheduled Tribes. The Tripura Tribal Areas Autonomous District Council (TTAADC), with its headquarters at Khumulwng, governs the tribal areas under the Sixth Schedule. The State elects 2 members to the Lok Sabha (Tripura West and Tripura East) and 1 to the Rajya Sabha.\n\nThe BJP and its ally won the 2023 Assembly election, and Manik Saha, Chief Minister since May 2022, was sworn in for a second term on 8 March 2023. N. Indrasena Reddy has been Governor since October 2023. Speaker Biswa Bandhu Sen died in December 2025; the current Speaker will be shown once confirmed from the Assembly. The next Assembly election is due by early 2028.",
+        "hi": "त्रिपुरा में अगरतला में 60 सदस्यों वाली एकसदनीय विधानसभा है, जिसकी 20 सीटें अनुसूचित जनजातियों के लिए आरक्षित हैं। खुमुलवंग में मुख्यालय वाली त्रिपुरा जनजातीय क्षेत्र स्वायत्त ज़िला परिषद (टीटीएएडीसी) छठी अनुसूची के तहत जनजातीय क्षेत्रों का शासन करती है। राज्य से लोकसभा के 2 (त्रिपुरा पश्चिम और त्रिपुरा पूर्व) और राज्यसभा का 1 सदस्य चुना जाता है।\n\n2023 का विधानसभा चुनाव भाजपा और उसके सहयोगी ने जीता, और मई 2022 से मुख्यमंत्री माणिक साहा ने 8 मार्च 2023 को दूसरे कार्यकाल की शपथ ली। एन. इंद्रसेना रेड्डी अक्टूबर 2023 से राज्यपाल हैं। अध्यक्ष बिस्व बंधु सेन का दिसंबर 2025 में निधन हुआ; वर्तमान अध्यक्ष का नाम विधानसभा से पुष्टि होने पर दिखाया जाएगा। अगला विधानसभा चुनाव 2028 की शुरुआत तक होना है।",
+        "mr": "त्रिपुरामध्ये आगरतळा येथे 60 सदस्यांची एकसदनी विधानसभा आहे, जिच्या 20 जागा अनुसूचित जमातींसाठी राखीव आहेत. खुमुलवंग येथे मुख्यालय असलेली त्रिपुरा आदिवासी क्षेत्र स्वायत्त जिल्हा परिषद (टीटीएएडीसी) सहाव्या अनुसूचीखाली आदिवासी भागांचा कारभार पाहते. राज्यातून लोकसभेवर 2 (त्रिपुरा पश्चिम व त्रिपुरा पूर्व) आणि राज्यसभेवर 1 सदस्य निवडला जातो.\n\n2023 ची विधानसभा निवडणूक भाजप व त्याच्या मित्रपक्षाने जिंकली, आणि मे 2022 पासून मुख्यमंत्री असलेले माणिक साहा यांनी 8 मार्च 2023 रोजी दुसऱ्या कारकिर्दीची शपथ घेतली. एन. इंद्रसेना रेड्डी ऑक्टोबर 2023 पासून राज्यपाल आहेत. अध्यक्ष बिस्व बंधू सेन यांचे डिसेंबर 2025 मध्ये निधन झाले; सध्याच्या अध्यक्षांचे नाव विधानसभेकडून खात्री झाल्यावर दाखवले जाईल. पुढील विधानसभा निवडणूक 2028 च्या सुरुवातीपर्यंत होणे अपेक्षित आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "the-week",
+        "sentinel-assam",
+        "deccan-herald"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "portal",
+          "name": {
+            "en": "Government of Tripura",
+            "hi": "त्रिपुरा सरकार",
+            "mr": "त्रिपुरा शासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://tripura.gov.in",
+          "sourceId": "india-gov"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Current Speaker — official source",
+            "hi": "वर्तमान अध्यक्ष — आधिकारिक स्रोत",
+            "mr": "सध्याचे अध्यक्ष — अधिकृत स्रोत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Tripura Legislative Assembly bulletin."
+        },
+        {
+          "label": {
+            "en": "2023 Assembly election — party-wise result",
+            "hi": "2023 विधानसभा चुनाव — दलवार परिणाम",
+            "mr": "2023 विधानसभा निवडणूक — पक्षनिहाय निकाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "ECI statistical report for Tripura 2023."
+        }
+      ]
+    }
+  ]
+}

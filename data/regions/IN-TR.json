@@ -33,86 +33,151 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://tripura.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Phayre's leaf monkey",
+        "hi": "फ़ेयर का पत्ती बंदर",
+        "mr": "फेअरचे पानमाकड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Trachypithecus phayrei",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Green imperial pigeon",
+        "hi": "हरा शाही कबूतर",
+        "mr": "हिरवे शाही कबूतर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Ducula aenea",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Nageshwar",
+        "hi": "नागकेसर",
+        "mr": "नागचाफा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Mesua ferrea",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "tree": {
+      "name": {
+        "en": "Agarwood",
+        "hi": "अगर",
+        "mr": "अगर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Aquilaria malaccensis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 3673917,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 18,74,376; females 17,99,541."
     },
     "area": {
-      "value": null,
+      "value": 10486,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 350,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 36,73,917 ÷ area 10,486 km² = 350.4."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 960,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (948 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 957,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 966 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 87.2,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,88 +190,222 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 87170,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2024-25 is the latest year published for Tripura. FY2023-24: ₹78,234 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 187049,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2024-25",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2023-24: ₹1,69,418."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 72.33,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 7,584.77 km² ÷ geographical area 10,486 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "N. Indrasena Reddy",
+        "hi": "एन. इंद्रसेना रेड्डी",
+        "mr": "एन. इंद्रसेना रेड्डी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "since": "2023-10-26",
+      "asOf": "2026-10-25",
+      "sourceId": "sentinel-assam",
+      "url": "https://www.sentinelassam.com/amp/story/north-east-india-news/tripura-news/tripura-indra-sena-reddy-nallu-sworn-in-as-20th-governor-672580",
+      "verifyUrl": "https://rajbhavan.tripura.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in as the 20th Governor of Tripura at Raj Bhavan, Agartala, by Chief Justice Aparesh Kumar Singh of the Tripura High Court, succeeding Satyadeo Narain Arya (The Sentinel, 26 Oct 2023)."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "name": {
+        "en": "Manik Saha",
+        "hi": "माणिक साहा",
+        "mr": "माणिक साहा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "BJP",
+      "since": "2023-03-08",
+      "asOf": "2026-10-25",
+      "sourceId": "the-week",
+      "url": "https://www.theweek.in/news/india/2023/03/08/manik-saha-takes-oath-as-tripura-cm-8-ministers-also-sworn-in.amp.html",
+      "verifyUrl": "https://tripura.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in for a second term on 8 March 2023 after the BJP-led alliance won the 2023 Assembly election (The Week/PTI). He first became Chief Minister in May 2022."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": null,
+        "party": null,
+        "since": null,
+        "asOf": null,
+        "sourceId": "deccan-herald",
+        "url": null,
+        "verifyUrl": "https://tripura.gov.in",
+        "revisionStatus": "TODO",
+        "confidence": "Official",
+        "note": "Speaker Biswa Bandhu Sen died on 26 December 2025 (Deccan Herald/PTI). His successor is to be confirmed from the Tripura Legislative Assembly before a name is shown."
+      }
+    ]
   },
   "projects": [],
-  "giProducts": [],
+  "giProducts": [
+    {
+      "id": "tripura-queen-pineapple",
+      "name": {
+        "en": "Tripura Queen Pineapple",
+        "hi": "त्रिपुरा क्वीन अनानास",
+        "mr": "त्रिपुरा क्वीन अननस",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "436",
+      "filingDate": "2013-08-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "tripura-matabari-peda",
+      "name": {
+        "en": "Tripura Matabari Peda",
+        "hi": "त्रिपुरा माताबाड़ी पेड़ा",
+        "mr": "त्रिपुरा माताबाडी पेढा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "1072",
+      "filingDate": "2023-03-31",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "tripura-risa-textile",
+      "name": {
+        "en": "Tripura Risa Textile",
+        "hi": "त्रिपुरा रिसा वस्त्र",
+        "mr": "त्रिपुरा रिसा वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "893",
+      "filingDate": "2022-05-18",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "tripura-pachra-rignai-textile",
+      "name": {
+        "en": "Tripura Pachra-Rignai Textile",
+        "hi": "त्रिपुरा पाछरा-रिग्नाई वस्त्र",
+        "mr": "त्रिपुरा पाछरा-रिग्नाई वस्त्र",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1071",
+      "filingDate": "2023-03-31",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-25",
+    "editorialStatus": "draft"
   },
   "localName": {
     "lang": "bn",

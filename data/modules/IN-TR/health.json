@@ -1,0 +1,350 @@
+{
+  "region": "IN-TR",
+  "module": "health",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tripura's infant mortality rate was 18 per 1,000 live births in 2020 in the Sample Registration System, down from 27.2 in 2010 (national 28). The birth rate was 12.6 and the death rate 5.7 per 1,000. In NFHS-5, 89.2% of births took place in health facilities, but child nutrition worsened: 32.3% of children under five were stunted, up from 24.3% in NFHS-4, 18.2% wasted and 25.6% underweight. Agartala Government Medical College with the G. B. Pant Hospital is the main referral centre.",
+        "hi": "नमूना पंजीकरण प्रणाली में 2020 में त्रिपुरा की शिशु मृत्यु दर प्रति 1,000 जीवित जन्म पर 18 थी, जो 2010 के 27.2 से कम है (राष्ट्रीय 28)। जन्म दर प्रति 1,000 पर 12.6 और मृत्यु दर 5.7 थी। एनएफ़एचएस-5 में 89.2% प्रसव स्वास्थ्य संस्थानों में हुए, पर बाल पोषण बिगड़ा: पाँच वर्ष से कम आयु के 32.3% बच्चे ठिगने थे, जो एनएफ़एचएस-4 के 24.3% से अधिक है, 18.2% दुबले और 25.6% कम वज़न के। जी. बी. पंत अस्पताल सहित अगरतला गवर्नमेंट मेडिकल कॉलेज मुख्य रेफ़रल केंद्र है।",
+        "mr": "नमुना नोंदणी पद्धतीनुसार 2020 मध्ये त्रिपुराचा अर्भक मृत्युदर दर 1,000 जिवंत जन्मांमागे 18 होता, 2010 मधील 27.2 वरून कमी (राष्ट्रीय 28). जन्मदर दर 1,000 मागे 12.6 व मृत्युदर 5.7 होता. एनएफएचएस-5 मध्ये 89.2% प्रसूती आरोग्य संस्थांत झाल्या, पण बालपोषण बिघडले: पाच वर्षांखालील 32.3% मुले खुजी होती, एनएफएचएस-4 मधील 24.3% पेक्षा जास्त, 18.2% कृश व 25.6% कमी वजनाची. जी. बी. पंत रुग्णालयासह आगरतळा शासकीय वैद्यकीय महाविद्यालय हे मुख्य संदर्भ केंद्र आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "srs",
+        "nfhs"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "srs",
+      "items": [
+        {
+          "id": "imr",
+          "label": {
+            "en": "Infant mortality rate",
+            "hi": "शिशु मृत्यु दर",
+            "mr": "अर्भक मृत्युदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 18,
+            "unit": "per 1,000 live births",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS 2020, Economic Survey 2023-24 Statistical Appendix Table 8.2."
+          },
+          "kind": "number",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 27.2,
+            "unit": "per 1,000 live births",
+            "period": "2010",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28,
+            "unit": "per 1,000 live births",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "br",
+          "label": {
+            "en": "Birth rate",
+            "hi": "जन्म दर",
+            "mr": "जन्मदर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 12.6,
+            "unit": "per 1,000 population",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "SRS 2020 (death rate 5.7); 14.9 in 2010."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "previous": {
+            "value": 14.9,
+            "unit": "per 1,000 population",
+            "period": "2010",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 19.5,
+            "unit": "per 1,000 population",
+            "period": "2020",
+            "periodType": "calendar",
+            "sourceId": "srs",
+            "url": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/stat/tab82.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Mortality and vital rates (Sample Registration System)",
+        "hi": "मृत्यु और जन्म दरें (नमूना पंजीकरण प्रणाली)",
+        "mr": "मृत्युदर व जन्मदर (नमुना नोंदणी पद्धत)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "facts",
+      "id": "nfhs",
+      "items": [
+        {
+          "id": "stunt",
+          "label": {
+            "en": "Stunted children under 5",
+            "hi": "5 वर्ष से कम आयु के ठिगने बच्चे",
+            "mr": "5 वर्षांखालील खुजी मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 32.3,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 24.3,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 35.47,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "waste",
+          "label": {
+            "en": "Wasted children under 5",
+            "hi": "5 वर्ष से कम आयु के दुबले (वेस्टेड) बच्चे",
+            "mr": "5 वर्षांखालील कृश मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 18.21,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 16.8,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 19.26,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "under",
+          "label": {
+            "en": "Underweight children under 5",
+            "hi": "5 वर्ष से कम आयु के कम वज़न वाले बच्चे",
+            "mr": "5 वर्षांखालील कमी वजनाची मुले",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 25.6,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, children under 5 (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "lower-is-better",
+          "previous": {
+            "value": 24.1,
+            "unit": "%",
+            "period": "2015-16",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 32.11,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "inst",
+          "label": {
+            "en": "Institutional births",
+            "hi": "संस्थागत प्रसव",
+            "mr": "संस्थात्मक प्रसूती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 89.15,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "NFHS-5, births in the five years before the survey."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "national": {
+            "value": 88.59,
+            "unit": "%",
+            "period": "2019-21",
+            "periodType": "survey",
+            "sourceId": "nfhs",
+            "url": "https://rchiips.org/nfhs",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        }
+      ],
+      "title": {
+        "en": "Child nutrition and births (NFHS-5)",
+        "hi": "बाल पोषण और प्रसव (एनएफ़एचएस-5)",
+        "mr": "बालपोषण व प्रसूती (एनएफएचएस-5)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "region": "IN-TR",
+  "module": "culture",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tripura's culture blends Bengali traditions — Durga Puja, Kali Puja, kirtan and the songs of Tagore and S. D. Burman — with those of its tribes. The Tripuri Hojagiri dance, performed by women balancing pots and lamps, and the Garia and Lebang Boomani dances are well known. The royal Kharchi Puja, dedicated to fourteen deities, and Ker Puja go back to the Manikya court. Tripura's weavers make the risa and rignai, and its bamboo and cane craft is used for furniture, baskets and decoration.",
+        "hi": "त्रिपुरा की संस्कृति बंगाली परंपराओं — दुर्गा पूजा, काली पूजा, कीर्तन और टैगोर व एस. डी. बर्मन के गीत — को इसकी जनजातियों की परंपराओं से मिलाती है। त्रिपुरी होजागिरी नृत्य, जिसमें महिलाएँ घड़े और दीपक संतुलित करती हैं, और गड़िया व लेबांग बूमानी नृत्य प्रसिद्ध हैं। चौदह देवताओं को समर्पित राजकीय खारची पूजा और केर पूजा माणिक्य दरबार से चली आ रही हैं। त्रिपुरा के बुनकर रिसा और रिग्नाई बनाते हैं, और इसका बाँस व बेंत शिल्प फ़र्नीचर, टोकरियों और सजावट में काम आता है।",
+        "mr": "त्रिपुराची संस्कृती बंगाली परंपरा — दुर्गापूजा, कालीपूजा, कीर्तन व टागोर आणि एस. डी. बर्मन यांची गीते — तेथील जमातींच्या परंपरांशी जोडते. त्रिपुरी होजागिरी नृत्य, ज्यात स्त्रिया घडे व दिवे तोलतात, आणि गडिया व लेबांग बूमानी नृत्ये प्रसिद्ध आहेत. चौदा देवतांना समर्पित राजेशाही खारची पूजा व केर पूजा माणिक्य दरबारापासून चालत आल्या आहेत. त्रिपुराचे विणकर रिसा व रिग्नाई बनवतात, आणि तेथील बांबू व वेत हस्तकला फर्निचर, टोपल्या व सजावटीसाठी वापरली जाते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "festivals",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "kharchi",
+          "name": {
+            "en": "Kharchi Puja",
+            "hi": "खारची पूजा",
+            "mr": "खारची पूजा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Week-long worship of the fourteen deities at Old Agartala.",
+            "hi": "पुराने अगरतला में चौदह देवताओं की सप्ताह भर पूजा।",
+            "mr": "जुन्या आगरतळ्यात चौदा देवतांची आठवडाभर पूजा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "July",
+            "hi": "जुलाई",
+            "mr": "जुलै",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "garia",
+          "name": {
+            "en": "Garia Puja",
+            "hi": "गड़िया पूजा",
+            "mr": "गडिया पूजा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Tribal festival for a good harvest.",
+            "hi": "अच्छी फ़सल के लिए जनजातीय त्योहार।",
+            "mr": "चांगल्या पिकासाठी आदिवासी सण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "April",
+            "hi": "अप्रैल",
+            "mr": "एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "durga",
+          "name": {
+            "en": "Durga Puja",
+            "hi": "दुर्गा पूजा",
+            "mr": "दुर्गापूजा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "The biggest festival in Agartala.",
+            "hi": "अगरतला का सबसे बड़ा त्योहार।",
+            "mr": "आगरतळ्यातील सर्वांत मोठा सण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "September–October",
+            "hi": "सितंबर–अक्टूबर",
+            "mr": "सप्टेंबर–ऑक्टोबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "diwali",
+          "name": {
+            "en": "Diwali at Tripura Sundari",
+            "hi": "त्रिपुरा सुंदरी में दीवाली",
+            "mr": "त्रिपुरा सुंदरी येथे दिवाळी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Large fair at the Udaipur temple.",
+            "hi": "उदयपुर मंदिर में बड़ा मेला।",
+            "mr": "उदयपूर मंदिरात मोठी जत्रा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "October–November",
+            "hi": "अक्टूबर–नवंबर",
+            "mr": "ऑक्टोबर–नोव्हेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Festivals",
+        "hi": "त्योहार",
+        "mr": "सण-उत्सव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "food",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "mui",
+          "name": {
+            "en": "Mui borok",
+            "hi": "मुई बोरोक",
+            "mr": "मुई बोरोक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Tripuri dishes made with berma (fermented fish).",
+            "hi": "बर्मा (किण्वित मछली) से बने त्रिपुरी व्यंजन।",
+            "mr": "बर्मा (आंबवलेला मासा) वापरून केलेले त्रिपुरी पदार्थ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "wahan",
+          "name": {
+            "en": "Wahan mosdeng",
+            "hi": "वाहान मोसदेंग",
+            "mr": "वाहान मोसदेंग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Spicy pork salad.",
+            "hi": "तीखा सूअर के मांस का सलाद।",
+            "mr": "तिखट डुकराच्या मांसाची कोशिंबीर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "peda",
+          "name": {
+            "en": "Matabari peda",
+            "hi": "माताबाड़ी पेड़ा",
+            "mr": "माताबाडी पेढा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Milk sweet offered at Tripura Sundari; a registered GI.",
+            "hi": "त्रिपुरा सुंदरी में चढ़ाई जाने वाली दूध की मिठाई; पंजीकृत जीआई।",
+            "mr": "त्रिपुरा सुंदरीला अर्पण केली जाणारी दुधाची मिठाई; नोंदणीकृत जीआय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pineapple",
+          "name": {
+            "en": "Queen pineapple",
+            "hi": "क्वीन अनानास",
+            "mr": "क्वीन अननस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Small, sweet pineapple; a registered GI.",
+            "hi": "छोटा, मीठा अनानास; पंजीकृत जीआई।",
+            "mr": "लहान, गोड अननस; नोंदणीकृत जीआय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Food",
+        "hi": "खान-पान",
+        "mr": "खाद्यसंस्कृती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

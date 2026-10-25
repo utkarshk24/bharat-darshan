@@ -1,0 +1,167 @@
+{
+  "region": "IN-TR",
+  "module": "tourism",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Agartala's Ujjayanta Palace (now the State Museum), the Jagannath and Ummaneshwar temples and the Heritage Park are the city's highlights. South of the capital, Neermahal rises from Rudrasagar lake, and Udaipur has the Tripura Sundari temple and the Bhuvaneshwari temple described in Tagore's writings. In the north, Unakoti's rock carvings and the Jampui hills, with orange orchards and views over Bangladesh and Mizoram, are worth the journey; Pilak, Chabimura's river-cliff carvings and Dumbur lake are other attractions.",
+        "hi": "अगरतला का उज्जयंत महल (अब राज्य संग्रहालय), जगन्नाथ और उम्मनेश्वर मंदिर और हेरिटेज पार्क शहर के प्रमुख आकर्षण हैं। राजधानी के दक्षिण में नीरमहल रुद्रसागर झील से उठता है, और उदयपुर में त्रिपुरा सुंदरी मंदिर और टैगोर की रचनाओं में वर्णित भुवनेश्वरी मंदिर हैं। उत्तर में उनाकोटी की शैल नक्काशी और संतरे के बाग़ों व बांग्लादेश और मिज़ोरम के दृश्यों वाली जामपुई पहाड़ियाँ यात्रा योग्य हैं; पिलाक, छबिमुड़ा की नदी किनारे की चट्टानी नक्काशी और डुम्बुर झील अन्य आकर्षण हैं।",
+        "mr": "आगरतळ्यातील उज्जयंत राजवाडा (आता राज्य संग्रहालय), जगन्नाथ व उम्मनेश्वर मंदिरे आणि हेरिटेज पार्क ही शहराची वैशिष्ट्ये आहेत. राजधानीच्या दक्षिणेला नीरमहाल रुद्रसागर सरोवरातून उभा आहे, आणि उदयपूरमध्ये त्रिपुरा सुंदरी मंदिर व टागोरांच्या लेखनात वर्णन केलेले भुवनेश्वरी मंदिर आहे. उत्तरेला उनाकोटीची खडकावरील कोरीवकामे आणि संत्र्यांच्या बागा व बांगलादेश आणि मिझोरामचे दृश्य असलेल्या जामपुई टेकड्या पाहण्याजोग्या आहेत; पिलाक, छबिमुडाची नदीकाठच्या कड्यावरील कोरीवकामे व डुम्बुर सरोवर ही इतर आकर्षणे आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "ujjayanta",
+          "name": {
+            "en": "Ujjayanta Palace",
+            "hi": "उज्जयंत महल",
+            "mr": "उज्जयंत राजवाडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Agartala",
+            "hi": "अगरतला",
+            "mr": "आगरतळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "neermahal",
+          "name": {
+            "en": "Neermahal",
+            "hi": "नीरमहल",
+            "mr": "नीरमहाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Melaghar",
+            "hi": "मेलाघर",
+            "mr": "मेलाघर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "udaipur",
+          "name": {
+            "en": "Tripura Sundari, Udaipur",
+            "hi": "त्रिपुरा सुंदरी, उदयपुर",
+            "mr": "त्रिपुरा सुंदरी, उदयपूर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Temple",
+            "hi": "मंदिर",
+            "mr": "मंदिर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "unakoti",
+          "name": {
+            "en": "Unakoti",
+            "hi": "उनाकोटी",
+            "mr": "उनाकोटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Rock carvings",
+            "hi": "शैल नक्काशी",
+            "mr": "खडकावरील कोरीवकाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "jampui",
+          "name": {
+            "en": "Jampui hills",
+            "hi": "जामपुई पहाड़ियाँ",
+            "mr": "जामपुई टेकड्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Orange festival in November",
+            "hi": "नवंबर में संतरा उत्सव",
+            "mr": "नोव्हेंबरमध्ये संत्रा महोत्सव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places",
+        "hi": "प्रमुख स्थल",
+        "mr": "प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tourist arrivals by year",
+            "hi": "वर्षवार पर्यटक आगमन",
+            "mr": "वर्षनिहाय पर्यटक आगमन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "Tripura Tourism Development Corporation."
+        }
+      ]
+    }
+  ]
+}

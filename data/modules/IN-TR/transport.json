@@ -1,0 +1,64 @@
+{
+  "region": "IN-TR",
+  "module": "transport",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "NH-8 links Tripura through Assam to the rest of India, and broad-gauge railways reach Agartala and run south to Sabroom on the Bangladesh border. Maharaja Bir Bikram Airport at Agartala has flights to Kolkata, Guwahati, Delhi and other cities. Bus and border links connect Agartala with Dhaka and Chittagong.",
+        "hi": "एनएच-8 त्रिपुरा को असम होकर शेष भारत से जोड़ता है, और बड़ी लाइन की रेल अगरतला तक पहुँचती है और दक्षिण में बांग्लादेश सीमा पर सबरूम तक जाती है। अगरतला के महाराजा बीर बिक्रम हवाई अड्डे से कोलकाता, गुवाहाटी, दिल्ली और अन्य नगरों की उड़ानें हैं। बस और सीमा संपर्क अगरतला को ढाका और चटगाँव से जोड़ते हैं।",
+        "mr": "एनएच-8 त्रिपुराला आसाममार्गे उर्वरित भारताशी जोडतो, आणि ब्रॉडगेज रेल्वे आगरतळ्यापर्यंत पोहोचते व दक्षिणेला बांगलादेश सीमेवरील सबरूमपर्यंत जाते. आगरतळ्यातील महाराजा बीर बिक्रम विमानतळावरून कोलकाता, गुवाहाटी, दिल्ली व इतर शहरांसाठी उड्डाणे आहेत. बस व सीमा संपर्क आगरतळ्याला ढाका व चितगावशी जोडतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ixa",
+          "name": {
+            "en": "Maharaja Bir Bikram Airport, Agartala",
+            "hi": "महाराजा बीर बिक्रम हवाई अड्डा, अगरतला",
+            "mr": "महाराजा बीर बिक्रम विमानतळ, आगरतळा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "IXA",
+            "hi": "IXA",
+            "mr": "IXA",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

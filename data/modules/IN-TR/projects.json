@@ -1,0 +1,59 @@
+{
+  "region": "IN-TR",
+  "module": "projects",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Major works include the Agartala–Akhaura railway link to Bangladesh, the new terminal at Maharaja Bir Bikram Airport and the Maitri Setu bridge over the Feni river at Sabroom, which links Tripura to Chittagong port in Bangladesh. They will be added as cards once their cost and status are confirmed from official sources.",
+        "hi": "प्रमुख कार्यों में बांग्लादेश तक अगरतला–अखौरा रेल लिंक, महाराजा बीर बिक्रम हवाई अड्डे का नया टर्मिनल और सबरूम में फेनी नदी पर मैत्री सेतु शामिल हैं, जो त्रिपुरा को बांग्लादेश के चटगाँव बंदरगाह से जोड़ता है। आधिकारिक स्रोतों से लागत और स्थिति की पुष्टि होने पर इन्हें कार्ड के रूप में जोड़ा जाएगा।",
+        "mr": "प्रमुख कामांत बांगलादेशपर्यंत आगरतळा–अखौरा रेल्वे जोड, महाराजा बीर बिक्रम विमानतळाचे नवे टर्मिनल आणि सबरूम येथे फेनी नदीवरील मैत्री सेतू यांचा समावेश आहे, जो त्रिपुराला बांगलादेशातील चितगाव बंदराशी जोडतो. अधिकृत स्रोतांतून खर्च व स्थितीची खात्री झाल्यावर त्यांची कार्डे जोडली जातील.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Agartala–Akhaura rail link — official status",
+            "hi": "अगरतला–अखौरा रेल लिंक — आधिकारिक स्थिति",
+            "mr": "आगरतळा–अखौरा रेल्वे जोड — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "railways",
+          "note": "Ministry of Railways / MEA."
+        },
+        {
+          "label": {
+            "en": "Maitri Setu — official inauguration record",
+            "hi": "मैत्री सेतु — आधिकारिक उद्घाटन अभिलेख",
+            "mr": "मैत्री सेतू — अधिकृत उद्घाटन नोंद",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "pib",
+          "note": "PIB / PMO release (March 2021)."
+        }
+      ]
+    }
+  ]
+}

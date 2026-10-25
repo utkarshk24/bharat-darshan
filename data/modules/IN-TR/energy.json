@@ -1,0 +1,42 @@
+{
+  "region": "IN-TR",
+  "module": "energy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Natural gas makes Tripura a power-surplus State in normal years. ONGC Tripura Power Company's combined-cycle plant at Palatana, NEEPCO's Agartala and Monarchak stations and the State's own gas plants supply the grid, and the Gumti hydro project at Dumbur adds a little hydropower. Tripura sells power to Bangladesh and other north-eastern States.",
+        "hi": "सामान्य वर्षों में प्राकृतिक गैस त्रिपुरा को बिजली अधिशेष वाला राज्य बनाती है। पलाटाना में ओएनजीसी त्रिपुरा पावर कंपनी का संयुक्त-चक्र संयंत्र, नीपको के अगरतला और मोनारचक केंद्र और राज्य के अपने गैस संयंत्र ग्रिड को बिजली देते हैं, और डुम्बुर की गुमती जलविद्युत परियोजना थोड़ी जलविद्युत जोड़ती है। त्रिपुरा बांग्लादेश और अन्य पूर्वोत्तर राज्यों को बिजली बेचता है।",
+        "mr": "सामान्य वर्षांत नैसर्गिक वायूमुळे त्रिपुरा वीज-अतिरिक्त राज्य असते. पलाटाना येथील ओएनजीसी त्रिपुरा पॉवर कंपनीचा संयुक्त-चक्र प्रकल्प, नीपकोची आगरतळा व मोनारचक केंद्रे आणि राज्याचे स्वतःचे वायू प्रकल्प ग्रिडला वीज पुरवतात, आणि डुम्बुरचा गुमती जलविद्युत प्रकल्प थोडी जलविद्युत जोडतो. त्रिपुरा बांगलादेश व इतर ईशान्य राज्यांना वीज विकते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity and exports to Bangladesh",
+            "hi": "स्थापित क्षमता और बांग्लादेश को निर्यात",
+            "mr": "स्थापित क्षमता व बांगलादेशला निर्यात",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA / Tripura State Electricity Corporation."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "region": "IN-TR",
+  "module": "education",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Literacy in Tripura was 87.2% at the 2011 Census. The higher-education gross enrolment ratio (ages 18–23) was 20.7% in 2021-22 in AISHE, below the national 28.4%, with men at 21.9% and women at 19.5%. Tripura University, a central university at Suryamaninagar, NIT Agartala, IIIT Agartala, Maharaja Bir Bikram University and two medical colleges are the main institutions.",
+        "hi": "2011 की जनगणना में त्रिपुरा की साक्षरता 87.2% थी। एआईएसएचई के अनुसार 2021-22 में उच्च शिक्षा सकल नामांकन अनुपात (18–23 आयु) 20.7% था, जो राष्ट्रीय 28.4% से कम है, पुरुष 21.9% और महिलाएँ 19.5%। सूर्यमणिनगर का त्रिपुरा विश्वविद्यालय (केंद्रीय), एनआईटी अगरतला, आईआईआईटी अगरतला, महाराजा बीर बिक्रम विश्वविद्यालय और दो मेडिकल कॉलेज मुख्य संस्थान हैं।",
+        "mr": "2011 च्या जनगणनेत त्रिपुराची साक्षरता 87.2% होती. एआयएसएचईनुसार 2021-22 मध्ये उच्चशिक्षण एकूण नोंदणी गुणोत्तर (18–23 वय) 20.7% होते, राष्ट्रीय 28.4% पेक्षा कमी, पुरुष 21.9% व स्त्रिया 19.5%. सूर्यमणिनगर येथील त्रिपुरा विद्यापीठ (केंद्रीय), एनआयटी आगरतळा, आयआयआयटी आगरतळा, महाराजा बीर बिक्रम विद्यापीठ व दोन वैद्यकीय महाविद्यालये या मुख्य संस्था आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "aishe",
+        "es-india"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "ger",
+          "label": {
+            "en": "Gross enrolment ratio, higher education (18–23)",
+            "hi": "सकल नामांकन अनुपात, उच्च शिक्षा (18–23)",
+            "mr": "एकूण नोंदणी गुणोत्तर, उच्चशिक्षण (18–23)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 20.7,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "AISHE, all categories, both sexes (via MoSPI API)."
+          },
+          "kind": "percent",
+          "polarity": "higher-is-better",
+          "previous": {
+            "value": 19.17,
+            "unit": "%",
+            "period": "2020-21",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "national": {
+            "value": 28.4,
+            "unit": "%",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          }
+        },
+        {
+          "id": "univ",
+          "label": {
+            "en": "Universities",
+            "hi": "विश्वविद्यालय",
+            "mr": "विद्यापीठे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 5,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        },
+        {
+          "id": "coll",
+          "label": {
+            "en": "Colleges",
+            "hi": "कॉलेज",
+            "mr": "महाविद्यालये",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 54,
+            "unit": "count",
+            "period": "2021-22",
+            "periodType": "survey",
+            "sourceId": "aishe",
+            "url": "https://aishe.gov.in",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official"
+          },
+          "kind": "number",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "ger-series",
+      "title": {
+        "en": "Higher-education GER, 2017-18 to 2021-22",
+        "hi": "उच्च शिक्षा जीईआर, 2017-18 से 2021-22",
+        "mr": "उच्चशिक्षण जीईआर, 2017-18 ते 2021-22",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "kind": "percent",
+      "polarity": "higher-is-better",
+      "series": [
+        {
+          "id": "tr",
+          "label": {
+            "en": "Tripura",
+            "hi": "त्रिपुरा",
+            "mr": "त्रिपुरा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "points": [
+            {
+              "value": 19.2,
+              "unit": "%",
+              "period": "2017-18",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 17.25,
+              "unit": "%",
+              "period": "2018-19",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 17.91,
+              "unit": "%",
+              "period": "2019-20",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 19.17,
+              "unit": "%",
+              "period": "2020-21",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            },
+            {
+              "value": 20.7,
+              "unit": "%",
+              "period": "2021-22",
+              "periodType": "survey",
+              "sourceId": "aishe",
+              "url": "https://aishe.gov.in",
+              "accessDate": "2026-10-25",
+              "dataLevel": "state",
+              "revisionStatus": "final",
+              "confidence": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Schools, teachers and pupil–teacher ratio",
+            "hi": "स्कूल, शिक्षक और छात्र–शिक्षक अनुपात",
+            "mr": "शाळा, शिक्षक व विद्यार्थी–शिक्षक गुणोत्तर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "udise",
+          "note": "UDISE+ latest year."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "region": "IN-TR",
+  "module": "safety",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tripura lies in seismic zone V. Heavy monsoon rain causes floods in the Gomati, Haora and Khowai valleys — severe floods in August 2024 affected large parts of the State — and landslides in the hills. Visitors should check weather warnings in the rains.",
+        "hi": "त्रिपुरा भूकंपीय क्षेत्र V में है। भारी मानसूनी वर्षा गोमती, हावड़ा और खोवाई घाटियों में बाढ़ — अगस्त 2024 की भीषण बाढ़ ने राज्य के बड़े भागों को प्रभावित किया — और पहाड़ियों में भूस्खलन लाती है। पर्यटकों को वर्षा में मौसम चेतावनियाँ देखनी चाहिए।",
+        "mr": "त्रिपुरा भूकंप क्षेत्र V मध्ये आहे. मुसळधार मान्सूनी पाऊस गोमती, हावडा व खोवाई खोऱ्यांत पूर — ऑगस्ट 2024 च्या भीषण पुराने राज्याच्या मोठ्या भागाला फटका बसला — आणि डोंगरांत भूस्खलन आणतो. पर्यटकांनी पावसाळ्यात हवामान इशारे पाहावेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "table",
+      "id": "numbers",
+      "title": {
+        "en": "Emergency numbers",
+        "hi": "आपातकालीन नंबर",
+        "mr": "आपत्कालीन क्रमांक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Service",
+            "hi": "सेवा",
+            "mr": "सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Number",
+            "hi": "नंबर",
+            "mr": "क्रमांक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Emergency response (police, fire, ambulance)",
+            "hi": "आपातकालीन सहायता (पुलिस, अग्निशमन, एंबुलेंस)",
+            "mr": "आपत्कालीन मदत (पोलीस, अग्निशमन, रुग्णवाहिका)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "112"
+        ],
+        [
+          {
+            "en": "Ambulance",
+            "hi": "एंबुलेंस",
+            "mr": "रुग्णवाहिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "108"
+        ],
+        [
+          {
+            "en": "Women's helpline",
+            "hi": "महिला हेल्पलाइन",
+            "mr": "महिला हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "181"
+        ],
+        [
+          {
+            "en": "Child helpline",
+            "hi": "चाइल्ड हेल्पलाइन",
+            "mr": "चाइल्ड हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1098"
+        ],
+        [
+          {
+            "en": "Cybercrime",
+            "hi": "साइबर अपराध",
+            "mr": "सायबर गुन्हे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1930"
+        ],
+        [
+          {
+            "en": "Tourist helpline (Ministry of Tourism)",
+            "hi": "पर्यटक हेल्पलाइन (पर्यटन मंत्रालय)",
+            "mr": "पर्यटक हेल्पलाइन (पर्यटन मंत्रालय)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1800-11-1363"
+        ]
+      ],
+      "sourceId": "india-gov",
+      "url": "https://www.india.gov.in",
+      "accessDate": null,
+      "confidence": "Official",
+      "note": {
+        "en": "National numbers that work in Tripura.",
+        "hi": "राष्ट्रीय नंबर जो त्रिपुरा में काम करते हैं।",
+        "mr": "त्रिपुरामध्ये चालणारे राष्ट्रीय क्रमांक.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "August 2024 floods — official damage assessment",
+            "hi": "अगस्त 2024 बाढ़ — आधिकारिक क्षति आकलन",
+            "mr": "ऑगस्ट 2024 पूर — अधिकृत नुकसान मूल्यांकन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ndma",
+          "note": "Tripura State Disaster Management Authority."
+        }
+      ]
+    }
+  ]
+}

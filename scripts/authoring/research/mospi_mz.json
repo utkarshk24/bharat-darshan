@@ -1,0 +1,133 @@
+{
+ "source": "MoSPI NAS API, base 2011-12, current series, accessed 2026-10-25. MoSPI state code MZ = 18. GSDP indicator 23 and per-capita NSDP indicator 25 as [current, constant] prices (₹ crore / ₹). FY2024-25 is the latest year with values (FY2025-26 rows are blank). GSVA by industry FY2024-25 (indicator 29, ₹ lakh, current prices). Dadra & Nagar Haveli and Daman & Diu and Lakshadweep returned no rows.",
+ "gsdp": {
+  "FY2024-25": [
+   38343,
+   24120
+  ],
+  "FY2023-24": [
+   33277,
+   21664
+  ],
+  "FY2022-23": [
+   30184,
+   19662
+  ],
+  "FY2021-22": [
+   26695,
+   17662
+  ],
+  "FY2020-21": [
+   23923,
+   16427
+  ],
+  "FY2019-20": [
+   24990,
+   17884
+  ],
+  "FY2018-19": [
+   21912,
+   16100
+  ],
+  "FY2017-18": [
+   19385,
+   14758
+  ],
+  "FY2016-17": [
+   17192,
+   13595
+  ],
+  "FY2015-16": [
+   15139,
+   12324
+  ],
+  "FY2014-15": [
+   13509,
+   11261
+  ],
+  "FY2013-14": [
+   10293,
+   9038
+  ],
+  "FY2012-13": [
+   8362,
+   7778
+  ],
+  "FY2011-12": [
+   7259,
+   7259
+  ]
+ },
+ "pcnsdp": {
+  "FY2024-25": [
+   268145,
+   167121
+  ],
+  "FY2023-24": [
+   234996,
+   151676
+  ],
+  "FY2022-23": [
+   213665,
+   137682
+  ],
+  "FY2021-22": [
+   190965,
+   123907
+  ],
+  "FY2020-21": [
+   173521,
+   116229
+  ],
+  "FY2019-20": [
+   195365,
+   130741
+  ],
+  "FY2018-19": [
+   164708,
+   119022
+  ],
+  "FY2017-18": [
+   155222,
+   117272
+  ],
+  "FY2016-17": [
+   127107,
+   99089
+  ],
+  "FY2015-16": [
+   114055,
+   91845
+  ],
+  "FY2014-15": [
+   103049,
+   85056
+  ],
+  "FY2013-14": [
+   77584,
+   67594
+  ],
+  "FY2012-13": [
+   65013,
+   60261
+  ],
+  "FY2011-12": [
+   57654,
+   57654
+  ]
+ },
+ "gsva2024_25_current_lakh": {
+  "agri": 720803,
+  "mining": 32228,
+  "manufacturing": 13704,
+  "utilities": 830530,
+  "construction": 307169,
+  "trade_hotels": 521663,
+  "transport_comm": 111192,
+  "financial": 81844,
+  "realestate_prof": 94084,
+  "public_admin": 415938,
+  "other": 532393,
+  "total": 3661547
+ }
+}

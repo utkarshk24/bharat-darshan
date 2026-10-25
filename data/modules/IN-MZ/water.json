@@ -1,0 +1,42 @@
+{
+  "region": "IN-MZ",
+  "module": "water",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Despite heavy rain, Aizawl and other ridge-top towns face water shortages in the dry season, because water must be pumped up from rivers far below; the Greater Aizawl water supply scheme lifts water from the Tlawng. Villages depend on springs and rooftop rainwater tanks.",
+        "hi": "भारी वर्षा के बावजूद आइज़ोल और पहाड़ी चोटियों पर बसे अन्य नगर सूखे मौसम में पानी की कमी झेलते हैं, क्योंकि पानी बहुत नीचे की नदियों से पंप करके ऊपर लाना पड़ता है; ग्रेटर आइज़ोल जल आपूर्ति योजना त्लॉङ से पानी उठाती है। गाँव झरनों और छत पर वर्षा जल की टंकियों पर निर्भर हैं।",
+        "mr": "मुसळधार पाऊस असूनही आयझॉल व डोंगरमाथ्यावरील इतर शहरांना कोरड्या ऋतूत पाणीटंचाई जाणवते, कारण पाणी खूप खालच्या नद्यांतून उपसून वर आणावे लागते; ग्रेटर आयझॉल पाणीपुरवठा योजना त्लॉङमधून पाणी उचलते. गावे झरे व छपरावरील पावसाच्या पाण्याच्या टाक्यांवर अवलंबून आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Household tap-water coverage",
+            "hi": "घरेलू नल जल कवरेज",
+            "mr": "घरगुती नळजोडणी व्याप्ती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Jal Jeevan Mission dashboard."
+        }
+      ]
+    }
+  ]
+}

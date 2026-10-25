@@ -1,0 +1,167 @@
+{
+  "region": "IN-MZ",
+  "module": "tourism",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Aizawl's viewpoints, Bara Bazar and the Mizoram State Museum are a good start. Reiek peak and its model Mizo village are a short drive away. In the east, Champhai looks over rice fields to the hills of Myanmar, and Murlen and Rih Dil lake (across the border) draw visitors; in the south, Lunglei, Phawngpui and the Palak and Pala lakes are quieter. Tam Dil and the Vantawng falls near Thenzawl are popular day trips.",
+        "hi": "आइज़ोल के दर्शनीय बिंदु, बड़ा बाज़ार और मिज़ोरम राज्य संग्रहालय अच्छी शुरुआत हैं। रेइक चोटी और उसका आदर्श मिज़ो गाँव थोड़ी दूरी पर है। पूर्व में चम्फाई से धान के खेतों के पार म्यांमार की पहाड़ियाँ दिखती हैं, और मुर्लेन तथा (सीमा पार) रिह दिल झील पर्यटकों को खींचते हैं; दक्षिण में लुंगलेई, फ़ॉङपुई और पालक व पाला झीलें शांत हैं। तम दिल और थेनज़ॉल के पास वांतॉङ जलप्रपात लोकप्रिय एक दिन की यात्राएँ हैं।",
+        "mr": "आयझॉलचे प्रेक्षणीय बिंदू, बडा बाजार व मिझोराम राज्य संग्रहालय ही चांगली सुरुवात आहे. रेइक शिखर व तेथील आदर्श मिझो गाव थोड्या अंतरावर आहे. पूर्वेला चम्फाईहून भातशेतांपलीकडे म्यानमारच्या टेकड्या दिसतात, आणि मुर्लेन व (सीमेपलीकडील) रिह दिल सरोवर पर्यटकांना आकर्षित करतात; दक्षिणेला लुंगलेई, फॉङपुई व पालक आणि पाला सरोवरे शांत आहेत. तम दिल व थेनझॉलजवळील वांतॉङ धबधबा लोकप्रिय एकदिवसीय सहली आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "aizawl",
+          "name": {
+            "en": "Aizawl",
+            "hi": "आइज़ोल",
+            "mr": "आयझॉल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "reiek",
+          "name": {
+            "en": "Reiek",
+            "hi": "रेइक",
+            "mr": "रेइक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Peak and heritage village",
+            "hi": "चोटी और धरोहर गाँव",
+            "mr": "शिखर व वारसा गाव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "champhai",
+          "name": {
+            "en": "Champhai",
+            "hi": "चम्फाई",
+            "mr": "चम्फाई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Rice bowl on the border",
+            "hi": "सीमा पर धान का कटोरा",
+            "mr": "सीमेवरील भाताचे कोठार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "vantawng",
+          "name": {
+            "en": "Vantawng falls",
+            "hi": "वांतॉङ जलप्रपात",
+            "mr": "वांतॉङ धबधबा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Near Thenzawl",
+            "hi": "थेनज़ॉल के पास",
+            "mr": "थेनझॉलजवळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "phawngpui",
+          "name": {
+            "en": "Phawngpui",
+            "hi": "फ़ॉङपुई",
+            "mr": "फॉङपुई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Blue Mountain",
+            "hi": "ब्लू माउंटेन",
+            "mr": "ब्लू माउंटन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places",
+        "hi": "प्रमुख स्थल",
+        "mr": "प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tourist arrivals by year",
+            "hi": "वर्षवार पर्यटक आगमन",
+            "mr": "वर्षनिहाय पर्यटक आगमन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "Mizoram Tourism Department."
+        }
+      ]
+    }
+  ]
+}

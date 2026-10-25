@@ -1,5 +1,5 @@
 {
- "source": "NFHS via MoSPI API, combined rural+urban, accessed 2026-10-13. N4 = 2015-16, N5 = 2019-21.",
+ "source": "NFHS via MoSPI API, combined rural+urban, accessed 2026-10-13. N4 = 2015-16, N5 = 2019-21. Batch 7 (MZ, TR, AN, CH, DH, LD, PY) added 2026-10-25; DH has no NFHS-4 (the two UTs were surveyed separately then).",
  "MH": {
   "stunted": [
    34.4,
@@ -499,5 +499,110 @@
    13.13
   ],
   "institutional_N5": 94.73
+ },
+ "MZ": {
+  "stunted": [
+   28.0,
+   28.86
+  ],
+  "wasted": [
+   6.1,
+   9.78
+  ],
+  "underweight": [
+   11.9,
+   12.66
+  ],
+  "institutional_N5": 85.77
+ },
+ "TR": {
+  "stunted": [
+   24.3,
+   32.3
+  ],
+  "wasted": [
+   16.8,
+   18.21
+  ],
+  "underweight": [
+   24.1,
+   25.6
+  ],
+  "institutional_N5": 89.15
+ },
+ "AN": {
+  "stunted": [
+   23.3,
+   22.47
+  ],
+  "wasted": [
+   18.9,
+   15.99
+  ],
+  "underweight": [
+   21.6,
+   23.65
+  ],
+  "institutional_N5": 98.95
+ },
+ "CH": {
+  "stunted": [
+   28.7,
+   25.3
+  ],
+  "wasted": [
+   10.9,
+   8.41
+  ],
+  "underweight": [
+   24.5,
+   20.56
+  ],
+  "institutional_N5": 96.87
+ },
+ "DH": {
+  "stunted": [
+   null,
+   39.42
+  ],
+  "wasted": [
+   null,
+   21.59
+  ],
+  "underweight": [
+   null,
+   38.7
+  ],
+  "institutional_N5": 96.52
+ },
+ "LD": {
+  "stunted": [
+   27.0,
+   32.02
+  ],
+  "wasted": [
+   13.8,
+   17.35
+  ],
+  "underweight": [
+   23.4,
+   25.78
+  ],
+  "institutional_N5": 99.61
+ },
+ "PY": {
+  "stunted": [
+   23.7,
+   19.98
+  ],
+  "wasted": [
+   23.6,
+   12.35
+  ],
+  "underweight": [
+   22.0,
+   15.29
+  ],
+  "institutional_N5": 99.57
  }
 }

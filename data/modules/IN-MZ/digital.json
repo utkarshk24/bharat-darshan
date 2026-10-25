@@ -1,0 +1,42 @@
+{
+  "region": "IN-MZ",
+  "module": "digital",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mobile networks cover Aizawl and most towns; villages in deep valleys and along the borders have weaker coverage. The State offers many services online, and Mizoram University, NIT Mizoram and ICFAI University train students in computing.",
+        "hi": "मोबाइल नेटवर्क आइज़ोल और अधिकांश नगरों को कवर करते हैं; गहरी घाटियों और सीमाओं के गाँवों में कवरेज कमज़ोर है। राज्य कई सेवाएँ ऑनलाइन देता है, और मिज़ोरम विश्वविद्यालय, एनआईटी मिज़ोरम और आईसीएफ़एआई विश्वविद्यालय कंप्यूटिंग में छात्रों को प्रशिक्षित करते हैं।",
+        "mr": "मोबाइल जाळे आयझॉल व बहुतेक शहरांना व्यापते; खोल दऱ्या व सीमांलगतच्या गावांत संपर्क कमकुवत आहे. राज्य अनेक सेवा ऑनलाइन देते, आणि मिझोराम विद्यापीठ, एनआयटी मिझोराम व आयसीएफएआय विद्यापीठ संगणनाचे शिक्षण देतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Tele-density and internet subscriptions",
+            "hi": "टेली-घनत्व और इंटरनेट कनेक्शन",
+            "mr": "दूरध्वनी घनता व इंटरनेट जोडण्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "TRAI performance indicators (North East circle)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "region": "IN-MZ",
+  "module": "geography",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mizoram's ridges, part of the Lushai (Mizo) Hills, rise to about 2,000 m in the east, where Phawngpui (Blue Mountain) is the highest peak, and fall to under 100 m in the river valleys of the west. The Tlawng (Dhaleswari), Tuirial and Tuivawl flow north into the Barak in Assam, while the Chhimtuipui (Kaladan) and the Tiau, which forms much of the Myanmar border, drain south and east. Bamboo covers large areas, and soft, young rocks make the hills prone to landslides.",
+        "hi": "मिज़ोरम की पर्वतमालाएँ, लुशाई (मिज़ो) पहाड़ियों का भाग, पूर्व में लगभग 2,000 मीटर तक उठती हैं, जहाँ फ़ॉङपुई (ब्लू माउंटेन) सबसे ऊँची चोटी है, और पश्चिम की नदी घाटियों में 100 मीटर से नीचे उतरती हैं। त्लॉङ (धलेश्वरी), तुइरियाल और तुइवॉल उत्तर में असम की बराक में बहती हैं, जबकि छिमतुइपुई (कलादान) और तियाउ, जो म्यांमार सीमा का बड़ा भाग बनाती है, दक्षिण और पूर्व की ओर बहती हैं। बड़े क्षेत्रों में बाँस है, और नरम, नई चट्टानें पहाड़ियों को भूस्खलन-प्रवण बनाती हैं।",
+        "mr": "मिझोरामच्या डोंगररांगा, लुशाई (मिझो) टेकड्यांचा भाग, पूर्वेला सुमारे 2,000 मीटरपर्यंत उंचावतात, जिथे फॉङपुई (ब्लू माउंटन) हे सर्वोच्च शिखर आहे, आणि पश्चिमेकडील नदीखोऱ्यांत 100 मीटरखाली उतरतात. त्लॉङ (धलेश्वरी), तुइरियाल व तुइवॉल उत्तरेला आसाममधील बराकला मिळतात, तर छिमतुइपुई (कलादान) व म्यानमार सीमेचा बराचसा भाग असलेली तियाउ दक्षिण व पूर्वेकडे वाहतात. मोठ्या भागावर बांबू आहे, आणि मऊ, नवे खडक टेकड्यांना भूस्खलनप्रवण बनवतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "facts",
+      "id": "f",
+      "items": [
+        {
+          "id": "area",
+          "label": {
+            "en": "Geographical area",
+            "hi": "भौगोलिक क्षेत्रफल",
+            "mr": "भौगोलिक क्षेत्रफळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "dp": {
+            "value": 21081,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-25",
+            "dataLevel": "state",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
+          },
+          "kind": "number",
+          "polarity": "neutral",
+          "national": {
+            "value": 3287469,
+            "unit": "km²",
+            "period": "2023",
+            "periodType": "calendar",
+            "sourceId": "fsi",
+            "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+            "accessDate": "2026-10-13",
+            "dataLevel": "national",
+            "revisionStatus": "final",
+            "confidence": "Official",
+            "note": "Geographical area used in ISFR 2023 (includes areas under the Government of India's map)."
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "neighbours",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "mm",
+          "name": {
+            "en": "Myanmar (east and south)",
+            "hi": "म्यांमार (पूर्व और दक्षिण)",
+            "mr": "म्यानमार (पूर्व व दक्षिण)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bd",
+          "name": {
+            "en": "Bangladesh (west)",
+            "hi": "बांग्लादेश (पश्चिम)",
+            "mr": "बांगलादेश (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tr",
+          "name": {
+            "en": "Tripura (north-west)",
+            "hi": "त्रिपुरा (उत्तर-पश्चिम)",
+            "mr": "त्रिपुरा (वायव्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "as",
+          "name": {
+            "en": "Assam (north)",
+            "hi": "असम (उत्तर)",
+            "mr": "आसाम (उत्तर)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mn",
+          "name": {
+            "en": "Manipur (north-east)",
+            "hi": "मणिपुर (उत्तर-पूर्व)",
+            "mr": "मणिपूर (ईशान्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Neighbours",
+        "hi": "पड़ोसी",
+        "mr": "शेजारी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "rivers",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "tlawng",
+          "name": {
+            "en": "Tlawng (Dhaleswari)",
+            "hi": "त्लॉङ (धलेश्वरी)",
+            "mr": "त्लॉङ (धलेश्वरी)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Main river of the west; flows north to the Barak.",
+            "hi": "पश्चिम की मुख्य नदी; उत्तर में बराक तक बहती है।",
+            "mr": "पश्चिमेकडील मुख्य नदी; उत्तरेला बराकपर्यंत वाहते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "kaladan",
+          "name": {
+            "en": "Chhimtuipui (Kaladan)",
+            "hi": "छिमतुइपुई (कलादान)",
+            "mr": "छिमतुइपुई (कलादान)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Flows south into Myanmar; route of the Kaladan transit project.",
+            "hi": "दक्षिण में म्यांमार जाती है; कलादान परिवहन परियोजना का मार्ग।",
+            "mr": "दक्षिणेला म्यानमारमध्ये जाते; कलादान वाहतूक प्रकल्पाचा मार्ग.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tiau",
+          "name": {
+            "en": "Tiau",
+            "hi": "तियाउ",
+            "mr": "तियाउ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Forms part of the border with Myanmar.",
+            "hi": "म्यांमार के साथ सीमा का भाग बनाती है।",
+            "mr": "म्यानमारशी सीमेचा भाग बनवते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tuirial",
+          "name": {
+            "en": "Tuirial",
+            "hi": "तुइरियाल",
+            "mr": "तुइरियाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Site of the Tuirial hydro project.",
+            "hi": "तुइरियाल जलविद्युत परियोजना का स्थल।",
+            "mr": "तुइरियाल जलविद्युत प्रकल्पाचे स्थळ.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major rivers",
+        "hi": "प्रमुख नदियाँ",
+        "mr": "प्रमुख नद्या",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Phawngpui — official elevation",
+            "hi": "फ़ॉङपुई — आधिकारिक ऊँचाई",
+            "mr": "फॉङपुई — अधिकृत उंची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "survey-of-india",
+          "note": "Survey of India."
+        },
+        {
+          "label": {
+            "en": "Length of the Myanmar and Bangladesh borders",
+            "hi": "म्यांमार और बांग्लादेश सीमा की लंबाई",
+            "mr": "म्यानमार व बांगलादेश सीमांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Ministry of Home Affairs (Department of Border Management)."
+        }
+      ]
+    }
+  ]
+}

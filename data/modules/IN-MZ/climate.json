@@ -1,0 +1,149 @@
+{
+  "region": "IN-MZ",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mizoram has a mild, wet climate. Aizawl, at about 1,100 m, is pleasant for most of the year, while the valleys are hot and humid in summer. The south-west monsoon brings heavy rain from May to September, often with landslides that cut roads; winter, from November to February, is cool and dry.",
+        "hi": "मिज़ोरम की जलवायु सौम्य और नम है। लगभग 1,100 मीटर पर आइज़ोल वर्ष के अधिकांश समय सुहावना रहता है, जबकि घाटियाँ गर्मियों में गर्म और आर्द्र होती हैं। दक्षिण-पश्चिम मानसून मई से सितंबर तक भारी वर्षा लाता है, अक्सर सड़कें काटने वाले भूस्खलनों के साथ; नवंबर से फ़रवरी तक सर्दी ठंडी और सूखी होती है।",
+        "mr": "मिझोरामचे हवामान सौम्य व ओलसर आहे. सुमारे 1,100 मीटरवरील आयझॉल वर्षाचा बहुतेक काळ सुखद असते, तर खोरी उन्हाळ्यात उष्ण व दमट असतात. नैर्ऋत्य मान्सून मे ते सप्टेंबर मुसळधार पाऊस आणतो, अनेकदा रस्ते तोडणाऱ्या भूस्खलनांसह; नोव्हेंबर ते फेब्रुवारी हिवाळा थंड व कोरडा असतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Aizawl",
+            "hi": "आइज़ोल",
+            "mr": "आयझॉल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 23.7271,
+          "lon": 92.7176
+        },
+        {
+          "name": {
+            "en": "Lunglei",
+            "hi": "लुंगलेई",
+            "mr": "लुंगलेई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 22.8833,
+          "lon": 92.7333
+        },
+        {
+          "name": {
+            "en": "Champhai",
+            "hi": "चम्फाई",
+            "mr": "चम्फाई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 23.456,
+          "lon": 93.328
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "winter",
+          "name": {
+            "en": "October to March",
+            "hi": "अक्टूबर से मार्च",
+            "mr": "ऑक्टोबर ते मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Clear, cool weather; Chapchar Kut in March.",
+            "hi": "साफ़, ठंडा मौसम; मार्च में चापचार कुट।",
+            "mr": "निरभ्र, थंड हवामान; मार्चमध्ये चापचार कुट.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "monsoon",
+          "name": {
+            "en": "May to September",
+            "hi": "मई से सितंबर",
+            "mr": "मे ते सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Green hills but heavy rain and road closures.",
+            "hi": "हरी पहाड़ियाँ, पर भारी वर्षा और सड़कें बंद।",
+            "mr": "हिरव्या टेकड्या, पण मुसळधार पाऊस व रस्ते बंद.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall",
+            "hi": "सामान्य वार्षिक वर्षा",
+            "mr": "सरासरी वार्षिक पाऊस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD climatological normals for Aizawl."
+        }
+      ]
+    }
+  ]
+}

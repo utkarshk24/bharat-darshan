@@ -1,0 +1,83 @@
+{
+  "region": "IN-MZ",
+  "module": "transport",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mizoram's main road link is NH-306 from Silchar in Assam to Aizawl; NH-54 runs south to Lunglei and Tuipang. Lengpui Airport, about 30 km from Aizawl, has flights to Kolkata, Guwahati, Delhi and Imphal, and the new railway terminus at Sairang connects to the national network. Roads are winding and often blocked by landslides in the monsoon. Visitors from other States need an Inner Line Permit.",
+        "hi": "मिज़ोरम का मुख्य सड़क संपर्क असम के सिलचर से आइज़ोल तक एनएच-306 है; एनएच-54 दक्षिण में लुंगलेई और तुइपांग तक जाता है। आइज़ोल से लगभग 30 किमी दूर लेंगपुई हवाई अड्डे से कोलकाता, गुवाहाटी, दिल्ली और इंफाल की उड़ानें हैं, और सैरांग का नया रेलवे टर्मिनल राष्ट्रीय नेटवर्क से जुड़ता है। सड़कें घुमावदार हैं और मानसून में अक्सर भूस्खलन से बंद हो जाती हैं। दूसरे राज्यों के पर्यटकों को इनर लाइन परमिट चाहिए।",
+        "mr": "मिझोरामचा मुख्य रस्ते संपर्क आसाममधील सिलचर ते आयझॉल एनएच-306 आहे; एनएच-54 दक्षिणेला लुंगलेई व तुइपांगपर्यंत जातो. आयझॉलपासून सुमारे 30 किमीवरील लेंगपुई विमानतळावरून कोलकाता, गुवाहाटी, दिल्ली व इंफाळसाठी उड्डाणे आहेत, आणि सैरांग येथील नवे रेल्वे स्थानक राष्ट्रीय जाळ्याशी जोडते. रस्ते वळणावळणाचे आहेत व पावसाळ्यात अनेकदा भूस्खलनाने बंद होतात. इतर राज्यांतील पर्यटकांना इनर लाइन परवाना लागतो.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "ajl",
+          "name": {
+            "en": "Lengpui Airport",
+            "hi": "लेंगपुई हवाई अड्डा",
+            "mr": "लेंगपुई विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "AJL",
+            "hi": "AJL",
+            "mr": "AJL",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Road length by category",
+            "hi": "श्रेणीवार सड़क लंबाई",
+            "mr": "प्रकारनिहाय रस्त्यांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "Basic Road Statistics of India."
+        }
+      ]
+    }
+  ]
+}

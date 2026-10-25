@@ -1,0 +1,42 @@
+{
+  "region": "IN-MZ",
+  "module": "energy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mizoram's fast rivers give it hydropower potential. NEEPCO's Tuirial project near Aizawl and the State's small hydro stations supply part of the demand, the Serlui B project serves the north, and the State also buys power through the North-Eastern grid. Solar power is being added in villages and towns.",
+        "hi": "मिज़ोरम की तेज़ नदियाँ इसे जलविद्युत क्षमता देती हैं। आइज़ोल के पास नीपको की तुइरियाल परियोजना और राज्य के छोटे जलविद्युत केंद्र माँग का एक भाग पूरा करते हैं, सेरलुई बी परियोजना उत्तर की सेवा करती है, और राज्य पूर्वोत्तर ग्रिड से भी बिजली ख़रीदता है। गाँवों और नगरों में सौर ऊर्जा जोड़ी जा रही है।",
+        "mr": "मिझोरामच्या वेगवान नद्या त्याला जलविद्युत क्षमता देतात. आयझॉलजवळील नीपकोचा तुइरियाल प्रकल्प व राज्याची लहान जलविद्युत केंद्रे मागणीचा काही भाग पुरवतात, सेरलुई बी प्रकल्प उत्तरेला सेवा देतो, आणि राज्य ईशान्य ग्रिडमार्फतही वीज खरेदी करते. गावे व शहरांत सौरऊर्जा वाढवली जात आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed capacity by station",
+            "hi": "केंद्रवार स्थापित क्षमता",
+            "mr": "केंद्रनिहाय स्थापित क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        }
+      ]
+    }
+  ]
+}

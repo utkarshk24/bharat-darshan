@@ -1,0 +1,133 @@
+{
+ "source": "MoSPI NAS API, base 2011-12, current series, accessed 2026-10-25. MoSPI state code AN = 30. GSDP indicator 23 and per-capita NSDP indicator 25 as [current, constant] prices (₹ crore / ₹). FY2024-25 is the latest year with values (FY2025-26 rows are blank). GSVA by industry FY2024-25 (indicator 29, ₹ lakh, current prices). Dadra & Nagar Haveli and Daman & Diu and Lakshadweep returned no rows.",
+ "gsdp": {
+  "FY2024-25": [
+   13064,
+   8749
+  ],
+  "FY2023-24": [
+   12485,
+   8369
+  ],
+  "FY2022-23": [
+   11977,
+   7784
+  ],
+  "FY2021-22": [
+   10392,
+   7081
+  ],
+  "FY2020-21": [
+   9310,
+   6715
+  ],
+  "FY2019-20": [
+   9765,
+   7266
+  ],
+  "FY2018-19": [
+   9003,
+   6867
+  ],
+  "FY2017-18": [
+   7890,
+   6464
+  ],
+  "FY2016-17": [
+   6836,
+   5752
+  ],
+  "FY2015-16": [
+   6032,
+   5092
+  ],
+  "FY2014-15": [
+   5477,
+   4742
+  ],
+  "FY2013-14": [
+   5023,
+   4488
+  ],
+  "FY2012-13": [
+   4421,
+   4156
+  ],
+  "FY2011-12": [
+   3978,
+   3978
+  ]
+ },
+ "pcnsdp": {
+  "FY2024-25": [
+   288584,
+   192936
+  ],
+  "FY2023-24": [
+   275648,
+   184462
+  ],
+  "FY2022-23": [
+   263984,
+   170292
+  ],
+  "FY2021-22": [
+   229570,
+   160513
+  ],
+  "FY2020-21": [
+   205368,
+   146995
+  ],
+  "FY2019-20": [
+   219653,
+   161564
+  ],
+  "FY2018-19": [
+   204254,
+   154233
+  ],
+  "FY2017-18": [
+   178709,
+   145562
+  ],
+  "FY2016-17": [
+   153904,
+   129532
+  ],
+  "FY2015-16": [
+   137064,
+   114660
+  ],
+  "FY2014-15": [
+   126344,
+   106711
+  ],
+  "FY2013-14": [
+   111087,
+   98735
+  ],
+  "FY2012-13": [
+   98777,
+   92644
+  ],
+  "FY2011-12": [
+   89100,
+   89100
+  ]
+ },
+ "gsva2024_25_current_lakh": {
+  "agri": 135966,
+  "mining": 7448,
+  "manufacturing": 8342,
+  "utilities": 54979,
+  "construction": 181417,
+  "trade_hotels": 141224,
+  "transport_comm": 164227,
+  "financial": 70526,
+  "realestate_prof": 104871,
+  "public_admin": 193910,
+  "other": 148184,
+  "total": 1211094
+ }
+}

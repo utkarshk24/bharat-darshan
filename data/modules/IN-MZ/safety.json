@@ -1,0 +1,168 @@
+{
+  "region": "IN-MZ",
+  "module": "safety",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mizoram lies in seismic zone V. Landslides during the monsoon are the most frequent hazard — in May 2024, Cyclone Remal's rains caused deadly landslides and a stone-quarry collapse around Aizawl. The bamboo flowering cycle (mautam, about every 48 years) brings rat outbreaks that threaten crops. Visitors need an Inner Line Permit and should check road conditions in the rains.",
+        "hi": "मिज़ोरम भूकंपीय क्षेत्र V में है। मानसून में भूस्खलन सबसे आम ख़तरा है — मई 2024 में चक्रवात रेमल की वर्षा से आइज़ोल के आसपास घातक भूस्खलन हुए और एक पत्थर खदान ढह गई। बाँस के फूलने का चक्र (मौतम, लगभग हर 48 वर्ष) चूहों का प्रकोप लाता है जो फ़सलों के लिए ख़तरा है। पर्यटकों को इनर लाइन परमिट चाहिए और वर्षा में सड़क की स्थिति देखनी चाहिए।",
+        "mr": "मिझोराम भूकंप क्षेत्र V मध्ये आहे. पावसाळ्यातील भूस्खलन हा सर्वांत वारंवार येणारा धोका आहे — मे 2024 मध्ये रेमल चक्रीवादळाच्या पावसाने आयझॉलभोवती प्राणघातक भूस्खलन झाले व एक दगडखाण कोसळली. बांबू फुलण्याचे चक्र (मौतम, सुमारे दर 48 वर्षांनी) उंदरांचा उपद्रव आणते, जो पिकांसाठी धोका आहे. पर्यटकांना इनर लाइन परवाना लागतो व पावसात रस्त्यांची स्थिती पाहावी.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "table",
+      "id": "numbers",
+      "title": {
+        "en": "Emergency numbers",
+        "hi": "आपातकालीन नंबर",
+        "mr": "आपत्कालीन क्रमांक",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "columns": [
+        {
+          "label": {
+            "en": "Service",
+            "hi": "सेवा",
+            "mr": "सेवा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "left"
+        },
+        {
+          "label": {
+            "en": "Number",
+            "hi": "नंबर",
+            "mr": "क्रमांक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "align": "right"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "en": "Emergency response (police, fire, ambulance)",
+            "hi": "आपातकालीन सहायता (पुलिस, अग्निशमन, एंबुलेंस)",
+            "mr": "आपत्कालीन मदत (पोलीस, अग्निशमन, रुग्णवाहिका)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "112"
+        ],
+        [
+          {
+            "en": "Ambulance",
+            "hi": "एंबुलेंस",
+            "mr": "रुग्णवाहिका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "108"
+        ],
+        [
+          {
+            "en": "Women's helpline",
+            "hi": "महिला हेल्पलाइन",
+            "mr": "महिला हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "181"
+        ],
+        [
+          {
+            "en": "Child helpline",
+            "hi": "चाइल्ड हेल्पलाइन",
+            "mr": "चाइल्ड हेल्पलाइन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1098"
+        ],
+        [
+          {
+            "en": "Cybercrime",
+            "hi": "साइबर अपराध",
+            "mr": "सायबर गुन्हे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1930"
+        ],
+        [
+          {
+            "en": "Tourist helpline (Ministry of Tourism)",
+            "hi": "पर्यटक हेल्पलाइन (पर्यटन मंत्रालय)",
+            "mr": "पर्यटक हेल्पलाइन (पर्यटन मंत्रालय)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "1800-11-1363"
+        ]
+      ],
+      "sourceId": "india-gov",
+      "url": "https://www.india.gov.in",
+      "accessDate": null,
+      "confidence": "Official",
+      "note": {
+        "en": "National numbers that work in Mizoram.",
+        "hi": "राष्ट्रीय नंबर जो मिज़ोरम में काम करते हैं।",
+        "mr": "मिझोराममध्ये चालणारे राष्ट्रीय क्रमांक.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Cyclone Remal landslides (May 2024) — official toll",
+            "hi": "चक्रवात रेमल भूस्खलन (मई 2024) — आधिकारिक मृतक संख्या",
+            "mr": "रेमल चक्रीवादळ भूस्खलन (मे 2024) — अधिकृत मृतसंख्या",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "ndma",
+          "note": "Mizoram State Disaster Management Authority."
+        }
+      ]
+    }
+  ]
+}

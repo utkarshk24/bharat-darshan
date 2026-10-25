@@ -1,0 +1,314 @@
+{
+  "region": "IN-MZ",
+  "module": "culture",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mizo culture centres on the village community, the church and the three traditional kut (festivals) tied to the farming year. Cheraw, the bamboo dance in which dancers step between clapping bamboo poles, is performed at festivals, along with Khuallam and Chheih Lam. Women weave puan, the wrap-around cloth worn on every occasion, in patterns that mark clan and occasion. Choir singing and Christian music are part of everyday life, alongside a lively rock and pop scene.",
+        "hi": "मिज़ो संस्कृति गाँव के समुदाय, चर्च और खेती के वर्ष से जुड़े तीन पारंपरिक कुट (त्योहारों) पर केंद्रित है। चेराव, बाँस नृत्य जिसमें नर्तक ताली बजाते बाँसों के बीच कदम रखते हैं, ख़ुआललाम और छेइह लाम के साथ त्योहारों पर किया जाता है। महिलाएँ पुआन बुनती हैं, हर अवसर पर पहना जाने वाला लपेटने का वस्त्र, जिनके नमूने कुल और अवसर बताते हैं। गायक मंडलियाँ और ईसाई संगीत दैनिक जीवन का हिस्सा हैं, जीवंत रॉक और पॉप के साथ।",
+        "mr": "मिझो संस्कृती गावसमुदाय, चर्च आणि शेतीच्या वर्षाशी जोडलेल्या तीन पारंपरिक कुट (सणां) भोवती केंद्रित आहे. चेराव, बांबू नृत्य ज्यात नर्तक टाळ्या वाजवणाऱ्या बांबूंमध्ये पावले टाकतात, ख्वाललाम व छेइह लामसह सणांना सादर होते. स्त्रिया पुआन विणतात, प्रत्येक प्रसंगी परिधान केले जाणारे गुंडाळायचे वस्त्र, ज्यांची नक्षी कुळ व प्रसंग दर्शवते. गायकवृंद व ख्रिस्ती संगीत रोजच्या जीवनाचा भाग आहेत, चैतन्यशील रॉक व पॉपसह.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "festivals",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "chapchar",
+          "name": {
+            "en": "Chapchar Kut",
+            "hi": "चापचार कुट",
+            "mr": "चापचार कुट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Spring festival after the jhum fields are cleared.",
+            "hi": "झूम खेत साफ़ होने के बाद वसंत उत्सव।",
+            "mr": "झूम शेते साफ केल्यानंतरचा वसंतोत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "March",
+            "hi": "मार्च",
+            "mr": "मार्च",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mimkut",
+          "name": {
+            "en": "Mim Kut",
+            "hi": "मिम कुट",
+            "mr": "मिम कुट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Festival in memory of the dead, after the maize harvest.",
+            "hi": "मक्के की फ़सल के बाद मृतकों की स्मृति का त्योहार।",
+            "mr": "मक्याच्या सुगीनंतर मृतांच्या स्मृतीचा सण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "August–September",
+            "hi": "अगस्त–सितंबर",
+            "mr": "ऑगस्ट–सप्टेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pawlkut",
+          "name": {
+            "en": "Pawl Kut",
+            "hi": "पॉल कुट",
+            "mr": "पॉल कुट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Harvest thanksgiving festival.",
+            "hi": "फ़सल कटाई का धन्यवाद पर्व।",
+            "mr": "सुगीचा कृतज्ञता सण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "December",
+            "hi": "दिसंबर",
+            "mr": "डिसेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "christmas",
+          "name": {
+            "en": "Christmas",
+            "hi": "क्रिसमस",
+            "mr": "नाताळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "The biggest celebration of the year in most homes.",
+            "hi": "अधिकांश घरों में वर्ष का सबसे बड़ा उत्सव।",
+            "mr": "बहुतेक घरांत वर्षातील सर्वांत मोठा उत्सव.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "December",
+            "hi": "दिसंबर",
+            "mr": "डिसेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Festivals",
+        "hi": "त्योहार",
+        "mr": "सण-उत्सव",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "arts",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "cheraw",
+          "name": {
+            "en": "Cheraw bamboo dance",
+            "hi": "चेराव बाँस नृत्य",
+            "mr": "चेराव बांबू नृत्य",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "puan",
+          "name": {
+            "en": "Puan weaving",
+            "hi": "पुआन बुनाई",
+            "mr": "पुआन विणकाम",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "khuang",
+          "name": {
+            "en": "Khuang drum",
+            "hi": "ख़ुआंग ढोल",
+            "mr": "ख्वांग ढोल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "bamboo",
+          "name": {
+            "en": "Bamboo and cane craft",
+            "hi": "बाँस और बेंत शिल्प",
+            "mr": "बांबू व वेत हस्तकला",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Arts and crafts",
+        "hi": "कलाएँ और शिल्प",
+        "mr": "कला व हस्तकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "food",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "bai",
+          "name": {
+            "en": "Bai",
+            "hi": "बाई",
+            "mr": "बाई",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Stew of greens, bamboo shoot and often pork.",
+            "hi": "साग, बाँस की कोंपल और अक्सर सूअर के मांस का शोरबा।",
+            "mr": "पालेभाज्या, बांबूचे कोंब व अनेकदा डुकराचे मांस घालून रस्सा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "sawhchiar",
+          "name": {
+            "en": "Sawhchiar",
+            "hi": "सॉहचियार",
+            "mr": "सॉहचियार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rice cooked with meat.",
+            "hi": "मांस के साथ पका चावल।",
+            "mr": "मांसासह शिजवलेला भात.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "chilli",
+          "name": {
+            "en": "Mizo chilli",
+            "hi": "मिज़ो मिर्च",
+            "mr": "मिझो मिरची",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Small, very hot chilli; a registered GI.",
+            "hi": "छोटी, बहुत तीखी मिर्च; पंजीकृत जीआई।",
+            "mr": "लहान, अतिशय तिखट मिरची; नोंदणीकृत जीआय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Food",
+        "hi": "खान-पान",
+        "mr": "खाद्यसंस्कृती",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "region": "IN-MZ",
+  "module": "government",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mizoram has a unicameral, 40-member Legislative Assembly in Aizawl. Three Autonomous District Councils under the Sixth Schedule — for the Chakma, Lai and Mara peoples — govern parts of the south, and Article 371G of the Constitution protects Mizo religious and social practices, customary law and land ownership. The State elects 1 member to the Lok Sabha and 1 to the Rajya Sabha.\n\nThe Zoram People's Movement won 27 seats in the 2023 election, the first time a party other than the Congress or the MNF formed the government, and Lalduhoma was sworn in as Chief Minister on 8 December 2023. Lalbiakzama was elected Speaker on 12 December 2023, and Gen. V. K. Singh (Retd) has been Governor since 16 January 2025. The next Assembly election is due by late 2028.",
+        "hi": "मिज़ोरम में आइज़ोल में 40 सदस्यों वाली एकसदनीय विधानसभा है। छठी अनुसूची के तहत तीन स्वायत्त ज़िला परिषदें — चकमा, लाई और मारा लोगों के लिए — दक्षिण के भागों का शासन करती हैं, और संविधान का अनुच्छेद 371छ मिज़ो धार्मिक और सामाजिक प्रथाओं, प्रथागत क़ानून और भूमि स्वामित्व की रक्षा करता है। राज्य से लोकसभा का 1 और राज्यसभा का 1 सदस्य चुना जाता है।\n\n2023 के चुनाव में ज़ोरम पीपुल्स मूवमेंट ने 27 सीटें जीतीं, पहली बार कांग्रेस या एमएनएफ़ के अलावा किसी दल ने सरकार बनाई, और लालदुहोमा ने 8 दिसंबर 2023 को मुख्यमंत्री पद की शपथ ली। लालबियाकज़ामा 12 दिसंबर 2023 को अध्यक्ष चुने गए, और जनरल वी. के. सिंह (सेवानिवृत्त) 16 जनवरी 2025 से राज्यपाल हैं। अगला विधानसभा चुनाव 2028 के अंत तक होना है।",
+        "mr": "मिझोराममध्ये आयझॉल येथे 40 सदस्यांची एकसदनी विधानसभा आहे. सहाव्या अनुसूचीखालील तीन स्वायत्त जिल्हा परिषदा — चकमा, लाई व मारा लोकांसाठी — दक्षिणेकडील भागांचा कारभार पाहतात, आणि संविधानाचा अनुच्छेद 371छ मिझो धार्मिक व सामाजिक प्रथा, रूढी कायदा व जमीन मालकीचे संरक्षण करतो. राज्यातून लोकसभेवर 1 व राज्यसभेवर 1 सदस्य निवडला जातो.\n\n2023 च्या निवडणुकीत झोरम पीपल्स मूव्हमेंटने 27 जागा जिंकल्या, प्रथमच काँग्रेस किंवा एमएनएफव्यतिरिक्त पक्षाने सरकार स्थापन केले, आणि लालदुहोमा यांनी 8 डिसेंबर 2023 रोजी मुख्यमंत्रिपदाची शपथ घेतली. लालबियाकझामा 12 डिसेंबर 2023 रोजी अध्यक्षपदी निवडले गेले, आणि जनरल व्ही. के. सिंह (निवृत्त) 16 जानेवारी 2025 पासून राज्यपाल आहेत. पुढील विधानसभा निवडणूक 2028 च्या अखेरीपर्यंत होणे अपेक्षित आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "udayavani",
+        "mz-assembly",
+        "newsonair"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "officeholders",
+      "id": "officeholders"
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "eci",
+          "name": {
+            "en": "Election Commission of India",
+            "hi": "भारत निर्वाचन आयोग",
+            "mr": "भारत निवडणूक आयोग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.eci.gov.in",
+          "sourceId": "eci"
+        },
+        {
+          "id": "assembly",
+          "name": {
+            "en": "Mizoram Legislative Assembly",
+            "hi": "मिज़ोरम विधानसभा",
+            "mr": "मिझोराम विधानसभा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://mizoramassembly.in",
+          "sourceId": "mz-assembly"
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Official",
+      "title": {
+        "en": "Official links",
+        "hi": "आधिकारिक लिंक",
+        "mr": "अधिकृत दुवे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "2023 Assembly election — party-wise result",
+            "hi": "2023 विधानसभा चुनाव — दलवार परिणाम",
+            "mr": "2023 विधानसभा निवडणूक — पक्षनिहाय निकाल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "eci",
+          "note": "ECI statistical report for Mizoram 2023."
+        }
+      ]
+    }
+  ]
+}

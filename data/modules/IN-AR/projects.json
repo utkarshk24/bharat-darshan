@@ -1,0 +1,62 @@
+{
+  "region": "IN-AR",
+  "module": "projects",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Road and air links dominate Arunachal's projects. The Sela Tunnel on the road to Tawang opened in March 2024, and Donyi Polo Airport gave Itanagar an airport in 2022. Other works include the Frontier Highway along the northern border, the Trans-Arunachal Highway, new railway lines, and large hydropower projects such as Lower Subansiri and Dibang; these will be added as cards once their status is confirmed from official sources. Each card shows its source and the date it was checked.",
+        "hi": "सड़क और हवाई संपर्क अरुणाचल की परियोजनाओं में प्रमुख हैं। तवांग जाने वाली सड़क पर सेला सुरंग मार्च 2024 में खुली, और दोन्यी पोलो हवाई अड्डे ने 2022 में ईटानगर को हवाई अड्डा दिया। अन्य कार्यों में उत्तरी सीमा के साथ फ़्रंटियर हाईवे, ट्रांस-अरुणाचल हाईवे, नई रेल लाइनें और निचली सुबनसिरी व दिबांग जैसी बड़ी जलविद्युत परियोजनाएँ शामिल हैं; आधिकारिक स्रोतों से स्थिति की पुष्टि होने पर इन्हें कार्ड के रूप में जोड़ा जाएगा। हर कार्ड पर स्रोत और जाँच की तारीख़ है।",
+        "mr": "रस्ते व हवाई संपर्क हे अरुणाचलच्या प्रकल्पांत प्रमुख आहेत. तवांगच्या रस्त्यावरील सेला बोगदा मार्च 2024 मध्ये सुरू झाला, आणि दोन्यी पोलो विमानतळाने 2022 मध्ये इटानगरला विमानतळ दिला. इतर कामांत उत्तर सीमेलगतचा फ्रंटियर महामार्ग, ट्रान्स-अरुणाचल महामार्ग, नवे रेल्वेमार्ग, आणि खालचा सुबनसिरी व दिबांगसारखे मोठे जलविद्युत प्रकल्प यांचा समावेश आहे; अधिकृत स्रोतांतून स्थितीची खात्री झाल्यावर त्यांची कार्डे जोडली जातील. प्रत्येक कार्डावर स्रोत व तपासणीची तारीख आहे.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [
+        "new-india-samachar",
+        "morung-express"
+      ],
+      "confidence": "Official"
+    },
+    {
+      "type": "projects",
+      "id": "projects"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Sela Tunnel — official PIB release",
+            "hi": "सेला सुरंग — आधिकारिक पीआईबी विज्ञप्ति",
+            "mr": "सेला बोगदा — अधिकृत पीआयबी प्रसिद्धिपत्रक",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "pib",
+          "note": "Replace the IANS report with the PIB release of 9 March 2024."
+        },
+        {
+          "label": {
+            "en": "Lower Subansiri and Dibang projects — official status",
+            "hi": "निचली सुबनसिरी और दिबांग परियोजनाएँ — आधिकारिक स्थिति",
+            "mr": "खालचा सुबनसिरी व दिबांग प्रकल्प — अधिकृत स्थिती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "NHPC / Ministry of Power."
+        }
+      ]
+    }
+  ]
+}

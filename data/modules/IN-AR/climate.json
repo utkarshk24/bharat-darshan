@@ -1,0 +1,183 @@
+{
+  "region": "IN-AR",
+  "module": "climate",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Arunachal Pradesh is one of the wettest parts of India. The foothills and valleys are hot and humid, the middle hills are temperate, and the high north is alpine, with snow from November to March at Tawang, Sela and Mechuka. The south-west monsoon, from May or June to September, brings very heavy rain, floods in the river valleys and landslides that cut roads. October to April is drier and clearer, the best time to travel.",
+        "hi": "अरुणाचल प्रदेश भारत के सबसे अधिक वर्षा वाले भागों में है। तलहटी और घाटियाँ गर्म और आर्द्र हैं, मध्य पहाड़ियाँ समशीतोष्ण हैं, और ऊँचा उत्तर अल्पाइन है, जहाँ तवांग, सेला और मेचुका में नवंबर से मार्च तक बर्फ़ रहती है। मई या जून से सितंबर तक दक्षिण-पश्चिम मानसून बहुत भारी वर्षा, नदी घाटियों में बाढ़ और सड़कें काटने वाले भूस्खलन लाता है। अक्टूबर से अप्रैल अधिक सूखा और साफ़ रहता है, यात्रा का सबसे अच्छा समय।",
+        "mr": "अरुणाचल प्रदेश हा भारतातील सर्वाधिक पावसाच्या भागांपैकी आहे. पायथ्याचे डोंगर व खोरी उष्ण व दमट आहेत, मधले डोंगर समशीतोष्ण आहेत, आणि उंच उत्तर भाग अल्पाइन आहे, जिथे तवांग, सेला व मेचुका येथे नोव्हेंबर ते मार्च बर्फ असते. मे किंवा जून ते सप्टेंबर नैर्ऋत्य मान्सून अतिशय मुसळधार पाऊस, नदीखोऱ्यांत पूर व रस्ते तोडणारे भूस्खलन आणतो. ऑक्टोबर ते एप्रिल अधिक कोरडा व निरभ्र असतो, प्रवासासाठी उत्तम काळ.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "weather",
+      "id": "live",
+      "places": [
+        {
+          "name": {
+            "en": "Itanagar",
+            "hi": "ईटानगर",
+            "mr": "इटानगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 27.0844,
+          "lon": 93.6053
+        },
+        {
+          "name": {
+            "en": "Tawang",
+            "hi": "तवांग",
+            "mr": "तवांग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 27.586,
+          "lon": 91.859
+        },
+        {
+          "name": {
+            "en": "Pasighat",
+            "hi": "पासीघाट",
+            "mr": "पासीघाट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 28.066,
+          "lon": 95.326
+        },
+        {
+          "name": {
+            "en": "Ziro",
+            "hi": "ज़ीरो",
+            "mr": "झिरो",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "lat": 27.5449,
+          "lon": 93.8197
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "best",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "autumn",
+          "name": {
+            "en": "October to November",
+            "hi": "अक्टूबर से नवंबर",
+            "mr": "ऑक्टोबर ते नोव्हेंबर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Clear skies; Torgya preparations and Ziro's music festival season.",
+            "hi": "साफ़ आसमान; तोरग्या की तैयारी और ज़ीरो के संगीत उत्सव का मौसम।",
+            "mr": "निरभ्र आकाश; तोरग्याची तयारी व झिरोच्या संगीत महोत्सवाचा हंगाम.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "spring",
+          "name": {
+            "en": "March to April",
+            "hi": "मार्च से अप्रैल",
+            "mr": "मार्च ते एप्रिल",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Rhododendrons in bloom; festivals such as Mopin and Sangken.",
+            "hi": "बुरांश खिलते हैं; मोपिन और सांगकेन जैसे त्योहार।",
+            "mr": "ऱ्होडोडेंड्रॉन बहरतात; मोपिन व सांगकेनसारखे सण.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "winter",
+          "name": {
+            "en": "December to February",
+            "hi": "दिसंबर से फ़रवरी",
+            "mr": "डिसेंबर ते फेब्रुवारी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Snow at Tawang and Sela; Losar in February–March.",
+            "hi": "तवांग और सेला में बर्फ़; फ़रवरी–मार्च में लोसार।",
+            "mr": "तवांग व सेला येथे बर्फ; फेब्रुवारी–मार्चमध्ये लोसार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Best time to visit",
+        "hi": "घूमने का सबसे अच्छा समय",
+        "mr": "भेटीसाठी उत्तम काळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Normal annual rainfall",
+            "hi": "सामान्य वार्षिक वर्षा",
+            "mr": "सरासरी वार्षिक पाऊस",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "imd",
+          "note": "IMD Itanagar / Guwahati regional centre."
+        }
+      ]
+    }
+  ]
+}

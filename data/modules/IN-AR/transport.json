@@ -1,0 +1,132 @@
+{
+  "region": "IN-AR",
+  "module": "transport",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Arunachal Pradesh is reached mostly by road from Assam. NH-13 (the Trans-Arunachal Highway) and other national highways climb from the Brahmaputra plains to Tawang, Ziro, Aalo, Pasighat, Tezu and Roing, and the Sela Tunnel keeps Tawang open in winter. Donyi Polo Airport at Hollongi serves Itanagar, and smaller airports at Pasighat, Tezu and Ziro have regional flights; helicopter services link remote districts. Naharlagun near Itanagar has had a railway station since 2014, and the Bogibeel bridge across the Brahmaputra in Assam shortened the trip to the eastern districts.",
+        "hi": "अरुणाचल प्रदेश तक अधिकतर असम से सड़क मार्ग से पहुँचा जाता है। एनएच-13 (ट्रांस-अरुणाचल हाईवे) और अन्य राष्ट्रीय राजमार्ग ब्रह्मपुत्र के मैदानों से तवांग, ज़ीरो, आलो, पासीघाट, तेज़ू और रोइंग तक चढ़ते हैं, और सेला सुरंग सर्दियों में तवांग को खुला रखती है। होल्लोंगी का दोन्यी पोलो हवाई अड्डा ईटानगर की सेवा करता है, और पासीघाट, तेज़ू और ज़ीरो के छोटे हवाई अड्डों से क्षेत्रीय उड़ानें हैं; हेलिकॉप्टर सेवाएँ दूरस्थ ज़िलों को जोड़ती हैं। ईटानगर के पास नहारलगुन में 2014 से रेलवे स्टेशन है, और असम में ब्रह्मपुत्र पर बोगीबील पुल ने पूर्वी ज़िलों की यात्रा छोटी की।",
+        "mr": "अरुणाचल प्रदेशला बहुतेक आसाममधून रस्त्याने पोहोचले जाते. एनएच-13 (ट्रान्स-अरुणाचल महामार्ग) व इतर राष्ट्रीय महामार्ग ब्रह्मपुत्रेच्या मैदानांतून तवांग, झिरो, आलो, पासीघाट, तेझू व रोइंगपर्यंत चढतात, आणि सेला बोगदा हिवाळ्यात तवांग खुले ठेवतो. होल्लोंगीचा दोन्यी पोलो विमानतळ इटानगरला सेवा देतो, आणि पासीघाट, तेझू व झिरोच्या लहान विमानतळांवरून प्रादेशिक उड्डाणे आहेत; हेलिकॉप्टर सेवा दुर्गम जिल्ह्यांना जोडतात. इटानगरजवळील नाहरलगुन येथे 2014 पासून रेल्वे स्थानक आहे, आणि आसाममधील ब्रह्मपुत्रेवरील बोगीबील पुलाने पूर्वेकडील जिल्ह्यांचा प्रवास कमी केला.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "airports",
+      "layout": "chips",
+      "items": [
+        {
+          "id": "hgi",
+          "name": {
+            "en": "Donyi Polo Airport, Itanagar",
+            "hi": "दोन्यी पोलो हवाई अड्डा, ईटानगर",
+            "mr": "दोन्यी पोलो विमानतळ, इटानगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Hollongi",
+            "hi": "होल्लोंगी",
+            "mr": "होल्लोंगी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ixt",
+          "name": {
+            "en": "Pasighat Airport",
+            "hi": "पासीघाट हवाई अड्डा",
+            "mr": "पासीघाट विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tezu",
+          "name": {
+            "en": "Tezu Airport",
+            "hi": "तेज़ू हवाई अड्डा",
+            "mr": "तेझू विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ziro",
+          "name": {
+            "en": "Ziro Airport",
+            "hi": "ज़ीरो हवाई अड्डा",
+            "mr": "झिरो विमानतळ",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Airports",
+        "hi": "हवाई अड्डे",
+        "mr": "विमानतळ",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Inner Line Permit rules — official notice",
+            "hi": "इनर लाइन परमिट नियम — आधिकारिक सूचना",
+            "mr": "इनर लाइन परवाना नियम — अधिकृत सूचना",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Government of Arunachal Pradesh e-ILP portal."
+        },
+        {
+          "label": {
+            "en": "Road and national highway length",
+            "hi": "सड़क और राष्ट्रीय राजमार्ग की लंबाई",
+            "mr": "रस्ते व राष्ट्रीय महामार्गांची लांबी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "morth",
+          "note": "MoRTH Basic Road Statistics."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "region": "IN-AR",
+  "module": "diaspora",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Arunachal Pradesh has a small diaspora. Students and workers from the State live in Guwahati, Shillong, Delhi, Bengaluru and Pune, and the Monpa, Khamti and Singpho share family and religious ties with communities across the borders in Bhutan, Myanmar and Tibet.",
+        "hi": "अरुणाचल प्रदेश का प्रवासी समुदाय छोटा है। राज्य के छात्र और कामगार गुवाहाटी, शिलांग, दिल्ली, बेंगलुरु और पुणे में रहते हैं, और मोनपा, खामती और सिंगफ़ो भूटान, म्यांमार और तिब्बत की सीमाओं के पार के समुदायों से पारिवारिक और धार्मिक संबंध रखते हैं।",
+        "mr": "अरुणाचल प्रदेशचा प्रवासी समुदाय लहान आहे. राज्यातील विद्यार्थी व कामगार गुवाहाटी, शिलाँग, दिल्ली, बंगळुरू व पुण्यात राहतात, आणि मोनपा, खामती व सिंगफो भूतान, म्यानमार व तिबेटच्या सीमांपलीकडील समुदायांशी कौटुंबिक व धार्मिक नाते जपतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Out-migration from the State — official estimate",
+            "hi": "राज्य से बाहर प्रवास — आधिकारिक अनुमान",
+            "mr": "राज्याबाहेर स्थलांतर — अधिकृत अंदाज",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 migration tables (D-series)."
+        }
+      ]
+    }
+  ]
+}

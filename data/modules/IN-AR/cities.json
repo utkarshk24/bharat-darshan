@@ -1,0 +1,240 @@
+{
+  "region": "IN-AR",
+  "module": "cities",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "cities",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "itanagar",
+          "name": {
+            "en": "Itanagar",
+            "hi": "ईटानगर",
+            "mr": "इटानगर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Capital in the Papum Pare foothills.",
+            "hi": "पापुम पारे की तलहटी में राजधानी।",
+            "mr": "पापुम पारेच्या पायथ्याशी राजधानी.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Capital",
+            "hi": "राजधानी",
+            "mr": "राजधानी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "naharlagun",
+          "name": {
+            "en": "Naharlagun",
+            "hi": "नहारलगुन",
+            "mr": "नाहरलगुन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Twin town of Itanagar; railway station.",
+            "hi": "ईटानगर का जुड़वाँ नगर; रेलवे स्टेशन।",
+            "mr": "इटानगरचे जुळे शहर; रेल्वे स्थानक.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Commerce",
+            "hi": "वाणिज्य",
+            "mr": "व्यापार",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "pasighat",
+          "name": {
+            "en": "Pasighat",
+            "hi": "पासीघाट",
+            "mr": "पासीघाट",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Founded in 1911; gateway to the Siang valley.",
+            "hi": "1911 में स्थापित; सियांग घाटी का प्रवेश द्वार।",
+            "mr": "1911 मध्ये स्थापन; सियांग खोऱ्याचे प्रवेशद्वार.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "History",
+            "hi": "इतिहास",
+            "mr": "इतिहास",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tawang",
+          "name": {
+            "en": "Tawang",
+            "hi": "तवांग",
+            "mr": "तवांग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Monastery town at about 3,000 m.",
+            "hi": "लगभग 3,000 मीटर पर मठ नगर।",
+            "mr": "सुमारे 3,000 मीटरवरील मठांचे शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Heritage",
+            "hi": "धरोहर",
+            "mr": "वारसा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ziro",
+          "name": {
+            "en": "Ziro",
+            "hi": "ज़ीरो",
+            "mr": "झिरो",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Apatani plateau town.",
+            "hi": "अपातानी पठार का नगर।",
+            "mr": "आपातानी पठारावरील शहर.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Culture",
+            "hi": "संस्कृति",
+            "mr": "संस्कृती",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "tezu",
+          "name": {
+            "en": "Tezu",
+            "hi": "तेज़ू",
+            "mr": "तेझू",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Headquarters of Lohit district.",
+            "hi": "लोहित ज़िले का मुख्यालय।",
+            "mr": "लोहित जिल्ह्याचे मुख्यालय.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Administration",
+            "hi": "प्रशासन",
+            "mr": "प्रशासन",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Major towns",
+        "hi": "प्रमुख नगर",
+        "mr": "प्रमुख शहरे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "List of districts — official",
+            "hi": "ज़िलों की सूची — आधिकारिक",
+            "mr": "जिल्ह्यांची यादी — अधिकृत",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Government of Arunachal Pradesh; see the district-count note in the overview."
+        },
+        {
+          "label": {
+            "en": "Town populations (Census 2011)",
+            "hi": "नगरों की जनसंख्या (जनगणना 2011)",
+            "mr": "शहरांची लोकसंख्या (जनगणना 2011)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "census",
+          "note": "Census 2011 urban tables."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "region": "IN-AR",
+  "module": "tourism",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Tawang, reached over the Sela Pass, is the State's best-known destination, with its great monastery, the Tawang War Memorial, high lakes such as Sangetsar (Madhuri) and, with permits, the Bum La pass on the border. On the way lie Bomdila and the Dirang valley. The Ziro valley of the Apatani, with its pine-ringed rice fields and the Ziro Festival of Music, Mechuka in the far west of Siang, Pasighat on the Siang, and the riverine forests of Namdapha draw travellers seeking quieter places. Itanagar has the Ita Fort and the Jawaharlal Nehru State Museum, and Parshuram Kund on the Lohit draws pilgrims in January.",
+        "hi": "सेला दर्रे पार कर पहुँचा जाने वाला तवांग राज्य का सबसे प्रसिद्ध गंतव्य है, अपने महान मठ, तवांग युद्ध स्मारक, संगेत्सर (माधुरी) जैसी ऊँची झीलों और, परमिट के साथ, सीमा पर बुम ला दर्रे के साथ। रास्ते में बोमडिला और दिरांग घाटी हैं। अपातानी की ज़ीरो घाटी, चीड़ से घिरे धान के खेतों और ज़ीरो संगीत उत्सव के साथ, सियांग के सुदूर पश्चिम में मेचुका, सियांग किनारे पासीघाट, और नामदफा के नदी तटीय वन शांत स्थानों की तलाश करने वाले यात्रियों को खींचते हैं। ईटानगर में ईटा क़िला और जवाहरलाल नेहरू राज्य संग्रहालय है, और लोहित पर परशुराम कुंड जनवरी में तीर्थयात्रियों को खींचता है।",
+        "mr": "सेला खिंड ओलांडून पोहोचले जाणारे तवांग हे राज्यातील सर्वांत प्रसिद्ध ठिकाण आहे, त्याचा महान मठ, तवांग युद्ध स्मारक, संगेत्सर (माधुरी) सारखी उंचावरील सरोवरे आणि, परवान्यासह, सीमेवरील बुम ला खिंड यांसह. वाटेत बोमडिला व दिरांग खोरे आहे. आपातानींचे झिरो खोरे, पाइनने वेढलेल्या भातशेतांसह व झिरो संगीत महोत्सवासह, सियांगच्या दूर पश्चिमेकडील मेचुका, सियांगकाठचे पासीघाट, आणि नामदफाची नदीकाठची जंगले शांत ठिकाणे शोधणाऱ्या प्रवाशांना खेचतात. इटानगरमध्ये इटा किल्ला व जवाहरलाल नेहरू राज्य संग्रहालय आहे, आणि लोहितवरील परशुराम कुंड जानेवारीत यात्रेकरूंना खेचते.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "list",
+      "id": "places",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "tawang",
+          "name": {
+            "en": "Tawang",
+            "hi": "तवांग",
+            "mr": "तवांग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Monastery, war memorial, lakes",
+            "hi": "मठ, युद्ध स्मारक, झीलें",
+            "mr": "मठ, युद्ध स्मारक, सरोवरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "dirang",
+          "name": {
+            "en": "Bomdila and Dirang",
+            "hi": "बोमडिला और दिरांग",
+            "mr": "बोमडिला व दिरांग",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "On the road to Tawang",
+            "hi": "तवांग के मार्ग पर",
+            "mr": "तवांगच्या वाटेवर",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "ziro",
+          "name": {
+            "en": "Ziro valley",
+            "hi": "ज़ीरो घाटी",
+            "mr": "झिरो खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Apatani villages; music festival",
+            "hi": "अपातानी गाँव; संगीत उत्सव",
+            "mr": "आपातानी गावे; संगीत महोत्सव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "mechuka",
+          "name": {
+            "en": "Mechuka",
+            "hi": "मेचुका",
+            "mr": "मेचुका",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Remote valley in Shi Yomi",
+            "hi": "शि योमी की सुदूर घाटी",
+            "mr": "शि योमीतील दुर्गम खोरे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "namdapha",
+          "name": {
+            "en": "Namdapha",
+            "hi": "नामदफा",
+            "mr": "नामदफा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Rainforest and wildlife",
+            "hi": "वर्षावन और वन्यजीव",
+            "mr": "वर्षावन व वन्यजीव",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "parshuram",
+          "name": {
+            "en": "Parshuram Kund",
+            "hi": "परशुराम कुंड",
+            "mr": "परशुराम कुंड",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "meta": {
+            "en": "Makar Sankranti pilgrimage",
+            "hi": "मकर संक्रांति तीर्थ",
+            "mr": "मकरसंक्रांत यात्रा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Top places by category",
+        "hi": "श्रेणी के अनुसार प्रमुख स्थल",
+        "mr": "प्रकारानुसार प्रमुख ठिकाणे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "id": "itin",
+      "layout": "bullets",
+      "items": [
+        {
+          "id": "d6",
+          "name": {
+            "en": "6 days (west)",
+            "hi": "6 दिन (पश्चिम)",
+            "mr": "6 दिवस (पश्चिम)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Bhalukpong, Dirang, Sela and Tawang, returning via Bomdila.",
+            "hi": "भालुकपोंग, दिरांग, सेला और तवांग, बोमडिला होकर वापसी।",
+            "mr": "भालुकपोंग, दिरांग, सेला व तवांग, बोमडिलामार्गे परत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d4",
+          "name": {
+            "en": "4 days (centre)",
+            "hi": "4 दिन (मध्य)",
+            "mr": "4 दिवस (मध्य)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Itanagar and the Ziro valley.",
+            "hi": "ईटानगर और ज़ीरो घाटी।",
+            "mr": "इटानगर व झिरो खोरे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        },
+        {
+          "id": "d5",
+          "name": {
+            "en": "5 days (east)",
+            "hi": "5 दिन (पूर्व)",
+            "mr": "5 दिवस (पूर्व)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "detail": {
+            "en": "Pasighat, Roing and Mayudia, or Namdapha from Miao.",
+            "hi": "पासीघाट, रोइंग और मायुडिया, या मियाओ से नामदफा।",
+            "mr": "पासीघाट, रोइंग व मायुडिया, किंवा मियाओहून नामदफा.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Sample itineraries",
+        "hi": "नमूना यात्रा कार्यक्रम",
+        "mr": "नमुना प्रवास आराखडे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Domestic and foreign tourist visits, by year",
+            "hi": "वर्षवार घरेलू और विदेशी पर्यटक यात्राएँ",
+            "mr": "वर्षनिहाय देशी व परदेशी पर्यटक भेटी",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "tourism",
+          "note": "India Tourism Data Compendium / Arunachal Tourism."
+        }
+      ]
+    }
+  ]
+}

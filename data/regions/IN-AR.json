@@ -33,86 +33,135 @@
       }
     }
   ],
-  "officialPortal": null,
-  "symbols": {},
+  "officialPortal": "https://arunachalpradesh.gov.in",
+  "symbols": {
+    "animal": {
+      "name": {
+        "en": "Mithun (gayal)",
+        "hi": "मिथुन (गयाल)",
+        "mr": "मिथुन (गयाल)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Bos frontalis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "bird": {
+      "name": {
+        "en": "Great hornbill",
+        "hi": "बड़ा धनेश",
+        "mr": "महाधनेश",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Buceros bicornis",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    },
+    "flower": {
+      "name": {
+        "en": "Foxtail orchid",
+        "hi": "फ़ॉक्सटेल ऑर्किड",
+        "mr": "फॉक्सटेल ऑर्किड",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "scientificName": "Rhynchostylis retusa",
+      "sourceId": null,
+      "url": null,
+      "confidence": "Editorial",
+      "revisionStatus": "TODO"
+    }
+  },
   "metrics": {
     "population2011": {
-      "value": null,
+      "value": 1383727,
       "unit": "persons",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 Primary Census Abstract (PCA), state total."
+      "note": "Census 2011 (ORGI), as tabulated by the Directorate of Economics and Statistics, Puducherry. Males 7,13,912; females 6,69,815."
     },
     "area": {
-      "value": null,
+      "value": 83743,
       "unit": "km²",
-      "period": "2011",
-      "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "period": "2023",
+      "periodType": "calendar",
+      "sourceId": "fsi",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 area figures, or Survey of India; record which."
+      "note": "Geographical area used in ISFR 2023 (Lok Sabha Unstarred Q. 1550, 9 Feb 2026)."
     },
     "density2011": {
-      "value": null,
+      "value": 17,
       "unit": "persons per km²",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Calculated: Census 2011 population 13,83,727 ÷ area 83,743 km² = 16.5."
     },
     "sexRatio2011": {
-      "value": null,
+      "value": 938,
       "unit": "females per 1000 males",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://statistics.py.gov.in/state-wise-population",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "Puducherry DES state-wise table citing ORGI (893 in 2001)."
     },
     "childSexRatio2011": {
-      "value": null,
+      "value": 972,
       "unit": "girls per 1000 boys (0–6 yrs)",
       "period": "2011",
       "periodType": "census",
       "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA."
+      "note": "PIB release of 11 Feb 2014 (RGI data). Was 964 in 2001."
     },
     "literacyRate2011": {
-      "value": null,
+      "value": 65.4,
       "unit": "%",
       "period": "2011",
       "periodType": "census",
-      "sourceId": "census",
-      "url": null,
-      "accessDate": null,
+      "sourceId": "es-india",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/doc/stat/tab85.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Census 2011 PCA, population aged 7+."
+      "note": "Economic Survey 2021-22, Statistical Appendix Table 8.5 (Census 2011)."
     },
     "urbanisation2011": {
       "value": null,
@@ -125,87 +174,754 @@
       "dataLevel": "state",
       "revisionStatus": "TODO",
       "confidence": "Official",
-      "note": "Census 2011 PCA urban share."
+      "note": "Not shown: no official State or Union publication giving the 2011 urban share was reached. Needs the Census 2011 Primary Census Abstract."
     },
     "gsdpCurrent": {
-      "value": null,
+      "value": 49506,
       "unit": "₹ crore",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI state-wise GSDP at current prices (base 2011-12); confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI state-wise GSDP, base 2011-12, current series. FY2025-26 is the latest year published for Arunachal Pradesh. FY2024-25: ₹44,261 crore."
     },
     "perCapitaNsdpCurrent": {
-      "value": null,
+      "value": 276325,
       "unit": "₹",
-      "period": "FY2023-24",
+      "period": "FY2025-26",
       "periodType": "fy",
       "sourceId": "mospi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://mospi.gov.in",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "provisional",
       "confidence": "Official",
-      "note": "MoSPI per capita NSDP at current prices; confirm latest available FY.",
       "priceBase": {
         "type": "current"
-      }
+      },
+      "note": "MoSPI, base 2011-12. FY2024-25: ₹2,49,075."
     },
     "forestCoverPct": {
-      "value": null,
+      "value": 78.67,
       "unit": "% of geographical area",
       "period": "2023",
       "periodType": "calendar",
       "sourceId": "fsi",
-      "url": null,
-      "accessDate": null,
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+      "accessDate": "2026-10-25",
       "dataLevel": "state",
-      "revisionStatus": "TODO",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "ISFR 2023, state chapter."
+      "note": "Computed from ISFR 2023 forest cover 65,881.57 km² ÷ geographical area 83,743 km²."
     }
   },
   "timeSeries": {},
   "government": {
     "headOfState": {
       "role": "governor",
-      "name": null,
+      "name": {
+        "en": "Lt Gen Kaiwalya Trivikram Parnaik (Retd)",
+        "hi": "लेफ़्टिनेंट जनरल कैवल्य त्रिविक्रम परनाइक (सेवानिवृत्त)",
+        "mr": "लेफ्टनंट जनरल कैवल्य त्रिविक्रम परनाईक (निवृत्त)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
       "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
+      "since": "2023-02-16",
+      "asOf": "2026-10-25",
+      "sourceId": "ar-governor",
+      "url": "https://arunachalgovernor.gov.in/pr/2023/230216_Swearing in.pdf",
+      "verifyUrl": "https://arunachalgovernor.gov.in",
+      "revisionStatus": "final",
       "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
+      "note": "Sworn in at Raj Bhavan, Itanagar, on 16 February 2023; Justice Nani Tagia of the Gauhati High Court administered the oath (Lok Bhavan press release). Still in office per the Lok Bhavan release of 15 August 2026."
     },
     "headOfGovernment": {
       "role": "chief-minister",
-      "name": null,
-      "party": null,
-      "since": null,
-      "asOf": null,
-      "sourceId": "igod",
-      "url": null,
-      "verifyUrl": "https://igod.gov.in",
-      "revisionStatus": "TODO",
-      "confidence": "Official",
-      "note": "Time-sensitive. Verify against the official Raj Bhavan / Raj Niwas / State portal and record asOf."
-    }
+      "name": {
+        "en": "Pema Khandu",
+        "hi": "पेमा खांडू",
+        "mr": "पेमा खांडू",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "party": "BJP",
+      "since": "2024-06-13",
+      "asOf": "2026-10-25",
+      "sourceId": "etv-bharat",
+      "url": "https://www.etvbharat.com/amp/en/!state/pema-khandu-sworn-in-as-arunachal-pradesh-cm-enn24061302061",
+      "verifyUrl": "https://arunachalpradesh.gov.in",
+      "revisionStatus": "final",
+      "confidence": "Third-party verified",
+      "note": "Sworn in for a third consecutive term on 13 June 2024 by Governor K. T. Parnaik; Chowna Mein was sworn in as Deputy Chief Minister (ETV Bharat). Named as Chief Minister in the Lok Bhavan release of 15 August 2026."
+    },
+    "others": [
+      {
+        "role": "speaker",
+        "name": {
+          "en": "Tesam Pongte",
+          "hi": "तेसाम पोंग्ते",
+          "mr": "तेसाम पोंग्ते",
+          "_status": {
+            "hi": "draft",
+            "mr": "draft"
+          }
+        },
+        "party": "BJP",
+        "since": "2024-06-15",
+        "asOf": "2026-10-25",
+        "sourceId": "newsonair",
+        "url": "https://newsonair.gov.in/tesam-pongte-elected-as-new-speaker-of-arunachal-pradesh",
+        "verifyUrl": "https://arunachalpradesh.gov.in",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "Elected unanimously as Speaker of the 8th Arunachal Pradesh Legislative Assembly (News On AIR, 15 June 2024); MLA from Changlang North."
+      }
+    ]
   },
-  "projects": [],
-  "giProducts": [],
+  "projects": [
+    {
+      "id": "sela-tunnel",
+      "name": {
+        "en": "Sela Tunnel",
+        "hi": "सेला सुरंग",
+        "mr": "सेला बोगदा",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "Two road tunnels of 1,003 m and 1,595 m, with 8.6 km of approach and link roads, under the Sela Pass at about 13,000 ft on the Balipara–Charduar–Tawang road. Built by the Border Roads Organisation at about ₹825 crore, they give Tawang all-weather road access; the Prime Minister dedicated them to the nation on 9 March 2024.",
+        "hi": "बालीपारा–चारद्वार–तवांग सड़क पर लगभग 13,000 फ़ुट पर सेला दर्रे के नीचे 1,003 मीटर और 1,595 मीटर की दो सड़क सुरंगें, 8.6 किमी की पहुँच और संपर्क सड़कों के साथ। सीमा सड़क संगठन ने इन्हें लगभग ₹825 करोड़ में बनाया, और ये तवांग को हर मौसम में सड़क संपर्क देती हैं; प्रधानमंत्री ने 9 मार्च 2024 को इन्हें राष्ट्र को समर्पित किया।",
+        "mr": "बालिपारा–चारद्वार–तवांग रस्त्यावर सुमारे 13,000 फूट उंचीवर सेला खिंडीखाली 1,003 मीटर व 1,595 मीटरचे दोन रस्ते बोगदे, 8.6 किमी जोडरस्त्यांसह. सीमा रस्ते संघटनेने ते सुमारे ₹825 कोटी खर्चून बांधले, आणि ते तवांगला सर्व ऋतूंत रस्ते संपर्क देतात; पंतप्रधानांनी 9 मार्च 2024 रोजी ते राष्ट्राला समर्पित केले.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "transport",
+      "agency": "Border Roads Organisation",
+      "start": null,
+      "completion": "9 March 2024",
+      "status": "Completed",
+      "asOf": "2026-10-25",
+      "sourceId": "morung-express",
+      "url": "https://morungexpress.com/pm-inaugurates-strategically-vital-worlds-longest-bi-lane-sela-tunnel-at-13000-feet-in-arunachal-pradesh",
+      "confidence": "Third-party verified",
+      "cost": {
+        "value": 825,
+        "unit": "₹ crore",
+        "period": "2024",
+        "periodType": "calendar",
+        "sourceId": "morung-express",
+        "url": "https://morungexpress.com/pm-inaugurates-strategically-vital-worlds-longest-bi-lane-sela-tunnel-at-13000-feet-in-arunachal-pradesh",
+        "accessDate": "2026-10-25",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "IANS report via The Morung Express."
+      }
+    },
+    {
+      "id": "donyi-polo-airport",
+      "name": {
+        "en": "Donyi Polo Airport, Itanagar",
+        "hi": "दोन्यी पोलो हवाई अड्डा, ईटानगर",
+        "mr": "दोन्यी पोलो विमानतळ, इटानगर",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "objective": {
+        "en": "A greenfield airport at Hollongi, about 25 km from Itanagar, built at a cost of ₹645 crore and dedicated to the nation by the Prime Minister on 19 November 2022, together with the Kameng hydro power station. It gave the State capital its own airport.",
+        "hi": "ईटानगर से लगभग 25 किमी दूर होल्लोंगी में ₹645 करोड़ की लागत से बना नया हवाई अड्डा, जिसे प्रधानमंत्री ने 19 नवंबर 2022 को कामेंग जलविद्युत केंद्र के साथ राष्ट्र को समर्पित किया। इससे राज्य की राजधानी को अपना हवाई अड्डा मिला।",
+        "mr": "इटानगरपासून सुमारे 25 किमीवरील होल्लोंगी येथे ₹645 कोटी खर्चून बांधलेला नवा विमानतळ, जो पंतप्रधानांनी 19 नोव्हेंबर 2022 रोजी कामेंग जलविद्युत केंद्रासह राष्ट्राला समर्पित केला. यामुळे राज्याच्या राजधानीला स्वतःचा विमानतळ मिळाला.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sector": "aviation",
+      "agency": "Airports Authority of India",
+      "start": null,
+      "completion": "19 November 2022",
+      "status": "Completed",
+      "asOf": "2026-10-25",
+      "sourceId": "new-india-samachar",
+      "url": "https://newindiasamachar.pib.gov.in/WriteReadData/flipbook/2022/Dec/2nd/English/files/basic-html/page45.html",
+      "confidence": "Official",
+      "cost": {
+        "value": 645,
+        "unit": "₹ crore",
+        "period": "2022",
+        "periodType": "calendar",
+        "sourceId": "new-india-samachar",
+        "url": "https://newindiasamachar.pib.gov.in/WriteReadData/flipbook/2022/Dec/2nd/English/files/basic-html/page45.html",
+        "accessDate": "2026-10-25",
+        "dataLevel": "state",
+        "revisionStatus": "final",
+        "confidence": "Official",
+        "note": "New India Samachar (PIB), 16–31 December 2022."
+      }
+    }
+  ],
+  "giProducts": [
+    {
+      "id": "arunachal-orange",
+      "name": {
+        "en": "Arunachal Orange",
+        "hi": "अरुणाचल संतरा",
+        "mr": "अरुणाचल संत्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "375",
+      "filingDate": "2012-01-27",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-khaw-tai-khamti-rice",
+      "name": {
+        "en": "Arunachal Pradesh Khaw Tai (Khamti Rice)",
+        "hi": "अरुणाचल प्रदेश खाव ताई (खामती चावल)",
+        "mr": "अरुणाचल प्रदेश खाव ताई (खामती तांदूळ)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "803",
+      "filingDate": "2021-12-13",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-adi-kekir-ginger",
+      "name": {
+        "en": "Arunachal Pradesh Adi Kekir (Ginger)",
+        "hi": "अरुणाचल प्रदेश आदी केकिर (अदरक)",
+        "mr": "अरुणाचल प्रदेश आदी केकिर (आले)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "855",
+      "filingDate": "2022-03-15",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-angnyat-millet",
+      "name": {
+        "en": "Arunachal Pradesh Angnyat Millet",
+        "hi": "अरुणाचल प्रदेश अंग्न्यात बाजरा",
+        "mr": "अरुणाचल प्रदेश अंग्न्यात भरडधान्य",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "1068",
+      "filingDate": "2023-03-31",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-yak-churpi",
+      "name": {
+        "en": "Arunachal Pradesh Yak Churpi",
+        "hi": "अरुणाचल प्रदेश याक छुरपी",
+        "mr": "अरुणाचल प्रदेश याक छुरपी",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "foodstuff"
+      ],
+      "applicationNo": "809",
+      "filingDate": "2021-12-28",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "idu-mishmi-textiles",
+      "name": {
+        "en": "Idu Mishmi Textiles",
+        "hi": "इदु मिश्मी वस्त्र",
+        "mr": "इदु मिश्मी वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "625",
+      "filingDate": "2018-10-09",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-tangsa-textile-product",
+      "name": {
+        "en": "Arunachal Pradesh Tangsa Textile Product",
+        "hi": "अरुणाचल प्रदेश तांगसा वस्त्र उत्पाद",
+        "mr": "अरुणाचल प्रदेश तांगसा वस्त्र उत्पादने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "810",
+      "filingDate": "2022-01-04",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-handmade-carpet",
+      "name": {
+        "en": "Arunachal Pradesh Handmade Carpet",
+        "hi": "अरुणाचल प्रदेश हस्तनिर्मित क़ालीन",
+        "mr": "अरुणाचल प्रदेश हाताने बनवलेले गालिचे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "848",
+      "filingDate": "2022-03-07",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-wancho-wooden-craft",
+      "name": {
+        "en": "Arunachal Pradesh Wancho Wooden Craft",
+        "hi": "अरुणाचल प्रदेश वांचो काष्ठ शिल्प",
+        "mr": "अरुणाचल प्रदेश वांचो काष्ठकला",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "849",
+      "filingDate": "2022-03-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-apatani-textile",
+      "name": {
+        "en": "Arunachal Pradesh Apatani Textile",
+        "hi": "अरुणाचल प्रदेश अपातानी वस्त्र",
+        "mr": "अरुणाचल प्रदेश आपातानी वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "808",
+      "filingDate": "2021-12-24",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-monpa-textile",
+      "name": {
+        "en": "Arunachal Pradesh Monpa Textile",
+        "hi": "अरुणाचल प्रदेश मोनपा वस्त्र",
+        "mr": "अरुणाचल प्रदेश मोनपा वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "811",
+      "filingDate": "2022-01-05",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-nyishi-textile",
+      "name": {
+        "en": "Arunachal Pradesh Nyishi Textile",
+        "hi": "अरुणाचल प्रदेश न्यिशी वस्त्र",
+        "mr": "अरुणाचल प्रदेश न्यिशी वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "854",
+      "filingDate": "2022-03-15",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-monpa-handmade-paper",
+      "name": {
+        "en": "Arunachal Pradesh Monpa Handmade Paper",
+        "hi": "अरुणाचल प्रदेश मोनपा हस्तनिर्मित काग़ज़",
+        "mr": "अरुणाचल प्रदेश मोनपा हातकागद",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft"
+      ],
+      "applicationNo": "861",
+      "filingDate": "2022-03-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-adi-textile",
+      "name": {
+        "en": "Arunachal Pradesh Adi Textile",
+        "hi": "अरुणाचल प्रदेश आदी वस्त्र",
+        "mr": "अरुणाचल प्रदेश आदी वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "934",
+      "filingDate": "2022-07-29",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-galo-textile",
+      "name": {
+        "en": "Arunachal Pradesh Galo Textile",
+        "hi": "अरुणाचल प्रदेश गालो वस्त्र",
+        "mr": "अरुणाचल प्रदेश गालो वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "938",
+      "filingDate": "2022-08-10",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-tai-khamti-textile",
+      "name": {
+        "en": "Arunachal Pradesh Tai Khamti Textile",
+        "hi": "अरुणाचल प्रदेश ताई खामती वस्त्र",
+        "mr": "अरुणाचल प्रदेश ताई खामती वस्त्रे",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1070",
+      "filingDate": "2023-03-31",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-adi-apong",
+      "name": {
+        "en": "Arunachal Pradesh Adi Apong",
+        "hi": "अरुणाचल प्रदेश आदी आपोंग",
+        "mr": "अरुणाचल प्रदेश आदी आपोंग",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "1004",
+      "filingDate": "2022-10-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-dao-sword",
+      "name": {
+        "en": "Arunachal Pradesh Dao (Sword)",
+        "hi": "अरुणाचल प्रदेश दाओ (तलवार)",
+        "mr": "अरुणाचल प्रदेश दाओ (तलवार)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "1056",
+      "filingDate": "2023-02-08",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-marua-apo-marua-millet-beverage",
+      "name": {
+        "en": "Arunachal Pradesh Marua Apo (Marua Millet Beverage)",
+        "hi": "अरुणाचल प्रदेश मरुआ आपो (मड़ुआ पेय)",
+        "mr": "अरुणाचल प्रदेश मरुआ आपो (नाचणी पेय)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "manufactured"
+      ],
+      "applicationNo": "1069",
+      "filingDate": "2023-03-31",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date."
+    },
+    {
+      "id": "arunachal-pradesh-singpho-phalap-singpho-tea",
+      "name": {
+        "en": "Arunachal Pradesh Singpho Phalap (Singpho Tea)",
+        "hi": "अरुणाचल प्रदेश सिंगफ़ो फलाप (सिंगफ़ो चाय)",
+        "mr": "अरुणाचल प्रदेश सिंगफो फलाप (सिंगफो चहा)",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "agricultural"
+      ],
+      "applicationNo": "935",
+      "filingDate": "2022-08-02",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Assam"
+      ]
+    },
+    {
+      "id": "assam-mishing-handloom-products",
+      "name": {
+        "en": "Assam Mishing Handloom Products",
+        "hi": "असम मिसिंग हथकरघा उत्पाद",
+        "mr": "आसाम मिसिंग हातमाग उत्पादने",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "categories": [
+        "handicraft",
+        "textile"
+      ],
+      "applicationNo": "1001",
+      "filingDate": "2022-10-26",
+      "registrationYear": null,
+      "region": null,
+      "description": null,
+      "sourceId": "gi-registry",
+      "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+      "revisionStatus": "final",
+      "confidence": "Official",
+      "note": "Registered GI as listed by the GI Registry (as on 31 Dec 2025). Date shown is the filing date.",
+      "sharedWith": [
+        "Assam"
+      ]
+    }
+  ],
   "meta": {
-    "lastUpdated": "2026-10-13",
-    "editorialStatus": "seed"
+    "lastUpdated": "2026-10-25",
+    "editorialStatus": "draft"
   }
 }

@@ -1,0 +1,42 @@
+{
+  "region": "IN-AR",
+  "module": "energy",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Arunachal Pradesh's steep, rain-fed rivers give it a very large untapped hydropower potential. Operating stations include Ranganadi, Pare and Kameng, the last dedicated to the nation with Donyi Polo Airport in November 2022, and the Lower Subansiri project on the Assam border has been commissioning its units. Larger projects such as Dibang have been approved, and proposals on the Siang are debated because of their impact on forests, fisheries, downstream Assam and local communities. Remote villages rely on small hydel plants and solar power.",
+        "hi": "अरुणाचल प्रदेश की तेज़ ढलान वाली, वर्षा-पोषित नदियाँ इसे बहुत बड़ी अप्रयुक्त जलविद्युत क्षमता देती हैं। चालू केंद्रों में रंगानदी, पारे और कामेंग शामिल हैं, जिनमें कामेंग को नवंबर 2022 में दोन्यी पोलो हवाई अड्डे के साथ राष्ट्र को समर्पित किया गया, और असम सीमा पर निचली सुबनसिरी परियोजना अपनी इकाइयाँ चालू कर रही है। दिबांग जैसी बड़ी परियोजनाएँ स्वीकृत हुई हैं, और सियांग पर प्रस्ताव वनों, मत्स्य पालन, निचले असम और स्थानीय समुदायों पर प्रभाव के कारण बहस में हैं। दूरस्थ गाँव छोटे जलविद्युत संयंत्रों और सौर ऊर्जा पर निर्भर हैं।",
+        "mr": "अरुणाचल प्रदेशच्या तीव्र उताराच्या, पावसावर पोसलेल्या नद्या त्याला फार मोठी न वापरलेली जलविद्युत क्षमता देतात. चालू केंद्रांत रंगानदी, पारे व कामेंग यांचा समावेश आहे, ज्यांपैकी कामेंग नोव्हेंबर 2022 मध्ये दोन्यी पोलो विमानतळासह राष्ट्राला समर्पित झाले, आणि आसाम सीमेवरील खालचा सुबनसिरी प्रकल्प आपली युनिट्स सुरू करत आहे. दिबांगसारखे मोठे प्रकल्प मंजूर झाले आहेत, आणि सियांगवरील प्रस्ताव जंगले, मत्स्यव्यवसाय, खालचा आसाम व स्थानिक समुदायांवरील परिणामांमुळे वादात आहेत. दुर्गम गावे लहान जलविद्युत प्रकल्प व सौरऊर्जेवर अवलंबून आहेत.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Installed hydropower capacity by station",
+            "hi": "केंद्रवार स्थापित जलविद्युत क्षमता",
+            "mr": "केंद्रनिहाय स्थापित जलविद्युत क्षमता",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "cea",
+          "note": "CEA installed capacity report."
+        }
+      ]
+    }
+  ]
+}

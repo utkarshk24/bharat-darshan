@@ -1,0 +1,42 @@
+{
+  "region": "IN-AR",
+  "module": "digital",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "p1",
+      "body": {
+        "en": "Mobile and internet coverage is still limited in many remote and border villages, and the Union government's schemes for 4G towers in the North-East have been extending it. Government services, including the e-Inner Line Permit, are offered online, and NERIST and NIT Arunachal Pradesh train engineers.",
+        "hi": "कई दूरस्थ और सीमावर्ती गाँवों में मोबाइल और इंटरनेट कवरेज अब भी सीमित है, और पूर्वोत्तर में 4जी टावरों की केंद्र सरकार की योजनाएँ इसे बढ़ा रही हैं। ई-इनर लाइन परमिट सहित सरकारी सेवाएँ ऑनलाइन दी जाती हैं, और नेरिस्ट और एनआईटी अरुणाचल प्रदेश इंजीनियर तैयार करते हैं।",
+        "mr": "अनेक दुर्गम व सीमावर्ती गावांत मोबाइल व इंटरनेट सेवा अजूनही मर्यादित आहे, आणि ईशान्येत 4जी मनोऱ्यांच्या केंद्र सरकारच्या योजना ती वाढवत आहेत. ई-इनर लाइन परवान्यासह सरकारी सेवा ऑनलाइन दिल्या जातात, आणि नेरिस्ट व एनआयटी अरुणाचल प्रदेश अभियंते घडवतात.",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      },
+      "sourceIds": [],
+      "confidence": "Editorial"
+    },
+    {
+      "type": "gaps",
+      "id": "g",
+      "items": [
+        {
+          "label": {
+            "en": "Villages without mobile coverage",
+            "hi": "बिना मोबाइल कवरेज वाले गाँव",
+            "mr": "मोबाइल सेवा नसलेली गावे",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "sourceId": "india-gov",
+          "note": "Department of Telecommunications / USOF."
+        }
+      ]
+    }
+  ]
+}

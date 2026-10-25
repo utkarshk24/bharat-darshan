@@ -1,0 +1,96 @@
+{
+  "region": "IN-AR",
+  "module": "trivia",
+  "asOf": "2026-10-25",
+  "status": "draft",
+  "blocks": [
+    {
+      "type": "list",
+      "id": "facts",
+      "layout": "cards",
+      "items": [
+        {
+          "id": "area",
+          "name": {
+            "en": "At 83,743 km², Arunachal Pradesh is the largest State in the North-East.",
+            "hi": "83,743 वर्ग किमी के साथ अरुणाचल प्रदेश पूर्वोत्तर का सबसे बड़ा राज्य है।",
+            "mr": "83,743 चौ.किमीसह अरुणाचल प्रदेश हे ईशान्येतील सर्वांत मोठे राज्य आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://eparlib.sansad.in/bitstream/123456789/3021702/1/AU1550_C0eysl.pdf",
+          "sourceId": "fsi"
+        },
+        {
+          "id": "density",
+          "name": {
+            "en": "It is India's most thinly populated State — about 17 people per km² in 2011.",
+            "hi": "यह भारत का सबसे विरल आबादी वाला राज्य है — 2011 में प्रति वर्ग किमी लगभग 17 लोग।",
+            "mr": "हे भारतातील सर्वांत विरळ लोकवस्तीचे राज्य आहे — 2011 मध्ये प्रति चौ.किमी सुमारे 17 लोक.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://statistics.py.gov.in/state-wise-population",
+          "sourceId": "census"
+        },
+        {
+          "id": "csr",
+          "name": {
+            "en": "Its child sex ratio of 972 in 2011 was the highest among the regions profiled here.",
+            "hi": "2011 में इसका 972 का शिशु लिंगानुपात यहाँ प्रोफ़ाइल किए गए क्षेत्रों में सबसे ऊँचा था।",
+            "mr": "2011 मधील त्याचे 972 बाल लिंग गुणोत्तर येथे प्रोफाइल केलेल्या प्रदेशांत सर्वाधिक होते.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=103437&reg=48&lang=2",
+          "sourceId": "pib"
+        },
+        {
+          "id": "gi",
+          "name": {
+            "en": "Twenty-one GIs are registered for the State, most of them tribal textiles.",
+            "hi": "राज्य के लिए इक्कीस जीआई पंजीकृत हैं, जिनमें अधिकांश जनजातीय वस्त्र हैं।",
+            "mr": "राज्यासाठी एकवीस जीआय नोंदणीकृत आहेत, ज्यांपैकी बहुतेक आदिवासी वस्त्रे आहेत.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          },
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "sourceId": "gi-registry"
+        },
+        {
+          "id": "english",
+          "name": {
+            "en": "English is the official language of Arunachal Pradesh.",
+            "hi": "अंग्रेज़ी अरुणाचल प्रदेश की राजभाषा है।",
+            "mr": "इंग्रजी ही अरुणाचल प्रदेशची राजभाषा आहे.",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ],
+      "sourceId": null,
+      "url": null,
+      "accessDate": null,
+      "confidence": "Editorial",
+      "title": {
+        "en": "Did you know?",
+        "hi": "क्या आप जानते हैं?",
+        "mr": "तुम्हाला माहीत आहे का?",
+        "_status": {
+          "hi": "draft",
+          "mr": "draft"
+        }
+      }
+    }
+  ]
+}

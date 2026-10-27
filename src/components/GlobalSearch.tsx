@@ -1,7 +1,7 @@
 "use client";
-import { useId, useMemo, useRef, useState } from "react";
+import { useCallback, useId, useMemo, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { Search, Landmark, MapPinned } from "lucide-react";
+import { Search, Landmark, MapPinned, Award, Construction, BookOpen, FileText } from "lucide-react";
 import { useRouter } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import type { RegionSummary } from "@/lib/data";
@@ -14,7 +14,20 @@ export function GlobalSearch({ regions }: { regions: RegionSummary[] }) {
   const t = useTranslations();
   const locale = useLocale() as Locale;
   const router = useRouter();
-  const search = useMemo(() => createSearcher(buildIndex(regions)), [regions]);
+  // Regions and capitals ship with the page; GI products, projects, terms and pages load on first use.
+  const [extra, setExtra] = useState<SearchItem[]>([]);
+  const loaded = useRef(false);
+  const loadExtra = useCallback(() => {
+    if (loaded.current) return;
+    loaded.current = true;
+    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/search-index.json`)
+      .then((r) => (r.ok ? r.json() : []))
+      .then((items: SearchItem[]) => setExtra(items))
+      .catch(() => {
+        loaded.current = false; // try again on the next focus
+      });
+  }, []);
+  const search = useMemo(() => createSearcher([...buildIndex(regions), ...extra]), [regions, extra]);
   const [q, setQ] = useState("");
   const [idx, setIdx] = useState(0);
   const [open, setOpen] = useState(false);
@@ -27,7 +40,20 @@ export function GlobalSearch({ regions }: { regions: RegionSummary[] }) {
     router.push(item.href);
   };
 
-  const kindLabel = (k: SearchItem["kind"]) => (k === "state" ? t("common.state") : k === "ut" ? t("common.ut") : t("common.capital"));
+  const kindLabel = (k: SearchItem["kind"]) =>
+    ({
+      state: t("common.state"),
+      ut: t("common.ut"),
+      capital: t("common.capital"),
+      gi: t("home.kindGi"),
+      project: t("home.kindProject"),
+      term: t("home.kindTerm"),
+      page: t("home.kindPage"),
+    })[k];
+  const KindIcon = ({ k }: { k: SearchItem["kind"] }) => {
+    const I = k === "capital" ? Landmark : k === "gi" ? Award : k === "project" ? Construction : k === "term" ? BookOpen : k === "page" ? FileText : MapPinned;
+    return <I aria-hidden className="size-4 text-muted" />;
+  };
 
   return (
     <div className="relative w-full max-w-2xl">
@@ -53,8 +79,12 @@ export function GlobalSearch({ regions }: { regions: RegionSummary[] }) {
             setQ(e.target.value);
             setIdx(0);
             setOpen(true);
+            loadExtra();
           }}
-          onFocus={() => setOpen(true)}
+          onFocus={() => {
+            setOpen(true);
+            loadExtra();
+          }}
           onBlur={() => setTimeout(() => setOpen(false), 150)}
           onKeyDown={(e) => {
             if (e.key === "ArrowDown") {
@@ -90,7 +120,7 @@ export function GlobalSearch({ regions }: { regions: RegionSummary[] }) {
               onMouseEnter={() => setIdx(i)}
               className={cn("flex cursor-pointer items-center gap-3 rounded-lg px-3 py-2", i === idx && "bg-surface-2")}
             >
-              {r.kind === "capital" ? <Landmark aria-hidden className="size-4 text-muted" /> : <MapPinned aria-hidden className="size-4 text-muted" />}
+              <KindIcon k={r.kind} />
               <span className="flex-1">
                 <span className="font-medium">{pick(r.label, locale)}</span>
                 {r.context && <span className="text-muted"> — {pick(r.context, locale)}</span>}

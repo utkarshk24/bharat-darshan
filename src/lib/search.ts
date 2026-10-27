@@ -5,7 +5,7 @@ import type { Localized } from "./schema";
 
 export interface SearchItem {
   id: string;
-  kind: "state" | "ut" | "capital";
+  kind: "state" | "ut" | "capital" | "gi" | "project" | "term" | "page";
   regionCode: string;
   href: string;
   label: Localized;

@@ -138,13 +138,13 @@
     "uts": "Explore Union Territories",
     "map": "Interactive India Map",
     "compare": "Compare",
-    "rankings": "Rankings & Trends",
+    "rankings": "Rankings",
     "themes": "Themes",
     "projects": "Projects & Vision",
     "gi": "GI Products",
     "learn": "Learn",
     "tripPlanner": "Trip Planner",
-    "data": "Data Library & API",
+    "data": "Data Library",
     "glossary": "Glossary",
     "about": "About, Sources & Methodology",
     "accessibility": "Accessibility & Contact",
@@ -155,9 +155,9 @@
   "home": {
     "heroTitle": "Explore India, State by State",
     "heroSub": "One standard, sourced profile for each of India's 28 States and 8 Union Territories — in English, हिन्दी and मराठी.",
-    "searchLabel": "Search States, UTs and capitals",
+    "searchLabel": "Search States, UTs, capitals, GI products, projects and terms",
     "searchPlaceholder": "Try “Pune”, “पुणे” or “Keralam”",
-    "searchNoResults": "No matches yet. The index will grow to cover cities, rivers, GI products and more.",
+    "searchNoResults": "No matches. Search covers States, UTs, capitals, GI products, projects, glossary terms and site pages.",
     "searchHint": "Searches all three languages and common spellings",
     "mapTitle": "India at a glance",
     "mapNote": "Official Survey of India boundaries, simplified for display. Select a State or UT to see it in detail.",
@@ -197,7 +197,11 @@
     "utOutline": "Dashed outline = Union Territory",
     "indicatorPending": "Values for this indicator arrive with the Phase 2 reference profiles.",
     "mapHint": "Hover over or tab to a tile to see quick facts. Select it to open the profile.",
-    "indiaIntro": "National reference figures, India's officeholders, and how the States and UTs compare where an official State-wise series exists."
+    "indiaIntro": "National reference figures, India's officeholders, and how the States and UTs compare where an official State-wise series exists.",
+    "kindGi": "GI product",
+    "kindProject": "Project",
+    "kindTerm": "Glossary",
+    "kindPage": "Page"
   },
   "profile": {
     "atAGlance": "At a glance",
@@ -333,7 +337,7 @@
     "link": "Copy link to this comparison",
     "copied": "Link copied",
     "trend": "GSDP over time",
-    "more": "More regions will be added as their profiles are completed in Phase 3.",
+    "more": "Pick any 2 to 4 of the 36 States and UTs. To see all of them on one indicator, open Rankings.",
     "bar": "Bar shows the value relative to the largest among the selected regions.",
     "groupPending": "That themed comparison needs data for more regions and will open in Phase 3. Meanwhile, here is the prototype set."
   },
@@ -501,5 +505,82 @@
     "districtsShown": "Dashed lines: {count} districts, boundaries as in the Local Government Directory (LGD) on {date}. Names in English as in LGD.",
     "districtsOutdated": "District boundaries not shown: the latest available file ({date}) has {count} districts, and the State/UT now has {now}.",
     "districtsHint": "Select one to see its district boundaries."
+  },
+  "rankings": {
+    "title": "Rankings of States and UTs",
+    "intro": "Every State and UT ordered on one official indicator at a time. Each list uses a single period, every value links to its source, and regions without a published value are listed separately. Nothing is estimated.",
+    "controls": "Ranking options",
+    "indicator": "Indicator",
+    "scope": "Show",
+    "rank": "Rank",
+    "position": "Position",
+    "region": "State / UT",
+    "value": "Value",
+    "higherBetter": "Ranked from highest to lowest: a higher value is more favourable.",
+    "lowerBetter": "Ranked from lowest to highest: a lower value is more favourable.",
+    "neutral": "Ordered from largest to smallest. This measures size or structure, so a higher position is neither better nor worse.",
+    "coverage": "{n} of {total} have a published value for {period}.",
+    "india": "India: {value}.",
+    "mixNote": "States and UTs differ greatly in size, and not every survey covers every region. Choose “States” or “Union Territories” to rank them separately.",
+    "tie": "tied",
+    "missingTitle": "Not available for this period",
+    "missingBody": "No value has been published in this series for these regions. They are not ranked, and nothing is estimated.",
+    "csv": "Download this ranking (CSV)",
+    "link": "Copy link to this ranking",
+    "method": "How the rankings are made",
+    "methodBody": "Ranks use the raw published values, not the rounded figures shown. Regions with the same value share a rank and the next rank is skipped (1, 2, 2, 4). Choosing States or Union Territories ranks that list on its own, so ranks change. The figures and sources are the same as on the Compare page."
+  },
+  "dataLibrary": {
+    "title": "Data Library",
+    "intro": "Download the figures behind every page as CSV or JSON. Each row carries its source, period, access date and revision status, and a missing value stays missing.",
+    "filesTitle": "Bulk files",
+    "files": {
+      "indicators": {
+        "title": "Comparable indicators",
+        "body": "The 18 indicators used on Compare and Rankings, one row per region and indicator, plus India. Every region shares one period per indicator."
+      },
+      "indicatorsJson": {
+        "title": "Comparable indicators (JSON)",
+        "body": "The same indicators in the site's own structure, with trilingual labels, notes and the GSDP trend series."
+      },
+      "metrics": {
+        "title": "Headline figures",
+        "body": "The headline figures from each profile: population, area, density, sex ratios, literacy, urbanisation, GSDP, per capita NSDP and forest cover."
+      },
+      "regions": {
+        "title": "States and UTs",
+        "body": "Codes, names in English, Hindi and Marathi, capitals, zonal council, governance model and official portal."
+      },
+      "officeholders": {
+        "title": "Officeholders",
+        "body": "Governors, Lieutenant Governors, Administrators, Chief Ministers and other offices, each with its as-of date and source. Offices awaiting verification are listed without a name."
+      },
+      "gi": {
+        "title": "GI products",
+        "body": "Registered Geographical Indications as recorded in each profile, with application number, filing date and the GI Registry source."
+      },
+      "projects": {
+        "title": "Projects",
+        "body": "Major projects from the profiles, with sector, agency, status, cost where published, as-of date and source."
+      },
+      "sources": {
+        "title": "Sources",
+        "body": "Every publisher the site cites, with the source ID used in the other files."
+      },
+      "glossary": {
+        "title": "Glossary",
+        "body": "Terms and abbreviations used on the site, defined in English, Hindi and Marathi."
+      }
+    },
+    "profilesTitle": "Full profiles (JSON)",
+    "profilesBody": "One file per State or UT with everything on its profile: the region record and all 26 sections.",
+    "useTitle": "Using these files",
+    "useStatus": "A value marked “not_available” has not been published in that series for that region. It is left empty on purpose and should not be filled with an estimate.",
+    "useColumns": "“revision_status” says whether a figure is final, provisional, revised or projected (“TODO” marks an entry still awaiting verification); “confidence” gives the kind of source behind it.",
+    "useLanguages": "Hindi and Marathi names and text are marked as drafts in the JSON files until a reviewer has approved them.",
+    "useCite": "When you reuse a figure, cite the original publisher named in its row and link to its URL.",
+    "useTerms": "Reuse terms for Bharat Darshan's own compilation have not been published yet; they will appear on this page.",
+    "apiTitle": "Stable addresses",
+    "apiBody": "The files are rebuilt with every update and keep the same addresses, so scripts can fetch them directly. There is no query API yet."
   }
 }

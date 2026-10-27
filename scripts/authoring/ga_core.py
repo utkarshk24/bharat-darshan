@@ -57,10 +57,14 @@ r["government"] = {
 
 r["projects"] = [
     proj("mopa-airport", L("Manohar International Airport, Mopa", "मनोहर अंतरराष्ट्रीय हवाई अड्डा, मोपा", "मनोहर आंतरराष्ट्रीय विमानतळ, मोपा"),
-         L("A greenfield international airport at Mopa in Pernem taluka, North Goa, named after former Chief Minister Manohar Parrikar. Its first phase, with a capacity of about 40 lakh passengers a year that can be expanded to about 3.5 crore, was inaugurated by the Prime Minister on 11 December 2022. Goa's older airport at Dabolim, a civil enclave at a naval air station, continues to operate.",
-           "उत्तर गोवा के पेरनेम तालुका के मोपा में नया अंतरराष्ट्रीय हवाई अड्डा, जिसका नाम पूर्व मुख्यमंत्री मनोहर पर्रिकर के नाम पर है। इसके पहले चरण का, जिसकी क्षमता प्रति वर्ष लगभग 40 लाख यात्रियों की है और जिसे लगभग 3.5 करोड़ तक बढ़ाया जा सकता है, प्रधानमंत्री ने 11 दिसंबर 2022 को उद्घाटन किया। नौसेना हवाई स्टेशन पर नागरिक परिसर के रूप में गोवा का पुराना डाबोलिम हवाई अड्डा भी चलता रहता है।",
-           "उत्तर गोव्याच्या पेडणे तालुक्यातील मोपा येथील नवा आंतरराष्ट्रीय विमानतळ, ज्याला माजी मुख्यमंत्री मनोहर पर्रीकर यांचे नाव दिले आहे. वर्षाला सुमारे 40 लाख प्रवासी क्षमतेच्या व सुमारे 3.5 कोटींपर्यंत वाढवता येणाऱ्या त्याच्या पहिल्या टप्प्याचे पंतप्रधानांनी 11 डिसेंबर 2022 रोजी उद्घाटन केले. नौदल हवाई तळावरील नागरी विभाग म्हणून गोव्याचा जुना दाबोळी विमानतळही सुरू आहे."),
-         "aviation", "GMR Goa International Airport Ltd (concessionaire)", None, None, None, None, "11 December 2022 (phase 1)", "Completed", "deccan-herald", MOPA, conf="Third-party verified"),
+         L("A greenfield international airport at Mopa in Pernem taluka, North Goa, named after former Chief Minister Manohar Parrikar. Its first phase, with a capacity of about 40 lakh passengers a year that can be expanded to about 3.5 crore, was inaugurated by the Prime Minister on 11 December 2022. It was built under a concession with GMR; the civilian enclave at Goa's older airport, Dabolim, continues to function.",
+           "उत्तर गोवा के पेरनेम तालुका के मोपा में नया अंतरराष्ट्रीय हवाई अड्डा, जिसका नाम पूर्व मुख्यमंत्री मनोहर पर्रिकर के नाम पर है। इसके पहले चरण का, जिसकी क्षमता प्रति वर्ष लगभग 40 लाख यात्रियों की है और जिसे लगभग 3.5 करोड़ तक बढ़ाया जा सकता है, प्रधानमंत्री ने 11 दिसंबर 2022 को उद्घाटन किया। इसे जीएमआर के साथ रियायत समझौते के तहत बनाया गया; गोवा के पुराने डाबोलिम हवाई अड्डे का नागरिक परिसर भी चलता रहता है।",
+           "उत्तर गोव्याच्या पेडणे तालुक्यातील मोपा येथील नवा आंतरराष्ट्रीय विमानतळ, ज्याला माजी मुख्यमंत्री मनोहर पर्रीकर यांचे नाव दिले आहे. वर्षाला सुमारे 40 लाख प्रवासी क्षमतेच्या व सुमारे 3.5 कोटींपर्यंत वाढवता येणाऱ्या त्याच्या पहिल्या टप्प्याचे पंतप्रधानांनी 11 डिसेंबर 2022 रोजी उद्घाटन केले. तो जीएमआरसोबतच्या सवलत करारांतर्गत बांधला गेला; गोव्याच्या जुन्या दाबोळी विमानतळाचा नागरी विभागही सुरू आहे."),
+         "aviation", "GMR Goa International Airport Ltd (concessionaire)", 2870, "Around ₹2,870 crore (PMIndia).", "2022", None, "11 December 2022 (phase 1)", "Completed", "pmindia", "https://pmindia.gov.in/?p=13858641",
+         as_of="2026-10-27",
+         supporting=[("ga-dca", "https://dca.goa.gov.in/introduction-2/", L("the GMR concession and the civilian enclave at Dabolim",
+                                                "जीएमआर रियायत और डाबोलिम का नागरिक परिसर",
+                                                "जीएमआर सवलत आणि दाबोळीचा नागरी विभाग"))]),
 ]
 
 GI_NAMES = {

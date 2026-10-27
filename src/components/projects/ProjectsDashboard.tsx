@@ -8,6 +8,7 @@ import { pick, cmp } from "@/lib/l10n";
 import { formatDate, formatRupeeCrore } from "@/lib/format";
 import { cn } from "@/lib/cn";
 import { Link } from "@/i18n/navigation";
+import { SupportingSources } from "@/components/SupportingSources";
 import { ConfidenceBadge } from "../ConfidenceBadge";
 import { Digits } from "../Num";
 
@@ -133,6 +134,7 @@ export function ProjectsDashboard({ items, sourceLabels }: { items: ProjectItem[
                 <a href={p.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1">
                   {sourceLabels[p.sourceId] ?? p.sourceId} <ExternalLink aria-hidden className="size-3" />
                 </a>
+                <SupportingSources items={p.supporting} sourceLabels={sourceLabels} />
                 <span><Digits>{t("projects.checked", { date: formatDate(p.asOf, locale) })}</Digits></span>
               </p>
             </li>

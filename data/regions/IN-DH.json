@@ -212,9 +212,9 @@
         }
       },
       "objective": {
-        "en": "A 450-bed hospital in Silvassa, built at a cost of about ₹460 crore and inaugurated by the Prime Minister on 7 March 2025, to give the UT and nearby tribal areas of Gujarat and Maharashtra specialist care close to home. It is attached to the NAMO Medical Education and Research Institute.",
-        "hi": "सिलवासा में 450 बिस्तरों वाला अस्पताल, जो लगभग ₹460 करोड़ की लागत से बना और जिसका प्रधानमंत्री ने 7 मार्च 2025 को उद्घाटन किया, ताकि केंद्र शासित प्रदेश और गुजरात व महाराष्ट्र के पास के जनजातीय क्षेत्रों को घर के पास विशेषज्ञ उपचार मिले। यह नमो चिकित्सा शिक्षा एवं अनुसंधान संस्थान से जुड़ा है।",
-        "mr": "सिलवासा येथील 450 खाटांचे रुग्णालय, जे सुमारे ₹460 कोटी खर्चून बांधले गेले व ज्याचे पंतप्रधानांनी 7 मार्च 2025 रोजी उद्घाटन केले, जेणेकरून केंद्रशासित प्रदेश व गुजरात आणि महाराष्ट्रातील जवळच्या आदिवासी भागांना घराजवळ विशेषज्ञ उपचार मिळावेत. ते नमो वैद्यकीय शिक्षण व संशोधन संस्थेशी संलग्न आहे.",
+        "en": "A 450-bed hospital in Silvassa, built at a cost of over ₹460 crore and inaugurated by the Prime Minister on 7 March 2025, to bring modern medical care to the people of the UT, especially its tribal communities.",
+        "hi": "सिलवासा में 450 बिस्तरों वाला अस्पताल, जो ₹460 करोड़ से अधिक की लागत से बना और जिसका प्रधानमंत्री ने 7 मार्च 2025 को उद्घाटन किया, ताकि केंद्रशासित प्रदेश के लोगों, विशेषकर जनजातीय समुदायों, को आधुनिक चिकित्सा सुविधा मिले।",
+        "mr": "सिलवासा येथील 450 खाटांचे रुग्णालय, जे ₹460 कोटींहून अधिक खर्चून बांधले गेले व ज्याचे पंतप्रधानांनी 7 मार्च 2025 रोजी उद्घाटन केले, जेणेकरून केंद्रशासित प्रदेशातील लोकांना, विशेषतः आदिवासी समुदायांना, आधुनिक वैद्यकीय सुविधा मिळाव्यात.",
         "_status": {
           "hi": "draft",
           "mr": "draft"
@@ -225,23 +225,38 @@
       "start": null,
       "completion": "7 March 2025",
       "status": "Completed",
-      "asOf": "2026-10-25",
-      "sourceId": "deccan-herald",
-      "url": "https://www.deccanherald.com/amp/story/india%2Fdaman-and-diu%2Fpm-modi-inaugurates-namo-hospital-in-silvassa-3436729",
-      "confidence": "Third-party verified",
+      "asOf": "2026-10-27",
+      "sourceId": "pmindia",
+      "url": "https://pmindia.gov.in/?p=16571755",
+      "confidence": "Official",
       "cost": {
         "value": 460,
         "unit": "₹ crore",
         "period": "2025",
         "periodType": "calendar",
-        "sourceId": "deccan-herald",
-        "url": "https://www.deccanherald.com/amp/story/india%2Fdaman-and-diu%2Fpm-modi-inaugurates-namo-hospital-in-silvassa-3436729",
-        "accessDate": "2026-10-25",
+        "sourceId": "pmindia",
+        "url": "https://pmindia.gov.in/?p=16571755",
+        "accessDate": "2026-10-27",
         "dataLevel": "state",
         "revisionStatus": "final",
         "confidence": "Official",
-        "note": "About ₹460 crore (Deccan Herald/PTI, 7 Mar 2025)."
-      }
+        "note": "Over ₹460 crore (PMIndia note on the Prime Minister's visit of 7–8 March)."
+      },
+      "supporting": [
+        {
+          "sourceId": "deccan-herald",
+          "url": "https://www.deccanherald.com/amp/story/india%2Fdaman-and-diu%2Fpm-modi-inaugurates-namo-hospital-in-silvassa-3436729",
+          "covers": {
+            "en": "the inauguration on 7 March 2025 (PTI)",
+            "hi": "7 मार्च 2025 को उद्घाटन (पीटीआई)",
+            "mr": "7 मार्च 2025 रोजीचे उद्घाटन (पीटीआय)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ]
     }
   ],
   "giProducts": [
@@ -276,7 +291,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-10-25",
+    "lastUpdated": "2026-10-27",
     "editorialStatus": "draft"
   }
 }

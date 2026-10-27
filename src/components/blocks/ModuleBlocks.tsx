@@ -211,7 +211,7 @@ export async function ModuleBlocks({ blocks, region, locale, headingLevel = 3 }:
               </section>
             );
           case "projects":
-            return <ProjectCards key={b.id} projects={region.projects} sourceLabels={Object.fromEntries(region.projects.map((p) => [p.sourceId, short(p.sourceId) ?? p.sourceId]))} accent={region.accent} />;
+            return <ProjectCards key={b.id} projects={region.projects} sourceLabels={Object.fromEntries(region.projects.flatMap((p) => [p.sourceId, ...(p.supporting ?? []).map((x) => x.sourceId)]).map((id) => [id, short(id) ?? id]))} accent={region.accent} />;
           case "gi":
             return <GIGrid key={b.id} products={region.giProducts} accent={region.accent} />;
           case "officeholders": {

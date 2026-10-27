@@ -316,23 +316,38 @@
       "start": null,
       "completion": "9 March 2024",
       "status": "Completed",
-      "asOf": "2026-10-25",
-      "sourceId": "morung-express",
-      "url": "https://morungexpress.com/pm-inaugurates-strategically-vital-worlds-longest-bi-lane-sela-tunnel-at-13000-feet-in-arunachal-pradesh",
-      "confidence": "Third-party verified",
+      "asOf": "2026-10-27",
+      "sourceId": "pmindia",
+      "url": "https://pmindia.gov.in/?p=16401552",
+      "confidence": "Official",
       "cost": {
         "value": 825,
         "unit": "₹ crore",
         "period": "2024",
         "periodType": "calendar",
-        "sourceId": "morung-express",
-        "url": "https://morungexpress.com/pm-inaugurates-strategically-vital-worlds-longest-bi-lane-sela-tunnel-at-13000-feet-in-arunachal-pradesh",
-        "accessDate": "2026-10-25",
+        "sourceId": "pmindia",
+        "url": "https://pmindia.gov.in/?p=16401552",
+        "accessDate": "2026-10-27",
         "dataLevel": "state",
         "revisionStatus": "final",
         "confidence": "Official",
-        "note": "IANS report via The Morung Express."
-      }
+        "note": "About ₹825 crore (PMIndia)."
+      },
+      "supporting": [
+        {
+          "sourceId": "morung-express",
+          "url": "https://morungexpress.com/pm-inaugurates-strategically-vital-worlds-longest-bi-lane-sela-tunnel-at-13000-feet-in-arunachal-pradesh",
+          "covers": {
+            "en": "tunnel lengths, approach roads, altitude, builder and the dedication itself (IANS)",
+            "hi": "सुरंगों की लंबाई, संपर्क सड़कें, ऊँचाई, निर्माता और लोकार्पण (आईएएनएस)",
+            "mr": "बोगद्यांची लांबी, जोडरस्ते, उंची, बांधकाम संस्था आणि लोकार्पण (आयएएनएस)",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "donyi-polo-airport",

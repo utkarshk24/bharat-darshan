@@ -35,13 +35,16 @@ r["government"] = {
 }
 r["projects"] = [
     proj("namo-hospital", L("NAMO Hospital (Phase I), Silvassa", "नमो अस्पताल (चरण I), सिलवासा", "नमो रुग्णालय (टप्पा I), सिलवासा"),
-         L("A 450-bed hospital in Silvassa, built at a cost of about ₹460 crore and inaugurated by the Prime Minister on 7 March 2025, to give the UT and nearby tribal areas of Gujarat and Maharashtra specialist care close to home. It is attached to the NAMO Medical Education and Research Institute.",
-           "सिलवासा में 450 बिस्तरों वाला अस्पताल, जो लगभग ₹460 करोड़ की लागत से बना और जिसका प्रधानमंत्री ने 7 मार्च 2025 को उद्घाटन किया, ताकि केंद्र शासित प्रदेश और गुजरात व महाराष्ट्र के पास के जनजातीय क्षेत्रों को घर के पास विशेषज्ञ उपचार मिले। यह नमो चिकित्सा शिक्षा एवं अनुसंधान संस्थान से जुड़ा है।",
-           "सिलवासा येथील 450 खाटांचे रुग्णालय, जे सुमारे ₹460 कोटी खर्चून बांधले गेले व ज्याचे पंतप्रधानांनी 7 मार्च 2025 रोजी उद्घाटन केले, जेणेकरून केंद्रशासित प्रदेश व गुजरात आणि महाराष्ट्रातील जवळच्या आदिवासी भागांना घराजवळ विशेषज्ञ उपचार मिळावेत. ते नमो वैद्यकीय शिक्षण व संशोधन संस्थेशी संलग्न आहे."),
-         "health", "UT Administration of DNH and DD", 460, "About ₹460 crore (Deccan Herald/PTI, 7 Mar 2025).", "2025", None, "7 March 2025", "Completed", "deccan-herald", NAMO, conf="Third-party verified"),
+         L("A 450-bed hospital in Silvassa, built at a cost of over ₹460 crore and inaugurated by the Prime Minister on 7 March 2025, to bring modern medical care to the people of the UT, especially its tribal communities.",
+           "सिलवासा में 450 बिस्तरों वाला अस्पताल, जो ₹460 करोड़ से अधिक की लागत से बना और जिसका प्रधानमंत्री ने 7 मार्च 2025 को उद्घाटन किया, ताकि केंद्रशासित प्रदेश के लोगों, विशेषकर जनजातीय समुदायों, को आधुनिक चिकित्सा सुविधा मिले।",
+           "सिलवासा येथील 450 खाटांचे रुग्णालय, जे ₹460 कोटींहून अधिक खर्चून बांधले गेले व ज्याचे पंतप्रधानांनी 7 मार्च 2025 रोजी उद्घाटन केले, जेणेकरून केंद्रशासित प्रदेशातील लोकांना, विशेषतः आदिवासी समुदायांना, आधुनिक वैद्यकीय सुविधा मिळाव्यात."),
+         "health", "UT Administration of DNH and DD", 460, "Over ₹460 crore (PMIndia note on the Prime Minister's visit of 7–8 March).", "2025", None, "7 March 2025", "Completed", "pmindia", "https://pmindia.gov.in/?p=16571755",
+         as_of="2026-10-27",
+         supporting=[("deccan-herald", NAMO, L("the inauguration on 7 March 2025 (PTI)", "7 मार्च 2025 को उद्घाटन (पीटीआई)", "7 मार्च 2025 रोजीचे उद्घाटन (पीटीआय)"))]),
 ]
 r["giProducts"] = gi_list("gi_dh.tsv", {"Warli Painting": ("वारली चित्रकला", "वारली चित्रकला")}, {"MH,GJ,DNH,DD": ["Maharashtra", "Gujarat"]}, set())
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-DH.json", r)
 m = r["metrics"]
 
@@ -162,7 +165,7 @@ module(R, "projects", [
         "The NAMO Hospital and the NAMO Medical Education and Research Institute in Silvassa have expanded health care in the UT. Other works, such as roads and smart-city projects in Silvassa, Daman and Diu, will be added once their status is confirmed from official sources.",
         "सिलवासा के नमो अस्पताल और नमो चिकित्सा शिक्षा एवं अनुसंधान संस्थान ने केंद्र शासित प्रदेश में स्वास्थ्य सेवा का विस्तार किया है। सिलवासा, दमन और दीव में सड़क और स्मार्ट सिटी परियोजनाओं जैसे अन्य कार्य आधिकारिक स्रोतों से स्थिति की पुष्टि होने पर जोड़े जाएँगे।",
         "सिलवासा येथील नमो रुग्णालय व नमो वैद्यकीय शिक्षण व संशोधन संस्थेने केंद्रशासित प्रदेशातील आरोग्यसेवेचा विस्तार केला आहे. सिलवासा, दमण व दीवमधील रस्ते व स्मार्ट सिटी प्रकल्पांसारखी इतर कामे अधिकृत स्रोतांतून स्थितीची खात्री झाल्यावर जोडली जातील."),
-        sources=["deccan-herald"], conf="Third-party verified"),
+        sources=["deccan-herald", "etv-bharat"], conf="Third-party verified"),
     {"type": "projects", "id": "projects"},
 ])
 

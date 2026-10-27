@@ -214,11 +214,14 @@ def office_todo(role, src, verify, note):
             "verifyUrl": verify, "revisionStatus": "TODO", "confidence": "Official", "note": note}
 
 
-def proj(id, name, objective, sector, agency, cost, costnote, costperiod, start, completion, status, src, url, challenges=None, conf="Official", as_of=None):
+def proj(id, name, objective, sector, agency, cost, costnote, costperiod, start, completion, status, src, url, challenges=None, conf="Official", as_of=None, supporting=None):
+    """supporting: [(source_id, url, L(covers...)), ...] for details the main source does not give."""
     p = {"id": id, "name": name, "objective": objective, "sector": sector, "agency": agency,
          "start": start, "completion": completion, "status": status, "asOf": as_of or TODAY, "sourceId": src, "url": url, "confidence": conf}
     if cost is not None:
         p["cost"] = dp(cost, "₹ crore", costperiod, "calendar", src, url, note=costnote, access=as_of or TODAY)
     if challenges:
         p["challenges"] = challenges
+    if supporting:
+        p["supporting"] = [{"sourceId": s, "url": u, "covers": c} for s, u, c in supporting]
     return p

@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { NAV } from "@/lib/nav";
 import { DataAsOn } from "./DataAsOn";
 import { Disclaimer } from "./Disclaimer";
+import { CorrectionLink } from "./CorrectionLink";
 
 export function Footer({ asOn }: { asOn: string }) {
   const t = useTranslations();
@@ -14,6 +15,9 @@ export function Footer({ asOn }: { asOn: string }) {
           <p className="text-sm text-muted">{t("common.tagline")}</p>
           <DataAsOn date={asOn} />
           <Disclaimer />
+          <p className="text-sm text-muted">
+            {t("common.correctionsInvite")} <CorrectionLink />
+          </p>
         </div>
         <nav aria-label={t("nav.primary")}>
           <ul className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm sm:grid-cols-3">

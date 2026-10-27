@@ -217,6 +217,7 @@ export function CompareView({ data, regions, sourceLabels }: { data: CompareFile
                           {dp && (
                             <div className="mt-0.5">
                               <SourceInfo
+                                subject={`${pick(ind.label, "en")} — ${byCode[c]?.name.en ?? c}`}
                                 compact
                                 sourceLabel={dp.sourceId ? sourceLabels[dp.sourceId] ?? dp.sourceId : null}
                                 period={dp.period}

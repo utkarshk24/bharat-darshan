@@ -78,6 +78,7 @@ export function StatCard({
       )}
       {dp && (
         <SourceInfo
+          subject={label}
           sourceLabel={sourceLabel ?? dp.sourceId}
           period={dp.period}
           url={dp.url}

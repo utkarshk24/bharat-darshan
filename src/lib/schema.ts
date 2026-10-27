@@ -174,6 +174,13 @@ export const Project = z
     sourceId: z.string(),
     url: z.string().url(),
     confidence: Confidence,
+    /**
+     * Other sources for details the main source does not cover (e.g. a news report for tunnel lengths when the
+     * official page gives only cost and date). Each says which details it covers, so provenance stays exact.
+     */
+    supporting: z
+      .array(z.object({ sourceId: z.string(), url: z.string().url(), covers: Localized }))
+      .optional(),
   });
 
 export type Project = z.infer<typeof Project>;

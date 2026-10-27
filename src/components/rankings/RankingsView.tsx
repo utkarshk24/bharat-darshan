@@ -200,6 +200,7 @@ export function RankingsView({ data, regions, sourceLabels }: { data: CompareFil
                   </td>
                   <td className="px-3 py-2">
                     <SourceInfo
+                      subject={`${pick(ind.label, "en")} — ${byCode[r.code]?.name.en ?? r.code}`}
                       compact
                       sourceLabel={dp.sourceId ? sourceLabels[dp.sourceId] ?? dp.sourceId : null}
                       period={dp.period}

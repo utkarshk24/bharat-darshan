@@ -4,6 +4,7 @@ import type { Locale } from "@/i18n/routing";
 import type { Project } from "@/lib/schema";
 import { pick } from "@/lib/l10n";
 import { formatDate, formatRupeeCrore } from "@/lib/format";
+import { SupportingSources } from "@/components/SupportingSources";
 import { ConfidenceBadge } from "../ConfidenceBadge";
 import { Digits } from "../Num";
 
@@ -53,6 +54,7 @@ export function ProjectCards({ projects, sourceLabels, accent }: { projects: Pro
                     <a href={p.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1">
                       {sourceLabels[p.sourceId] ?? p.sourceId} <ExternalLink aria-hidden className="size-3" />
                     </a>
+                    <SupportingSources items={p.supporting} sourceLabels={sourceLabels} />
                     <span><Digits>{t("common.asOfShort", { date: formatDate(p.asOf, locale) })}</Digits></span>
                   </p>
                 </li>

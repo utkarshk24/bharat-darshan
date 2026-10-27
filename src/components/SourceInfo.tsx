@@ -1,9 +1,10 @@
 "use client";
 import { useEffect, useId, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { Info, ExternalLink } from "lucide-react";
+import { Info, ExternalLink, Flag } from "lucide-react";
 import type { Confidence } from "@/lib/schema";
 import type { Locale } from "@/i18n/routing";
+import { correctionUrl } from "@/lib/correction";
 import { formatDate, formatPeriod } from "@/lib/format";
 import { ConfidenceBadge } from "./ConfidenceBadge";
 import { Digits } from "./Num";
@@ -20,6 +21,8 @@ export interface SourceInfoProps {
   verifyUrl?: string | null;
   /** Icon-only trigger (dense tables); the full label stays available to screen readers. */
   compact?: boolean;
+  /** What the figure is (e.g. "Population"), used to pre-fill a correction report. */
+  subject?: string;
 }
 
 /**
@@ -98,6 +101,19 @@ export function SourceInfo(p: SourceInfoProps) {
               {t("common.verifyOfficial")} <ExternalLink aria-hidden className="size-3" />
             </a>
           )}
+          <a
+            href={correctionUrl({
+              page: typeof window === "undefined" ? "" : window.location.href,
+              item: [p.subject, label].filter(Boolean).join(" — "),
+              locale,
+            })}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-1 flex items-center gap-1 text-muted hover:text-text"
+          >
+            <Flag aria-hidden className="size-3" /> {t("common.suggestCorrection")}
+            <span className="sr-only"> ({t("common.opensGithub")})</span>
+          </a>
         </span>
       )}
     </span>

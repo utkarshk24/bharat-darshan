@@ -21,6 +21,7 @@ export function OfficeholderCard({ o, sourceLabel }: { o: Officeholder; sourceLa
       )}
       {o.party && <span className="text-sm">{o.party}</span>}
       <SourceInfo
+        subject={`${t(`roles.${o.role}`)}${o.name ? `: ${o.name.en}` : ""}`}
         sourceLabel={sourceLabel}
         asOf={o.asOf}
         url={o.url}

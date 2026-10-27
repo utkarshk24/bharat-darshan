@@ -9,6 +9,8 @@ NEW = [
          url="https://cms.neva.gov.in", **G),
     dict(id="goa-gov", short="Govt of Goa", name="Government of Goa — official portal and press notes", publisher="Government of Goa",
          url="https://www.goa.gov.in", **G),
+    dict(id="ga-dca", short="Goa Civil Aviation Dept", name="Directorate of Civil Aviation, Government of Goa", publisher="Government of Goa",
+         url="https://dca.goa.gov.in", **G),
     dict(id="hr-assembly", short="Haryana Vidhan Sabha", name="Haryana Vidhan Sabha — official website", publisher="Haryana Vidhan Sabha Secretariat",
          url="https://haryanaassembly.gov.in", **G),
     dict(id="nl-ipr", short="DIPR Nagaland", name="Directorate of Information & Public Relations, Nagaland — press releases", publisher="Government of Nagaland",

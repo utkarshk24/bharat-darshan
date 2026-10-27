@@ -586,5 +586,39 @@
     "useTerms": "Reuse terms for Bharat Darshan's own compilation have not been published yet; they will appear on this page.",
     "apiTitle": "Stable addresses",
     "apiBody": "The files are rebuilt with every update and keep the same addresses, so scripts can fetch them directly. There is no query API yet."
+  },
+  "learn": {
+    "title": "Learn: quiz yourself",
+    "intro": "Short quizzes on India's States and UTs. Every question is built from a sourced figure or record on this site, and every answer shows where it comes from.",
+    "topic": "Topic",
+    "kind": {
+      "all": "Everything",
+      "capital": "Capitals",
+      "gi": "GI products",
+      "office": "Who holds office",
+      "data": "Numbers"
+    },
+    "q": {
+      "capital": "What is the capital of {region}?",
+      "gi": "Which State or UT is “{item}” registered for as a Geographical Indication?",
+      "office": "Who is the {role} of {region}? (as checked on {date})",
+      "dataHigh": "Among these four, which had the highest {indicator} in {period}?",
+      "dataLow": "Among these four, which had the lowest {indicator} in {period}?",
+      "dataLarge": "Among these four, which had the largest {indicator} in {period}?"
+    },
+    "progress": "Question {n} of {total} · score {score}",
+    "right": "Correct.",
+    "wrong": "Not quite. The answer is {answer}.",
+    "correctMark": "correct answer",
+    "wrongMark": "your answer, incorrect",
+    "next": "Next question",
+    "finish": "See my score",
+    "final": "You scored {score} out of {total}",
+    "again": "Play another round",
+    "more": "Read more",
+    "loading": "Loading questions…",
+    "loadError": "The questions could not be loaded. Please check your connection and reload the page.",
+    "method": "How the questions are made",
+    "methodBody": "Questions are generated from the site's data each time it is rebuilt, never written by hand. Officeholder questions use only cards confirmed from an official source, with the date they were checked. GI questions leave out products registered for more than one region. Number questions compare four regions on one indicator and one period, and skip any set with a tie. Rounds are drawn at random from the full bank."
   }
 }

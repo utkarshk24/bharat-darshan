@@ -17,7 +17,7 @@ const PATHS = [
   "/en/uts/jammu-and-kashmir/government/", "/hi/states/uttarakhand/gi/", "/mr/states/goa/culture/",
   "/en/states/manipur/government/", "/hi/states/meghalaya/culture/", "/mr/states/sikkim/nature/",
   "/en/uts/puducherry/government/", "/hi/states/tripura/culture/", "/mr/uts/lakshadweep/nature/",
-  "/en/rankings/", "/hi/rankings/", "/mr/data/", "/en/data/",
+  "/en/rankings/", "/hi/rankings/", "/mr/data/", "/en/data/", "/en/learn/", "/mr/learn/",
 ];
 const TAGS = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"];
 

@@ -1,6 +1,6 @@
 # Phase 4 progress report
 
-*Last updated 27 October 2026.*
+*Last updated 28 October 2026.*
 
 Phase 4 started from the three quick wins in the competitive analysis (`docs/COMPETITIVE-ANALYSIS.md`), then a freshness pass on officeholder cards.
 
@@ -31,13 +31,28 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 - **Projects (9) unchanged:** official pages exist for Sela Tunnel, NAMO Hospital and Mopa airport, but each confirms only part of the card. Project cards hold one source, so switching would overstate provenance; a per-field source would fix this.
 - Details: `scripts/authoring/research/notes.md`, section "Freshness pass, 27 Oct 2026".
 
+## 5. Corrections workflow
+
+- "Suggest a correction" in every source box and in the footer opens a GitHub issue form (`.github/ISSUE_TEMPLATE/correction.yml`) pre-filled with the page, the item and the language. The form requires a link to an official source. Reporters need a free GitHub account.
+
+## 6. Project sources per detail
+
+- Project cards can now list supporting sources, each saying which details it covers. Sela Tunnel, NAMO Hospital and Mopa airport now cite PMIndia as the main source.
+- While checking, two cards were found to contain details their cited article did not support. Mopa's concessionaire and Dabolim now cite the Goa Directorate of Civil Aviation, and an unsupported naval-station detail was removed. The NAMO Hospital card now uses PMIndia's wording.
+- Projects still on news sources: 6 (Shillong–Silchar, Jiribam–Imphal, Dimapur–Kohima, Sivok–Rangpo, Kudankulam 3–6, Rishikesh–Karnaprayag).
+
+## 7. Learn (`/learn`)
+
+- Quiz rounds of 10 from a bank of 270 questions generated at build time: capitals (31), GI products (120), officeholders (59, official sources only, with check date) and number comparisons (60, one indicator and period, no ties).
+- Every answer shows its source and links to the profile, GI page or ranking. The bank is served as `/learn-quiz.json` and loaded only on this page. Tests: `tests/quiz.test.ts`.
+
 ## Checks
 
-`validate-data`: 0 errors, 1,725 gaps. Unit tests: 82 passing. Accessibility (axe): 33/33 pages clean, including the new Rankings and Data Library pages in all three languages.
+`validate-data`: 0 errors, 1,725 gaps. Unit tests: 90 passing. Accessibility (axe): 35/35 pages clean, including Rankings, Data Library and Learn.
 
 ## Next steps
 
 1. Finish the 16 remaining officeholder cards (mostly legislature sites that block automated reading).
-2. Add per-field sources to project cards, then move the 9 projects to official sources.
-3. District profiles from the LGD index; Learn/quiz mode built from sourced facts.
-4. Choropleth data layers on the map; corrections/feedback workflow.
+2. Move the remaining 6 project cards to official sources (PIB, Lok Sabha answers, NFR/IRCON, NPCIL).
+3. District profiles from the LGD index.
+4. Choropleth data layers on the map; Trip Planner; offline/PWA.

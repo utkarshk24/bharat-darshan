@@ -120,8 +120,12 @@ TEXTILE = {"Balaramapuram Sarees and Fine Cotton Fabrics", "Kasaragod Sarees", "
            "Kuthampully Dhoties & Set Mundu", "Cannanore Home Furnishings"}
 SHARED = {"KL,TN": ["Tamil Nadu"], "KL,KA,TN": ["Karnataka", "Tamil Nadu"], "KA,KL": ["Karnataka"]}
 r["giProducts"] = gi_list("gi_kl.tsv", GI_NAMES, SHARED, TEXTILE)
-from officeholder_updates_2026_10_24 import KL_GOV
-r["government"]["headOfState"] = KL_GOV  # changed 23 Oct 2026
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+KL_GOV = office("governor", L("Om Prakash Mathur", "ओम प्रकाश माथुर", "ओम प्रकाश माथुर"), None, "2026-10-23",
+                "president-of-india", "https://presidentofindia.nic.in/press_releases/press-communique-38", "https://igod.gov.in",
+                note="Official confirmation: Rashtrapati Bhavan communiqué of 12 October 2026 appointing Om Prakash Mathur, then Governor of Sikkim, as Governor of Keralam. Sworn in as the 29th Governor of Keralam at the Lok Bhavan auditorium, Thiruvananthapuram, on 23 October 2026 by Chief Justice Soumen Sen of the Keralam High Court (ETV Bharat). Succeeded Rajendra Vishwanath Arlekar, who moved to Tamil Nadu.",
+                as_of="2026-10-27")
+r["government"]["headOfState"] = KL_GOV  # changed 23 Oct 2026; re-checked 27 Oct 2026
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-KL.json", r)
 print("kl core ok", len(r["giProducts"]), "GIs")

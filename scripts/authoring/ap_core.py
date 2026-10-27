@@ -53,15 +53,12 @@ r["symbols"] = {
 }
 
 r["government"] = {
-    "headOfState": office("governor", L("S. Abdul Nazeer", "एस. अब्दुल नज़ीर", "एस. अब्दुल नझीर"), None, "2023-02-24",
-                          "ani", ANI_AP, "https://igod.gov.in", conf="Third-party verified",
-                          note="Former Supreme Court judge. Addressed the opening of the Assembly Budget Session as Governor on 11 Feb 2026 (ANI). Confirm the start date on the Lok Bhavan, Andhra Pradesh website."),
+    "headOfState": office('governor', L('S. Abdul Nazeer', 'एस. अब्दुल नज़ीर', 'एस. अब्दुल नझीर'), None, '2023-02-24', 'newsonair', 'https://www.newsonair.gov.in/andhra-pradesh-govt-officially-renamed-raj-bhavan-as-lok-bhavan/', 'https://igod.gov.in', note='Official confirmation: News On AIR 3 Dec 2025: Raj Bhavan renamed Lok Bhavan following approval of Governor S. Abdul Nazeer. Former Supreme Court judge. Addressed the opening of the Assembly Budget Session as Governor on 11 Feb 2026 (ANI). Confirm the start date on the Lok Bhavan, Andhra Pradesh website.', as_of='2026-10-27'),
     "headOfGovernment": office("chief-minister", L("N. Chandrababu Naidu", "एन. चंद्रबाबू नायडू", "एन. चंद्राबाबू नायडू"), "TDP", "2024-06-12",
                                "newsonair", NOA_CM, "https://www.ap.gov.in",
                                note="Sworn in on 12 June 2024 for his fourth term as Chief Minister (News On AIR). Named as Chief Minister in News On AIR reports of 2026."),
     "others": [
-        office("deputy-chief-minister", L("Pawan Kalyan", "पवन कल्याण", "पवन कल्याण"), "JSP", "2024-06-12", "ani", ANI_AP, "https://www.ap.gov.in",
-               conf="Third-party verified", note="Sworn in with the Council of Ministers in June 2024; named as Deputy Chief Minister in ANI's report of 11 Feb 2026."),
+        office('deputy-chief-minister', L('Pawan Kalyan', 'पवन कल्याण', 'पवन कल्याण'), 'JSP', '2024-06-12', 'newsonair', 'https://www.newsonair.gov.in/portfolios-allotted-to-newly-sworn-in-ministers-in-andhra-pradesh', 'https://www.ap.gov.in', note="Official confirmation: News On AIR 14 Jun 2024: Pawan Kalyan made Deputy Chief Minister. Sworn in with the Council of Ministers in June 2024; named as Deputy Chief Minister in ANI's report of 11 Feb 2026.", as_of='2026-10-27'),
         office("speaker", L("C. Ayyanna Patrudu", "सी. अय्यन्ना पात्रुडु", "सी. अय्यन्ना पात्रुडू"), "TDP", "2024-06-22", "thesouthfirst", SPK, "https://www.aplegislature.org",
                conf="Third-party verified", note="Elected unopposed in June 2024 (The South First). Confirm the date on the Legislature website."),
     ],
@@ -114,6 +111,7 @@ GI_NAMES = {
 TEXTILE = {"Srikalahasthi Kalamkari", "Machilipatnam Kalamkari", "Uppada Jamdani Sarees", "Venkatagiri Sarees", "Mangalagiri Sarees And Fabrics",
            "Dharmavaram Handloom Pattu Sarees And Paavadas", "Narasapur Crochet Lace Products", "Ponduru Khadi"}
 r["giProducts"] = gi_list("gi_ap.tsv", GI_NAMES, {"AP,OR": ["Odisha"], "AP,TG": ["Telangana"]}, TEXTILE)
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-AP.json", r)
 print("ap core ok", len(r["giProducts"]), "GIs")

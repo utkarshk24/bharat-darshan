@@ -51,9 +51,7 @@ r["government"] = {
     "headOfState": office("governor", L("Ajay Kumar Bhalla", "अजय कुमार भल्ला", "अजय कुमार भल्ला"), None, "2025-01-03",
                           "newsonair", GOV, "https://rajbhavanmanipur.nic.in", conf="Official",
                           note="Former Union Home Secretary; sworn in as Governor of Manipur on 3 January 2025 in the Durbar Hall of Raj Bhavan, Imphal, by Chief Justice D. Krishnakumar of the Manipur High Court, succeeding Lakshman Prasad Acharya, who had held additional charge (All India Radio News)."),
-    "headOfGovernment": office("chief-minister", L("Yumnam Khemchand Singh", "युमनाम खेमचंद सिंह", "युमनाम खेमचंद सिंह"), "BJP", "2026-02-04",
-                               "hitavada", CM, "https://manipur.gov.in", conf="Third-party verified",
-                               note="Sworn in on 4 February 2026 by Governor Ajay Kumar Bhalla, hours after President's Rule (in force since 13 February 2025) was revoked. Nemcha Kipgen (BJP) and L. Dikho (NPF) were sworn in as Deputy Chief Ministers (The Hitavada, 5 February 2026)."),
+    "headOfGovernment": office('chief-minister', L('Yumnam Khemchand Singh', 'युमनाम खेमचंद सिंह', 'युमनाम खेमचंद सिंह'), 'BJP', '2026-02-04', 'newsonair', 'https://www.newsonair.gov.in/manipur-cm-yumnam-khemchand-meets-pm-modi-at-pms-office-in-seva-teerth', 'https://manipur.gov.in', note="Official confirmation: News On AIR 24 Feb 2026: Manipur Chief Minister Yumnam Khemchand met the Prime Minister. Sworn in on 4 February 2026 by Governor Ajay Kumar Bhalla, hours after President's Rule (in force since 13 February 2025) was revoked. Nemcha Kipgen (BJP) and L. Dikho (NPF) were sworn in as Deputy Chief Ministers (The Hitavada, 5 February 2026).", as_of='2026-10-27'),
     "others": [
         office("speaker", L("Thokchom Satyabrata Singh", "थोकचोम सत्यव्रत सिंह", "थोकचोम सत्यव्रत सिंह"), "BJP", "2022-03-24", "mn-assembly", SPK, "https://assembly.mn.gov.in", conf="Official",
                note="Elected Speaker of the Twelfth Manipur Legislative Assembly on 24 March 2022; Member from 14-Yaiskul (Assembly Bulletin Part II, No. 6)."),
@@ -78,6 +76,7 @@ GI_NAMES = {
  "Chak-Hao": ("चाक-हाओ (काला चावल)", "चाक-हाओ (काळा तांदूळ)"),
 }
 r["giProducts"] = gi_list("gi_mn.tsv", GI_NAMES, {"MN,NL": ["Nagaland"]}, {"Shaphee Lanphee", "Wangkhei Phee", "Moirang Phee"})
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-MN.json", r)
 print("mn core ok", len(r["giProducts"]), "GIs")

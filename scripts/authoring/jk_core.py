@@ -45,9 +45,7 @@ r["symbols"] = {
 }
 
 r["government"] = {
-    "headOfState": office("lieutenant-governor", L("Manoj Sinha", "मनोज सिन्हा", "मनोज सिन्हा"), None, "2020-08-07",
-                          "kashmir-reader", LG, "https://jk.gov.in", conf="Third-party verified",
-                          note="Sworn in as Lieutenant Governor at Raj Bhavan, Srinagar, on 7 August 2020 by Chief Justice Gita Mittal; succeeded Girish Chandra Murmu (Kashmir Reader). He addressed the Assembly's budget session in 2026 as Lieutenant Governor (News On AIR)."),
+    "headOfState": office('lieutenant-governor', L('Manoj Sinha', 'मनोज सिन्हा', 'मनोज सिन्हा'), None, '2020-08-07', 'kashmir-reader', 'https://kashmirreader.com/2026/10/27/lg-sinha-chairs-unified-headquarters-meet-security-situation-reviewed-in-jk/', 'https://jk.gov.in', conf='Third-party verified', note="Re-checked 2026-10-27: the President's communiqué of 8 September 2026 asked the Lieutenant Governor of Ladakh, Vinai Kumar Saxena, to discharge the functions of the J&K Lieutenant Governor during Manoj Sinha's leave; Kashmir Reader reported LG Sinha chairing the Unified Headquarters meeting on 27 October 2026. Sworn in as Lieutenant Governor at Raj Bhavan, Srinagar, on 7 August 2020 by Chief Justice Gita Mittal; succeeded Girish Chandra Murmu (Kashmir Reader). He addressed the Assembly's budget session in 2026 as Lieutenant Governor (News On AIR).", as_of='2026-10-27'),
     "headOfGovernment": office("chief-minister", L("Omar Abdullah", "उमर अब्दुल्ला", "उमर अब्दुल्ला"), "JKNC", "2024-10-16",
                                "etv-bharat", CM, "https://jk.gov.in", conf="Third-party verified",
                                note="Sworn in on 16 October 2024 at the Sher-i-Kashmir International Convention Centre, Srinagar, by Lieutenant Governor Manoj Sinha, with five ministers — the first Chief Minister of the Union Territory. He had also been Chief Minister of the former State in 2009–2015 (ETV Bharat)."),
@@ -95,6 +93,7 @@ GI_NAMES = {
 SHARED = {"PB,HR,HP,DL,UK,UP,JK": ["Punjab", "Haryana", "Himachal Pradesh", "Delhi", "Uttarakhand", "Uttar Pradesh"]}
 TEXT = {"Kashmir Pashmina", "Kashmir Sozani Craft", "Kani Shawl", "Basohli Pashmina Woolen Products", "Kashmir Chain Stitch", "Kashmir Crewel", "Kashmir Tweed", "Kashmir Namda", "Gabba"}
 r["giProducts"] = gi_list("gi_jk.tsv", GI_NAMES, SHARED, TEXT)
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-JK.json", r)
 print("jk core ok", len(r["giProducts"]), "GIs")

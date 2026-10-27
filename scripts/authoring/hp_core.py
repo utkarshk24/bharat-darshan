@@ -50,15 +50,10 @@ r["symbols"] = {
 }
 
 r["government"] = {
-    "headOfState": office("governor", L("Kavinder Gupta", "कविंद्र गुप्ता", "कविंदर गुप्ता"), None, "2026-03-10",
-                          "kashmir-life", GOV, "https://himachal.nic.in", conf="Third-party verified",
-                          note="Sworn in as the 30th Governor of Himachal Pradesh at Raj Bhavan (Lok Bhavan), Shimla, on 10 March 2026 by Chief Justice Gurmeet Singh Sandhawalia of the Himachal Pradesh High Court (Kashmir Life; also reported by PTI). Previously Lieutenant Governor of Ladakh; succeeded Shiv Pratap Shukla."),
-    "headOfGovernment": office("chief-minister", L("Sukhvinder Singh Sukhu", "सुखविंदर सिंह सुक्खू", "सुखविंदर सिंह सुक्खू"), "INC", "2022-12-11",
-                               "scroll", CM, "https://himachal.nic.in", conf="Third-party verified",
-                               note="Sworn in on 11 December 2022 in Shimla by Governor Rajendra Vishwanath Arlekar; Mukesh Agnihotri was sworn in as Deputy Chief Minister (Scroll)."),
+    "headOfState": office('governor', L('Kavinder Gupta', 'कविंद्र गुप्ता', 'कविंदर गुप्ता'), None, '2026-03-10', 'newsonair', 'https://www.newsonair.gov.in/governor-designate-kavinder-gupta-receives-warm-welcome-in-shimla', 'https://himachal.nic.in', note='Official confirmation: News On AIR 9 Mar 2026: Governor-designate Kavinder Gupta to take oath as 30th Governor on 10 Mar 2026. Sworn in as the 30th Governor of Himachal Pradesh at Raj Bhavan (Lok Bhavan), Shimla, on 10 March 2026 by Chief Justice Gurmeet Singh Sandhawalia of the Himachal Pradesh High Court (Kashmir Life; also reported by PTI). Previously Lieutenant Governor of Ladakh; succeeded Shiv Pratap Shukla.', as_of='2026-10-27'),
+    "headOfGovernment": office('chief-minister', L('Sukhvinder Singh Sukhu', 'सुखविंदर सिंह सुक्खू', 'सुखविंदर सिंह सुक्खू'), 'INC', '2022-12-11', 'newsonair', 'https://www.newsonair.gov.in/budget-session-of-14th-himachal-pradesh-legislative-assembly-begins-today', 'https://himachal.nic.in', note='Official confirmation: News On AIR 16 Feb 2026: Chief Minister Sukhvinder Singh Sukhu. Sworn in on 11 December 2022 in Shimla by Governor Rajendra Vishwanath Arlekar; Mukesh Agnihotri was sworn in as Deputy Chief Minister (Scroll).', as_of='2026-10-27'),
     "others": [
-        office("speaker", L("Kuldeep Singh Pathania", "कुलदीप सिंह पठानिया", "कुलदीप सिंह पठानिया"), "INC", "2023-01-05", "etv-bharat", SPK, "https://hpvidhansabha.nic.in", conf="Third-party verified",
-               note="Elected unanimously by voice vote as Speaker of the 14th Vidhan Sabha on 5 January 2023; MLA from Bhattiyat, Chamba (ETV Bharat)."),
+        office('speaker', L('Kuldeep Singh Pathania', 'कुलदीप सिंह पठानिया', 'कुलदीप सिंह पठानिया'), 'INC', '2023-01-05', 'newsonair', 'https://www.newsonair.gov.in/budget-session-of-14th-himachal-pradesh-legislative-assembly-begins-today', 'https://hpvidhansabha.nic.in', note='Official confirmation: News On AIR 16 Feb 2026: Speaker of the Legislative Assembly Kuldeep Singh Pathania. Elected unanimously by voice vote as Speaker of the 14th Vidhan Sabha on 5 January 2023; MLA from Bhattiyat, Chamba (ETV Bharat).', as_of='2026-10-27'),
     ],
 }
 
@@ -95,6 +90,7 @@ GI_NAMES = {
 }
 SHARED = {"PB,HR,HP,DL,UK,UP,JK": ["Punjab", "Haryana", "Delhi", "Uttarakhand", "Uttar Pradesh", "Jammu & Kashmir"]}
 r["giProducts"] = gi_list("gi_hp.tsv", GI_NAMES, SHARED, {"Kullu Shawl", "Kinnauri Shawl", "Kullu Shawl (Logo)", "Chamba Rumal", "Lahauli Knitted Socks & Gloves"})
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-HP.json", r)
 print("hp core ok", len(r["giProducts"]), "GIs")

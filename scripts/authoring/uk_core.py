@@ -48,15 +48,10 @@ r["symbols"] = {
 }
 
 r["government"] = {
-    "headOfState": office("governor", L("Dhal Singh Bisen", "ढाल सिंह बिसेन", "ढालसिंह बिसेन"), None, "2026-10-19",
-                          "deccan-chronicle", GOV, "https://governoruk.gov.in", conf="Third-party verified",
-                          note="Sworn in as the ninth Governor of Uttarakhand at Lok Bhavan, Dehradun, on 19 October 2026 by Justice Manoj Kumar Tiwari (Deccan Chronicle). A former Madhya Pradesh minister and Lok Sabha member. Appointed in the Rashtrapati Bhavan communiqué of 12 October 2026."),
-    "headOfGovernment": office("chief-minister", L("Pushkar Singh Dhami", "पुष्कर सिंह धामी", "पुष्करसिंह धामी"), "BJP", "2022-03-23",
-                               "tribune", CM, "https://uk.gov.in", conf="Third-party verified",
-                               note="Sworn in for a second consecutive term on 23 March 2022 at Parade Ground, Dehradun, by Governor Lt Gen Gurmit Singh (retd), with eight ministers (The Tribune). He first became Chief Minister in July 2021."),
+    "headOfState": office('governor', L('Dhal Singh Bisen', 'ढाल सिंह बिसेन', 'ढालसिंह बिसेन'), None, '2026-10-19', 'president-of-india', 'https://presidentofindia.nic.in/press_releases/press-communique-38', 'https://governoruk.gov.in', note='Official confirmation: Rashtrapati Bhavan communique 12 Oct 2026: Dr Dhal Singh Bisen appointed Governor of Uttarakhand. Sworn in as the ninth Governor of Uttarakhand at Lok Bhavan, Dehradun, on 19 October 2026 by Justice Manoj Kumar Tiwari (Deccan Chronicle). A former Madhya Pradesh minister and Lok Sabha member. Appointed in the Rashtrapati Bhavan communiqué of 12 October 2026.', as_of='2026-10-27'),
+    "headOfGovernment": office('chief-minister', L('Pushkar Singh Dhami', 'पुष्कर सिंह धामी', 'पुष्करसिंह धामी'), 'BJP', '2022-03-23', 'uk-lokbhavan', 'https://governoruk.gov.in/01-02-2026-the-honble-chief-minister-of-uttarakhand-shri-pushkar-singh-dhami-paid-a-courtesy-call-on-the-honble-governor-at-lok-bhavan/', 'https://uk.gov.in', note='Official confirmation: Lok Bhavan Dehradun press note 1 Feb 2026: Chief Minister of Uttarakhand Shri Pushkar Singh Dhami paid a courtesy call on the Governor. Sworn in for a second consecutive term on 23 March 2022 at Parade Ground, Dehradun, by Governor Lt Gen Gurmit Singh (retd), with eight ministers (The Tribune). He first became Chief Minister in July 2021.', as_of='2026-10-27'),
     "others": [
-        office("speaker", L("Ritu Khanduri Bhushan", "ऋतु खंडूड़ी भूषण", "ऋतू खंडुरी भूषण"), "BJP", "2022-03-26", "drishti", SPK, "https://ukvidhansabha.uk.gov.in", conf="Third-party verified",
-               note="Elected unopposed on 26 March 2022 as Speaker of the fifth Uttarakhand Assembly — the first woman in the post; MLA from Kotdwar (Drishti IAS summary; replace with the Vidhan Sabha notice)."),
+        office('speaker', L('Ritu Khanduri Bhushan', 'ऋतु खंडूड़ी भूषण', 'ऋतू खंडुरी भूषण'), 'BJP', '2022-03-26', 'uk-lokbhavan', 'https://governoruk.gov.in/18-03-2026-the-speaker-of-the-legislative-assembly-smt-ritu-khanduri-bhushan-called-on-the-governor-lieutenant-general-gurmit-singh-retd-at-lok-bhavan-on-wednesday/', 'https://ukvidhansabha.uk.gov.in', note='Official confirmation: Lok Bhavan Dehradun press note 18 Mar 2026: Speaker of the Legislative Assembly Smt Ritu Khanduri Bhushan called on the Governor. Elected unopposed on 26 March 2022 as Speaker of the fifth Uttarakhand Assembly — the first woman in the post; MLA from Kotdwar (Drishti IAS summary; replace with the Vidhan Sabha notice).', as_of='2026-10-27'),
     ],
 }
 
@@ -106,6 +101,7 @@ GI_NAMES = {
 }
 SHARED = {"PB,HR,HP,DL,UK,UP,JK": ["Punjab", "Haryana", "Himachal Pradesh", "Delhi", "Uttar Pradesh", "Jammu & Kashmir"]}
 r["giProducts"] = gi_list("gi_uk.tsv", GI_NAMES, SHARED, {"Bhotia Dann of Uttarakhand", "Uttarakhand Thulma", "Uttarakhand Bichhu Buti (Nettle) Fabrics", "Rangwali Pichhoda of Kumaon"})
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-UK.json", r)
 print("uk core ok", len(r["giProducts"]), "GIs")

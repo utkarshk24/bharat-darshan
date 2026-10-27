@@ -55,8 +55,7 @@ r["government"] = {
                                "tribune", CM, "https://rajasthan.gov.in", conf="Third-party verified",
                                note="Sworn in on 15 December 2023 as Rajasthan's 14th Chief Minister (The Tribune). No change of Chief Minister was found in 2026 sources; confirm on the State portal."),
     "others": [
-        office("deputy-chief-minister", L("Diya Kumari", "दीया कुमारी", "दिया कुमारी"), "BJP", "2023-12-15", "tribune", CM, "https://rajasthan.gov.in",
-               conf="Third-party verified", note="Sworn in with the Chief Minister (The Tribune)."),
+        office('deputy-chief-minister', L('Diya Kumari', 'दीया कुमारी', 'दिया कुमारी'), 'BJP', '2023-12-15', 'newsonair', 'https://www.newsonair.gov.in/rajasthan-deputy-cm-finance-minister-diya-kumari-presents-budget-2026-27-in-assembly', 'https://rajasthan.gov.in', note='Official confirmation: News On AIR 11 Feb 2026: Deputy Chief Minister and Finance Minister Diya Kumari presented the budget. Sworn in with the Chief Minister (The Tribune).', as_of='2026-10-27'),
         office("deputy-chief-minister", L("Prem Chand Bairwa", "प्रेमचंद बैरवा", "प्रेमचंद बैरवा"), "BJP", "2023-12-15", "tribune", CM, "https://rajasthan.gov.in",
                conf="Third-party verified", note="Sworn in with the Chief Minister (The Tribune)."),
         office("speaker", L("Vasudev Devnani", "वासुदेव देवनानी", "वासुदेव देवनानी"), "BJP", "2023-12-20", "pioneer", SPK, "https://assembly.rajasthan.gov.in",
@@ -110,6 +109,7 @@ GI_NAMES = {
 }
 TEXTILE = {"Kota Doria", "Kota Doria (Logo)", "Sanganeri Hand Block Printing", "Bagru Hand Block Print", "Bikaner Kashidakari Craft", "Jodhpur Bandhej Craft", "Phulkari"}
 r["giProducts"] = gi_list("gi_rj.tsv", GI_NAMES, {"PB,HR,RJ": ["Punjab", "Haryana"]}, TEXTILE)
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-RJ.json", r)
 print("rj core ok", len(r["giProducts"]), "GIs")

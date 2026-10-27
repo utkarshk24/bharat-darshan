@@ -48,9 +48,7 @@ r["government"] = {
     "headOfState": office("governor", L("Pusapati Ashok Gajapathi Raju", "पुसपति अशोक गजपति राजू", "पुसपती अशोक गजपती राजू"), None, "2025-07-26",
                           "goa-dip", GOV, "https://lokbhavan.goa.gov.in",
                           note="Sworn in as the 22nd Governor of Goa at Raj Bhavan, Dona Paula, on 26 July 2025 by Chief Justice Alok Aradhe of the Bombay High Court; succeeded P. S. Sreedharan Pillai (Department of Information and Publicity, Goa)."),
-    "headOfGovernment": office("chief-minister", L("Pramod Sawant", "प्रमोद सावंत", "प्रमोद सावंत"), "BJP", "2022-03-28",
-                               "the-week", CM, "https://www.goa.gov.in", conf="Third-party verified",
-                               note="Sworn in for a second term on 28 March 2022 at the Dr Syama Prasad Mookerjee stadium, Bambolim, by Governor P. S. Sreedharan Pillai, with eight ministers; MLA from Sanquelim (PTI via The Week). He first became Chief Minister in March 2019."),
+    "headOfGovernment": office('chief-minister', L('Pramod Sawant', 'प्रमोद सावंत', 'प्रमोद सावंत'), 'BJP', '2022-03-28', 'goa-gov', 'https://www.goa.gov.in/wp-content/uploads/2026/05/CHIEF-MINISTER-EXTENDS-GREETINGS.pdf', 'https://www.goa.gov.in', note='Official confirmation: Government of Goa press note, Panaji 29 May 2026: Chief Minister Dr Pramod Sawant extended greetings. Sworn in for a second term on 28 March 2022 at the Dr Syama Prasad Mookerjee stadium, Bambolim, by Governor P. S. Sreedharan Pillai, with eight ministers; MLA from Sanquelim (PTI via The Week). He first became Chief Minister in March 2019.', as_of='2026-10-27'),
     "others": [
         office("speaker", L("Ganesh Gaonkar", "गणेश गावकर", "गणेश गावकर"), "BJP", "2025-09-25", "newsonair", SPK, "https://goavidhansabha.gov.in", conf="Official",
                note="Elected Speaker on 25 September 2025 with 31 votes against 7, after Ramesh Tawadkar resigned to join the Cabinet (News On AIR); MLA from Sanvordem."),
@@ -83,6 +81,7 @@ GI_NAMES = {
  "Feni": ("फ़ेनी", "फेणी"),
 }
 r["giProducts"] = gi_list("gi_ga.tsv", GI_NAMES, {}, set())
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-GA.json", r)
 print("ga core ok", len(r["giProducts"]), "GIs")

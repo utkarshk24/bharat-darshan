@@ -33,16 +33,14 @@ r["symbols"] = {
 r["government"] = {
     "headOfState": office("governor", L("Rajendra Vishwanath Arlekar", "राजेंद्र विश्वनाथ आर्लेकर", "राजेंद्र विश्वनाथ आर्लेकर"), None, "2026-03-12",
                           "tn-lokbhavan", GOV_URL, "https://lokbhavan.tn.gov.in",
-                          note="Sworn in at Lok Bhavan, Chennai, on 12 March 2026 by the Chief Justice of the Madras High Court (Lok Bhavan, Tamil Nadu). Took additional charge of Tamil Nadu while Governor of Keralam, succeeding R. N. Ravi, who moved to West Bengal. On 12 October 2026 the President appointed him Governor of Tamil Nadu and named Om Prakash Mathur Governor of Keralam (Rashtrapati Bhavan communiqué, reported by UNI and ANI). On 15 October 2026 he formally assumed charge as the full-time Governor of Tamil Nadu at Lok Bhavan, Chennai (UNI), after the President's appointment of 12 October; Om Prakash Mathur succeeded him in Keralam on 23 October 2026."),
+                          note="Sworn in at Lok Bhavan, Chennai, on 12 March 2026 by the Chief Justice of the Madras High Court (Lok Bhavan, Tamil Nadu). Took additional charge of Tamil Nadu while Governor of Keralam, succeeding R. N. Ravi, who moved to West Bengal. On 12 October 2026 the President appointed him Governor of Tamil Nadu and named Om Prakash Mathur Governor of Keralam (Rashtrapati Bhavan communiqué, reported by UNI and ANI). On 15 October 2026 he formally assumed charge as the full-time Governor of Tamil Nadu at Lok Bhavan, Chennai (UNI), after the President's appointment of 12 October; Om Prakash Mathur succeeded him in Keralam on 23 October 2026.", as_of="2026-10-24"),
     "headOfGovernment": office("chief-minister", L("C. Joseph Vijay", "सी. जोसेफ़ विजय", "सी. जोसेफ विजय"), "TVK", "2026-05-10",
                                "newsonair", CM_URL, "https://www.tn.gov.in",
                                note="Founder of Tamilaga Vettri Kazhagam (TVK). Sworn in on 10 May 2026 with nine ministers, with the support of INC, CPI, CPI(M), VCK and IUML — 120 of 234 MLAs-elect (News On AIR)."),
     "others": [
         office("speaker", L("J. C. D. Prabhakar", "जे. सी. डी. प्रभाकर", "जे. सी. डी. प्रभाकर"), "TVK", "2026-05-12", "newsonair", SPK_URL, "https://www.assembly.tn.gov.in",
                note="Elected unopposed on 12 May 2026 (News On AIR)."),
-        office("leader-of-opposition", L("Udhayanidhi Stalin", "उदयनिधि स्टालिन", "उदयनिधी स्टालिन"), "DMK", None, "newsonair", SPK_URL, "https://www.assembly.tn.gov.in",
-               conf="Third-party verified", rev="provisional",
-               note="Named as Opposition leader in News On AIR's report of 12 May 2026. Date of formal recognition by the Speaker not yet found; confirm on the Assembly website."),
+        office('leader-of-opposition', L('Udhayanidhi Stalin', 'उदयनिधि स्टालिन', 'उदयनिधी स्टालिन'), 'DMK', None, 'newsonair', 'https://newsonair.gov.in/tamil-nadu-opposition-leader-udhayanidhi-stalin-taken-into-police-custody-over-controversial-remarks/', 'https://www.assembly.tn.gov.in', rev='provisional', note="Official confirmation: News On AIR 4 Aug 2026 refers to opposition leader Udhayanidhi Stalin. Named as Opposition leader in News On AIR's report of 12 May 2026. Date of formal recognition by the Speaker not yet found; confirm on the Assembly website.", as_of='2026-10-27'),
     ],
 }
 
@@ -153,6 +151,7 @@ TEXTILE = {"Salem Fabric", "Kancheepuram Silk", "Bhavani Jamakkalam", "Madurai S
            "Salem Silk known as Salem Venpattu", "Toda Embroidery", "Kandangi Saree", "Thirubuvanam Silk Sarees", "Negamam Cotton Saree",
            "Chedibutta Saree", "Woraiyur Cotton Saree"}
 r["giProducts"] = gi_list("gi_tn.tsv", GI_NAMES, {}, TEXTILE)
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-TN.json", r)
 print("tn core ok", len(r["giProducts"]), "GIs")

@@ -52,12 +52,9 @@ r["government"] = {
     "headOfState": office("governor", L("Ashim Kumar Ghosh", "असीम कुमार घोष", "असीम कुमार घोष"), None, "2025-07-21",
                           "hr-lokbhavan", GOV, "https://lokbhavan.haryana.gov.in",
                           note="Sworn in as the 19th Governor of Haryana on 21 July 2025 at Raj Bhavan, Chandigarh, by Chief Justice Sheel Nagu of the Punjab and Haryana High Court; succeeded Bandaru Dattatreya (Lok Bhavan Haryana)."),
-    "headOfGovernment": office("chief-minister", L("Nayab Singh Saini", "नायब सिंह सैनी", "नायबसिंह सैनी"), "BJP", "2024-10-17",
-                               "the-week", CM, "https://haryana.gov.in", conf="Third-party verified",
-                               note="Sworn in for a second time on 17 October 2024 at the Dussehra ground in Panchkula by Governor Bandaru Dattatreya, with 13 ministers (PTI via The Week). He first became Chief Minister in March 2024, succeeding Manohar Lal; MLA from Ladwa."),
+    "headOfGovernment": office('chief-minister', L('Nayab Singh Saini', 'नायब सिंह सैनी', 'नायबसिंह सैनी'), 'BJP', '2024-10-17', 'newsonair', 'https://www.newsonair.gov.in/budget-session-of-haryana-legislative-assembly-to-begin-tomorrow', 'https://haryana.gov.in', note='Official confirmation: News On AIR 19 Feb 2026: Chief Minister Nayab Singh Saini will present the budget on 2 March. Sworn in for a second time on 17 October 2024 at the Dussehra ground in Panchkula by Governor Bandaru Dattatreya, with 13 ministers (PTI via The Week). He first became Chief Minister in March 2024, succeeding Manohar Lal; MLA from Ladwa.', as_of='2026-10-27'),
     "others": [
-        office("speaker", L("Harvinder Kalyan", "हरविंद्र कल्याण", "हरविंदर कल्याण"), "BJP", "2024-10-25", "tribune", SPK, "https://haryanaassembly.gov.in", conf="Third-party verified",
-               note="Elected unopposed as Speaker of the 15th Haryana Vidhan Sabha on 25 October 2024; MLA from Gharaunda (The Tribune)."),
+        office('speaker', L('Harvinder Kalyan', 'हरविंद्र कल्याण', 'हरविंदर कल्याण'), 'BJP', '2024-10-25', 'hr-assembly', 'https://haryanaassembly.gov.in/?p=16974', 'https://haryanaassembly.gov.in', note="Official confirmation: Haryana Vidhan Sabha officers page (modified 16 Oct 2026): Sh. Harvinder Kalyan, Hon'ble Speaker. Elected unopposed as Speaker of the 15th Haryana Vidhan Sabha on 25 October 2024; MLA from Gharaunda (The Tribune).", as_of='2026-10-27'),
     ],
 }
 
@@ -76,6 +73,7 @@ GI_NAMES = {
 SHARED = {"PB,HR,HP,DL,UK,UP,JK": ["Punjab", "Himachal Pradesh", "Delhi", "Uttarakhand", "Uttar Pradesh", "Jammu & Kashmir"],
           "PB,HR,RJ": ["Punjab", "Rajasthan"]}
 r["giProducts"] = gi_list("gi_hr.tsv", GI_NAMES, SHARED, {"Phulkari"})
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-HR.json", r)
 print("hr core ok", len(r["giProducts"]), "GIs")

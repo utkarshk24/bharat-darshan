@@ -1,4 +1,7 @@
-"""Officeholder changes checked on 24 Oct 2026 — patches only the affected cards (other cards keep their own asOf).
+"""SUPERSEDED (27 Oct 2026): or_core.py, kl_core.py and tn_core.py now carry these cards, re-checked against official
+sources; re-running this would overwrite the newer cards, so main() refuses to run.
+
+Officeholder changes checked on 24 Oct 2026 — patches only the affected cards (other cards keep their own asOf).
 The same values are mirrored in or_core.py, kl_core.py and tn_core.py so a full re-run gives the same result.
 Run with BD_TODAY=2026-10-24."""
 import sys
@@ -18,6 +21,7 @@ TN_NOTE = (" On 15 October 2026 he formally assumed charge as the full-time Gove
 
 
 def main():
+    raise SystemExit("superseded by the core scripts; see docstring")
     for code, gov in (("IN-OR", OR_GOV), ("IN-KL", KL_GOV)):
         r = read(f"regions/{code}.json")
         r["government"]["headOfState"] = gov

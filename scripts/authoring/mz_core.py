@@ -48,9 +48,7 @@ r["government"] = {
     "headOfState": office("governor", L("Gen. V. K. Singh (Retd)", "जनरल वी. के. सिंह (सेवानिवृत्त)", "जनरल व्ही. के. सिंह (निवृत्त)"), None, "2025-01-16",
                           "newsonair", GOV, "https://rajbhavan.mizoram.gov.in", conf="Official",
                           note="Former Chief of the Army Staff; sworn in as Governor of Mizoram on 16 January 2025 at Raj Bhavan, Aizawl, by Chief Justice Vijay Bishnoi of the Gauhati High Court (All India Radio News)."),
-    "headOfGovernment": office("chief-minister", L("Lalduhoma", "लालदुहोमा", "लालदुहोमा"), "ZPM", "2023-12-08",
-                               "udayavani", CM, "https://mizoram.gov.in", conf="Third-party verified",
-                               note="Sworn in on 8 December 2023 at Raj Bhavan, Aizawl, by Governor Kambhampati Hari Babu, after the Zoram People's Movement won 27 of the 40 seats (Udayavani/PTI)."),
+    "headOfGovernment": office('chief-minister', L('Lalduhoma', 'लालदुहोमा', 'लालदुहोमा'), 'ZPM', '2023-12-08', 'newsonair', 'https://newsonair.gov.in/wp-content/uploads/2026/09/aizwal.pdf', 'https://mizoram.gov.in', note="Official confirmation: Akashvani Aizawl regional bulletin 1 Sep 2026: Chief Minister Pu Lalduhoma on the Winter Festival. Sworn in on 8 December 2023 at Raj Bhavan, Aizawl, by Governor Kambhampati Hari Babu, after the Zoram People's Movement won 27 of the 40 seats (Udayavani/PTI).", as_of='2026-10-27'),
     "others": [
         office("speaker", L("Lalbiakzama", "लालबियाकज़ामा", "लालबियाकझामा"), "ZPM", "2023-12-12", "mz-assembly", SPK, "https://mizoramassembly.in", conf="Official",
                note="Elected unopposed as Speaker of the Ninth Mizoram Legislative Assembly on 12 December 2023 (Assembly bulletin)."),
@@ -76,6 +74,7 @@ GI_NAMES = {
  "Hmaram": ("ह्मारम (वस्त्र)", "ह्मारम (वस्त्र)"),
 }
 r["giProducts"] = gi_list("gi_mz.tsv", GI_NAMES, {}, {"Tawlhlohpuan", "Mizo Puanchei", "Pawndum", "Ngotekherh", "Hmaram"})
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-MZ.json", r)
 print("mz core ok", len(r["giProducts"]), "GIs")

@@ -186,3 +186,24 @@
 - Officeholders checked 25 Oct 2026: MZ Gov V. K. Singh 16 Jan 2025 (NOA); CM Lalduhoma 8 Dec 2023 (Udayavani/PTI); Speaker Lalbiakzama 12 Dec 2023 (Assembly bulletin). TR Gov N. Indrasena Reddy 26 Oct 2023 (Sentinel); CM Manik Saha 8 Mar 2023 (The Week/PTI); Speaker Biswa Bandhu Sen died 26 Dec 2025 (Deccan Herald) — successor (Wikipedia: Ram Pada Jamatia from 18 Mar 2026) not confirmed from an official source, so shown as TODO. AN LG Dinesh Sharma 15 Sep 2026 (ThePrint/PTI), succeeding Adm D. K. Joshi. CH Administrator = Punjab Governor Kataria (NOA, Jul 2024; NOA Mar 2026). DH & LD Administrator Praful Khoda Patel (LD since 5 Dec 2020, Lakshadweep Administration page; DH start date to confirm). PY LG Kailashnathan 7 Aug 2024 (NOA); CM N. Rangasamy (AINRC) 13 May 2026, NDA 18/30 (Organiser); Speaker A. Anbalagan as listed on NeVA portal (election date to confirm).
 - Projects: Bairabi–Sairang ₹8,070 cr, 13 Sep 2025 (NOA); Port Blair terminal ₹710 cr, 18 Jul 2023 (NOA); NAMO Hospital Silvassa ₹460 cr, 7 Mar 2025 (Deccan Herald); KLI-SOFC 3 Jan 2024, 1.7→200 Gbps (pmindia). TR, CH, PY: no card yet.
 - Districts vs LGD (Dec 2023): MZ 11, TR 8, AN 3, CH 1, DH 3, LD 1, PY 4 — all match.
+
+## Freshness pass, 27 Oct 2026 (Phase 4)
+
+Goal: replace third-party sources on officeholder and project cards with official ones. Official here means government,
+Rashtrapati Bhavan, legislature, PIB/PMIndia or Prasar Bharati (News On AIR / Akashvani) pages, as elsewhere in the project.
+
+- **Officeholders:** 40 of 56 third-party cards now cite an official page (`as_of="2026-10-27"`; the note starts
+  "Official confirmation:" and keeps the original swearing-in detail and its source). Each region was regenerated with
+  its original `BD_TODAY`, so no other access date moved; `meta.lastUpdated` is set to 2026-10-27 in those scripts.
+- Governors appointed in 2026 cite the President's communiqués (no. 32, 5 Mar 2026; no. 38, 12 Oct 2026); the swearing-in
+  dates stay attributed to the news reports in the note.
+- **J&K LG:** communiqué no. 37 (8 Sep 2026) had Ladakh LG Saxena discharge the J&K LG's functions during Manoj Sinha's
+  leave. Sinha was back by 27 Oct 2026 (Kashmir Reader); the card stays third-party with a re-check note.
+- **Still third-party (16):** AP Speaker; CT CM; DL LoP; J&K LG, CM, Speaker; KA Speaker, LoP; KL LoP; MP Dy CM
+  (Rajendra Shukla); PB CM; RJ CM, Dy CM (Bairwa), Speaker; TG Speaker; WB Speaker. Several assembly sites block
+  automated reading (Gujarat, West Bengal, Chhattisgarh portal), and some state portals are stale (mp.gov.in still shows
+  2019 officeholders), so they were not used.
+- **Projects (9) unchanged:** official pages exist for Sela Tunnel (PMIndia), NAMO Hospital (PMIndia, advance note) and
+  Mopa airport (PMIndia), but each covers only part of the card's text. Project cards have a single source, so switching
+  would overstate provenance. A per-field source on projects would allow it.
+- `officeholder_updates_2026_10_24.py` is superseded (KL/OR governor cards now live in their core scripts) and refuses to run.

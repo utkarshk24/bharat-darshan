@@ -51,12 +51,9 @@ r["government"] = {
     "headOfState": office("governor", L("Nand Kishore Yadav", "नंद किशोर यादव", "नंदकिशोर यादव"), None, "2026-03-13",
                           "newsonair", GOV, "https://rajbhavan.nagaland.gov.in", conf="Official",
                           note="Sworn in as the 23rd Governor of Nagaland on 13 March 2026; the oath was administered by Chief Justice Ashutosh Kumar of the Gauhati High Court (All India Radio News, Kohima). He was appointed by the President on 5 March and succeeded Ajay Kumar Bhalla, who had held additional charge."),
-    "headOfGovernment": office("chief-minister", L("Neiphiu Rio", "नेफ़्यू रियो", "नेफ्यू रियो"), "NPF", "2023-03-07",
-                               "tribune", CM, "https://www.nagaland.gov.in", conf="Third-party verified",
-                               note=f"Sworn in for a fifth term on 7 March 2023 at the Capital Cultural Hall, Kohima, by Governor La Ganesan, with T. R. Zeliang and Y. Patton as Deputy Chief Ministers (The Tribune). He then led the NDPP, which merged with the Naga People's Front on 18 October 2025; Rio was elected leader of the NPF legislature party (All India Radio News, {MERGER})."),
+    "headOfGovernment": office('chief-minister', L('Neiphiu Rio', 'नेफ़्यू रियो', 'नेफ्यू रियो'), 'NPF', '2023-03-07', 'nl-ipr', 'https://ipr.nagaland.gov.in/node/15800', 'https://www.nagaland.gov.in', note='Official confirmation: DIPR Nagaland release 25 Jan 2025: Chief Minister, Nagaland, Neiphiu Rio held a review meeting.', as_of='2026-10-27'),
     "others": [
-        office("speaker", L("Sharingain Longkumer", "शरिंगेन लोंगकुमेर", "शरिंगेन लोंगकुमेर"), None, "2023-03-20", "eastmojo", SPK, "https://www.nagaland.gov.in", conf="Third-party verified",
-               note="Re-elected unopposed as Speaker of the 14th Nagaland Legislative Assembly on 20 March 2023 (EastMojo); MLA from Aonglenden. He was first elected Speaker in 2020."),
+        office('speaker', L('Sharingain Longkumer', 'शरिंगेन लोंगकुमेर', 'शरिंगेन लोंगकुमेर'), None, '2023-03-20', 'nl-ipr', 'https://ipr.nagaland.gov.in/node/20135', 'https://www.nagaland.gov.in', note='Official confirmation: DIPR Nagaland release 27 Mar 2026: Speaker Sharingain Longkumer adjourned the House sine die after the 8th session of the 14th Assembly. Re-elected unopposed as Speaker of the 14th Nagaland Legislative Assembly on 20 March 2023 (EastMojo); MLA from Aonglenden. He was first elected Speaker in 2020.', as_of='2026-10-27'),
     ],
 }
 
@@ -76,6 +73,7 @@ GI_NAMES = {
  "Chak-Hao": ("चाक-हाओ (काला चावल)", "चाक-हाओ (काळा तांदूळ)"),
 }
 r["giProducts"] = gi_list("gi_nl.tsv", GI_NAMES, {"MN,NL": ["Manipur"]}, {"Chakhesang Shawl"})
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-NL.json", r)
 print("nl core ok", len(r["giProducts"]), "GIs")

@@ -45,15 +45,13 @@ r["symbols"] = {
 }
 
 r["government"] = {
-    "headOfState": office("governor", L("N. Indrasena Reddy", "एन. इंद्रसेना रेड्डी", "एन. इंद्रसेना रेड्डी"), None, "2023-10-26",
-                          "sentinel-assam", GOV, "https://rajbhavan.tripura.gov.in", conf="Third-party verified",
-                          note="Sworn in as the 20th Governor of Tripura at Raj Bhavan, Agartala, by Chief Justice Aparesh Kumar Singh of the Tripura High Court, succeeding Satyadeo Narain Arya (The Sentinel, 26 Oct 2023)."),
-    "headOfGovernment": office("chief-minister", L("Manik Saha", "माणिक साहा", "माणिक साहा"), "BJP", "2023-03-08",
-                               "the-week", CM, "https://tripura.gov.in", conf="Third-party verified",
-                               note="Sworn in for a second term on 8 March 2023 after the BJP-led alliance won the 2023 Assembly election (The Week/PTI). He first became Chief Minister in May 2022."),
+    "headOfState": office('governor', L('N. Indrasena Reddy', 'एन. इंद्रसेना रेड्डी', 'एन. इंद्रसेना रेड्डी'), None, '2023-10-26', 'tr-lokbhavan', 'https://rajbhavan.tripura.gov.in/node/366', 'https://rajbhavan.tripura.gov.in', note='Official confirmation: Raj Bhavan Tripura website, Governor of Tripura: Shri Indrasena Reddy Nallu. Sworn in as the 20th Governor of Tripura at Raj Bhavan, Agartala, by Chief Justice Aparesh Kumar Singh of the Tripura High Court, succeeding Satyadeo Narain Arya (The Sentinel, 26 Oct 2023).', as_of='2026-10-27'),
+    "headOfGovernment": office('chief-minister', L('Manik Saha', 'माणिक साहा', 'माणिक साहा'), 'BJP', '2023-03-08', 'newsonair', 'https://www.newsonair.gov.in/tripura-cm-manik-saha-expands-cabinet-inducts-1st-time-mla-kishore-barman', 'https://tripura.gov.in', note='Official confirmation: News On AIR 3 Jul 2025: Chief Minister Dr Manik Saha expanded his cabinet; Governor Indra Sena Reddy Nallu administered the oath. Sworn in for a second term on 8 March 2023 after the BJP-led alliance won the 2023 Assembly election (The Week/PTI). He first became Chief Minister in May 2022.', as_of='2026-10-27'),
     "others": [
-        office_todo("speaker", "deccan-herald", "https://tripura.gov.in",
-                    "Speaker Biswa Bandhu Sen died on 26 December 2025 (Deccan Herald/PTI). His successor is to be confirmed from the Tripura Legislative Assembly before a name is shown."),
+        office("speaker", L("Rampada Jamatia", "रामपद जमातिया", "रामपद जमातिया"), None, None, "newsonair",
+               "https://www.newsonair.gov.in/wp-content/uploads/2026/03/shillong-4.pdf", "https://tripura.gov.in",
+               note="Akashvani Shillong regional bulletin of 19 March 2026: MLA Rampada Jamatia elected unopposed as Speaker of the Tripura Legislative Assembly. The bulletin gives neither the exact date of the election nor his party. He succeeded Biswa Bandhu Sen, who died on 26 December 2025 (Deccan Herald/PTI).",
+               as_of="2026-10-27"),
     ],
 }
 
@@ -66,6 +64,7 @@ GI_NAMES = {
  "Tripura Pachra-Rignai Textile": ("त्रिपुरा पाछरा-रिग्नाई वस्त्र", "त्रिपुरा पाछरा-रिग्नाई वस्त्र"),
 }
 r["giProducts"] = gi_list("gi_tr.tsv", GI_NAMES, {}, {"Tripura Risa Textile", "Tripura Pachra-Rignai Textile"})
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-TR.json", r)
 print("tr core ok", len(r["giProducts"]), "GIs")

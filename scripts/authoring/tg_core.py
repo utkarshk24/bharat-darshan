@@ -47,15 +47,10 @@ r["symbols"] = {
 }
 
 r["government"] = {
-    "headOfState": office("governor", L("Shiv Pratap Shukla", "शिव प्रताप शुक्ल", "शिव प्रताप शुक्ला"), None, "2026-03-11",
-                          "ians", GOV, "https://igod.gov.in", conf="Third-party verified",
-                          note="Moved from Himachal Pradesh (President's communiqué of 5 March 2026). Sworn in as the fourth Governor of Telangana on 11 March 2026 by Chief Justice Aparesh Kumar, succeeding Jishnu Dev Varma (IANS). Confirm on the Lok Bhavan, Telangana website."),
-    "headOfGovernment": office("chief-minister", L("A. Revanth Reddy", "ए. रेवंत रेड्डी", "ए. रेवंत रेड्डी"), "INC", "2023-12-07",
-                               "tribune", CM, "https://www.telangana.gov.in", conf="Third-party verified",
-                               note="Sworn in on 7 December 2023 (The Tribune). Attended the Governor's swearing-in as Chief Minister on 11 March 2026 (IANS)."),
+    "headOfState": office('governor', L('Shiv Pratap Shukla', 'शिव प्रताप शुक्ल', 'शिव प्रताप शुक्ला'), None, '2026-03-11', 'president-of-india', 'https://presidentofindia.nic.in/press_releases/press-communique-32', 'https://igod.gov.in', note="Official confirmation: Rashtrapati Bhavan communique 5 Mar 2026: Shiv Pratap Shukla appointed Governor of Telangana. Moved from Himachal Pradesh (President's communiqué of 5 March 2026). Sworn in as the fourth Governor of Telangana on 11 March 2026 by Chief Justice Aparesh Kumar, succeeding Jishnu Dev Varma (IANS). Confirm on the Lok Bhavan, Telangana website.", as_of='2026-10-27'),
+    "headOfGovernment": office('chief-minister', L('A. Revanth Reddy', 'ए. रेवंत रेड्डी', 'ए. रेवंत रेड्डी'), 'INC', '2023-12-07', 'tg-gov', 'https://www.telangana.gov.in', 'https://www.telangana.gov.in', note="Official confirmation: Telangana State Portal (current; lists Governor Shiv Pratap Shukla): Chief Minister Sri Anumula Revanth Reddy. Sworn in on 7 December 2023 (The Tribune). Attended the Governor's swearing-in as Chief Minister on 11 March 2026 (IANS).", as_of='2026-10-27'),
     "others": [
-        office("deputy-chief-minister", L("Mallu Bhatti Vikramarka", "मल्लु भट्टि विक्रमार्क", "मल्लू भट्टी विक्रमार्क"), "INC", "2023-12-07", "tribune", CM, "https://www.telangana.gov.in",
-               conf="Third-party verified", note="Sworn in with the Chief Minister on 7 December 2023 (The Tribune)."),
+        office('deputy-chief-minister', L('Mallu Bhatti Vikramarka', 'मल्लु भट्टि विक्रमार्क', 'मल्लू भट्टी विक्रमार्क'), 'INC', '2023-12-07', 'newsonair', 'https://www.newsonair.gov.in/telangana-budget-session-begins-today-governor-to-address-joint-sitting-of-both-houses', 'https://www.telangana.gov.in', note='Official confirmation: News On AIR 16 Mar 2026: Deputy Chief Minister Mallu Bhatti Vikramarka to present the budget. Sworn in with the Chief Minister on 7 December 2023 (The Tribune).', as_of='2026-10-27'),
         office("speaker", L("Gaddam Prasad Kumar", "गड्डम प्रसाद कुमार", "गड्डम प्रसाद कुमार"), "INC", "2023-12-14", "thesouthfirst", SPK, "https://www.telangana.gov.in",
                conf="Third-party verified", note="Elected unopposed on 14 December 2023, the State's first Dalit Speaker (The South First). Confirm on the Legislature website."),
     ],
@@ -103,6 +98,7 @@ GI_NAMES = {
 }
 TEXTILE = {"Pochampally Ikat", "Pochampally Ikat (Logo)", "Gadwal Sarees", "Siddipet Gollabama", "Narayanpet Handloom Sarees", "Telia Rumal", "Warangal Durries"}
 r["giProducts"] = gi_list("gi_tg.tsv", GI_NAMES, {"AP,TG": ["Andhra Pradesh"]}, TEXTILE)
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-TG.json", r)
 print("tg core ok", len(r["giProducts"]), "GIs")

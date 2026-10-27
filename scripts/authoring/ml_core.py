@@ -51,9 +51,7 @@ r["government"] = {
     "headOfState": office("governor", L("C. H. Vijayashankar", "सी. एच. विजयशंकर", "सी. एच. विजयशंकर"), None, "2024-07-30",
                           "ml-governor", GOV, "https://meggovernor.gov.in", conf="Official",
                           note="Sworn in as Governor of Meghalaya on 30 July 2024 at Raj Bhavan, Shillong, by Chief Justice S. Vaidyanathan of the Meghalaya High Court (Lok Bhavan Meghalaya press release). He succeeded Phagu Chauhan."),
-    "headOfGovernment": office("chief-minister", L("Conrad K. Sangma", "कॉनराड के. संगमा", "कॉनराड के. संगमा"), "NPP", "2023-03-07",
-                               "morung-express", CM, "https://meghalaya.gov.in", conf="Third-party verified",
-                               note="Sworn in for a second term on 7 March 2023 in Shillong, heading the Meghalaya Democratic Alliance (MDA 2.0) led by the National People's Party, with Prestone Tynsong and Sniawbhalang Dhar as Deputy Chief Ministers (The Morung Express). First sworn in as Chief Minister in March 2018."),
+    "headOfGovernment": office('chief-minister', L('Conrad K. Sangma', 'कॉनराड के. संगमा', 'कॉनराड के. संगमा'), 'NPP', '2023-03-07', 'newsonair', 'https://www.newsonair.gov.in/wp-content/uploads/2026/02/shillong-4.pdf', 'https://meghalaya.gov.in', note="Official confirmation: Akashvani Shillong bulletin 16 Feb 2026: Chief Minister Conrad K Sangma, who holds the finance portfolio, to present the 2026-27 budget. Sworn in for a second term on 7 March 2023 in Shillong, heading the Meghalaya Democratic Alliance (MDA 2.0) led by the National People's Party, with Prestone Tynsong and Sniawbhalang Dhar as Deputy Chief Ministers (The Morung Express). First sworn in as Chief Minister in March 2018.", as_of='2026-10-27'),
     "others": [
         office("speaker", L("Thomas A. Sangma", "थॉमस ए. संगमा", "थॉमस ए. संगमा"), "NPP", "2023-03-09", "ml-gov", SPK, "https://meghalaya.gov.in", conf="Official",
                note="Elected Speaker of the Eleventh Meghalaya Legislative Assembly on 9 March 2023 (Legislative Assembly Secretariat notice No. LB.5/LA/2023/5)."),
@@ -80,6 +78,7 @@ GI_NAMES = {
  "Meghalaya Chubitchi": ("मेघालय चुबित्ची (चावल पेय)", "मेघालय चुबित्ची (तांदळाचे पेय)"),
 }
 r["giProducts"] = gi_list("gi_ml.tsv", GI_NAMES, {}, {"Meghalaya Garo Textile", "Meghalaya Ryndia Textile", "Meghalaya Khasi Handloom Products"})
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-ML.json", r)
 print("ml core ok", len(r["giProducts"]), "GIs")

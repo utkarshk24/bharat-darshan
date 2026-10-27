@@ -52,9 +52,7 @@ r["government"] = {
     "headOfState": office("governor", L("Lt Gen Kaiwalya Trivikram Parnaik (Retd)", "लेफ़्टिनेंट जनरल कैवल्य त्रिविक्रम परनाइक (सेवानिवृत्त)", "लेफ्टनंट जनरल कैवल्य त्रिविक्रम परनाईक (निवृत्त)"), None, "2023-02-16",
                           "ar-governor", GOV, "https://arunachalgovernor.gov.in", conf="Official",
                           note="Sworn in at Raj Bhavan, Itanagar, on 16 February 2023; Justice Nani Tagia of the Gauhati High Court administered the oath (Lok Bhavan press release). Still in office per the Lok Bhavan release of 15 August 2026."),
-    "headOfGovernment": office("chief-minister", L("Pema Khandu", "पेमा खांडू", "पेमा खांडू"), "BJP", "2024-06-13",
-                               "etv-bharat", CM, "https://arunachalpradesh.gov.in", conf="Third-party verified",
-                               note="Sworn in for a third consecutive term on 13 June 2024 by Governor K. T. Parnaik; Chowna Mein was sworn in as Deputy Chief Minister (ETV Bharat). Named as Chief Minister in the Lok Bhavan release of 15 August 2026."),
+    "headOfGovernment": office('chief-minister', L('Pema Khandu', 'पेमा खांडू', 'पेमा खांडू'), 'BJP', '2024-06-13', 'newsonair', 'https://www.newsonair.gov.in/bjp-leader-pema-khandu-to-be-sworn-in-as-arunachal-pradesh-cm-today', 'https://arunachalpradesh.gov.in', note='Official confirmation: News On AIR: Pema Khandu took oath as CM for third consecutive term (undated page; date from existing source). Sworn in for a third consecutive term on 13 June 2024 by Governor K. T. Parnaik; Chowna Mein was sworn in as Deputy Chief Minister (ETV Bharat). Named as Chief Minister in the Lok Bhavan release of 15 August 2026.', as_of='2026-10-27'),
     "others": [
         office("speaker", L("Tesam Pongte", "तेसाम पोंग्ते", "तेसाम पोंग्ते"), "BJP", "2024-06-15", "newsonair", SPK, "https://arunachalpradesh.gov.in", conf="Official",
                note="Elected unanimously as Speaker of the 8th Arunachal Pradesh Legislative Assembly (News On AIR, 15 June 2024); MLA from Changlang North."),
@@ -101,6 +99,7 @@ TEXTILE = {"Idu Mishmi Textiles", "Arunachal Pradesh Tangsa Textile Product", "A
            "Arunachal Pradesh Nyishi Textile", "Arunachal Pradesh Adi Textile", "Arunachal Pradesh Galo Textile", "Arunachal Pradesh Tai Khamti Textile",
            "Assam Mishing Handloom Products"}
 r["giProducts"] = gi_list("gi_ar.tsv", GI_NAMES, {"AR,AS": ["Assam"], "AS,AR": ["Assam"]}, TEXTILE)
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-AR.json", r)
 print("ar core ok", len(r["giProducts"]), "GIs")

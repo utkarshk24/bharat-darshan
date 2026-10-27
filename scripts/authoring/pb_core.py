@@ -53,8 +53,7 @@ r["government"] = {
                                "deccan-herald", CM, "https://punjab.gov.in", conf="Third-party verified",
                                note="Sworn in on 16 March 2022 at Khatkar Kalan, the ancestral village of Bhagat Singh, by Governor Banwarilal Purohit (Deccan Herald / PTI)."),
     "others": [
-        office("speaker", L("Kultar Singh Sandhwan", "कुलतार सिंह संधवां", "कुलतार सिंह संधवां"), "AAP", "2022-03-21", "etv-bharat", SPK, "https://punjabassembly.gov.in", conf="Third-party verified",
-               note="Elected unanimously as Speaker of the 16th Punjab Vidhan Sabha on 21 March 2022; MLA from Kotkapura (ETV Bharat). The Assembly's notification of 22 March 2022 could not be read here."),
+        office('speaker', L('Kultar Singh Sandhwan', 'कुलतार सिंह संधवां', 'कुलतार सिंह संधवां'), 'AAP', '2022-03-21', 'pb-ipr', 'https://ipr.punjab.gov.in/en/press-releases/hq-press-releases/punjab-vidhan-sabha-speaker-s-kultar-singh-sandhwan-attends-85th-all-india-presiding-officers-conference-in-patna-pays-obeisance-at-vaishali-stupa', 'https://punjabassembly.gov.in', note="Official confirmation: DIPR Punjab release, Chandigarh 22 Jan 2025: Punjab Vidhan Sabha Speaker S. Kultar Singh Sandhwan. Elected unanimously as Speaker of the 16th Punjab Vidhan Sabha on 21 March 2022; MLA from Kotkapura (ETV Bharat). The Assembly's notification of 22 March 2022 could not be read here.", as_of='2026-10-27'),
     ],
 }
 
@@ -78,6 +77,7 @@ GI_NAMES = {
 SHARED = {"PB,HR,HP,DL,UK,UP,JK": ["Haryana", "Himachal Pradesh", "Delhi", "Uttarakhand", "Uttar Pradesh", "Jammu & Kashmir"],
           "PB,HR,RJ": ["Haryana", "Rajasthan"]}
 r["giProducts"] = gi_list("gi_pb.tsv", GI_NAMES, SHARED, {"Phulkari"})
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-PB.json", r)
 print("pb core ok", len(r["giProducts"]), "GIs")

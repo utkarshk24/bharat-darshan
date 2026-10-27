@@ -47,9 +47,7 @@ r["symbols"] = {
 }
 
 r["government"] = {
-    "headOfState": office("governor", L("Sudha Yadav", "सुधा यादव", "सुधा यादव"), None, "2026-10-16",
-                          "ani", ANI_GOV, "https://igod.gov.in", conf="Third-party verified",
-                          note="Appointed by the President on 12 October 2026 (Rashtrapati Bhavan communiqué) and sworn in at Raj Bhavan, Bengaluru, on 16 October 2026 by Chief Justice Vibhu Bakhru of the Karnataka High Court (ANI). Former Lok Sabha member from Mahendragarh, Haryana. Succeeded Thaawarchand Gehlot (Governor from July 2021). Confirm on the Raj Bhavan / Lok Bhavan, Karnataka website."),
+    "headOfState": office('governor', L('Sudha Yadav', 'सुधा यादव', 'सुधा यादव'), None, '2026-10-16', 'newsonair', 'https://www.newsonair.gov.in/dr-sudha-yadav-assumes-office-as-governor-of-karnataka/', 'https://igod.gov.in', note='Official confirmation: News On AIR 16 Oct 2026: Dr Sudha Yadav assumed office as Governor at Lok Bhavan, Bengaluru. Appointed by the President on 12 October 2026 (Rashtrapati Bhavan communiqué) and sworn in at Raj Bhavan, Bengaluru, on 16 October 2026 by Chief Justice Vibhu Bakhru of the Karnataka High Court (ANI). Former Lok Sabha member from Mahendragarh, Haryana. Succeeded Thaawarchand Gehlot (Governor from July 2021). Confirm on the Raj Bhavan / Lok Bhavan, Karnataka website.', as_of='2026-10-27'),
     "headOfGovernment": office("chief-minister", L("D. K. Shivakumar", "डी. के. शिवकुमार", "डी. के. शिवकुमार"), "INC", "2026-06-03",
                                "newsonair", NOA_CAB, "https://www.karnataka.gov.in",
                                note="Assumed office as Chief Minister on 3 June 2026 with 13 ministers, succeeding Siddaramaiah (News On AIR, 3 August 2026)."),
@@ -126,7 +124,7 @@ GI_NAMES = {
 TEXTILE = {"Mysore Silk", "Kasuti Embroidery", "Navalgund Durries", "Ilkal Sarees", "Molakalmuru Sarees", "Sandur Lambani Embroidery",
            "Guledgudd Khana", "Udupi Sarees", "Navalgund Durries (Logo)", "Mysore Silk (Logo)", "Patteda Anchu Saree & Fabrics"}
 r["giProducts"] = gi_list("gi_ka.tsv", GI_NAMES, {}, TEXTILE)
-r["government"]["headOfState"]["asOf"] = "2026-10-16"
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-KA.json", r)
 print("ka core ok", len(r["giProducts"]), "GIs")

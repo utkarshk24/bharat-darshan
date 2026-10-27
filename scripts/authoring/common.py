@@ -200,8 +200,9 @@ def gi_list(path, names, shared_map, textile=()):
     return out
 
 
-def office(role, name, party, since, src, url, verify, conf="Official", note=None, rev="final"):
-    o = {"role": role, "name": name, "party": party, "since": since, "asOf": TODAY, "sourceId": src, "url": url,
+def office(role, name, party, since, src, url, verify, conf="Official", note=None, rev="final", as_of=None):
+    """as_of: date this card was last checked, when later than the region's BD_TODAY."""
+    o = {"role": role, "name": name, "party": party, "since": since, "asOf": as_of or TODAY, "sourceId": src, "url": url,
          "verifyUrl": verify, "revisionStatus": rev, "confidence": conf}
     if note:
         o["note"] = note
@@ -213,11 +214,11 @@ def office_todo(role, src, verify, note):
             "verifyUrl": verify, "revisionStatus": "TODO", "confidence": "Official", "note": note}
 
 
-def proj(id, name, objective, sector, agency, cost, costnote, costperiod, start, completion, status, src, url, challenges=None, conf="Official"):
+def proj(id, name, objective, sector, agency, cost, costnote, costperiod, start, completion, status, src, url, challenges=None, conf="Official", as_of=None):
     p = {"id": id, "name": name, "objective": objective, "sector": sector, "agency": agency,
-         "start": start, "completion": completion, "status": status, "asOf": TODAY, "sourceId": src, "url": url, "confidence": conf}
+         "start": start, "completion": completion, "status": status, "asOf": as_of or TODAY, "sourceId": src, "url": url, "confidence": conf}
     if cost is not None:
-        p["cost"] = dp(cost, "₹ crore", costperiod, "calendar", src, url, note=costnote)
+        p["cost"] = dp(cost, "₹ crore", costperiod, "calendar", src, url, note=costnote, access=as_of or TODAY)
     if challenges:
         p["challenges"] = challenges
     return p

@@ -56,8 +56,7 @@ r["government"] = {
     "others": [
         office("deputy-chief-minister", L("Harsh Sanghavi", "हर्ष संघवी", "हर्ष संघवी"), "BJP", "2025-10-17", "newsonair", NOA_GOV, "https://gujaratindia.gov.in",
                note="Became Deputy Chief Minister in the October 2025 cabinet reshuffle; named as Deputy CM by News On AIR on 4 March 2026."),
-        office("speaker", L("Shankar Chaudhary", "शंकर चौधरी", "शंकर चौधरी"), "BJP", "2022-12-20", "theprint", SPK, "https://gujaratassembly.gov.in",
-               conf="Third-party verified", note="Elected unopposed on 20 December 2022 (ThePrint, PTI). Confirm on the Assembly website."),
+        office('speaker', L('Shankar Chaudhary', 'शंकर चौधरी', 'शंकर चौधरी'), 'BJP', '2022-12-20', 'gj-assembly', 'https://cms.neva.gov.in/NeVA/GJ/FileStructure/Notices/0728f9af-f768-4851-b293-51bc1054bc56.pdf', 'https://gujaratassembly.gov.in', note='Official confirmation: Gujarat Legislature Secretariat notification (Gazette Extraordinary) 20 Dec 2022: Shankarbhai Lagdhirbhai Chaudhary unanimously chosen Speaker. Elected unopposed on 20 December 2022 (ThePrint, PTI). Confirm on the Assembly website.', as_of='2026-10-27'),
     ],
 }
 
@@ -110,6 +109,7 @@ TEXTILE = {"Kutch Embroidery", "Tangaliya Shawl", "Surat Zari Craft", "Kachchh S
            "Kutch Embroidery (Logo)", "Mata ni Pachhedi", "Kutch Bandhani", "Gharchola Craft of Gujarat", "Gujarat Suf Embroidery",
            "Ahmedabad Sodagari Block Print", "Bharuch Sujani Weaving", "Kutch Ajrakh"}
 r["giProducts"] = gi_list("gi_gj.tsv", GI_NAMES, {}, TEXTILE)
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-GJ.json", r)
 print("gj core ok", len(r["giProducts"]), "GIs")

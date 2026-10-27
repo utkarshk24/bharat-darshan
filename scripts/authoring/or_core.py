@@ -57,14 +57,15 @@ r["government"] = {
                note="Sworn in with the Chief Minister on 12 June 2024 (News On AIR)."),
         office("deputy-chief-minister", L("Pravati Parida", "प्रभाती परिडा", "प्रभाती परिडा"), "BJP", "2024-06-12", "newsonair", CM, "https://odisha.gov.in",
                note="Sworn in with the Chief Minister on 12 June 2024 (News On AIR)."),
-        office("speaker", L("Surama Padhy", "सुरमा पाढ़ी", "सुरमा पाढी"), "BJP", "2024-06-20", "odishabytes", SPK, "https://odishaassembly.nic.in",
-               conf="Third-party verified",
-               note="Elected unopposed on 20 June 2024; MLA from Ranpur and the second woman Speaker of the Assembly, after Pramila Mallik (OdishaBytes)."),
+        office('speaker', L('Surama Padhy', 'सुरमा पाढ़ी', 'सुरमा पाढी'), 'BJP', '2024-06-20', 'or-assembly', 'https://odishaassembly.nic.in', 'https://odishaassembly.nic.in', note='Official confirmation: Odisha Legislative Assembly website: Speaker Surama Padhy. Elected unopposed on 20 June 2024; MLA from Ranpur and the second woman Speaker of the Assembly, after Pramila Mallik (OdishaBytes).', as_of='2026-10-27'),
     ],
 }
 
-from officeholder_updates_2026_10_24 import OR_GOV
-r["government"]["headOfState"] = OR_GOV  # changed 18 Oct 2026
+OR_GOV = office("governor", L("Braj Mohan Ram", "ब्रज मोहन राम", "ब्रज मोहन राम"), None, "2026-10-18",
+                "president-of-india", "https://presidentofindia.nic.in/press_releases/press-communique-38", "https://rajbhavanodisha.gov.in",
+                note="Official confirmation: Rashtrapati Bhavan communiqué of 12 October 2026 appointing Braj Mohan Ram as Governor of Odisha. Sworn in as the 28th Governor of Odisha at Lok Bhavan, Bhubaneswar, on 18 October 2026 by Orissa High Court Chief Justice Harish Tandon (ThePrint / PTI). Three-time Lok Sabha member from Palamu, Jharkhand. Succeeded Dr Hari Babu Kambhampati (Governor from 3 January 2025).",
+                as_of="2026-10-27")
+r["government"]["headOfState"] = OR_GOV  # changed 18 Oct 2026; re-checked 27 Oct 2026
 
 r["projects"] = [
     proj("sicsem-fab", L("SiCSem silicon-carbide semiconductor unit, Bhubaneswar", "सिकसेम सिलिकॉन कार्बाइड सेमीकंडक्टर इकाई, भुवनेश्वर", "सिकसेम सिलिकॉन कार्बाइड सेमीकंडक्टर प्रकल्प, भुवनेश्वर"),
@@ -115,6 +116,7 @@ r["giProducts"] = gi_list("gi_or.tsv", GI_NAMES, {"AP,OR": ["Andhra Pradesh"]}, 
 for g in r["giProducts"]:
     if "&" in g["applicationNo"]:
         g["note"] += " The registry lists two application numbers for this GI; the date shown is the earlier filing."
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-OR.json", r)
 print("or core ok", len(r["giProducts"]), "GIs")

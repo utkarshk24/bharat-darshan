@@ -48,12 +48,8 @@ r["symbols"] = {
 }
 
 r["government"] = {
-    "headOfState": office("governor", L("Dushyant Kumar Gautam", "दुष्यंत कुमार गौतम", "दुष्यंत कुमार गौतम"), None, "2026-10-19",
-                          "eastmojo", GOV, "https://rajbhavansikkim.gov.in", conf="Third-party verified",
-                          note="Sworn in as the 19th Governor of Sikkim at Lok Bhavan, Gangtok, on 19 October 2026 by Chief Justice A. Muhamed Mustaque of the Sikkim High Court, after his appointment by the President on 12 October; succeeded Om Prakash Mathur (EastMojo)."),
-    "headOfGovernment": office("chief-minister", L("Prem Singh Tamang (Golay)", "प्रेम सिंह तमांग (गोले)", "प्रेम सिंह तमांग (गोले)"), "SKM", "2024-06-10",
-                               "scroll", CM, "https://sikkim.gov.in", conf="Third-party verified",
-                               note="Sworn in for a second consecutive term on 10 June 2024 in Gangtok by Governor Lakshman Acharya, after the Sikkim Krantikari Morcha won the 2024 Assembly election; MLA from Rhenock (Scroll)."),
+    "headOfState": office('governor', L('Dushyant Kumar Gautam', 'दुष्यंत कुमार गौतम', 'दुष्यंत कुमार गौतम'), None, '2026-10-19', 'president-of-india', 'https://presidentofindia.nic.in/press_releases/press-communique-38', 'https://rajbhavansikkim.gov.in', note='Official confirmation: Rashtrapati Bhavan communique 12 Oct 2026: Dushyant Gautam appointed Governor of Sikkim. Sworn in as the 19th Governor of Sikkim at Lok Bhavan, Gangtok, on 19 October 2026 by Chief Justice A. Muhamed Mustaque of the Sikkim High Court, after his appointment by the President on 12 October; succeeded Om Prakash Mathur (EastMojo).', as_of='2026-10-27'),
+    "headOfGovernment": office('chief-minister', L('Prem Singh Tamang (Golay)', 'प्रेम सिंह तमांग (गोले)', 'प्रेम सिंह तमांग (गोले)'), 'SKM', '2024-06-10', 'sk-gov', 'https://ipr.sikkim.gov.in/Home/HcmProfile', 'https://sikkim.gov.in', note="Official confirmation: IPR Sikkim, Hon'ble Chief Minister profile: Shri Prem Singh Tamang (Golay); first sworn in 27 May 2019. Sworn in for a second consecutive term on 10 June 2024 in Gangtok by Governor Lakshman Acharya, after the Sikkim Krantikari Morcha won the 2024 Assembly election; MLA from Rhenock (Scroll).", as_of='2026-10-27'),
     "others": [
         office("speaker", L("Mingma Norbu Sherpa", "मिंगमा नोर्बु शेर्पा", "मिंगमा नोर्बु शेर्पा"), "SKM", "2024-06-12", "sk-gov", SPK, "https://sikkim.gov.in", conf="Official",
                note="Elected Speaker of the Eleventh Sikkim Legislative Assembly on 12 June 2024 (Sikkim Legislative Assembly notification, 21 June 2024)."),
@@ -80,6 +76,7 @@ GI_NAMES = {
  "Dalle Khursani": ("डल्ले खुर्सानी (मिर्च)", "डल्ले खुर्सानी (मिरची)"),
 }
 r["giProducts"] = gi_list("gi_sk.tsv", GI_NAMES, {"SK,WB": ["West Bengal"]}, set())
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-SK.json", r)
 print("sk core ok", len(r["giProducts"]), "GIs")

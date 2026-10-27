@@ -19,8 +19,7 @@ r["symbols"] = {"animal": sym("Dugong", "डुगोंग", "डुगाँ�
                 "bird": sym("Andaman wood pigeon", "अंडमान वन कबूतर", "अंदमान वन कबूतर", "Columba palumboides"),
                 "tree": sym("Andaman padauk", "अंडमान पडौक", "अंदमान पडौक", "Pterocarpus dalbergioides")}
 r["government"] = {
-    "headOfState": office("lieutenant-governor", L("Dinesh Sharma", "दिनेश शर्मा", "दिनेश शर्मा"), None, "2026-09-15", "theprint", LG, "https://andaman.gov.in", conf="Third-party verified",
-                          note="Sworn in as Lieutenant Governor on 15 September 2026 at Lok Niwas, Sri Vijaya Puram, by Chief Justice Ravindra Vithalrao Ghuge of the Calcutta High Court, succeeding Admiral D. K. Joshi (Retd), LG since October 2017. Former Deputy Chief Minister of Uttar Pradesh (ThePrint/PTI)."),
+    "headOfState": office('lieutenant-governor', L('Dinesh Sharma', 'दिनेश शर्मा', 'दिनेश शर्मा'), None, '2026-09-15', 'president-of-india', 'https://presidentofindia.nic.in/press_releases/press-communique-36', 'https://andaman.gov.in', note='Official confirmation: Rashtrapati Bhavan communique 5 Sep 2026: President appoints Dr Dinesh Sharma LG of A&N, effective from assuming charge. Sworn in as Lieutenant Governor on 15 September 2026 at Lok Niwas, Sri Vijaya Puram, by Chief Justice Ravindra Vithalrao Ghuge of the Calcutta High Court, succeeding Admiral D. K. Joshi (Retd), LG since October 2017. Former Deputy Chief Minister of Uttar Pradesh (ThePrint/PTI).', as_of='2026-10-27'),
     "headOfGovernment": None, "others": [],
 }
 r["projects"] = [
@@ -40,7 +39,8 @@ GI_NAMES = {
  "Nicobari Tavi-i-Ngaich (Virgin Coconut Oil) of Andaman & Nicobar": ("निकोबारी तावी-इ-ङाइच (वर्जिन नारियल तेल)", "निकोबारी तावी-इ-ङाइच (व्हर्जिन नारळ तेल)"),
 }
 r["giProducts"] = gi_list("gi_an.tsv", GI_NAMES, {}, set())
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-AN.json", r)
 m = r["metrics"]
 

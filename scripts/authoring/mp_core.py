@@ -47,19 +47,13 @@ r["symbols"] = {
 }
 
 r["government"] = {
-    "headOfState": office("governor", L("Mangubhai C. Patel", "मंगुभाई छ. पटेल", "मंगूभाई छ. पटेल"), None, "2021-07-08",
-                          "fpj", GOV, "https://igod.gov.in", conf="Third-party verified",
-                          note="Appointed on 6 July 2021 and sworn in on 8 July 2021. Free Press Journal reported on 6 July 2026 that he completed five years and continues until a successor is appointed. Confirm on the Lok Bhavan, Madhya Pradesh website."),
-    "headOfGovernment": office("chief-minister", L("Mohan Yadav", "मोहन यादव", "मोहन यादव"), "BJP", "2023-12-13",
-                               "scroll", CM, "https://www.mp.gov.in", conf="Third-party verified",
-                               note="Sworn in on 13 December 2023 (Scroll). Inaugurated Bhopal Metro services as Chief Minister on 20 December 2025 (News On AIR)."),
+    "headOfState": office('governor', L('Mangubhai C. Patel', 'मंगुभाई छ. पटेल', 'मंगूभाई छ. पटेल'), None, '2021-07-08', 'newsonair', 'https://www.newsonair.gov.in/budget-session-of-madhya-pradesh-begins-today-governor-mangubhai-patel-to-address', 'https://igod.gov.in', note="Official confirmation: News On AIR 16 Feb 2026: session opens with Governor Mangubhai Patel's address. Appointed on 6 July 2021 and sworn in on 8 July 2021. Free Press Journal reported on 6 July 2026 that he completed five years and continues until a successor is appointed. Confirm on the Lok Bhavan, Madhya Pradesh website.", as_of='2026-10-27'),
+    "headOfGovernment": office('chief-minister', L('Mohan Yadav', 'मोहन यादव', 'मोहन यादव'), 'BJP', '2023-12-13', 'newsonair', 'https://newsonair.gov.in/madhya-pradesh-cm-mohan-yadav-meets-pm-modi-briefs-him-on-states-development-works/', 'https://www.mp.gov.in', note='Official confirmation: News On AIR 1 Oct 2026: Chief Minister Dr Mohan Yadav met PM in New Delhi. Sworn in on 13 December 2023 (Scroll). Inaugurated Bhopal Metro services as Chief Minister on 20 December 2025 (News On AIR).', as_of='2026-10-27'),
     "others": [
-        office("deputy-chief-minister", L("Jagdish Devda", "जगदीश देवड़ा", "जगदीश देवडा"), "BJP", "2023-12-13", "scroll", CM, "https://www.mp.gov.in",
-               conf="Third-party verified", note="Sworn in with the Chief Minister (Scroll)."),
+        office('deputy-chief-minister', L('Jagdish Devda', 'जगदीश देवड़ा', 'जगदीश देवडा'), 'BJP', '2023-12-13', 'newsonair', 'https://www.newsonair.gov.in/budget-session-of-madhya-pradesh-begins-today-governor-mangubhai-patel-to-address', 'https://www.mp.gov.in', note='Official confirmation: News On AIR 16 Feb 2026: Deputy Chief Minister Jagdish Devda to present the budget. Sworn in with the Chief Minister (Scroll).', as_of='2026-10-27'),
         office("deputy-chief-minister", L("Rajendra Shukla", "राजेंद्र शुक्ल", "राजेंद्र शुक्ला"), "BJP", "2023-12-13", "scroll", CM, "https://www.mp.gov.in",
                conf="Third-party verified", note="Sworn in with the Chief Minister (Scroll)."),
-        office("speaker", L("Narendra Singh Tomar", "नरेंद्र सिंह तोमर", "नरेंद्रसिंह तोमर"), "BJP", "2023-12-20", "fpj", SPK, "https://mpvidhansabha.nic.in",
-               conf="Third-party verified", note="Former Union minister, elected unopposed in December 2023 (Free Press Journal). Confirm the date on the Assembly website."),
+        office('speaker', L('Narendra Singh Tomar', 'नरेंद्र सिंह तोमर', 'नरेंद्रसिंह तोमर'), 'BJP', '2023-12-20', 'newsonair', 'https://www.newsonair.gov.in/budget-session-of-madhya-pradesh-begins-today-governor-mangubhai-patel-to-address', 'https://mpvidhansabha.nic.in', note='Official confirmation: News On AIR 16 Feb 2026: Assembly Speaker Narendra Singh Tomar. Former Union minister, elected unopposed in December 2023 (Free Press Journal). Confirm the date on the Assembly website.', as_of='2026-10-27'),
     ],
 }
 
@@ -112,6 +106,7 @@ GI_NAMES = {
 TEXTILE = {"Chanderi Sarees", "Maheshwar Sarees & Fabrics", "Bagh Prints of Madhya Pradesh", "Bagh Prints of Madhya Pradesh (Logo)", "Ujjain Batik Print",
            "Waraseoni Handloom Saree & Fabrics", "Gwalior Handmade Carpet"}
 r["giProducts"] = gi_list("gi_mp.tsv", GI_NAMES, {"MH,MP": ["Maharashtra"], "UP,MP": ["Uttar Pradesh"]}, TEXTILE)
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-MP.json", r)
 print("mp core ok", len(r["giProducts"]), "GIs")

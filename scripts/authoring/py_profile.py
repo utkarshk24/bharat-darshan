@@ -22,8 +22,7 @@ r["symbols"] = {"animal": sym("Indian palm squirrel", "भारतीय गि
 r["government"] = {
     "headOfState": office("lieutenant-governor", L("K. Kailashnathan", "के. कैलाशनाथन", "के. कैलाशनाथन"), None, "2024-08-07", "newsonair", LG, "https://lg.py.gov.in", conf="Official",
                           note="Retired IAS officer of the Gujarat cadre; sworn in as Lieutenant Governor of Puducherry on 7 August 2024 (All India Radio News)."),
-    "headOfGovernment": office("chief-minister", L("N. Rangasamy", "एन. रंगासामी", "एन. रंगासामी"), "AINRC", "2026-05-13", "organiser", CM, "https://py.gov.in", conf="Third-party verified",
-                               note="Sworn in for a fifth term on 13 May 2026 at Lok Nivas by Lt Governor K. Kailashnathan, after the NDA (AINRC 12, BJP 4, AIADMK 1, LJK 1) won 18 of the 30 elected seats in the 2026 Assembly election; A. Namassivayam (BJP) and Malladi Krishna Rao (AINRC) were sworn in as ministers (Organiser)."),
+    "headOfGovernment": office('chief-minister', L('N. Rangasamy', 'एन. रंगासामी', 'एन. रंगासामी'), 'AINRC', '2026-05-13', 'newsonair', 'https://www.newsonair.gov.in/n-rangasamy-sworn-in-as-puducherry-chief-minister-for-record-fifth-term/', 'https://py.gov.in', note='Official confirmation: News On AIR 13 May 2026: N. Rangasamy sworn in as CM for a fifth term; LG K. Kailashnathan administered the oath at Lok Nivas. Sworn in for a fifth term on 13 May 2026 at Lok Nivas by Lt Governor K. Kailashnathan, after the NDA (AINRC 12, BJP 4, AIADMK 1, LJK 1) won 18 of the 30 elected seats in the 2026 Assembly election; A. Namassivayam (BJP) and Malladi Krishna Rao (AINRC) were sworn in as ministers (Organiser).', as_of='2026-10-27'),
     "others": [
         office("speaker", L("A. Anbalagan", "ए. अनबलगन", "ए. अनबलगन"), "AIADMK", None, "py-assembly", SPK, "https://puddu.neva.gov.in", conf="Official",
                note="Listed as Speaker on the Puducherry Legislative Assembly's NeVA portal (accessed 25 Oct 2026). He was earlier pro tem Speaker of the 16th Assembly (May 2026); the date of his election as Speaker is to be confirmed."),
@@ -32,7 +31,8 @@ r["government"] = {
 r["projects"] = []
 r["giProducts"] = gi_list("gi_py.tsv", {"Villianur Terracotta Works": ("विल्लियनूर टेराकोटा शिल्प", "विल्लियनूर टेराकोटा शिल्प"),
                                          "Tirukanur Papier Mache Craft": ("तिरुकानूर पेपर मैशे शिल्प", "तिरुकानूर पेपर मॅशे शिल्प")}, {}, set())
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-PY.json", r)
 m = r["metrics"]
 

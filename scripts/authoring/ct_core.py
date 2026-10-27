@@ -46,9 +46,7 @@ r["symbols"] = {
 }
 
 r["government"] = {
-    "headOfState": office("governor", L("Ramen Deka", "रमेन डेका", "रमेन डेका"), None, "2024-07-31",
-                          "thestatesman", GOV, "https://rajbhavancg.gov.in", conf="Third-party verified",
-                          note="Former Lok Sabha MP from Assam. Sworn in as the 10th Governor of Chhattisgarh in the Darbar Hall of Raj Bhavan, Raipur, on 31 July 2024 by Chief Justice Ramesh Sinha (The Statesman). Appointment by the President announced on 27–28 July 2024 (News On AIR)."),
+    "headOfState": office('governor', L('Ramen Deka', 'रमेन डेका', 'रमेन डेका'), None, '2024-07-31', 'newsonair', 'https://www.newsonair.gov.in/budget-session-of-chhattisgarh-legislative-assembly-commences-today', 'https://rajbhavancg.gov.in', note='Official confirmation: News On AIR 23 Feb 2026: session begins with address of Governor Ramen Deka. Former Lok Sabha MP from Assam. Sworn in as the 10th Governor of Chhattisgarh in the Darbar Hall of Raj Bhavan, Raipur, on 31 July 2024 by Chief Justice Ramesh Sinha (The Statesman). Appointment by the President announced on 27–28 July 2024 (News On AIR).', as_of='2026-10-27'),
     "headOfGovernment": office("chief-minister", L("Vishnu Deo Sai", "विष्णु देव साय", "विष्णुदेव साय"), "BJP", "2023-12-13",
                                "deccan-herald", CM, "https://cgstate.gov.in", conf="Third-party verified",
                                note="Sworn in on 13 December 2023 at the Science College ground, Raipur (Deccan Herald / PTI). News On AIR's report of the cabinet expansion of 20 August 2025 confirms him as Chief Minister."),
@@ -57,8 +55,7 @@ r["government"] = {
                note="Sworn in with the Chief Minister on 13 December 2023; named as Deputy Chief Minister in News On AIR's report of 20 August 2025."),
         office("deputy-chief-minister", L("Vijay Sharma", "विजय शर्मा", "विजय शर्मा"), "BJP", "2023-12-13", "newsonair", CAB, "https://cgstate.gov.in",
                note="Sworn in with the Chief Minister on 13 December 2023; named as Deputy Chief Minister in News On AIR's report of 20 August 2025."),
-        office("speaker", L("Raman Singh", "रमन सिंह", "रमण सिंह"), "BJP", "2023-12-19", "hitavada", SPK, "https://cgvidhansabha.gov.in", conf="Third-party verified",
-               note="Former three-term Chief Minister; elected Speaker on the first day of the sixth Assembly's first session (The Hitavada, 20 December 2023). Confirm the date on the Assembly website."),
+        office('speaker', L('Raman Singh', 'रमन सिंह', 'रमण सिंह'), 'BJP', '2023-12-19', 'newsonair', 'https://www.newsonair.gov.in/budget-session-of-chhattisgarh-legislative-assembly-commences-today', 'https://cgvidhansabha.gov.in', note="Official confirmation: News On AIR 23 Feb 2026: Speaker of the Assembly Dr Raman Singh. Former three-term Chief Minister; elected Speaker on the first day of the sixth Assembly's first session (The Hitavada, 20 December 2023). Confirm the date on the Assembly website.", as_of='2026-10-27'),
     ],
 }
 
@@ -86,6 +83,7 @@ GI_NAMES = {
 }
 TEXTILE = {"Champa Silk Saree And Fabrics"}
 r["giProducts"] = gi_list("gi_ct.tsv", GI_NAMES, {}, TEXTILE)
-r["meta"] = {"lastUpdated": TODAY, "editorialStatus": "draft"}
+r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+              "editorialStatus": "draft"}
 write("regions/IN-CT.json", r)
 print("ct core ok", len(r["giProducts"]), "GIs")

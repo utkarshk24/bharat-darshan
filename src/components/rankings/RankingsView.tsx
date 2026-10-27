@@ -97,13 +97,13 @@ export function RankingsView({ data, regions, sourceLabels }: { data: CompareFil
   return (
     <div className="flex min-w-0 flex-col gap-6">
       <section aria-label={t("rankings.controls")} className="flex flex-col gap-4 rounded-2xl border border-border bg-surface p-4 sm:flex-row sm:flex-wrap sm:items-end">
-        <div className="flex min-w-0 flex-1 flex-col gap-1">
+        <div className="flex min-w-0 flex-col gap-1 sm:basis-full">
           <label htmlFor={selId} className="text-sm font-semibold">{t("rankings.indicator")}</label>
           <select
             id={selId}
             value={ind.id}
             onChange={(e) => setIndId(e.target.value)}
-            className="w-full min-w-0 rounded-md border border-border bg-bg px-3 py-2 text-sm"
+            className="w-full min-w-0 rounded-md border border-border bg-bg px-3 py-2 text-sm sm:max-w-xl"
           >
             {data.groups.map((g) => (
               <optgroup key={g.id} label={pick(g.label, locale)}>

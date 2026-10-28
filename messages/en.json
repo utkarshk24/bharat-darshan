@@ -623,5 +623,13 @@
     "loadError": "The questions could not be loaded. Please check your connection and reload the page.",
     "method": "How the questions are made",
     "methodBody": "Questions are generated from the site's data each time it is rebuilt, never written by hand. Officeholder questions use only cards confirmed from an official source, with the date they were checked. GI questions leave out products registered for more than one region. Number questions compare four regions on one indicator and one period, and skip any set with a tie. Rounds are drawn at random from the full bank."
+  },
+  "offline": {
+    "title": "You're offline",
+    "intro": "This page hasn't been saved on this device yet. Pages you have opened before are listed below and work without a connection.",
+    "savedTitle": "Saved on this device",
+    "none": "Nothing saved yet. Open a few pages while you're online and they will be kept here for offline reading.",
+    "checking": "Checking saved pages…",
+    "note": "Pages are saved automatically as you browse (up to 300). A saved page shows the figures as they were when you last opened it online; reconnect to get the latest."
   }
 }

@@ -7,6 +7,7 @@ import { routing, type Locale } from "@/i18n/routing";
 import { PreferencesProvider, themeScript } from "@/components/Preferences";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ServiceWorker } from "@/components/ServiceWorker";
 import { getDataAsOn } from "@/lib/data";
 import { preload } from "react-dom";
 import { BASE_PATH, SITE_URL, localeAlternates, socialMeta } from "@/lib/seo";
@@ -62,6 +63,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
               {children}
             </main>
             <Footer asOn={getDataAsOn()} />
+            <ServiceWorker />
           </PreferencesProvider>
         </NextIntlClientProvider>
       </body>

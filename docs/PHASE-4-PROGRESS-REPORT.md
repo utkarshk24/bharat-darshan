@@ -63,13 +63,19 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 - Next.js upgraded 16.4.0 → 16.4.3 for a published security advisory (same-major patch, in the main checkout as chosen).
 - GitHub label `correction` created, so correction reports from the site are tagged automatically.
 
+## 11. Offline and installable
+
+- Web app manifest (`app/manifest.ts`) with 192/512 and maskable icons (`scripts/pwa/make-icons.mjs`), so the site can be installed on phones and desktops.
+- Service worker (`/sw.js`, generated at build with a new version each deploy; old caches are dropped): pages network-first with saved copies offline (up to 300), hashed assets cache-first, fonts/maps/search/quiz data stale-while-revalidate; Data Library downloads are never cached. The three language home pages, offline pages, fonts and base map are saved on install.
+- Offline page in en/hi/mr lists the pages saved on the device and explains that saved figures are as of the last online visit. Tested in Chromium: visited pages open offline from the service worker; downloads are blocked offline as intended. Tests: `tests/pwa.test.ts`.
+
 ## Checks
 
-`validate-data`: 0 errors, 1,725 gaps. Unit tests: 93 passing. Accessibility (axe): 35/35 pages clean, including Rankings, Data Library and Learn.
+`validate-data`: 0 errors, 1,725 gaps. Unit tests: 95 passing. Accessibility (axe): 36/36 pages clean, including Rankings, Data Library and Learn.
 
 ## Next steps
 
 1. Finish the 16 remaining officeholder cards (mostly legislature sites that block automated reading).
 2. Find a current official source for Rishikesh–Karnaprayag (Lok Sabha/Rajya Sabha answers, RVNL).
 3. District profiles once a current LGD list and district tables are available.
-4. Offline/PWA; Trip Planner.
+4. Trip Planner.

@@ -29,9 +29,21 @@ const PRECACHE = [
 
 self.addEventListener("install", (e) => {
   // Each file separately: one missing file must not stop offline support from installing.
+  // The offline and home pages also need their own scripts and styles to work offline,
+  // so the /_next/static files they reference are saved too.
   e.waitUntil(
     caches.open(SHELL)
-      .then((c) => Promise.allSettled(PRECACHE.map((u) => c.add(u))))
+      .then((c) => Promise.allSettled(PRECACHE.map((u) => c.add(u))).then(() => c))
+      .then(async (c) => {
+        const assets = new Set();
+        for (const u of PRECACHE.filter((x) => x.endsWith("/"))) {
+          const res = await c.match(u);
+          const html = res ? await res.text() : "";
+          for (const part of html.split('"')) if (part.includes("/_next/static/") && !part.includes(" ")) assets.add(new URL(part, self.location.href).href);
+        }
+        const a = await caches.open(ASSETS);
+        await Promise.allSettled([...assets].map((u) => a.add(u)));
+      })
       .then(() => self.skipWaiting()),
   );
 });

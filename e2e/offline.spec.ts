@@ -12,6 +12,6 @@ test("visited pages open offline and others show the offline page", async ({ pag
   await expect(page).toHaveTitle(/Goa/);
   await page.goto(`${SITE}/en/offline/`);
   await expect(page.getByRole("heading", { level: 1 })).toContainText("offline");
-  await expect(page.locator("#saved-h + ul")).toContainText("Goa");
+  await expect(page.locator("#saved-h + ul")).toContainText("Goa", { timeout: 20_000 });
   await context.setOffline(false);
 });

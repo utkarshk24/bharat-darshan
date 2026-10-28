@@ -19,23 +19,28 @@ export function SavedPages() {
       if (!("caches" in window)) return setItems([]);
       const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
       const names = (await caches.keys()).filter((n) => n.startsWith("bd-pages-"));
-      const out: Saved[] = [];
+      const found: { href: string; req: Request; cache: Cache }[] = [];
       for (const n of names) {
         const c = await caches.open(n);
-        const keys = [...(await c.keys())].reverse();
-        for (const req of keys) {
+        for (const req of [...(await c.keys())].reverse()) {
           const u = new URL(req.url);
           if (u.search || u.pathname.endsWith(".txt") || !u.pathname.startsWith(`${base}/${locale}/`) || u.pathname.endsWith("/offline/")) continue;
-          if (out.some((x) => x.href === u.pathname)) continue;
-          let title = decodeURIComponent(u.pathname.slice(base.length));
-          if (out.length < 60) {
-            const html = await (await c.match(req))?.text();
+          if (found.some((x) => x.href === u.pathname)) continue;
+          found.push({ href: u.pathname, req, cache: c });
+        }
+      }
+      // Titles come from the saved copies, read in parallel for the most recent 40 pages.
+      const out: Saved[] = await Promise.all(
+        found.map(async ({ href, req, cache }, i) => {
+          let title = decodeURIComponent(href.slice(base.length));
+          if (i < 40) {
+            const html = await (await cache.match(req))?.text();
             const m = html?.match(/<title>([^<]*)<\/title>/);
             if (m) title = m[1].replace(/&amp;/g, "&").replace(/&#x27;/g, "'");
           }
-          out.push({ href: u.pathname, title });
-        }
-      }
+          return { href, title };
+        }),
+      );
       if (alive) setItems(out);
     })().catch(() => alive && setItems([]));
     return () => {

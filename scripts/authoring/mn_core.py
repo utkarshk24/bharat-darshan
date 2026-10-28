@@ -60,10 +60,14 @@ r["government"] = {
 
 r["projects"] = [
     proj("jiribam-imphal-rail", L("Jiribam–Imphal new railway line", "जिरीबाम–इंफाल नई रेल लाइन", "जिरीबाम–इंफाळ नवा रेल्वेमार्ग"),
-         L("A 111-km broad-gauge line from Jiribam on the Assam border to Imphal through the hills of Noney and Tamenglong, with 54 tunnels totalling about 66.5 km — the longest, Tunnel 12, is 11.55 km — and the Noney bridge, whose 141-m piers Northeast Frontier Railway describes as the tallest railway piers in the world. The estimated cost is about ₹22,000 crore. In August 2026 NFR officials inspected the Jiribam–Khongsang, Khongsang–Awangkhul and Awangkhul–Imphal sections, and the line is targeted to reach Imphal by June 2029.",
-           "असम सीमा पर जिरीबाम से नोनी और तामेंगलोंग की पहाड़ियों से होकर इंफाल तक 111 किमी लंबी बड़ी लाइन, जिसमें कुल लगभग 66.5 किमी की 54 सुरंगें हैं — सबसे लंबी, सुरंग 12, 11.55 किमी की है — और नोनी पुल, जिसके 141 मीटर ऊँचे खंभों को पूर्वोत्तर सीमांत रेलवे दुनिया के सबसे ऊँचे रेलवे खंभे बताता है। अनुमानित लागत लगभग ₹22,000 करोड़ है। अगस्त 2026 में एनएफ़आर अधिकारियों ने जिरीबाम–खोंगसांग, खोंगसांग–अवांगखुल और अवांगखुल–इंफाल खंडों का निरीक्षण किया, और जून 2029 तक लाइन को इंफाल पहुँचाने का लक्ष्य है।",
-           "आसाम सीमेवरील जिरीबामपासून नोनी व तामेंगलोंगच्या डोंगरांतून इंफाळपर्यंतचा 111 किमी लांबीचा ब्रॉडगेज मार्ग, ज्यात एकूण सुमारे 66.5 किमीचे 54 बोगदे आहेत — सर्वांत लांब, बोगदा 12, 11.55 किमीचा आहे — आणि नोनी पूल, ज्याच्या 141 मीटर उंच खांबांना ईशान्य सीमा रेल्वे जगातील सर्वांत उंच रेल्वे खांब म्हणते. अंदाजित खर्च सुमारे ₹22,000 कोटी आहे. ऑगस्ट 2026 मध्ये एनएफआर अधिकाऱ्यांनी जिरीबाम–खोंगसांग, खोंगसांग–अवांगखुल व अवांगखुल–इंफाळ टप्प्यांची पाहणी केली, आणि जून 2029 पर्यंत मार्ग इंफाळला पोहोचवण्याचे उद्दिष्ट आहे."),
-         "railways", "Northeast Frontier Railway", 22000, "About ₹22,000 crore, as reported (IANS via The Morung Express, 25 Aug 2026); sanctioned cost to be confirmed from the Ministry of Railways.", "2026", None, "June 2029 (target)", "Under Construction", "morung-express", RAIL, conf="Third-party verified"),
+         L("A 111-km (110.625-km) broad-gauge line from Jiribam on the Assam border to Imphal, through Noney district. The 11.8-km Jiribam–Vangaichungpao section opened in February 2017 and the Vangaichungpao–Khongsang section followed; in September 2025 the remaining sections were targeted for March 2026 (Khongsang–Awangkhul), March 2027 (Awangkhul–Noney) and March 2028 (Noney–Imphal). The line has 54 tunnels totalling about 66.5 km, the longest being the 11.55-km Tunnel 12, and the Noney bridge, with a 141-m pier reported as the world's tallest railway pier. In August 2026 Northeast Frontier Railway's General Manager inspected the line, and it was then expected to be fully operational by June 2029.",
+           "असम सीमा पर जिरीबाम से नोनी ज़िले से होकर इंफाल तक 111 किमी (110.625 किमी) लंबी बड़ी लाइन। 11.8 किमी का जिरीबाम–वांगाईचुंगपाओ खंड फरवरी 2017 में खुला और उसके बाद वांगाईचुंगपाओ–खोंगसांग खंड; सितंबर 2025 में शेष खंडों के लक्ष्य मार्च 2026 (खोंगसांग–अवांगखुल), मार्च 2027 (अवांगखुल–नोनी) और मार्च 2028 (नोनी–इंफाल) थे। लाइन में कुल लगभग 66.5 किमी की 54 सुरंगें हैं, जिनमें सबसे लंबी 11.55 किमी की सुरंग 12 है, और नोनी पुल है, जिसके 141 मीटर ऊँचे खंभे को दुनिया का सबसे ऊँचा रेलवे खंभा बताया गया है। अगस्त 2026 में पूर्वोत्तर सीमांत रेलवे के महाप्रबंधक ने लाइन का निरीक्षण किया, और तब इसके जून 2029 तक पूरी तरह चालू होने की उम्मीद थी।",
+           "आसाम सीमेवरील जिरीबामपासून नोनी जिल्ह्यातून इंफाळपर्यंतचा 111 किमी (110.625 किमी) लांबीचा ब्रॉडगेज मार्ग. 11.8 किमीचा जिरीबाम–वांगाईचुंगपाओ टप्पा फेब्रुवारी 2017 मध्ये सुरू झाला आणि त्यानंतर वांगाईचुंगपाओ–खोंगसांग टप्पा; सप्टेंबर 2025 मध्ये उर्वरित टप्प्यांचे उद्दिष्ट मार्च 2026 (खोंगसांग–अवांगखुल), मार्च 2027 (अवांगखुल–नोनी) आणि मार्च 2028 (नोनी–इंफाळ) होते. मार्गात एकूण सुमारे 66.5 किमीचे 54 बोगदे आहेत, त्यांपैकी सर्वांत लांब 11.55 किमीचा बोगदा 12 आहे, आणि नोनी पूल आहे, ज्याचा 141 मीटर उंच खांब जगातील सर्वांत उंच रेल्वे खांब असल्याचे सांगितले जाते. ऑगस्ट 2026 मध्ये ईशान्य सीमा रेल्वेच्या महाव्यवस्थापकांनी मार्गाची पाहणी केली, आणि तेव्हा तो जून 2029 पर्यंत पूर्णपणे कार्यान्वित होणे अपेक्षित होते."),
+         "railways", "Northeast Frontier Railway", 22000, "About ₹22,000 crore, as reported (IANS via The Morung Express, 25 Aug 2026); sanctioned cost to be confirmed from the Ministry of Railways.", "2026", None, "June 2029 (target)", "Under Construction", "pib", "https://pib.gov.in/FactsheetDetails.aspx?Id=149284",
+         as_of="2026-10-28", cost_src=("morung-express", RAIL, "Third-party verified"),
+         supporting=[("morung-express", RAIL, L("the tunnels, the Noney pier, the cost, the August 2026 inspection and the June 2029 target (IANS)",
+                                                "सुरंगें, नोनी का खंभा, लागत, अगस्त 2026 का निरीक्षण और जून 2029 का लक्ष्य (आईएएनएस)",
+                                                "बोगदे, नोनीचा खांब, खर्च, ऑगस्ट 2026 ची पाहणी आणि जून 2029 चे उद्दिष्ट (आयएएनएस)"))]),
 ]
 
 GI_NAMES = {
@@ -76,7 +80,7 @@ GI_NAMES = {
  "Chak-Hao": ("चाक-हाओ (काला चावल)", "चाक-हाओ (काळा तांदूळ)"),
 }
 r["giProducts"] = gi_list("gi_mn.tsv", GI_NAMES, {"MN,NL": ["Nagaland"]}, {"Shaphee Lanphee", "Wangkhei Phee", "Moirang Phee"})
-r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+r["meta"] = {"lastUpdated": "2026-10-28",  # freshness pass; BD_TODAY stays the original authoring date
               "editorialStatus": "draft"}
 write("regions/IN-MN.json", r)
 print("mn core ok", len(r["giProducts"]), "GIs")

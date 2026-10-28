@@ -214,12 +214,14 @@ def office_todo(role, src, verify, note):
             "verifyUrl": verify, "revisionStatus": "TODO", "confidence": "Official", "note": note}
 
 
-def proj(id, name, objective, sector, agency, cost, costnote, costperiod, start, completion, status, src, url, challenges=None, conf="Official", as_of=None, supporting=None):
-    """supporting: [(source_id, url, L(covers...)), ...] for details the main source does not give."""
+def proj(id, name, objective, sector, agency, cost, costnote, costperiod, start, completion, status, src, url, challenges=None, conf="Official", as_of=None, supporting=None, cost_src=None):
+    """supporting: [(source_id, url, L(covers...)), ...] for details the main source does not give.
+    cost_src: (source_id, url, confidence) when the cost comes from one of those other sources."""
     p = {"id": id, "name": name, "objective": objective, "sector": sector, "agency": agency,
          "start": start, "completion": completion, "status": status, "asOf": as_of or TODAY, "sourceId": src, "url": url, "confidence": conf}
     if cost is not None:
-        p["cost"] = dp(cost, "₹ crore", costperiod, "calendar", src, url, note=costnote, access=as_of or TODAY)
+        cs, cu, cc = cost_src or (src, url, conf)
+        p["cost"] = dp(cost, "₹ crore", costperiod, "calendar", cs, cu, conf=cc, note=costnote, access=as_of or TODAY)
     if challenges:
         p["challenges"] = challenges
     if supporting:

@@ -333,9 +333,9 @@
         }
       },
       "objective": {
-        "en": "A 44.96-km broad-gauge line from Sivok in West Bengal to Rangpo on the Sikkim border, mostly in tunnels and on bridges along the Teesta valley, which will give Sikkim its first rail link. IRCON told a parliamentary committee in June 2026 that physical progress was 77% and that the line is targeted for completion by December 2027.",
-        "hi": "पश्चिम बंगाल के सेवक से सिक्किम सीमा पर रंगपो तक 44.96 किमी लंबी बड़ी लाइन, जो तीस्ता घाटी में अधिकतर सुरंगों और पुलों पर है और सिक्किम को पहला रेल संपर्क देगी। इरकॉन ने जून 2026 में एक संसदीय समिति को बताया कि भौतिक प्रगति 77% थी और लाइन को दिसंबर 2027 तक पूरा करने का लक्ष्य है।",
-        "mr": "पश्चिम बंगालमधील सेवक ते सिक्कीम सीमेवरील रंगपोपर्यंतचा 44.96 किमी लांबीचा ब्रॉडगेज मार्ग, जो तिस्ता खोऱ्यात बहुतांश बोगदे व पुलांवर आहे आणि सिक्कीमला पहिला रेल्वे संपर्क देईल. इरकॉनने जून 2026 मध्ये संसदीय समितीला सांगितले की भौतिक प्रगती 77% होती आणि मार्ग डिसेंबर 2027 पर्यंत पूर्ण करण्याचे उद्दिष्ट आहे.",
+        "en": "A 44.96-km broad-gauge line from Sivok in West Bengal to Rangpo on the Sikkim border, with tunnels and bridges along its route, which will give Sikkim its first rail link. PIB's factsheet of September 2025 gave December 2027 as the target; in June 2026 IRCON told a visiting parliamentary committee that physical progress was 77% and that the target was unchanged.",
+        "hi": "पश्चिम बंगाल के सेवक से सिक्किम सीमा पर रंगपो तक 44.96 किमी लंबी बड़ी लाइन, जिसके रास्ते में सुरंगें और पुल हैं, और जो सिक्किम को पहला रेल संपर्क देगी। सितंबर 2025 के पीआईबी तथ्यपत्र में लक्ष्य दिसंबर 2027 बताया गया; जून 2026 में इरकॉन ने दौरे पर आई एक संसदीय समिति को बताया कि भौतिक प्रगति 77% थी और लक्ष्य वही है।",
+        "mr": "पश्चिम बंगालमधील सेवक ते सिक्कीम सीमेवरील रंगपोपर्यंतचा 44.96 किमी लांबीचा ब्रॉडगेज मार्ग, ज्याच्या मार्गावर बोगदे व पूल आहेत आणि जो सिक्कीमला पहिला रेल्वे संपर्क देईल. सप्टेंबर 2025 च्या पीआयबी तथ्यपत्रात उद्दिष्ट डिसेंबर 2027 सांगितले होते; जून 2026 मध्ये इरकॉनने भेटीला आलेल्या संसदीय समितीला सांगितले की भौतिक प्रगती 77% होती आणि उद्दिष्ट तेच आहे.",
         "_status": {
           "hi": "draft",
           "mr": "draft"
@@ -346,10 +346,25 @@
       "start": null,
       "completion": "December 2027 (target)",
       "status": "Under Construction",
-      "asOf": "2026-10-25",
-      "sourceId": "morung-express",
-      "url": "https://morungexpress.com/railways-panel-inspects-sivokrangpo-line-works",
-      "confidence": "Third-party verified"
+      "asOf": "2026-10-28",
+      "sourceId": "pib",
+      "url": "https://pib.gov.in/FactsheetDetails.aspx?Id=149284",
+      "confidence": "Official",
+      "supporting": [
+        {
+          "sourceId": "morung-express",
+          "url": "https://morungexpress.com/railways-panel-inspects-sivokrangpo-line-works",
+          "covers": {
+            "en": "the tunnels and bridges on the route and IRCON's June 2026 progress figure",
+            "hi": "रास्ते की सुरंगें और पुल, और जून 2026 का इरकॉन का प्रगति आँकड़ा",
+            "mr": "मार्गावरील बोगदे व पूल, आणि जून 2026 चा इरकॉनचा प्रगतीचा आकडा",
+            "_status": {
+              "hi": "draft",
+              "mr": "draft"
+            }
+          }
+        }
+      ]
     }
   ],
   "giProducts": [
@@ -458,7 +473,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-10-27",
+    "lastUpdated": "2026-10-28",
     "editorialStatus": "draft"
   }
 }

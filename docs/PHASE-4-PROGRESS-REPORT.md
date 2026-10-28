@@ -39,7 +39,8 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 
 - Project cards can now list supporting sources, each saying which details it covers. Sela Tunnel, NAMO Hospital and Mopa airport now cite PMIndia as the main source.
 - While checking, two cards were found to contain details their cited article did not support. Mopa's concessionaire and Dabolim now cite the Goa Directorate of Civil Aviation, and an unsupported naval-station detail was removed. The NAMO Hospital card now uses PMIndia's wording.
-- Projects still on news sources: 6 (Shillong–Silchar, Jiribam–Imphal, Dimapur–Kohima, Sivok–Rangpo, Kudankulam 3–6, Rishikesh–Karnaprayag).
+- 28 Oct: five more projects moved to PIB sources (Shillong–Silchar, Jiribam–Imphal, Dimapur–Kohima, Sivok–Rangpo, Kudankulam 3–6), with news reports kept as supporting sources. Details the sources did not support were removed (e.g. "Tamenglong", "Teesta valley", the Jaintia Hills framing). Dimapur–Kohima's length differs between PIB (82.5 km) and NFR figures (78.42 km); both are shown.
+- Projects still on news sources: 1 (Rishikesh–Karnaprayag; the only official answer found dates from March 2023).
 
 ## 7. Learn (`/learn`)
 
@@ -53,6 +54,6 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 ## Next steps
 
 1. Finish the 16 remaining officeholder cards (mostly legislature sites that block automated reading).
-2. Move the remaining 6 project cards to official sources (PIB, Lok Sabha answers, NFR/IRCON, NPCIL).
+2. Find a current official source for Rishikesh–Karnaprayag (Lok Sabha/Rajya Sabha answers, RVNL).
 3. District profiles from the LGD index.
 4. Choropleth data layers on the map; Trip Planner; offline/PWA.

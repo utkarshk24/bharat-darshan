@@ -59,10 +59,13 @@ r["government"] = {
 
 r["projects"] = [
     proj("dimapur-kohima-rail", L("Dhansiri (Dimapur)–Zubza (Kohima) new railway line", "धनसिरी (दीमापुर)–ज़ुबज़ा (कोहिमा) नई रेल लाइन", "धनसिरी (दिमापूर)–झुबझा (कोहिमा) नवा रेल्वेमार्ग"),
-         L("A 78.42-km broad-gauge line from Dhansiri near Dimapur to Zubza near Kohima, through Assam's Karbi Anglong and Nagaland's Chümoukedima and Kohima districts, which will bring the railway to the State capital. The 16.5-km Dhansiri–Shokhuvi section opened in October 2021 and the 14.64-km Shokhuvi–Molvom section in March 2025; 20 tunnels and 27 major bridges remained, and Northeast Frontier Railway targets completion by 2029.",
-           "दीमापुर के पास धनसिरी से कोहिमा के पास ज़ुबज़ा तक 78.42 किमी लंबी बड़ी लाइन, जो असम के कार्बी आंगलोंग और नागालैंड के चुमौकेदिमा और कोहिमा ज़िलों से गुज़रेगी और राज्य की राजधानी तक रेल लाएगी। 16.5 किमी का धनसिरी–शोखुवी खंड अक्टूबर 2021 में और 14.64 किमी का शोखुवी–मोलवोम खंड मार्च 2025 में खुला; 20 सुरंगें और 27 बड़े पुल शेष थे, और पूर्वोत्तर सीमांत रेलवे ने 2029 तक पूरा करने का लक्ष्य रखा है।",
-           "दिमापूरजवळील धनसिरी ते कोहिमाजवळील झुबझापर्यंतचा 78.42 किमी लांबीचा ब्रॉडगेज मार्ग, जो आसाममधील कार्बी आंगलोंग व नागालँडमधील चुमौकेदिमा आणि कोहिमा जिल्ह्यांतून जाईल व राज्याच्या राजधानीपर्यंत रेल्वे आणेल. 16.5 किमीचा धनसिरी–शोखुवी टप्पा ऑक्टोबर 2021 मध्ये व 14.64 किमीचा शोखुवी–मोलवोम टप्पा मार्च 2025 मध्ये सुरू झाला; 20 बोगदे व 27 मोठे पूल बाकी होते, आणि ईशान्य सीमा रेल्वेने 2029 पर्यंत पूर्णत्वाचे उद्दिष्ट ठेवले आहे."),
-         "railways", "Northeast Frontier Railway", None, None, None, None, "2029 (target)", "Under Construction", "morung-express", RAIL, conf="Third-party verified"),
+         L("A broad-gauge line from Dhansiri near Dimapur to Zubza near Kohima — 82.5 km in PIB's factsheet of September 2025, 78.42 km in Northeast Frontier Railway figures reported by The Morung Express — through Assam's Karbi Anglong and Nagaland's Chümoukedima and Kohima districts, which will bring the railway to the State capital. The 16.5-km Dhansiri–Shokhuvi section opened in October 2021 and the 14.64-km Shokhuvi–Molvom section was completed in March 2025. PIB gave the next targets as the 14.09-km Molvom–Ferima section by October 2026 and the 37.57-km Ferima–Zubza section by December 2029; 20 tunnels and 27 major bridges remained.",
+           "दीमापुर के पास धनसिरी से कोहिमा के पास ज़ुबज़ा तक बड़ी लाइन — सितंबर 2025 के पीआईबी तथ्यपत्र के अनुसार 82.5 किमी, और द मोरुंग एक्सप्रेस में छपे पूर्वोत्तर सीमांत रेलवे के आँकड़ों के अनुसार 78.42 किमी — जो असम के कार्बी आंगलोंग और नागालैंड के चुमौकेदिमा और कोहिमा ज़िलों से गुज़रेगी और राज्य की राजधानी तक रेल लाएगी। 16.5 किमी का धनसिरी–शोखुवी खंड अक्टूबर 2021 में खुला और 14.64 किमी का शोखुवी–मोलवोम खंड मार्च 2025 में पूरा हुआ। पीआईबी के अनुसार अगले लक्ष्य थे: 14.09 किमी का मोलवोम–फेरिमा खंड अक्टूबर 2026 तक और 37.57 किमी का फेरिमा–ज़ुबज़ा खंड दिसंबर 2029 तक; 20 सुरंगें और 27 बड़े पुल शेष थे।",
+           "दिमापूरजवळील धनसिरी ते कोहिमाजवळील झुबझापर्यंतचा ब्रॉडगेज मार्ग — सप्टेंबर 2025 च्या पीआयबी तथ्यपत्रानुसार 82.5 किमी, आणि द मोरुंग एक्सप्रेसमध्ये आलेल्या ईशान्य सीमा रेल्वेच्या आकडेवारीनुसार 78.42 किमी — जो आसाममधील कार्बी आंगलोंग व नागालँडमधील चुमौकेदिमा आणि कोहिमा जिल्ह्यांतून जाईल व राज्याच्या राजधानीपर्यंत रेल्वे आणेल. 16.5 किमीचा धनसिरी–शोखुवी टप्पा ऑक्टोबर 2021 मध्ये सुरू झाला आणि 14.64 किमीचा शोखुवी–मोलवोम टप्पा मार्च 2025 मध्ये पूर्ण झाला. पीआयबीनुसार पुढील उद्दिष्टे होती: 14.09 किमीचा मोलवोम–फेरिमा टप्पा ऑक्टोबर 2026 पर्यंत आणि 37.57 किमीचा फेरिमा–झुबझा टप्पा डिसेंबर 2029 पर्यंत; 20 बोगदे व 27 मोठे पूल बाकी होते."),
+         "railways", "Northeast Frontier Railway", None, None, None, None, "December 2029 (target)", "Under Construction", "pib", "https://pib.gov.in/FactsheetDetails.aspx?Id=149284", as_of="2026-10-28",
+         supporting=[("morung-express", RAIL, L("the 78.42-km length, section lengths, districts, and the tunnels and bridges remaining",
+                                                "78.42 किमी की लंबाई, खंडों की लंबाई, ज़िले, और शेष सुरंगें व पुल",
+                                                "78.42 किमी लांबी, टप्प्यांची लांबी, जिल्हे, आणि बाकी बोगदे व पूल"))]),
 ]
 
 GI_NAMES = {
@@ -73,7 +76,7 @@ GI_NAMES = {
  "Chak-Hao": ("चाक-हाओ (काला चावल)", "चाक-हाओ (काळा तांदूळ)"),
 }
 r["giProducts"] = gi_list("gi_nl.tsv", GI_NAMES, {"MN,NL": ["Manipur"]}, {"Chakhesang Shawl"})
-r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+r["meta"] = {"lastUpdated": "2026-10-28",  # freshness pass; BD_TODAY stays the original authoring date
               "editorialStatus": "draft"}
 write("regions/IN-NL.json", r)
 print("nl core ok", len(r["giProducts"]), "GIs")

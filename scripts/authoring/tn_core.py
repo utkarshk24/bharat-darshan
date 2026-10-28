@@ -64,11 +64,12 @@ r["projects"] = [
          "space", "Indian Space Research Organisation (ISRO)", None, None, None,
          "2024", None, "Under Construction", "isro", KSP),
     proj("kudankulam-3-6", L("Kudankulam Nuclear Power Project, Units 3–6", "कुडनकुलम परमाणु विद्युत परियोजना, इकाइयाँ 3–6", "कुडनकुलम अणुऊर्जा प्रकल्प, युनिट 3–6"),
-         L("Four 1,000 MW pressurised-water reactors being built alongside the two operating units in Tirunelveli district. Units 3 and 4 were reported at about 81% physical progress and Units 5 and 6 at about 42% as of January 2026, with commissioning expected in 2027 and 2030 respectively.",
-           "तिरुनेलवेली ज़िले में चल रही दो इकाइयों के साथ बन रहे चार 1,000 मेगावाट के प्रेशराइज़्ड-वॉटर रिएक्टर। जनवरी 2026 तक इकाई 3 और 4 की भौतिक प्रगति लगभग 81% और इकाई 5 व 6 की लगभग 42% बताई गई; इनके क्रमशः 2027 और 2030 में चालू होने की उम्मीद है।",
-           "तिरुनेलवेली जिल्ह्यात चालू असलेल्या दोन युनिटांसोबत उभारल्या जात असलेल्या चार 1,000 मेगावॉटच्या प्रेशराइज्ड-वॉटर अणुभट्ट्या. जानेवारी 2026 पर्यंत युनिट 3 व 4 ची प्रत्यक्ष प्रगती सुमारे 81% आणि युनिट 5 व 6 ची सुमारे 42% नोंदवली गेली; ते अनुक्रमे 2027 आणि 2030 मध्ये कार्यान्वित होणे अपेक्षित आहे."),
+         L("Four 1,000 MW reactors (Units 3 to 6) being built alongside Units 1 and 2, which were commissioned in 2013 and 2017. In a written reply to the Rajya Sabha on 29 January 2026, the government put physical progress at 80.51% for Units 3 and 4 and 41.56% for Units 5 and 6, with completion expected in 2027 and 2030 respectively.",
+           "इकाई 1 और 2 के साथ बन रहे चार 1,000 मेगावाट के रिएक्टर (इकाई 3 से 6); इकाई 1 और 2 क्रमशः 2013 और 2017 में चालू हुई थीं। 29 जनवरी 2026 को राज्यसभा में लिखित उत्तर में सरकार ने बताया कि इकाई 3 और 4 की भौतिक प्रगति 80.51% और इकाई 5 और 6 की 41.56% थी, और इनके क्रमशः 2027 और 2030 में पूरा होने की उम्मीद है।",
+           "युनिट 1 व 2 सोबत उभारल्या जात असलेल्या चार 1,000 मेगावॉटच्या अणुभट्ट्या (युनिट 3 ते 6); युनिट 1 व 2 अनुक्रमे 2013 आणि 2017 मध्ये कार्यान्वित झाले. 29 जानेवारी 2026 रोजी राज्यसभेतील लेखी उत्तरात सरकारने सांगितले की युनिट 3 व 4 ची प्रत्यक्ष प्रगती 80.51% आणि युनिट 5 व 6 ची 41.56% होती, आणि ते अनुक्रमे 2027 आणि 2030 मध्ये पूर्ण होणे अपेक्षित आहे."),
          "power", "Nuclear Power Corporation of India Limited (NPCIL)", None, None, None,
-         None, "2027 (Units 3–4), 2030 (Units 5–6), as reported", "Under Construction", "thefederal", KKNPP, conf="Third-party verified"),
+         None, "2027 (Units 3–4), 2030 (Units 5–6)", "Under Construction", "pib", "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2220292", as_of="2026-10-28",
+         supporting=[("thefederal", KKNPP, L("the commissioning years of Units 1 and 2", "इकाई 1 और 2 के चालू होने के वर्ष", "युनिट 1 व 2 कार्यान्वित झाल्याची वर्षे"))]),
 ]
 
 GI_NAMES = {
@@ -151,7 +152,7 @@ TEXTILE = {"Salem Fabric", "Kancheepuram Silk", "Bhavani Jamakkalam", "Madurai S
            "Salem Silk known as Salem Venpattu", "Toda Embroidery", "Kandangi Saree", "Thirubuvanam Silk Sarees", "Negamam Cotton Saree",
            "Chedibutta Saree", "Woraiyur Cotton Saree"}
 r["giProducts"] = gi_list("gi_tn.tsv", GI_NAMES, {}, TEXTILE)
-r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+r["meta"] = {"lastUpdated": "2026-10-28",  # freshness pass; BD_TODAY stays the original authoring date
               "editorialStatus": "draft"}
 write("regions/IN-TN.json", r)
 print("tn core ok", len(r["giProducts"]), "GIs")

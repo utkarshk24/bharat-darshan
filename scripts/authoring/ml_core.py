@@ -60,11 +60,14 @@ r["government"] = {
 
 r["projects"] = [
     proj("shillong-silchar-corridor", L("Shillong–Silchar greenfield high-speed corridor (NH-06)", "शिलांग–सिलचर ग्रीनफ़ील्ड हाई-स्पीड कॉरिडोर (एनएच-06)", "शिलाँग–सिलचर ग्रीनफिल्ड हाय-स्पीड कॉरिडॉर (एनएच-06)"),
-         L("A 166.80-km four-lane, access-controlled highway from Mawlyngkhung near Shillong to Panchgram near Silchar in Assam, 144.80 km of it in Meghalaya, approved by the Cabinet Committee on Economic Affairs on 30 April 2025 at a capital cost of ₹22,864 crore under the hybrid annuity mode. It is meant to give a faster, all-weather alternative to the existing hill road through the Jaintia Hills. In March 2026 NHIDCL was inviting bids for its four packages, and the Prime Minister was to lay the foundation stone at Silchar on 14 March 2026.",
-           "शिलांग के पास मावलिंगखुंग से असम में सिलचर के पास पंचग्राम तक 166.80 किमी लंबा चार-लेन, नियंत्रित प्रवेश वाला राजमार्ग, जिसका 144.80 किमी भाग मेघालय में है; आर्थिक मामलों की मंत्रिमंडलीय समिति ने 30 अप्रैल 2025 को हाइब्रिड एन्युटी मोड में ₹22,864 करोड़ की पूँजी लागत पर इसे स्वीकृति दी। इसका उद्देश्य जयंतिया पहाड़ियों से होकर जाने वाली मौजूदा पहाड़ी सड़क का तेज़, हर मौसम में चलने वाला विकल्प देना है। मार्च 2026 में एनएचआईडीसीएल इसके चार पैकेजों के लिए बोलियाँ आमंत्रित कर रहा था, और प्रधानमंत्री को 14 मार्च 2026 को सिलचर में आधारशिला रखनी थी।",
-           "शिलाँगजवळील मावलिंगखुंग ते आसाममधील सिलचरजवळील पंचग्रामपर्यंतचा 166.80 किमी लांबीचा चौपदरी, नियंत्रित प्रवेशाचा महामार्ग, ज्याचा 144.80 किमी भाग मेघालयात आहे; आर्थिक व्यवहार मंत्रिमंडळ समितीने 30 एप्रिल 2025 रोजी हायब्रिड अॅन्युइटी पद्धतीने ₹22,864 कोटी भांडवली खर्चास त्याला मंजुरी दिली. जयंतिया टेकड्यांतून जाणाऱ्या विद्यमान डोंगरी रस्त्याला जलद, सर्व ऋतूंत चालणारा पर्याय देणे हा त्याचा उद्देश आहे. मार्च 2026 मध्ये एनएचआयडीसीएल त्याच्या चार पॅकेजसाठी निविदा मागवत होते, आणि पंतप्रधान 14 मार्च 2026 रोजी सिलचर येथे पायाभरणी करणार होते."),
-         "roads", "NHIDCL (Ministry of Road Transport and Highways)", 22864, "Total capital cost approved by the CCEA on 30 April 2025, as reported (Swarajya, 7 March 2026).", "2025",
-         None, None, "Tendering", "swarajya", HWY, conf="Third-party verified"),
+         L("A 166.80-km four-lane, access-controlled greenfield highway on NH-06 from Mawlyngkhung near Shillong to Panchgram near Silchar in Assam — 144.80 km in Meghalaya and 22 km in Assam — approved by the Cabinet Committee on Economic Affairs on 30 April 2025 at a capital cost of ₹22,864 crore under the hybrid annuity mode. It is meant to ease congestion on the existing NH-06 and improve links to Tripura, Mizoram, Manipur and the Barak Valley. In March 2026 NHIDCL was inviting bids for its four packages, and the Prime Minister was to lay the foundation stone at Silchar on 14 March 2026.",
+           "शिलांग के पास मावलिंगखुंग से असम में सिलचर के पास पंचग्राम तक एनएच-06 पर 166.80 किमी लंबा चार-लेन, नियंत्रित प्रवेश वाला ग्रीनफ़ील्ड राजमार्ग — 144.80 किमी मेघालय में और 22 किमी असम में — जिसे आर्थिक मामलों की मंत्रिमंडलीय समिति ने 30 अप्रैल 2025 को हाइब्रिड एन्युटी मोड में ₹22,864 करोड़ की पूँजी लागत पर स्वीकृति दी। इसका उद्देश्य मौजूदा एनएच-06 पर भीड़ घटाना और त्रिपुरा, मिज़ोरम, मणिपुर और बराक घाटी से संपर्क बेहतर करना है। मार्च 2026 में एनएचआईडीसीएल इसके चार पैकेजों के लिए बोलियाँ आमंत्रित कर रहा था, और प्रधानमंत्री को 14 मार्च 2026 को सिलचर में आधारशिला रखनी थी।",
+           "शिलाँगजवळील मावलिंगखुंग ते आसाममधील सिलचरजवळील पंचग्रामपर्यंत एनएच-06 वरील 166.80 किमी लांबीचा चौपदरी, नियंत्रित प्रवेशाचा ग्रीनफिल्ड महामार्ग — 144.80 किमी मेघालयात व 22 किमी आसाममध्ये — ज्याला आर्थिक व्यवहार मंत्रिमंडळ समितीने 30 एप्रिल 2025 रोजी हायब्रिड अॅन्युइटी पद्धतीने ₹22,864 कोटी भांडवली खर्चास मंजुरी दिली. विद्यमान एनएच-06 वरील कोंडी कमी करणे आणि त्रिपुरा, मिझोराम, मणिपूर व बराक खोऱ्याशी संपर्क सुधारणे हा त्याचा उद्देश आहे. मार्च 2026 मध्ये एनएचआयडीसीएल त्याच्या चार पॅकेजसाठी निविदा मागवत होते, आणि पंतप्रधान 14 मार्च 2026 रोजी सिलचर येथे पायाभरणी करणार होते."),
+         "roads", "NHIDCL (Ministry of Road Transport and Highways)", 22864, "Total capital cost approved by the CCEA on 30 April 2025, including ₹12,087 crore civil cost and ₹3,503 crore land acquisition (PIB).", "2025",
+         None, None, "Tendering", "pib", "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2125467", as_of="2026-10-28",
+         supporting=[("swarajya", HWY, L("the four packages, NHIDCL's bidding and the foundation-stone plan (March 2026)",
+                                         "चार पैकेज, एनएचआईडीसीएल की बोली प्रक्रिया और आधारशिला की योजना (मार्च 2026)",
+                                         "चार पॅकेज, एनएचआयडीसीएलची निविदा प्रक्रिया आणि पायाभरणीचे नियोजन (मार्च 2026)"))]),
 ]
 
 GI_NAMES = {
@@ -78,7 +81,7 @@ GI_NAMES = {
  "Meghalaya Chubitchi": ("मेघालय चुबित्ची (चावल पेय)", "मेघालय चुबित्ची (तांदळाचे पेय)"),
 }
 r["giProducts"] = gi_list("gi_ml.tsv", GI_NAMES, {}, {"Meghalaya Garo Textile", "Meghalaya Ryndia Textile", "Meghalaya Khasi Handloom Products"})
-r["meta"] = {"lastUpdated": "2026-10-27",  # freshness pass; BD_TODAY stays the original authoring date
+r["meta"] = {"lastUpdated": "2026-10-28",  # freshness pass; BD_TODAY stays the original authoring date
               "editorialStatus": "draft"}
 write("regions/IN-ML.json", r)
 print("ml core ok", len(r["giProducts"]), "GIs")

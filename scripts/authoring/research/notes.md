@@ -207,3 +207,11 @@ Rashtrapati Bhavan, legislature, PIB/PMIndia or Prasar Bharati (News On AIR / Ak
   Mopa airport (PMIndia), but each covers only part of the card's text. Project cards have a single source, so switching
   would overstate provenance. A per-field source on projects would allow it.
 - `officeholder_updates_2026_10_24.py` is superseded (KL/OR governor cards now live in their core scripts) and refuses to run.
+- **Projects, 28 Oct 2026:** Shillong–Silchar → PIB Cabinet release PRID 2125467 (30 Apr 2025); Jiribam–Imphal, Dimapur–Kohima,
+  Sivok–Rangpo → PIB factsheet "Tracks of Change" (13 Sep 2025, FactsheetDetails Id=149284); Kudankulam 3–6 → PIB Rajya Sabha
+  reply PRID 2220292 (29 Jan 2026: 80.51% / 41.56%, 2027 / 2030). News reports kept as supporting sources for the details they
+  cover. Removed unsupported details: "Tamenglong" (Jiribam–Imphal), "Teesta valley" (Sivok–Rangpo), "alternative to the Jaintia
+  Hills road" (Shillong–Silchar, replaced by PIB's stated purpose), "pressurised-water", "Tirunelveli district" (Kudankulam).
+  Dimapur–Kohima length conflicts: 82.5 km (PIB) vs 78.42 km (NFR via Morung Express) — both shown with their sources.
+  `proj()` now takes `cost_src` and gives the cost the project's confidence (it used to default to Official).
+  Rishikesh–Karnaprayag stays third-party: the only official answer found (Lok Sabha, Mar 2023) predates the card's figures.

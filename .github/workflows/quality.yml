@@ -1,5 +1,5 @@
 # Release checks against the live site (MVP exit criteria):
-#   Lighthouse mobile ≥ 90 (performance, accessibility), axe accessibility scan, source-URL check.
+#   Lighthouse mobile ≥ 90 (performance, accessibility), axe accessibility scan, end-to-end journeys, source-URL check.
 # Runs after each successful Pages deploy, weekly, and on demand (Actions → Quality checks → Run workflow).
 name: Quality checks
 
@@ -52,6 +52,23 @@ jobs:
         env:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: node scripts/quality/axe.mjs
+
+  e2e:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - uses: browser-actions/setup-chrome@v1
+        id: chrome
+      - name: End-to-end journeys (search, languages, compare, rankings, map, data, learn, trips, offline)
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: npm run test:e2e
 
   source-links:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'

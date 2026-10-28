@@ -74,6 +74,11 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 - Pick a State/UT, 1–7 days and a month: the plan shows the closest authored route (exact length, else the longest shorter one, with a note), the profile's suggested seasons with the chosen month highlighted, key places, airports and links back to the tourism, climate and transport sections. Covers 31 regions.
 - Built only from existing profile content; nothing new is asserted. Season labels are read into months (ranges wrap the year end); a month not listed is described as "not listed", not as a bad time. Shareable links (`?r=IN-MH&d=4&m=11`); each region's data (`/trip/IN-XX.json`) loads on demand. Tests: `tests/trip.test.ts`.
 
+## 13. End-to-end tests
+
+- Playwright suite (`e2e/`, `npm run test:e2e`) covering 13 journeys: search to a GI page, language switch on a profile, section navigation, the Kerala→Keralam redirect, the 404 page, Compare, Rankings, a map data layer, Data Library CSV columns and licence, a Learn answer, a shared Trip Planner link, the correction link, and offline reading.
+- Runs in the Quality checks workflow against the live site after each deploy (job `e2e`), next to Lighthouse and axe.
+
 ## Checks
 
 `validate-data`: 0 errors, 1,725 gaps. Unit tests: 100 passing. Accessibility (axe): 38/38 pages clean, including Rankings, Data Library and Learn.
@@ -83,4 +88,4 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 1. Finish the 16 remaining officeholder cards (mostly legislature sites that block automated reading).
 2. Find a current official source for Rishikesh–Karnaprayag (Lok Sabha/Rajya Sabha answers, RVNL).
 3. District profiles once a current LGD list and district tables are available.
-4. Phase 4 items left from the roadmap: Career Explorer, PDF export, CMS with roles; E2E tests.
+4. Phase 4 items left from the roadmap: Career Explorer, PDF export, CMS with roles.

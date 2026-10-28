@@ -14,6 +14,8 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || undefined;
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  // Security advisories only: reminders recommend a patch release when the installed Next.js is affected.
+  experimental: { agentUpgrade: "security" },
   ...(staticExport
     ? { output: "export" as const, trailingSlash: true, images: { unoptimized: true }, basePath }
     : {

@@ -17,7 +17,7 @@ import { Digits } from "../Num";
 const short = (id: string | null | undefined) => (id ? sourceName(id)?.short ?? id : null);
 
 /** Renders a module's typed blocks (Section 7). Server component. */
-export async function ModuleBlocks({ blocks, region, locale, headingLevel = 3 }: { blocks: Block[]; region: Region; locale: Locale; headingLevel?: 2 | 3 }) {
+export async function ModuleBlocks({ blocks, region, locale, headingLevel = 3, print = false }: { blocks: Block[]; region: Region; locale: Locale; headingLevel?: 2 | 3; print?: boolean }) {
   const t = await getTranslations();
   const L = (v: Parameters<typeof pick>[0]) => pick(v, locale);
 
@@ -205,6 +205,8 @@ export async function ModuleBlocks({ blocks, region, locale, headingLevel = 3 }:
               </section>
             );
           case "weather":
+            // Live readings are left out of printed profiles: a PDF would freeze them without a time.
+            if (print) return null;
             return (
               <section key={b.id}>
                 <WeatherWidget places={b.places.map((p) => ({ name: L(p.name), lat: p.lat, lon: p.lon }))} />

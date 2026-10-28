@@ -11,6 +11,7 @@ import { formatValue } from "../StatCard";
 import { TrendBadge } from "../TrendBadge";
 import { SourceInfo } from "../SourceInfo";
 import { Digits } from "../Num";
+import { usePrintMode } from "../PrintMode";
 
 type Series = Extract<Block, { type: "series" }>;
 
@@ -18,8 +19,12 @@ type Series = Extract<Block, { type: "series" }>;
 export function SeriesChart({ block, labels, sourceLabel, note, hideSummary }: { block: Series; labels: string[]; sourceLabel: string | null; note?: string; hideSummary?: boolean }) {
   const t = useTranslations("common");
   const locale = useLocale() as Locale;
-  const [range, setRange] = useState<number | "all">(10);
-  const [view, setView] = useState<"chart" | "table">("chart");
+  const print = usePrintMode();
+  const [rangeState, setRange] = useState<number | "all">(10);
+  const [viewState, setView] = useState<"chart" | "table">("chart");
+  // Printed profiles show every period as a table: no chart library, nothing hidden.
+  const range = print ? "all" : rangeState;
+  const view = print ? "table" : viewState;
 
   const periods = useMemo(() => {
     const set = new Set<string>();
@@ -84,7 +89,7 @@ export function SeriesChart({ block, labels, sourceLabel, note, hideSummary }: {
         </dl>
       )}
 
-      <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
+      <div className="mb-3 flex flex-wrap items-center gap-2 text-sm print:hidden" hidden={print}>
         <div role="radiogroup" aria-label={t("range")} className="flex overflow-hidden rounded-md border border-border">
           {([5, 10, "all"] as const).map((r) => (
             <button
@@ -113,7 +118,7 @@ export function SeriesChart({ block, labels, sourceLabel, note, hideSummary }: {
           {block.kind === "rupeeCrore" && <p className="text-right text-[11px] text-muted">{t("lakhCroreAxis")}</p>}
         </div>
       ) : (
-        <div className="max-h-80 overflow-auto">
+        <div className={print ? "" : "max-h-80 overflow-auto"}>
           <table className="w-full text-sm">
             <thead className="sticky top-0 bg-surface-2">
               <tr>

@@ -76,16 +76,25 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 
 ## 13. End-to-end tests
 
-- Playwright suite (`e2e/`, `npm run test:e2e`) covering 13 journeys: search to a GI page, language switch on a profile, section navigation, the Kerala→Keralam redirect, the 404 page, Compare, Rankings, a map data layer, Data Library CSV columns and licence, a Learn answer, a shared Trip Planner link, the correction link, and offline reading.
+- Playwright suite (`e2e/`, `npm run test:e2e`) covering 14 journeys (print view added later): search to a GI page, language switch on a profile, section navigation, the Kerala→Keralam redirect, the 404 page, Compare, Rankings, a map data layer, Data Library CSV columns and licence, a Learn answer, a shared Trip Planner link, the correction link, and offline reading.
 - Runs in the Quality checks workflow against the live site after each deploy (job `e2e`), next to Lighthouse and axe.
+
+## 14. Print and PDF export (`…/print`)
+
+- Every State and UT has a printable profile (`/en/states/goa/print`, in all three languages, 108 pages), linked as "Print or save as PDF" from the profile header. Its button opens the browser's print dialog, where "Save as PDF" is a destination.
+- One document: cover with codes, capitals, data date and the online address, contents, then all 26 sections, each starting on a new A4 page (Maharashtra: 48 pages, about 2 MB).
+- Nothing is dropped from provenance: each figure's source, period, confidence, revision status, check date and link are written out in full, and outside links carry their address in print. Series appear as full tables. Live weather is left out, since a PDF would freeze it without a time. The page states that figures are as of the data date and gives the CC BY 4.0 credit line.
+- Printing any normal page also hides the site header, footer and section menu, and prints in light colours.
+- Print pages are not indexed by search engines (canonical points to the profile). They add about 100 KB each over the network and about 6% to the site's size.
+- No pre-made PDF files: 108 of them would add about 200 MB, and the browser's own PDF keeps the Devanagari fonts exactly as on screen.
 
 ## Checks
 
-`validate-data`: 0 errors, 1,725 gaps. Unit tests: 100 passing. Accessibility (axe): 38/38 pages clean, including Rankings, Data Library and Learn.
+`validate-data`: 0 errors, 1,725 gaps. Unit tests: 100 passing. End-to-end: 14 journeys (print added). Accessibility (axe): 40/40 pages clean, including two print pages.
 
 ## Next steps
 
 1. Finish the 16 remaining officeholder cards (mostly legislature sites that block automated reading).
 2. Find a current official source for Rishikesh–Karnaprayag (Lok Sabha/Rajya Sabha answers, RVNL).
 3. District profiles once a current LGD list and district tables are available.
-4. Phase 4 items left from the roadmap: Career Explorer, PDF export, CMS with roles.
+4. Phase 4 items left from the roadmap: Career Explorer and a CMS with roles (both need decisions on scope).

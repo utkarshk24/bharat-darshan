@@ -8,6 +8,7 @@ import { correctionUrl } from "@/lib/correction";
 import { formatDate, formatPeriod } from "@/lib/format";
 import { ConfidenceBadge } from "./ConfidenceBadge";
 import { Digits } from "./Num";
+import { usePrintMode } from "./PrintMode";
 
 export interface SourceInfoProps {
   sourceLabel: string | null;
@@ -35,6 +36,7 @@ export function SourceInfo(p: SourceInfoProps) {
   const [open, setOpen] = useState(false);
   const id = useId();
   const ref = useRef<HTMLSpanElement>(null);
+  const print = usePrintMode();
 
   useEffect(() => {
     if (!open) return;
@@ -51,6 +53,21 @@ export function SourceInfo(p: SourceInfoProps) {
   const label = [p.sourceLabel ?? t("common.notAvailable"), p.period ? formatPeriod(p.period, locale) : null]
     .filter(Boolean)
     .join(" · ");
+
+  if (print) {
+    const link = p.url || p.verifyUrl;
+    return (
+      <span className="block text-xs text-muted">
+        <strong>{t("common.source")}:</strong> <Digits>{label}</Digits>
+        {" · "}{t(`confidence.${p.confidence}` as "confidence.Official")}
+        {" · "}{t(`revision.${p.revisionStatus}` as "revision.final")}
+        {p.accessDate ? <> · <Digits>{t("common.lastUpdated", { date: formatDate(p.accessDate, locale) })}</Digits></> : null}
+        {p.asOf ? <> · <Digits>{t("common.dataAsOn", { date: formatDate(p.asOf, locale) })}</Digits></> : null}
+        {p.note && <span className="block" lang="en">{p.note}</span>}
+        {link && <a href={link} className="print-url block break-all">{link}</a>}
+      </span>
+    );
+  }
 
   return (
     <span ref={ref} className="relative inline-flex">

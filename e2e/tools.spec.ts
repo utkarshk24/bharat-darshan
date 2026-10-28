@@ -61,3 +61,20 @@ test("corrections: the source box links to a pre-filled report form", async ({ p
   expect(u.searchParams.get("template")).toBe("correction.yml");
   expect(u.searchParams.get("page")).toContain("/en/states/goa/");
 });
+
+test("print: a profile opens as one printable document with every source written out", async ({ page }) => {
+  await go(page, "/en/states/goa/");
+  await page.getByRole("link", { name: "Print or save as PDF" }).click();
+  await expect(page).toHaveURL(/\/states\/goa\/print\/?$/);
+  await expect(page.getByRole("heading", { level: 1, name: "Goa" })).toBeVisible();
+  // Contents plus all 26 sections.
+  await expect(page.locator("section.print-module > div > h2, section.print-module > h2")).toHaveCount(26);
+  await expect(page.getByRole("button", { name: "Save as PDF or print" })).toBeVisible();
+  // Series show as tables, sources as full addresses; no pop-up buttons left.
+  await expect(page.getByRole("button", { name: /Show table|Show chart/ })).toHaveCount(0);
+  expect(await page.locator("a.print-url").count()).toBeGreaterThan(10);
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", /noindex/);
+  await page.emulateMedia({ media: "print" });
+  await expect(page.locator("body > div header, header.sticky").first()).toBeHidden();
+  await expect(page.getByRole("button", { name: "Save as PDF or print" })).toBeHidden();
+});

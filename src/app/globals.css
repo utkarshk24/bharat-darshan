@@ -163,3 +163,81 @@ a {
   content-visibility: auto;
   contain-intrinsic-size: auto 380px;
 }
+
+/*
+ * Printing and "Save as PDF" (Phase 4). The site's own header, footer and section menu carry
+ * print:hidden. The printable profile (…/print, .print-doc) starts each section on a new page
+ * and writes out the address of every outside link, so sources survive on paper.
+ */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 12mm 16mm;
+    background: #ffffff;
+  }
+  /* Always the light palette on paper, whatever the screen theme. */
+  :root,
+  :root.dark {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #f3f1eb;
+    --border: #d6d1c4;
+    --text: #16202e;
+    --text-muted: #4a5568;
+    --navy: #0b2545;
+    --saffron-ink: #9a4a00;
+    --green-ink: #0b6b2e;
+    --link: #1d4ed8;
+    --good: #0b6b2e;
+    --bad: #b42318;
+    --neutral: #4a5568;
+    --badge-official: #0b6b2e;
+    --badge-estimate: #8a5a00;
+    --badge-third: #1d4ed8;
+    --badge-editorial: #6b4fa0;
+  }
+  html {
+    font-size: 10.5pt;
+    color-scheme: light;
+  }
+  html,
+  body {
+    background: #ffffff !important;
+  }
+  * {
+    box-shadow: none !important;
+  }
+  /* Nothing clipped inside scroll boxes. */
+  .overflow-auto,
+  .overflow-x-auto {
+    overflow: visible !important;
+    max-height: none !important;
+  }
+  thead.sticky {
+    position: static;
+  }
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+  li,
+  tr,
+  dl > div,
+  .grid > * {
+    break-inside: avoid;
+  }
+  .print-doc .print-module {
+    break-before: page;
+    /* Room above the heading so tall Devanagari marks stay on their own page. */
+    padding-top: 0.4em;
+  }
+  .print-doc h2 {
+    line-height: 1.4;
+  }
+  .print-doc a[href^="http"]:not(.print-url)::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: var(--text-muted);
+    word-break: break-all;
+  }
+}

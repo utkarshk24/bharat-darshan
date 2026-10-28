@@ -25,7 +25,7 @@ export function GIGrid({ products, accent }: { products: GIProduct[]; accent: st
       <p className="mb-3 text-lg font-semibold">
         <Digits>{t("common.giCount", { count: products.length })}</Digits>
       </p>
-      <div role="group" aria-label={t("common.filter")} className="mb-4 flex flex-wrap gap-2 text-sm">
+      <div role="group" aria-label={t("common.filter")} className="mb-4 flex flex-wrap gap-2 text-sm print:hidden">
         <button type="button" aria-pressed={cat === null} onClick={() => setCat(null)} className={cn("rounded-full border px-3 py-1", cat === null ? "border-navy bg-navy text-bg" : "border-border")}>
           {t("common.all")}
         </button>

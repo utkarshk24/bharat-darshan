@@ -9,7 +9,7 @@ export function Header() {
   const t = useTranslations();
   const secondary = NAV.filter((n) => n.key !== "home" && !(PRIMARY_NAV as readonly string[]).includes(n.key));
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-surface/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-border bg-surface/95 backdrop-blur print:hidden">
       <div className="tricolour-rule" />
       <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-3">
         <Link href="/" className="flex shrink-0 items-center gap-2 text-text no-underline">

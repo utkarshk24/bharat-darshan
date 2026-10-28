@@ -10,7 +10,7 @@ const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 export function ModuleNav({ base, current }: { base: string; current: ModuleKey }) {
   const t = useTranslations();
   return (
-    <nav aria-label={t("profile.modules")} className="min-w-0 lg:sticky lg:top-24 lg:self-start">
+    <nav aria-label={t("profile.modules")} className="min-w-0 lg:sticky lg:top-24 lg:self-start print:hidden">
       <p className="mb-2 hidden text-xs font-semibold uppercase tracking-wide text-muted lg:block">{t("profile.modules")}</p>
       <ol id="module-tabs" className="-mx-4 flex gap-1 overflow-x-auto px-4 pb-2 text-sm lg:mx-0 lg:max-h-[calc(100vh-8rem)] lg:flex-col lg:overflow-y-auto lg:px-0">
         {MODULES.map((m, i) => {

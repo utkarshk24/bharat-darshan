@@ -8,7 +8,7 @@ import { CorrectionLink } from "./CorrectionLink";
 export function Footer({ asOn }: { asOn: string }) {
   const t = useTranslations();
   return (
-    <footer className="mt-16 border-t border-border bg-surface">
+    <footer className="mt-16 border-t border-border bg-surface print:hidden">
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 md:grid-cols-[2fr_3fr]">
         <div className="flex flex-col gap-3">
           <p className="text-lg font-semibold">{t("common.siteName")}</p>

@@ -30,8 +30,8 @@ export const isDataTheme = (t: ThemeId, themes: DataTheme[] = DATA_THEMES): bool
 export type Overlay = "labels" | "capitals" | "districts" | "disputed";
 export const OVERLAYS: Overlay[] = ["labels", "capitals", "districts", "disputed"];
 
-/** Layers we will add only once official, sourced data is in place (shown as "planned"). */
-export const PLANNED = ["rivers", "protected", "transport", "heritage", "hazards", "timeline"] as const;
+/** Layers we will add only once official, sourced data with locations is in place (shown as "planned"). */
+export const PLANNED = ["airportsPorts", "seismicZones"] as const;
 
 export interface Scale {
   /** Period every coloured value shares (period hygiene: one period per map). */
@@ -79,6 +79,7 @@ export const NA_FILL = "url(#bd-na)";
 export const OFF_FILL = "url(#bd-off)";
 
 export function fillForTheme(r: RegionSummary, theme: ThemeId, scale: Scale | null): string {
+  if (theme === "plain") return "var(--plain)";
   if (theme === "zonal") return ZONAL_COLORS[r.zonalCouncil ?? "islands"];
   if (theme === "type") return TYPE_COLORS[r.type];
   const dp: DataPoint | undefined = r.mapMetrics[theme];

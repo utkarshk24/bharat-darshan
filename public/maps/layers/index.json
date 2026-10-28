@@ -1,0 +1,150 @@
+{
+ "$comment": "Thematic map layers. Built by scripts/maps/build_layers.py; see docs/MAPS.md.",
+ "attribution": "Republished by Datameet (github.com/ramSeraph), CC0 1.0",
+ "built": "2026-10-28",
+ "sources": {
+  "wris-rivers": {
+   "publisher": "India-WRIS (Ministry of Jal Shakti, with ISRO)",
+   "url": "https://indiawris.gov.in/",
+   "copy": "2025-09-16"
+  },
+  "wris-lakes": {
+   "publisher": "India-WRIS (Ministry of Jal Shakti, with ISRO)",
+   "url": "https://indiawris.gov.in/",
+   "copy": "2023-12-29"
+  },
+  "wris-reservoirs": {
+   "publisher": "India-WRIS (Ministry of Jal Shakti, with ISRO)",
+   "url": "https://indiawris.gov.in/",
+   "copy": "2024-11-27"
+  },
+  "moefcc-pa": {
+   "publisher": "Ministry of Environment, Forest and Climate Change, via PM GatiShakti",
+   "url": "https://ugi.pmgatishakti.gov.in/",
+   "copy": "2026-02-13"
+  },
+  "moefcc-ramsar": {
+   "publisher": "Ministry of Environment, Forest and Climate Change (Parivesh), via Bharatmaps",
+   "url": "https://bharatmaps.gov.in/",
+   "copy": "2025-01-15"
+  },
+  "morth-nh": {
+   "publisher": "Ministry of Road Transport and Highways, via PM GatiShakti (layer updated 30 June 2022)",
+   "url": "https://ugi.pmgatishakti.gov.in/",
+   "copy": "2026-02-16"
+  },
+  "ir-tracks": {
+   "publisher": "Indian Railways GIS portal",
+   "url": "https://irgeoportal.gov.in/",
+   "copy": "2023-05-22"
+  },
+  "ndem-floods": {
+   "publisher": "National Remote Sensing Centre (ISRO), National Database for Emergency Management",
+   "url": "https://ndem.nrsc.gov.in/",
+   "copy": "2025-02-14"
+  },
+  "gsi-quakes": {
+   "publisher": "Geological Survey of India, National Geoscience Data Repository",
+   "url": "https://geodataindia.gov.in/",
+   "copy": "2025-02-13"
+  },
+  "unesco": {
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/statesparties/in",
+   "copy": "2026-10-28"
+  },
+  "asi": {
+   "publisher": "Archaeological Survey of India, via Bhuvan (ISRO)",
+   "url": "https://bhuvan.nrsc.gov.in/",
+   "copy": "2025-01-08"
+  },
+  "ir-stations": {
+   "publisher": "Indian Railways GIS portal",
+   "url": "https://irgeoportal.gov.in/",
+   "copy": "2023-05-22"
+  }
+ },
+ "layers": {
+  "rivers": {
+   "files": [
+    "rivers.topo.json"
+   ],
+   "sources": [
+    "wris-rivers",
+    "wris-lakes",
+    "wris-reservoirs"
+   ],
+   "counts": {
+    "rivers": 327,
+    "lakes": 17,
+    "reservoirs": 36
+   }
+  },
+  "protected": {
+   "files": [
+    "protected.topo.json"
+   ],
+   "sources": [
+    "moefcc-pa",
+    "moefcc-ramsar"
+   ],
+   "counts": {
+    "nationalParks": 98,
+    "sanctuaries": 554,
+    "ramsar": 81
+   }
+  },
+  "transport": {
+   "files": [
+    "transport.topo.json"
+   ],
+   "sources": [
+    "morth-nh",
+    "ir-tracks"
+   ],
+   "counts": {
+    "nationalHighways": 669,
+    "railSegments": 35550
+   }
+  },
+  "heritage": {
+   "files": [
+    "heritage.json"
+   ],
+   "sources": [
+    "unesco",
+    "asi",
+    "moefcc-pa",
+    "ir-stations"
+   ],
+   "counts": {
+    "properties": 44,
+    "withoutPosition": [
+     "Santiniketan"
+    ],
+    "fallback": [
+     "Chhatrapati Shivaji Terminus (formerly Victoria Terminus)",
+     "Great Himalayan National Park Conservation Area",
+     "Kaziranga National Park",
+     "Khangchendzonga National Park",
+     "Sun Temple, Konârak"
+    ]
+   }
+  },
+  "hazards": {
+   "files": [
+    "hazards.topo.json",
+    "hazards-points.json"
+   ],
+   "sources": [
+    "gsi-quakes",
+    "ndem-floods"
+   ],
+   "counts": {
+    "earthquakes": 41,
+    "firstYear": "1897",
+    "lastYear": "2019"
+   }
+  }
+ }
+}

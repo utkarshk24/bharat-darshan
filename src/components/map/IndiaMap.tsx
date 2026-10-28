@@ -19,6 +19,8 @@ import type { BoundaryManifest, Capital, GeoMapHandle } from "./GeoMap";
 const GeoMap = dynamic(() => import("./GeoMap").then((m) => m.GeoMap), { ssr: false, loading: () => <div className="skeleton h-full w-full" /> });
 import { DATA_THEMES, OVERLAYS, PLANNED, buildScale, fillForTheme, type DataTheme, type Overlay, type ThemeId } from "./layers";
 import { exportPng } from "./exportPng";
+import { FIRST_YEAR, LAST_YEAR, eventYears, eventsIn, periodAt } from "./formation";
+import { THEMATIC, loadIndex, loadLayer, type HoverLines, type LayerIndex, type Thematic, type ThematicData } from "./thematic";
 
 const ZONES: ZonalCouncil[] = ["northern", "central", "eastern", "western", "southern", "north-eastern", "islands"];
 const hrefFor = (r: RegionSummary) => (r.type === "state" ? `/states/${r.slug}` : `/uts/${r.slug}`);
@@ -46,8 +48,9 @@ function readHash(themes: ThemeId[]) {
   const on = p.get("on");
   return {
     theme: theme && themes.includes(theme) ? theme : undefined,
-    overlays: on !== null ? new Set(on.split(",").filter((o): o is Overlay => OVERLAYS.includes(o as Overlay))) : undefined,
+    overlays: on !== null ? new Set(on.split(",").filter((o): o is Overlay | Thematic => OVERLAYS.includes(o as Overlay) || THEMATIC.includes(o as Thematic))) : undefined,
     region: p.get("r") ?? undefined,
+    year: Number(p.get("y")) || undefined,
   };
 }
 
@@ -64,7 +67,7 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
   const dg = useCallback((s: string) => (digits === "devanagari" ? toDevanagariDigits(s) : s), [digits]);
   const mapRef = useRef<GeoMapHandle>(null);
   const allData = useMemo(() => [...DATA_THEMES, ...extraThemes], [extraThemes]);
-  const THEMES: ThemeId[] = useMemo(() => ["zonal", "type", ...allData.map((d) => d.id)], [allData]);
+  const THEMES: ThemeId[] = useMemo(() => ["zonal", "type", "plain", "formation", ...allData.map((d) => d.id)], [allData]);
   const themeLabel = useCallback(
     (id: ThemeId) => {
       const x = allData.find((d) => d.id === id);
@@ -78,7 +81,12 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
   const [data, setData] = useState<Loaded | null>(null);
   const [failed, setFailed] = useState(false);
   const [theme, setTheme] = useState<ThemeId>("zonal");
-  const [overlays, setOverlays] = useState<Set<Overlay>>(new Set(compact ? ["capitals"] : ["labels", "capitals", "districts", "disputed"]));
+  const [year, setYear] = useState<number>(LAST_YEAR);
+  const [overlays, setOverlays] = useState<Set<Overlay | Thematic>>(new Set(compact ? ["capitals"] : ["labels", "capitals", "districts", "disputed"]));
+  const [layerIndex, setLayerIndex] = useState<LayerIndex | null>(null);
+  const [layerData, setLayerData] = useState<ThematicData>({});
+  const [layerState, setLayerState] = useState<Partial<Record<Thematic, "loading" | "ready" | "error">>>({});
+  const [fHover, setFHover] = useState<{ lines: HoverLines; pt?: { x: number; y: number } } | null>(null);
   const [focusZone, setFocusZone] = useState<ZonalCouncil | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [hover, setHover] = useState<{ r: RegionSummary; pt?: { x: number; y: number } } | null>(null);
@@ -146,14 +154,50 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
   }, [wantDistricts, selected, dIndex, dTopo]);
   const districtTopo = wantDistricts && dTopo && dTopo.code === selected ? dTopo.topo : null;
 
-  // Restore a shared view
+  // Thematic layers: the index once, then each layer's files the first time it is switched on
+  const activeLayers = useMemo(() => (compact ? [] : THEMATIC.filter((l) => overlays.has(l))), [overlays, compact]);
+  useEffect(() => {
+    if (!activeLayers.length || layerIndex) return;
+    loadIndex().then(setLayerIndex).catch(() => {});
+  }, [activeLayers.length, layerIndex]);
+  useEffect(() => {
+    for (const l of activeLayers) {
+      if (layerState[l]) continue;
+      setLayerState((s) => ({ ...s, [l]: "loading" }));
+      loadLayer(l)
+        .then((d) => {
+          setLayerData((cur) => ({ ...cur, ...d }));
+          setLayerState((s) => ({ ...s, [l]: "ready" }));
+        })
+        .catch(() => setLayerState((s) => ({ ...s, [l]: "error" })));
+    }
+  }, [activeLayers, layerState]);
+  const thematic = useMemo<ThematicData>(() => {
+    const on = new Set(activeLayers);
+    return {
+      rivers: on.has("rivers") ? layerData.rivers : undefined,
+      protected: on.has("protected") ? layerData.protected : undefined,
+      transport: on.has("transport") ? layerData.transport : undefined,
+      hazards: on.has("hazards") ? layerData.hazards : undefined,
+      quakes: on.has("hazards") ? layerData.quakes : undefined,
+      heritage: on.has("heritage") ? layerData.heritage : undefined,
+    };
+  }, [activeLayers, layerData]);
+
+  // Restore a shared view, and follow the link if it is changed in the same tab
   useEffect(() => {
     if (compact) return;
-    const h = readHash(THEMES);
-    if (h.theme) setTheme(h.theme);
-    if (h.overlays) setOverlays(h.overlays);
-    if (h.region && regions.some((r) => r.code === h.region)) setSelected(h.region);
+    const apply = () => {
+      const h = readHash(THEMES);
+      if (h.theme) setTheme(h.theme);
+      if (h.overlays) setOverlays(h.overlays);
+      if (h.region && regions.some((r) => r.code === h.region)) setSelected(h.region);
+      if (h.year && h.year >= FIRST_YEAR && h.year <= LAST_YEAR) setYear(h.year);
+    };
+    apply();
     setRestored(true);
+    window.addEventListener("hashchange", apply);
+    return () => window.removeEventListener("hashchange", apply);
   }, [compact, regions, THEMES]);
   useEffect(() => {
     if (!data || !selected || compact) return;
@@ -176,23 +220,45 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
     p.set("theme", theme);
     p.set("on", [...overlays].join(","));
     if (selected) p.set("r", selected);
+    if (theme === "formation") p.set("y", String(year));
     window.history.replaceState(null, "", `#${p.toString()}`);
-  }, [theme, overlays, selected, compact, restored]);
+  }, [theme, overlays, selected, compact, restored, year]);
 
   const byCode = useMemo(() => new Map(regions.map((r) => [r.code, r])), [regions]);
   const dataTheme = allData.find((d) => d.id === theme) ?? null;
   const scale = useMemo(() => (dataTheme ? buildScale(regions, theme) : null), [regions, theme, dataTheme]);
-  const fill = useCallback((r: RegionSummary) => fillForTheme(r, theme, scale), [theme, scale]);
+  const fill = useCallback(
+    (r: RegionSummary) => {
+      if (theme !== "formation") return fillForTheme(r, theme, scale);
+      const st = periodAt(r.code, year)?.status;
+      return st === "S" ? TYPE_COLORS.state : st === "U" ? TYPE_COLORS.ut : st === "part" ? "url(#bd-na)" : "url(#bd-unlisted)";
+    },
+    [theme, scale, year],
+  );
+  /** What a region was in the chosen year, in words (formation theme). */
+  const formationText = useCallback(
+    (r: RegionSummary): string => {
+      const p = periodAt(r.code, year);
+      if (!p) return ta("notAvailable");
+      const named = p.name ? ` (${pick(p.name, locale)})` : "";
+      if (p.status === "S") return ta("formation.state") + named;
+      if (p.status === "U") return ta("formation.ut") + named;
+      if (p.status === "part") return ta("formation.partOf", { name: pick(p.of!, locale) });
+      return ta("formation.unlisted");
+    },
+    [year, ta, locale],
+  );
 
   const valueText = useCallback(
     (r: RegionSummary): string | null => {
+      if (theme === "formation") return `${formationText(r)} · ${dg(String(year))}`;
       if (!dataTheme) return null;
       const dp = r.mapMetrics[dataTheme.id];
       if (!dp) return ta("notAvailable");
       const v = formatValue(dp, dataTheme.kind, locale) ?? ta("notAvailable");
       return dg(`${v} (${formatPeriod(dp.period, locale)})`);
     },
-    [dataTheme, locale, ta, dg],
+    [dataTheme, locale, ta, dg, theme, formationText, year],
   );
   const describe = useCallback(
     (r: RegionSummary) => {
@@ -208,13 +274,17 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
     if (!compact) mapRef.current?.focus(r.code, panelPad());
   }, [compact]);
 
-  const toggleOverlay = (o: Overlay) =>
+  const toggleOverlay = (o: Overlay | Thematic) => {
+    const turningOnLayer = (THEMATIC as readonly string[]).includes(o) && !overlays.has(o);
+    // Thematic layers read best on a plain map; the reader can switch the colours back
+    if (turningOnLayer && (theme === "zonal" || theme === "type")) setTheme("plain");
     setOverlays((s) => {
       const n = new Set(s);
       if (n.has(o)) n.delete(o);
       else n.add(o);
       return n;
     });
+  };
 
   const matches = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -236,7 +306,10 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
     const svg = mapRef.current?.svg();
     if (!svg) return;
     const title = `${ta("exportTitle")} — ${themeLabel(theme)}`;
-    await exportPng(svg, { title, attribution: ta("attributionShort"), filename: `bharat-darshan-${theme}.png`, period: scale?.period ? formatPeriod(scale.period, locale) : null });
+    const extra = activeLayers.length && layerIndex
+      ? ` · ${[...new Set(activeLayers.flatMap((l) => layerIndex.layers[l].sources.slice(0, 2).map((id) => layerIndex.sources[id].publisher.split(" (")[0].split(",")[0])))].join("; ")}`
+      : "";
+    await exportPng(svg, { title, attribution: ta("attributionShort") + extra, filename: `bharat-darshan-${theme}.png`, period: scale?.period ? formatPeriod(scale.period, locale) : null });
     setStatus(ta("exported"));
   };
 
@@ -273,6 +346,47 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
           ))}
         </div>
       )}
+      {theme === "formation" && (() => {
+        const evs = eventsIn(year);
+        const prev = [...eventYears].reverse().find((y) => y < year);
+        const next = eventYears.find((y) => y > year);
+        const sw = (bg: string) => <span aria-hidden className="size-3 rounded-sm border border-border" style={{ background: bg }} />;
+        return (
+          <div className="flex flex-col gap-2">
+            <div className="flex flex-wrap items-center gap-2">
+              <label htmlFor="bd-year" className="font-medium">{ta("formation.year")}</label>
+              <button type="button" className="rounded-md border border-border px-2 py-0.5 hover:bg-surface-2 disabled:opacity-40" disabled={prev === undefined} onClick={() => prev !== undefined && setYear(prev)} aria-label={ta("formation.prev")}>‹</button>
+              <input id="bd-year" type="range" min={FIRST_YEAR} max={LAST_YEAR} step={1} value={year} onChange={(e) => setYear(Number(e.target.value))} className="w-48 accent-[var(--focus)]" aria-valuetext={dg(String(year))} />
+              <button type="button" className="rounded-md border border-border px-2 py-0.5 hover:bg-surface-2 disabled:opacity-40" disabled={next === undefined} onClick={() => next !== undefined && setYear(next)} aria-label={ta("formation.next")}>›</button>
+              <output htmlFor="bd-year" className="text-lg font-semibold tabular-nums">{dg(String(year))}</output>
+            </div>
+            <ul className="flex flex-wrap gap-x-3 gap-y-1">
+              <li className="inline-flex items-center gap-1.5">{sw(TYPE_COLORS.state)}{ta("formation.state")}</li>
+              <li className="inline-flex items-center gap-1.5">{sw(TYPE_COLORS.ut)}{ta("formation.ut")}</li>
+              <li className="inline-flex items-center gap-1.5"><svg aria-hidden width="20" height="12"><rect width="20" height="12" rx="2" fill="url(#bd-na-legend)" /><defs><pattern id="bd-na-legend" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="var(--surface-2)" /><line x1="0" y1="0" x2="0" y2="6" stroke="var(--border)" strokeWidth="3" /></pattern></defs></svg>{ta("formation.partShort")}</li>
+              <li className="inline-flex items-center gap-1.5"><svg aria-hidden width="20" height="12"><rect width="20" height="12" rx="2" fill="url(#bd-unl-legend)" /><defs><pattern id="bd-unl-legend" width="5" height="5" patternUnits="userSpaceOnUse"><rect width="5" height="5" fill="var(--surface)" /><circle cx="2.5" cy="2.5" r="1" fill="var(--text-muted)" /></pattern></defs></svg>{ta("formation.unlisted")}</li>
+            </ul>
+            <div aria-live="polite" className="text-sm">
+              {evs.length ? (
+                <ul className="flex flex-col gap-1.5">
+                  {evs.map((e) => (
+                    <li key={e.date + e.act}>
+                      <span className="font-medium">{dg(e.date.length === 10 ? formatDate(e.date, locale) : e.date)}:</span> {pick(e.what, locale)}{" "}
+                      <span className="text-xs text-muted">
+                        {ta("source")}: <a href={e.url} target="_blank" rel="noopener noreferrer">{e.act}</a>
+                        {e.confidence !== "Official" && <> · {t(`confidence.${e.confidence}` as "confidence.Official")}</>}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-muted">{ta("formation.noChange")}</p>
+              )}
+            </div>
+            <p className="text-xs text-muted">{ta("formation.note")}</p>
+          </div>
+        );
+      })()}
       {dataTheme && scale && (
         <div className="flex flex-col gap-1.5">
           <p className="font-medium">
@@ -339,6 +453,128 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
     </fieldset>
   );
 
+  const n = (v: unknown) => dg(new Intl.NumberFormat(`${locale}-IN`).format(Number(v)));
+  const summary = (l: Thematic): string | null => {
+    const c = layerIndex?.layers[l]?.counts;
+    if (!c) return null;
+    switch (l) {
+      case "rivers":
+        return ta("thematicSummary.rivers", { rivers: n(c.rivers), lakes: n(c.lakes), reservoirs: n(c.reservoirs) });
+      case "protected":
+        return ta("thematicSummary.protected", { np: n(c.nationalParks), ws: n(c.sanctuaries), ramsar: n(c.ramsar) });
+      case "transport":
+        return ta("thematicSummary.transport", { nh: n(c.nationalHighways) });
+      case "heritage":
+        return ta("thematicSummary.heritage", { n: n(c.properties) });
+      case "hazards":
+        return ta("thematicSummary.hazards", { n: n(c.earthquakes), from: dg(String(c.firstYear)), to: dg(String(c.lastYear)) });
+    }
+  };
+  const swatch = (kind: "area" | "hatch" | "line" | "dash" | "dot" | "diamond" | "triangle" | "square" | "circle", color: string) => (
+    <svg aria-hidden width="20" height="14" viewBox="0 0 20 14" className="shrink-0">
+      {kind === "area" && <rect x="1" y="2" width="18" height="10" rx="2" fill={color} fillOpacity="0.55" stroke={color} />}
+      {kind === "hatch" && <><rect x="1" y="2" width="18" height="10" rx="2" fill={color} fillOpacity="0.15" stroke={color} /><path d="M4 12 L10 2 M10 12 L16 2" stroke={color} strokeWidth="1.3" /></>}
+      {kind === "dot" && <rect x="1" y="2" width="18" height="10" rx="2" fill={color} fillOpacity="0.45" stroke={color} strokeDasharray="2 1.5" />}
+      {kind === "line" && <path d="M1 9 C6 3, 12 12, 19 5" fill="none" stroke={color} strokeWidth="2" />}
+      {kind === "dash" && <path d="M1 7 H19" stroke={color} strokeWidth="2" strokeDasharray="4 1.5" />}
+      {kind === "diamond" && <path d="M10 1 L16 7 L10 13 L4 7 Z" fill={color} />}
+      {kind === "triangle" && <path d="M10 1 L16 12 L4 12 Z" fill={color} />}
+      {kind === "square" && <rect x="5" y="2" width="10" height="10" fill={color} />}
+      {kind === "circle" && <circle cx="10" cy="7" r="5" fill={color} fillOpacity="0.3" stroke={color} strokeWidth="1.4" />}
+    </svg>
+  );
+  const KEYS: Record<Thematic, [Parameters<typeof swatch>[0], string, string][]> = {
+    rivers: [["line", "var(--lyr-water)", "layer.river"], ["area", "var(--lyr-water)", "layer.lakeOrReservoir"]],
+    protected: [["area", "var(--lyr-park)", "layer.nationalPark"], ["hatch", "var(--lyr-park)", "layer.sanctuary"], ["dot", "var(--lyr-ramsar)", "layer.ramsar"]],
+    transport: [["line", "var(--lyr-road)", "layer.nationalHighway"], ["dash", "var(--lyr-rail)", "layer.railway"]],
+    heritage: [["diamond", "var(--lyr-cultural)", "layer.whs.C"], ["triangle", "var(--lyr-natural)", "layer.whs.N"], ["square", "var(--lyr-mixed)", "layer.whs.M"]],
+    hazards: [["circle", "var(--lyr-quake)", "layer.quake"], ["hatch", "var(--lyr-flood)", "layer.flood"]],
+  };
+  const layerLegend = activeLayers.length > 0 && (
+    <ul className={cn("flex flex-wrap gap-x-4 gap-y-1 text-sm", theme !== "plain" && "mt-2 border-t border-border pt-2")}>
+      {activeLayers.flatMap((l) =>
+        KEYS[l].map(([kind, color, key]) => (
+          <li key={l + key} className="inline-flex items-center gap-1.5">
+            {swatch(kind, color)}
+            <span>{ta(key)}</span>
+          </li>
+        )),
+      )}
+    </ul>
+  );
+
+  const fmtQuakeDate = (d: string) =>
+    dg(d.length === 10 ? formatDate(d, locale) : d.length === 7 ? new Intl.DateTimeFormat(`${locale}-IN`, { month: "long", year: "numeric" }).format(new Date(`${d}-15`)) : d);
+
+  const layerPicker = (
+    <fieldset className="flex flex-col gap-1">
+      <legend className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted">{ta("thematicTitle")}</legend>
+      {THEMATIC.map((l) => {
+        const on = overlays.has(l);
+        const st = layerState[l];
+        return (
+          <div key={l} className="flex flex-col">
+            <label className="flex cursor-pointer items-start gap-2 rounded-md px-2 py-1 text-sm hover:bg-surface-2">
+              <input type="checkbox" checked={on} onChange={() => toggleOverlay(l)} className="mt-1 accent-[var(--focus)]" />
+              <span>
+                {ta(`thematic.${l}`)}
+                {on && st === "loading" && <span className="block text-xs text-muted">{ta("layer.loading")}</span>}
+                {on && st === "error" && <span className="block text-xs text-[var(--bad)]">{ta("layer.loadError")}</span>}
+              </span>
+            </label>
+            {on && st === "ready" && (
+              <div className="mb-1 ml-8 flex flex-col gap-1 text-xs text-muted">
+                {summary(l) && <p>{summary(l)}</p>}
+                <p>{ta(`thematicNote.${l}`)}</p>
+                {l === "heritage" && layerData.heritage && (
+                  <details>
+                    <summary className="cursor-pointer text-text">{ta("listTitle", { n: n(layerData.heritage.length) })}</summary>
+                    <ol className="mt-1 flex max-h-64 flex-col gap-1 overflow-y-auto pr-1">
+                      {layerData.heritage.map((h) => (
+                        <li key={h.id}>
+                          <a href={h.url} target="_blank" rel="noopener noreferrer">{h.name}</a>{" "}
+                          <span>({ta(`layer.whs.${h.cat}`)}, {dg(String(h.year))}; {h.regions.map((c) => (byCode.get(c) ? pick(byCode.get(c)!.name, locale) : c)).join(", ")})</span>
+                          {h.points.length === 0 && <span className="block">{ta("layer.noPosition")}</span>}
+                        </li>
+                      ))}
+                    </ol>
+                  </details>
+                )}
+                {l === "hazards" && layerData.quakes && (
+                  <details>
+                    <summary className="cursor-pointer text-text">{ta("listTitle", { n: n(layerData.quakes.length) })}</summary>
+                    <ol className="mt-1 flex max-h-64 flex-col gap-0.5 overflow-y-auto pr-1">
+                      {[...layerData.quakes].reverse().map((q, i) => (
+                        <li key={i}>{fmtQuakeDate(q.d)} — {ta("layer.quakeTitle", { m: dg(q.m.toFixed(1)) })}</li>
+                      ))}
+                    </ol>
+                  </details>
+                )}
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </fieldset>
+  );
+
+  const layerSources = activeLayers.length > 0 && layerIndex && (
+    <div className="mt-2 text-xs text-muted">
+      <p className="font-semibold">{ta("layerSources")}</p>
+      <ul className="mt-1 flex flex-col gap-0.5">
+        {[...new Set(activeLayers.flatMap((l) => layerIndex.layers[l].sources))].map((id) => {
+          const src = layerIndex.sources[id];
+          return (
+            <li key={id}>
+              <a href={src.url} target="_blank" rel="noopener noreferrer">{src.publisher}</a> · {ta("copyDated", { date: dg(formatDate(src.copy, locale)) })}
+            </li>
+          );
+        })}
+      </ul>
+      <p className="mt-1">{ta("layerRepublished")}</p>
+    </div>
+  );
+
   const planned = (
     <div className="flex flex-col gap-1">
       <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted">{ta("plannedTitle")}</p>
@@ -369,6 +605,12 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
       <p>{sel.type === "state" ? t("common.state") : t("common.ut")} · {t(`governance.${sel.governanceModel}`)}</p>
       {sel.zonalCouncil && <p>{t("common.region")}: {t(`zonal.${sel.zonalCouncil}`)}</p>}
       <p>{t("common.capital")}: {sel.capitals.map((c) => pick(c.name, locale)).join(" / ")}</p>
+      {theme === "formation" && (
+        <div className="rounded-lg bg-surface-2 p-2">
+          <p className="text-xs text-muted">{themeLabel(theme)}</p>
+          <p className="font-semibold">{valueText(sel)}</p>
+        </div>
+      )}
       {dataTheme && (
         <div className="rounded-lg bg-surface-2 p-2">
           <p className="text-xs text-muted">{themeLabel(dataTheme.id)}</p>
@@ -412,7 +654,7 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
             <th scope="col" className="px-3 py-2">{ta("colRegion")}</th>
             <th scope="col" className="px-3 py-2">{ta("colType")}</th>
             <th scope="col" className="px-3 py-2">{t("common.capital")}</th>
-            <th scope="col" className="px-3 py-2">{dataTheme ? themeLabel(theme) : t("common.region")}</th>
+            <th scope="col" className="px-3 py-2">{dataTheme || theme === "formation" ? themeLabel(theme) : t("common.region")}</th>
           </tr>
         </thead>
         <tbody>
@@ -421,7 +663,7 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
               <th scope="row" className="px-3 py-2 font-medium"><Link href={hrefFor(r)}>{pick(r.name, locale)}</Link></th>
               <td className="px-3 py-2">{r.type === "state" ? t("common.state") : t("common.ut")}</td>
               <td className="px-3 py-2">{r.capitals.map((c) => pick(c.name, locale)).join(" / ")}</td>
-              <td className="px-3 py-2">{dataTheme ? valueText(r) : r.zonalCouncil ? t(`zonal.${r.zonalCouncil}`) : "—"}</td>
+              <td className="px-3 py-2">{dataTheme || theme === "formation" ? valueText(r) : r.zonalCouncil ? t(`zonal.${r.zonalCouncil}`) : "—"}</td>
             </tr>
           ))}
         </tbody>
@@ -429,7 +671,17 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
     </div>
   );
 
-  const tip = dHover && !compact && dHover.pt && sel ? (
+  const tip = fHover && !compact && fHover.pt ? (
+    <div
+      role="presentation"
+      className="pointer-events-none absolute z-10 max-w-[18rem] rounded-lg border border-border bg-surface px-3 py-2 text-sm shadow-lg"
+      style={{ left: Math.min(fHover.pt.x + 14, (wrapRef.current?.clientWidth ?? 600) - 220), top: fHover.pt.y + 14 }}
+    >
+      {fHover.lines.map((line, i) => (
+        <p key={i} className={i === 0 ? "font-semibold" : "text-muted"}>{i === 0 ? line : dg(line)}</p>
+      ))}
+    </div>
+  ) : dHover && !compact && dHover.pt && sel ? (
     <div
       role="presentation"
       className="pointer-events-none absolute z-10 max-w-[16rem] rounded-lg border border-border bg-surface px-3 py-2 text-sm shadow-lg"
@@ -445,7 +697,7 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
       style={{ left: Math.min(hover.pt.x + 14, (wrapRef.current?.clientWidth ?? 600) - 200), top: hover.pt.y + 14 }}
     >
       <p className="font-semibold">{pick(hover.r.name, locale)}</p>
-      <p className="text-muted">{dataTheme ? valueText(hover.r) : hover.r.capitals.map((c) => pick(c.name, locale)).join(" / ")}</p>
+      <p className="text-muted">{valueText(hover.r) ?? hover.r.capitals.map((c) => pick(c.name, locale)).join(" / ")}</p>
     </div>
   ) : null;
 
@@ -475,6 +727,8 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
           onHover={(r, pt) => setHover(r ? { r, pt } : null)}
           districts={districtTopo}
           onDistrictHover={(name, pt) => setDHover(name ? { name, pt } : null)}
+          thematic={thematic}
+          onFeatureHover={(lines, pt) => setFHover(lines ? { lines, pt } : null)}
           onSelect={select}
           label={ta("mapLabel")}
           interactive={!compact}
@@ -578,8 +832,9 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
             <Layers aria-hidden className="size-4" /> {ta("layers")}
           </summary>
           <div className="mt-3 flex flex-col gap-4">
-            {themePicker}
             {overlayPicker}
+            {layerPicker}
+            {themePicker}
             {planned}
           </div>
         </details>
@@ -587,6 +842,7 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
         <div className="order-1 flex min-w-0 flex-col gap-3 lg:order-none">
           <div className="rounded-2xl border border-border bg-surface p-3">
             {legend}
+            {layerLegend}
             {!sel && <p className="mt-2 text-xs text-muted">{ta("hint")}{overlays.has("districts") && ` ${ta("districtsHint")}`}</p>}
           </div>
           {view === "map" ? (
@@ -600,6 +856,7 @@ export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regio
             table
           )}
           {attribution}
+          {layerSources}
         </div>
       </div>
       <p role="status" className="sr-only">{status}</p>

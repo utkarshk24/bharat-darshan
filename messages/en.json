@@ -458,7 +458,9 @@
       "literacyRate2011": "Literacy rate (Census 2011)",
       "sexRatio2011": "Sex ratio, females per 1,000 males (Census 2011)",
       "forestCoverPct": "Forest cover, % of area (ISFR)",
-      "perCapitaNsdpCurrent": "Per capita income (NSDP, current prices)"
+      "perCapitaNsdpCurrent": "Per capita income (NSDP, current prices)",
+      "plain": "Plain map (no colours)",
+      "formation": "How today's States and UTs were formed (1956–2026)"
     },
     "overlay": {
       "labels": "State and UT names",
@@ -468,15 +470,11 @@
     },
     "plannedTitle": "Coming layers",
     "planned": {
-      "rivers": "Rivers and lakes",
-      "protected": "National parks, tiger reserves, Ramsar sites",
-      "transport": "Highways, railways, airports, ports",
-      "heritage": "UNESCO World Heritage Sites",
-      "hazards": "Seismic and hazard zones",
-      "timeline": "How the States were formed (1956–2019)"
+      "airportsPorts": "Airports and ports",
+      "seismicZones": "Seismic zones (BIS IS 1893)"
     },
     "plannedChip": "Planned",
-    "plannedNote": "Each layer is added only with official, sourced data.",
+    "plannedNote": "Each is added once official data with locations can be obtained.",
     "notAvailable": "Not available",
     "notAvailableYet": "Not available yet",
     "otherPeriod": "Figure for a different year, not compared",
@@ -510,7 +508,69 @@
     "districtsShown": "Dashed lines: {count} districts, boundaries as in the Local Government Directory (LGD) on {date}. Names in English as in LGD.",
     "districtsOutdated": "District boundaries not shown: the latest available file ({date}) has {count} districts, and the State/UT now has {now}.",
     "districtsHint": "Select one to see its district boundaries.",
-    "moreIndicators": "More indicators (latest comparable year)"
+    "moreIndicators": "More indicators (latest comparable year)",
+    "thematicTitle": "Map layers",
+    "thematic": {
+      "rivers": "Rivers and lakes",
+      "protected": "National parks, sanctuaries and Ramsar sites",
+      "transport": "National highways and railways",
+      "heritage": "UNESCO World Heritage Sites",
+      "hazards": "Earthquakes and floods"
+    },
+    "thematicSummary": {
+      "rivers": "{rivers} major rivers, {lakes} large lakes and {reservoirs} large reservoirs.",
+      "protected": "{np} national parks, {ws} wildlife sanctuaries and {ramsar} Ramsar sites.",
+      "transport": "{nh} national highways in service, and the railway network.",
+      "heritage": "{n} World Heritage properties in India.",
+      "hazards": "{n} earthquakes of magnitude 6 or more with epicentres in India, {from}–{to}, and land flooded at least once in 1998–2022."
+    },
+    "thematicNote": {
+      "rivers": "Lakes of 50 km² or more and reservoirs of 100 km² or more. The Rann of Kutch, which India-WRIS records as a lake, is left out.",
+      "protected": "Boundaries as held by the Ministry of Environment; areas notified after the copy date may be missing. Tiger reserves are not shown: no official boundary file for them could be obtained.",
+      "transport": "National highways as in the Ministry of Road Transport's layer of 30 June 2022. Airports and ports are not shown yet.",
+      "heritage": "Points are UNESCO's own coordinates. For five properties whose UNESCO page could not be read, the point is the ASI monument, the national park or the railway station. Components close together are shown as one point.",
+      "hazards": "Earthquake sizes are moment magnitude from the Geological Survey of India catalogue (to 2019). Seismic zones are not shown: the BIS zone map is not published as data."
+    },
+    "layer": {
+      "river": "River",
+      "lake": "Lake",
+      "reservoir": "Reservoir",
+      "lakeOrReservoir": "Lake or reservoir",
+      "unnamed": "Unnamed",
+      "nationalPark": "National park",
+      "sanctuary": "Wildlife sanctuary",
+      "ramsar": "Ramsar site (wetland of international importance)",
+      "nationalHighway": "National highway",
+      "railway": "Railway line",
+      "quake": "Earthquake epicentre (larger = stronger)",
+      "quakeTitle": "Magnitude {m} earthquake",
+      "depth": "Depth {km} km",
+      "flood": "Flooded at least once, 1998–2022",
+      "whs": {
+        "C": "Cultural",
+        "N": "Natural",
+        "M": "Mixed"
+      },
+      "noPosition": "Not on the map: its position could not be read from an official source.",
+      "loading": "Loading…",
+      "loadError": "This layer could not be loaded."
+    },
+    "listTitle": "List ({n})",
+    "layerSources": "Layer sources",
+    "copyDated": "copy of {date}",
+    "layerRepublished": "Government files as republished by Datameet volunteers (CC0); simplified for display.",
+    "formation": {
+      "year": "Year",
+      "prev": "Previous change",
+      "next": "Next change",
+      "state": "State",
+      "ut": "Union territory",
+      "partOf": "Part of {name}",
+      "partShort": "Part of another State or UT",
+      "unlisted": "Not yet in the Constitution's list of States and UTs",
+      "noChange": "No change to any of today's States or UTs this year.",
+      "note": "Shown on today's Survey of India boundaries: each area is coloured by what it was at the end of the chosen year. Older boundaries are not drawn. Each change cites its Act; dates are the day the Act took effect."
+    }
   },
   "rankings": {
     "title": "Rankings of States and UTs",

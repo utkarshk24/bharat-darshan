@@ -78,3 +78,19 @@ test("print: a profile opens as one printable document with every source written
   await expect(page.locator("body > div header, header.sticky").first()).toBeHidden();
   await expect(page.getByRole("button", { name: "Save as PDF or print" })).toBeHidden();
 });
+
+test("map layers: a shared link turns on a layer with its sources, and the timeline shows the Act for a year", async ({ page }) => {
+  await go(page, "/en/map/#theme=plain&on=labels,heritage,hazards");
+  await expect(page.getByRole("checkbox", { name: "UNESCO World Heritage Sites" })).toBeChecked();
+  await expect(page.getByText(/44 World Heritage properties/)).toBeVisible({ timeout: 20_000 });
+  await expect(page.getByText("Layer sources")).toBeVisible();
+  await expect(page.getByRole("link", { name: /UNESCO World Heritage Centre/ })).toBeVisible();
+  await expect(page.getByRole("link", { name: /Geological Survey of India/ })).toBeVisible();
+  await expect(page.locator('svg [role="img"][aria-label^="Taj Mahal"]')).toHaveCount(1);
+
+  await go(page, "/en/map/#theme=formation&on=labels&y=2014");
+  await expect(page.getByText("Telangana formed from Andhra Pradesh.")).toBeVisible({ timeout: 20_000 });
+  await expect(page.getByRole("link", { name: /Andhra Pradesh Reorganisation Act, 2014/ })).toHaveAttribute("href", /indiacode\.nic\.in/);
+  await page.getByRole("button", { name: "Next change" }).click();
+  await expect(page).toHaveURL(/y=2019/);
+});

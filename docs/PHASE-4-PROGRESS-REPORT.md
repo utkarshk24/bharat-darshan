@@ -56,6 +56,15 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 ## 9. Map data layers
 
 - The atlas (`/map`) can now colour States and UTs by 12 more comparison indicators (GSDP and growth, unemployment, women's labour-force participation, higher-education GER, stunting, institutional births, child and maternal mortality, urbanisation, child sex ratio), each for one period with its source in the side panel. Added on `/map` only, so the home page stays light. Tests: `tests/maplayers.test.ts`.
+- Thematic layers (28 Oct), drawn over the Survey of India boundaries and each loaded only when switched on, with legend, hover names, counts, caveats and a source list:
+  - **Rivers and lakes:** India-WRIS.
+  - **National parks, sanctuaries and Ramsar sites:** MoEFCC.
+  - **National highways and railways:** MoRTH and Indian Railways.
+  - **UNESCO World Heritage Sites:** all 44, using UNESCO's own coordinates.
+  - **Earthquakes and floods:** magnitude 6+ quakes from the GSI catalogue, 1897–2019; land flooded at least once, 1998–2022, from NRSC.
+  - Details and exclusions in `docs/MAPS.md`.
+- Not shown, because official data with locations could not be obtained: tiger reserves, airports and ports, BIS seismic zones. They stay on the map's "Coming layers" list with the reason.
+- **State formation timeline:** a "Colour by" option with a year slider, 1956–2026. Each of today's States and UTs shows what it was that year, with names of the time, and every change cites its Act and effective date. Tests check that it agrees with today's profiles. Tests: `tests/thematic.test.ts`.
 - District profiles are on hold (user decision, 28 Oct): they need a current LGD district list and district tables that cannot be downloaded from this environment; the Dec 2023 boundary file still carries pre-rename names (e.g. Ahmednagar, Aurangabad).
 
 ## 10. Maintenance (28 Oct)
@@ -90,11 +99,12 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 
 ## Checks
 
-`validate-data`: 0 errors, 1,725 gaps. Unit tests: 100 passing. End-to-end: 14 journeys (print added). Accessibility (axe): 40/40 pages clean, including two print pages.
+`validate-data`: 0 errors, 1,725 gaps. End-to-end: 15 journeys (print view and map layers added). Unit tests: 108 passing. Accessibility (axe): 40/40 pages clean, including two print pages.
 
 ## Next steps
 
 1. Finish the 16 remaining officeholder cards (mostly legislature sites that block automated reading).
 2. Find a current official source for Rishikesh–Karnaprayag (Lok Sabha/Rajya Sabha answers, RVNL).
 3. District profiles once a current LGD list and district tables are available.
-4. Phase 4 items left from the roadmap: Career Explorer and a CMS with roles (both need decisions on scope).
+4. Map layers still missing official data: airports and ports, tiger reserves, BIS seismic zones.
+5. Phase 4 items left from the roadmap: Career Explorer and a CMS with roles (both need decisions on scope).

@@ -37,6 +37,19 @@
   --badge-estimate: #8a5a00;
   --badge-third: #1d4ed8;
   --badge-editorial: #6b4fa0;
+  /* Thematic map layers (light surface) */
+  --lyr-water: #1f6fd1;
+  --lyr-water-fill: #9cc4f2;
+  --lyr-park: #2e7d32;
+  --lyr-ramsar: #00796b;
+  --lyr-road: #c0392b;
+  --lyr-rail: #374151;
+  --lyr-flood: #b7791f;
+  --lyr-quake: #b42318;
+  --lyr-cultural: #6b4fa0;
+  --lyr-natural: #2e7d32;
+  --lyr-mixed: #9a4a00;
+  --plain: #ece8de;
 }
 
 .dark {
@@ -64,6 +77,18 @@
   --badge-estimate: #f5c26b;
   --badge-third: #8ab4ff;
   --badge-editorial: #c7b2f0;
+  --lyr-water: #6da7ec;
+  --lyr-water-fill: #2a5a94;
+  --lyr-park: #6fd18b;
+  --lyr-ramsar: #4fd1c5;
+  --lyr-road: #ff8a80;
+  --lyr-rail: #c9d7ee;
+  --lyr-flood: #f5c26b;
+  --lyr-quake: #ff8a80;
+  --lyr-cultural: #c7b2f0;
+  --lyr-natural: #6fd18b;
+  --lyr-mixed: #ffb36b;
+  --plain: #222d3d;
 }
 
 @theme inline {

@@ -64,13 +64,35 @@ The older SoI district file (742 districts, with Andhra Pradesh at 13) is not us
 - **Accessibility:** every State/UT is a keyboard button with its name and value. There is a full table view, and values are always given as text, never by colour alone.
 - **Home page:** a static preview image. It becomes the interactive map, without zoom, on hover or tap, and links to the full map. This keeps Lighthouse mobile performance at its earlier level: the eager map raised Total Blocking Time from about 60 ms to about 1,350 ms in a local test.
 
-## Planned layers
+## Thematic layers (added 28 October 2026)
 
-Each of these is added only with official, sourced data:
+Five layers can be drawn over the Survey of India boundaries from **Map layers** on `/map`. Each loads only when switched on, has its own legend, hover names, counts and caveats, and lists its sources (publisher, link and copy date) under the map. The shareable link records them (`on=rivers,heritage…`). Turning a layer on switches the colours to **Plain map**, and the reader can switch back.
 
-- **Rivers and lakes:** India-WRIS.
-- **Protected areas and Ramsar sites:** MoEFCC / WII ENVIS.
-- **Transport:** NHAI/MoRTH, Indian Railways, AAI, the Ministry of Ports.
-- **UNESCO sites:** whc.unesco.org. Several site pages (for example Ajanta, Ellora and Konark) print no coordinates, and the full list export could not be read from the build environment. Needs the UNESCO list export (XML/XLS) attached, or the ASI list with coordinates.
-- **Seismic zones:** BIS IS 1893.
-- **Timeline of State formation, 1956–2019:** the Acts of Parliament.
+All inputs are Indian government datasets as republished, unchanged, by Datameet volunteers ([github.com/ramSeraph](https://github.com/ramSeraph), CC0 1.0, "attribute Datameet and the original government source"), the same route as the boundary file. Built by `scripts/maps/build_layers.py` into `public/maps/layers/` (index in `index.json`). Shapes are simplified for display (about 400 m; 600 m for protected areas; 1 km for roads and rail). Nothing here draws or moves a boundary.
+
+| Layer | Source (copy date) | What is shown | Left out, and why |
+|---|---|---|---|
+| Rivers and lakes | India-WRIS: rivers (16 Sep 2025), lakes (29 Dec 2023), reservoirs (27 Nov 2024) | 327 major rivers; 17 lakes of 50 km² or more; 36 reservoirs of 100 km² or more | The Rann of Kutch, which WRIS records as a lake (it is a seasonal salt marsh) |
+| National parks, sanctuaries, Ramsar sites | MoEFCC via PM GatiShakti (13 Feb 2026); MoEFCC Parivesh via Bharatmaps (15 Jan 2025) | 98 national parks, 554 wildlife sanctuaries, 81 Ramsar sites | Tiger reserves: the only file found mixes reserves with other areas (103 names for about 58 reserves), so it is not used. Areas notified after the copy date |
+| National highways and railways | MoRTH via PM GatiShakti (layer of 30 Jun 2022; copy 16 Feb 2026); Indian Railways GIS portal (22 May 2023) | 669 national highways marked completed; all railway lines | Highways under construction or planned. Airports and ports (no official list with locations could be obtained) |
+| UNESCO World Heritage Sites | UNESCO World Heritage Centre (coordinates from each property's maps page, read 28 Oct 2026; `scripts/maps/unesco_coords.txt`) | All 44 properties, with each component more than 10 km from another as its own point | Santiniketan has no point: its UNESCO page could not be read and no official fallback was found. For Konark, Kaziranga, Great Himalayan NP, Khangchendzonga and CST the point is the ASI monument, the MoEFCC park boundary or the Indian Railways station |
+| Earthquakes and floods | GSI National Geoscience Data Repository (13 Feb 2025); NRSC NDEM all-India flood inundation 1998–2022 (14 Feb 2025) | 41 earthquakes of moment magnitude 6.0+ with epicentres inside India's boundary, 1897–2019; land flooded at least once, 1998–2022 | One catalogue record with body-wave magnitude 9.0 (an impossible value; 3 Jul 1996) and duplicate reports of the same event (same day, within 100 km). Seismic zones: the BIS IS 1893 zone map is not published as data. Cyclone tracks: the NDEM file mixes formats and ends in 2013 |
+
+## State formation timeline (added 28 October 2026)
+
+"How today's States and UTs were formed (1956–2026)" is a **Colour by** option with a year slider (`theme=formation&y=1966`). On today's Survey of India boundaries, each State or UT is coloured by what it was at the end of the chosen year: a State, a Union territory, part of another State or UT, or not yet in the Constitution's list. Names are those of the time (Madras, Mysore, Orissa, Uttaranchal, Pondicherry). Earlier boundaries are not drawn, because the Survey of India publishes only current ones.
+
+Each change cites its Act, with the date it took effect, in `src/components/map/formation.ts`:
+
+- **Appointed days:** read from the Act texts and their Gazette notification footnotes, via India Code and Indian Kanoon reproductions.
+- **Amendment-based changes:** for Dadra and Nagar Haveli, Goa, Daman and Diu, Pondicherry and Sikkim, the source is the Constitution (Legislative Department, as on 1 May 2024).
+- **Year-only events:** Sikkim's statehood and the Laccadive–Lakshadweep rename show the year only, because the day could not be confirmed from the Act.
+- **Keralam (25 August 2026):** the in-force date rests on a third-party report and is marked so.
+
+`tests/thematic.test.ts` checks that, for today, the timeline agrees with the profiles on which units are States and which are UTs.
+
+## Still planned
+
+- **Airports and ports:** needs an official list with locations (AAI aerodrome reference points; the Ministry of Ports' list of major ports).
+- **Seismic zones:** BIS IS 1893, once published as data.
+- **Tiger reserves:** needs NTCA boundaries.

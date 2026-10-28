@@ -11,7 +11,8 @@ import type { Feature, FeatureCollection, Geometry, MultiLineString } from "geoj
 import type { Locale } from "@/i18n/routing";
 import type { RegionSummary } from "@/lib/data";
 import { pick } from "@/lib/l10n";
-import type { Overlay } from "./layers";
+import { formatDate } from "@/lib/format";
+import { quakeRadius, type HoverLines, type ThematicData } from "./thematic";
 
 export interface BoundaryManifest {
   file: string;
@@ -46,7 +47,7 @@ type Props = {
   capitals: Capital[];
   regions: RegionSummary[];
   fill: (r: RegionSummary) => string;
-  overlays: Set<Overlay>;
+  overlays: ReadonlySet<string>;
   selected: string | null;
   dim?: (r: RegionSummary) => boolean;
   describe: (r: RegionSummary) => string;
@@ -57,6 +58,9 @@ type Props = {
   /** District boundaries of the selected region (LGD), drawn over it. */
   districts?: Topology | null;
   onDistrictHover?: (name: string | null, pt?: { x: number; y: number }) => void;
+  /** Thematic layers that are switched on and loaded (rivers, protected areas, transport, heritage, hazards). */
+  thematic?: ThematicData;
+  onFeatureHover?: (lines: HoverLines | null, pt?: { x: number; y: number }) => void;
 };
 
 const W = 800, H = 900;
@@ -67,7 +71,7 @@ type F = Feature<Geometry, Record<string, unknown>>;
  * SVG + d3-geo; d3-zoom for pan and zoom. Each State/UT is a focusable button.
  */
 export const GeoMap = forwardRef<GeoMapHandle, Props>(function GeoMap(
-  { topo, object, idProperty, capitals, regions, fill, overlays, selected, dim, describe, onHover, onSelect, label, interactive = true, districts, onDistrictHover },
+  { topo, object, idProperty, capitals, regions, fill, overlays, selected, dim, describe, onHover, onSelect, label, interactive = true, districts, onDistrictHover, thematic, onFeatureHover },
   ref,
 ) {
   const locale = useLocale() as Locale;
@@ -117,6 +121,39 @@ export const GeoMap = forwardRef<GeoMapHandle, Props>(function GeoMap(
     const obj = districts.objects.districts as GeometryCollection<Record<string, unknown>>;
     return path(mesh(districts, obj, (a, b) => a !== b) as MultiLineString) ?? "";
   }, [districts, path]);
+
+  // Thematic layers, projected once per loaded file
+  type Shape = { d: string; p: Record<string, unknown> };
+  const shapesOf = useCallback(
+    (t: Topology | undefined, name: string): Shape[] => {
+      const obj = t?.objects[name] as GeometryCollection<Record<string, unknown>> | undefined;
+      if (!t || !obj) return [];
+      const fc = feature(t, obj) as FeatureCollection<Geometry, Record<string, unknown>>;
+      return fc.features.map((f) => ({ d: path(f) ?? "", p: f.properties ?? {} })).filter((x) => x.d);
+    },
+    [path],
+  );
+  const lyr = useMemo(
+    () => ({
+      floods: shapesOf(thematic?.hazards, "floods").map((x) => x.d).join(""),
+      pa: shapesOf(thematic?.protected, "pa"),
+      ramsar: shapesOf(thematic?.protected, "ramsar"),
+      water: shapesOf(thematic?.rivers, "water"),
+      rivers: shapesOf(thematic?.rivers, "rivers"),
+      rail: shapesOf(thematic?.transport, "rail").map((x) => x.d).join(""),
+      nh: shapesOf(thematic?.transport, "nh"),
+    }),
+    [thematic?.hazards, thematic?.protected, thematic?.rivers, thematic?.transport, shapesOf],
+  );
+  const hoverAt = (lines: HoverLines) => (e: React.MouseEvent) => {
+    const box = svgRef.current?.getBoundingClientRect();
+    onFeatureHover?.(lines, box ? { x: e.clientX - box.left, y: e.clientY - box.top } : undefined);
+  };
+  const unhover = () => onFeatureHover?.(null);
+  const stateName = (s: unknown) => String(s ?? "");
+  // Catalogue dates can be a year, a month or a day
+  const fmtDate = (d: string) =>
+    d.length === 10 ? formatDate(d, locale) : d.length === 7 ? new Intl.DateTimeFormat(`${locale}-IN`, { month: "long", year: "numeric" }).format(new Date(`${d}-15`)) : d;
 
   // Zoom behaviour
   useEffect(() => {
@@ -205,6 +242,18 @@ export const GeoMap = forwardRef<GeoMapHandle, Props>(function GeoMap(
           <rect width="5" height="5" fill="var(--surface)" />
           <line x1="0" y1="0" x2="0" y2="5" stroke="var(--text-muted)" strokeWidth="1.2" />
         </pattern>
+        <pattern id="bd-unlisted" width="6" height="6" patternUnits="userSpaceOnUse">
+          <rect width="6" height="6" fill="var(--surface)" />
+          <circle cx="3" cy="3" r="1.1" fill="var(--text-muted)" />
+        </pattern>
+        <pattern id="bd-sanct" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+          <rect width="4" height="4" fill="var(--lyr-park)" fillOpacity="0.18" />
+          <line x1="0" y1="0" x2="0" y2="4" stroke="var(--lyr-park)" strokeWidth="1.4" />
+        </pattern>
+        <pattern id="bd-flood" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+          <rect width="5" height="5" fill="var(--lyr-flood)" fillOpacity="0.28" />
+          <line x1="0" y1="0" x2="0" y2="5" stroke="var(--lyr-flood)" strokeWidth="0.9" />
+        </pattern>
         <filter id="bd-glow" x="-20%" y="-20%" width="140%" height="140%">
           <feGaussianBlur stdDeviation="3" result="b" />
           <feMerge>
@@ -259,6 +308,42 @@ export const GeoMap = forwardRef<GeoMapHandle, Props>(function GeoMap(
             />
           );
         })}
+        {/* Thematic layers: areas first, then lines; the SoI boundaries stay on top */}
+        {lyr.floods && <path d={lyr.floods} fill="url(#bd-flood)" stroke="none" pointerEvents="none" />}
+        {lyr.pa.map((x, i) => {
+          const np = x.p.k === "np";
+          const lines = [String(x.p.n), `${t(np ? "layer.nationalPark" : "layer.sanctuary")} · ${stateName(x.p.s)}`];
+          return (
+            <path key={`pa${i}`} d={x.d} fill={np ? "var(--lyr-park)" : "url(#bd-sanct)"} fillOpacity={np ? 0.55 : 1} stroke="var(--lyr-park)" strokeWidth={0.6} vectorEffect="non-scaling-stroke" role="img" aria-label={lines.join(", ")} onMouseMove={hoverAt(lines)} onMouseLeave={unhover} />
+          );
+        })}
+        {lyr.ramsar.map((x, i) => {
+          const lines = [String(x.p.n), `${t("layer.ramsar")} · ${stateName(x.p.s)}`];
+          return (
+            <path key={`rs${i}`} d={x.d} fill="var(--lyr-ramsar)" fillOpacity={0.45} stroke="var(--lyr-ramsar)" strokeWidth={1.2} strokeDasharray="2 1.5" vectorEffect="non-scaling-stroke" role="img" aria-label={lines.join(", ")} onMouseMove={hoverAt(lines)} onMouseLeave={unhover} />
+          );
+        })}
+        {lyr.water.map((x, i) => {
+          const lines = [String(x.p.n || t("layer.unnamed")), t(x.p.k === "lake" ? "layer.lake" : "layer.reservoir")];
+          return <path key={`wb${i}`} d={x.d} fill="var(--lyr-water-fill)" stroke="var(--lyr-water)" strokeWidth={0.6} vectorEffect="non-scaling-stroke" role="img" aria-label={lines.join(", ")} onMouseMove={hoverAt(lines)} onMouseLeave={unhover} />;
+        })}
+        {lyr.rivers.length > 0 && (
+          <g fill="none">
+            <path d={lyr.rivers.map((x) => x.d).join("")} stroke="var(--lyr-water)" strokeWidth={1.1} strokeLinejoin="round" vectorEffect="non-scaling-stroke" pointerEvents="none" />
+            {lyr.rivers.map((x, i) => (
+              <path key={`rv${i}`} d={x.d} stroke="transparent" strokeWidth={7} vectorEffect="non-scaling-stroke" pointerEvents="stroke" onMouseMove={hoverAt([String(x.p.n), t("layer.river")])} onMouseLeave={unhover} />
+            ))}
+          </g>
+        )}
+        {lyr.rail && <path d={lyr.rail} fill="none" stroke="var(--lyr-rail)" strokeWidth={0.8} strokeDasharray="4 1.5" vectorEffect="non-scaling-stroke" pointerEvents="none" />}
+        {lyr.nh.length > 0 && (
+          <g fill="none">
+            <path d={lyr.nh.map((x) => x.d).join("")} stroke="var(--lyr-road)" strokeWidth={1} strokeLinejoin="round" vectorEffect="non-scaling-stroke" pointerEvents="none" />
+            {lyr.nh.map((x, i) => (
+              <path key={`nh${i}`} d={x.d} stroke="transparent" strokeWidth={7} vectorEffect="non-scaling-stroke" pointerEvents="stroke" onMouseMove={hoverAt([String(x.p.n), t("layer.nationalHighway")])} onMouseLeave={unhover} />
+            ))}
+          </g>
+        )}
         {/* Inter-State lines and the national boundary, as in the SoI file */}
         <path d={inner} fill="none" stroke="var(--surface)" strokeWidth={0.9} vectorEffect="non-scaling-stroke" pointerEvents="none" />
         <path d={outline} fill="none" stroke="var(--text)" strokeWidth={1.3} vectorEffect="non-scaling-stroke" pointerEvents="none" />
@@ -330,6 +415,37 @@ export const GeoMap = forwardRef<GeoMapHandle, Props>(function GeoMap(
               </text>
             );
           })}
+        </g>
+      )}
+      {thematic?.quakes && (
+        <g>
+          {thematic.quakes.map((q, i) => {
+            const p = projection([q.lon, q.lat]);
+            if (!p) return null;
+            const [x, y] = at(p[0], p[1]);
+            const lines = [t("layer.quakeTitle", { m: q.m.toFixed(1) }), fmtDate(q.d), ...(q.z ? [t("layer.depth", { km: Math.round(q.z) })] : [])];
+            return (
+              <circle key={`q${i}`} cx={x} cy={y} r={quakeRadius(q.m)} fill="var(--lyr-quake)" fillOpacity={0.3} stroke="var(--lyr-quake)" strokeWidth={1.4} role="img" aria-label={lines.join(", ")} onMouseMove={hoverAt(lines)} onMouseLeave={unhover} />
+            );
+          })}
+        </g>
+      )}
+      {thematic?.heritage && (
+        <g>
+          {thematic.heritage.flatMap((s) =>
+            s.points.map((pt, j) => {
+              const p = projection([pt.lon, pt.lat]);
+              if (!p) return null;
+              const [x, y] = at(p[0], p[1]);
+              const color = s.cat === "C" ? "var(--lyr-cultural)" : s.cat === "N" ? "var(--lyr-natural)" : "var(--lyr-mixed)";
+              const lines = [s.name, `${t(`layer.whs.${s.cat}`)} · ${s.year}`, ...(s.points.length > 1 ? [pt.n] : [])];
+              // Cultural: diamond; natural: triangle; mixed: square — the shape carries the category too
+              const shape = s.cat === "C" ? "M0,-6 L6,0 L0,6 L-6,0 Z" : s.cat === "N" ? "M0,-6.5 L6,5 L-6,5 Z" : "M-5,-5 H5 V5 H-5 Z";
+              return (
+                <path key={`h${s.id}-${j}`} transform={`translate(${x},${y})`} d={shape} fill={color} stroke="var(--surface)" strokeWidth={1.3} role="img" aria-label={lines.join(", ")} onMouseMove={hoverAt(lines)} onMouseLeave={unhover} />
+              );
+            }),
+          )}
         </g>
       )}
       {overlays.has("capitals") && (

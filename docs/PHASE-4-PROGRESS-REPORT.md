@@ -47,6 +47,12 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 - Quiz rounds of 10 from a bank of 270 questions generated at build time: capitals (31), GI products (120), officeholders (59, official sources only, with check date) and number comparisons (60, one indicator and period, no ties).
 - Every answer shows its source and links to the profile, GI page or ranking. The bank is served as `/learn-quiz.json` and loaded only on this page. Tests: `tests/quiz.test.ts`.
 
+## 8. Performance
+
+- The CI Lighthouse check had failed on 2 of 3 runs. A side-by-side test against the pre-Phase-4 build showed no regression; the GI directory sat at the 90 threshold in both.
+- GI directory now sends only the fields the list shows and renders 60 cards first ("Show all" for the rest): HTML 1.46 MB → 549 KB, DOM 7,270 → 891 elements, mobile score 89–90 → 93–94.
+- Region summaries no longer carry officeholder notes (131 KB → 112 KB on the home page).
+
 ## Checks
 
 `validate-data`: 0 errors, 1,725 gaps. Unit tests: 90 passing. Accessibility (axe): 35/35 pages clean, including Rankings, Data Library and Learn.

@@ -69,13 +69,18 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 - Service worker (`/sw.js`, generated at build with a new version each deploy; old caches are dropped): pages network-first with saved copies offline (up to 300), hashed assets cache-first, fonts/maps/search/quiz data stale-while-revalidate; Data Library downloads are never cached. The three language home pages, offline pages, fonts and base map are saved on install.
 - Offline page in en/hi/mr lists the pages saved on the device and explains that saved figures are as of the last online visit. Tested in Chromium: visited pages open offline from the service worker; downloads are blocked offline as intended. Tests: `tests/pwa.test.ts`.
 
+## 12. Trip Planner (`/trip-planner`)
+
+- Pick a State/UT, 1–7 days and a month: the plan shows the closest authored route (exact length, else the longest shorter one, with a note), the profile's suggested seasons with the chosen month highlighted, key places, airports and links back to the tourism, climate and transport sections. Covers 31 regions.
+- Built only from existing profile content; nothing new is asserted. Season labels are read into months (ranges wrap the year end); a month not listed is described as "not listed", not as a bad time. Shareable links (`?r=IN-MH&d=4&m=11`); each region's data (`/trip/IN-XX.json`) loads on demand. Tests: `tests/trip.test.ts`.
+
 ## Checks
 
-`validate-data`: 0 errors, 1,725 gaps. Unit tests: 95 passing. Accessibility (axe): 36/36 pages clean, including Rankings, Data Library and Learn.
+`validate-data`: 0 errors, 1,725 gaps. Unit tests: 100 passing. Accessibility (axe): 38/38 pages clean, including Rankings, Data Library and Learn.
 
 ## Next steps
 
 1. Finish the 16 remaining officeholder cards (mostly legislature sites that block automated reading).
 2. Find a current official source for Rishikesh–Karnaprayag (Lok Sabha/Rajya Sabha answers, RVNL).
 3. District profiles once a current LGD list and district tables are available.
-4. Trip Planner.
+4. Phase 4 items left from the roadmap: Career Explorer, PDF export, CMS with roles; E2E tests.

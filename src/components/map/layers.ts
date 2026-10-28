@@ -1,17 +1,19 @@
-import type { DataPoint } from "@/lib/schema";
+import type { DataPoint, Localized } from "@/lib/schema";
 import type { ValueKind } from "@/lib/format";
 import type { RegionSummary } from "@/lib/data";
-import type { MapMetric } from "@/lib/mapMetrics";
 import { ZONAL_COLORS, TYPE_COLORS, SEQ_BLUE } from "./mapColors";
 
-/** What the State/UT fill encodes. Categorical themes use labels; data themes use a sourced metric. */
-export type ThemeId = "zonal" | "type" | MapMetric;
+/** What the State/UT fill encodes: "zonal", "type", or the id of a data theme (a key of RegionSummary.mapMetrics). */
+export type ThemeId = string;
 
 export interface DataTheme {
-  id: MapMetric;
+  id: string;
   kind: ValueKind;
   /** Higher values read as "more"; the ramp is always light → dark for low → high. */
   decimals: number;
+  /** Extra themes (from the comparison indicators) carry their own label and period; built-in ones use atlas.theme.* strings. */
+  label?: Localized;
+  period?: string;
 }
 
 export const DATA_THEMES: DataTheme[] = [
@@ -23,7 +25,7 @@ export const DATA_THEMES: DataTheme[] = [
   { id: "perCapitaNsdpCurrent", kind: "rupee", decimals: 0 },
 ];
 
-export const isDataTheme = (t: ThemeId): t is MapMetric => DATA_THEMES.some((d) => d.id === t);
+export const isDataTheme = (t: ThemeId, themes: DataTheme[] = DATA_THEMES): boolean => themes.some((d) => d.id === t);
 
 export type Overlay = "labels" | "capitals" | "districts" | "disputed";
 export const OVERLAYS: Overlay[] = ["labels", "capitals", "districts", "disputed"];
@@ -44,7 +46,7 @@ export interface Scale {
  * Five-class quantile scale over the regions that share the most common period.
  * Regions with no figure, or a figure for another period, are not coloured.
  */
-export function buildScale(regions: RegionSummary[], metric: MapMetric): Scale {
+export function buildScale(regions: RegionSummary[], metric: string): Scale {
   const counts = new Map<string, number>();
   for (const r of regions) {
     const dp = r.mapMetrics[metric];

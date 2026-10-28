@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import { getDataAsOn, getSummaries } from "@/lib/data";
+import { getDataAsOn } from "@/lib/data";
 import { localeAlternates } from "@/lib/seo";
 import { PageHeader } from "@/components/PageHeader";
 import { IndiaMap } from "@/components/map/IndiaMap";
+import { getMapWithExtras } from "@/lib/mapLayers";
 import { Disclaimer } from "@/components/Disclaimer";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }): Promise<Metadata> {
@@ -17,10 +18,11 @@ export default async function Page({ params }: { params: Promise<{ locale: Local
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations();
+  const extras = getMapWithExtras();
   return (
     <div className="mx-auto max-w-7xl px-4 py-10">
       <PageHeader title={t("atlas.heroTitle")} intro={t("atlas.heroSub")} asOn={getDataAsOn()} />
-      <IndiaMap regions={getSummaries()} />
+      <IndiaMap regions={extras.regions} extraThemes={extras.themes} />
       <div className="mt-10"><Disclaimer /></div>
     </div>
   );

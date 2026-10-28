@@ -3,7 +3,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { cache } from "react";
 import { existsSync } from "node:fs";
-import { MAP_METRICS, type MapMetric } from "./mapMetrics";
+import { MAP_METRICS } from "./mapMetrics";
 import { CompareFile, GlossaryFile, ModuleContent, Region, SourcesFile, type DataPoint, type Officeholder } from "./schema";
 
 const DATA = path.join(process.cwd(), "data");
@@ -52,7 +52,8 @@ export interface RegionSummary {
   headOfGovernment: Officeholder | null;
   sourceLabels: Record<string, string>;
   /** Sourced figures used by the map's data layers (only the keys in MAP_METRICS). */
-  mapMetrics: Partial<Record<MapMetric, DataPoint>>;
+  /** Keys are MAP_METRICS (built in) or "c-<indicator>" (comparison layers added on the map page). */
+  mapMetrics: Partial<Record<string, DataPoint>>;
 }
 
 const slimOffice = (o: Officeholder | null): Officeholder | null => (o ? { ...o, note: undefined, verifyUrl: null } : null);
@@ -61,13 +62,13 @@ export function summarize(r: Region): RegionSummary {
   const pop = r.metrics.population2011 ?? null;
   const gsdp = r.metrics.gsdpCurrent ?? null;
   const labels: Record<string, string> = {};
-  const mapMetrics: Partial<Record<MapMetric, DataPoint>> = {};
+  const mapMetrics: Partial<Record<string, DataPoint>> = {};
   for (const k of MAP_METRICS) {
     const dp = (r.metrics as Record<string, DataPoint | null | undefined>)[k];
     // Only what the map shows, to keep page payloads small
     if (dp && typeof dp.value === "number") mapMetrics[k] = { value: dp.value, unit: dp.unit, period: dp.period, sourceId: dp.sourceId, url: dp.url } as DataPoint;
   }
-  for (const id of [pop?.sourceId, gsdp?.sourceId, r.government.headOfState?.sourceId, r.government.headOfGovernment?.sourceId, ...Object.values(mapMetrics).map((d) => d.sourceId)]) {
+  for (const id of [pop?.sourceId, gsdp?.sourceId, r.government.headOfState?.sourceId, r.government.headOfGovernment?.sourceId, ...Object.values(mapMetrics).map((d) => d?.sourceId)]) {
     if (id) labels[id] = sourceName(id)?.short ?? id;
   }
   return {

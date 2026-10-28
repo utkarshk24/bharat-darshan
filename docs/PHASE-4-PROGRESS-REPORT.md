@@ -53,13 +53,18 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 - GI directory now sends only the fields the list shows and renders 60 cards first ("Show all" for the rest): HTML 1.46 MB → 549 KB, DOM 7,270 → 891 elements, mobile score 89–90 → 93–94.
 - Region summaries no longer carry officeholder notes (131 KB → 112 KB on the home page).
 
+## 9. Map data layers
+
+- The atlas (`/map`) can now colour States and UTs by 12 more comparison indicators (GSDP and growth, unemployment, women's labour-force participation, higher-education GER, stunting, institutional births, child and maternal mortality, urbanisation, child sex ratio), each for one period with its source in the side panel. Added on `/map` only, so the home page stays light. Tests: `tests/maplayers.test.ts`.
+- District profiles are on hold (user decision, 28 Oct): they need a current LGD district list and district tables that cannot be downloaded from this environment; the Dec 2023 boundary file still carries pre-rename names (e.g. Ahmednagar, Aurangabad).
+
 ## Checks
 
-`validate-data`: 0 errors, 1,725 gaps. Unit tests: 90 passing. Accessibility (axe): 35/35 pages clean, including Rankings, Data Library and Learn.
+`validate-data`: 0 errors, 1,725 gaps. Unit tests: 93 passing. Accessibility (axe): 35/35 pages clean, including Rankings, Data Library and Learn.
 
 ## Next steps
 
 1. Finish the 16 remaining officeholder cards (mostly legislature sites that block automated reading).
 2. Find a current official source for Rishikesh–Karnaprayag (Lok Sabha/Rajya Sabha answers, RVNL).
-3. District profiles from the LGD index.
-4. Choropleth data layers on the map; Trip Planner; offline/PWA.
+3. District profiles once a current LGD list and district tables are available.
+4. Offline/PWA; Trip Planner.

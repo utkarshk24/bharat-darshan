@@ -17,11 +17,10 @@ import type { BoundaryManifest, Capital, GeoMapHandle } from "./GeoMap";
 
 // d3 and the boundary renderer load only when the map is about to be seen
 const GeoMap = dynamic(() => import("./GeoMap").then((m) => m.GeoMap), { ssr: false, loading: () => <div className="skeleton h-full w-full" /> });
-import { DATA_THEMES, OVERLAYS, PLANNED, buildScale, fillForTheme, isDataTheme, type Overlay, type ThemeId } from "./layers";
+import { DATA_THEMES, OVERLAYS, PLANNED, buildScale, fillForTheme, type DataTheme, type Overlay, type ThemeId } from "./layers";
 import { exportPng } from "./exportPng";
 
 const ZONES: ZonalCouncil[] = ["northern", "central", "eastern", "western", "southern", "north-eastern", "islands"];
-const THEMES: ThemeId[] = ["zonal", "type", ...DATA_THEMES.map((d) => d.id)];
 const hrefFor = (r: RegionSummary) => (r.type === "state" ? `/states/${r.slug}` : `/uts/${r.slug}`);
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 /** On large screens the info card floats over the map's left side (w-72 + margin). */
@@ -40,13 +39,13 @@ interface Loaded {
 }
 
 /** Read #theme=…&on=labels,capitals&r=IN-MH from the URL (shareable views). */
-function readHash() {
+function readHash(themes: ThemeId[]) {
   if (typeof window === "undefined") return {};
   const p = new URLSearchParams(window.location.hash.slice(1));
   const theme = p.get("theme") as ThemeId | null;
   const on = p.get("on");
   return {
-    theme: theme && THEMES.includes(theme) ? theme : undefined,
+    theme: theme && themes.includes(theme) ? theme : undefined,
     overlays: on !== null ? new Set(on.split(",").filter((o): o is Overlay => OVERLAYS.includes(o as Overlay))) : undefined,
     region: p.get("r") ?? undefined,
   };
@@ -57,13 +56,23 @@ function readHash() {
  * from sourced figures, capitals, search, zoom, share and export. `compact` is the
  * home-page version without the side panel.
  */
-export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[]; compact?: boolean }) {
+export function IndiaMap({ regions, compact = false, extraThemes = [] }: { regions: RegionSummary[]; compact?: boolean; extraThemes?: DataTheme[] }) {
   const t = useTranslations();
   const ta = useTranslations("atlas");
   const locale = useLocale() as Locale;
   const { digits } = usePreferences();
   const dg = useCallback((s: string) => (digits === "devanagari" ? toDevanagariDigits(s) : s), [digits]);
   const mapRef = useRef<GeoMapHandle>(null);
+  const allData = useMemo(() => [...DATA_THEMES, ...extraThemes], [extraThemes]);
+  const THEMES: ThemeId[] = useMemo(() => ["zonal", "type", ...allData.map((d) => d.id)], [allData]);
+  const themeLabel = useCallback(
+    (id: ThemeId) => {
+      const x = allData.find((d) => d.id === id);
+      return x?.label ? pick(x.label, locale) : ta(`theme.${id}`);
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [allData, locale],
+  );
   const wrapRef = useRef<HTMLDivElement>(null);
 
   const [data, setData] = useState<Loaded | null>(null);
@@ -140,12 +149,12 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
   // Restore a shared view
   useEffect(() => {
     if (compact) return;
-    const h = readHash();
+    const h = readHash(THEMES);
     if (h.theme) setTheme(h.theme);
     if (h.overlays) setOverlays(h.overlays);
     if (h.region && regions.some((r) => r.code === h.region)) setSelected(h.region);
     setRestored(true);
-  }, [compact, regions]);
+  }, [compact, regions, THEMES]);
   useEffect(() => {
     if (!data || !selected || compact) return;
     // The renderer is loaded on demand, so wait for it to mount
@@ -171,8 +180,8 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
   }, [theme, overlays, selected, compact, restored]);
 
   const byCode = useMemo(() => new Map(regions.map((r) => [r.code, r])), [regions]);
-  const scale = useMemo(() => (isDataTheme(theme) ? buildScale(regions, theme) : null), [regions, theme]);
-  const dataTheme = isDataTheme(theme) ? DATA_THEMES.find((d) => d.id === theme)! : null;
+  const dataTheme = allData.find((d) => d.id === theme) ?? null;
+  const scale = useMemo(() => (dataTheme ? buildScale(regions, theme) : null), [regions, theme, dataTheme]);
   const fill = useCallback((r: RegionSummary) => fillForTheme(r, theme, scale), [theme, scale]);
 
   const valueText = useCallback(
@@ -189,7 +198,7 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
     (r: RegionSummary) => {
       const kind = r.type === "state" ? t("common.state") : t("common.ut");
       const v = valueText(r);
-      return `${pick(r.name, locale)}, ${kind}${v ? `. ${ta(`theme.${theme}`)}: ${v}` : ""}`;
+      return `${pick(r.name, locale)}, ${kind}${v ? `. ${themeLabel(theme)}: ${v}` : ""}`;
     },
     [locale, t, ta, theme, valueText],
   );
@@ -226,7 +235,7 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
   const doExport = async () => {
     const svg = mapRef.current?.svg();
     if (!svg) return;
-    const title = `${ta("exportTitle")} — ${ta(`theme.${theme}`)}`;
+    const title = `${ta("exportTitle")} — ${themeLabel(theme)}`;
     await exportPng(svg, { title, attribution: ta("attributionShort"), filename: `bharat-darshan-${theme}.png`, period: scale?.period ? formatPeriod(scale.period, locale) : null });
     setStatus(ta("exported"));
   };
@@ -267,7 +276,7 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
       {dataTheme && scale && (
         <div className="flex flex-col gap-1.5">
           <p className="font-medium">
-            {ta(`theme.${dataTheme.id}`)}
+            {themeLabel(dataTheme.id)}
             {scale.period && <span className="font-normal text-muted"> · {dg(formatPeriod(scale.period, locale))}</span>}
           </p>
           <ol className="flex flex-wrap gap-x-3 gap-y-1">
@@ -303,12 +312,18 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
   const themePicker = (
     <fieldset className="flex flex-col gap-1">
       <legend className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted">{ta("colourBy")}</legend>
-      {THEMES.map((id) => (
-        <label key={id} className={cn("flex cursor-pointer items-center gap-2 rounded-md px-2 py-1 text-sm", theme === id ? "bg-surface-2 font-semibold" : "hover:bg-surface-2")}>
-          <input type="radio" name="bd-theme" value={id} checked={theme === id} onChange={() => setTheme(id)} className="accent-[var(--focus)]" />
-          {ta(`theme.${id}`)}
-        </label>
-      ))}
+      {THEMES.map((id) => {
+        const first = extraThemes.length > 0 && id === extraThemes[0].id;
+        return (
+          <div key={id}>
+            {first && <p className="mb-1 mt-2 text-xs font-semibold uppercase tracking-wide text-muted">{ta("moreIndicators")}</p>}
+            <label className={cn("flex cursor-pointer items-center gap-2 rounded-md px-2 py-1 text-sm", theme === id ? "bg-surface-2 font-semibold" : "hover:bg-surface-2")}>
+              <input type="radio" name="bd-theme" value={id} checked={theme === id} onChange={() => setTheme(id)} className="accent-[var(--focus)]" />
+              {themeLabel(id)}
+            </label>
+          </div>
+        );
+      })}
     </fieldset>
   );
 
@@ -356,7 +371,7 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
       <p>{t("common.capital")}: {sel.capitals.map((c) => pick(c.name, locale)).join(" / ")}</p>
       {dataTheme && (
         <div className="rounded-lg bg-surface-2 p-2">
-          <p className="text-xs text-muted">{ta(`theme.${dataTheme.id}`)}</p>
+          <p className="text-xs text-muted">{themeLabel(dataTheme.id)}</p>
           <p className="font-semibold">{valueText(sel)}</p>
           {sel.mapMetrics[dataTheme.id] && (
             <p className="text-xs text-muted">
@@ -391,13 +406,13 @@ export function IndiaMap({ regions, compact = false }: { regions: RegionSummary[
   const table = (
     <div className="overflow-x-auto rounded-2xl border border-border">
       <table className="w-full text-left text-sm">
-        <caption className="sr-only">{ta("tableCaption", { theme: ta(`theme.${theme}`) })}</caption>
+        <caption className="sr-only">{ta("tableCaption", { theme: themeLabel(theme) })}</caption>
         <thead className="bg-surface-2">
           <tr>
             <th scope="col" className="px-3 py-2">{ta("colRegion")}</th>
             <th scope="col" className="px-3 py-2">{ta("colType")}</th>
             <th scope="col" className="px-3 py-2">{t("common.capital")}</th>
-            <th scope="col" className="px-3 py-2">{dataTheme ? ta(`theme.${theme}`) : t("common.region")}</th>
+            <th scope="col" className="px-3 py-2">{dataTheme ? themeLabel(theme) : t("common.region")}</th>
           </tr>
         </thead>
         <tbody>

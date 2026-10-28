@@ -32,7 +32,13 @@ export default async function Page({ params }: { params: Promise<{ locale: Local
       <p className="mb-6 rounded-xl border border-dashed border-border bg-surface p-4 text-sm text-muted">
         {t("coverage", { regions, total: all.length })}
       </p>
-      <GIDirectory items={all} nameMap={getRegionNameMap()} />
+      <GIDirectory
+        items={all.map(({ product: p, region: r }) => ({
+          product: { id: p.id, name: p.name, categories: p.categories, sharedWith: p.sharedWith, applicationNo: p.applicationNo, filingDate: p.filingDate },
+          region: { code: r.code, name: r.name, href: r.href, accent: r.accent },
+        }))}
+        nameMap={getRegionNameMap()}
+      />
       <p className="mt-4 text-xs text-muted">{t("filingNote")}</p>
       <div className="mt-10">
         <Disclaimer />

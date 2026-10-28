@@ -55,6 +55,8 @@ export interface RegionSummary {
   mapMetrics: Partial<Record<MapMetric, DataPoint>>;
 }
 
+const slimOffice = (o: Officeholder | null): Officeholder | null => (o ? { ...o, note: undefined, verifyUrl: null } : null);
+
 export function summarize(r: Region): RegionSummary {
   const pop = r.metrics.population2011 ?? null;
   const gsdp = r.metrics.gsdpCurrent ?? null;
@@ -83,8 +85,9 @@ export function summarize(r: Region): RegionSummary {
     governanceModel: r.governanceModel,
     population2011: pop,
     gsdpCurrent: gsdp,
-    headOfState: r.government.headOfState,
-    headOfGovernment: r.government.headOfGovernment,
+    // Cards and the map show only the role and name; the long provenance notes stay on the profile page.
+    headOfState: slimOffice(r.government.headOfState),
+    headOfGovernment: slimOffice(r.government.headOfGovernment),
     sourceLabels: labels,
     mapMetrics,
   };

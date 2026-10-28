@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Award, Search } from "lucide-react";
 import type { Locale } from "@/i18n/routing";
@@ -11,10 +11,16 @@ import { cn } from "@/lib/cn";
 import { Link } from "@/i18n/navigation";
 import { Digits } from "../Num";
 
+/** Only what the list shows; the full record (source, notes) is on each product's own page. */
+export type GIProductLite = Pick<GIProduct, "id" | "name" | "categories" | "sharedWith" | "applicationNo" | "filingDate">;
+
 export interface GIItem {
-  product: GIProduct;
+  product: GIProductLite;
   region: { code: string; name: Localized; href: string; accent: string };
 }
+
+/** Cards rendered at first; the rest on request, which keeps the page light on phones. */
+const PAGE = 60;
 
 const CATS: GIProduct["categories"][number][] = ["agricultural", "handicraft", "textile", "foodstuff", "manufactured", "natural"];
 
@@ -26,6 +32,9 @@ export function GIDirectory({ items, nameMap }: { items: GIItem[]; nameMap: Reco
   const [cat, setCat] = useState<string | null>(null);
   const [reg, setReg] = useState<string | null>(null);
   const [sort, setSort] = useState<"name" | "date">("name");
+  const [limit, setLimit] = useState(PAGE);
+  // A new search or filter starts again from the first page of results.
+  useEffect(() => setLimit(PAGE), [q, cat, reg, sort]);
 
   const index = useMemo(
     () =>
@@ -120,7 +129,7 @@ export function GIDirectory({ items, nameMap }: { items: GIItem[]; nameMap: Reco
         <p className="rounded-xl border border-dashed border-border bg-surface p-6 text-muted">{t("gi.none")}</p>
       ) : (
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {shown.map(({ product: p, region }) => (
+          {shown.slice(0, limit).map(({ product: p, region }) => (
             <li key={`${region.code}-${p.id}`}>
               <Link
                 href={`/gi/${p.id}`}
@@ -144,6 +153,15 @@ export function GIDirectory({ items, nameMap }: { items: GIItem[]; nameMap: Reco
             </li>
           ))}
         </ul>
+      )}
+      {shown.length > limit && (
+        <button
+          type="button"
+          onClick={() => setLimit(shown.length)}
+          className="mx-auto rounded-md border border-border px-4 py-2 text-sm font-semibold hover:bg-surface-2"
+        >
+          <Digits>{t("gi.showAll", { n: shown.length })}</Digits>
+        </button>
       )}
     </div>
   );

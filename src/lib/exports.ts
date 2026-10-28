@@ -177,12 +177,20 @@ function sourcesCsv() {
 
 const json = (v: unknown) => JSON.stringify(v, null, 1) + "\n";
 
+/** Licence for Bharat Darshan's compilation (DATA-LICENSE.md); underlying figures stay under their publishers' terms. */
+export const LICENSE = {
+  name: "CC BY 4.0",
+  url: "https://creativecommons.org/licenses/by/4.0/",
+  attribution: "Bharat Darshan (https://utkarshk24.github.io/bharat-darshan/), CC BY 4.0",
+  note: "Covers the compilation, structure, translations and notes. Each figure remains under its publisher's terms; cite the source given with it.",
+};
+
 /** The full record for one region: the region file plus every authored profile module. */
 export function profileJson(code: string): string | null {
   const r = getRegions().find((x) => x.code === code);
   if (!r) return null;
   const modules = Object.fromEntries(getAuthoredModules(code).map((m) => [m, getModule(code, m)]));
-  return json({ generated: getDataAsOn(), region: r, modules });
+  return json({ generated: getDataAsOn(), license: LICENSE, region: r, modules });
 }
 
 export interface DownloadFile {

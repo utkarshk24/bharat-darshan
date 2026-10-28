@@ -32,6 +32,7 @@ describe("Data Library downloads", () => {
     expect(codes).toHaveLength(36);
     const mh = JSON.parse(profileJson("IN-MH")!);
     expect(mh.region.code).toBe("IN-MH");
+    expect(mh.license.name).toBe("CC BY 4.0");
     expect(Object.keys(mh.modules).length).toBeGreaterThan(20);
   });
 });

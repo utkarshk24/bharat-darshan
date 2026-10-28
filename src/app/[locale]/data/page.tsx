@@ -90,7 +90,12 @@ export default async function Page({ params }: { params: Promise<{ locale: Local
           <li>{t("useColumns")}</li>
           <li>{t("useLanguages")}</li>
           <li>{t("useCite")}</li>
-          <li>{t("useTerms")}</li>
+          <li>
+            {t("useTerms")}{" "}
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer license">
+              {t("licenseLink")}
+            </a>
+          </li>
         </ul>
       </section>
 

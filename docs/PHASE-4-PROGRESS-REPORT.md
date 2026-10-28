@@ -16,7 +16,7 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 - Nine bulk files under `/downloads/`: `indicators.csv/json`, `region-metrics.csv`, `regions.csv`, `officeholders.csv`, `gi-products.csv`, `projects.csv`, `sources.csv`, `glossary.json`.
 - One complete JSON profile per region under `/downloads/profiles/IN-XX.json` (region record plus all 26 sections).
 - Every row keeps source, period, access date, revision status and confidence; a missing value has status `not_available`. Tests: `tests/exports.test.ts`.
-- **Open decision:** reuse terms (licence) for Bharat Darshan's own compilation. The page currently asks users to cite the original publisher in each row.
+- Licence (decided 28 Oct): Bharat Darshan's compilation is CC BY 4.0 (`DATA-LICENSE.md`); each figure stays under its publisher's terms. Profile JSON files carry a `license` block.
 
 ## 3. Search
 
@@ -57,6 +57,11 @@ Phase 4 started from the three quick wins in the competitive analysis (`docs/COM
 
 - The atlas (`/map`) can now colour States and UTs by 12 more comparison indicators (GSDP and growth, unemployment, women's labour-force participation, higher-education GER, stunting, institutional births, child and maternal mortality, urbanisation, child sex ratio), each for one period with its source in the side panel. Added on `/map` only, so the home page stays light. Tests: `tests/maplayers.test.ts`.
 - District profiles are on hold (user decision, 28 Oct): they need a current LGD district list and district tables that cannot be downloaded from this environment; the Dec 2023 boundary file still carries pre-rename names (e.g. Ahmednagar, Aurangabad).
+
+## 10. Maintenance (28 Oct)
+
+- Next.js upgraded 16.4.0 → 16.4.3 for a published security advisory (same-major patch, in the main checkout as chosen).
+- GitHub label `correction` created, so correction reports from the site are tagged automatically.
 
 ## Checks
 
